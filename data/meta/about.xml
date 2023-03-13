@@ -1,0 +1,26 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">Über das Projekt</title>
+              <title type="sub">Die Entstehung des Bundes‐Verfassungsgesetzes 1920</title>
+           </titleStmt>
+           <publicationStmt>
+              <p>Publication Information</p>
+           </publicationStmt>
+           <sourceDesc>
+              <p>Information about the source</p>
+           </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <p>
+               Das österreichische Bundes-Verfassungsgesetz (B-VG 1920) gilt als die älteste noch bestehende republikanische Verfassung Europas. Sie ist seit 1920 in Kraft (ausgenommen die Jahre 1934 bis 1945) und zeigt, trotz zahlreicher Änderungen, in ihrem Aufbau und den wesentlichen Verfügungen immer noch die Handschrift des Juristen und Rechtsphilosophen Hans Kelsen (1881–1973).
+               
+               Das DFG/FWF-Projekt „Die Entstehung des Bundes‐Verfassungsgesetzes 1920“ ist ein gemeinsames Vorhaben des Instituts für Rechts- und Verfassungsgeschichte der Universität Wien (Univ.-Prof. Dr. Thomas Olechowski), des Instituts für Staatswissenschaft und Rechtsphilosophie der Universität Freiburg i.Br. (PD Dr. Jörg Kammerhofer) und des Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) (Univ.-Prof. Dr. Alexandra N. Lenz) der Österreichischen Akademie der Wissenschaften (ÖAW). Ziel des internationalen sowie interdisziplinären Projekts ist es, die Genese der Bundesverfassung auf der Grundlage der wichtigsten Quellen und Texte der Jahre 1919 und 1920 nachzuzeichnen. Diese Materialien werden digitalisiert, transkribiert und sowohl textkritisch als auch rechtshistorisch kommentiert. Die Quellen werden bereits während der Projektlaufzeit im Zuge der sukzessiven Erschließung der Öffentlichkeit zugänglich gemacht.
+           </p>
+        </body>
+    </text>
+  </TEI>
+  
