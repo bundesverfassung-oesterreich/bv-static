@@ -14,11 +14,11 @@ jobs:
       uses: actions/checkout@v3
     - name: Install Saxon, Ant and Fundament
       run: |
-        apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
-    - name: scripts
+        apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend 
+        ./scripts/run_dl_scripts.sh
+    - name: fetch data
       run: | 
         ./scripts/fetch_editions.sh
-        ./scripts/run_dl_scripts.sh
     - name: Build
       run: |
         ant
