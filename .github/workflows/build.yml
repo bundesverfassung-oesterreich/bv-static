@@ -11,10 +11,12 @@ jobs:
       ANT_OPTS: -Xmx5g
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Install Saxon, Ant and Fundament
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+    - name: scripts
+      run: | 
         ./scripts/fetch_editions.sh
         ./scripts/run_dl_scripts.sh
     - name: Build
