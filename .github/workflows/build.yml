@@ -15,7 +15,11 @@ jobs:
     - name: Install Saxon, Ant and Fundament
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+    - name: Fetch new data
+      run: |
         ./scripts/fetch_editions.sh
+    - name: Run dl scripts
+      run: |
         ./scripts/run_dl_scripts.sh
     - name: Build
       run: |
