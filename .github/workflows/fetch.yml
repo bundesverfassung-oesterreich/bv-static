@@ -1,0 +1,15 @@
+name: Fetch data from working-data
+on:
+  workflow_dispatch
+jobs:
+  fetch_data:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v3
+    - name: fetch
+      run: |
+        ./scripts/fetch_editions.sh
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: fetched new data from working-data
