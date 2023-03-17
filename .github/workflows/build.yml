@@ -19,6 +19,9 @@ jobs:
     - name: fetch data
       run: | 
         ./scripts/fetch_editions.sh
+    - name: add atrib
+      run: |
+        ./scripts/add_atrib.sh
     - name: Build
       run: |
         ant
