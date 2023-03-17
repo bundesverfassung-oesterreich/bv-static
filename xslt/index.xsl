@@ -26,7 +26,7 @@
                                 <div class="intro_left">
                                     <h1><xsl:value-of select="$project_short_title"/></h1>
                                     <h3><xsl:value-of select="$project_title"/></h3>
-                                    <a href="bv-doc-id-1.html" title="Kelsen, Entwurf I">
+                                    <a href="bv_doc_id__1.html" title="Kelsen, Entwurf I">
                                         <button class="btn btn-secondary" role="button" style="width: 250px;">
                                             Kelsen, Entwurf I
                                         </button>
