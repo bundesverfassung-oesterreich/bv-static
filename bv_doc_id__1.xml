@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__1.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__1.xml" xml:base="https://bundesverfassung-oesterreich.github.io/bv-static" next="https://bundesverfassung-oesterreich.github.io/bv-static/bv_doc_id__2.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
