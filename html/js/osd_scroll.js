@@ -22,7 +22,7 @@ height is always the screen height minus some offset
 if (!wrapper.classList.contains("fade")) {
     //facs_container.style.height = `${String(height / 1,5)}px`;
     var wrapper_navbar_height = document.getElementById("wrapper-navbar").offsetHeight;
-    facs_container.style.height = `${String(height-wrapper_navbar_height-(height/10))}px`;
+    facs_container.style.height = `${String(height-wrapper_navbar_height-(height/8))}px`;
     // set osd wrapper container width
     var section_container = document.getElementById("section");
     if (section_container !== null) {
