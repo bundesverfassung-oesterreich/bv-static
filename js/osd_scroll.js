@@ -8,7 +8,7 @@ get container wrapper of osd viewer
 // var container = document.getElementById("container_facs_2");
 // container.style.display = "none";
 var height = screen.height;
-var container = document.getElementById("container_facs_1");
+var facs_container = document.getElementById("container_facs_1");
 var wrapper = document.getElementsByClassName("facsimiles")[0];
 
 /*
@@ -20,23 +20,25 @@ height is always the screen height minus some offset
 ##################################################################
 */
 if (!wrapper.classList.contains("fade")) {
-    container.style.height = `${String(height / 2)}px`;
+    //facs_container.style.height = `${String(height / 1,5)}px`;
+    var wrapper_navbar_height = document.getElementById("wrapper-navbar").offsetHeight;
+    facs_container.style.height = `${String(height-wrapper_navbar_height-(height/10))}px`;
     // set osd wrapper container width
-    var container = document.getElementById("section");
-    if (container !== null) {
-        var width = container.clientWidth;
+    var section_container = document.getElementById("section");
+    if (section_container !== null) {
+        var width = section_container.clientWidth;
     }
-    var container = document.getElementById("viewer");
-    container.style.width = `${String(width - 25)}px`;
+    var viewer_container = document.getElementById("viewer");
+    viewer_container.style.width = `${String(width - 25)}px`;
 } else {
-    container.style.height = `${String(height / 2)}px`;
+    facs_container.style.height = `${String(height / 2)}px`;
     // set osd wrapper container width
-    var container = document.getElementById("section");
-    if (container !== null) {
-        var width = container.clientWidth;
+    var section_container = document.getElementById("section");
+    if (section_container !== null) {
+        var width = section_container.clientWidth;
     }
-    var container = document.getElementById("viewer");
-    container.style.width = `${String(width / 2)}px`;
+    var viewer_container = document.getElementById("viewer");
+    viewer_container.style.width = `${String(width / 2)}px`;
 }
 
 /*
