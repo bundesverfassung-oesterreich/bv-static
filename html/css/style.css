@@ -106,6 +106,10 @@ a {
     max-width: 1200px;
 }
 
+.container-fluid-full-width {
+    width: 100%;
+}
+
 .italic {
     font-style: italic;
 }
@@ -127,6 +131,7 @@ a {
     position: sticky;
     top: 10%;
     padding: 2em;
+    padding-top: 0;
 }
 
 .entity {
