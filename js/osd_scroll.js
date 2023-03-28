@@ -29,8 +29,7 @@ if (!wrapper.classList.contains("fade")) {
         var width = section_container.clientWidth;
     }
     var viewer_container = document.getElementById("viewer");
-    //viewer_container.style.width = `${String(width - 25)}px`;
-    viewer_container.style.width = "auto";
+    viewer_container.style.width = `${String(width - 25)}px`;
 } else {
     facs_container.style.height = `${String(height / 2)}px`;
     // set osd wrapper container width
