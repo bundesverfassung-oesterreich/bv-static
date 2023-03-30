@@ -176,7 +176,9 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:head">
-        <h3>
+        <xsl:variable name="head_level_number" select="count(ancestor::tei:div[ancestor::tei:body])"/>
+        <xsl:variable name="head_name" select="concat('h', $head_level_number)"/>
+        <xsl:element name="{$head_name}">
             <xsl:attribute name="class">
                 <xsl:value-of select="concat('head_', ancestor::tei:div[1]/@ana)"/>
             </xsl:attribute>
@@ -195,7 +197,7 @@
                 </xsl:choose>
             </xsl:if>
             <xsl:apply-templates/>
-        <h3>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:ab">
         <p><xsl:apply-templates/></p>
