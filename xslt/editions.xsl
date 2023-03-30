@@ -194,7 +194,7 @@
                             <xsl:value-of select="ancestor::tei:div[1]/@ana"/>
                         </xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="section"/><xsl:number count="tei:div[@ana='section' or @ana='sub_section' or @ana='sub_sub_section']" level="any"/>
+                            <xsl:value-of select="'section_'"/><xsl:number count="tei:div[@ana='section' or @ana='sub_section' or @ana='sub_sub_section']" level="any"/>
                         </xsl:attribute>
                     </xsl:when>
                 </xsl:choose>
