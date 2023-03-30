@@ -179,19 +179,22 @@
         <xsl:variable name="head_level_number" select="count(ancestor::tei:div[ancestor::tei:body])"/>
         <xsl:variable name="head_name" select="concat('h', $head_level_number)"/>
         <xsl:element name="{$head_name}">
-            <xsl:attribute name="class">
-                <xsl:value-of select="concat('head_', ancestor::tei:div[1]/@ana)"/>
-            </xsl:attribute>
             <xsl:if test="not(preceding-sibling::tei:head)">
                 <xsl:choose>
                     <xsl:when test="ancestor::tei:div[1][@ana='article']">
                         <xsl:attribute name="id">
-                            <xsl:value-of select="'article-head-'"/><xsl:number count="tei:div[@ana='section']|tei:div[@ana='sub_section']|tei:div[@ana='sub_sub_section']" level="multiple"/><xsl:number count="tei:div[@ana='article']" format=".1" level="any"/>
+                            <xsl:value-of select="'article_'"/><xsl:number count="tei:div[@ana='article']" format="1" level="any"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="class">
+                            <xsl:value-of select="'article'"/>
                         </xsl:attribute>
                     </xsl:when>
                     <xsl:when test="ancestor::tei:div[1][contains(@ana, 'section')]">
+                        <xsl:attribute name="class">
+                            <xsl:value-of select="ancestor::tei:div[1]/@ana"/>
+                        </xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="'secection-head-'"/><xsl:number count="tei:div[@ana='section']|tei:div[@ana='sub_section']|tei:div[@ana='sub_sub_section']" level="multiple"/>
+                            <xsl:value-of select="section"/><xsl:number count="tei:div[@ana='section' or @ana='sub_section' or @ana='sub_sub_section']" level="any"/>
                         </xsl:attribute>
                     </xsl:when>
                 </xsl:choose>
