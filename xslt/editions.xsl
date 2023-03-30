@@ -175,12 +175,30 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+    <xsl:template match="tei:head">
+        <xsl:copy>
+            <xsl:attribute name="class">
+                <xsl:value-of select="concat('head_', ancestor::tei:div[1]/@ana)"/>
+            </xsl:attribute>
+            <xsl:if test="not(preceding-sibling::tei:head)">
+                <xsl:choose>
+                    <xsl:when test="ancestor::tei:div[1][@ana='article']">
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="'article-head-'"/><xsl:number count="tei:div[@ana='section']|tei:div[@ana='sub_section']|tei:div[@ana='sub_sub_section']" level="multiple"/><xsl:number count="tei:div[@ana='article']" format=".1" level="any"/>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when test="ancestor::tei:div[1][contains(@ana, 'section')]">
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="'secection-head-'"/><xsl:number count="tei:div[@ana='section']|tei:div[@ana='sub_section']|tei:div[@ana='sub_sub_section']" level="multiple"/>
+                        </xsl:attribute>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template>
     <xsl:template match="tei:ab">
         <p><xsl:apply-templates/></p>
-    </xsl:template>
-    <xsl:template match="tei:head">
-        <h3><xsl:apply-templates/></h3>
     </xsl:template>
     <xsl:template match="tei:pb">
         <xsl:variable name="pbId">
