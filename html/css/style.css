@@ -84,17 +84,26 @@ body {
     font-size: 100%;
 }
 
-p + .article {
-    padding-top: 2rem;
-}
-
 .section {
     font-size: 1.5rem;
     padding-bottom: 3rem;
 }
 
+.section, .sub_section {
+    font-size: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+
+p + .article {
+    padding-top: 2rem;
+}
+
 p + .section {
     padding-top: 6rem;
+}
+
+p + .sub_section {
+    padding-top: 3rem;
 }
 
 p {
