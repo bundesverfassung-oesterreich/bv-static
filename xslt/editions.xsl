@@ -175,6 +175,20 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
+<!-- delete empty p/hi/div elements-->
+ <xsl:template match=
+    "*[
+        (
+            local-name()='p'
+            or local-name()='hi'
+            or local-name()='div'
+        )
+        and 
+            not(@*|*|comment()|processing-instruction())
+        and normalize-space()='']"
+/>
+
     <xsl:template match="tei:head">
         <xsl:variable name="head_level_number" select="count(ancestor::tei:div[ancestor::tei:body])"/>
         <xsl:variable name="head_name" select="concat('h', $head_level_number)"/>
