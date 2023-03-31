@@ -75,6 +75,28 @@ body {
     overflow-x: hidden;
 }
 
+/* headings */
+.article, .section, .sub_section {
+    font-weight: bold;
+}
+
+.article {
+    font-size: 100%;
+}
+
+p + .article {
+    padding-top: 2rem;
+}
+
+.section {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+p + .section {
+    padding-top: 6rem;
+}
+
 p {
     display: block;
     padding: 0;
