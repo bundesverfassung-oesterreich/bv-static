@@ -12,6 +12,8 @@
     <xsl:import href="partials/osd-container.xsl"/>
     <xsl:import href="partials/tei-facsimile.xsl"/>
     <xsl:import href="partials/aot-options.xsl"/>
+    <xsl:import href="partials/chapters.xsl"/>
+    <xsl:import href="partials/edition.xsl"/>
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
@@ -83,10 +85,11 @@
                                         </xsl:if>
                                     </div>
                                 </div>
-                                <div id="editor-widget">
-                                    <p>Text Editor</p>
-                                    <xsl:call-template name="annotation-options"></xsl:call-template>
-                                </div>
+                                    <div id="editor-widget">
+                                        <xsl:call-template name="editions"></xsl:call-template>
+                                        <xsl:call-template name="chapters"></xsl:call-template>
+                                        <xsl:call-template name="annotation-options"></xsl:call-template>
+                                    </div>
                             </div>
                             <div id="container-resize" class="row transcript active">
                                 <div id="img-resize" class="col-md-6 facsimiles">
