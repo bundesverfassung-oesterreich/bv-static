@@ -2,4 +2,3 @@
 
 
 * build with [DSE-Static-Cookiecutter](https://github.com/acdh-oeaw/dse-static-cookiecutter)
-* current state [here](https://bundesverfassung-oesterreich.github.io/bv-static/)
