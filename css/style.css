@@ -24,6 +24,11 @@ a {
     background-color: #88dbdf;
 }
 
+#chapter-navBarNavDropdown > a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 cite {
     font-style: normal;
 }
@@ -236,8 +241,25 @@ a.anchorFoot {
     text-align: center;
 }
 
+.dropdown-menu {
+    height: fit-content !important;
+    max-height: 800px !important;
+    overflow-x: hidden !important;
+}
+
+.article::before {
+    content: '';
+    display: block;
+    height: 22px;
+    margin-top: -22px;
+}
+
 .fas {
     color: #88dbdf;
+}
+
+.bi {
+    color: #fff;
 }
 
 #text-resize {
@@ -250,7 +272,7 @@ a.anchorFoot {
 }
 
 .navBarNavDropdown ul li {
-    margin: .5em auto;
+    margin: .1em auto;
 }
 
 #staticSearch {
