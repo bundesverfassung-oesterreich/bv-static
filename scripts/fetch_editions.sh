@@ -11,7 +11,7 @@ mkdir $temp_path
 wget https://github.com/bundesverfassung-oesterreich/bv-working-data/archive/refs/heads/main.zip -O $zip_file
 unzip $zip_file -d $temp_path
 # # check for target dir
-if [ ! -d "$fetched_editions_path" ]; then mkdir "$fetched_editions_path"; fi
+if [ ! -d "$target_editions_path" ]; then mkdir "$target_editions_path"; fi
 find $fetched_editions_path -name "*.xml" -exec cp "{}" "$target_editions_path" \;
 # # remove temp folder
 rm -rf $temp_path
