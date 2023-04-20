@@ -55,7 +55,7 @@
                     <msIdentifier>
                         <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
                         <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                        <idno type="archive"/>
+                        <idno type="archive">AdR, Büro Seitz, Karton 7</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
