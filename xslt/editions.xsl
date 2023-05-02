@@ -94,7 +94,7 @@
                             <div id="container-resize" class="row transcript active">
                                 <div id="img-resize" class="col-md-6 facsimiles">
                                     <div id="viewer">
-                                        <p>Alle Rechte an Bildern und Abbildungen liegen beim ÖStA (Signatur: <xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>)</p>
+                                        <p>Das Original befindet sich im Eigentum des Österreichischen Staatsarchivs unter der ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>)“. Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des ÖStA entsprechend der geltenden Benutzungsordnung.</p>
                                         <div id="container_facs_1">
                                             <!-- container and facs handling in js -->
                                         </div>
