@@ -8,7 +8,7 @@
     
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
-    <xsl:import href="partials/html_footer.xsl"/>
+    <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Volltextsuche'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -17,19 +17,39 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
+                <link rel="stylesheet" type="text/css" href="css/ts_search.css"/>
             </head>
+            
             
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
-                        <div class="card">
-                            <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
-                            </div>
-                            <div class="card-body">
-                                <div id="staticSearch"/>                            
+                        <div class="search-panel">
+                            <div class="search-panel__results">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div id="stats-container"></div>
+                                        <h4>Volltextsuche</h4>
+                                        <div id="searchbox"></div>
+                                        <div id="clear-refinements"></div>
+                                        <h4>Personen</h4>
+                                        <div id="refinement-list-persons"></div>
+                                        <h4>Orte</h4>
+                                        <div id="refinement-list-places"></div>
+                                        <h4>Werke</h4>
+                                        <div id="refinement-list-works"></div>
+                                        <h4>Jahr</h4>
+                                        <div id="range-input"></div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div id="sort-by"></div>
+                                        <div id="current-refinements"></div>
+                                        <div id="pagination"></div>
+                                        <div id="hits"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -38,6 +58,12 @@
                     
                 </div>
             </body>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"/>
+            <link rel="stylesheet" href="css/ts_search.css"/>
+            <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.44.0"></script>
+            <script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script>
+            <script src="js/ts_search.js"></script>
+            <script src="js/ts_update_url.js"></script>
         </html>
     </xsl:template>
 </xsl:stylesheet>

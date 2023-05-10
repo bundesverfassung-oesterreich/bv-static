@@ -37,7 +37,9 @@ def setup_collection():
     print(f"created collection '{typesense_collection_name}'")
 
 
-def create_record(head, creation_date, doc_title, bv_doc_id, authors, file_name):
+def create_record(
+    head, creation_date, doc_title, bv_doc_id, authors, file_name
+):
     record = {}
     # # cfts_record = {"project": typesense_collection_name}
     content_elements = [head]
@@ -124,9 +126,6 @@ def upload_records(records):
 if __name__ == "__main__":
     records = create_records()
     result = upload_records(records)
-    errors = [x for x in result if x != '"{\\"success\\":true}"']
-    if errors:
-        print("Errors while creating ts-collection, this will affect the search.")
-        print("/n".join(errors))
+
 # # search_ps = {'q': 'Test', 'query_by': 'full_text'}
 # # example_request = client.collections[typesense_collection_name].documents.search(search_ps)
