@@ -8,7 +8,10 @@ from tqdm import tqdm
 
 page_base_url = "https://bundesverfassung-oesterreich.github.io/bv-static/"
 typesense_collection_name = "bundes_verfassung_oesterreich"
-html_path = "../html/*"
+html_path = "./html/*"
+
+if not os.path.exists(html_path):
+    print(f"\nhtml dir {html_path} not found!")
 
 
 def setup_collection():
@@ -25,6 +28,7 @@ def setup_collection():
             {"name": "record_id", "type": "string"},
             {"name": "anker_link", "type": "string"},
             {"name": "material_doc_type", "type": "string", "facet": True},
+            {"name": "doc_content_type", "type": "string", "facet": True},
             {
                 "name": "year",
                 "type": "int32",
@@ -117,7 +121,10 @@ def create_records():
             )
         except IndexError:
             material_doc_type = "unbekannt"
-        doc_content_type = xml_doc.any_xpath("//tei:text/@type")
+        try:
+            doc_content_type = xml_doc.any_xpath("//tei:text/@type")[0]
+        except IndexError:
+            doc_content_type = ""
         doc = TeiReader(html_filepath)
         doc.ns_tei = {"tei": "http://www.w3.org/1999/xhtml"}
         doc_title = doc.any_xpath("/tei:html/tei:head/tei:title")[0].text
@@ -138,19 +145,22 @@ def create_records():
                 authors,
                 file_name,
                 material_doc_type,
-                doc_content_type
+                doc_content_type,
             )
             records.append(record)
     return records
 
 
 def upload_records(records):
+    print(f"uploading '{len(records)}' records")
     setup_collection()
     print(f"uploading to {typesense_collection_name}")
     make_index = client.collections[typesense_collection_name].documents.import_(
         records, {"action": "upsert"}
     )
-    errors = [msg for msg in make_index if msg != '"{\\"success\\":true}"']
+    errors = [
+        msg for msg in make_index if (msg != '"{\\"success\\":true}"' and msg != '""')
+    ]
     if errors:
         for err in errors:
             print(err)
@@ -163,9 +173,6 @@ def upload_records(records):
 if __name__ == "__main__":
     records = create_records()
     result = upload_records(records)
-    errors = [x for x in result if x != '"{\\"success\\":true}"']
-    if errors:
-        print("Errors while creating ts-collection, this will affect the search.")
-        print("/n".join(errors))
+
 # # search_ps = {'q': 'Test', 'query_by': 'full_text'}
 # # example_request = client.collections[typesense_collection_name].documents.search(search_ps)
