@@ -16,9 +16,15 @@ def setup_collection():
     current_schema = {
         "name": typesense_collection_name,
         "fields": [
-            {"name": "bv_id", "type": "string"},
+            {"name": "doc_internal_orderval", "type": "int32"},
+            {"name": "record_type", "type": "string"},
+            # article, section, or doc
+            {"name": "bv_doc_id", "type": "string"},
             {"name": "title", "type": "string"},
             {"name": "full_text", "type": "string"},
+            {"name": "record_id", "type": "string"},
+            {"name": "anker_link", "type": "string"},
+            {"name": "material_doc_type", "type": "string", "facet": True},
             {
                 "name": "year",
                 "type": "int32",
@@ -37,9 +43,7 @@ def setup_collection():
     print(f"created collection '{typesense_collection_name}'")
 
 
-def create_record(head, creation_date, doc_title, bv_doc_id, authors, file_name):
-    record = {}
-    # # cfts_record = {"project": typesense_collection_name}
+def get_full_text(head):
     content_elements = [head]
     nex = head.getnext()
     while nex is not None and nex.xpath("local-name()='p' or local-name()='pb'"):
@@ -48,19 +52,38 @@ def create_record(head, creation_date, doc_title, bv_doc_id, authors, file_name)
     full_text = "\n".join(
         " ".join("".join(el.itertext()).split()) for el in content_elements
     )
-    record["full_text"] = full_text
-    if len(record["full_text"]) > 0:
-        head_id = head.xpath("@id")[0]
-        head_path = f"{file_name}#{head_id}"
-        record["id"] = head_path
-        record["resolver"] = f"{page_base_url}/{head_path}"
-        record["bv_id"] = bv_doc_id
+    return full_text.strip()
+
+
+def create_record(
+    head_index: int,
+    head,
+    creation_date,
+    doc_title,
+    bv_doc_id,
+    authors,
+    file_name,
+    material_doc_type,
+    doc_content_type,
+):
+    record = {}
+    record["full_text"] = get_full_text(head)
+    if record["full_text"]:
+        record["doc_internal_orderval"] = head_index
+        record["record_type"] = "doc" if head_index == 0 else head.attrib["class"]
+        record["bv_doc_id"] = bv_doc_id
         title = doc_title + head.text
         record["title"] = title
+        head_id = head.xpath("@id")[0]
+        head_path = f"{file_name}#{head_id}"
+        record["record_id"] = head_path
+        record["anker_link"] = f"{page_base_url}/{file_name}#{head_id}"
         if authors:
             record["persons"] = authors
         if creation_date:
             record["year"] = int(creation_date)
+        record["material_doc_type"] = material_doc_type
+        record["doc_content_type"] = doc_content_type
     return record
 
 
@@ -76,14 +99,26 @@ def create_records():
         authors = xml_doc.any_xpath(
             "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
         )
-        creation_date = xml_doc.any_xpath(
-            "normalize-space(//tei:profileDesc/tei:creation/tei:date/text()[1])"
-        )
-        creation_start = xml_doc.any_xpath(
-            "normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])"
-        )
+        try:
+            creation_date = xml_doc.any_xpath(
+                "normalize-space(//tei:profileDesc/tei:creation/tei:date/text()[1])"
+            )[0]
+        except IndexError:
+            creation_date = "unbekannt"
+        try:
+            creation_start = xml_doc.any_xpath(
+                "normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])"
+            )[0]
+        except IndexError:
+            creation_start = "unbekannt"
+        try:
+            material_doc_type = (
+                "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form"[0]
+            )
+        except IndexError:
+            material_doc_type = "unbekannt"
+        doc_content_type = xml_doc.any_xpath("//tei:text/@type")
         doc = TeiReader(html_filepath)
-        # # this aint pretty but it’s working:
         doc.ns_tei = {"tei": "http://www.w3.org/1999/xhtml"}
         doc_title = doc.any_xpath("/tei:html/tei:head/tei:title")[0].text
         file_name = os.path.split(html_filepath)[-1]
@@ -91,17 +126,21 @@ def create_records():
         heads = doc.any_xpath(
             "//tei:div[@class='card-body']/*[local-name()='h2' or local-name()='h3' or local-name()='h4']"
         )
-        records += [
-            create_record(
+        head_index = 0
+        for head in heads:
+            head_index += 1
+            record = create_record(
+                head_index,
                 head,
                 creation_date,
                 doc_title,
                 bv_doc_id,
                 authors,
                 file_name,
+                material_doc_type,
+                doc_content_type
             )
-            for head in heads
-        ]
+            records.append(record)
     return records
 
 
