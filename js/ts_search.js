@@ -1,3 +1,4 @@
+var project_collection_name = "bundes_verfassung_oesterreich"
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
     apiKey: "9KuQLxkcSSBjYobV50wKv6KBJFz9DzjO",
@@ -21,7 +22,7 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
 const searchClient = typesenseInstantsearchAdapter.searchClient;
 const search = instantsearch({
   searchClient,
-  indexName: "bundes_verfassung_oesterreich",
+  indexName: project_collection_name,
 });
 
 search.addWidgets([
@@ -182,19 +183,18 @@ search.addWidgets([
     },
   }),
 
-  instantsearch.widgets.sortBy({
-    container: "#sort-by",
-    items: [
-      { label: "Default", value: "bundes_verfassung_oesterreich" },
-      { label: "Jahr (asc)", value: "hsl/sort/date:asc" },
-      { label: "Jahr (desc)", value: "hsl/sort/date:desc" },
-    ],
-  }),
-
   instantsearch.widgets.configure({
     hitsPerPage: 8,
     attributesToSnippet: ["full_text"],
   }),*/
+  instantsearch.widgets.sortBy({
+    container: "#sort-by",
+    items: [
+      { label: "Default", value: `${project_collection_name}/sort/creation_date:asc` },
+      { label: "Jahr (asc)", value: `${project_collection_name}/sort/creation_date:asc` },
+      { label: "Jahr (desc)", value: `${project_collection_name}/sort/creation_date:desc` },
+    ],
+  }),
 ]);
 
 // search.addWidgets([
