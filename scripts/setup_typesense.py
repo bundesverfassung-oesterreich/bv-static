@@ -18,24 +18,22 @@ def setup_collection():
     print(f"setting up collection '{typesense_collection_name}'")
     current_schema = {
         "name": typesense_collection_name,
+        "enable_nested_fields" : False,
+        "default_sorting_field" : "creation_date",
         "fields": [
             {"name": "doc_internal_orderval", "type": "int32"},
             {"name": "record_type", "type": "string"},
-            # article, section, or doc
             {"name": "bv_doc_id", "type": "string"},
+            {"name": "bv_doc_id_num", "type": "int32"},
             {"name": "title", "type": "string"},
             {"name": "full_text", "type": "string"},
             {"name": "record_id", "type": "string"},
             {"name": "anker_link", "type": "string"},
             {"name": "material_doc_type", "type": "string", "facet": True},
             {"name": "doc_content_type", "type": "string", "facet": True},
-            {
-                "name": "year",
-                "type": "int32",
-                "optional": True,
-                "facet": True,
-            },
             {"name": "persons", "type": "string[]", "facet": True, "optional": True},
+            {"name": "creation_date", "type": "int32"},
+            {"name": "creation_date_autopsic", "type": "string", "facet": True}
         ],
     }
     try:
@@ -76,6 +74,7 @@ def create_record(
         record["doc_internal_orderval"] = head_index
         record["record_type"] = "doc" if head_index == 0 else head.attrib["class"]
         record["bv_doc_id"] = bv_doc_id
+        record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])
         title = doc_title + head.text
         record["title"] = title
         head_id = head.xpath("@id")[0]
@@ -85,7 +84,11 @@ def create_record(
         if authors:
             record["persons"] = authors
         if creation_date:
-            record["year"] = int(creation_date)
+            record["creation_date"] = int(creation_date.replace("-", ""))
+            record["creation_date_autopsic"] = creation_date.split("-")[0]
+        else:
+            record["creation_date"] = 99991224
+            record["creation_date_autopsic"] = "unbekannt"
         record["material_doc_type"] = material_doc_type
         record["doc_content_type"] = doc_content_type
     return record
@@ -103,22 +106,9 @@ def create_records():
         authors = xml_doc.any_xpath(
             "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
         )
+        creation_date = xml_doc.any_xpath("normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])")
         try:
-            creation_date = xml_doc.any_xpath(
-                "normalize-space(//tei:profileDesc/tei:creation/tei:date/text()[1])"
-            )[0]
-        except IndexError:
-            creation_date = "unbekannt"
-        try:
-            creation_start = xml_doc.any_xpath(
-                "normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])"
-            )[0]
-        except IndexError:
-            creation_start = "unbekannt"
-        try:
-            material_doc_type = (
-                "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form"[0]
-            )
+            material_doc_type = xml_doc.any_xpath("//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form")[0]
         except IndexError:
             material_doc_type = "unbekannt"
         try:
