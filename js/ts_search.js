@@ -163,7 +163,7 @@ search.addWidgets([
       item: "page-item",
       link: "page-link",
     },
-  }),
+  }),*/
 
   instantsearch.widgets.clearRefinements({
     container: "#clear-refinements",
@@ -186,13 +186,13 @@ search.addWidgets([
   instantsearch.widgets.configure({
     hitsPerPage: 8,
     attributesToSnippet: ["full_text"],
-  }),*/
+  }),
+
   instantsearch.widgets.sortBy({
     container: "#sort-by",
     items: [
-      { label: "Default", value: `${project_collection_name}/sort/creation_date:asc` },
-      { label: "Jahr (asc)", value: `${project_collection_name}/sort/creation_date:asc` },
-      { label: "Jahr (desc)", value: `${project_collection_name}/sort/creation_date:desc` },
+      { label: "Entstehung, aufsteigend", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
+      { label: "Entstehung, absteigend", value: `${project_collection_name}/sort/creation_date:desc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
     ],
   }),
 ]);
