@@ -31,17 +31,21 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div id="stats-container"></div>
-                                        <h4>Volltextsuche</h4>
+                                        <h4>Suche</h4>
                                         <div id="searchbox"></div>
                                         <div id="clear-refinements"></div>
-                                        <h4>Personen</h4>
+                                        <h4>Worin suchen?</h4>
+                                        <div id="text-or-titles"/>
+                                        <h4>Dokumententitel</h4>
+                                        <div id="doc-title-search"/>
+                                        <h4>Beteiligte Personen</h4>
                                         <div id="refinement-list-persons"></div>
-                                        <h4>Orte</h4>
-                                        <div id="refinement-list-places"></div>
-                                        <h4>Werke</h4>
-                                        <div id="refinement-list-works"></div>
-                                        <h4>Jahr</h4>
+                                        <h4>Entstehungsjahr</h4>
                                         <div id="range-input"></div>
+                                        <h4>Dokumenten-Sorte</h4>
+                                        <div id="doc-type"></div>
+                                        <h4>Material</h4>
+                                        <div id="doc-material"></div>
                                     </div>
                                     <div class="col-md-8">
                                         <div id="sort-by"></div>
