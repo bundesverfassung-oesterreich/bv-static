@@ -19,12 +19,13 @@ def setup_collection():
     current_schema = {
         "name": typesense_collection_name,
         "enable_nested_fields" : False,
-        "default_sorting_field" : "creation_date",
+        #"default_sorting_field" : "creation_date:asc",
         "fields": [
             {"name": "doc_internal_orderval", "type": "int32"},
-            {"name": "record_type", "type": "string"},
+            {"name": "record_type", "type": "string", "facet": True},
             {"name": "bv_doc_id", "type": "string"},
             {"name": "bv_doc_id_num", "type": "int32"},
+            {"name": "doc_title", "type": "string", "facet": True},
             {"name": "title", "type": "string"},
             {"name": "full_text", "type": "string"},
             {"name": "record_id", "type": "string"},
@@ -32,6 +33,7 @@ def setup_collection():
             {"name": "material_doc_type", "type": "string", "facet": True},
             {"name": "doc_content_type", "type": "string", "facet": True},
             {"name": "persons", "type": "string[]", "facet": True, "optional": True},
+            {"name": "creation_year", "type": "int32", "facet": True},
             {"name": "creation_date", "type": "int32"},
             {"name": "creation_date_autopsic", "type": "string", "facet": True}
         ],
@@ -46,6 +48,8 @@ def setup_collection():
 
 
 def get_full_text(head):
+    if head is None:
+        return ""
     content_elements = [head]
     nex = head.getnext()
     while nex is not None and nex.xpath("local-name()='p' or local-name()='pb'"):
@@ -61,7 +65,7 @@ def create_record(
     head_index: int,
     head,
     creation_date,
-    doc_title,
+    doc_title: str,
     bv_doc_id,
     authors,
     file_name,
@@ -69,15 +73,22 @@ def create_record(
     doc_content_type,
 ):
     record = {}
-    record["full_text"] = get_full_text(head)
-    if record["full_text"]:
+    full_text = get_full_text(head)
+    if not full_text and head_index == 0:
+        full_text = doc_title
+    if full_text:
+        record["full_text"] = full_text
         record["doc_internal_orderval"] = head_index
-        record["record_type"] = "doc" if head_index == 0 else head.attrib["class"]
+        record["record_type"] = "Dokumententitel" if head_index == 0 else head.attrib["class"]
         record["bv_doc_id"] = bv_doc_id
         record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])
-        title = doc_title + head.text
+        record["doc_title"] = doc_title
+        if head is not None:
+            title = f"{doc_title}: {head.text}"
+        else:
+            title = doc_title
         record["title"] = title
-        head_id = head.xpath("@id")[0]
+        head_id = head.xpath("@id")[0] if head else ""
         head_path = f"{file_name}#{head_id}"
         record["record_id"] = head_path
         record["anker_link"] = f"{page_base_url}/{file_name}#{head_id}"
@@ -86,9 +97,11 @@ def create_record(
         if creation_date:
             record["creation_date"] = int(creation_date.replace("-", ""))
             record["creation_date_autopsic"] = creation_date.split("-")[0]
+            record["creation_year"] = int(record["creation_date_autopsic"])
         else:
             record["creation_date"] = 99991224
             record["creation_date_autopsic"] = "unbekannt"
+            record["creation_year"] = 1900
         record["material_doc_type"] = material_doc_type
         record["doc_content_type"] = doc_content_type
     return record
@@ -124,6 +137,18 @@ def create_records():
             "//tei:div[@class='card-body']/*[local-name()='h2' or local-name()='h3' or local-name()='h4']"
         )
         head_index = 0
+        doc_record = create_record(
+                head_index,
+                None,
+                creation_date,
+                doc_title,
+                bv_doc_id,
+                authors,
+                file_name,
+                material_doc_type,
+                doc_content_type
+            )
+        records.append(doc_record)
         for head in heads:
             head_index += 1
             record = create_record(
@@ -135,7 +160,7 @@ def create_records():
                 authors,
                 file_name,
                 material_doc_type,
-                doc_content_type,
+                doc_content_type
             )
             records.append(record)
     return records
