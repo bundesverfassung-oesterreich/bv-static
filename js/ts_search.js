@@ -51,22 +51,12 @@ search.addWidgets([
                       <span class="badge bg-secondary">{{ . }}</span>
                       {{/persons}}
                   </div>
-                  <div>
-                      {{#works}}
-                      <span class="badge bg-success">{{ . }}</span>
-                      {{/works}}
-                  </div>
-                  <div>
-                      {{#places}}
-                      <span class="badge bg-info">{{ . }}</span>
-                      {{/places}}
-                  </div>
               </div>
           `,
     },
   }),
 
-  /*instantsearch.widgets.pagination({
+  instantsearch.widgets.pagination({
     container: "#pagination",
   }),
 
@@ -91,23 +81,6 @@ search.addWidgets([
   }),
 
   instantsearch.widgets.refinementList({
-    container: "#refinement-list-places",
-    attribute: "places",
-    searchable: true,
-    searchablePlaceholder: "Suchen",
-    cssClasses: {
-      searchableInput: "form-control form-control-sm mb-2 border-light-2",
-      searchableSubmit: "d-none",
-      searchableReset: "d-none",
-      showMore: "btn btn-secondary btn-sm align-content-center",
-      list: "list-unstyled",
-      count: "badge ml-2 badge-info",
-      label: "d-flex align-items-center text-capitalize",
-      checkbox: "mr-2",
-    },
-  }),
-
-  instantsearch.widgets.refinementList({
     container: "#refinement-list-persons",
     attribute: "persons",
     searchable: true,
@@ -125,17 +98,53 @@ search.addWidgets([
   }),
 
   instantsearch.widgets.refinementList({
-    container: "#refinement-list-works",
-    attribute: "works",
+    container: "#doc-type",
+    attribute: "material_doc_type",
+    searchable: false,
+    cssClasses: {
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge ml-2 badge-secondary",
+      label: "d-flex align-items-center text-capitalize",
+      checkbox: "mr-2",
+    },
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: "#text-or-titles",
+    attribute: "record_type",
+    searchable: false,
+    cssClasses: {
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge ml-2 badge-secondary",
+      label: "d-flex align-items-center text-capitalize",
+      checkbox: "mr-2",
+    },
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: "#doc-title-search",
+    attribute: "doc_title",
     searchable: true,
     searchablePlaceholder: "Suchen",
     cssClasses: {
-      searchableInput: "form-control form-control-sm mb-2 border-light-2",
-      searchableSubmit: "d-none",
-      searchableReset: "d-none",
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
-      count: "badge ml-2 badge-success",
+      count: "badge ml-2 badge-secondary",
+      label: "d-flex align-items-center text-capitalize",
+      checkbox: "mr-2",
+    },
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: "#doc-material",
+    attribute: "doc_content_type",
+    searchable: false,
+    cssClasses: {
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge ml-2 badge-secondary",
       label: "d-flex align-items-center text-capitalize",
       checkbox: "mr-2",
     },
@@ -143,7 +152,7 @@ search.addWidgets([
 
   instantsearch.widgets.rangeInput({
     container: "#range-input",
-    attribute: "year",
+    attribute: "creation_year",
     templates: {
       separatorText: "to",
       submitText: "Suchen",
@@ -163,7 +172,7 @@ search.addWidgets([
       item: "page-item",
       link: "page-link",
     },
-  }),*/
+  }),
 
   instantsearch.widgets.clearRefinements({
     container: "#clear-refinements",
@@ -186,21 +195,20 @@ search.addWidgets([
   instantsearch.widgets.configure({
     hitsPerPage: 8,
     attributesToSnippet: ["full_text"],
+    //filters: function() { return document.getElementsByTagName("input").value },
   }),
 
   instantsearch.widgets.sortBy({
     container: "#sort-by",
     items: [
-      { label: "Entstehung, aufsteigend", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
-      { label: "Entstehung, absteigend", value: `${project_collection_name}/sort/creation_date:desc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
+      { label: "Default", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
+      { label: "chronologisch", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
+      { label: "umgekehrt chronologisch", value: `${project_collection_name}/sort/creation_date:desc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
     ],
   }),
+
 ]);
 
-// search.addWidgets([
-//   instantsearch.widgets.configure({
-//     attributesToSnippet: ["full_text:30", "title"],
-//   }),
-// ]);
-
 search.start();
+
+//'doc_internal_orderval: 1'  
