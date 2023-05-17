@@ -65,7 +65,7 @@ def get_full_text(head):
     full_text = "\n".join(
         " ".join("".join(el.itertext()).split()) for el in content_elements
     )
-    return remove_hyphens(full_text.strip())
+    return remove_lb_hyphens(full_text.strip())
 
 
 def create_record(
