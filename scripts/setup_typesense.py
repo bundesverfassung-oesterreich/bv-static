@@ -1,5 +1,6 @@
 import glob
 import os
+import re
 from typesense.api_call import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_tei_pyutils.tei import TeiReader
@@ -18,8 +19,8 @@ def setup_collection():
     print(f"setting up collection '{typesense_collection_name}'")
     current_schema = {
         "name": typesense_collection_name,
-        "enable_nested_fields" : False,
-        #"default_sorting_field" : "creation_date:asc",
+        "enable_nested_fields": False,
+        # "default_sorting_field" : "creation_date:asc",
         "fields": [
             {"name": "doc_internal_orderval", "type": "int32"},
             {"name": "record_type", "type": "string", "facet": True},
@@ -35,7 +36,7 @@ def setup_collection():
             {"name": "persons", "type": "string[]", "facet": True, "optional": True},
             {"name": "creation_year", "type": "int32", "facet": True},
             {"name": "creation_date", "type": "int32"},
-            {"name": "creation_date_autopsic", "type": "string", "facet": True}
+            {"name": "creation_date_autopsic", "type": "string", "facet": True},
         ],
     }
     try:
@@ -45,6 +46,12 @@ def setup_collection():
         pass
     client.collections.create(current_schema)
     print(f"created collection '{typesense_collection_name}'")
+
+
+def remove_lb_hyphens(string):
+    lowercase = "[a-zäöü]"
+    hypen_regex = f"(?<={lowercase})- (?={lowercase})(?!und)"
+    return re.sub(hypen_regex, "", string)
 
 
 def get_full_text(head):
@@ -58,7 +65,7 @@ def get_full_text(head):
     full_text = "\n".join(
         " ".join("".join(el.itertext()).split()) for el in content_elements
     )
-    return full_text.strip()
+    return remove_hyphens(full_text.strip())
 
 
 def create_record(
@@ -75,11 +82,13 @@ def create_record(
     record = {}
     full_text = get_full_text(head)
     if not full_text and head_index == 0:
-        full_text = doc_title
+        full_text = doc_title.strip()
     if full_text:
         record["full_text"] = full_text
         record["doc_internal_orderval"] = head_index
-        record["record_type"] = "Dokumententitel" if head_index == 0 else head.attrib["class"]
+        record["record_type"] = (
+            "Dokumententitel" if head_index == 0 else head.attrib["class"]
+        )
         record["bv_doc_id"] = bv_doc_id
         record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])
         record["doc_title"] = doc_title
@@ -91,7 +100,7 @@ def create_record(
         head_id = head.xpath("@id")[0] if head else ""
         head_path = f"{file_name}#{head_id}"
         record["record_id"] = head_path
-        record["anker_link"] = f"{page_base_url}/{file_name}#{head_id}"
+        record["anker_link"] = f"./{file_name}#{head_id}"
         if authors:
             record["persons"] = authors
         if creation_date:
@@ -119,9 +128,13 @@ def create_records():
         authors = xml_doc.any_xpath(
             "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
         )
-        creation_date = xml_doc.any_xpath("normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])")
+        creation_date = xml_doc.any_xpath(
+            "normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])"
+        )
         try:
-            material_doc_type = xml_doc.any_xpath("//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form")[0]
+            material_doc_type = xml_doc.any_xpath(
+                "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form"
+            )[0]
         except IndexError:
             material_doc_type = "unbekannt"
         try:
@@ -138,16 +151,16 @@ def create_records():
         )
         head_index = 0
         doc_record = create_record(
-                head_index,
-                None,
-                creation_date,
-                doc_title,
-                bv_doc_id,
-                authors,
-                file_name,
-                material_doc_type,
-                doc_content_type
-            )
+            head_index,
+            None,
+            creation_date,
+            doc_title,
+            bv_doc_id,
+            authors,
+            file_name,
+            material_doc_type,
+            doc_content_type,
+        )
         records.append(doc_record)
         for head in heads:
             head_index += 1
@@ -160,7 +173,7 @@ def create_records():
                 authors,
                 file_name,
                 material_doc_type,
-                doc_content_type
+                doc_content_type,
             )
             records.append(record)
     return records
