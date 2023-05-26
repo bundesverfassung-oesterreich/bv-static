@@ -97,7 +97,7 @@ def create_record(
         else:
             title = doc_title
         record["title"] = title
-        head_id = head.xpath("@id")[0] if head else ""
+        head_id = head.xpath("@id")[0] if head is not None else ""
         head_path = f"{file_name}#{head_id}"
         record["record_id"] = head_path
         record["anker_link"] = f"./{file_name}#{head_id}"
