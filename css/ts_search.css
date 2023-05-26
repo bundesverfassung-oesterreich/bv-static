@@ -26,10 +26,7 @@
 
 }
 #refinement-list-persons,
-#refinement-list-keywords,
-#refinement-list-works,
-#refinement-list-orgs, 
-#refinement-list-places {
+#refinement-list-doc-title {
     padding: 1em .5em 2em .5em;
     -webkit-box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
     -moz-box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
@@ -37,6 +34,14 @@
     background-color: #fff;
     border-radius: .10rem;
 
+}
+
+#refinement-list-doc-type,
+#refinement-list-doc-material,
+#refinement-range-year {
+    padding: 1em .5em 1em .5em;
+    background-color: #fff;
+    border-radius: .10rem;
 }
 
 .col-md-4 h4 {
