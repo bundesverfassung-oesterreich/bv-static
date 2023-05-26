@@ -2,6 +2,10 @@
     padding: 1em 0;
 }
 
+.hideme{
+    display: none;
+}
+
 .ais-Hits-item, 
 .ais-InfiniteHits-item, 
 .ais-InfiniteResults-item, 
