@@ -33,6 +33,10 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
+                                            <th scope="col">Entstehung</th>
+                                            <th scope="col">beteiligte Personen</th>
+                                            <th scope="col">Dokumententyp</th>
+                                            <th scope="col">Materialtyp</th>
                                             <th scope="col">Dateinname</th>
                                         </tr>
                                     </thead>
@@ -50,9 +54,22 @@
                                                         <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
                                                     </a>
                                                 </td>
+                                                <td>                                        
+                                                    <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])"/>
+                                                </td>
+                                                <td>                                        
+                                                    <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/>
+                                                    <xsl:value-of select="test"/>
+                                                </td>
+                                                <td>                                        
+                                                    <xsl:value-of select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
+                                                </td>
+                                                <td>                                        
+                                                    <xsl:value-of select="//tei:text/@type"/>
+                                                </td>
                                                 <td>
                                                     <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
-                                                </td>  
+                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
