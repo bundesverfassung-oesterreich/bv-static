@@ -60,6 +60,8 @@
                     <msContents>
                         <msItem>
                             <author role="acdh:has_author">Kelsen, Hans</author>
+                              <author role="acdh:has_author">Maxime, Test</author>
+
                         <title>Kelsen Entwurf I</title>
                         </msItem>
                     </msContents>

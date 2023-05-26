@@ -192,19 +192,19 @@ search.addWidgets([
     },
   }),
 
+  instantsearch.widgets.sortBy({
+    container: "#sort-by",
+    items: [
+      //{ label: "Default", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
+      { label: "chronologisch", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
+      { label: "umgekehrt chronologisch", value: `${project_collection_name}/sort/creation_date:desc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
+    ],
+  }),
+
   instantsearch.widgets.configure({
     hitsPerPage: 8,
     attributesToSnippet: ["full_text"],
     //filters: function() { return document.getElementsByTagName("input").value },
-  }),
-
-  instantsearch.widgets.sortBy({
-    container: "#sort-by",
-    items: [
-      { label: "Default", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
-      { label: "chronologisch", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
-      { label: "umgekehrt chronologisch", value: `${project_collection_name}/sort/creation_date:desc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
-    ],
   }),
 
 ]);
