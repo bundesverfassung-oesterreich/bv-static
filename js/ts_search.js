@@ -91,7 +91,7 @@ search.addWidgets([
       searchableReset: "d-none",
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
-      count: "badge ml-2 badge-secondary",
+      count: "badge ml-2 badge-secondary hideme ",
       label: "d-flex align-items-center text-capitalize",
       checkbox: "mr-2",
     },
@@ -104,7 +104,7 @@ search.addWidgets([
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
-      count: "badge ml-2 badge-secondary",
+      count: "badge ml-2 badge-secondary hideme",
       label: "d-flex align-items-center text-capitalize",
       checkbox: "mr-2",
     },
@@ -131,7 +131,7 @@ search.addWidgets([
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
-      count: "badge ml-2 badge-secondary",
+      count: "badge ml-2 badge-secondary hideme",
       label: "d-flex align-items-center text-capitalize",
       checkbox: "mr-2",
     },
@@ -144,7 +144,7 @@ search.addWidgets([
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
-      count: "badge ml-2 badge-secondary",
+      count: "badge ml-2 badge-secondary hideme",
       label: "d-flex align-items-center text-capitalize",
       checkbox: "mr-2",
     },
