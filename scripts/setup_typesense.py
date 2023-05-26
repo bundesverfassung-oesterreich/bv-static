@@ -11,7 +11,7 @@ page_base_url = "https://bundesverfassung-oesterreich.github.io/bv-static/"
 typesense_collection_name = "bundes_verfassung_oesterreich"
 html_path = "./html/*"
 
-if not os.path.exists(html_path):
+if not os.path.exists(html_path.strip("*")):
     print(f"\nhtml dir {html_path} not found!")
 
 
@@ -26,14 +26,14 @@ def setup_collection():
             {"name": "record_type", "type": "string", "facet": True},
             {"name": "bv_doc_id", "type": "string"},
             {"name": "bv_doc_id_num", "type": "int32"},
-            {"name": "doc_title", "type": "string", "facet": True},
+            {"name": "Dokumententitel", "type": "string", "facet": True},
             {"name": "title", "type": "string"},
             {"name": "full_text", "type": "string"},
             {"name": "record_id", "type": "string"},
             {"name": "anker_link", "type": "string"},
-            {"name": "material_doc_type", "type": "string", "facet": True},
-            {"name": "doc_content_type", "type": "string", "facet": True},
-            {"name": "persons", "type": "string[]", "facet": True, "optional": True},
+            {"name": "Materialart", "type": "string", "facet": True},
+            {"name": "Dokumententyp", "type": "string", "facet": True},
+            {"name": "Personen", "type": "string[]", "facet": True, "optional": True},
             {"name": "creation_year", "type": "int32", "facet": True},
             {"name": "creation_date", "type": "int32"},
             {"name": "creation_date_autopsic", "type": "string", "facet": True},
@@ -91,7 +91,7 @@ def create_record(
         )
         record["bv_doc_id"] = bv_doc_id
         record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])
-        record["doc_title"] = doc_title
+        record["Dokumententitel"] = doc_title
         if head is not None:
             title = f"{doc_title}: {head.text}"
         else:
@@ -102,7 +102,7 @@ def create_record(
         record["record_id"] = head_path
         record["anker_link"] = f"./{file_name}#{head_id}"
         if authors:
-            record["persons"] = authors
+            record["Personen"] = authors
         if creation_date:
             record["creation_date"] = int(creation_date.replace("-", ""))
             record["creation_date_autopsic"] = creation_date.split("-")[0]
@@ -111,8 +111,8 @@ def create_record(
             record["creation_date"] = 99991224
             record["creation_date_autopsic"] = "unbekannt"
             record["creation_year"] = 1900
-        record["material_doc_type"] = material_doc_type
-        record["doc_content_type"] = doc_content_type
+        record["Materialart"] = material_doc_type
+        record["Dokumententyp"] = doc_content_type
     return record
 
 
@@ -121,6 +121,7 @@ def create_records():
     html_files = [
         f for f in glob.glob(html_path) if ("bv_doc" in f) and f.endswith(".html")
     ]
+    print(f"loaded total of {len(html_files)} files")
     records = []
     for html_filepath in tqdm(html_files, total=len(html_files)):
         print("processing", html_filepath)

@@ -35,13 +35,13 @@
                             
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Editionseinheiten
+                                    Quellen
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a class="dropdown-item" href="toc.html"
                                             title="Ohne Faksimiles">
-                                            Entwurfsgruppe I
+                                            Kelsen-Entwürfe I–VII
                                         </a>
                                     </li>
                                 </ul>
@@ -73,7 +73,7 @@
                             </li>-->
                             
                             <li class="nav-item">
-                                <a title="Suche" class="nav-link" href="search.html">Suche</a>
+                                <a title="Suche" class="nav-link" href="search.html">Volltextsuche</a>
                             </li>
                         </ul>
                     </div>

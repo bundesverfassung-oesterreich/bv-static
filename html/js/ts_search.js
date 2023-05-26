@@ -82,7 +82,7 @@ search.addWidgets([
 
   instantsearch.widgets.refinementList({
     container: "#refinement-list-persons",
-    attribute: "persons",
+    attribute: "Personen",
     searchable: true,
     searchablePlaceholder: "Suchen",
     cssClasses: {
@@ -98,8 +98,8 @@ search.addWidgets([
   }),
 
   instantsearch.widgets.refinementList({
-    container: "#doc-type",
-    attribute: "material_doc_type",
+    container: "#refinement-list-doc-material",
+    attribute: "Materialart",
     searchable: false,
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
@@ -111,21 +111,8 @@ search.addWidgets([
   }),
 
   instantsearch.widgets.refinementList({
-    container: "#text-or-titles",
-    attribute: "record_type",
-    searchable: false,
-    cssClasses: {
-      showMore: "btn btn-secondary btn-sm align-content-center",
-      list: "list-unstyled",
-      count: "badge ml-2 badge-secondary",
-      label: "d-flex align-items-center text-capitalize",
-      checkbox: "mr-2",
-    },
-  }),
-
-  instantsearch.widgets.refinementList({
-    container: "#doc-title-search",
-    attribute: "doc_title",
+    container: "#refinement-list-doc-title",
+    attribute: "Dokumententitel",
     searchable: true,
     searchablePlaceholder: "Suchen",
     cssClasses: {
@@ -138,8 +125,8 @@ search.addWidgets([
   }),
 
   instantsearch.widgets.refinementList({
-    container: "#doc-material",
-    attribute: "doc_content_type",
+    container: "#refinement-list-doc-type",
+    attribute: "Dokumententyp",
     searchable: false,
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
@@ -151,7 +138,7 @@ search.addWidgets([
   }),
 
   instantsearch.widgets.rangeInput({
-    container: "#range-input",
+    container: "#refinement-range-year",
     attribute: "creation_year",
     templates: {
       separatorText: "to",
