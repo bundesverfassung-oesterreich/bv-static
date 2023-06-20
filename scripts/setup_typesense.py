@@ -20,7 +20,7 @@ def setup_collection():
     current_schema = {
         "name": typesense_collection_name,
         "enable_nested_fields": False,
-        # "default_sorting_field" : "creation_date:asc",
+        "default_sorting_field" : "default_sort",
         "fields": [
             {"name": "doc_internal_orderval", "type": "int32"},
             {"name": "record_type", "type": "string", "facet": True},
@@ -37,6 +37,7 @@ def setup_collection():
             {"name": "creation_year", "type": "int32", "facet": True},
             {"name": "creation_date", "type": "int32"},
             {"name": "creation_date_autopsic", "type": "string", "facet": True},
+            {"name": "default_sort", "type":"int32", "facet": False}
         ],
     }
     try:
@@ -199,9 +200,27 @@ def upload_records(records):
     return make_index
 
 
+def add_sort_val_2_records(records):
+    records.sort(
+        key = lambda x: (
+            x["creation_date"],# creation_date:asc
+            x["bv_doc_id_num"],# bv_doc_id_num:asc
+            x["doc_internal_orderval"]# doc_internal_orderval:asc
+        )
+    )
+    index = 0
+    total = len(records)
+    for record in records:
+        sortindex = total - index
+        record["default_sort"] = sortindex
+        index += 1
+    return records
+
+
 if __name__ == "__main__":
     records = create_records()
-    result = upload_records(records)
+    sorted_records = add_sort_val_2_records(records)
+    result = upload_records(sorted_records)
 
 # # search_ps = {'q': 'Test', 'query_by': 'full_text'}
 # # example_request = client.collections[typesense_collection_name].documents.search(search_ps)
