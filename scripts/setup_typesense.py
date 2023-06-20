@@ -50,6 +50,7 @@ def setup_collection():
 
 
 def remove_lb_hyphens(string):
+    string = re.sub("\s?\n\s?|\s{2,}", " ", string)
     lowercase = "[a-zäöü]"
     hypen_regex = f"(?<={lowercase})- (?={lowercase})(?!und)"
     return re.sub(hypen_regex, "", string)
