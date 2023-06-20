@@ -20,28 +20,6 @@
                 </svg>
             </a>                    
             <ul class="dropdown-menu">
-                <!--<xsl:for-each select=".//tei:body//tei:div/tei:head|.//tei:body//tei:div/tei:p/tei:head">
-                    <li>
-                        <xsl:choose>
-                            <xsl:when test="ancestor::tei:div[1][@ana='article']">
-                                <a class="dropdown-item">
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="'#article_'"/><xsl:number count="tei:div[@ana='article']" format="1" level="any"/>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="normalize-space()"/>
-                                </a>
-                            </xsl:when>
-                            <xsl:when test="ancestor::tei:div[1][contains(@ana, 'section')]">
-                                <a class="dropdown-item">
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="'#section_'"/><xsl:number count="tei:div[@ana='section' or @ana='sub_section' or @ana='sub_sub_section']" level="any"/>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="normalize-space()"/>
-                                </a>
-                            </xsl:when>
-                        </xsl:choose>
-                    </li>
-                </xsl:for-each>-->
                 <xsl:for-each select=".//tei:body//tei:div[@ana='section']">
                     <li>
                         <a class="dropdown-item">
@@ -49,8 +27,10 @@
                                 <xsl:value-of select="'#section_'"/><xsl:number count="tei:div[@ana='section' or @ana='sub_section' or @ana='sub_sub_section']" level="any"/>
                             </xsl:attribute>
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
+                        </a>
                             <ul class="dropown-menu">
-                                <xsl:for-each select=".//tei:div[@ana='article']/tei:head|.//tei:div[@ana='article']/tei:p/tei:head">
+                                <!--<xsl:for-each select=".//tei:div[@ana='article']/tei:head|.//tei:div[@ana='article']/tei:p/tei:head">-->
+                                <xsl:for-each select=".//tei:head[parent::tei:div[@ana='article'] or parent::tei:p[parent::tei:div[@ana='article']]]">
                                     <li>
                                         <a class="dropdown-item">
                                             <xsl:attribute name="href">
@@ -61,7 +41,6 @@
                                     </li>
                                 </xsl:for-each>
                             </ul>
-                        </a>
                     </li>
                 </xsl:for-each>
             </ul>                                                    
