@@ -19,6 +19,18 @@ a {
     background-color: #88dbdf;
 }
 
+div > ul > li:not(:first-of-type){
+    padding-top: 0.5rem;
+}
+
+div > ul > li:not(:first-of-type){
+    padding-bottom: 0.25rem;
+}
+
+div > ul > li > a{
+    font-weight: bold !important;
+}
+
 .navbar-nav ul li.active a {
     /* change navbar link color */
     background-color: #88dbdf;
