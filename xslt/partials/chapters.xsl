@@ -28,7 +28,7 @@
                             </xsl:attribute>
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </a>
-                            <ul class="dropown-menu">
+                            <ul class="dropown-menu dropdown-submenu">
                                 <!--<xsl:for-each select=".//tei:div[@ana='article']/tei:head|.//tei:div[@ana='article']/tei:p/tei:head">-->
                                 <xsl:for-each select=".//tei:head[parent::tei:div[@ana='article'] or parent::tei:p[parent::tei:div[@ana='article']]]">
                                     <li>
