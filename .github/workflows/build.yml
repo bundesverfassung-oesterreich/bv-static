@@ -25,7 +25,7 @@ jobs:
         pip install -r ./pyscripts/requirements.txt
     - name: fetch data
       run: | 
-        ./scripts/fetch_editions.sh
+        ./shellscripts/fetch_editions.sh
     - name: Build
       run: |
         ant
@@ -40,4 +40,4 @@ jobs:
         publish_dir: ./html
     - name: Setup Typesense
       run: |
-        python ./scripts/setup_typesense.py
+        python ./shellscripts/setup_typesense.py
