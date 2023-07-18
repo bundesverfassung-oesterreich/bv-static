@@ -2,8 +2,8 @@ import csv
 import os
 import json
 
-TRANSLATIONS = "../translations.csv"
-locales_dir = os.path.join("../html", "locales")
+TRANSLATIONS = "./shellscripts/translations.csv"
+locales_dir = os.path.join("./html", "locales")
 os.makedirs(locales_dir, exist_ok=True)
 
 
