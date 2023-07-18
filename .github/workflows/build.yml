@@ -2,6 +2,7 @@ name: Build and publish
 
 on: 
   push:
+  workflow_dispatch:
 
 jobs:
   build_pages:
@@ -9,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANT_OPTS: -Xmx5g
+      TYPESENSE_SEARCH_KEY: ${{secrets.TYPESENSE_SEARCH_KEY}}
+      TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
+      TYPESENSE_HOST: ${{secrets.TYPESENSE_HOST}}
+      TYPESENSE_PORT: 443
+      TYPESENSE_PROTOCOL: https
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v3
@@ -17,6 +23,9 @@ jobs:
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         ./shellscripts/script.sh
         pip install -r ./pyscripts/requirements.txt
+    - name: fetch data
+      run: | 
+        ./scripts/fetch_editions.sh
     - name: Build
       run: |
         ant
@@ -29,3 +38,6 @@ jobs:
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
         publish_dir: ./html
+    - name: Setup Typesense
+      run: |
+        python ./scripts/setup_typesense.py
