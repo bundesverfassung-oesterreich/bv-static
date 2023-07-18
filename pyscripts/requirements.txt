@@ -1,4 +1,6 @@
-acdh-tei-pyutils
+acdh_cfts_pyutils
+acdh_tei_pyutils
 favicons
-rlPyCairo==0.2.0
-acdh-cfts-pyutils
+tqdm
+typesense
+rlPyCairo
