@@ -40,4 +40,4 @@ jobs:
         publish_dir: ./html
     - name: Setup Typesense
       run: |
-        python ./shellscripts/setup_typesense.py
+        python ./pyscripts/setup_typesense.py
