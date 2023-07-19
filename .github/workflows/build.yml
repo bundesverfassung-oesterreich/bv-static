@@ -13,8 +13,8 @@ jobs:
       TYPESENSE_SEARCH_KEY: ${{secrets.TYPESENSE_SEARCH_KEY}}
       TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
       TYPESENSE_HOST: ${{secrets.TYPESENSE_HOST}}
-      TYPESENSE_PORT: 443
-      TYPESENSE_PROTOCOL: https
+      TYPESENSE_PORT: ${{vars.TYPESENSE_PORT}}
+      TYPESENSE_PROTOCOL: ${{vars.TYPESENSE_PROTOCOL}}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v3
