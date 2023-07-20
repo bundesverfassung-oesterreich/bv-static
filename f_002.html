@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -36,12 +36,7 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" href="css/micro-editor.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script><script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script><script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.2/i18nextHttpBackend.min.js"></script><style>
-                    .navBarNavDropdown ul li:nth-child(2) {
-                        display: none !important;
-                    }
-                </style>
-   </head>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script><script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script><script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.2/i18nextHttpBackend.min.js"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-top hide-reading" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg">
@@ -69,18 +64,18 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="wp-transcript">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2 col-lg-2 col-sm-12">
-                        <h1><a href="f_001.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
+                        <h1><a href="f_001_facsimile.html"><i class="fas fa-chevron-left" title="prev"></i></a></h1>
                      </div>
                      <div class="col-md-8 col-lg-8 col-sm-12">
                         <h1 align="center">Sample File 002</h1>
                         <h3 align="center"><a href="f_002.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2 col-lg-2 col-sm-12" style="text-align:right">
-                        <h1><a href="f_003.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
+                        <h1><a href="f_003_facsimile.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                   <div id="editor-widget">
@@ -119,204 +114,193 @@
                      </div>
                   </div>
                </div>
-               <div class="card-body">
-                  <span  class="anchor-pb"></span><span  class="pb" source="images/example-img-1.jpg">[1]</span>
-                  
-                  <p id="p__2" class="yes-index">Some text here.<a name="fna_1" href="#fn1" title="Thi is actually the first note"><sup >1</sup></a></p>
-                  
-                  <p id="p__3" class="yes-index">Und hier ist ein Verweis auf den <span  class="persons entity " id="" data-bs-toggle="modal" data-bs-target="#pmb3978">König</span></p>
-                  
-                  <p id="p__6" class="yes-index">Sehen Sie, die Zeit hat noch Liebe<a name="fna_2" href="#fn2" title="first note"><sup >2</sup></a>. Und ich hatte geglaubt, nur ihr Haß sei gewachsen
-                     und mit ihm ihr Hunger. Was aber die Dummheit anlangt, so tritt sie nur klarer in
-                     den
-                     Dimensionen hervor, die ich ihr längst zuerkannt habe. Wollen Sie das österreichische
-                     Antlitz sehen? Es ist zwar durch eigene Schuld unterernährt, aber es spiegelt sich
-                     geistig in dem Knödel, den diese Ansichtskarte als ein Idealbild der Wiener Phantasie
-                     darbietet<a name="fna_3" href="#fn3" title="some note"><sup >3</sup></a>. Ich revanchiere mich, der Text dürfte von jenem Pipihendi sein.</p>
-                  
-                  <p id="p__6" class="yes-index">In <span  class="places entity " id="" data-bs-toggle="modal" data-bs-target="#pmb875">dieser Stadt</span> ist der Wurm drin.</p>
+               <div id="container-resize" class="row transcript active">
+                  <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
+                     <div id="viewer">
+                        <p>Das Original befindet sich im Eigentum des Österreichischen Staatsarchivs unter der
+                           ÖStA-Signatur „)“. Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung
+                           des ÖStA entsprechend der geltenden Benutzungsordnung.</p>
+                        <div id="container_facs_1"></div>
+                     </div>
                   </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__1"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Thi is actually the first note</div>
-                     <div class="footnotes" id="note__1"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>first note</div>
-                     <div class="footnotes" id="note__2"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>some note</div>
-                  </p>
+                  <div id="text-resize" class="col-md-6 col-lg-6 col-sm-12 text yes-index">
+                     <div id="section"></div>
+                  </div>
                </div>
+               <div class="tei-back">
+                  
+                  
+                  <div  xmlns:local="http://dse-static.foo.bar" class="modal fade" id="pmb875" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Klagenfurt" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Klagenfurt</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                           <div class="modal-body">
+                              <table>
+                                 <tbody>
+                                    <tr>
+                                       <th>
+                                          Erwähnungen
+                                          </th>
+                                       <td>
+                                          <ul>
+                                             <li>Sample File 002 <a href="f_002.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                             <li>Sample File 003 <a href="f_003.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                          </ul>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th></th>
+                                       <td>
+                                          Anzahl der Erwähnungen limitiert, klicke <a href="pmb875.html">hier</a> für eine vollständige Auflistung
+                                          </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div  xmlns:local="http://dse-static.foo.bar" class="modal fade" id="pmb41212" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Korfu" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Korfu</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                           <div class="modal-body">
+                              <table>
+                                 <tbody>
+                                    <tr>
+                                       <th>
+                                          Erwähnungen
+                                          </th>
+                                       <td>
+                                          <ul>
+                                             <li>Sample File 001 <a href="f_001.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                          </ul>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th></th>
+                                       <td>
+                                          Anzahl der Erwähnungen limitiert, klicke <a href="pmb41212.html">hier</a> für eine vollständige Auflistung
+                                          </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  
+                  
+                  <div  xmlns:local="http://dse-static.foo.bar" class="modal fade" id="pmb29244" data-bs-keyboard="false" tabindex="-1" aria-labelledby="" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                           <div class="modal-body">
+                              <table class="table">
+                                 <tbody>
+                                    <tr>
+                                       <th>
+                                          Erwähnungen
+                                          </th>
+                                       <td>
+                                          <ul>
+                                             <li>Arthur an Olga Schnitzler, 7. 9. 1919 <a href="L041652.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                             <li>Olga an Arthur Schnitzler, 13. 9. 1919 <a href="L041663.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                             <li>Arthur Schnitzler: Max Burckhard, April 1912 <a href="T030081.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                          </ul>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th></th>
+                                       <td>
+                                          Anzahl der Erwähnungen limitiert, klicke <a href="pmb29244.html">hier</a> für eine vollständige Auflistung
+                                          </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  
+                  
+                  <div  xmlns:local="http://dse-static.foo.bar" class="modal fade" id="pmb3978" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Rétif de la Bretonne, Nicolas" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Rétif de la Bretonne, Nicolas</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                           <div class="modal-body">
+                              <table class="table">
+                                 <tbody>
+                                    <tr>
+                                       <th>
+                                          Erwähnungen
+                                          </th>
+                                       <td>
+                                          <ul>
+                                             <li>Sample File 002 <a href="f_002.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                             <li>Sample File 003 <a href="f_003.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                          </ul>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th></th>
+                                       <td>
+                                          Anzahl der Erwähnungen limitiert, klicke <a href="pmb3978.html">hier</a> für eine vollständige Auflistung
+                                          </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div  xmlns:local="http://dse-static.foo.bar" class="modal fade" id="pmb12511" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Reumann, Jakob" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Reumann, Jakob</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                           <div class="modal-body">
+                              <table class="table">
+                                 <tbody>
+                                    <tr>
+                                       <th>
+                                          Erwähnungen
+                                          </th>
+                                       <td>
+                                          <ul>
+                                             <li>Tagebuch von Arthur Schnitzler, 21. 1. 1922 <a href="D041341.html"><i class="fas fa-external-link-alt"></i></a></li>
+                                          </ul>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th></th>
+                                       <td>
+                                          Anzahl der Erwähnungen limitiert, klicke <a href="pmb12511.html">hier</a> für eine vollständige Auflistung
+                                          </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  </div>
             </div>
          </div>
-         <div class="tei-back">
-            
-            
-            <div  class="modal fade" id="pmb875" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Klagenfurt" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Klagenfurt</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                     <div class="modal-body">
-                        <table>
-                           <tbody>
-                              <tr>
-                                 <th>
-                                    Erwähnungen
-                                    </th>
-                                 <td>
-                                    <ul>
-                                       <li>Sample File 002 <a href="f_002.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li>Sample File 003 <a href="f_003.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <th></th>
-                                 <td>
-                                    Anzahl der Erwähnungen limitiert, klicke <a href="pmb875.html">hier</a> für eine vollständige Auflistung
-                                    </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                     <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-                  </div>
-               </div>
-            </div>
-            
-            <div  class="modal fade" id="pmb41212" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Korfu" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Korfu</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                     <div class="modal-body">
-                        <table>
-                           <tbody>
-                              <tr>
-                                 <th>
-                                    Erwähnungen
-                                    </th>
-                                 <td>
-                                    <ul>
-                                       <li>Sample File 001 <a href="f_001.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <th></th>
-                                 <td>
-                                    Anzahl der Erwähnungen limitiert, klicke <a href="pmb41212.html">hier</a> für eine vollständige Auflistung
-                                    </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                     <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-                  </div>
-               </div>
-            </div>
-            
-            
-            
-            <div  class="modal fade" id="pmb29244" data-bs-keyboard="false" tabindex="-1" aria-labelledby="" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                     <div class="modal-body">
-                        <table class="table">
-                           <tbody>
-                              <tr>
-                                 <th>
-                                    Erwähnungen
-                                    </th>
-                                 <td>
-                                    <ul>
-                                       <li>Arthur an Olga Schnitzler, 7. 9. 1919 <a href="L041652.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li>Olga an Arthur Schnitzler, 13. 9. 1919 <a href="L041663.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li>Arthur Schnitzler: Max Burckhard, April 1912 <a href="T030081.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <th></th>
-                                 <td>
-                                    Anzahl der Erwähnungen limitiert, klicke <a href="pmb29244.html">hier</a> für eine vollständige Auflistung
-                                    </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                     <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-                  </div>
-               </div>
-            </div>
-            
-            
-            
-            <div  class="modal fade" id="pmb3978" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Rétif de la Bretonne, Nicolas" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Rétif de la Bretonne, Nicolas</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                     <div class="modal-body">
-                        <table class="table">
-                           <tbody>
-                              <tr>
-                                 <th>
-                                    Erwähnungen
-                                    </th>
-                                 <td>
-                                    <ul>
-                                       <li>Sample File 002 <a href="f_002.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                       <li>Sample File 003 <a href="f_003.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <th></th>
-                                 <td>
-                                    Anzahl der Erwähnungen limitiert, klicke <a href="pmb3978.html">hier</a> für eine vollständige Auflistung
-                                    </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                     <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-                  </div>
-               </div>
-            </div>
-            
-            <div  class="modal fade" id="pmb12511" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Reumann, Jakob" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Reumann, Jakob</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                     <div class="modal-body">
-                        <table class="table">
-                           <tbody>
-                              <tr>
-                                 <th>
-                                    Erwähnungen
-                                    </th>
-                                 <td>
-                                    <ul>
-                                       <li>Tagebuch von Arthur Schnitzler, 21. 1. 1922 <a href="D041341.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <th></th>
-                                 <td>
-                                    Anzahl der Erwähnungen limitiert, klicke <a href="pmb12511.html">hier</a> für eine vollständige Auflistung
-                                    </td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </div>
-                     <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-                  </div>
-               </div>
-            </div>
-            
-            </div>
          <div class="wrapper hide-reading" id="wrapper-footer-full">
             <div class="container-fluid" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
@@ -384,5 +368,5 @@
             </div>
          </div>
          <div class="footer-imprint-bar text-light hide-reading" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;background-color:#00122f;">
-            © Copyright OEAW | <a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script><script src="js/listStopProp.js"></script><script src="js/navScroll.js"></script><script src="js/i18n.js"></script></div><script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"></script><script type="text/javascript" src="js/run.js"></script><script type="text/javascript" src="js/osd_scroll.js"></script></body>
+            © Copyright OEAW | <a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script><script src="js/listStopProp.js"></script><script src="js/navScroll.js"></script><script src="js/i18n.js"></script></div><script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script><script type="text/javascript" src="js/osd_scroll.js"></script><script type="text/javascript" src="js/run.js"></script></body>
 </html>
