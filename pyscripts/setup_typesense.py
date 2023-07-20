@@ -11,24 +11,6 @@ page_base_url = "https://bundesverfassung-oesterreich.github.io/bv-static/"
 typesense_collection_name = "bundes_verfassung_oesterreich"
 html_path = "./html/*"
 
-if not os.path.exists(html_path.strip("*")):
-    print(f"\nhtml dir {html_path} not found!")
-
-
-def create_bv_id_2_xml_doc() -> dict:
-    bv_id_2_xml_doc = dict()
-    for path in glob.glob(html_path+".xml"):
-        if "bv_doc_id__" in path:
-            xml_doc = TeiReader(path)
-            print(path)
-            doc_root = xml_doc.tree.getroot()
-            print(doc_root.attrib)
-            bv_doc_id = doc_root.attrib['{http://www.w3.org/XML/1998/namespace}id'].replace(".xml", "")
-            bv_id_2_xml_doc[bv_doc_id] = xml_doc
-    return bv_id_2_xml_doc
-                       
-            
-
 def setup_collection():
     print(f"setting up collection '{typesense_collection_name}'")
     current_schema = {
@@ -64,7 +46,7 @@ def setup_collection():
 
 
 def remove_lb_hyphens(string):
-    string = re.sub("\s?\n\s?|\s{2,}", " ", string)
+    string = re.sub(r"\s?\n\s?|\s{2,}", " ", string)
     lowercase = "[a-zäöü]"
     hypen_regex = f"(?<={lowercase})- (?={lowercase})(?!und)"
     return re.sub(hypen_regex, "", string)
@@ -89,7 +71,7 @@ def create_record(
     head,
     creation_date,
     doc_title: str,
-    bv_doc_id,
+    bv_doc_id: str,
     authors,
     file_name,
     material_doc_type,
@@ -132,18 +114,19 @@ def create_record(
     return record
 
 
-def create_records(bv_id_2_xml_doc: dict):
+def create_records():
     print("creating records")
-    html_files = [
-        f for f in glob.glob(html_path) if ("bv_doc" in f) and f.endswith(".html")
+    xml_files = [
+        f for f in glob.glob(html_path) if ("bv_doc" in f) and f.endswith(".xml")
     ]
-    print(f"loaded total of {len(html_files)} files")
+    print(f"loaded total of {len(xml_files)} files")
     records = []
-    for html_filepath in tqdm(html_files, total=len(html_files)):
-        print("processing", html_filepath)
-        file_name = os.path.split(html_filepath)[-1]
-        bv_doc_id = file_name.replace(".html", "").replace("_facsimile", "").strip()
-        xml_doc = bv_id_2_xml_doc[bv_doc_id]
+    for xml_filepath in tqdm(xml_files, total=len(xml_files)):
+        print("processing", xml_filepath)
+        file_name = os.path.split(xml_filepath)[-1]
+        xml_doc = TeiReader(xml_filepath)
+        xml_doc_root = xml_doc.tree.getroot()
+        bv_doc_id = xml_doc_root.attrib['{http://www.w3.org/XML/1998/namespace}id'].replace(".xml", "")
         authors = xml_doc.any_xpath(
             "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
         )
@@ -160,12 +143,8 @@ def create_records(bv_id_2_xml_doc: dict):
             doc_content_type = xml_doc.any_xpath("//tei:text/@type")[0]
         except IndexError:
             doc_content_type = ""
-        doc = TeiReader(html_filepath)
-        doc.ns_tei = {"tei": "http://www.w3.org/1999/xhtml"}
-        doc_title = doc.any_xpath("/tei:html/tei:head/tei:title")[0].text
-        heads = doc.any_xpath(
-            "//tei:div[@class='card-body']/*[local-name()='h2' or local-name()='h3' or local-name()='h4']"
-        )
+        doc_title = xml_doc.any_xpath("//tei:msDesc/tei:msContents/tei:msItem/tei:title")[0].text
+        heads = xml_doc.any_xpath("//tei:body//tei:head")
         head_index = 0
         doc_record = create_record(
             head_index,
@@ -233,8 +212,7 @@ def add_sort_val_2_records(records):
 
 
 if __name__ == "__main__":
-    bv_id_2_xml_doc = create_bv_id_2_xml_doc()
-    records = create_records(bv_id_2_xml_doc)
+    records = create_records()
     sorted_records = add_sort_val_2_records(records)
     result = upload_records(sorted_records)
 
