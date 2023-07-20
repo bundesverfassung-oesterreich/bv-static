@@ -32,12 +32,7 @@
                                     <h3>B-VG 1920</h3>
                                     <a href="toc.html" title="Edition ohne Faksimiles">
                                         <button class="btn btn-secondary" role="button" style="width: 250px;">
-                                            Edition ohne Faksimiles
-                                        </button>
-                                    </a>
-                                    <a href="toc_facs.html" title="Edition mit Faksimiles">
-                                        <button class="btn btn-secondary" role="button" style="width: 250px;">
-                                            Edition mit Faksimiles
+                                            Edierte Dokumente
                                         </button>
                                     </a>
                                 </div>

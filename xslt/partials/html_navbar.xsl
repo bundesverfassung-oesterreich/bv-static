@@ -26,17 +26,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__toc" ></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="toc.html"  data-i18n="navbar__nofacs"  ></a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="toc_facs.html"  data-i18n="navbar__withfacs" title="Mit Faksimiles" ></a>
-                                    </li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="toc.html" title="Mit Faksimiles" data-i18n="navbar__toc"></a>
                             </li>
                             <li class="nav-item dropdown disabled">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__register" ></a>
