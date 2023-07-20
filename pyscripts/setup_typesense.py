@@ -15,6 +15,20 @@ if not os.path.exists(html_path.strip("*")):
     print(f"\nhtml dir {html_path} not found!")
 
 
+def create_bv_id_2_xml_doc() -> dict:
+    bv_id_2_xml_doc = dict()
+    for path in glob.glob(html_path+".xml"):
+        if "bv_doc_id__" in path:
+            xml_doc = TeiReader(path)
+            print(path)
+            doc_root = xml_doc.tree.getroot()
+            print(doc_root.attrib)
+            bv_doc_id = doc_root.attrib['{http://www.w3.org/XML/1998/namespace}id'].replace(".xml", "")
+            bv_id_2_xml_doc[bv_doc_id] = xml_doc
+    return bv_id_2_xml_doc
+                       
+            
+
 def setup_collection():
     print(f"setting up collection '{typesense_collection_name}'")
     current_schema = {
@@ -118,7 +132,7 @@ def create_record(
     return record
 
 
-def create_records():
+def create_records(bv_id_2_xml_doc: dict):
     print("creating records")
     html_files = [
         f for f in glob.glob(html_path) if ("bv_doc" in f) and f.endswith(".html")
@@ -127,7 +141,9 @@ def create_records():
     records = []
     for html_filepath in tqdm(html_files, total=len(html_files)):
         print("processing", html_filepath)
-        xml_doc = TeiReader(html_filepath.replace(".html", ".xml"))
+        file_name = os.path.split(html_filepath)[-1]
+        bv_doc_id = file_name.replace(".html", "").replace("_facsimile", "").strip()
+        xml_doc = bv_id_2_xml_doc[bv_doc_id]
         authors = xml_doc.any_xpath(
             "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
         )
@@ -147,8 +163,6 @@ def create_records():
         doc = TeiReader(html_filepath)
         doc.ns_tei = {"tei": "http://www.w3.org/1999/xhtml"}
         doc_title = doc.any_xpath("/tei:html/tei:head/tei:title")[0].text
-        file_name = os.path.split(html_filepath)[-1]
-        bv_doc_id = file_name.replace(".html", "").strip()
         heads = doc.any_xpath(
             "//tei:div[@class='card-body']/*[local-name()='h2' or local-name()='h3' or local-name()='h4']"
         )
@@ -219,7 +233,8 @@ def add_sort_val_2_records(records):
 
 
 if __name__ == "__main__":
-    records = create_records()
+    bv_id_2_xml_doc = create_bv_id_2_xml_doc()
+    records = create_records(bv_id_2_xml_doc)
     sorted_records = add_sort_val_2_records(records)
     result = upload_records(sorted_records)
 
