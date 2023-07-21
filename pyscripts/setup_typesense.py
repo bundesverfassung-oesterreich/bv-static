@@ -3,20 +3,23 @@ import os
 import re
 from typesense.api_call import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
+import lxml.etree as et
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 
 
 page_base_url = "https://bundesverfassung-oesterreich.github.io/bv-static/"
 typesense_collection_name = "bundes_verfassung_oesterreich"
-html_path = "./html/*"
+xml_path = "./data/editions/bv_doc_id__*.xml"
+tei_ns = ""
+
 
 def setup_collection():
     print(f"setting up collection '{typesense_collection_name}'")
     current_schema = {
         "name": typesense_collection_name,
         "enable_nested_fields": False,
-        "default_sorting_field" : "default_sort",
+        "default_sorting_field": "default_sort",
         "fields": [
             {"name": "doc_internal_orderval", "type": "int32"},
             {"name": "record_type", "type": "string", "facet": True},
@@ -33,7 +36,7 @@ def setup_collection():
             {"name": "creation_year", "type": "int32", "facet": True},
             {"name": "creation_date", "type": "int32"},
             {"name": "creation_date_autopsic", "type": "string", "facet": True},
-            {"name": "default_sort", "type":"int32", "facet": False}
+            {"name": "default_sort", "type": "int32", "facet": False},
         ],
     }
     try:
@@ -84,9 +87,17 @@ def create_record(
     if full_text:
         record["full_text"] = full_text
         record["doc_internal_orderval"] = head_index
-        record["record_type"] = (
-            "Dokumententitel" if head_index == 0 else head.attrib["class"]
-        )
+        if head_index == 0:
+            record["record_type"] = "Dokumententitel"
+        else:
+            ancestor_div = head.xpath("./ancestor::tei:div", namespaces=tei_ns)[-1]
+            ana = ancestor_div.attrib.get("ana")
+            if not ana:
+                print(full_text)
+                print("div ancestor of head has no @ana-attrib … ")
+                raise ValueError
+            record["record_type"] = ana
+        # "Dokumententitel" if head_index == 0 else head.attrib["class"]
         record["bv_doc_id"] = bv_doc_id
         record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])
         record["Dokumententitel"] = doc_title
@@ -95,7 +106,11 @@ def create_record(
         else:
             title = doc_title
         record["title"] = title
-        head_id = head.xpath("@id")[0] if head is not None else ""
+        head_id = (
+            head.xpath("preceding-sibling::tei:a/@xml:id", namespaces=tei_ns)[0]
+            if head is not None
+            else ""
+        )
         head_path = f"{file_name}#{head_id}"
         record["record_id"] = head_path
         record["anchor_link"] = f"./{file_name}#{head_id}"
@@ -116,17 +131,19 @@ def create_record(
 
 def create_records():
     print("creating records")
-    xml_files = [
-        f for f in glob.glob(html_path) if ("bv_doc" in f) and f.endswith(".xml")
-    ]
+    xml_files = glob.glob(xml_path)
     print(f"loaded total of {len(xml_files)} files")
     records = []
     for xml_filepath in tqdm(xml_files, total=len(xml_files)):
         print("processing", xml_filepath)
         file_name = os.path.split(xml_filepath)[-1]
         xml_doc = TeiReader(xml_filepath)
+        global tei_ns
+        tei_ns = xml_doc.ns_tei
         xml_doc_root = xml_doc.tree.getroot()
-        bv_doc_id = xml_doc_root.attrib['{http://www.w3.org/XML/1998/namespace}id'].replace(".xml", "")
+        bv_doc_id = xml_doc_root.attrib[f'{{{xml_doc.ns_xml.get("xml")}}}id'].replace(
+            ".xml", ""
+        )
         authors = xml_doc.any_xpath(
             "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
         )
@@ -143,7 +160,9 @@ def create_records():
             doc_content_type = xml_doc.any_xpath("//tei:text/@type")[0]
         except IndexError:
             doc_content_type = ""
-        doc_title = xml_doc.any_xpath("//tei:msDesc/tei:msContents/tei:msItem/tei:title")[0].text
+        doc_title = xml_doc.any_xpath(
+            "//tei:msDesc/tei:msContents/tei:msItem/tei:title"
+        )[0].text
         heads = xml_doc.any_xpath("//tei:body//tei:head")
         head_index = 0
         doc_record = create_record(
@@ -196,10 +215,10 @@ def upload_records(records):
 
 def add_sort_val_2_records(records):
     records.sort(
-        key = lambda x: (
-            x["creation_date"],# creation_date:asc
-            x["bv_doc_id_num"],# bv_doc_id_num:asc
-            x["doc_internal_orderval"]# doc_internal_orderval:asc
+        key=lambda x: (
+            x["creation_date"],  # creation_date:asc
+            x["bv_doc_id_num"],  # bv_doc_id_num:asc
+            x["doc_internal_orderval"],  # doc_internal_orderval:asc
         )
     )
     index = 0
@@ -215,6 +234,3 @@ if __name__ == "__main__":
     records = create_records()
     sorted_records = add_sort_val_2_records(records)
     result = upload_records(sorted_records)
-
-# # search_ps = {'q': 'Test', 'query_by': 'full_text'}
-# # example_request = client.collections[typesense_collection_name].documents.search(search_ps)
