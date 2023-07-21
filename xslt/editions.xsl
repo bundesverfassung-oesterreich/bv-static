@@ -240,10 +240,10 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <!-- add anker for navigation if it is head of article or sectio -->
+        <!-- add anchor for navigation if it is head of article or sectio -->
         <xsl:if test="not(preceding-sibling::tei:head)">
             <!-- create id for ref-->
-            <xsl:variable name="anker_id">
+            <xsl:variable name="anchor_id">
                 <xsl:choose>
                     <xsl:when test="ancestor::tei:div[1][@ana = 'article']">
                         <xsl:value-of select="'article_'"/>
@@ -257,7 +257,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            <a class="{$item_class}" id="{$anker_id}"/>
+            <a class="{$item_class}" id="{$anchor_id}"/>
         </xsl:if>
         <xsl:variable name="head_name" select="concat('h', $head_level_number)"/>
         <xsl:element name="{$head_name}">

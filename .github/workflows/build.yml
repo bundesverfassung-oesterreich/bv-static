@@ -26,6 +26,9 @@ jobs:
     - name: fetch data
       run: | 
         ./shellscripts/fetch_editions.sh
+    - name: add navigation anchors
+      run: |
+        ./shellscripts/add_navigation_layer.sh
     - name: Build
       run: |
         ant

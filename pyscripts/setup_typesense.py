@@ -26,7 +26,7 @@ def setup_collection():
             {"name": "title", "type": "string"},
             {"name": "full_text", "type": "string"},
             {"name": "record_id", "type": "string"},
-            {"name": "anker_link", "type": "string"},
+            {"name": "anchor_link", "type": "string"},
             {"name": "Materialart", "type": "string", "facet": True},
             {"name": "Dokumententyp", "type": "string", "facet": True},
             {"name": "Personen", "type": "string[]", "facet": True, "optional": True},
@@ -98,7 +98,7 @@ def create_record(
         head_id = head.xpath("@id")[0] if head is not None else ""
         head_path = f"{file_name}#{head_id}"
         record["record_id"] = head_path
-        record["anker_link"] = f"./{file_name}#{head_id}"
+        record["anchor_link"] = f"./{file_name}#{head_id}"
         if authors:
             record["Personen"] = authors
         if creation_date:
