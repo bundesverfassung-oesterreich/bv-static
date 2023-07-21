@@ -11,6 +11,8 @@
     <xsl:import href="partials/tei-facsimile.xsl"/>
     <xsl:import href="partials/shared.xsl"/>
     <xsl:import href="partials/aot-options.xsl"/>
+    <xsl:import href="partials/chapters.xsl"/>
+    <xsl:import href="partials/edition.xsl"/>
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"
@@ -44,7 +46,6 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-
                     <div class="container-fluid">
                         <div class="wp-transcript">
                             <div class="card-header">
@@ -90,7 +91,8 @@
                                     </div>
                                 </div>
                                 <div id="editor-widget">
-                                    <p>Text Editor</p>
+                                    <xsl:call-template name="editions"></xsl:call-template>
+                                    <xsl:call-template name="chapters"></xsl:call-template>
                                     <xsl:call-template name="annotation-options"/>
                                 </div>
                             </div>
@@ -250,6 +252,11 @@
             </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:a[contains(@class, 'navigation_')]">
+        <a class="{@class}" id="{@xml:id}">
+            <xsl:apply-templates/>
+        </a>
     </xsl:template>
 </xsl:stylesheet>
     
