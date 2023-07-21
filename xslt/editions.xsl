@@ -234,7 +234,9 @@
         <!-- determine if article or section -->
         <xsl:variable name="item_class">
             <xsl:choose>
-                <xsl:when test="ancestor::tei:div[1][@ana = 'article']"> article </xsl:when>
+                <xsl:when test="ancestor::tei:div[1][@ana = 'article']">
+                    <xsl:value-of select="'article'"/>
+                </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="ancestor::tei:div[1]/@ana"/>
                 </xsl:otherwise>
