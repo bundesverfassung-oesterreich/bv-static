@@ -219,7 +219,7 @@
             and
             not(@* | * | comment() | processing-instruction())
             and normalize-space() = '']"/>
-    <xsl:template match="tei:head">
+    <xsl:template match="//tei:body//tei:head">
         <!-- find level of head between 1 and 6, the level is not semantical, the hirarchy never interruptet-->
         <xsl:variable name="head_level_number_raw"
             select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
@@ -242,6 +242,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+        <!-- create hn element -->
         <xsl:variable name="head_name" select="concat('h', $head_level_number)"/>
         <xsl:element name="{$head_name}">
             <xsl:attribute name="class">
