@@ -71,8 +71,211 @@
                      <div class="col-md-2 col-lg-2 col-sm-12" style="text-align:right"></div>
                   </div>
                   <div id="editor-widget">
-                     <p>Text Editor</p>
-                     <div id="aot-navBarNavDropdown" class="navBarNavDropdown dropstart"><a title="Annotationen" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                     <div id="edtion-navBarNavDropdown" class="dropstart navBarNavDropdown"><a title="Auflage" href="#" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
+                              <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"></path>
+                              <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"></path></svg></a><ul class="dropdown-menu">
+                           <li><a class="dropdown-item active" aria-current="page" href="bv_doc_id__1.html" title="">Kelsen Entwurf I</a></li>
+                           <li><a class="dropdown-item" href="bv_doc_id__2.html" title="">Kelsen Entwurf II</a></li>
+                           <li><a class="dropdown-item" href="bv_doc_id__3.html" title="">Kelsen Entwurf III</a></li>
+                           <li><a class="dropdown-item" href="bv_doc_id__4.html" title="">Kelsen Entwurf IV</a></li>
+                           <li><a class="dropdown-item" href="bv_doc_id__5.html" title="">Kelsen Entwurf V</a></li>
+                           <li><a class="dropdown-item" href="bv_doc_id__6.html" title="">Kelsen Entwurf VI</a></li>
+                           <li><a class="dropdown-item" href="f_001.html" title="">Sample File 001</a></li>
+                           <li><a class="dropdown-item" href="f_002.html" title="">Sample File 002</a></li>
+                           <li><a class="dropdown-item" href="f_003.html" title="">Sample File 003</a></li>
+                        </ul>
+                     </div><script type="text/javascript">
+            $('#edition-navBarNavDropdown .dropdown-menu .nav-item').click(function(e) {
+                e.stopPropagation();
+            });
+        </script><div id="chapter-navBarNavDropdown" class="navBarNavDropdown dropstart"><a title="Kapitel" href="#" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                              <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"></path></svg></a><ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="">Erster Abschnitt.</a><ul class="dropown-menu dropdown-submenu"></ul>
+                           </li>
+                           <li><a class="dropdown-item" href="">Allgemeine Bestimmungen.</a><ul class="dropown-menu dropdown-submenu">
+                                 <li><a class="dropdown-item" href="#article_1">Art. 1.</a></li>
+                                 <li><a class="dropdown-item" href="#article_2">Art. 2 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_3">Art. 3 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_4">Art. 4 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_5">Art. 5.</a></li>
+                                 <li><a class="dropdown-item" href="#article_6">Art. 6.</a></li>
+                                 <li><a class="dropdown-item" href="#article_7">Art. 7.</a></li>
+                                 <li><a class="dropdown-item" href="#article_8">Art. 8.</a></li>
+                                 <li><a class="dropdown-item" href="#article_9">Art. 9.</a></li>
+                                 <li><a class="dropdown-item" href="#article_10">Art. 10.</a></li>
+                                 <li><a class="dropdown-item" href="#article_11">Art. 11.</a></li>
+                              </ul>
+                           </li>
+                           <li><a class="dropdown-item" href="">Zweiter Abschnitt.</a><ul class="dropown-menu dropdown-submenu">
+                                 <li><a class="dropdown-item" href="#article_12">Art. 12.</a></li>
+                                 <li><a class="dropdown-item" href="#article_13">Art. 13 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_14">Art. 14.</a></li>
+                                 <li><a class="dropdown-item" href="#article_15">Art. 15 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_16">Art. 16 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_17">Art. 17 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_18">Art. 19 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_19">Art. 27.</a></li>
+                                 <li><a class="dropdown-item" href="#article_20">Art. 28.</a></li>
+                                 <li><a class="dropdown-item" href="#article_21">Art. 29.</a></li>
+                                 <li><a class="dropdown-item" href="#article_22">Art. 30.</a></li>
+                                 <li><a class="dropdown-item" href="#article_23">Art. 34.</a></li>
+                                 <li><a class="dropdown-item" href="#article_24">Art. 32.</a></li>
+                                 <li><a class="dropdown-item" href="#article_25">Art. 33.</a></li>
+                                 <li><a class="dropdown-item" href="#article_26">Art. 34.</a></li>
+                                 <li><a class="dropdown-item" href="#article_27">Art. 2-</a></li>
+                                 <li><a class="dropdown-item" href="#article_28">Art. Z. 22.</a></li>
+                                 <li><a class="dropdown-item" href="#article_29">Art. 23.</a></li>
+                                 <li><a class="dropdown-item" href="#article_30">Art. 84.</a></li>
+                                 <li><a class="dropdown-item" href="#article_31">Art. 25.</a></li>
+                                 <li><a class="dropdown-item" href="#article_32">Art. 26.</a></li>
+                                 <li><a class="dropdown-item" href="#article_33">Art. 35 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_34">Art. 36 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_35">Art. 37.</a></li>
+                                 <li><a class="dropdown-item" href="#article_36">Art. 38.</a></li>
+                                 <li><a class="dropdown-item" href="#article_37">Art. 39.</a></li>
+                                 <li><a class="dropdown-item" href="#article_38">Art. 40 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_39">Art. 41.</a></li>
+                                 <li><a class="dropdown-item" href="#article_40">Art. 42.</a></li>
+                                 <li><a class="dropdown-item" href="#article_41">Art. 43.</a></li>
+                                 <li><a class="dropdown-item" href="#article_42">Art. 44 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_43">Art. 45 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_44">Art. 46.</a></li>
+                              </ul>
+                           </li>
+                           <li><a class="dropdown-item" href="">Dritter Abschnitt.</a><ul class="dropown-menu dropdown-submenu">
+                                 <li><a class="dropdown-item" href="#article_45">Art. 47.</a></li>
+                                 <li><a class="dropdown-item" href="#article_46">Art. 48.</a></li>
+                                 <li><a class="dropdown-item" href="#article_47">Art. 49 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_48">Art. 50.</a></li>
+                                 <li><a class="dropdown-item" href="#article_49">Art. 51.</a></li>
+                                 <li><a class="dropdown-item" href="#article_50">Art. 52.</a></li>
+                                 <li><a class="dropdown-item" href="#article_51">Art. 53 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_52">Art. 54.</a></li>
+                                 <li><a class="dropdown-item" href="#article_53">Art. 55.</a></li>
+                                 <li><a class="dropdown-item" href="#article_54">Art. 56 .</a></li>
+                                 <li><a class="dropdown-item" href="#article_55">Art. 57.</a></li>
+                                 <li><a class="dropdown-item" href="#article_56">Art. 58.</a></li>
+                                 <li><a class="dropdown-item" href="#article_57">Art. 59.</a></li>
+                                 <li><a class="dropdown-item" href="#article_58">Art. 60.</a></li>
+                                 <li><a class="dropdown-item" href="#article_59">Art. 61.</a></li>
+                                 <li><a class="dropdown-item" href="#article_60">Art. 62.</a></li>
+                                 <li><a class="dropdown-item" href="#article_61">Art. 63.</a></li>
+                                 <li><a class="dropdown-item" href="#article_62">Art. 64.</a></li>
+                                 <li><a class="dropdown-item" href="#article_63">Art. 65.</a></li>
+                                 <li><a class="dropdown-item" href="#article_64">Art. 66.</a></li>
+                                 <li><a class="dropdown-item" href="#article_65">Art. 67.</a></li>
+                                 <li><a class="dropdown-item" href="#article_66">Art. 68.</a></li>
+                                 <li><a class="dropdown-item" href="#article_67">Art. 69.</a></li>
+                                 <li><a class="dropdown-item" href="#article_68">Art. 71.</a></li>
+                                 <li><a class="dropdown-item" href="#article_69">Art. 72.</a></li>
+                                 <li><a class="dropdown-item" href="#article_70">Art. 73.</a></li>
+                                 <li><a class="dropdown-item" href="#article_71">Art. 74.</a></li>
+                                 <li><a class="dropdown-item" href="#article_72">Art. 75.</a></li>
+                                 <li><a class="dropdown-item" href="#article_73">Art. 76.</a></li>
+                                 <li><a class="dropdown-item" href="#article_74">Art. 77.</a></li>
+                                 <li><a class="dropdown-item" href="#article_75">Art. 78.</a></li>
+                                 <li><a class="dropdown-item" href="#article_76">Art. 79.</a></li>
+                                 <li><a class="dropdown-item" href="#article_77">Art. 80.</a></li>
+                                 <li><a class="dropdown-item" href="#article_78">Art. 81.</a></li>
+                                 <li><a class="dropdown-item" href="#article_79">Art. 82.</a></li>
+                                 <li><a class="dropdown-item" href="#article_80">Art. 83.</a></li>
+                                 <li><a class="dropdown-item" href="#article_81">Art. 84.</a></li>
+                                 <li><a class="dropdown-item" href="#article_82">Art. 85.</a></li>
+                                 <li><a class="dropdown-item" href="#article_83">Art. 86.</a></li>
+                                 <li><a class="dropdown-item" href="#article_84">Art. 87.</a></li>
+                                 <li><a class="dropdown-item" href="#article_85">Art. 88.</a></li>
+                              </ul>
+                           </li>
+                           <li><a class="dropdown-item" href="">Vierter Abschnitt.</a><ul class="dropown-menu dropdown-submenu">
+                                 <li><a class="dropdown-item" href="#article_86">Art. 89.</a></li>
+                                 <li><a class="dropdown-item" href="#article_87">Art. 90.</a></li>
+                                 <li><a class="dropdown-item" href="#article_88">Art. 91.</a></li>
+                                 <li><a class="dropdown-item" href="#article_89">Art. 92.</a></li>
+                                 <li><a class="dropdown-item" href="#article_90">Art. 93</a></li>
+                                 <li><a class="dropdown-item" href="#article_91">Art. 9</a></li>
+                                 <li><a class="dropdown-item" href="#article_92">Art. 95</a></li>
+                                 <li><a class="dropdown-item" href="#article_93">Art. g</a></li>
+                                 <li><a class="dropdown-item" href="#article_94">Art. 97</a></li>
+                                 <li><a class="dropdown-item" href="#article_95">Art. 98.</a></li>
+                                 <li><a class="dropdown-item" href="#article_96">Art. 99.</a></li>
+                                 <li><a class="dropdown-item" href="#article_97">Art. 100.</a></li>
+                                 <li><a class="dropdown-item" href="#article_98">Art. 101.</a></li>
+                                 <li><a class="dropdown-item" href="#article_99">Art. 102.</a></li>
+                              </ul>
+                           </li>
+                           <li><a class="dropdown-item" href="">Fünfter Abschnitt.</a><ul class="dropown-menu dropdown-submenu">
+                                 <li><a class="dropdown-item" href="#article_100">Art. 10</a></li>
+                                 <li><a class="dropdown-item" href="#article_101">Art. 105.</a></li>
+                                 <li><a class="dropdown-item" href="#article_102">Art. 106.</a></li>
+                                 <li><a class="dropdown-item" href="#article_103">Art. 104.</a></li>
+                                 <li><a class="dropdown-item" href="#article_104">Art. 102.</a></li>
+                                 <li><a class="dropdown-item" href="#article_105">Art. 109.</a></li>
+                                 <li><a class="dropdown-item" href="#article_106">Art. 100.</a></li>
+                                 <li><a class="dropdown-item" href="#article_107">Art. 116.</a></li>
+                                 <li><a class="dropdown-item" href="#article_108">Art. 114.</a></li>
+                                 <li><a class="dropdown-item" href="#article_109">Art. 113.</a></li>
+                                 <li><a class="dropdown-item" href="#article_110">Art. 114.</a></li>
+                                 <li><a class="dropdown-item" href="#article_111">Art. 113.</a></li>
+                                 <li><a class="dropdown-item" href="#article_112">Art. 116.</a></li>
+                                 <li><a class="dropdown-item" href="#article_113">Art. 117.</a></li>
+                                 <li><a class="dropdown-item" href="#article_114">Art. 118.</a></li>
+                                 <li><a class="dropdown-item" href="#article_115">Art. 119.</a></li>
+                                 <li><a class="dropdown-item" href="#article_116">Art. 10.</a></li>
+                              </ul>
+                           </li>
+                           <li><a class="dropdown-item" href="">Sechster Abschnitt</a><ul class="dropown-menu dropdown-submenu">
+                                 <li><a class="dropdown-item" href="#article_117">Art. 12d.</a></li>
+                                 <li><a class="dropdown-item" href="#article_118">Art. 122,</a></li>
+                                 <li><a class="dropdown-item" href="#article_119">Art. 129.</a></li>
+                                 <li><a class="dropdown-item" href="#article_120">Art. 12.</a></li>
+                                 <li><a class="dropdown-item" href="#article_121">Art. 125.</a></li>
+                                 <li><a class="dropdown-item" href="#article_122">Art. 126.</a></li>
+                                 <li><a class="dropdown-item" href="#article_123">Art. 127.</a></li>
+                                 <li><a class="dropdown-item" href="#article_124">Art. 128.</a></li>
+                                 <li><a class="dropdown-item" href="#article_125">Art. 129.</a></li>
+                                 <li><a class="dropdown-item" href="#article_126">Art. 130.</a></li>
+                                 <li><a class="dropdown-item" href="#article_127">Art. 139.</a></li>
+                                 <li><a class="dropdown-item" href="#article_128">Art. 13).</a></li>
+                                 <li><a class="dropdown-item" href="#article_129">Art. 133.</a></li>
+                                 <li><a class="dropdown-item" href="#article_130">Art. 134.</a></li>
+                                 <li><a class="dropdown-item" href="#article_131">Art. 135.</a></li>
+                                 <li><a class="dropdown-item" href="#article_132">Art. 136.</a></li>
+                                 <li><a class="dropdown-item" href="#article_133">Art. 137.</a></li>
+                                 <li><a class="dropdown-item" href="#article_134">Art. 136.</a></li>
+                                 <li><a class="dropdown-item" href="#article_135">Art. 142.</a></li>
+                                 <li><a class="dropdown-item" href="#article_136">Art. 142.</a></li>
+                                 <li><a class="dropdown-item" href="#article_137">Art. 149.</a></li>
+                                 <li><a class="dropdown-item" href="#article_138">Art. 14.</a></li>
+                                 <li><a class="dropdown-item" href="#article_139">Art. 114.</a></li>
+                                 <li><a class="dropdown-item" href="#article_140">Art. 11%.</a></li>
+                                 <li><a class="dropdown-item" href="#article_141">Art. 119.</a></li>
+                                 <li><a class="dropdown-item" href="#article_142">Art. 150.</a></li>
+                                 <li><a class="dropdown-item" href="#article_143">Art. 153.</a></li>
+                                 <li><a class="dropdown-item" href="#article_144">Art. 151.</a></li>
+                                 <li><a class="dropdown-item" href="#article_145">Art. 153.</a></li>
+                                 <li><a class="dropdown-item" href="#article_146">Art. 155.</a></li>
+                                 <li><a class="dropdown-item" href="#article_147">Art. 14.</a></li>
+                                 <li><a class="dropdown-item" href="#article_148">Art. 155.</a></li>
+                                 <li><a class="dropdown-item" href="#article_149">Art. 151.</a></li>
+                                 <li><a class="dropdown-item" href="#article_150">Art. 159.</a></li>
+                                 <li><a class="dropdown-item" href="#article_151">Art. 168.</a></li>
+                                 <li><a class="dropdown-item" href="#article_152">Art. 164.</a></li>
+                                 <li><a class="dropdown-item" href="#article_153">Art. 162.</a></li>
+                                 <li><a class="dropdown-item" href="#article_154">Art. 163.</a></li>
+                                 <li><a class="dropdown-item" href="#article_155">Art. 164.</a></li>
+                                 <li><a class="dropdown-item" href="#article_156">Art. 168.</a></li>
+                                 <li><a class="dropdown-item" href="#article_157">Art. 166.</a></li>
+                                 <li><a class="dropdown-item" href="#article_158">Art. 164.</a></li>
+                                 <li><a class="dropdown-item" href="#article_159">Art. 164.</a></li>
+                                 <li><a class="dropdown-item" href="#article_160">Art. 166.</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div><script type="text/javascript">
+            $('#chapter-navBarNavDropdown .dropdown-menu .nav-item').click(function(e) {
+                e.stopPropagation();
+            });
+        </script><div id="aot-navBarNavDropdown" class="navBarNavDropdown dropstart"><a title="Annotationen" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
                               <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
                               <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path></svg></a><ul class="dropdown-menu">
                            <li class="dropdown-item">
@@ -124,7 +327,7 @@
                            <span class="anchor-pb"></span><span class="anchor-pb"></span><span class="pb" source="https://files.transkribus.eu/Get?id=XNLFQOMMKRWVPAYNFEJIOADH&amp;fileType=view">2</span>
                            
                            <div class="section">
-                              
+                              <a class="navigation_section" id="navigation_section_1"></a>
                               
                               <h2 class="section">Erster Abschnitt.
                                  </h2>
@@ -133,7 +336,7 @@
                               </div>
                            
                            <div class="section">
-                              
+                              <a class="navigation_section" id="navigation_section_2"></a>
                               
                               <h2 class="section">Allgemeine Bestimmungen.
                                  </h2>
@@ -141,7 +344,7 @@
                               
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_1"></a>
                                  
                                  <h3 class="article">Art. 1.
                                     </h3>
@@ -153,7 +356,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_2"></a>
                                  
                                  <h3 class="article">Art. 2 .
                                     </h3>
@@ -165,7 +368,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_3"></a>
                                  
                                  <h3 class="article">Art. 3 .</h3>
                                  
@@ -179,7 +382,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_4"></a>
                                  
                                  <h3 class="article">Art. 4 .
                                     </h3>
@@ -190,7 +393,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_5"></a>
                                  
                                  <h3 class="article">Art. 5.
                                     </h3>
@@ -208,7 +411,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_6"></a>
                                  
                                  <h3 class="article">Art. 6.
                                     </h3>
@@ -220,7 +423,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_7"></a>
                                  
                                  <h3 class="article">Art. 7.
                                     </h3>
@@ -232,7 +435,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_8"></a>
                                  
                                  <h3 class="article">Art. 8.
                                     </h3>
@@ -273,7 +476,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_9"></a>
                                  
                                  <h3 class="article">Art. 9.
                                     </h3>
@@ -301,7 +504,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_10"></a>
                                  
                                  <h3 class="article">Art. 10.
                                     </h3>
@@ -310,7 +513,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_11"></a>
                                  
                                  <h3 class="article">Art. 11.
                                     </h3>
@@ -324,7 +527,7 @@
                               </div>
                            
                            <div class="section">
-                              
+                              <a class="navigation_section" id="navigation_section_3"></a>
                               
                               <h2 class="section">Zweiter Abschnitt.
                                  </h2>
@@ -344,7 +547,7 @@
                               
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_12"></a>
                                  
                                  <h3 class="article">Art. 12.
                                     </h3>
@@ -355,7 +558,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_13"></a>
                                  
                                  <h3 class="article">Art. 13 .
                                     </h3>
@@ -369,7 +572,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_14"></a>
                                  
                                  <h3 class="article">Art. 14.
                                     </h3>
@@ -388,7 +591,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_15"></a>
                                  
                                  <h3 class="article">Art. 15 .
                                     </h3>
@@ -407,7 +610,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_16"></a>
                                  
                                  <h3 class="article">Art. 16 .
                                     </h3>
@@ -434,7 +637,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_17"></a>
                                  
                                  <h3 class="article">Art. 17 .
                                     </h3>
@@ -468,7 +671,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_18"></a>
                                  
                                  <h3 class="article">Art. 19 .
                                     </h3>
@@ -494,7 +697,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_19"></a>
                                  
                                  <h3 class="article">Art. 27.
                                     </h3>
@@ -522,7 +725,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_20"></a>
                                  
                                  <h3 class="article">Art. 28.
                                     </h3>
@@ -539,7 +742,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_21"></a>
                                  
                                  <h3 class="article">Art. 29.
                                     </h3>
@@ -557,7 +760,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_22"></a>
                                  
                                  <h3 class="article">Art. 30.
                                     </h3>
@@ -574,7 +777,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_23"></a>
                                  
                                  <h3 class="article">Art. 34.
                                     </h3>
@@ -591,7 +794,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_24"></a>
                                  
                                  <h3 class="article">Art. 32.
                                     </h3>
@@ -604,7 +807,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_25"></a>
                                  
                                  <h3 class="article">Art. 33.
                                     </h3>
@@ -617,7 +820,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_26"></a>
                                  
                                  <h3 class="article">Art. 34.
                                     </h3>
@@ -631,7 +834,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_27"></a>
                                  
                                  <h3 class="article">Art. 2-
                                     </h3>
@@ -645,7 +848,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_28"></a>
                                  
                                  <h3 class="article">Art. Z. 22.
                                     </h3>
@@ -658,7 +861,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_29"></a>
                                  
                                  <h3 class="article">Art. 23.
                                     </h3>
@@ -676,7 +879,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_30"></a>
                                  
                                  <h3 class="article">Art. 84.
                                     </h3>
@@ -706,7 +909,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_31"></a>
                                  
                                  <h3 class="article">Art. 25.
                                     </h3>
@@ -721,7 +924,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_32"></a>
                                  
                                  <h3 class="article">Art. 26.
                                     </h3>
@@ -741,7 +944,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_33"></a>
                                  
                                  <h3 class="article">Art. 35 .
                                     </h3>
@@ -771,7 +974,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_34"></a>
                                  
                                  <h3 class="article">Art. 36 .
                                     </h3>
@@ -821,7 +1024,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_35"></a>
                                  
                                  <h3 class="article">Art. 37.
                                     </h3>
@@ -836,7 +1039,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_36"></a>
                                  
                                  <h3 class="article">Art. 38.
                                     </h3>
@@ -850,7 +1053,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_37"></a>
                                  
                                  <h3 class="article">Art. 39.
                                     </h3>
@@ -872,7 +1075,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_38"></a>
                                  
                                  <h3 class="article">Art. 40 .
                                     </h3>
@@ -904,7 +1107,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_39"></a>
                                  
                                  <h3 class="article">Art. 41.
                                     </h3>
@@ -916,7 +1119,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_40"></a>
                                  
                                  <h3 class="article">Art. 42.
                                     </h3>
@@ -926,7 +1129,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_41"></a>
                                  
                                  <h3 class="article">Art. 43.
                                     </h3>
@@ -944,7 +1147,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_42"></a>
                                  
                                  <h3 class="article">Art. 44 .
                                     </h3>
@@ -960,7 +1163,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_43"></a>
                                  
                                  <h3 class="article">Art. 45 .
                                     </h3>
@@ -975,7 +1178,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_44"></a>
                                  
                                  <h3 class="article">Art. 46.
                                     </h3>
@@ -999,7 +1202,7 @@
                               </div>
                            
                            <div class="section">
-                              
+                              <a class="navigation_section" id="navigation_section_4"></a>
                               
                               <h2 class="section">Dritter Abschnitt.
                                  </h2>
@@ -1007,7 +1210,7 @@
                               
                               
                               <div class="sub_section">
-                                 
+                                 <a class="navigation_sub_section" id="navigation_section_5"></a>
                                  
                                  <h3 class="sub_section">A Von der Regierungsgewalt des Bundes.
                                     </h3>
@@ -1015,7 +1218,7 @@
                                  
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_45"></a>
                                     
                                     <h4 class="article">Art. 47.
                                        </h4>
@@ -1039,7 +1242,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_46"></a>
                                     
                                     <h4 class="article">Art. 48.
                                        </h4>
@@ -1057,7 +1260,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_47"></a>
                                     
                                     <h4 class="article">Art. 49 .
                                        </h4>
@@ -1072,7 +1275,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_48"></a>
                                     
                                     <h4 class="article">Art. 50.
                                        </h4>
@@ -1085,7 +1288,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_49"></a>
                                     
                                     <h4 class="article">Art. 51.
                                        </h4>
@@ -1101,7 +1304,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_50"></a>
                                     
                                     <h4 class="article">Art. 52.
                                        </h4>
@@ -1116,7 +1319,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_51"></a>
                                     
                                     <h4 class="article">Art. 53 .
                                        </h4>
@@ -1135,7 +1338,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_52"></a>
                                     
                                     <h4 class="article">Art. 54.
                                        </h4>
@@ -1146,7 +1349,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_53"></a>
                                     
                                     <h4 class="article">Art. 55.
                                        </h4>
@@ -1158,7 +1361,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_54"></a>
                                     
                                     <h4 class="article">Art. 56 .
                                        </h4>
@@ -1187,7 +1390,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_55"></a>
                                     
                                     <h4 class="article">Art. 57.
                                        </h4>
@@ -1198,7 +1401,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_56"></a>
                                     
                                     <h4 class="article">Art. 58.
                                        </h4>
@@ -1211,7 +1414,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_57"></a>
                                     
                                     <h4 class="article">Art. 59.
                                        </h4>
@@ -1224,7 +1427,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_58"></a>
                                     
                                     <h4 class="article">Art. 60.
                                        </h4>
@@ -1253,7 +1456,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_59"></a>
                                     
                                     <h4 class="article">Art. 61.
                                        </h4>
@@ -1270,7 +1473,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_60"></a>
                                     
                                     <h4 class="article">Art. 62.
                                        </h4>
@@ -1294,7 +1497,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_61"></a>
                                     
                                     <h4 class="article">Art. 63.
                                        </h4>
@@ -1311,7 +1514,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_62"></a>
                                     
                                     <h4 class="article">Art. 64.
                                        </h4>
@@ -1332,7 +1535,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_63"></a>
                                     
                                     <h4 class="article">Art. 65.
                                        </h4>
@@ -1363,7 +1566,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_64"></a>
                                     
                                     <h4 class="article">Art. 66.
                                        </h4>
@@ -1381,7 +1584,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_65"></a>
                                     
                                     <h4 class="article">Art. 67.
                                        </h4>
@@ -1398,7 +1601,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_66"></a>
                                     
                                     <h4 class="article">Art. 68.
                                        </h4>
@@ -1408,7 +1611,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_67"></a>
                                     
                                     <h4 class="article">Art. 69.
                                        </h4>
@@ -1445,7 +1648,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_68"></a>
                                     
                                     <h4 class="article">Art. 71.
                                        </h4>
@@ -1456,7 +1659,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_69"></a>
                                     
                                     <h4 class="article">Art. 72.
                                        </h4>
@@ -1469,14 +1672,14 @@
                                  </div>
                               
                               <div class="sub_section">
-                                 
+                                 <a class="navigation_sub_section" id="navigation_section_6"></a>
                                  
                                  <h3 class="sub_section">B. Von der Gerichtsbarkeit des Bundes.</h3>
                                  
                                  
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_70"></a>
                                     
                                     <h4 class="article">Art. 73.
                                        </h4>
@@ -1488,7 +1691,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_71"></a>
                                     
                                     <h4 class="article">Art. 74.
                                        </h4>
@@ -1513,7 +1716,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_72"></a>
                                     
                                     <h4 class="article">Art. 75.
                                        </h4>
@@ -1524,7 +1727,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_73"></a>
                                     
                                     <h4 class="article">Art. 76.
                                        </h4>
@@ -1534,7 +1737,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_74"></a>
                                     
                                     <h4 class="article">Art. 77.
                                        </h4>
@@ -1543,7 +1746,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_75"></a>
                                     
                                     <h4 class="article">Art. 78.
                                        </h4>
@@ -1571,7 +1774,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_76"></a>
                                     
                                     <h4 class="article">Art. 79.
                                        </h4>
@@ -1589,7 +1792,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_77"></a>
                                     
                                     <h4 class="article">Art. 80.
                                        </h4>
@@ -1621,7 +1824,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_78"></a>
                                     
                                     <h4 class="article">Art. 81.
                                        </h4>
@@ -1639,7 +1842,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_79"></a>
                                     
                                     <h4 class="article">Art. 82.
                                        </h4>
@@ -1660,7 +1863,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_80"></a>
                                     
                                     <h4 class="article">Art. 83.
                                        </h4>
@@ -1673,7 +1876,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_81"></a>
                                     
                                     <h4 class="article">Art. 84.
                                        </h4>
@@ -1686,7 +1889,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_82"></a>
                                     
                                     <h4 class="article">Art. 85.
                                        </h4>
@@ -1697,7 +1900,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_83"></a>
                                     
                                     <h4 class="article">Art. 86.
                                        </h4>
@@ -1707,7 +1910,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_84"></a>
                                     
                                     <h4 class="article">Art. 87.
                                        </h4>
@@ -1722,7 +1925,7 @@
                                     </div>
                                  
                                  <div class="article">
-                                    
+                                    <a class="navigation_article" id="navigation_article_85"></a>
                                     
                                     <h4 class="article">Art. 88.
                                        </h4>
@@ -1739,7 +1942,7 @@
                               </div>
                            
                            <div class="section">
-                              
+                              <a class="navigation_section" id="navigation_section_7"></a>
                               
                               <h2 class="section">Vierter Abschnitt.
                                  </h2>
@@ -1747,7 +1950,7 @@
                               
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_86"></a>
                                  
                                  <h3 class="article">Art. 89.
                                     </h3>
@@ -1770,7 +1973,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_87"></a>
                                  
                                  <h3 class="article">Art. 90.
                                     </h3>
@@ -1785,7 +1988,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_88"></a>
                                  
                                  <h3 class="article">Art. 91.
                                     </h3>
@@ -1797,7 +2000,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_89"></a>
                                  
                                  <h3 class="article">Art. 92.
                                     </h3>
@@ -1824,7 +2027,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_90"></a>
                                  
                                  <h3 class="article">Art. 93
                                     </h3>
@@ -1840,7 +2043,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_91"></a>
                                  
                                  <h3 class="article">Art. 9
                                     </h3>
@@ -1859,7 +2062,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_92"></a>
                                  
                                  <h3 class="article">Art. 95
                                     </h3>
@@ -1878,7 +2081,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_93"></a>
                                  
                                  <h3 class="article">Art. g
                                     </h3>
@@ -1896,7 +2099,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_94"></a>
                                  
                                  <h3 class="article">Art. 97
                                     </h3>
@@ -1914,7 +2117,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_95"></a>
                                  
                                  <h3 class="article">Art. 98.
                                     </h3>
@@ -1933,7 +2136,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_96"></a>
                                  
                                  <h3 class="article">Art. 99.
                                     </h3>
@@ -1954,7 +2157,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_97"></a>
                                  
                                  <h3 class="article">Art. 100.
                                     </h3>
@@ -1968,7 +2171,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_98"></a>
                                  
                                  <h3 class="article">Art. 101.
                                     </h3>
@@ -1995,7 +2198,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_99"></a>
                                  
                                  <h3 class="article">Art. 102.
                                     </h3>
@@ -2029,7 +2232,7 @@
                               </div>
                            
                            <div class="section">
-                              
+                              <a class="navigation_section" id="navigation_section_8"></a>
                               
                               <h2 class="section">Fünfter Abschnitt.
                                  </h2>
@@ -2037,7 +2240,7 @@
                               
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_100"></a>
                                  
                                  <h3 class="article">Art. 10
                                     </h3>
@@ -2057,7 +2260,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_101"></a>
                                  
                                  <h3 class="article">Art. 105.
                                     </h3>
@@ -2070,7 +2273,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_102"></a>
                                  
                                  <h3 class="article">Art. 106.
                                     </h3>
@@ -2085,7 +2288,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_103"></a>
                                  
                                  <h3 class="article">Art. 104.
                                     </h3>
@@ -2104,7 +2307,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_104"></a>
                                  
                                  <h3 class="article">Art. 102.
                                     </h3>
@@ -2130,7 +2333,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_105"></a>
                                  
                                  <h3 class="article">Art. 109.
                                     </h3>
@@ -2156,7 +2359,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_106"></a>
                                  
                                  <h3 class="article">Art. 100.
                                     </h3>
@@ -2173,7 +2376,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_107"></a>
                                  
                                  <h3 class="article">Art. 116.
                                     </h3>
@@ -2191,7 +2394,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_108"></a>
                                  
                                  <h3 class="article">Art. 114.
                                     </h3>
@@ -2210,7 +2413,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_109"></a>
                                  
                                  <h3 class="article">Art. 113.
                                     </h3>
@@ -2225,7 +2428,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_110"></a>
                                  
                                  <h3 class="article">Art. 114.
                                     </h3>
@@ -2253,7 +2456,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_111"></a>
                                  
                                  <h3 class="article">Art. 113.
                                     </h3>
@@ -2271,7 +2474,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_112"></a>
                                  
                                  <h3 class="article">Art. 116.
                                     </h3>
@@ -2297,7 +2500,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_113"></a>
                                  
                                  <h3 class="article">Art. 117.
                                     </h3>
@@ -2312,7 +2515,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_114"></a>
                                  
                                  <h3 class="article">Art. 118.
                                     </h3>
@@ -2323,7 +2526,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_115"></a>
                                  
                                  <h3 class="article">Art. 119.
                                     </h3>
@@ -2339,7 +2542,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_116"></a>
                                  
                                  <h3 class="article">Art. 10.
                                     </h3>
@@ -2357,7 +2560,7 @@
                               </div>
                            
                            <div class="section">
-                              
+                              <a class="navigation_section" id="navigation_section_9"></a>
                               
                               <h2 class="section">Sechster Abschnitt
                                  </h2>
@@ -2365,7 +2568,7 @@
                               
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_117"></a>
                                  
                                  <h3 class="article">Art. 12d.
                                     </h3>
@@ -2377,7 +2580,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_118"></a>
                                  
                                  <h3 class="article">Art. 122,
                                     </h3>
@@ -2397,7 +2600,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_119"></a>
                                  
                                  <h3 class="article">Art. 129.
                                     </h3>
@@ -2408,7 +2611,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_120"></a>
                                  
                                  <h3 class="article">Art. 12.
                                     </h3>
@@ -2420,7 +2623,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_121"></a>
                                  
                                  <h3 class="article">Art. 125.
                                     </h3>
@@ -2437,7 +2640,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_122"></a>
                                  
                                  <h3 class="article">Art. 126.
                                     </h3>
@@ -2453,7 +2656,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_123"></a>
                                  
                                  <h3 class="article">Art. 127.
                                     </h3>
@@ -2473,7 +2676,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_124"></a>
                                  
                                  <h3 class="article">Art. 128.
                                     </h3>
@@ -2484,7 +2687,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_125"></a>
                                  
                                  <h3 class="article">Art. 129.
                                     </h3>
@@ -2500,7 +2703,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_126"></a>
                                  
                                  <h3 class="article">Art. 130.
                                     </h3>
@@ -2522,7 +2725,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_127"></a>
                                  
                                  <h3 class="article">Art. 139.
                                     </h3>
@@ -2541,7 +2744,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_128"></a>
                                  
                                  <h3 class="article">Art. 13).
                                     </h3>
@@ -2562,7 +2765,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_129"></a>
                                  
                                  <h3 class="article">Art. 133.
                                     </h3>
@@ -2576,7 +2779,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_130"></a>
                                  
                                  <h3 class="article">Art. 134.
                                     </h3>
@@ -2608,7 +2811,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_131"></a>
                                  
                                  <h3 class="article">Art. 135.
                                     </h3>
@@ -2654,7 +2857,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_132"></a>
                                  
                                  <h3 class="article">Art. 136.
                                     </h3>
@@ -2672,7 +2875,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_133"></a>
                                  
                                  <h3 class="article">Art. 137.
                                     </h3>
@@ -2687,7 +2890,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_134"></a>
                                  
                                  <h3 class="article">Art. 136.
                                     </h3>
@@ -2740,7 +2943,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_135"></a>
                                  
                                  <h3 class="article">Art. 142.
                                     </h3>
@@ -2756,7 +2959,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_136"></a>
                                  
                                  <h3 class="article">Art. 142.
                                     </h3>
@@ -2769,7 +2972,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_137"></a>
                                  
                                  <h3 class="article">Art. 149.</h3>
                                  
@@ -2798,7 +3001,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_138"></a>
                                  
                                  <h3 class="article">Art. 14.
                                     </h3>
@@ -2824,7 +3027,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_139"></a>
                                  
                                  <h3 class="article">Art. 114.
                                     </h3>
@@ -2835,7 +3038,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_140"></a>
                                  
                                  <h3 class="article">Art. 11%.</h3>
                                  
@@ -2858,7 +3061,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_141"></a>
                                  
                                  <h3 class="article">Art. 119.
                                     </h3>
@@ -2870,7 +3073,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_142"></a>
                                  
                                  <h3 class="article">Art. 150.
                                     </h3>
@@ -2898,7 +3101,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_143"></a>
                                  
                                  <h3 class="article">Art. 153.
                                     </h3>
@@ -2918,7 +3121,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_144"></a>
                                  
                                  <h3 class="article">Art. 151.
                                     </h3>
@@ -2935,7 +3138,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_145"></a>
                                  
                                  <h3 class="article">Art. 153.
                                     </h3>
@@ -2973,7 +3176,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_146"></a>
                                  
                                  <h3 class="article">Art. 155.
                                     </h3>
@@ -2992,7 +3195,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_147"></a>
                                  
                                  <h3 class="article">Art. 14.
                                     </h3>
@@ -3012,7 +3215,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_148"></a>
                                  
                                  <h3 class="article">Art. 155.
                                     </h3>
@@ -3034,7 +3237,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_149"></a>
                                  
                                  <h3 class="article">Art. 151.
                                     </h3>
@@ -3046,7 +3249,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_150"></a>
                                  
                                  <h3 class="article">Art. 159.</h3>
                                  
@@ -3066,7 +3269,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_151"></a>
                                  
                                  <h3 class="article">Art. 168.
                                     </h3>
@@ -3088,7 +3291,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_152"></a>
                                  
                                  <h3 class="article">Art. 164.
                                     </h3>
@@ -3100,7 +3303,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_153"></a>
                                  
                                  <h3 class="article">Art. 162.
                                     </h3>
@@ -3114,7 +3317,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_154"></a>
                                  
                                  <h3 class="article">Art. 163.
                                     </h3>
@@ -3139,7 +3342,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_155"></a>
                                  
                                  <h3 class="article">Art. 164.
                                     </h3>
@@ -3160,7 +3363,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_156"></a>
                                  
                                  <h3 class="article">Art. 168.
                                     </h3>
@@ -3177,7 +3380,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_157"></a>
                                  
                                  <h3 class="article">Art. 166.</h3>
                                  
@@ -3221,7 +3424,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_158"></a>
                                  
                                  <h3 class="article">Art. 164.
                                     </h3>
@@ -3232,7 +3435,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_159"></a>
                                  
                                  <h3 class="article">Art. 164.
                                     </h3>
@@ -3250,7 +3453,7 @@
                                  </div>
                               
                               <div class="article">
-                                 
+                                 <a class="navigation_article" id="navigation_article_160"></a>
                                  
                                  <h3 class="article">Art. 166.
                                     </h3>
