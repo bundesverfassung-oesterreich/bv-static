@@ -362,16 +362,22 @@
             <ab facs="#facs_2_tr_4" type="">1-
       </ab>
             <div ana="section">
-               <a class="section" xml:id="section_1"/>
+               <a class="navigation_section" xml:id="navigation_section_1"/>
+               <head>Ereter Abschnitt.
+      </head>
                <ab>
 </ab>
             </div>
             <div ana="section">
-               <a class="section" xml:id="section_2"/>
+               <a class="navigation_section" xml:id="navigation_section_2"/>
+               <head>Allgemeine Bestimmungen.
+      </head>
                <ab>
 </ab>
                <div ana="article">
-                  <a class="article" xml:id="article_1"/>
+                  <a class="navigation_article" xml:id="navigation_article_1"/>
+                  <head>Art.
+      </head>
                   <ab>Die Republik Oesterreich ist ein</ab>
                   <ab facs="#facs_2_tr_5" type="">freier Bund der selb ständigen (souve-
       <lb/>ränen) Länder: Niederösterreich, Ober-
@@ -380,7 +386,9 @@
       <lb/>eines selbständigen Landee hat.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_2"/>
+                  <a class="navigation_article" xml:id="navigation_article_2"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_2_tr_3" type="">Oesterreich ist eine demokrati -
       <lb/>sche Republik.
       <lb/>Alle öffentlichen Gewalten werden
@@ -388,7 +396,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_3"/>
+                  <a class="navigation_article" xml:id="navigation_article_3"/>
+                  <head>Art.
+      </head>
                   <ab>Das Bundesgebiet umfasst die Ge-
       <lb/>biete der Länder im folgenden Umfange:</ab>
                   <ab facs="#facs_2_tr_2" type="">Niederösterreich: . . . . . . . .
@@ -398,7 +408,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_4"/>
+                  <a class="navigation_article" xml:id="navigation_article_4"/>
+                  <head>Art.
+      </head>
                   <ab>Das Bundesgebiet bildet ein ein-
       <lb/>heitliches Zoll- und Handelsgebiet.
       <lb/>Innerhalb der Grenzen dee Bundes
@@ -407,7 +419,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_5"/>
+                  <a class="navigation_article" xml:id="navigation_article_5"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_2_tr_1" type="">Eine Aenderung des Bundeegebietes
@@ -424,7 +437,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_6"/>
+                  <a class="navigation_article" xml:id="navigation_article_6"/>
+                  <head>Art.
+      </head>
                   <ab>Jeder Landesbürger ist Bürger des
       <lb/>Bundss.
       <lb/>Die Landesbürgerechaft ist an
@@ -432,7 +447,9 @@
       <lb/>eines Landee gebunden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_7"/>
+                  <a class="navigation_article" xml:id="navigation_article_7"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_3_tr_3" type="">Jeder Bundesangehörige hat in
       <lb/>jedem Lande des Bundes die gleichen
       <lb/>Rechte und Pflichten wie die Angehö-
@@ -440,7 +457,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_8"/>
+                  <a class="navigation_article" xml:id="navigation_article_8"/>
+                  <head>Art.
+      </head>
                   <ab>Die selbständigen Länder Nieder-
       <lb/>österreich etz. übertragen dem Bunde
       <lb/>ihre staatsgewalt in den folgenden
@@ -470,7 +489,9 @@
       <lb/>ziehung zu.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_9"/>
+                  <a class="navigation_article" xml:id="navigation_article_9"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_4_tr_2" type="">Der Gesetzgebung des Bundes ist
       <lb/>übertragen:
       <lb/>1) die Aenderung der Bundesver-
@@ -495,12 +516,16 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_10"/>
+                  <a class="navigation_article" xml:id="navigation_article_10"/>
+                  <head>Art.
+      </head>
                   <ab>Bundesrecht bricht Landesrecht.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_11"/>
+                  <a class="navigation_article" xml:id="navigation_article_11"/>
+                  <head>Art.
+      </head>
                   <ab>Soferne eine Angelegenheit nicht
       <lb/>ausdrücklich durch die Bundesverfaseung
       <lb/>./.</ab>
@@ -519,19 +544,24 @@
                </div>
             </div>
             <div ana="section">
-               <a class="section" xml:id="section_3"/>
+               <a class="navigation_section" xml:id="navigation_section_3"/>
+               <head>Zweiter Abechnitt.
+      </head>
                <ab facs="#facs_5_tr_3" type="">Von der Gesetzgebung des zundes.
       <lb/>a) per zundestag.
       </ab>
                <div ana="article">
-                  <a class="article" xml:id="article_12"/>
+                  <a class="navigation_article" xml:id="navigation_article_12"/>
+                  <head>Art.
+      </head>
                   <ab>Der von ganzen Bundesvolk gewählte
       <lb/>Bundestag iet das höchste Organ des
       <lb/>Bundes.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_13"/>
+                  <a class="navigation_article" xml:id="navigation_article_13"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_5_tr_2" type="">Der Sitz des Bundestages ist die
@@ -544,7 +574,9 @@
       <lb/>gebietee berufen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_14"/>
+                  <a class="navigation_article" xml:id="navigation_article_14"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_5_tr_4" type="">(1) Dem Bundestag obliegt die
       <lb/>Gesetzgebung des Bundes.
       <lb/>(2) Der Bundestag allein hat das</ab>
@@ -560,7 +592,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_15"/>
+                  <a class="navigation_article" xml:id="navigation_article_15"/>
+                  <head>Art.
+      </head>
                   <ab>Dem Bundestag allein obliegt die</ab>
                   <ab facs="#facs_6_tr_4" type="">jährliche Bewilligung des Eundesbudgets
       <lb/>die Aufnahme und Konvertierung von
@@ -570,7 +604,9 @@
       <lb/>Bundesrechnungsabschlusses.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_16"/>
+                  <a class="navigation_article" xml:id="navigation_article_16"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_6_tr_2" type="">Zum Bundestag werden in dem ge-
       <lb/>samten Bundesgebiet . . . . .Abgeord-
       <lb/>nete auf Grund des gleichen, direkten,
@@ -597,7 +633,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_17"/>
+                  <a class="navigation_article" xml:id="navigation_article_17"/>
+                  <head>Art.
+      </head>
                   <ab>Die Legislaturperiode des Bundes-
       <lb/>tages beträgt . . . . . . .Jahre vom
       <lb/>Tage seiner ersten Einberufung an ge-
@@ -610,7 +648,9 @@
       <lb/>betragen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_18"/>
+                  <a class="navigation_article" xml:id="navigation_article_18"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_7_tr_2" type="">Während der Sitzungeperiode
       <lb/>kann der Bundestag durch einen Beschluss
       <lb/>des Hauses oder auf Vorschlag der
@@ -625,7 +665,9 @@
       <lb/>Bundesregierung zu verständigen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_19"/>
+                  <a class="navigation_article" xml:id="navigation_article_19"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_7_tr_1" type="">Auf Antrag der Bundesregierung
       <lb/>kann der Bundespräsident den Bundestag,
       <lb/>jedoch nur einmal aus demselben Anlasse,
@@ -641,7 +683,9 @@
       <lb/>geführter Wahl einzuberufen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_20"/>
+                  <a class="navigation_article" xml:id="navigation_article_20"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_8_tr_1" type="">per Bundestag wählt aus seiner
       <lb/>Mitte auf die Dauer der Sitzungepe-
       <lb/>riode einen Präeidenten sowie einen zwei
@@ -662,7 +706,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_21"/>
+                  <a class="navigation_article" xml:id="navigation_article_21"/>
+                  <head>Art.
+      </head>
                   <ab>Die Sitzungen des Bundestages
       <lb/>eind öffentlich.
       <lb/>Dem Hause steht dae Recht zu,</ab>
@@ -677,7 +723,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_22"/>
+                  <a class="navigation_article" xml:id="navigation_article_22"/>
+                  <head>Art.
+      </head>
                   <ab>Die Mitglieder des Bundestages
       <lb/>können wegen der in Ausübung ihres
       <lb/>rerufes geschehenen Abstimmungen nie-</ab>
@@ -703,7 +751,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_23"/>
+                  <a class="navigation_article" xml:id="navigation_article_23"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_9_tr_1" type="">Wahrheitsgetreue Berichte über
@@ -714,7 +763,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_24"/>
+                  <a class="navigation_article" xml:id="navigation_article_24"/>
+                  <head>Art.
+      </head>
                   <ab>Die dem Bundestage an gehähren-
       <lb/>den öffentlichen Angestellten und Funk-
       <lb/>tionäre bedürfen zur Ausübung ihres
@@ -725,7 +776,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_25"/>
+                  <a class="navigation_article" xml:id="navigation_article_25"/>
+                  <head>Art.
+      </head>
                   <ab>Die Mitgliederder Bundeeregie-
       <lb/>rung sowie die von ihnen enteendeten Ver
       <lb/>treter sind berechtigt, an allen Be-</ab>
@@ -738,7 +791,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_26"/>
+                  <a class="navigation_article" xml:id="navigation_article_26"/>
+                  <head>Art.
+      </head>
                   <ab>Gesetzesvorschläge gelangen an
       <lb/>den Bundestag entweder als Anträge
       <lb/>seiner Mitglieder oder als Vorlage der
@@ -765,7 +820,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_27"/>
+                  <a class="navigation_article" xml:id="navigation_article_27"/>
+                  <head>Art.
+      </head>
                   <ab>Zu einem Beschlues des Pundes-
       <lb/>tagee iet die Anwesenheit von mindestene
       <lb/>. . .Mitgliedern und die absolute
@@ -779,7 +836,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_28"/>
+                  <a class="navigation_article" xml:id="navigation_article_28"/>
+                  <head>Art.
+      </head>
                   <ab>Jede Gesamtänderung der Bundes-
       <lb/>verfassung, eine teilweise Aenderung
       <lb/>aber nur, wenn es von . . .Mitgliedern
@@ -793,7 +852,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_29"/>
+                  <a class="navigation_article" xml:id="navigation_article_29"/>
+                  <head>Art.
+      </head>
                   <ab>Einer solchen Volkeabstimmung iet
       <lb/>ferner hineichtlich dessen dies von
       <lb/>wenigstene 400.000 Stimmbe rechtigten</ab>
@@ -804,7 +865,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_30"/>
+                  <a class="navigation_article" xml:id="navigation_article_30"/>
+                  <head>Art.
+      </head>
                   <ab>Stimmberechtigt ist jeder zum</ab>
                   <pb facs="#facs_12" n="12" xml:id="img_0012"/>
                   <ab facs="#facs_12_tr_1" type="">- 11 -
@@ -819,7 +882,9 @@
       <lb/>gesprochen hat.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_31"/>
+                  <a class="navigation_article" xml:id="navigation_article_31"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_12_tr_2" type="">Das Ergebnis der Volksabstim-
       <lb/>mung ist amtlich zu verlautbaren.
       <lb/>Im Falle eine Bundesgesetz durch Volke-
@@ -828,7 +893,9 @@
       <lb/>kundzumachen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_32"/>
+                  <a class="navigation_article" xml:id="navigation_article_32"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_12_tr_4" type="">Ist eine Gesamtänderung der
       <lb/>Bundesverfassung durch Volksabstimmung
       <lb/>abgelehnt worden, hat der pundespräsi-
@@ -837,7 +904,9 @@
       <lb/>Neuwahlen auszuschreiben.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_33"/>
+                  <a class="navigation_article" xml:id="navigation_article_33"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_12_tr_5" type="">Das Verfahren für die volksab-
       <lb/>stimmung sowie für die im Art. . ..
       <lb/>vorgesehene Initiative ist in dem Gesetz
@@ -845,7 +914,9 @@
       <lb/>Bundestag geregelt.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_34"/>
+                  <a class="navigation_article" xml:id="navigation_article_34"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_12_tr_3" type="">Alle Gesetzesbeschlüese der
       <lb/>Bundestage sind durch diesen Präsiden-
       <lb/>ten im Wege des Bundeskanzlers dem
@@ -874,7 +945,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_35"/>
+                  <a class="navigation_article" xml:id="navigation_article_35"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_13_tr_5" type="">Der Bundespräsident hat die
@@ -912,7 +984,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_36"/>
+                  <a class="navigation_article" xml:id="navigation_article_36"/>
+                  <head>Art.
+      </head>
                   <ab>Der Bundestag ist befugt, die</ab>
                   <ab facs="#facs_14_tr_4" type="">Geschäftsführung der Bundesregierung
       <lb/>zu überprüfen, deren Mitglieder über
@@ -925,7 +999,9 @@
                </div>
             </div>
             <div ana="section">
-               <a class="section" xml:id="section_4"/>
+               <a class="navigation_section" xml:id="navigation_section_4"/>
+               <head>III. Abschnitt.
+      </head>
                <ab facs="#facs_14_tr_2" type="">von der Vollziehung des Bundes.
       <lb/>a) Von der Regierungsgewalt des
       <lb/>Bundes.
@@ -935,7 +1011,9 @@
       <lb/>1) Der Bundespräeident.
       </ab>
                <div ana="article">
-                  <a class="article" xml:id="article_37"/>
+                  <a class="navigation_article" xml:id="navigation_article_37"/>
+                  <head>Art.
+      </head>
                   <ab>Der Präsident des Bundestages
       <lb/>führt in Ausübung der ihm verfassungs-
       <lb/>mässig übertragenen Funktionen der Re-
@@ -947,7 +1025,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_38"/>
+                  <a class="navigation_article" xml:id="navigation_article_38"/>
+                  <head>Art.
+      </head>
                   <ab>Der Bundespräeident vertritt
       <lb/>die Republik nach Aussen, empfängt
       <lb/>und beglaubigt die Gesandten und ra-
@@ -955,7 +1035,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_39"/>
+                  <a class="navigation_article" xml:id="navigation_article_39"/>
+                  <head>Art.
+      </head>
                   <ab>Dem Bundespräsidenten obliegt:
       <lb/>Die Einberufung, die Vertagung,</ab>
                   <ab facs="#facs_15_tr_4" type="">die Schliessung der gession und die Auf-
@@ -982,7 +1064,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_40"/>
+                  <a class="navigation_article" xml:id="navigation_article_40"/>
+                  <head>Art.
+      </head>
                   <ab>Der wundeepräeident kann dae</ab>
                   <ab facs="#facs_16_tr_5" type="">ihm zustehende Ernennungerecht von Be-
       <lb/>amten, Offizieren oder sonstigen
@@ -992,7 +1076,9 @@
       <lb/>Bundesregierung delegieren.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_41"/>
+                  <a class="navigation_article" xml:id="navigation_article_41"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_16_tr_4" type="">Alle Akte des Bundespräsidenten
       <lb/>bedürfen der Gegenzeichnung des Bundes-
       <lb/>kanzlers und des ressortmäesig zu-
@@ -1000,7 +1086,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_42"/>
+                  <a class="navigation_article" xml:id="navigation_article_42"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_16_tr_2" type="">Für die Ausübung der ihm über-
@@ -1013,7 +1100,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_43"/>
+                  <a class="navigation_article" xml:id="navigation_article_43"/>
+                  <head>Art.
+      </head>
                   <ab>wit der Ausübung der Regierungs-</ab>
                   <ab facs="#facs_16_tr_1" type="">und Vollzugegewalt des Bundes eind,
       <lb/>soweit diese nicht dem Bundespräeidenten
@@ -1037,7 +1126,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_44"/>
+                  <a class="navigation_article" xml:id="navigation_article_44"/>
+                  <head>Art.
+      </head>
                   <ab>Die Bundesregierung wird von der</ab>
                   <ab facs="#facs_17_tr_6" type="">Bundesversammlung über den Gesamtvor-
       <lb/>schlag eines besonderen Ausschusses,
@@ -1053,7 +1144,9 @@
       <lb/>Bundeskanzler gegengezeichnet.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_45"/>
+                  <a class="navigation_article" xml:id="navigation_article_45"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_17_tr_1" type="">Bis die neue Bundesregierung
       <lb/>gebildet ist, hat der Bundespräsident
       <lb/>entweder die scheidende Regierung unter
@@ -1072,7 +1165,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_46"/>
+                  <a class="navigation_article" xml:id="navigation_article_46"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_18_tr_2" type="">vereagt der Bundestag der Bun-
@@ -1100,14 +1194,18 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_47"/>
+                  <a class="navigation_article" xml:id="navigation_article_47"/>
+                  <head>Art.
+      </head>
                   <ab>Die Mitglieder der Bundesregie-
       <lb/>rung sind nach Massgabe des Art. . .
       <lb/>der Bundesverfassung dem Bundestage
       <lb/>verantwortlich.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_48"/>
+                  <a class="navigation_article" xml:id="navigation_article_48"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_18_tr_3" type="">Zur Durchführung der Aufgaben
       <lb/>der Bundesverwaltung sind die Bundes-
       <lb/>kanzlei und folgende Bundesämter be-
@@ -1124,13 +1222,17 @@
       <lb/>durch einfaches Gesetz.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_49"/>
+                  <a class="navigation_article" xml:id="navigation_article_49"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_19_tr_2" type="">Zur Vertretung des Bundeekanzlere
       <lb/>ist ein Vizekanzler berufen.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_50"/>
+                  <a class="navigation_article" xml:id="navigation_article_50"/>
+                  <head>Art.
+      </head>
                   <ab>Der Bundeskanzler, der Vizekanz-
       <lb/>ler oder ein staatssekretär kann auch
       <lb/>mit der Führung eines ihm nicht nach</ab>
@@ -1148,7 +1250,9 @@
       <lb/>Bundesamtedirektors führt.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_51"/>
+                  <a class="navigation_article" xml:id="navigation_article_51"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_19_tr_1" type="">Ueber das Bundesheer verfügt
       <lb/>die Bundesregierung. Sie übt die
       <lb/>Befehlsgewalt ausschliesslich durch
@@ -1158,7 +1262,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_52"/>
+                  <a class="navigation_article" xml:id="navigation_article_52"/>
+                  <head>Art.
+      </head>
                   <ab>Im Bundeerat üben die Länder ihren
       <lb/>verfassungsmäesigen Einfluss auf die</ab>
                   <ab facs="#facs_19_tr_5" type="">1.</ab>
@@ -1169,7 +1275,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_53"/>
+                  <a class="navigation_article" xml:id="navigation_article_53"/>
+                  <head>Art.
+      </head>
                   <ab>Im Bundesrat hat jedes Land
       <lb/>mindestene 1 Stimme. Mit mehr ale
       <lb/>200.000 Einwohner hat ein Land 2,
@@ -1183,14 +1291,17 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_54"/>
+                  <a class="navigation_article" xml:id="navigation_article_54"/>
+                  <head>Art.
+      </head>
                   <ab>In den Ausschüssen, die der Bun-
       <lb/>desrat aus seiner Mitte bildet, hat
       <lb/>jedes Land nur eine Stimme.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_55"/>
+                  <a class="navigation_article" xml:id="navigation_article_55"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_20_tr_4" type="">jedes Land ist im Bundeerat
@@ -1208,7 +1319,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_56"/>
+                  <a class="navigation_article" xml:id="navigation_article_56"/>
+                  <head>Art.
+      </head>
                   <ab>Der Bundeerat tritt mindeetens
       <lb/>einmal im Monat unter dem Vorsitz des
       <lb/>Bundeskanzlers zusammen. Auch wenn ee
@@ -1224,7 +1337,9 @@
       <lb/>Beratung je derzeit gehört werden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_57"/>
+                  <a class="navigation_article" xml:id="navigation_article_57"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_21_tr_1" type="">Die Bundesregierung sowie jedes
       <lb/>Mitglied des Bundesrates sind befugt,
       <lb/>im Bundesrate Anträge zu stellen.
@@ -1237,7 +1352,9 @@
       <lb/>Stimmen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_58"/>
+                  <a class="navigation_article" xml:id="navigation_article_58"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_21_tr_2" type="">per Bundeerat ist von der
       <lb/>Bundesregierung über die Führung der
       <lb/>Bundesgeschäfte auf dem laufenden
@@ -1250,7 +1367,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_59"/>
+                  <a class="navigation_article" xml:id="navigation_article_59"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_21_tr_3" type="">Alle Gerichtebarkeit geht von
@@ -1261,7 +1379,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_60"/>
+                  <a class="navigation_article" xml:id="navigation_article_60"/>
+                  <head>Art.
+      </head>
                   <ab>Die verfaseung und Zuständigkeit
       <lb/>./.</ab>
                   <pb facs="#facs_22" n="22" xml:id="img_0022"/>
@@ -1282,25 +1402,32 @@
       <lb/>sofort ausser Kraft zu setzen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_61"/>
+                  <a class="navigation_article" xml:id="navigation_article_61"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_22_tr_1" type="">Die Militärgerichtsbarkeit ist - ausser für
       <lb/>Kriegszeiten- aufzuheben. Das nähere regelt ein
       <lb/>Bundesgesetz.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_62"/>
+                  <a class="navigation_article" xml:id="navigation_article_62"/>
+                  <head>Art.
+      </head>
                   <ab>Die Gerichtsbarkeit in Polizei- und Gefälls
       <lb/>strafsachen wird durch Gesetz geregelt.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_63"/>
+                  <a class="navigation_article" xml:id="navigation_article_63"/>
+                  <head>Art.
+      </head>
                   <ab>Die Todesstrafe ist abgeschafft.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_64"/>
+                  <a class="navigation_article" xml:id="navigation_article_64"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_22_tr_3" type="">Die Richter werden - soferne nicht anders
@@ -1323,7 +1450,9 @@
       <lb/>in Gehaltsklassen unabhängig.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_65"/>
+                  <a class="navigation_article" xml:id="navigation_article_65"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_23_tr_5" type="">Die Richter sind in Ausübung ihres
       <lb/>richterlichen Amtes selbständig und unab-
       <lb/>hängig.
@@ -1337,7 +1466,9 @@
       <lb/>Kommissionen zu erledigen sind.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_66"/>
+                  <a class="navigation_article" xml:id="navigation_article_66"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_23_tr_2" type="">Vor Erreichung der im Gerichtsor-
       <lb/>ganisationsgesetz festgesetzten Alters-
       <lb/>grenze dürfen Richter nur auf Grund eines
@@ -1365,7 +1496,9 @@
       <lb/>können.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_67"/>
+                  <a class="navigation_article" xml:id="navigation_article_67"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_24_tr_3" type="">Die Prüfung der Giltigkeit gehörig
       <lb/>kundgemachter Gesetze steht den Gerichten
       <lb/>nicht zu.
@@ -1378,7 +1511,9 @@
       <lb/>Bundesverfassungsgerichte zu stellen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_68"/>
+                  <a class="navigation_article" xml:id="navigation_article_68"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_24_tr_4" type="">Wegen der von einem Richter in Aus-
       <lb/>übung seines Amtes verursachten Rechtsver-
       <lb/>letzungen kann dieser Richter sowie der
@@ -1392,7 +1527,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_69"/>
+                  <a class="navigation_article" xml:id="navigation_article_69"/>
+                  <head>Art.
+      </head>
                   <ab>Die Verhandlungen vor dem erken-
       <lb/>nenden Richter sind in Zivil- und Straf-
       <lb/>rechtssachen mündlich und öffentlich.Die</ab>
@@ -1404,7 +1541,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_70"/>
+                  <a class="navigation_article" xml:id="navigation_article_70"/>
+                  <head>Art.
+      </head>
                   <ab>Bei den mit schweren Strafen be-</ab>
                   <ab facs="#facs_25_tr_5" type="">drohten Verbrechen, die das Gesetz zu be-
       <lb/>zeichnen hat, sowie bei allen politischen
@@ -1414,20 +1553,26 @@
       <lb/>klagten.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_71"/>
+                  <a class="navigation_article" xml:id="navigation_article_71"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_25_tr_1" type="">Als oberste Instanz in Zivil- und
       <lb/>Strafrechtssachen besteht das Oberste
       <lb/>Bundesgericht in Wien.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_72"/>
+                  <a class="navigation_article" xml:id="navigation_article_72"/>
+                  <head>Art.
+      </head>
                   <ab>Die Erteilung von Amnestien erfolgt
       <lb/>durch Bundesgesetz.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_73"/>
+                  <a class="navigation_article" xml:id="navigation_article_73"/>
+                  <head>Art.
+      </head>
                   <ab>Die Rechtspflege wird von der Ver-</ab>
                   <ab facs="#facs_25_tr_2" type="">waltung in allen Instanzen getrennt. Die
       <lb/>Staatsanwaltschaft gilt als Verwaltungs-
@@ -1435,7 +1580,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_74"/>
+                  <a class="navigation_article" xml:id="navigation_article_74"/>
+                  <head>Art.
+      </head>
                   <ab>In allen Fällen, wo eine Verwal-
       <lb/>tungsbehörde nach den bestehenden oder
       <lb/>künftig zu erlassenden Gesetzen über Pri-
@@ -1453,7 +1600,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_75"/>
+                  <a class="navigation_article" xml:id="navigation_article_75"/>
+                  <head>Art.
+      </head>
                   <ab>Die gesetzgebende Gewalt der Län-</ab>
                   <ab facs="#facs_26_tr_5" type="">der wird durch die Landtage ausgeübt, deren
       <lb/>Mitglieder auf Grund des gleichen, gehei-
@@ -1469,7 +1618,9 @@
       <lb/>ist.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_76"/>
+                  <a class="navigation_article" xml:id="navigation_article_76"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_26_tr_2" type="">Die Mitglieder des Landtages ge-
       <lb/>niessen die gleiche Immunität wie die Mit-
       <lb/>glieder des Bundestages wobei die Be-
@@ -1481,7 +1632,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_77"/>
+                  <a class="navigation_article" xml:id="navigation_article_77"/>
+                  <head>Art.
+      </head>
                   <ab>Zu einem Landesgesetz ist erfor-
       <lb/>derlich der Beschluss des Landtages, die
       <lb/>Beurkundung durch deren Präsidenten und
@@ -1492,7 +1645,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_78"/>
+                  <a class="navigation_article" xml:id="navigation_article_78"/>
+                  <head>Art.
+      </head>
                   <ab>Alle Gesetzesbeschlüsse der Land-
       <lb/>tage sind unmittelbar nach erfolgter Be-
       <lb/>schlussfassung durch den Landtag und vor
@@ -1511,7 +1666,9 @@
       <lb/>wiederholt wird.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_79"/>
+                  <a class="navigation_article" xml:id="navigation_article_79"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_27_tr_4" type="">Die durch Landesgesetz zu erlassen-
       <lb/>de Landesverfassung kann - insoweit da¬
       <lb/>durch die Bundesverfassung nicht berührt
@@ -1525,7 +1682,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_80"/>
+                  <a class="navigation_article" xml:id="navigation_article_80"/>
+                  <head>Art.
+      </head>
                   <ab>Die Kundmachung der Landesgesetze
       <lb/>erfolgt mit Berufung auf den Beschluss des
       <lb/>Landtages durch die Landesregierung im
@@ -1545,7 +1704,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_81"/>
+                  <a class="navigation_article" xml:id="navigation_article_81"/>
+                  <head>Art.
+      </head>
                   <ab>Jeder Landtag kann auf Antrag der
       <lb/>Bundesregierung vom Bundespräsidenten
       <lb/>aufgelöst werden.
@@ -1557,7 +1718,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_82"/>
+                  <a class="navigation_article" xml:id="navigation_article_82"/>
+                  <head>Art.
+      </head>
                   <ab>Die vollziehende Gewalt jedes Lan-
       <lb/>des wird durch eine vom Landtag zu wählende
       <lb/>Landesregierung ausgeübt.
@@ -1572,7 +1735,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_83"/>
+                  <a class="navigation_article" xml:id="navigation_article_83"/>
+                  <head>Art.
+      </head>
                   <ab>Der Landeshauptmann bezw. sein</ab>
                   <pb facs="#facs_29" n="29" xml:id="img_0029"/>
                   <ab facs="#facs_29_tr_2" type="">28 -
@@ -1591,7 +1756,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_84"/>
+                  <a class="navigation_article" xml:id="navigation_article_84"/>
+                  <head>Art.
+      </head>
                   <ab>Zur Leitung des gesamten inneren</ab>
                   <ab facs="#facs_29_tr_5" type="">Dienstbetriebes der Landesregierung ist
       <lb/>ein Landesamtsdirektor zu bestellen; er
@@ -1602,7 +1769,9 @@
       <lb/>zu sorgen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_85"/>
+                  <a class="navigation_article" xml:id="navigation_article_85"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_29_tr_3" type="">In dem der Landesregierung vom
       <lb/>Bunde übertragenen Wirkungskreis ist der
       <lb/>Landesamtsdirektor das unmittelbare Hilfs-
@@ -1622,7 +1791,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_86"/>
+                  <a class="navigation_article" xml:id="navigation_article_86"/>
+                  <head>Art.
+      </head>
                   <ab>Die Bestellung des Landesamtsdi-</ab>
                   <ab facs="#facs_30_tr_3" type="">rektors bedarf der Bestätigung der Bundes-
       <lb/>regierung. Zur Vertretung des Landesamts-
@@ -1633,7 +1804,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_87"/>
+                  <a class="navigation_article" xml:id="navigation_article_87"/>
+                  <head>Art.
+      </head>
                   <ab>Die vollziehende Gewalt des Bundes</ab>
                   <ab facs="#facs_30_tr_4" type="">wird im Bereiche der Länder von den Landes-
       <lb/>regierungen und den ihnen unterstellten
@@ -1657,7 +1830,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_88"/>
+                  <a class="navigation_article" xml:id="navigation_article_88"/>
+                  <head>Art.
+      </head>
                   <ab>Aus besonderen Gründen kann auf Be-
       <lb/>schluss der Bundesregierung zur Wahrneh-
       <lb/>mung der Angelegenheiten des der Landesre-</ab>
@@ -1674,11 +1849,15 @@
                </div>
             </div>
             <div ana="section">
-               <a class="section" xml:id="section_5"/>
+               <a class="navigation_section" xml:id="navigation_section_5"/>
+               <head>Fünfter Abschnitt.
+      </head>
                <ab facs="#facs_31_tr_3" type="">Von der Rechnungskontrolle des Bundes.
       </ab>
                <div ana="article">
-                  <a class="article" xml:id="article_89"/>
+                  <a class="navigation_article" xml:id="navigation_article_89"/>
+                  <head>Art.
+      </head>
                   <ab>Zur Ueberprüfung der Gebarung in</ab>
                   <ab facs="#facs_31_tr_5" type="">der gesamten Staatswirtschaft des Bundes
       <lb/>wie der Länder, einschliesslich der Staats-
@@ -1694,7 +1873,9 @@
       <lb/>Bundesrat.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_90"/>
+                  <a class="navigation_article" xml:id="navigation_article_90"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_31_tr_2" type="">Der Bundesrechnungshof besteh aus
       <lb/>einem Präsidenten und den erforderlichen
       <lb/>Beamten und Hilfskräften.
@@ -1706,7 +1887,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_91"/>
+                  <a class="navigation_article" xml:id="navigation_article_91"/>
+                  <head>Art.
+      </head>
                   <ab>Der Präsident des Bundesrechnungs-
       <lb/>hofes ist den Staatssekretären - auch in
       <lb/>den Bezügen - gleichgestellt.
@@ -1717,7 +1900,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_92"/>
+                  <a class="navigation_article" xml:id="navigation_article_92"/>
+                  <head>Art.
+      </head>
                   <ab>Dem Präsidenten des Bundesrech-</ab>
                   <ab facs="#facs_32_tr_3" type="">nungshofes obliegt dessen oberste Leitung,
       <lb/>Er ist hinsichtlich der Verantwortlichkeit
@@ -1734,7 +1919,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_93"/>
+                  <a class="navigation_article" xml:id="navigation_article_93"/>
+                  <head>Art.
+      </head>
                   <ab>Der Präsident des Bundesrechnungs-
       <lb/>hofes verkehrt mit dem Bundestage, dem
       <lb/>Bundesrat und der Bundesregierung unmit-
@@ -1757,7 +1944,9 @@
       <lb/>langen jedesmal gehört werden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_94"/>
+                  <a class="navigation_article" xml:id="navigation_article_94"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_33_tr_3" type="">Bei vorübergehender Verhinderung
       <lb/>wird der Präsident dunch den im Range
       <lb/>nächsten Beamten des Bundesrechnungshofes
@@ -1775,7 +1964,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_95"/>
+                  <a class="navigation_article" xml:id="navigation_article_95"/>
+                  <head>Art.
+      </head>
                   <ab>Die Beamten des Bundesrechnungs-
       <lb/>hofes ernannt über Vorschlag des Präsi-
       <lb/>denten der Bundespräsident. Doch kann der</ab>
@@ -1802,7 +1993,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_96"/>
+                  <a class="navigation_article" xml:id="navigation_article_96"/>
+                  <head>Art.
+      </head>
                   <ab>Alle Urkunden über Staatsschulden</ab>
                   <ab facs="#facs_34_tr_1" type="">Finanz- und Verwaltungsschulden/ sind
       <lb/>vom Präsidenten des Bundesrechnungshofes
@@ -1813,7 +2006,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_97"/>
+                  <a class="navigation_article" xml:id="navigation_article_97"/>
+                  <head>Art.
+      </head>
                   <ab>Bei der Ueberprüfung der seiner
       <lb/>Kontrolle unterstellten Gebarung hat der
       <lb/>Bundesrechnungshof sein Hauptaugenmerk
@@ -1826,7 +2021,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_98"/>
+                  <a class="navigation_article" xml:id="navigation_article_98"/>
+                  <head>Art.
+      </head>
                   <ab>Der Bundesrechnungshof ist gegen-
       <lb/>über den anweisenden Behörden und den die-
       <lb/>sen unterstehenden Stellen, dann gegenüber</ab>
@@ -1848,7 +2045,9 @@
       <lb/>teilzunehmen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_99"/>
+                  <a class="navigation_article" xml:id="navigation_article_99"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_35_tr_5" type="">Die der Bundesregierung sowie den Lan-
       <lb/>desregierungen unterstehenden Stellen haben
       <lb/>den Anordnungen, die der Bundesrechnungshof
@@ -1862,7 +2061,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_100"/>
+                  <a class="navigation_article" xml:id="navigation_article_100"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_35_tr_3" type="">Der Bundesrechnungshof hat für eine
@@ -1883,7 +2083,9 @@
       <lb/>mit dem Bundesrechnungshofe getroffen werden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_101"/>
+                  <a class="navigation_article" xml:id="navigation_article_101"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_36_tr_2" type="">Lassen sich Meinungsverschiedenheiten
       <lb/>zwischen den Bundesämtern und dem Bundesrech-
       <lb/>nungshofe nicht im Einvernehmen austragen, so
@@ -1894,7 +2096,9 @@
       <lb/>scheidet der Bundesrat.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_102"/>
+                  <a class="navigation_article" xml:id="navigation_article_102"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_36_tr_1" type="">Die anweisenden Behörden haben nach
       <lb/>Ablauf jedes Verwaltungsjahres ihre Rech-
       <lb/>nungsabschlüsse dem Bundesrechnungshofe nach
@@ -1902,7 +2106,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_103"/>
+                  <a class="navigation_article" xml:id="navigation_article_103"/>
+                  <head>Art.
+      </head>
                   <ab>Der Bundesrechnungshof verfasst den Bun-
       <lb/>desrechnungsabschluss und gesondert von die-
       <lb/>sem die Landesrechnungsabschlüsse und legt
@@ -1914,7 +2120,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_104"/>
+                  <a class="navigation_article" xml:id="navigation_article_104"/>
+                  <head>Art.
+      </head>
                   <ab>Die näheren Bestimmungen über die innere
       <lb/>Einrichtung und den Geschäftsgang des Bundes-</ab>
                   <ab facs="#facs_36_tr_5" type="">..</ab>
@@ -1927,11 +2135,15 @@
                </div>
             </div>
             <div ana="section">
-               <a class="section" xml:id="section_6"/>
+               <a class="navigation_section" xml:id="navigation_section_6"/>
+               <head>VI. Abschnitt.
+      </head>
                <ab facs="#facs_37_tr_4" type="">Von den Grund- und Freiheitsrechten.
       </ab>
                <div ana="article">
-                  <a class="article" xml:id="article_105"/>
+                  <a class="navigation_article" xml:id="navigation_article_105"/>
+                  <head>Art.
+      </head>
                   <ab>Vor dem Gesetze sind alle Staatsbürger</ab>
                   <ab facs="#facs_37_tr_2" type="">gleich. Vorrechte der Geburt, der Nationali-
       <lb/>tät und der Konfession sind für immer ausge-
@@ -1939,7 +2151,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_106"/>
+                  <a class="navigation_article" xml:id="navigation_article_106"/>
+                  <head>Art.
+      </head>
                   <ab>Der Adel, seine äusseren Ehrenvorzüge,
       <lb/>sowie bloss zur Auszeichnung verliehene mit
       <lb/>einer amtlichen Stellung dem Berufe oder</ab>
@@ -1954,14 +2168,18 @@
       <lb/>schaffen werden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_107"/>
+                  <a class="navigation_article" xml:id="navigation_article_107"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_37_tr_3" type="">Die öffentlichen Aemter und Funktionen
       <lb/>sind für alle Staatsbürger ohne Unterschied
       <lb/>gleich zugänglich.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_108"/>
+                  <a class="navigation_article" xml:id="navigation_article_108"/>
+                  <head>Art.
+      </head>
                   <ab>Die Freizügigkeit der Personen und Gü-
       <lb/>ter innerhalb des Bundesgebietes ist gewähr-
       <lb/>leistet. Einschränkungen können nur durch</ab>
@@ -1971,7 +2189,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_109"/>
+                  <a class="navigation_article" xml:id="navigation_article_109"/>
+                  <head>Art.
+      </head>
                   <ab>Die Auswanderungsfreiheit ist nur aus
       <lb/>dem Grunde der Landesverteidigung beschränk-
       <lb/>bar.
@@ -1980,7 +2200,9 @@
       <lb/>setze geregelt.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_110"/>
+                  <a class="navigation_article" xml:id="navigation_article_110"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_38_tr_2" type="">Jedermann kann an jedem Orte des Staats-
       <lb/>gebietes seinen Aufenthalt und Wohnsitz neh-
       <lb/>men. Ausnahmen best immt das Gesetz.
@@ -1991,7 +2213,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_111"/>
+                  <a class="navigation_article" xml:id="navigation_article_111"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_38_tr_4" type="">Jedermann geniesst die persönliche Frei-
@@ -2010,7 +2233,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_112"/>
+                  <a class="navigation_article" xml:id="navigation_article_112"/>
+                  <head>Art.
+      </head>
                   <ab>Jedermann geniesst das Hausrecht. Wann
       <lb/>eine Hausdurchsuchung zulässig ist, bestimmt
       <lb/>das Gesetz.</ab>
@@ -2019,7 +2244,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_113"/>
+                  <a class="navigation_article" xml:id="navigation_article_113"/>
+                  <head>Art.
+      </head>
                   <ab>Das Brief-,Post-,Telegraphen und Fern-
       <lb/>sprechgeheimnis ist jedermann gewährleistet.
       <lb/>Ausnahmen in den Fällen strafgerichtlicher
@@ -2027,7 +2254,9 @@
       <lb/>durch Bundesgesetz bestimmt werden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_114"/>
+                  <a class="navigation_article" xml:id="navigation_article_114"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_39_tr_1" type="">Die Freiheit der Meinungsäusserung ist
       <lb/>nur durch das Strafgesetz beschränkt.
       <lb/>Die Pressfreineit ist gewährleistet, die
@@ -2044,7 +2273,9 @@
       <lb/>troffen werden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_115"/>
+                  <a class="navigation_article" xml:id="navigation_article_115"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_39_tr_2" type="">Alle Staatsbürger haben das nur durch
       <lb/>das Strafgesetz eingeschränkte Pecht, Ver-
       <lb/>eine zu bilden. Dieses Recht darf durch Aus-
@@ -2059,7 +2290,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_116"/>
+                  <a class="navigation_article" xml:id="navigation_article_116"/>
+                  <head>Art.
+      </head>
                   <ab>Alle Staatsbürger haben das Recht sich
       <lb/>ohne Anmeldung oder besondere Erlaubnis</ab>
                   <pb facs="#facs_40" n="40" xml:id="img_0040"/>
@@ -2075,7 +2308,9 @@
       <lb/>versammelt sind, überhaupt nicht stattfinden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_117"/>
+                  <a class="navigation_article" xml:id="navigation_article_117"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_40_tr_2" type="">Die volle Glaubens- und Gewissensfrei-
       <lb/>heit, insbesondere die öffentliche und pri-
       <lb/>vate Religionsübung wird jedermann gewähr-
@@ -2085,7 +2320,8 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_118"/>
+                  <a class="navigation_article" xml:id="navigation_article_118"/>
+                  <head>Art.</head>
                   <ab>
 </ab>
                   <ab facs="#facs_40_tr_4" type="">Der Genuss der bürgerlichen und poli-
@@ -2113,7 +2349,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_119"/>
+                  <a class="navigation_article" xml:id="navigation_article_119"/>
+                  <head>Art.
+      </head>
                   <ab>Es besteht keine Staatskirche.
       <lb/>Die Freiheit der Vereinigung zu Reli-</ab>
                   <ab facs="#facs_41_tr_1" type="">gionsgesellschaften wird gewährleistet. Der
@@ -2149,14 +2387,18 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_120"/>
+                  <a class="navigation_article" xml:id="navigation_article_120"/>
+                  <head>Art.
+      </head>
                   <ab>Die Religionsgesellschaften sind
       <lb/>den Vereinigungen gleichgestellt, die sich
       <lb/>die gemeinschaftliche Pflege einer Weltan-
       <lb/>schauung zur Aufgabe machen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_121"/>
+                  <a class="navigation_article" xml:id="navigation_article_121"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_42_tr_1" type="">Die Auf Gesetz, Vertrag oder besondere
       <lb/>Rechtstiteln beruhenden Staatsleistungen von
       <lb/>Peligionsgesellschaften sind durch ..
@@ -2169,7 +2411,9 @@
       <lb/>leistet.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_122"/>
+                  <a class="navigation_article" xml:id="navigation_article_122"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_42_tr_3" type="">Soweit das Bedürfnis nach Gottesdienst
       <lb/>und Seelsorge im Heer, in Krankenhäusern,
       <lb/>Strafanstalten oder sonstigen Anstalten be-
@@ -2178,21 +2422,27 @@
       <lb/>wobei jeder Zwang fernzuhalten ist.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_123"/>
+                  <a class="navigation_article" xml:id="navigation_article_123"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_42_tr_2" type="">Die nähere Durchführung der Bestimmun-
       <lb/>gen der Art. . . . . erfolgt durch Bundesge-
       <lb/>setz.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_124"/>
+                  <a class="navigation_article" xml:id="navigation_article_124"/>
+                  <head>Art.
+      </head>
                   <ab>Die Kunst, die Wissenschaft und ihre
       <lb/>Lehrer sind freim und stehen unter dem Schutze
       <lb/>des Staates.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_125"/>
+                  <a class="navigation_article" xml:id="navigation_article_125"/>
+                  <head>Art.
+      </head>
                   <ab>Das gesamte Schulwesen steht unter
       <lb/>den J4M Aufsicht des Staates.</ab>
                   <pb facs="#facs_43" n="43" xml:id="img_0043"/>
@@ -2204,7 +2454,9 @@
       <lb/>schulen sind unentgeltlich.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_126"/>
+                  <a class="navigation_article" xml:id="navigation_article_126"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_43_tr_1" type="">Der Religionsunterricht ist ordentli-
       <lb/>ches Lehrfach an den Volks- und Mittelschulen
       <lb/>mit Ausnahme der fachlichen Mittelschulen.
@@ -2231,7 +2483,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_127"/>
+                  <a class="navigation_article" xml:id="navigation_article_127"/>
+                  <head>Art.
+      </head>
                   <ab>Wo Staatsbürger, die eine andere als
       <lb/>die deutsche Sprache sprechen, einen beträcht-
       <lb/>lichen Teil der Bevölkerung bilden, ist Vor-
@@ -2245,7 +2499,9 @@
       <lb/>Pflichtgegenstand.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_128"/>
+                  <a class="navigation_article" xml:id="navigation_article_128"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_44_tr_1" type="">Die Denkmäler der Kunst, der Geschichte
       <lb/>und der Natur sowie die Landschaft geniessen
       <lb/>den Schutz und die Pflege des Staates.
@@ -2254,7 +2510,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_129"/>
+                  <a class="navigation_article" xml:id="navigation_article_129"/>
+                  <head>Art.
+      </head>
                   <ab>Die Staatssprache in der Rep. Oester-
       <lb/>reich ist de deutsche.
       <lb/>Alle Staatsbürger haben ein gleiches</ab>
@@ -2274,7 +2532,9 @@
       <lb/>geboten werden.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_130"/>
+                  <a class="navigation_article" xml:id="navigation_article_130"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_44_tr_3" type="">Oesterreichische Staatsbürger, die nach
       <lb/>Nationalität, Sprache oder Religion einer
       <lb/>Minderheit angehören, haben das Recht, in den
@@ -2287,7 +2547,9 @@
       <lb/>frei auszuüben.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_131"/>
+                  <a class="navigation_article" xml:id="navigation_article_131"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_45_tr_1" type="">Wo eine verhältnismässig beträchtli-
       <lb/>che Anzahl von Staatsbürgern wohnt, die einer
       <lb/>Minderheit nach Nationalität, Sprache oder
@@ -2298,14 +2560,18 @@
       <lb/>einem angemesseneneren Teil zu beteilen.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_132"/>
+                  <a class="navigation_article" xml:id="navigation_article_132"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_45_tr_3" type="">Das Eigentum ist gewährleistet, inso-
       <lb/>weit nicht das Gesetz Beschränkungen und Ent-
       <lb/>eignungen vorsieht.
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_133"/>
+                  <a class="navigation_article" xml:id="navigation_article_133"/>
+                  <head>Art.
+      </head>
                   <ab>Enteignung gegen den Willen des Eigen-
       <lb/>tümers ist - soferne durch Bundesgesetz
       <lb/>nicht anders bestimmt wird - nur gegen die</ab>
@@ -2317,7 +2583,9 @@
       <lb/>in besonderen Gesetzen geregelt.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_134"/>
+                  <a class="navigation_article" xml:id="navigation_article_134"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_45_tr_2" type="">Das Erbrecht wird gewährleistet, so-
       <lb/>weit nicht durch Bundesgesetz dem Staate ein
       <lb/>Anteil am Erbgute vorbehalten wird.
@@ -2325,7 +2593,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_135"/>
+                  <a class="navigation_article" xml:id="navigation_article_135"/>
+                  <head>Art.
+      </head>
                   <ab>Der Bund kann durch Gesetz gegen Ent-</ab>
                   <pb facs="#facs_46" n="46" xml:id="img_0046"/>
                   <ab facs="#facs_46_tr_1" type="">- 45 -
@@ -2352,7 +2622,9 @@
       <lb/>sätzen zu regeln.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_136"/>
+                  <a class="navigation_article" xml:id="navigation_article_136"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_46_tr_4" type="">Wer durch rechtswidrige Ausübung der
       <lb/>öffentlichen Gewalt Schaden erleidet, hat -
       <lb/>abgesehen von dem im Art. 74 geregelten Fall-
@@ -2365,7 +2637,9 @@
       </ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_137"/>
+                  <a class="navigation_article" xml:id="navigation_article_137"/>
+                  <head>Art.
+      </head>
                   <ab>Die Arbeitskraft steht unter dem be-
       <lb/>sonderen Schutz des Bundes.</ab>
                   <pb facs="#facs_47" n="47" xml:id="img_0047"/>
@@ -2380,7 +2654,9 @@
       <lb/>behindern suchen, sind rechtswidrig.</ab>
                </div>
                <div ana="article">
-                  <a class="article" xml:id="article_138"/>
+                  <a class="navigation_article" xml:id="navigation_article_138"/>
+                  <head>Art.
+      </head>
                   <ab facs="#facs_47_tr_3" type="">Im Falle einer dringen Gefahr für den
       <lb/>Staat oder seine Bürger können die Grundrech-
       <lb/>te der persönlichen Freiheit, des Hausrechtes,
@@ -2398,16 +2674,22 @@
                </div>
             </div>
             <div ana="section">
-               <a class="section" xml:id="section_7"/>
+               <a class="navigation_section" xml:id="navigation_section_7"/>
+               <head>Siebenter Abschnitt.
+      </head>
                <ab facs="#facs_47_tr_2" type="">Von den Garantien der Verfassung und Ver-
       <lb/>waltung.
       </ab>
                <div ana="sub_section">
-                  <a class="sub_section" xml:id="section_8"/>
+                  <a class="navigation_sub_section" xml:id="navigation_section_8"/>
+                  <head>A./ Die Verwaltungsgerichte.
+      </head>
                   <ab>
 </ab>
                   <div ana="article">
-                     <a class="article" xml:id="article_139"/>
+                     <a class="navigation_article" xml:id="navigation_article_139"/>
+                     <head>Art.
+      </head>
                      <ab>Wegen Rechtsverletzung durch die Ent-
       <lb/>scheidung oder Verfügung einer Verwaltungsbe-
       <lb/>hörde des Bundes oder eines Landes entschei-
@@ -2423,7 +2705,9 @@
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_140"/>
+                     <a class="navigation_article" xml:id="navigation_article_140"/>
+                     <head>Art.
+      </head>
                      <ab>In jeder Landeshauptstadt wird ein Lan-</ab>
                      <ab facs="#facs_48_tr_3" type="">desverwaltungsgericht errichtet. Selne Mit-
       <lb/>glieder sind zur Hälfte aus dem Stande der
@@ -2439,7 +2723,9 @@
       <lb/>ten des Landesverwaltungsgerichtes.</ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_141"/>
+                     <a class="navigation_article" xml:id="navigation_article_141"/>
+                     <head>Art.
+      </head>
                      <ab facs="#facs_48_tr_2" type="">Das Bundesverwaltungsgericht in Wien
       <lb/>muss wenigstens zur Hälfte seiner Mitglieder
       <lb/>aus richterlichen Beamten bestehen.
@@ -2450,7 +2736,9 @@
       <lb/>Bundespräsidenten ernannt.</ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_142"/>
+                     <a class="navigation_article" xml:id="navigation_article_142"/>
+                     <head>Art.
+      </head>
                      <ab facs="#facs_48_tr_4" type="">Das Bundesverwaltungsgericht und die
       <lb/>Landesverwaltungsgerichte haben in der Regel
       <lb/>nur über Beschwerden der Parteien zu erkennen.
@@ -2464,14 +2752,18 @@
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_143"/>
+                     <a class="navigation_article" xml:id="navigation_article_143"/>
+                     <head>Art.
+      </head>
                      <ab>Die Organisation der Landesverwaltungs-
       <lb/>gerichte und des Bundesverwaltungsgerichtes
       <lb/>sowie das Verfahren vor ihnen, wird durch ein
       <lb/>besonderes Bundesgesetz geregelt.</ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_144"/>
+                     <a class="navigation_article" xml:id="navigation_article_144"/>
+                     <head>Art.
+      </head>
                      <ab facs="#facs_49_tr_4" type="">Von der Zuständigkeit der Verwaltungs-
       <lb/>gerichte sind ausgeschlossen :
       <lb/>a/ Angelegenheiten, über welche den or-
@@ -2486,7 +2778,9 @@
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_145"/>
+                     <a class="navigation_article" xml:id="navigation_article_145"/>
+                     <head>Art.
+      </head>
                      <ab>Durch Landesgesetz bezw. durch Bundes-</ab>
                      <ab facs="#facs_49_tr_5" type="">gesetz kann angeordnet werden, dass in allen
       <lb/>Angelegenheiten, in denen ein Verwaltungsge-
@@ -2501,11 +2795,15 @@
                   </div>
                </div>
                <div ana="sub_section">
-                  <a class="sub_section" xml:id="section_9"/>
+                  <a class="navigation_sub_section" xml:id="navigation_section_9"/>
+                  <head>B Das Bundesverfassungsgericht.
+      </head>
                   <ab>
 </ab>
                   <div ana="article">
-                     <a class="article" xml:id="article_146"/>
+                     <a class="navigation_article" xml:id="navigation_article_146"/>
+                     <head>Art.
+      </head>
                      <ab>Das Bundesverfassungsgericht in Wien ent
       <lb/>scheidet alle Rechtsstreitigkeiten zwischen</ab>
                      <pb facs="#facs_50" n="50" xml:id="img_0050"/>
@@ -2515,7 +2813,9 @@
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_147"/>
+                     <a class="navigation_article" xml:id="navigation_article_147"/>
+                     <head>Art.
+      </head>
                      <ab>Es entscheidet ferner :
       <lb/>Kompetenzkonflikte
       <lb/>a/ zwischen Gerichten und Verwaltungs-</ab>
@@ -2526,7 +2826,9 @@
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_148"/>
+                     <a class="navigation_article" xml:id="navigation_article_148"/>
+                     <head>Art.
+      </head>
                      <ab>Das Bundesverfassungsgericht entschei-
       <lb/>det über Gesetzwidrigkeit von Vollzugsanwei-
       <lb/>sungen  Verordnungen/ einer Bundes- oder</ab>
@@ -2545,7 +2847,9 @@
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_149"/>
+                     <a class="navigation_article" xml:id="navigation_article_149"/>
+                     <head>Art.
+      </head>
                      <ab>Das Bundesverfassungsgericht entschei-
       <lb/>det über Bundesgesetzwidrigkeit von Landesge-
       <lb/>setzen- ausse dem im Art. . . erwähnten Fall-
@@ -2564,7 +2868,9 @@
       <lb/>hebung im Landesgesetzblatte.</ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_150"/>
+                     <a class="navigation_article" xml:id="navigation_article_150"/>
+                     <head>Art.
+      </head>
                      <ab facs="#facs_51_tr_2" type="">Das Bundesverfassungsgericht entschei-
       <lb/>det über Anfechtungen von Wahlen zum Bundes-
       <lb/>tag und von Präsidentschaftswahlen, ferner
@@ -2572,7 +2878,9 @@
       <lb/>des Mandatsverhstes eines ihrer Mitglieder.</ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_151"/>
+                     <a class="navigation_article" xml:id="navigation_article_151"/>
+                     <head>Art.
+      </head>
                      <ab facs="#facs_51_tr_5" type="">Das Bundesverfassungsgericht entschei-
       <lb/>det über die Verantwortlichkeit :
       <lb/>a/ des Bundespräsidenten und seiner
@@ -2608,14 +2916,18 @@
       <lb/>tuell auch der politischen Rechte zu lauten.</ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_152"/>
+                     <a class="navigation_article" xml:id="navigation_article_152"/>
+                     <head>Art.
+      </head>
                      <ab facs="#facs_52_tr_4" type="">Die Exekution der Erkenntnisse des
       <lb/>Bundesverfassungsgerichtes obliegt dem Bun-
       <lb/>despräsidenten.
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_153"/>
+                     <a class="navigation_article" xml:id="navigation_article_153"/>
+                     <head>Art.
+      </head>
                      <ab>Das Bundesverfassungsgericht in Wien be-</ab>
                      <ab facs="#facs_52_tr_3" type="">steht aus einem Präsidenten, einem Vizeprä-
       <lb/>sidenten, 14 Mitgliedern und 8 Ersatzwnner
@@ -2626,7 +2938,9 @@
       <lb/>der vom Bundesrat auf Lebensdauer gewählt.</ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_154"/>
+                     <a class="navigation_article" xml:id="navigation_article_154"/>
+                     <head>Art.
+      </head>
                      <ab facs="#facs_52_tr_1" type="">Der Präsident des Bundesverfassungsge-
       <lb/>richtes steht im Range des Bundeskanzlers, der
       <lb/>Vizepräsident im Range eines Staatssekretärs.
@@ -2641,7 +2955,9 @@
       </ab>
                   </div>
                   <div ana="article">
-                     <a class="article" xml:id="article_155"/>
+                     <a class="navigation_article" xml:id="navigation_article_155"/>
+                     <head>Art.
+      </head>
                      <ab>Die nähere Organisation des Bundes-
       <lb/>verfassungsgerichtes sowie das Verfahren vor
       <lb/>ihm in den verschiedenen in den Art. . .ange-
