@@ -7,14 +7,17 @@
         </xsl:copy>
     </xsl:template>
     <xsl:template match="tei:head">
+        <xsl:variable name="anchor_prefix">navigation_</xsl:variable>
         <!-- add anchor for navigation if it is head of article or section -->
         <xsl:if test="not(preceding-sibling::tei:head)">
             <!-- determine if article or section -->
             <xsl:variable name="item_class">
                 <xsl:choose>
-                    <xsl:when test="ancestor::tei:div[1][@ana ='article']">article</xsl:when>
+                    <xsl:when test="ancestor::tei:div[1][@ana ='article']">
+                        <xsl:value-of select="concat($anchor_prefix, 'article')"/>
+                    </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="ancestor::tei:div[1]/@ana"/>
+                        <xsl:value-of select="concat($anchor_prefix, ancestor::tei:div[1]/@ana)"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
@@ -22,16 +25,21 @@
             <xsl:variable name="anchor_id">
                 <xsl:choose>
                     <xsl:when test="ancestor::tei:div[1][@ana = 'article']">
-                        <xsl:value-of select="'article_'"/>
+                        <xsl:value-of select="concat($anchor_prefix, 'article_')"/>
                         <xsl:number count="tei:div[@ana = 'article']" format="1" level="any"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="'section_'"/>
+                        <xsl:value-of select="concat($anchor_prefix, 'section_')"/>
                         <xsl:number count="tei:div[@ana = 'section' or @ana = 'sub_section' or @ana = 'sub_sub_section']" level="any"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
+            <!-- write anchor element -->
             <a class="{$item_class}" xml:id="{$anchor_id}"/>
+            <!-- copy head element -->
+            <xsl:copy>
+                <xsl:apply-templates select="@*|node()"/>
+            </xsl:copy>
         </xsl:if>
     </xsl:template>
 </xsl:stylesheet>

@@ -240,25 +240,6 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <!-- add anchor for navigation if it is head of article or sectio -->
-        <xsl:if test="not(preceding-sibling::tei:head)">
-            <!-- create id for ref-->
-            <xsl:variable name="anchor_id">
-                <xsl:choose>
-                    <xsl:when test="ancestor::tei:div[1][@ana = 'article']">
-                        <xsl:value-of select="'article_'"/>
-                        <xsl:number count="tei:div[@ana = 'article']" format="1" level="any"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="'section_'"/>
-                        <xsl:number
-                            count="tei:div[@ana = 'section' or @ana = 'sub_section' or @ana = 'sub_sub_section']"
-                            level="any"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:variable>
-            <a class="{$item_class}" id="{$anchor_id}"/>
-        </xsl:if>
         <xsl:variable name="head_name" select="concat('h', $head_level_number)"/>
         <xsl:element name="{$head_name}">
             <xsl:attribute name="class">
