@@ -44,11 +44,11 @@
                 </xsl:for-each>
             </ul>                                                    
         </div>
-        <script type="text/javascript">
+        <!--<script type="text/javascript">
             $('#edition-navBarNavDropdown .dropdown-menu .nav-item').click(function(e) {
                 e.stopPropagation();
             });
-        </script>
+        </script>-->
         
     </xsl:template>
 </xsl:stylesheet>
