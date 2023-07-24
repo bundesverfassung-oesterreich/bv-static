@@ -182,7 +182,7 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:lb">
-        <br/>
+         <br />
     </xsl:template>
     <xsl:template match="tei:p | tei:lg">
         <!-- simply keep paragraphs -->

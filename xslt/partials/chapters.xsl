@@ -28,19 +28,18 @@
                             </xsl:attribute>
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </a>
-                        <!--<ul class="dropown-menu dropdown-submenu">
-                            <xsl:for-each select=".//tei:head[parent::tei:div[@ana='article'] or parent::tei:p[parent::tei:div[@ana='article']]]">
+                        <ul class="dropown-menu dropdown-submenu">
+                            <xsl:for-each select=".//tei:div[@ana='article']">
                                 <li>
                                     <a class="dropdown-item">
                                         <xsl:attribute name="href">
-                                            <xsl:value-of select="'#article_'"/>
-                                            <xsl:number count="tei:div[@ana='article']" format="1" level="any"/>
+                                            <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
                                         </xsl:attribute>
-                                        <xsl:value-of select="normalize-space()"/>
+                                        <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                                     </a>
                                 </li>
                             </xsl:for-each>
-                        </ul>-->
+                        </ul>
                     </li>
                 </xsl:for-each>
             </ul>
