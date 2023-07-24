@@ -216,10 +216,42 @@ a.anchorFoot {
     z-index: 2;
 }
 
+
 .navBarNavDropdown {
     position: relative;
     display: block;
-    text-align: center;
+    text-align: left;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.dropdown-menu {
+    height: fit-content !important;
+    max-height: 800px !important;
+    overflow-x: hidden !important;
+}
+  
+.bi-journals {
+    color: #fff;
+    fill: #fff;
+}
+  
+.bi-book {
+    color: #fff;
+    fill: #fff;
+}
+
+.bi-pencil-square {
+    color: #fff;
+    fill: #fff;
+}
+  
+.bi-book {
+    color: #fff;
+    fill: #fff;
 }
 
 .fas {
@@ -236,7 +268,32 @@ a.anchorFoot {
 }
 
 .navBarNavDropdown ul li {
-    margin: .5em auto;
+    list-style-type: none;
+}
+
+
+/*chapter navigation*/
+.section_ref>a{
+    font-weight: bolder;
+    padding-left: 0.75rem;
+    padding-top: 0.25rem;
+}
+
+.section_ref>ul{
+    padding-left: 0.5rem;
+}
+
+li.article_ref:first-child {
+    padding-top: 0. 5rem;
+}
+
+li.article_ref:last-child {
+    padding-bottom: 1rem;
+}
+
+.article_ref>a{
+    font-weight: normal;
+    padding-left: 1.5rem;
 }
 
 #staticSearch {
