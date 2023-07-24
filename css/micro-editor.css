@@ -78,10 +78,6 @@ input:checked + .i-slider:before {
   margin-left:3em;
 }
 
-.bi-pencil-square {
-  color: #fff;
-}
-
 .strikethrough {
   text-decoration: line-through;
 }
