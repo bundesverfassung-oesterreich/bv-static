@@ -181,6 +181,9 @@
             <xsl:value-of select="@n"/>
         </span>
     </xsl:template>
+    <xsl:template match="tei:ab">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
     <xsl:template match="tei:lb">
          <br />
     </xsl:template>
