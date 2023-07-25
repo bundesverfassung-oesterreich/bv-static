@@ -109,7 +109,7 @@ def create_record(
     )
     head_path = f"{file_name}#{head_id}"
     record["record_id"] = head_path
-    record["anchor_link"] = f"./{file_name}#{head_id}"
+    record["anchor_link"] = f"./{head_path.replace('.xml#', '.html#', 1)}"
     if authors:
         record["Personen"] = authors
     if creation_date:
