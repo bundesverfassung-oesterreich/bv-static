@@ -59,7 +59,7 @@ def get_full_text(head):
         return ""
     content_elements = []
     nex = head.getnext()
-    while nex is not None and nex.xpath("local-name()='p' or local-name()='pb'"):
+    while nex is not None and nex.xpath("local-name()='p' or local-name()='pb' or local-name()='ab'"):
         content_elements.append(nex)
         nex = nex.getnext()
     full_text = "\n".join(
