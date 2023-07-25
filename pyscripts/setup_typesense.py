@@ -58,7 +58,7 @@ def remove_lb_hyphens(string):
 def get_full_text(head):
     if head is None:
         return ""
-    content_elements = [head]
+    content_elements = []
     nex = head.getnext()
     while nex is not None and nex.xpath("local-name()='p' or local-name()='pb'"):
         content_elements.append(nex)
