@@ -3,7 +3,6 @@ import os
 import re
 from typesense.api_call import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
-import lxml.etree as et
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 
@@ -82,50 +81,47 @@ def create_record(
 ):
     record = {}
     full_text = get_full_text(head)
-    if not full_text and head_index == 0:
-        full_text = doc_title.strip()
-    if full_text:
-        record["full_text"] = full_text
-        record["doc_internal_orderval"] = head_index
-        if head_index == 0:
-            record["record_type"] = "Dokumententitel"
-        else:
-            ancestor_div = head.xpath("./ancestor::tei:div", namespaces=tei_ns)[-1]
-            ana = ancestor_div.attrib.get("ana")
-            if not ana:
-                print(full_text)
-                print("div ancestor of head has no @ana-attrib … ")
-                raise ValueError
-            record["record_type"] = ana
-        # "Dokumententitel" if head_index == 0 else head.attrib["class"]
-        record["bv_doc_id"] = bv_doc_id
-        record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])
-        record["Dokumententitel"] = doc_title
-        if head is not None:
-            title = f"{doc_title}: {head.text}"
-        else:
-            title = doc_title
-        record["title"] = title
-        head_id = (
-            head.xpath("preceding-sibling::tei:a/@xml:id", namespaces=tei_ns)[0]
-            if head is not None
-            else ""
-        )
-        head_path = f"{file_name}#{head_id}"
-        record["record_id"] = head_path
-        record["anchor_link"] = f"./{file_name}#{head_id}"
-        if authors:
-            record["Personen"] = authors
-        if creation_date:
-            record["creation_date"] = int(creation_date.replace("-", ""))
-            record["creation_date_autopsic"] = creation_date.split("-")[0]
-            record["creation_year"] = int(record["creation_date_autopsic"])
-        else:
-            record["creation_date"] = 99991224
-            record["creation_date_autopsic"] = "unbekannt"
-            record["creation_year"] = 1900
-        record["Materialart"] = material_doc_type
-        record["Dokumententyp"] = doc_content_type
+    record["full_text"] = full_text
+    record["doc_internal_orderval"] = head_index
+    if head_index == 0:
+        record["record_type"] = "Dokumententitel"
+    else:
+        ancestor_div = head.xpath("./ancestor::tei:div", namespaces=tei_ns)[-1]
+        ana = ancestor_div.attrib.get("ana")
+        if not ana:
+            print(full_text)
+            print("div ancestor of head has no @ana-attrib … ")
+            raise ValueError
+        record["record_type"] = ana
+    # "Dokumententitel" if head_index == 0 else head.attrib["class"]
+    record["bv_doc_id"] = bv_doc_id
+    record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])
+    record["Dokumententitel"] = doc_title
+    if head is not None:
+        title = f"{doc_title}: {head.text}"
+    else:
+        title = doc_title
+    record["title"] = title
+    head_id = (
+        head.xpath("preceding-sibling::tei:a/@xml:id", namespaces=tei_ns)[0]
+        if head is not None
+        else ""
+    )
+    head_path = f"{file_name}#{head_id}"
+    record["record_id"] = head_path
+    record["anchor_link"] = f"./{file_name}#{head_id}"
+    if authors:
+        record["Personen"] = authors
+    if creation_date:
+        record["creation_date"] = int(creation_date.replace("-", ""))
+        record["creation_date_autopsic"] = creation_date.split("-")[0]
+        record["creation_year"] = int(record["creation_date_autopsic"])
+    else:
+        record["creation_date"] = 99991224
+        record["creation_date_autopsic"] = "unbekannt"
+        record["creation_year"] = 1900
+    record["Materialart"] = material_doc_type
+    record["Dokumententyp"] = doc_content_type
     return record
 
 
@@ -232,5 +228,8 @@ def add_sort_val_2_records(records):
 
 if __name__ == "__main__":
     records = create_records()
+    for r in records:
+        if not "creation_date" in r:
+            print(r)
     sorted_records = add_sort_val_2_records(records)
     result = upload_records(sorted_records)
