@@ -1,5 +1,6 @@
 var tsInput = document.querySelector("input[type='search']");
 tsInput.addEventListener("input", updateHeaderUrl);
+const regexp = new RegExp("(^.\/bv_doc_id__\\d\.html)(#navigation_[a-z]*_\\d+)(.*)")
 
 function listenToPagination() {
   setTimeout(() => {
@@ -16,21 +17,19 @@ setTimeout(() => {
 
 function updateHeaderUrl() {
   setTimeout(() => {
-
-    var urlToUpdate = document.querySelectorAll(".ais-Hits-item h5 a");
+    var elementsWithUrl = document.querySelectorAll(".ais-Hits-item h5 a");
     var tsInputVal = tsInput.value;
-
-    urlToUpdate.forEach((el) => {
-      var urlToUpdateHref = el.getAttribute("href");
-      if (urlToUpdateHref.includes("&mark=")) {
-        var newUrl = urlToUpdateHref.replace(
-          /&mark=\.+$/,
-          `&mark=${tsInputVal}`
-        );
-        el.setAttribute("href", newUrl);
-      } else {
-        var newUrl = `${urlToUpdateHref}&mark=${tsInputVal}`;
-        el.setAttribute("href", newUrl);
+    elementsWithUrl.forEach((el) => {
+      var hrefVal = el.getAttribute("href");
+      var match = hrefVal.match(regexp)
+      if (match != null) {
+          if (match[3] != "") {
+            var newHrefVal = `${match[1]}?mark=${tsInputVal}&${match[3]}${match[2]}`;
+          }
+          else {
+            var newHrefVal = `${match[1]}?mark=${tsInputVal}${match[2]}`;
+          }
+          el.setAttribute("href", newHrefVal);
       }
     });
 
