@@ -68,6 +68,11 @@
                                         <h1 align="center">
                                             <xsl:value-of select="$doc_title"/>
                                         </h1>
+                                        <p class="document_info">Entstehung: <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
+                                        <p class="document_info"><xsl:value-of select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/></p>
+                                        <p class="document_info"><xsl:value-of select="//tei:text/@type"/></p>
+                                        <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
+                                        <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
                                         <h3 align="center">
                                             <a href="{$teiSource}">
                                                 <i class="fas fa-download" title="show TEI source"/>
@@ -99,9 +104,11 @@
                             <div id="container-resize" class="row transcript active">
                                 <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
                                     <div id="viewer">
-                                        <p>Das Original befindet sich im Eigentum des Österreichischen Staatsarchivs unter der ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>)“. Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des ÖStA entsprechend der geltenden Benutzungsordnung.</p>
                                         <div id="container_facs_1">
                                             <!-- container and facs handling in js -->
+                                        </div>
+                                        <div class="image_rights">
+                                            <p>Das Original befindet sich im Eigentum des Österreichischen Staatsarchivs unter der ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>)“. Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des ÖStA entsprechend der geltenden Benutzungsordnung.</p>
                                         </div>
                                     </div>
                                 </div>
