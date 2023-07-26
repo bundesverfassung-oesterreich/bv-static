@@ -1,42 +1,24 @@
-/*
-##################################################################
-get container holding images urls as child elements
-get container for osd viewer
-get container wrapper of osd viewer
-##################################################################
-*/
-// var container = document.getElementById("container_facs_2");
-// container.style.display = "none";
-var height = screen.height;
-var container = document.getElementById("container_facs_1");
-var wrapper = document.getElementsByClassName("facsimiles")[0];
 
-/*
-##################################################################
-check if osd viewer is visible or not
-if true get width from sibling container
-if false get with from sibling container divided by half
-height is always the screen height minus some offset
-##################################################################
-*/
-if (!wrapper.classList.contains("fade")) {
-    container.style.height = `${String(height / 2)}px`;
-    // set osd wrapper container width
-    var container = document.getElementById("section");
-    if (container !== null) {
-        var width = container.clientWidth;
-    }
-    var container = document.getElementById("viewer");
-    container.style.width = `${String(width - 25)}px`;
+var container_facs_1 = document.getElementById("container_facs_1");
+//container_facs_1.style.height = `${String(screen.height / 2)}px`;
+container_facs_1.style.height = `${String(window.innerHeight - container_facs_1.offset.top)}px`;
+var wrapper_column = document.getElementsByClassName("facsimiles")[0];
+var text_container = document.getElementById("section");
+// set osd wrapper container width
+if (text_container !== null) {
+    var width = text_container.clientWidth;
+}
+else {
+    var width = 0;
+}
+var container = document.getElementById("viewer");
+// check if facsimiles are displayed
+if (!wrapper_column.classList.contains("fade")) {
+    // if true get width from sibling container - offset
+    container.style.width = `${String(text_container.clientWidth - 25)}px`;
 } else {
-    container.style.height = `${String(height / 2)}px`;
-    // set osd wrapper container width
-    var container = document.getElementById("section");
-    if (container !== null) {
-        var width = container.clientWidth;
-    }
-    var container = document.getElementById("viewer");
-    container.style.width = `${String(width / 2)}px`;
+    // if false get width from sibling container / 2
+    container.style.width = `${String(text_container.clientWidth / 2)}px`;
 }
 
 /*

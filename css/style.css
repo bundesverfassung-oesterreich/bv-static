@@ -88,6 +88,14 @@ p {
     padding: 0;
 }
 
+div.image_rights{
+    padding-top: 1rem;
+    width: fit-content;
+    height: fit-content;
+    font-size: x-small;
+    color: lightgrey;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -267,9 +275,9 @@ a.anchorFoot {
     display: block;
 }
 
-.navBarNavDropdown ul li {
+/*.navBarNavDropdown ul li {
     list-style-type: none;
-}
+}*/
 
 
 /*chapter navigation*/
