@@ -1,7 +1,6 @@
-
 var container_facs_1 = document.getElementById("container_facs_1");
-//container_facs_1.style.height = `${String(screen.height / 2)}px`;
-container_facs_1.style.height = `${String(window.innerHeight - container_facs_1.offset.top)}px`;
+container_facs_1.style.height = `${String(screen.height / 2)}px`;
+//container_facs_1.style.height = `${String(window.innerHeight - container_facs_1.offset.top)}px`;
 var wrapper_column = document.getElementsByClassName("facsimiles")[0];
 var text_container = document.getElementById("section");
 // set osd wrapper container width
@@ -200,4 +199,27 @@ function isInViewportAll(element) {
     } else {
         return false;
     }
+}
+
+
+/*
+##################################################################
+eventlisteners to max hight of the container
+##################################################################
+*/
+var osd_container_resize_events = ["srcoll", "resize", "onload"];
+const image_relation = container_facs_1.style.width / container_facs_1.style.height;
+for (trigger_event of osd_container_resize_events) {
+        window.addEventListener("scroll", function() {
+            var container_facs_1 = document.getElementById("container_facs_1");
+            var image_rights = document.getElementsByClassName("image_rights")[0];
+            var image_rights_hight = image_rights.getBoundingClientRect().height;
+            var new_container_hight = window.innerHeight - container_facs_1.getBoundingClientRect().top - image_rights_hight;
+            console.log("setting new hight to".concat(String(new_container_hight)))
+            container_facs_1.style.height = `${String(new_container_hight)}px`;;
+            var new_container_width = `${String(image_relation * new_container_hight)}px`;
+            console.log("setting new width to".concat(new_container_width))
+            container_facs_1.style.width = new_container_width;
+            container_facs_1.classList.add("touched_this_with_my_begging");
+    });
 }

@@ -90,6 +90,7 @@ p {
 
 div.image_rights{
     padding-top: 1rem;
+    padding-bottom: 1rem;
     width: fit-content;
     height: fit-content;
     font-size: x-small;
