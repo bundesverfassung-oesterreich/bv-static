@@ -1,13 +1,13 @@
 {
     "navbar__project": "Projekt",
     "navbar__about": "Über das Projekt",
-    "navbar__toc": "Editionseinheiten",
-    "navbar__nofacs": "Ohne Faksimiles",
-    "navbar__withfacs": "Mit Faksimiles",
+    "navbar__sources": "Quellen",
+    "navbar__sources_intro": "Einführung",
+    "navbar__toc": "Suche",
     "navbar__register": "Register",
     "navbar__persons": "Personen",
     "navbar__places": "Orte",
     "navbar__orgs": "Organisationen",
     "navbar__works": "Werke",
-    "navbar__search": "Suche"
+    "navbar__search": "Volltextsuche"
 }
