@@ -35,7 +35,7 @@ jobs:
     - name: Update Favicons
       run: python ./pyscripts/update_favicons.py
     - name: Update Translations
-      run: python ./pyscripts/make_translations.py
+      run: rm -r ./html/locales/ && python ./pyscripts/make_translations.py
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
