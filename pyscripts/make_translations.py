@@ -22,6 +22,7 @@ with open(TRANSLATIONS, newline="") as f:
             data[lang][row["key"]] = row[lang]
 
 for key, value in data.items():
+    print(f"creating locales for {key}.")
     lang_dir = os.path.join(locales_dir, key)
     os.makedirs(lang_dir, exist_ok=True)
     locales_file = f"{lang_dir}/translation.json"
