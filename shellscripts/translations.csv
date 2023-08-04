@@ -1,12 +1,12 @@
-key,de,en_US,it
-navbar__project,Projekt,Project,Progetto
-navbar__about,Über das Projekt,About the project,Sul progetto
-navbar__toc,Editionseinheiten,Edition units,Unità di edizione
-navbar__nofacs,Ohne Faksimiles,Without facsimiles,Senza fax
-navbar__withfacs,Mit Faksimiles,With facsimiles,Con i fax
-navbar__register,Register,Register,Registrati
-navbar__persons,Personen,Person,Persone
-navbar__places,Orte,Places,Luoghi
-navbar__orgs,Organisationen,Institutions,Organizzazioni
-navbar__works,Werke,Works,Opere
-navbar__search,Suche,Search,Cercare
+key,de,en_US
+navbar__project,Projekt,Project
+navbar__about,Über das Projekt,About the project
+navbar__sources,Quellen,Sources
+navbar__sources_intro,Einführung,Introduction
+navbar__toc,Suche,Search
+navbar__register,Register,Register
+navbar__persons,Personen,Person
+navbar__places,Orte,Places
+navbar__orgs,Organisationen,Institutions
+navbar__works,Werke,Works
+navbar__search,Volltextsuche,Full-Text Search
