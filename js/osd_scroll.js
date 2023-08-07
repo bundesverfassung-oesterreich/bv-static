@@ -1,24 +1,27 @@
 var container_facs_1 = document.getElementById("container_facs_1");
 container_facs_1.style.height = `${String(screen.height / 2)}px`;
 //container_facs_1.style.height = `${String(window.innerHeight - container_facs_1.offset.top)}px`;
-var wrapper_column = document.getElementsByClassName("facsimiles")[0];
+/*var wrapper_column = document.getElementsByClassName("facsimiles")[0];
 var text_container = document.getElementById("section");
+const image_size_relations =
+  container_facs_1.getBoundingClientRect().width /
+  Number(container_facs_1.style.height.replace("px", ""));
 // set osd wrapper container width
+var container = document.getElementById("viewer");
 if (text_container !== null) {
   var width = text_container.clientWidth;
 } else {
   var width = 0;
 }
-var container = document.getElementById("viewer");
 // check if facsimiles are displayed
+container.style.width = "auto";
 if (!wrapper_column.classList.contains("fade")) {
   // if true get width from sibling container - offset
-  container.style.width = `${String(text_container.clientWidth - 25)}px`;
+  container.style.width = `${String(width - 25)}px`;
 } else {
   // if false get width from sibling container / 2
-  container.style.width = `${String(text_container.clientWidth / 2)}px`;
-}
-
+  container.style.width = `${String(width.clientWidth / 2)}px`;
+}*/
 /*
 ##################################################################
 get all image urls stored in span el class tei-xml-images
@@ -208,12 +211,6 @@ function isInViewportAll(element) {
 eventlisteners to max hight of the container
 ##################################################################
 */
-
-const image_size_relations =
-  container_facs_1.getBoundingClientRect().width /
-  Number(container_facs_1.style.height.replace("px", ""));
-const resize_threshold = window.innerHeight / 3;
-
 function calculate_facsContainer_height(facsContainer) {
   var image_rights = document.getElementsByClassName("image_rights")[0];
   var image_rights_height = image_rights.getBoundingClientRect().height;
@@ -224,33 +221,12 @@ function calculate_facsContainer_height(facsContainer) {
   return new_container_height;
 }
 
-function calculate_facsContainer_width(new_container_height_number) {
-  return image_size_relations * new_container_height_number;
-}
-
-function set_facsContainer_hight_and_width(
-  facsContainer,
-  height_number,
-  width_number,
-) {
-  facsContainer.style.height = `${String(height_number)}px`;
-  facsContainer.style.width = `${String(width_number)}px`;
-  console.log(
-    `set height to ${facsContainer.style.height} and width to ${facsContainer.style.width}`,
-  );
-}
-
 function resize_facsContainer() {
+  var resize_threshold = window.innerHeight * 5;
   if ($(document).scrollTop() < resize_threshold) {
     var container_facs_1 = document.getElementById("container_facs_1");
     var new_container_height = calculate_facsContainer_height(container_facs_1);
-    var new_container_width =
-      calculate_facsContainer_width(new_container_height);
-    set_facsContainer_hight_and_width(
-      container_facs_1,
-      new_container_height,
-      new_container_width,
-    );
+    container_facs_1.style.height = `${String(new_container_height)}px`;
   }
 }
 
@@ -258,3 +234,5 @@ var osd_container_resize_events = ["scroll", "resize", "onload"];
 for (trigger_event_type of osd_container_resize_events) {
   window.addEventListener(trigger_event_type, resize_facsContainer);
 }
+
+resize_facsContainer()
