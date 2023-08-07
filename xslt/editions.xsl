@@ -46,7 +46,7 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="container-fluid">
+                    <div class=".edition_container">
                         <div class="wp-transcript">
                             <div class="card-header">
                                 <div class="row">
