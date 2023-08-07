@@ -211,6 +211,23 @@ function isInViewportAll(element) {
 eventlisteners to max hight of the container
 ##################################################################
 */
+/*
+doesnt work either, cause navbar is resizing
+const navbar_div = document.getElementById("wrapper-navbar")
+function get_trigger_val() {
+  var nabar_height = navbar_div.offsetHeight;
+  var viewer_div = document.getElementById("viewer");
+  viewer_div.style.top = `${String(nabar_height)}px`;
+  console.log("hellp0")
+};
+
+window.addEventListener("scroll", get_trigger_val);
+might do this over scrolling event
+*/
+function resizing_done() {
+  var distanceFromTop = el.getBoundingClientRect().top;
+};
+
 function calculate_facsContainer_height(facsContainer) {
   var image_rights = document.getElementsByClassName("image_rights")[0];
   var image_rights_height = image_rights.getBoundingClientRect().height;
@@ -221,7 +238,7 @@ function calculate_facsContainer_height(facsContainer) {
   return new_container_height;
 }
 
-function resize_facsContainer() {
+function resize_facsContainer(event) {
   var resize_threshold = window.innerHeight * 5;
   if ($(document).scrollTop() < resize_threshold) {
     var container_facs_1 = document.getElementById("container_facs_1");
