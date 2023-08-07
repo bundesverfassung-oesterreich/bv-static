@@ -91,10 +91,17 @@ p {
 div.image_rights{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: fit-content;
     height: fit-content;
     font-size: x-small;
     color: lightgrey;
+    text-align: center;
+}
+div.image_rights p{
+    margin: auto;
+    max-width: 70em;
+    hyphens: auto;
+    text-align: justify;
+    display: inline-block;
 }
 
 a {
@@ -117,6 +124,10 @@ a {
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.edition_container {
+    width: 100%;
 }
 
 .container-fluid {
@@ -144,6 +155,7 @@ a {
     position: sticky;
     top: 10%;
     padding: 2em;
+    padding-bottom: 0rem;
 }
 
 /* entities */
