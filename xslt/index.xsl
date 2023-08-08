@@ -23,7 +23,6 @@
             <body class="page" style="background-color:#f1f1f1;">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-
                     <div class="container">
                         <div class="row intro">
                             <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">

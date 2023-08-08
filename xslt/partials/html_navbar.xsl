@@ -22,15 +22,23 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__about_toplevel" ></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="about.html"  data-i18n="navbar__about_project" ></a>
+                                        <a class="dropdown-item" href="about_project.html"  data-i18n="navbar__about_project" ></a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="about.html"  data-i18n="navbar__about_bvg" ></a>
+                                        <a class="dropdown-item" href="about_bvg.html"  data-i18n="navbar__about_bvg" ></a>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="toc.html" data-i18n="navbar__toc"></a>
+                            <li class="nav-item dropdown disabled">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__sources" ></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="about_sources.html"  data-i18n="navbar__sources_intro" ></a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="toc.html"  data-i18n="navbar__toc" ></a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-item dropdown disabled">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__register" ></a>
