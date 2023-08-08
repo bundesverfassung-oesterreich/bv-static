@@ -1,6 +1,7 @@
 {
-    "navbar__project": "Project",
-    "navbar__about": "About the project",
+    "navbar__about_toplevel": "Introduction",
+    "navbar__about_project": "About the project",
+    "navbar__about_bvg": "The Federal Constitutional Law (B-VG)",
     "navbar__sources": "Sources",
     "navbar__sources_intro": "Introduction",
     "navbar__toc": "Search",
