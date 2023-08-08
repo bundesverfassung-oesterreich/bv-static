@@ -3,7 +3,7 @@
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="#all">
+                                        version="2.0" exclude-result-prefixes="#all">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -12,7 +12,7 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select='"B-VG 1920"'/>
         </xsl:variable>
-
+        
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
@@ -25,84 +25,25 @@
                     <xsl:call-template name="nav_bar"/>
                     <div class="container">
                         <div class="row intro">
-                            <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">
-                                <div class="intro_left">
+                            <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
+                                <div class="landing_text">
                                     <h1> Die Entstehung des Bundes-Verfassungsgesetzes 1920</h1>
                                     <h3>B-VG 1920</h3>
-                                    <a href="toc.html" title="Edition ohne Faksimiles">
-                                        <button class="btn btn-secondary" role="button" style="width: 250px;">
-                                            Edierte Dokumente
-                                        </button>
-                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12">
-                                <div class="intro_right wrapper">
-                                    <img src="images/29117929_XXL_height.jpg" class="d-block w-100" alt="..."/>
+                        </div>
+                        <div class="row intro">
+                            <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
+                                <div class="landing_text">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Stemma_codicum_Plauto.svg/800px-Stemma_codicum_Plauto.svg.png" alt="genetisches Stemma der Fassungen"/>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid" style="margin:2em auto;">
-                        <div class="row wrapper img_bottom">
-                            <div class="col-md-6 col-lg-6 col-sm-12">
-                                <a href="toc.html" class="index-link">                                   
-                                    <div class="card index-card">
-                                        <div class="card-body">
-                                            <img src="images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>
-                                        <div class="card-header">                                            
-                                            <p>
-                                                Vorlage für eine Edition ohne Faksimiles
-                                            </p>                                            
-                                        </div>
-                                    </div>                                     
-                                </a>                                    
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12">
-                                <a href="toc_facs.html" class="index-link">                                                     
-                                    <div class="card index-card">
-                                        <div class="card-body">
-                                            <img src="images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>
-                                        <div class="card-header">                                            
-                                            <p>
-                                                Vorlage für eine Edition mit Faksimiles
-                                            </p>                                            
-                                        </div>
-                                    </div>                                 
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12">
-                                <a href="about.html" class="index-link">  
-                                    <div class="card index-card">
-                                        <div class="card-body">
-                                            <img src="images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>
-                                        <div class="card-header">                                            
-                                            <p>
-                                                Über das Projekt
-                                            </p>                                            
-                                        </div>
-                                    </div>                                    
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-12">
-                                <a href="search.html" class="index-link">  
-                                    <div class="card index-card">
-                                        <div class="card-body">
-                                            <img src="images/example-img-1.jpg" class="d-block w-100" alt="..."/>
-                                        </div>
-                                        <div class="card-header">                                            
-                                            <p>
-                                                Datenbanksuche
-                                            </p>                                            
-                                        </div>
-                                    </div>                                    
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
