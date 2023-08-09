@@ -1,7 +1,3 @@
-:root {
-    --main-bg-color: #FAF9F6;
-  }
-
 *, :after, :before {
     box-sizing: border-box;
 }
@@ -14,9 +10,9 @@ a {
     color: #88dbdf;
 }
 
-ul {
-    background-color: var(--main-bg-color);
-}
+/* a:hover {
+    color: #fff;
+} */
 
 .navbar-nav ul li a, .navbar-nav ul li a:visited {
     /* change navbar link color */
@@ -24,12 +20,13 @@ ul {
 
 .navbar-nav ul li a:hover, .navbar-nav ul li a:active {
     /* change navbar link color */
-    background-color: lightgrey;
+    background-color: #88dbdf;
+    color: #fff;
 }
 
 .navbar-nav ul li.active a {
     /* change navbar link color */
-    background-color: var(--main-bg-color);
+    background-color: #88dbdf;
 }
 
 cite {
@@ -41,7 +38,7 @@ cite {
 }
 
 .intro {
-    background-color: var(--main-bg-color);
+    background-color: #fff;
     /*height: 93vh;
     overflow: hidden;*/
     border-bottom: 3px solid #88dbdf;
@@ -200,7 +197,7 @@ border-right: 1px solid lightgrey;
     border-top: 3px solid #88dbdf;
     margin-top: auto;
     display: flex;
-    background-color:var(--main-bg-color);
+    background-color:#fff;
     z-index: 1;
     padding: 8em 0;
 }
@@ -246,7 +243,7 @@ a.anchorFoot {
     right: 10%;
     max-width: 100px;
     padding: .5em;
-    background-color: var(--main-bg-color);
+    background-color: #88dbdf;
     color: #fff;
     border-radius: 1rem;
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
@@ -353,7 +350,7 @@ div.dataTables_filter {
 
 .navbar {
     border-bottom: 5px solid #88dbdf;
-    background-color: var(--main-bg-color);
+    background-color: #fff;
     max-height: 100vh;
 }
 
@@ -464,7 +461,7 @@ div.dataTables_filter {
 }
 
 .btn-round:hover {
-    background-color: var(--main-bg-color);
+    background-color: #fff;
 }
 
 .btn-round a {
