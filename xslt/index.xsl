@@ -7,6 +7,7 @@
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
+    <xsl:import href="./partials/meta_tags.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
@@ -18,6 +19,11 @@
             <head>
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                </xsl:call-template>
+                <xsl:call-template name="meta-tags">
+                    <xsl:with-param name="title" select="$doc_title"></xsl:with-param>
+                    <xsl:with-param name="author" select="'Jörg Kammerhofer'"></xsl:with-param>
+                    <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
                 </xsl:call-template>
             </head>            
             <body class="page" style="background-color:#f1f1f1;">

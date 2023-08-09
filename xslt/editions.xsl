@@ -13,6 +13,7 @@
     <xsl:import href="partials/aot-options.xsl"/>
     <xsl:import href="partials/chapters.xsl"/>
     <xsl:import href="partials/edition.xsl"/>
+    <xsl:import href="partials/meta_tags.xsl"/>
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"
@@ -42,6 +43,14 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"/>
                 </xsl:call-template>
+                <xsl:call-template name="meta-tags">
+                    <xsl:with-param name="title" select="$doc_title"></xsl:with-param>
+                    <xsl:with-param name="author" select="'Jörg Kammerhofer'"></xsl:with-param>
+                    <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
+                </xsl:call-template>
+                <xsl:for-each select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()">
+                    <meta name="author" content="{.}"></meta>
+                </xsl:for-each>
             </head>
             <body class="page">
                 <div class="hfeed site" id="page">
