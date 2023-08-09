@@ -211,6 +211,18 @@ function isInViewportAll(element) {
 eventlisteners to max hight of the container
 ##################################################################
 */
+
+const delay_ms = 20;
+const throttle = function (throttled_func) {
+  let time = Date.now();
+  return () => {
+    if((time + delay_ms - Date.now()) <= 0) {
+      throttled_func();
+      time = Date.now();
+    };
+  };
+};
+
 const image_rights = document.getElementsByClassName("image_rights")[0];
 function calculate_facsContainer_height(facsContainer) {
   let image_rights_height = image_rights.getBoundingClientRect().height;
@@ -221,7 +233,7 @@ function calculate_facsContainer_height(facsContainer) {
   return Math.round(new_container_height);
 };
 
-function resize_facsContainer(event) {
+function resize_facsContainer() {
     let new_container_height = calculate_facsContainer_height(container_facs_1);
     if (new_container_height != container_facs_1.clientHeight) {
       container_facs_1.style.height = `${String(new_container_height)}px`;
@@ -231,5 +243,14 @@ function resize_facsContainer(event) {
 // create event-listeners
 var osd_container_resize_events = ["scroll", "resize", "load"];
 for (trigger_event_type of osd_container_resize_events) {
-  window.addEventListener(trigger_event_type, resize_facsContainer);
+  window.addEventListener(
+    trigger_event_type,
+    //resize_facsContainer
+    throttle(
+      resize_facsContainer,
+      delay_ms
+    )
+  );
 };
+
+resize_facsContainer()
