@@ -300,7 +300,16 @@ a.anchorFoot {
     max-height: 800px !important;
     overflow-x: hidden !important;
 }
-  
+
+#chapter_navigation {
+    max-width: 20rem;
+}
+
+#chapter_navigation a{
+    white-space: normal !important;
+    hyphens: auto;
+}
+
 .bi-journals {
     color: #fff;
     fill: #fff;
