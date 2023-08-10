@@ -45,12 +45,9 @@
                 </xsl:call-template>
                 <xsl:call-template name="meta-tags">
                     <xsl:with-param name="title" select="$doc_title"></xsl:with-param>
-                    <xsl:with-param name="author" select="'Jörg Kammerhofer'"></xsl:with-param>
+                    <xsl:with-param name="source_authors" select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"></xsl:with-param>
                     <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
                 </xsl:call-template>
-                <xsl:for-each select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()">
-                    <meta name="author" content="{.}"></meta>
-                </xsl:for-each>
             </head>
             <body class="page">
                 <div class="hfeed site" id="page">

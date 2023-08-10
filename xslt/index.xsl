@@ -22,7 +22,6 @@
                 </xsl:call-template>
                 <xsl:call-template name="meta-tags">
                     <xsl:with-param name="title" select="$doc_title"></xsl:with-param>
-                    <xsl:with-param name="author" select="'Jörg Kammerhofer'"></xsl:with-param>
                     <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
                 </xsl:call-template>
             </head>            

@@ -3,11 +3,13 @@
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:template name="meta-tags">
         <xsl:param name="description"/>
-        <xsl:param name="author"/>
+        <xsl:param name="source_authors"/>
         <xsl:param name="title"/>
         <meta charset="UTF-8"/>
         <meta name="description" content="{$description}"/>
-        <meta name="keywords" content="Hans Kelsen, Bundes-Verfassungsgesetz, B-VG, Verfassung Österreich, {$title}"/>
-        <meta name="author" content="{$author}"/>
+        <meta name="keywords" content="Bundes-Verfassungsgesetz, B-VG, Verfassung Österreich, Bundesverfassung, {$source_authors}, {$title}"/>
+        <xsl:for-each select="tokenize('Thomas Olechowski, Jörg Kammerhofer', ', ')">
+            <meta name="author" content="{.}"></meta>
+        </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
