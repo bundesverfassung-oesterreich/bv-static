@@ -44,6 +44,21 @@ cite {
     /*border-bottom: 3px solid #88dbdf;*/
 }
 
+/*rules for anchor hack */
+:target + h2,
+:target + h3,
+:target + h4
+{
+    background-color: lightgray;
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: 80px; /* fixed navbar height*/
+    margin: -80px 0 0; /* negative navbar height */
+  }
+
 .intro .col-md-6 {
     padding: 0;
     align-items: center;
@@ -95,9 +110,23 @@ body {
     overflow-x: hidden;
 }
 
+h2,h3,h4 {
+    width: fit-content;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: .75rem;
+    margin-top: 1.75rem;
+}
+
+h2.section, h3.section, h2.sub_section, h3.sub_section {
+    margin-top: 2rem;
+    font-size: large;
+}
+
 p {
     display: block;
     padding: 0;
+    width: fit-content;
 }
 
 div.image_rights{
