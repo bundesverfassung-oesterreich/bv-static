@@ -70,14 +70,14 @@ cite {
     display: flex;
     align-items: center;
     vertical-align: middle;
+    padding-bottom: 2rem;
 }
 
 .landing_text {
     display: block;
     margin: auto;
-    padding: 2em;
     max-width: 45em;
-}
+}   
 
 .landing_text img {
     max-width:100%;
@@ -621,7 +621,7 @@ resolution or low resolution screens
         padding: 0;
     }
     .intro {
-        height: 100%;
+        height: auto;
     }
     #wrapper-footer-full {
         padding: 1em 0;
