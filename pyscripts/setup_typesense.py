@@ -87,12 +87,12 @@ def create_record(
         record["record_type"] = "Dokumententitel"
     else:
         ancestor_div = head.xpath("./ancestor::tei:div", namespaces=tei_ns)[-1]
-        ana = ancestor_div.attrib.get("ana")
-        if not ana:
+        _type = ancestor_div.attrib.get("type")
+        if not _type:
             print(full_text)
-            print("div ancestor of head has no @ana-attrib … ")
+            print("div ancestor of head has no @type-attrib … ")
             raise ValueError
-        record["record_type"] = ana
+        record["record_type"] = _type
     # "Dokumententitel" if head_index == 0 else head.attrib["class"]
     record["bv_doc_id"] = bv_doc_id
     record["bv_doc_id_num"] = int(bv_doc_id.split("_")[-1])

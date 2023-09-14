@@ -168,10 +168,10 @@
     </xsl:template>
     <xsl:template match="tei:div[parent::tei:div]">
         <!-- this is for sections, subsections and articles-->
-        <xsl:variable name="ana_attrib" select="@ana"/>
+        <xsl:variable name="type_attrib" select="@type"/>
         <div>
             <xsl:attribute name="class">
-                <xsl:value-of select="$ana_attrib"/>
+                <xsl:value-of select="$type_attrib"/>
             </xsl:attribute>
             <xsl:apply-templates/>
         </div>
@@ -252,11 +252,11 @@
         <!-- determine if article or section -->
         <xsl:variable name="item_class">
             <xsl:choose>
-                <xsl:when test="ancestor::tei:div[1][@ana = 'article']">
+                <xsl:when test="ancestor::tei:div[1][@type = 'article']">
                     <xsl:value-of select="'article'"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="ancestor::tei:div[1]/@ana"/>
+                    <xsl:value-of select="ancestor::tei:div[1]/@type"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>

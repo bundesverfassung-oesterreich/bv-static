@@ -20,7 +20,7 @@
                 </svg>
             </a>
             <ul class="dropdown-menu" id="chapter_navigation">
-                <xsl:for-each select=".//tei:body//tei:div[contains(@ana, 'section')]">
+                <xsl:for-each select=".//tei:body//tei:div[contains(@type, 'section')]">
                     <li class="section_ref">
                         <a class="dropdown-item">
                             <xsl:attribute name="href">
@@ -29,7 +29,7 @@
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </a>
                         <ul class="dropown-menu dropdown-submenu">
-                            <xsl:for-each select=".//tei:div[@ana='article']">
+                            <xsl:for-each select=".//tei:div[@type='article']">
                                 <li class="article_ref">
                                     <a class="dropdown-item">
                                         <xsl:attribute name="href">
