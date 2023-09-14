@@ -194,7 +194,7 @@
       <lb/>--------
       </p>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_1"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel 1.</head>
                <p>
 </p>
@@ -212,7 +212,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_2"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel II.
       </head>
                <p>Die Selbständigkeit jedes Bundesgliedes bleibt gewahrt und
@@ -223,7 +223,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_3"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel III.
       </head>
                <p>Der Bund schützt sein Gebiet und das Gebiet seiner Glieder
@@ -243,7 +243,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_4"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel IV.
       </head>
                <p>Zum Zwecke der Erfüllung der im Artikel III enthaltenen Auf-
@@ -271,7 +271,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_5"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel V.
       </head>
                <p>Jedes Bundesmitglied hat zur Aufrechthaltung der Ruhe und
@@ -294,7 +294,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_6"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel VI.
       </head>
                <p>Die Bundesglieder sind verpflichtet, ihre Verfassungen dem
@@ -329,7 +329,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_7"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel VII.
       </head>
                <p>Die Glaubens- und Gewissensfreiheit ist unverletzlich. Niemand
@@ -351,7 +351,7 @@
       <lb/>leistet.</p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_8"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel VIII.
       </head>
                <p>Jede Religionsgesellschaft ordnet innerhalb der gesetzlichen
@@ -359,7 +359,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_9"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel IX.
       </head>
                <p>Die Pressfreiheit ist gewährleistet; durch ein Bundesgesetz sind
@@ -367,7 +367,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_10"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel X.
       </head>
                <p>Die Bürger haben das Recht Vereine zu bilden, soferne diese
@@ -383,7 +383,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_11"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XI.
       </head>
                <p>Niemand darf seinen verfassungsmässigen Richter entzogen werden;
@@ -393,7 +393,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_12"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XII.
       </head>
                <p>Alle Bundesglieder sind verpflichtet, die Angehörigen des Bundes-
@@ -406,7 +406,7 @@
       <lb/>als einem Gebiete eines Bundesgliedes politische Rechte ausüben.</p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_13"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XIII.
       </head>
                <p>Die Freiheit des Handels und der Gewerbe ist im ganzen Umfange
@@ -416,7 +416,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_14"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XIV.
       </head>
                <p>In die Zuständigkeit des Bundes fallen:
@@ -511,7 +511,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_15"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XV.
       </head>
                <p>Die Angelegenheiten, welche zur Zuständigkeit der Gesetzgebung
@@ -521,7 +521,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_16"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XVI.</head>
                <p>
 </p>
@@ -543,7 +543,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_17"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XVII.
       </head>
                <p>Gesetzesbeschlüsse der Landtage oder des Wiener Gemeinderates
@@ -569,7 +569,7 @@
       <lb/>Schreiben vor Ablauf der Frist zur Post gegeben worden ist.</p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_18"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XVIII.
       </head>
                <p>Der Bund wird vertreten:
@@ -606,7 +606,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_19"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XIX.
       </head>
                <p>Die Bundesversammlungen und das Länderhaus werden auf 6
@@ -632,7 +632,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_20"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XX.
       </head>
                <p>Wenn 5 Bundesglieder durch ihre Vertretung (Landtag, Gemeinde-
@@ -642,7 +642,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_21"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXI.</head>
                <p>
 </p>
@@ -657,7 +657,7 @@
       <lb/>sammlung zu.</p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_22"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXII.
       </head>
                <p>Zu einem giltigen Beschlüsse ist in beiden Vertretungskörpern
@@ -677,7 +677,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_23"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXIII.
       </head>
                <p>Die Bundesversammlung und das Länderhaus versammeln sich
@@ -689,7 +689,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_24"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXIV.
       </head>
                <p>Zu ausserordentlichen Tagungen sind Bundesversammlung und Län-
@@ -699,7 +699,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_25"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXV.</head>
                <p>
 </p>
@@ -711,7 +711,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_26"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXVI.
       </head>
                <p>Die Sitzungen der Bundesversammlung und des Länderhauses sind
@@ -719,7 +719,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_27"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXVII.</head>
                <p>
 </p>
@@ -748,7 +748,7 @@
       <lb/>erlassen.</p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_28"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXVIII.
       </head>
                <p>Den Vorsitz im Bundesrate führt der Bundespräsident, der aus
@@ -760,7 +760,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_29"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXIX.
       </head>
                <p>Die Mitglieder des Bundesrates beziehen einen jährlichen Ge-
@@ -768,7 +768,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_30"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXX.
       </head>
                <p>Die Mitglieder des Bundesrates haben bei den Verhandlungen der
@@ -782,7 +782,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_31"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXI.
       </head>
                <p>Der Bundesrat hat insbesondere folgende Befugnisse und
@@ -824,7 +824,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_32"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXII.
       </head>
                <p>Die Geschäfte des Bundesrates werden unter die einzelnen Mit-
@@ -832,7 +832,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_33"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXIII.
       </head>
                <p>Zur Erledigung aller Geschäfte des Bundesrates ist ihm die
@@ -856,7 +856,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_34"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXIV.
       </head>
                <p>Die im Kaiserstaate Oesterreich im Zeitpunkte der Einführung
@@ -876,7 +876,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_35"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXV.</head>
                <p>
 </p>
@@ -895,7 +895,7 @@
       <lb/>führung dieser Wahl und die Art der Fragestellung regeln.</p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_36"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXVI.
       </head>
                <p>Innerhalb der ersten 3 Jahre nach Beginn der Wirksamkeit die-
@@ -921,7 +921,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_37"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXVII.</head>
                <p>
 </p>
@@ -935,7 +935,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_38"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXVIII.
       </head>
                <p>Die Bundesverfassung und die erstmalige Ausschreibung der Wahlen
@@ -945,7 +945,7 @@
       </p>
             </div>
             <div ana="article">
-               <a class="navigation_article" xml:id="navigation_article_39"/>
+               <a class="navigation_" xml:id="navigation_section_"/>
                <head>Artikel XXXIX.</head>
                <p>
 </p>

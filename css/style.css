@@ -118,7 +118,7 @@ h2,h3,h4 {
     margin-top: 1.75rem;
 }
 
-h2.section, h3.section, h2.sub_section, h3.sub_section {
+h2.section, h3.section {
     margin-top: 2rem;
     font-size: large;
 }
