@@ -93,11 +93,6 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface ulx="0" uly="0" lrx="3109" lry="4930" xml:id="facs_1">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__3/files/images/IMG_0001/full/full/0/default.jpg"
-                  width="3109px"
-                  height="4930px"/>
-      </surface>
       <surface ulx="0" uly="0" lrx="3111" lry="4934" xml:id="facs_2">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__3/files/images/IMG_0002/full/full/0/default.jpg"
                   width="3111px"
@@ -387,7 +382,6 @@
    <text type="bv_doctype_id__1">
       <body>
          <div type="main">
-            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <p>Erster Abschnitt.
       <lb/>Allgemeine Bestimmungen.

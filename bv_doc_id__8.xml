@@ -93,11 +93,6 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface ulx="0" uly="0" lrx="2787" lry="4505" xml:id="facs_1">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0001/full/full/0/default.jpg"
-                  width="2787px"
-                  height="4505px"/>
-      </surface>
       <surface ulx="0" uly="0" lrx="2796" lry="4506" xml:id="facs_2">
          <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0002/full/full/0/default.jpg"
                   width="2796px"
@@ -187,7 +182,6 @@
    <text type="bv_doctype_id__1">
       <body>
          <div type="main">
-            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <p>Falser
       <lb/>Die Verfassung des Bundesstaates
