@@ -8,7 +8,7 @@
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
             </principal>
             <funder>
-               <name>FWF - Der Wissenschaftsfonds</name>
+               <orgName>FWF - Der Wissenschaftsfonds</orgName>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -53,6 +53,7 @@
             </availability>
             <idno type="transkribus_doc">1529200</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="goobi">14503</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc type="invetory">
@@ -65,15 +66,14 @@
                   <msItem>
                      <author role="acdh:hasAuthor">Kelsen, Hans</author>
                      <title>Kelsen Entwurf II</title>
+                     <note type="editor">Kelsen II (Titel des Dokuments: "Entwurf II"), Zustand gut, zahlreiche handschriftliche Ergänzungen und Korrekturen, 170 Artikel</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="">
-                     <ab>Kelsen II (Titel des Dokuments: "Entwurf II"), Zustand gut, zahlreiche handschriftliche Ergänzungen und Korrekturen, 170 Artikel</ab>
-                  </objectDesc>
+                  <objectDesc form="bv_manifestation_type_id__2">
+                        </objectDesc>
                   <handDesc>
-                     <ab/>
-                  </handDesc>
+                        </handDesc>
                </physDesc>
                <history>
                   <origin from="1919-05-01" to="1919-11-30">Zwischen Mai und November 1919</origin>
@@ -83,309 +83,311 @@
       </fileDesc>
       <profileDesc>
          <abstract>
-            <ab/>
+            <p/>
          </abstract>
          <creation>
-            <date from="1919-05-01" to="1919-11-30">Zwischen Mai und November 1919</date>
+            <date notBefore-iso="1919-05-01" notAfter-iso="1919-11-30">
+                Zwischen Mai und November 1919
+            </date>
          </creation>
       </profileDesc>
    </teiHeader>
    <facsimile>
       <surface ulx="0" uly="0" lrx="3237" lry="5106" xml:id="facs_1">
-         <graphic url="https://files.transkribus.eu/Get?id=QLGFFSLKSLSMIWNXRVCNSDHJ&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0001/full/full/0/default.jpg"
                   width="3237px"
                   height="5106px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3262" lry="5133" xml:id="facs_2">
-         <graphic url="https://files.transkribus.eu/Get?id=AHYPZYQQHPDCIKNIDNWJWHOX&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0002/full/full/0/default.jpg"
                   width="3262px"
                   height="5133px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3085" lry="4985" xml:id="facs_3">
-         <graphic url="https://files.transkribus.eu/Get?id=TXKQDNFSHRIIZQJYRNKHLIRK&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0003/full/full/0/default.jpg"
                   width="3085px"
                   height="4985px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3110" lry="4999" xml:id="facs_4">
-         <graphic url="https://files.transkribus.eu/Get?id=KIORKNOZATWALJUITRESVKYV&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0004/full/full/0/default.jpg"
                   width="3110px"
                   height="4999px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3095" lry="4986" xml:id="facs_5">
-         <graphic url="https://files.transkribus.eu/Get?id=LDBCDQCSUACKTZCYCTODYQAI&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0005/full/full/0/default.jpg"
                   width="3095px"
                   height="4986px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3084" lry="5021" xml:id="facs_6">
-         <graphic url="https://files.transkribus.eu/Get?id=NXHXSRCGRXUJSVECJXBEAQZW&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0006/full/full/0/default.jpg"
                   width="3084px"
                   height="5021px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3081" lry="4987" xml:id="facs_7">
-         <graphic url="https://files.transkribus.eu/Get?id=KKQWBLCBHSKPIWUTUNFPUZAH&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0007/full/full/0/default.jpg"
                   width="3081px"
                   height="4987px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3081" lry="5002" xml:id="facs_8">
-         <graphic url="https://files.transkribus.eu/Get?id=KNWSOHGJNBDGZFKOFITQGQDE&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0008/full/full/0/default.jpg"
                   width="3081px"
                   height="5002px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3099" lry="5002" xml:id="facs_9">
-         <graphic url="https://files.transkribus.eu/Get?id=NMDVVFVWBUYXJKAHLRXLILJQ&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0009/full/full/0/default.jpg"
                   width="3099px"
                   height="5002px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3102" lry="4986" xml:id="facs_10">
-         <graphic url="https://files.transkribus.eu/Get?id=JYZVUEFVZLVJGOHPLBBVVWXE&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0010/full/full/0/default.jpg"
                   width="3102px"
                   height="4986px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3091" lry="4995" xml:id="facs_11">
-         <graphic url="https://files.transkribus.eu/Get?id=VBRMXBOUNDPFYSQXKAVUDSXB&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0011/full/full/0/default.jpg"
                   width="3091px"
                   height="4995px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3108" lry="5006" xml:id="facs_12">
-         <graphic url="https://files.transkribus.eu/Get?id=AMDSXFIXPZTKGLELFLPZODJQ&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0012/full/full/0/default.jpg"
                   width="3108px"
                   height="5006px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3112" lry="4997" xml:id="facs_13">
-         <graphic url="https://files.transkribus.eu/Get?id=EZWTJHUZZSRPHMJRYAVYEOUU&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0013/full/full/0/default.jpg"
                   width="3112px"
                   height="4997px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3098" lry="4964" xml:id="facs_14">
-         <graphic url="https://files.transkribus.eu/Get?id=QVIRXKIASQFWKHRCKWKYGMWO&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0014/full/full/0/default.jpg"
                   width="3098px"
                   height="4964px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3101" lry="4990" xml:id="facs_15">
-         <graphic url="https://files.transkribus.eu/Get?id=LAAOGBJPRQZTVYBYEXQMLEID&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0015/full/full/0/default.jpg"
                   width="3101px"
                   height="4990px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3111" lry="5013" xml:id="facs_16">
-         <graphic url="https://files.transkribus.eu/Get?id=FTKUECCKWBXVSZUAVMSQUCME&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0016/full/full/0/default.jpg"
                   width="3111px"
                   height="5013px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3120" lry="5010" xml:id="facs_17">
-         <graphic url="https://files.transkribus.eu/Get?id=JBSFFDMPIXPFLFVTVOMVPNQT&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0017/full/full/0/default.jpg"
                   width="3120px"
                   height="5010px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3089" lry="4955" xml:id="facs_18">
-         <graphic url="https://files.transkribus.eu/Get?id=GELTRLJCTDHDTASFTTYYMMQM&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0018/full/full/0/default.jpg"
                   width="3089px"
                   height="4955px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3102" lry="5002" xml:id="facs_19">
-         <graphic url="https://files.transkribus.eu/Get?id=XVRKUYGYNMJURHTUFJZLDIZR&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0019/full/full/0/default.jpg"
                   width="3102px"
                   height="5002px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3095" lry="4995" xml:id="facs_20">
-         <graphic url="https://files.transkribus.eu/Get?id=VEKXMOVOAICPPJJJWZVSYQVC&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0020/full/full/0/default.jpg"
                   width="3095px"
                   height="4995px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3073" lry="4991" xml:id="facs_21">
-         <graphic url="https://files.transkribus.eu/Get?id=SZTMJCNDEVXVUBYPGIUFIVOI&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0021/full/full/0/default.jpg"
                   width="3073px"
                   height="4991px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3100" lry="4963" xml:id="facs_22">
-         <graphic url="https://files.transkribus.eu/Get?id=XTAKFTTNMGDWROMNWYPPJUFY&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0022/full/full/0/default.jpg"
                   width="3100px"
                   height="4963px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3102" lry="5009" xml:id="facs_23">
-         <graphic url="https://files.transkribus.eu/Get?id=SHZUCGITXLYOLMJBLUSHMQUA&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0023/full/full/0/default.jpg"
                   width="3102px"
                   height="5009px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3097" lry="4976" xml:id="facs_24">
-         <graphic url="https://files.transkribus.eu/Get?id=IPOZUNAHEDRKQMCEFSINZETU&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0024/full/full/0/default.jpg"
                   width="3097px"
                   height="4976px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3090" lry="4955" xml:id="facs_25">
-         <graphic url="https://files.transkribus.eu/Get?id=JZDYQRDQVQQPEAATUHQIXMZD&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0025/full/full/0/default.jpg"
                   width="3090px"
                   height="4955px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3136" lry="5007" xml:id="facs_26">
-         <graphic url="https://files.transkribus.eu/Get?id=QQDEQYUKOIVDKXJCJXDFBKAU&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0026/full/full/0/default.jpg"
                   width="3136px"
                   height="5007px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3097" lry="4957" xml:id="facs_27">
-         <graphic url="https://files.transkribus.eu/Get?id=AVLEWGYMNEUZKBUXVYILIJCW&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0027/full/full/0/default.jpg"
                   width="3097px"
                   height="4957px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3125" lry="5001" xml:id="facs_28">
-         <graphic url="https://files.transkribus.eu/Get?id=HEKFAGOGBNYWHNRSQSPVZZYM&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0028/full/full/0/default.jpg"
                   width="3125px"
                   height="5001px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3092" lry="4952" xml:id="facs_29">
-         <graphic url="https://files.transkribus.eu/Get?id=NVGVGWVEKBOOFODIYKOUTMZU&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0029/full/full/0/default.jpg"
                   width="3092px"
                   height="4952px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3124" lry="5008" xml:id="facs_30">
-         <graphic url="https://files.transkribus.eu/Get?id=WXCHRKQDUUZMCWJJKOMCXROM&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0030/full/full/0/default.jpg"
                   width="3124px"
                   height="5008px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3114" lry="5006" xml:id="facs_31">
-         <graphic url="https://files.transkribus.eu/Get?id=OCWDKKZDIMDNOKCWSLMZIDZM&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0031/full/full/0/default.jpg"
                   width="3114px"
                   height="5006px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3102" lry="4978" xml:id="facs_32">
-         <graphic url="https://files.transkribus.eu/Get?id=VIGOVNDMGWLRAXGRUNSIVJPL&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0032/full/full/0/default.jpg"
                   width="3102px"
                   height="4978px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3144" lry="5017" xml:id="facs_33">
-         <graphic url="https://files.transkribus.eu/Get?id=CRSKPITIRJVWTQATEFGUVUXI&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0033/full/full/0/default.jpg"
                   width="3144px"
                   height="5017px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3107" lry="4997" xml:id="facs_34">
-         <graphic url="https://files.transkribus.eu/Get?id=ZEIGSPZXNQPUXGSVUGRCPBDR&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0034/full/full/0/default.jpg"
                   width="3107px"
                   height="4997px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3113" lry="5011" xml:id="facs_35">
-         <graphic url="https://files.transkribus.eu/Get?id=EQGLFWXDVTEGFXEFWDDBWOTC&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0035/full/full/0/default.jpg"
                   width="3113px"
                   height="5011px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3102" lry="4995" xml:id="facs_36">
-         <graphic url="https://files.transkribus.eu/Get?id=RLEHVEJVJGQVMTDLZDNUZKFT&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0036/full/full/0/default.jpg"
                   width="3102px"
                   height="4995px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3104" lry="4995" xml:id="facs_37">
-         <graphic url="https://files.transkribus.eu/Get?id=WMKEPYWIHKLQAZJTCBOVNIOK&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0037/full/full/0/default.jpg"
                   width="3104px"
                   height="4995px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3117" lry="4995" xml:id="facs_38">
-         <graphic url="https://files.transkribus.eu/Get?id=CGZLTNMLEYDCNMDWQZOOZOKJ&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0038/full/full/0/default.jpg"
                   width="3117px"
                   height="4995px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3094" lry="5007" xml:id="facs_39">
-         <graphic url="https://files.transkribus.eu/Get?id=XUULHPKCFXGTFSRRMGYGTUGL&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0039/full/full/0/default.jpg"
                   width="3094px"
                   height="5007px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3087" lry="4934" xml:id="facs_40">
-         <graphic url="https://files.transkribus.eu/Get?id=JKQJDYSPJZUQQBWKBHHRBYKH&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0040/full/full/0/default.jpg"
                   width="3087px"
                   height="4934px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3094" lry="4992" xml:id="facs_41">
-         <graphic url="https://files.transkribus.eu/Get?id=YCGLQAOMSILDJHIWITGRHBRQ&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0041/full/full/0/default.jpg"
                   width="3094px"
                   height="4992px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3085" lry="4953" xml:id="facs_42">
-         <graphic url="https://files.transkribus.eu/Get?id=TIXGIGCRSLZSORPSIGYBZUEN&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0042/full/full/0/default.jpg"
                   width="3085px"
                   height="4953px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3105" lry="4994" xml:id="facs_43">
-         <graphic url="https://files.transkribus.eu/Get?id=BULBJLQMPBDWAYSZLJPLXZHY&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0043/full/full/0/default.jpg"
                   width="3105px"
                   height="4994px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3102" lry="4999" xml:id="facs_44">
-         <graphic url="https://files.transkribus.eu/Get?id=PSXUIGQVIDJWVTARVJGGMAFF&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0044/full/full/0/default.jpg"
                   width="3102px"
                   height="4999px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3102" lry="4954" xml:id="facs_45">
-         <graphic url="https://files.transkribus.eu/Get?id=OZIOAAWDCIJKEZZOOIIIEKHD&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0045/full/full/0/default.jpg"
                   width="3102px"
                   height="4954px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3085" lry="4963" xml:id="facs_46">
-         <graphic url="https://files.transkribus.eu/Get?id=NGAFHGRUOVIGDGBQFEHADBIV&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0046/full/full/0/default.jpg"
                   width="3085px"
                   height="4963px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3115" lry="5001" xml:id="facs_47">
-         <graphic url="https://files.transkribus.eu/Get?id=IEGZENIEVBHNZGIOLWNQURCR&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0047/full/full/0/default.jpg"
                   width="3115px"
                   height="5001px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3099" lry="4953" xml:id="facs_48">
-         <graphic url="https://files.transkribus.eu/Get?id=CLKUAIQFKTVYNLXRRGJYYHQV&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0048/full/full/0/default.jpg"
                   width="3099px"
                   height="4953px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3087" lry="4959" xml:id="facs_49">
-         <graphic url="https://files.transkribus.eu/Get?id=STITVBRAAAHHUEHRLXYCHWJO&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0049/full/full/0/default.jpg"
                   width="3087px"
                   height="4959px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3099" lry="4962" xml:id="facs_50">
-         <graphic url="https://files.transkribus.eu/Get?id=RAMBAQNVTRAAUSXHBFBPSAYU&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0050/full/full/0/default.jpg"
                   width="3099px"
                   height="4962px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3105" lry="5007" xml:id="facs_51">
-         <graphic url="https://files.transkribus.eu/Get?id=DJVRZZEXLDDGHUQCXTHGJBYC&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0051/full/full/0/default.jpg"
                   width="3105px"
                   height="5007px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3101" lry="4965" xml:id="facs_52">
-         <graphic url="https://files.transkribus.eu/Get?id=XNYPILHZYHLINFSYCSBXURWN&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0052/full/full/0/default.jpg"
                   width="3101px"
                   height="4965px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3085" lry="4985" xml:id="facs_53">
-         <graphic url="https://files.transkribus.eu/Get?id=XVEHGKWYYGEZCNKGZUPPDNGG&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0053/full/full/0/default.jpg"
                   width="3085px"
                   height="4985px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3107" lry="4967" xml:id="facs_54">
-         <graphic url="https://files.transkribus.eu/Get?id=PJNWTWMOFUTSVRWGFKWZMAMV&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0054/full/full/0/default.jpg"
                   width="3107px"
                   height="4967px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3101" lry="4979" xml:id="facs_55">
-         <graphic url="https://files.transkribus.eu/Get?id=DIYMWQQCLKQGBMCBGBNNPNZC&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0055/full/full/0/default.jpg"
                   width="3101px"
                   height="4979px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3084" lry="5008" xml:id="facs_56">
-         <graphic url="https://files.transkribus.eu/Get?id=LWGKZQPLNHTRXBYHZOCLOGLU&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0056/full/full/0/default.jpg"
                   width="3084px"
                   height="5008px"/>
       </surface>
       <surface ulx="0" uly="0" lrx="3097" lry="4953" xml:id="facs_57">
-         <graphic url="https://files.transkribus.eu/Get?id=WQQVGANZHWFLQJCWYFSLCIFR&amp;fileType=view"
+         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__2/files/images/IMG_0057/full/full/0/default.jpg"
                   width="3097px"
                   height="4953px"/>
       </surface>
    </facsimile>
-   <text type="">
+   <text type="bv_doctype_id__1">
       <body>
-         <div>
+         <div type="main">
             <pb facs="#facs_1" n="1" xml:id="img_0001"/>
             <p>Erster Abschnitt.
       <lb/>Allgemeine Bestimmungen.
       </p>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_1"/>
                <head>Art. 1.
       </head>
                <p>Die Republik Oesterreich ist ein freier
@@ -394,8 +396,8 @@
       <lb/>der Bundeshaupstadt Wien, die die Stellung
       <lb/>eines selbständigen Landes hat.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_2"/>
                <head>Art. 2.
       </head>
                <p>Oesterreich ist eine demokratische Re-
@@ -404,8 +406,8 @@
       <lb/>Volke eingesetzt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_3"/>
                <head>Art. 3.
       </head>
                <p>Das Bundesgebiet umfasst die Gebiete
@@ -415,8 +417,8 @@
       <lb/>etz.
       <lb/>Wien :</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_4"/>
                <head>Art. 4.
       </head>
                <p>Das Bundesgebiet bildet ein einheitli-
@@ -425,8 +427,8 @@
       <lb/>keinerlei Zwischenzollinien errichtet werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_5"/>
                <head>Art. 5.
       </head>
                <p>Eine Aenderung des Bundesgebietes, die
@@ -446,8 +448,8 @@
       <lb/>Allgemeine Bestimmungen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_6"/>
                <head>Art. 1.
       </head>
                <p>Die Republik Oesterreich ist ein freier
@@ -457,8 +459,8 @@
       <lb/>eines selbständigen Landes hat.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_7"/>
                <head>Art. 2.
       </head>
                <p>Oesterreich ist eine demokratische Re-
@@ -467,8 +469,8 @@
       <lb/>Volke eingesetzt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_8"/>
                <head>Art. 3.</head>
                <p>
 </p>
@@ -480,8 +482,8 @@
       <lb/>Wien :
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_9"/>
                <head>Art. 4.
       </head>
                <p>Das Bundesgebiet bildet ein einheitli-
@@ -489,8 +491,8 @@
       <lb/>Innerhalb der Grenzen des Bundes dürfen
       <lb/>keinerlei Zwischenzollinien errichtet werden.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_10"/>
                <head>Art. 5.
       </head>
                <p>Eine Aenderung des Bundesgebietes, die
@@ -505,8 +507,8 @@
                <p>- 2 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_11"/>
                <head>Art. 6.
       </head>
                <p>Jeder Landesbürger ist Bürger des
@@ -516,8 +518,8 @@
       <lb/>Landes gebunden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_12"/>
                <head>Art. 7.
       </head>
                <p>Jeder Bundesangehörige hat in je¬
@@ -526,8 +528,8 @@
       <lb/>selbst
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_13"/>
                <head>Art. 8.
       </head>
                <p>Die selbstständingen Länder Niederöster-
@@ -557,8 +559,8 @@
                <pb facs="#facs_4" n="4" xml:id="img_0004"/>
                <p>- 3 -</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_14"/>
                <head>Art. 9.
       </head>
                <p>Der Gesetzgebung des Bundes ist
@@ -584,15 +586,15 @@
       <lb/>des Wasser und Elektrizitätsrechtes.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_15"/>
                <head>Art. 10.
       </head>
                <p>Bundesrecht bricht Landesrecht.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_16"/>
                <head>Art. 11.
       </head>
                <p>Soferne eine Angelegenheit nicht</p>
@@ -615,8 +617,8 @@
                <p>- 4 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_17"/>
                <head>Art. 12.
       </head>
                <p>Der vom ganzen Bundesvolke Oester-
@@ -625,8 +627,8 @@
       <lb/>rate das höchste Organ des Bundes.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_18"/>
                <head>Art. 13.
       </head>
                <p>Der Sitz des Bundestages sowie des
@@ -638,8 +640,8 @@
       <lb/>bietes berufen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_19"/>
                <head>Art. 14.
       </head>
                <p>Dem Bundestage obliegt im Zusammen-
@@ -663,8 +665,8 @@
       <lb/>lich die Bundesregierung zu genehmigen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_20"/>
                <head>Art. 15.
       </head>
                <p>Dem Bundestag obliegt die jährli-
@@ -680,8 +682,8 @@
       <lb/>nehmigung des Bundesrates.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_21"/>
                <head>Art. 16.
       </head>
                <p>Zum Bundestag werden in dem gesam-
@@ -705,8 +707,8 @@
       <lb/>Bundesverfassung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_22"/>
                <head>Art. 17.
       </head>
                <p>Die Legislaturperiode des Bundes-
@@ -720,8 +722,8 @@
       <lb/>gen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_23"/>
                <head>Art.18.
       </head>
                <p>Während der Sitzungsperiode kann
@@ -740,8 +742,8 @@
       <lb/>Bundesregierung zu verständigen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_24"/>
                <head>Art. 19.
       </head>
                <p>Auf Antrag der Bundesregierung kann</p>
@@ -754,8 +756,8 @@
       <lb/>führter Wahl einzuberufen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_25"/>
                <head>Art. 20.
       </head>
                <p>Der Bundestag wählt aus seiner
@@ -770,8 +772,8 @@
       <lb/>senden autonomen Geschäftsordnung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_26"/>
                <head>Art. 27.
       </head>
                <p>Gesetzesvorschläge gelangen an den
@@ -799,8 +801,8 @@
       <lb/>die Kundmachung im Bundesgesetzblatt Gesetzes-
       <lb/>kraft.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_27"/>
                <head>Art. 28.
       </head>
                <p>Zu einem Beschluss des Bundestages
@@ -814,8 +816,8 @@
       <lb/>abgegebenen Stimmen beschlossen werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_28"/>
                <head>Art. 29.
       </head>
                <p>Jede Gesamtänderung der Bundesver-
@@ -830,8 +832,8 @@
       <lb/>terziehen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_29"/>
                <head>Art. 30.
       </head>
                <p>Einer solchen Volksabstimmung ist
@@ -845,8 +847,8 @@
       <lb/>halb 6 Wochen nach erfolgter Kundmachung des
       <lb/>Gesetzes gefordert wird.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_30"/>
                <head>Art. 31.
       </head>
                <p>Stimmenberechtigt ist jeder zum
@@ -860,8 +862,8 @@
       <lb/>das Bundesgesetz ausgesprochen hat.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_31"/>
                <head>Art. 32.
       </head>
                <p>Das Ergebnis der Volksabstimmung
@@ -870,8 +872,8 @@
       <lb/>wurde, ist seine Ausserkraftsetzung im Bun-
       <lb/>desgesetzblatt kundzumachen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_32"/>
                <head>Art. 33.
       </head>
                <p>Ist eine Gesamtänderung der Bun-
@@ -881,8 +883,8 @@
       <lb/>Bundesverfassung Neuwahlen auszuschreiben.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_33"/>
                <head>Art. 34.
       </head>
                <p>Das Verfahren für die Volksabstim-
@@ -894,8 +896,8 @@
                <p>- 10 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_34"/>
                <head>Art. 21
       </head>
                <p>Die Sitzungen des Bundestages
@@ -907,8 +909,8 @@
       <lb/>nach Entfernung der Zuhörer beschlossen wird.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_35"/>
                <head>Art. 22.
       </head>
                <p>Wahrheitsgetreue Berichte über die
@@ -918,8 +920,8 @@
       <lb/>B.) der Bundesrat.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_36"/>
                <head>Art. 23.
       </head>
                <p>In den Bundesrat entsendet jeder</p>
@@ -935,8 +937,8 @@
       <lb/>jeder allgemeinen Volkszählung neu festgesetzt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_37"/>
                <head>Art. 24.
       </head>
                <p>Den Vorsitz im Bundesrat führt der</p>
@@ -961,8 +963,8 @@
       <lb/>schäftsordnung durch Beschluss.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_38"/>
                <head>Art. 25.
       </head>
                <p>Der Bundesrat wird vom Bundesprä-</p>
@@ -974,8 +976,8 @@
       <lb/>nicht öffentlich.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_39"/>
                <head>Art. 26.
       </head>
                <p>Die Mitglieder des Bundesrates</p>
@@ -993,8 +995,8 @@
       <lb/>Art. 21-28 jetzt: 27-34
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_40"/>
                <head>Art. 35.
       </head>
                <p>Jeder Gesetzesbeschluss sowie je-
@@ -1020,8 +1022,8 @@
       <lb/>gung dem Bundestag bekanntzugeben.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_41"/>
                <head>Art. 36 .
       </head>
                <p>(1) Hat der Bundesrat einem Beschluss</p>
@@ -1058,8 +1060,8 @@
                <p>- 13 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_42"/>
                <head>Art. 37.
       </head>
                <p>Das verfassungsmässige Zustande-
@@ -1071,8 +1073,8 @@
       <lb/>Staatssekretären zu gegenzeichnen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_43"/>
                <head>Art. 38.
       </head>
                <p>Die Kundmachung der Bundesgesetze</p>
@@ -1084,8 +1086,8 @@
       <lb/>ler.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_44"/>
                <head>Art. 39.
       </head>
                <p>Die verbindende Kraft der im Bun-
@@ -1108,8 +1110,8 @@
       <lb/>tages und des Bundesrates.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_45"/>
                <head>Art. 40.
       </head>
                <p>Die Mitglieder des Bundestages kön¬
@@ -1137,8 +1139,8 @@
       <lb/>werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_46"/>
                <head>Art. 41.
       </head>
                <p>Die Mitglieder des Bundesrates ge¬
@@ -1147,16 +1149,16 @@
       <lb/>tion im Bundesrat während der ganzen Dauer
       <lb/>dieser Funktion.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_47"/>
                <head>Art. 42.
       </head>
                <p>Niemand kann gleichzeitig dem Bun-
       <lb/>destage und dem Bundesrat angehören.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_48"/>
                <head>Art. 43.
       </head>
                <p>Die dem Bundestag oder dem Bundes-
@@ -1170,8 +1172,8 @@
       <lb/>Bundestag und Bundesrat.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_49"/>
                <head>Art. 44.
       </head>
                <p>Die Mitglieder der Bundesregierung
@@ -1184,8 +1186,8 @@
       <lb/>heit der Mitglieder der Bundesregierung
       <lb/>verlangen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_50"/>
                <head>Art. 45.
       </head>
                <p>Der Bundestag und der Bundesrat
@@ -1198,8 +1200,8 @@
       <lb/>walt in Entschliessungen Ausdruck zu geben.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_51"/>
                <head>Art. 46
       </head>
                <p>Auf Antrag von mindestens . . </p>
@@ -1225,8 +1227,8 @@
       <lb/>1./ Der Bundespräsident.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_52"/>
                <head>Art. 47.
       </head>
                <p>Der Bundespräsident und sein Stell-
@@ -1247,8 +1249,8 @@
       <lb/>aus anderen Gründen erledigt wird.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_53"/>
                <head>Art. 48.
       </head>
                <p>Zum Bundespräsidenten sowie zu
@@ -1263,8 +1265,8 @@
       <lb/>bensjahr vollendet hat.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_54"/>
                <head>Art. 49.
       </head>
                <p>Der Stimmzettel für die Präsident-
@@ -1276,8 +1278,8 @@
       <lb/>daten für die Präsidentschaft bezeichnen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_55"/>
                <head>Art. 50.
       </head>
                <p>Als zum Bundespräsidenten gewählt
@@ -1288,8 +1290,8 @@
       <lb/>treter des Bundespräsidenten gewählt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_56"/>
                <head>Art. 51.
       </head>
                <p>Der Bundespräsident und sein Stell-
@@ -1302,8 +1304,8 @@
       <lb/>bestem Wissen und Gewissen erfüllen werde.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_57"/>
                <head>Art. 52.
       </head>
                <p>Der Bundespräsident und sein Stell-
@@ -1315,8 +1317,8 @@
                <p>- 18 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_58"/>
                <head>Art. 53.
       </head>
                <p>Eine strafgerichtliche Verfolgung
@@ -1332,8 +1334,8 @@
       <lb/>menden erforderlich.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_59"/>
                <head>Art. 54.
       </head>
                <p>Das Wahlverfahren für die Präsi-
@@ -1341,8 +1343,8 @@
       <lb/>fend die Wahlordnung für die Wahl zum Bun-
       <lb/>destag zu regeln.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_60"/>
                <head>Art. 55.
       </head>
                <p>Der Bundespräsident vertritt die
@@ -1351,8 +1353,8 @@
       <lb/>Staatsverträge.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_61"/>
                <head>Art. 56
       </head>
                <p>Dem Bundespräsidenten obliegt:
@@ -1377,8 +1379,8 @@
       <lb/>Diese Akte des Bundespräsidenten
       <lb/>erfolgen auf Vorschlag der Bundesregierung.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_62"/>
                <head>Art. 57.
       </head>
                <p>Der Bundespräsident ernennt auf
@@ -1386,8 +1388,8 @@
       <lb/>die Landesbeamten.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_63"/>
                <head>Art. 58.
       </head>
                <p>Der Bundespräsident kann das ihm
@@ -1397,8 +1399,8 @@
       <lb/>gliedern der Bundesregierung, bezw. den
       <lb/>Landesregierungen delegieren.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_64"/>
                <head>Art. 59.
       </head>
                <p>Alle Akte des Bundespräsidenten
@@ -1409,8 +1411,8 @@
       <lb/>nung des zuständigen Landeshauptmannes.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_65"/>
                <head>Art. 60.
       </head>
                <p>Wenn der Bundespräsident verhin-</p>
@@ -1436,8 +1438,8 @@
       <lb/>schreiben und durchzuführen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_66"/>
                <head>Art. 61.
       </head>
                <p>Der Bundespräsident bleibt auch</p>
@@ -1451,8 +1453,8 @@
       <lb/>2.) Die Bundesregierung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_67"/>
                <head>Art. 62.
       </head>
                <p>Mit der Ausübung der Regierungs-
@@ -1473,8 +1475,8 @@
       <lb/>setze innerhalb ihres Wirkungskreises Voll-
       <lb/>zugsanweisungen erlassen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_68"/>
                <head>Art. 63.
       </head>
                <p>Die Bundesregierung wird vom Bundestag
@@ -1488,8 +1490,8 @@
       <lb/>Abgelobung ausgefertigt und vom neu bestellten
       <lb/>Bundeskanzler gegengezeichnet.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_69"/>
                <head>Art. 64.
       </head>
                <p>Bis die neue Bundesregierung gebildet
@@ -1507,8 +1509,8 @@
       <lb/>weiligen Leitung der Verwaltung zu betrauen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_70"/>
                <head>Art. 65.
       </head>
                <p>Versagt der Bundestag oder der Bundes-
@@ -1536,8 +1538,8 @@
       <lb/>hoben.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_71"/>
                <head>Art. 66.
       </head>
                <p>Der Bundespräsident, sein Stellvertre-
@@ -1549,8 +1551,8 @@
                <pb facs="#facs_23" n="23" xml:id="img_0023"/>
                <p>- 23 -</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_72"/>
                <head>Art. 67.
       </head>
                <p>Zur Durchführung der Bundesverwal¬
@@ -1564,16 +1566,16 @@
       <lb/>der Zahl der Bundesämter erfolgen durch ein-
       <lb/>faches Gesetz.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_73"/>
                <head>Art. 68.
       </head>
                <p>Zur Vertretung des Bundeskanzlers ist
       <lb/>ein Vizekanzler berufen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_74"/>
                <head>Art. 69.
       </head>
                <p>Der Bundeskanzler, ein Vizekanzler
@@ -1592,8 +1594,8 @@
       <lb/>==========
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_75"/>
                <head>Art. 70
       </head>
                <p>Das Bundesheer ist bestimmt, die Re¬
@@ -1611,8 +1613,8 @@
       <lb/>das Leben oder das Eigentum der Bürger bedro-
       <lb/>hen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_76"/>
                <head>Art. 71.
       </head>
                <p>Das gesamte Heereswesen ist Bundes-
@@ -1620,8 +1622,8 @@
       <lb/>gane besorgt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_77"/>
                <head>Art. 72.
       </head>
                <p>Ueber das Heer verfügt die Bundesre-
@@ -1630,8 +1632,8 @@
       <lb/>antwortlich sind.
       <lb/>B. Von der Gerichtsbarkeit des Bundes.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_78"/>
                <head>Art. 73.
       </head>
                <p>Alle Gerichtsbarkeit geht vom Bunde
@@ -1640,8 +1642,8 @@
       <lb/>Namen der Republik Oesterreich ausgefertigt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_79"/>
                <head>Art. 74.
       </head>
                <p>Die Verfassung und Zuständigkeit der
@@ -1662,8 +1664,8 @@
       <lb/>gen und über Beschluß eines der beiden Vertre-
       <lb/>tungskörper sofort ausser Kraft zu setzen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_80"/>
                <head>Art. 75.
       </head>
                <p>Die Militärgerichtsbarkeit ist -
@@ -1671,23 +1673,23 @@
       <lb/>Nähere regelt ein Bundesgesetz.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_81"/>
                <head>Art. 76.
       </head>
                <p>Die Gerichtsbarkeit in Polizei= und
       <lb/>Gefällstrafsachen wird durch Gesetz gere-
       <lb/>gelt.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_82"/>
                <head>Art. 77.
       </head>
                <p>Die Todesstrafe ist abgeschafft.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_83"/>
                <head>Art. 78.
       </head>
                <p>Die Richter werden - soferne nicht
@@ -1713,8 +1715,8 @@
       <lb/>sen unabhängig.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_84"/>
                <head>Art. 79.
       </head>
                <p>Die Richter sind in Ausübung ihres
@@ -1730,8 +1732,8 @@
       <lb/>sind.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_85"/>
                <head>Art. 80.
       </head>
                <p>Vor Erreichung der im Gerichtsorga-
@@ -1759,8 +1761,8 @@
       <lb/>Förmlichkeiten übersetzt und in den Ruhestand
       <lb/>versetzt werden können.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_86"/>
                <head>Art. 81.
       </head>
                <p>Die Prüfung der Giltigkeit gehörig
@@ -1773,8 +1775,8 @@
       <lb/>trag auf Kassation dieses Gesetzes oder dieser Vollzugsanweisung
       <lb/>beim Bundesverfassungsgerichte zu stellen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_87"/>
                <head>Art. 82.
       </head>
                <p>Wegen der von einem Richter in Aus¬
@@ -1792,8 +1794,8 @@
       <lb/>oder grobe Fahrlässigkeit zur Last fällt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_88"/>
                <head>Art. 83.
       </head>
                <p>Die Verhandlungen vor dem erkennen-
@@ -1803,8 +1805,8 @@
       <lb/>Im Strafverfahren gilt der Anklage-
       <lb/>prozeß.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_89"/>
                <head>Art. 84.
       </head>
                <p>Bei den mit schweren Strafen bedroh-
@@ -1814,8 +1816,8 @@
       <lb/>brechen und Vergehen entscheiden Geschworene,
       <lb/>über die Schuld des Angeklagten.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_90"/>
                <head>Art. 85.
       </head>
                <p>Als oberste Instanz in Zivil= und Straf-
@@ -1823,16 +1825,16 @@
       <lb/>richt in Wien.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_91"/>
                <head>Art. 86.
       </head>
                <p>Die Erteilung von Amnestien erfolgt
       <lb/>durch Bundesgesetz.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_92"/>
                <head>Art. 87.
       </head>
                <p>Die Rechtspflege wird von der Ver-
@@ -1844,8 +1846,8 @@
       <lb/>de.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_93"/>
                <head>Art. 88.
       </head>
                <p>In allen Fällen, wo eine Verwaltungs-
@@ -1860,8 +1862,8 @@
       <lb/>Von der Gesetzgebung und Vollziehung der Länder.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_94"/>
                <head>Art. 89.
       </head>
                <p>Die gesetzgebende Gewalt der Länder
@@ -1879,8 +1881,8 @@
                <pb facs="#facs_30" n="30" xml:id="img_0030"/>
                <p>- 30 -</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_95"/>
                <head>Art. 90.
       </head>
                <p>Die Mitglieder des Landtages genie-
@@ -1893,8 +1895,8 @@
       <lb/>tage und ihrer Ausschüsse.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_96"/>
                <head>Art. 91.
       </head>
                <p>Zu einem Landesgesetze ist erforder-</p>
@@ -1904,8 +1906,8 @@
       <lb/>setzblatte.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_97"/>
                <head>Art. 92.
       </head>
                <p>Alle Gesetzesbeschlüsse der Landtage
@@ -1928,8 +1930,8 @@
                <p>- 31 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_98"/>
                <head>Art. 93
       </head>
                <p>Die durch Landesgesetz zu erlassende
@@ -1942,8 +1944,8 @@
       <lb/>Dreiviertel aller abgegebenen Stimmen beschlos-
       <lb/>sen werden.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_99"/>
                <head>Art. 94
       </head>
                <p>Die Kundmachung der Landesgesetze er-
@@ -1959,8 +1961,8 @@
       <lb/>Eine Abkürzung dieses Termins bedarf der Zu-
       <lb/>stimmung der Bundesregierung.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_100"/>
                <head>Art. 95
       </head>
                <p>Jeder Landtag kann auf Antrag der Bun-
@@ -1975,8 +1977,8 @@
                <p>- 32 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_101"/>
                <head>Art. 96.
       </head>
                <p>Die vollziehende Gewalt jedes Landes
@@ -1992,8 +1994,8 @@
       <lb/>durch die Bundesregierung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_102"/>
                <head>Art. 97.
       </head>
                <p>Der Landeshauptmann bezw. sein Stell-
@@ -2009,8 +2011,8 @@
       <lb/>sung verantwortlich.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_103"/>
                <head>Art. 98.
       </head>
                <p>Zur Leitung des gesamten inneren
@@ -2025,8 +2027,8 @@
       <lb/>der Landesverwaltung zu sorgen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_104"/>
                <head>Art. 99.
       </head>
                <p>In dem der Landesregierung vom Bunde
@@ -2044,8 +2046,8 @@
       <lb/>hauptmannes.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_105"/>
                <head>Art. 100.
       </head>
                <p>Die Bestellung des Landesamtsdirek-
@@ -2056,8 +2058,8 @@
       <lb/>den in diesem Falleauch die Bestimmungen des
       <lb/>§ 7, Abs. 2, Anwendung finden.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_106"/>
                <head>Art. 101.
       </head>
                <p>Die vollziehende Gewalt des Bundes
@@ -2083,8 +2085,8 @@
       <lb/>den ressortmäßig zustehenden Bundesämtern.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_107"/>
                <head>Art. 102.
       </head>
                <p>Aus besonderen Gründen kann auf Be-
@@ -2098,8 +2100,8 @@
       <lb/>an die Weisungen des Bundeskommissärs unmit-
       <lb/>telbar gebunden.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_108"/>
                <head>Art. 103
       </head>
                <p>Den Ländern ist es untersagt,
@@ -2115,8 +2117,8 @@
       <lb/>Von der Rechnungskontrolle des Bundes.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_109"/>
                <head>Art. 104
       </head>
                <p>Zur Ueberprüfung der Gebahrung in der
@@ -2138,8 +2140,8 @@
       <lb/>dem Bundesrat.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_110"/>
                <head>Art. 105.
       </head>
                <p>Der Bundesrechnungshof besteht
@@ -2149,8 +2151,8 @@
       <lb/>hofes wird vom Bundestag gewählt. Die Wahl
       <lb/>bedarf der Genehmigung des Bundesrates.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_111"/>
                <head>Art. 106.
       </head>
                <p>Der Präsident des Bundesrechnungs-
@@ -2162,8 +2164,8 @@
       <lb/>noch einer Landesregierung gewesen sind.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_112"/>
                <head>Art. 107.
       </head>
                <p>Dem Präsidenten des Bundes-
@@ -2178,8 +2180,8 @@
       <lb/>der Bundesverfassung analoge Anwendung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_113"/>
                <head>Art. 102.
       </head>
                <p>Der Präsident des Bundesrech-
@@ -2202,8 +2204,8 @@
       <lb/>gen jedesmal gehört werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_114"/>
                <head>Art. 109.
       </head>
                <p>Bei vorübergehender Verhinderung
@@ -2225,8 +2227,8 @@
       <lb/>Bestimmungen des Art. . . . . . Anwendung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_115"/>
                <head>Art. 110.
       </head>
                <p>Die Beamten des Bundesrechnungs-</p>
@@ -2240,8 +2242,8 @@
       <lb/>sind alle übrigen Stellen zu besetzen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_116"/>
                <head>Art. 116.
       </head>
                <p>Kein Mitglied des Bundesrechnungs-
@@ -2257,8 +2259,8 @@
       <lb/>deren Angehörigen zum Zwecke haben.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_117"/>
                <head>Art. 111.
       </head>
                <p>Alle Urkunden über Staatsschulden
@@ -2274,8 +2276,8 @@
       <lb/>bekräftigt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_118"/>
                <head>Art. 113.
       </head>
                <p>Bei der Ueberprüfung der seiner</p>
@@ -2288,8 +2290,8 @@
       <lb/>eine ziffernmässige Nachprüfung beschränken.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_119"/>
                <head>Art. 114.
       </head>
                <p>Der Bundesrechnungshof ist gegen-
@@ -2314,8 +2316,8 @@
                <p>- 39 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_120"/>
                <head>Art. 114.
       </head>
                <p>Die der Bundesregierung sowie
@@ -2330,8 +2332,8 @@
       <lb/>hof mit diesen Behörden das Einvernehmen zu
       <lb/>pflegen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_121"/>
                <head>Art. 116.
       </head>
                <p>Der Bundesrechnungshof hat für
@@ -2353,8 +2355,8 @@
                <p>- 40 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_122"/>
                <head>Art. 117.
       </head>
                <p>Lassen sich Meinungsverschieden-
@@ -2367,8 +2369,8 @@
       <lb/>lassen, entscheidet der Bundesrat.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_123"/>
                <head>Art. 118.
       </head>
                <p>Die anweisenden Behörden haben
@@ -2376,8 +2378,8 @@
       <lb/>Rechnungsabschlüsse dem Bundesrechnungshofe
       <lb/>nach dessen Anordnung vorzulegen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_124"/>
                <head>Art. 119.
       </head>
                <p>Der Bundesrechnungshof verfasst
@@ -2390,8 +2392,8 @@
       <lb/>tagen zur verfassungsmässigen Behandlung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_125"/>
                <head>Art. 120.
       </head>
                <p>Die näheren Bestimmungen über die</p>
@@ -2407,8 +2409,8 @@
       <lb/>Von den Grund- und Freiheitsrechten.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_126"/>
                <head>Art. 121.
       </head>
                <p>Vor dem Gesetze sind alle Staats-
@@ -2417,8 +2419,8 @@
       <lb/>ausgeschlossen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_127"/>
                <head>Art. 122.
       </head>
                <p>Der Adel, seine äusseren Ehrenvor-
@@ -2434,8 +2436,8 @@
       <lb/>neue Ehrenzeichen können nur durch Bundesge-
       <lb/>setz geschaffen werden.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_128"/>
                <head>Art. 123.
       </head>
                <p>Die öffentlichen Aemter und Funk-
@@ -2443,8 +2445,8 @@
       <lb/>schied gleich zugänglich.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_129"/>
                <head>Art. 124.
       </head>
                <p>Die Freizügigkeit der Personen und
@@ -2453,8 +2455,8 @@
       <lb/>nur durch Bundesgesetz bestimmt werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_130"/>
                <head>Art. 125.
       </head>
                <p>Die Auswanderungsfreiheit ist nur
@@ -2468,8 +2470,8 @@
       <lb/>Gesetze geregelt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_131"/>
                <head>Art. 126.
       </head>
                <p>Jedermann kann an jedem Orte des
@@ -2482,8 +2484,8 @@
       <lb/>schränkt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_132"/>
                <head>Art. 127.
       </head>
                <p>Jedermann geniesst die persönli-
@@ -2501,8 +2503,8 @@
       <lb/>entziehung vorzubringen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_133"/>
                <head>Art. 128.
       </head>
                <p>Jedermann geniesst das Hausrecht.
@@ -2510,8 +2512,8 @@
       <lb/>bestimmt das Gesetz.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_134"/>
                <head>Art. 129.
       </head>
                <p>Das Brief - Post, Telegraphen und
@@ -2524,8 +2526,8 @@
       <lb/>könne nur durch Bundesgesetz bestimmt werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_135"/>
                <head>Art. 130.
       </head>
                <p>Die Freiheit der Meinungsäusserung
@@ -2544,8 +2546,8 @@
       <lb/>de Bestimmungen getroffen werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_136"/>
                <head>Art. 131.
       </head>
                <p>Alle Staatsbürger haben das nur
@@ -2561,8 +2563,8 @@
       <lb/>gerlichen Rechts.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_137"/>
                <head>Art. 137.
       </head>
                <p>Alle Staatsbürger haben das Recht
@@ -2579,8 +2581,8 @@
       <lb/>oder der Landtage wenn diese versammelt
       <lb/>sind, überhaupt nicht stattfinden.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_138"/>
                <head>Art. 133.
       </head>
                <p>Die volle Glaubens- und Gewissens
@@ -2591,8 +2593,8 @@
       <lb/>Strafgesetz zulässig.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_139"/>
                <head>Art. 134.
       </head>
                <p>Der Genuss der bürgerlichen und</p>
@@ -2621,8 +2623,8 @@
       <lb/>formel gezwungen werden.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_140"/>
                <head>Art. 135.
       </head>
                <p>Es besteht keine Staatskirche.
@@ -2665,8 +2667,8 @@
       <lb/>schauung zur Aufgabe machen.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_141"/>
                <head>Art. 136.
       </head>
                <p>Die auf Gesetz, Vertrag oder be-
@@ -2681,8 +2683,8 @@
       <lb/>gewährleistet.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_142"/>
                <head>Art. 137.
       </head>
                <p>Soweit das Bedürfnis nach Gottes-</p>
@@ -2694,8 +2696,8 @@
       <lb/>ist.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_143"/>
                <head>Art. 136.
       </head>
                <p>Die nähere Durchführung der Be-
@@ -2706,8 +2708,8 @@
                <p>- 47 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_144"/>
                <head>Art. 139
       </head>
                <p>Die Kunst, die Wissenschaft und ihre
@@ -2715,8 +2717,8 @@
       <lb/>des Staates.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_145"/>
                <head>Art. 190.
       </head>
                <p>Das gesamte Schulwesen steht unter der
@@ -2728,8 +2730,8 @@
       <lb/>Der Unterricht und die Lehrmittel in den
       <lb/>Volksschulen sind unentgeltlich.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_146"/>
                <head>Art. 141
       </head>
                <p>Der Religionsunterricht ist ordentliches
@@ -2758,8 +2760,8 @@
                <p>- 48 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_147"/>
                <head>Art. 147.
       </head>
                <p>Wo Staatsbürger, die eine andere als die
@@ -2772,8 +2774,8 @@
       <lb/>ist jedoch auch in solchen Schulen stets Pflicht-
       <lb/>gegenstand.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_148"/>
                <head>Art. 142.
       </head>
                <p>Die Denkmäler der Kunst, der Geschichte
@@ -2783,8 +2785,8 @@
       <lb/>schätze in das Ausland zu verhüten.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_149"/>
                <head>Art. 149.
       </head>
                <p>Die Staatssprache in der Republik Oester-
@@ -2808,8 +2810,8 @@
                <p>- 49 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_150"/>
                <head>Art. 145.
       </head>
                <p>Oesterreichische Staatsbürger, die nach
@@ -2820,8 +2822,8 @@
       <lb/>Anstalten ihre eigene Sprache nach Belieben zu
       <lb/>gebrauchen und ihre Religion frei auszuüben.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_151"/>
                <head>Art. 146.
       </head>
                <p>Wo eine verhältnismäßig beträchtliche An-
@@ -2833,8 +2835,8 @@
       <lb/>werden, diese Minderhei-
       <lb/>ten mit einem am angemessenen Teil zu beteilen.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_152"/>
                <head>Art. 147.
       </head>
                <p>Das Eigentum ist gewährleistet, insoweit
@@ -2855,8 +2857,8 @@
                <p>- 50 -
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_153"/>
                <head>Art. 149.
       </head>
                <p>Das Erbrecht wird gewährleistet, soweit
@@ -2865,8 +2867,8 @@
       <lb/>Alle Fideikomisse sind aufzuheben.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_154"/>
                <head>Art. 150.
       </head>
                <p>Der Bund kann durch Gesetz gegen Entschä-
@@ -2892,8 +2894,8 @@
       <lb/>regeln.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_155"/>
                <head>Art. 151.
       </head>
                <p>Wer durch rechtswidrige Ausübung der
@@ -2911,8 +2913,8 @@
       <lb/>gesetz.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_156"/>
                <head>Art. 152.
       </head>
                <p>Die Arbeitskraft steht unter dem beson-
@@ -2926,8 +2928,8 @@
       <lb/>diese Freiheit einzuschränken oder zu behindern
       <lb/>suchen, sind rechtswidrig.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_157"/>
                <head>Art. 153.
       </head>
                <p>Im Falle einer dringenden Gefahr für den
@@ -2948,8 +2950,8 @@
       <lb/>A) Die Verwaltungsgerichte.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_158"/>
                <head>Art.154.
       </head>
                <p>Wegen Rechtsverletzung durch die Ent-</p>
@@ -2966,8 +2968,8 @@
       <lb/>b) in Angelegenheiten der Bundesverwaltung,
       <lb/>das Bundesverwaltungsgericht.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_159"/>
                <head>Art. 155.
       </head>
                <p>In jeder Landeshauptstadt wird ein Landes-
@@ -2983,8 +2985,8 @@
       <lb/>der Landesregierung den Vizepräsidenten des
       <lb/>Landesverwaltungsgerichtes.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_160"/>
                <head>Art. 156.
       </head>
                <p>Das Bundesverwaltungsgericht in Wien muß
@@ -2999,8 +3001,8 @@
                <pb facs="#facs_53" n="53" xml:id="img_0053"/>
                <p>- 53 -</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_161"/>
                <head>Art. 157.
       </head>
                <p>Das Bundesverwaltungsgericht und die Lan-
@@ -3019,8 +3021,8 @@
       <lb/>Deines générales als
       <lb/>bestellt.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_162"/>
                <head>Art. 158.
       </head>
                <p>Die Organisation der Landesverwaltungs-
@@ -3029,8 +3031,8 @@
       <lb/>besonderes Bundesgesetz geregelt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_163"/>
                <head>Art. 159.
       </head>
                <p>Von der Zuständigkeit der Verwaltungsge-
@@ -3046,8 +3048,8 @@
       <lb/>d) Disziplinarangelegenheiten.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_164"/>
                <head>Art. 160.
       </head>
                <p>Durch Landesgesetz bezw. durch Bundesge-
@@ -3066,8 +3068,8 @@
                <p>B) Das Bundesverfassungsgericht.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_165"/>
                <head>Art. 161.
       </head>
                <p>Das Bundesverfassungsgericht in Wien ent-
@@ -3076,8 +3078,8 @@
       <lb/>Bund.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_166"/>
                <head>Art. 162.
       </head>
                <p>Es entscheidet ferner:
@@ -3088,8 +3090,8 @@
       <lb/>der, sowie zwischen einer Landesregierung und
       <lb/>der Bundesregierung.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_167"/>
                <head>Art. 163.
       </head>
                <p>Das Bundesverfassungsgericht entscheidet
@@ -3112,8 +3114,8 @@
       <lb/>erfolgten Aufhebung.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_168"/>
                <head>Art. 164.
       </head>
                <p>Das Bundesverfassungsgericht entscheidet
@@ -3131,8 +3133,8 @@
       <lb/>Verlautbarung der erfolgten Aufhebung im Lan-
       <lb/>desgesetzblatte.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_169"/>
                <head>Art. 164.
       </head>
                <p>Das Bundesverfassungsgericht entscheidet
@@ -3143,8 +3145,8 @@
       <lb/>Mandatsverlustes eines seiner Mitglieder.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_170"/>
                <head>Art. 166.</head>
                <p>
 </p>
@@ -3185,8 +3187,8 @@
       <lb/>verfassungsgerichtes hat auf Verlust des Amtes
       <lb/>eventuell auch der politischen Rechte zu lauten.</p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_171"/>
                <head>Art. 167.
       </head>
                <p>Die Exekution der Erkenntnisse des Bun-
@@ -3194,8 +3196,8 @@
       <lb/>sidenten.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_172"/>
                <head>Art. 168.
       </head>
                <p>Das Bundesverfassungsgericht in Wien
@@ -3211,8 +3213,8 @@
       <lb/>vom Bundesrat auf Lebensdauer gewählt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_173"/>
                <head>Art. 169.
       </head>
                <p>Der Präsident des Bundesverfassungsge-
@@ -3227,8 +3229,8 @@
       <lb/>gewählt.
       </p>
             </div>
-            <div ana="article">
-               <a class="navigation_" xml:id="navigation_section_"/>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_174"/>
                <head>Art. 170.
       </head>
                <p>Die nähere Organisation des Bundesver-
