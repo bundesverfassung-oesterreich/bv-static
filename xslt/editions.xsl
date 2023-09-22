@@ -23,11 +23,11 @@
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@next), '/')[last()], '.xml', '.html')"
         />
     </xsl:variable>
-    <xsl:variable name="teiSource">
+    <xsl:variable name="doc_id">
         <xsl:value-of select="data(tei:TEI/@xml:id)"/>
     </xsl:variable>
-    <xsl:variable name="link">
-        <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
+    <xsl:variable name="xml_link">
+        <xsl:value-of select="string-join($doc_id, '.xml')"/>
     </xsl:variable>
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@type = 'label'][1]/text()"/>
@@ -80,7 +80,7 @@
                                         <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
                                         <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
                                         <h3 align="center">
-                                            <a href="./{$teiSource}">
+                                            <a href="./{$xml_link}">
                                                 <i class="fas fa-download" title="show TEI source"/>
                                             </a>
                                         </h3>
