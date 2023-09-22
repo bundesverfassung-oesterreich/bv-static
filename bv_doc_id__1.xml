@@ -353,11 +353,11 @@
             <a class="navigation_main" xml:id="navigation_section_"/>
             <head>Entw I <lb/>Erster Abschnitt. </head>
             <div type="section">
-               <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+               <pb facs="#facs_2" n="2"/>
                <a class="navigation_section" xml:id="navigation_section_1"/>
                <head>Erster Abschnitt. </head>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_1"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_1"/>
                   <head>Art. I.
                               </head>
@@ -366,7 +366,7 @@
                                     OberösterReich, Steier- <lb/>mark etz.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_2"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_2"/>
                   <head>Art. II
                               </head>
@@ -375,7 +375,7 @@
                                     . . . . . <lb/>Oberösterreich: . . . . . . . . . <lb/>etz. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_3"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_3"/>
                   <head>Art. III.
                               </head>
@@ -387,7 +387,7 @@
                                     Veränderung er- <lb/>fährt.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_4"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_4"/>
                   <head>Art. IV.
                               </head>
@@ -401,12 +401,12 @@
                   </p>
                   <p>./.</p>
                   <p>2</p>
-                  <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+                  <pb facs="#facs_3" n="3"/>
                   <p>- 2 -
                               </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_5"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_5"/>
                   <head>Art. V.
                               </head>
@@ -426,7 +426,7 @@
                                     Vollziehung zu. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_6"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_6"/>
                   <head>Art. VI
                               </head>
@@ -436,7 +436,7 @@
                                     souveränen Länder zum <lb/>Bunde, <lb/>2.) die Bestimmung der
                                     Art und des <lb/>Umfanges des den Ländern zustehenden <lb/>Rechtes,
                                     öffentliche Abgaben auszuschrei- <lb/>hen und einzuheben,</p>
-                  <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+                  <pb facs="#facs_4" n="4"/>
                   <p>- 3 -</p>
                   <p>3.) die Regelung des Staatsbürger- <lb/>und Heimatsrechtes, <lb/>4.)
                                     die Regelung des Bevölkerungs- <lb/>wesens, <lb/>5.) die
@@ -447,7 +447,7 @@
                                     Wasser- und Elektrizitätsrechtes. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_7"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_7"/>
                   <head>Art. VII.
                               </head>
@@ -461,7 +461,7 @@
                <a class="navigation_section" xml:id="navigation_section_2"/>
                <head>Zweiter Abschnitt. <lb/>Von der Gesetzgebung des Bundes. </head>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_8"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_8"/>
                   <head>Art. VIII.
                               </head>
@@ -469,11 +469,11 @@
                                     Bundesversammlung <lb/>bildet zusammen mit dem von den Landes- <lb/>versammlungen
                                     gewählten Bundesrate das <lb/>höchste Organ des Bundes.</p>
                   <p>3</p>
-                  <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+                  <pb facs="#facs_5" n="5"/>
                   <p>- 4 -</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_9"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_9"/>
                   <head>Art. IX.
                               </head>
@@ -481,7 +481,7 @@
                                     Bundeshauptstadt <lb/>Wien. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_10"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_10"/>
                   <head>Art. X.
                               </head>
@@ -497,7 +497,7 @@
                                     Bundesregierung zu genehmi- <lb/>gen. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_11"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_11"/>
                   <head>Art. XI.
                               </head>
@@ -509,12 +509,12 @@
                                     Beschlüsse bedürfen der Geneh- <lb/>migung des Bundesrates. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_12"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_12"/>
                   <head>Art. XII.
                               </head>
                   <p>Zur Bundesversammlung werden in dem</p>
-                  <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+                  <pb facs="#facs_6" n="6"/>
                   <p>- 5 -</p>
                   <p>gesamten Bundesgebiet... Abgeordnete <lb/>auf Grund des gleichen,
                                     direkten persön- <lb/>lichen und geheimen Wahlrechtes aller <lb/>Bundesbürger
@@ -531,7 +531,7 @@
                                     einen <lb/>Bestandteil der Bundesverfassung. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_13"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_13"/>
                   <head>Art. XIII.
                               </head>
@@ -544,14 +544,14 @@
       </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_14"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_14"/>
                   <head>Art. XIV.
                               </head>
                   <p>Während der Sitzungsperiode kann <lb/>die Bundesversammlung durch
                                     einen Be-</p>
                   <p>4</p>
-                  <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+                  <pb facs="#facs_7" n="7"/>
                   <p>- 6 - <lb/>schluß des Hauses oder über Vorschlag der <lb/>Bundesregierung
                                     durch den Bundespräsiden- <lb/>ten vertagt werden. <lb/>Die
                                     Vertagung ist aufzuheben, wenn <lb/>wenigstens 50 Mitglieder
@@ -562,7 +562,7 @@
                                     verständigen.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_15"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_15"/>
                   <head>Art. XV.
                               </head>
@@ -573,7 +573,7 @@
                                     Bundesversammlung binnen <lb/>weiteren... Wochen einzuberufen.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_16"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_16"/>
                   <head>Art. XVI.
                               </head>
@@ -584,12 +584,12 @@
                                     Gesetzes, das einen Bestandteil <lb/>der Bundesverfassung
                                     bildet und einer <lb/>im Rahmen dieses Gesetzes von der Bun- <lb/>desversammlung
                                     zu beschließenden auto- <lb/>nomen Geschäftsordnung.</p>
-                  <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+                  <pb facs="#facs_8" n="8"/>
                   <p>- 7 -
                               </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_17"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_17"/>
                   <head>Art. XVII.
                               </head>
@@ -604,7 +604,7 @@
                                     Bundesgesetz- <lb/>blatt kundgemacht werden.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_18"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_18"/>
                   <head>Art. XVIII.
                               </head>
@@ -616,7 +616,7 @@
                                     drei Viertel aller <lb/>abgegebenen Stimman beschlossen werden. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_19"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_19"/>
                   <head>Art. XIX
                               </head>
@@ -627,12 +627,12 @@
                                     und vom Bundesrat genehmigt ist - vor <lb/>der Beurkundung
                                     durch den Bundespräsiden-</p>
                   <p>5</p>
-                  <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+                  <pb facs="#facs_9" n="9"/>
                   <p>- 8 - <lb/>ten einer Abstimmung des gesamten Bundes¬ <lb/>volkes
                                     zu unterziehen. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_20"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_20"/>
                   <head>Art. XX.
                               </head>
@@ -644,7 +644,7 @@
                                     wird. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_21"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_21"/>
                   <head>Art. XXI.
                               </head>
@@ -658,7 +658,7 @@
                                     Bundesgesetz ausgesprochen <lb/>hat.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_22"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_22"/>
                   <head>Art. XXII
                               </head>
@@ -668,19 +668,19 @@
                                     kundzumachen. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_23"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_23"/>
                   <head>Art. XXIII.
                               </head>
                   <p>Ist eine Gesamtänderung der Bundes¬ <lb/>verfassung durch
                                     Volksabstimmung abge- <lb/>lehnt worden, hat der
                                     Bundespräsident</p>
-                  <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+                  <pb facs="#facs_10" n="10"/>
                   <p>- 9 - <lb/>die Bundesversammlung aufzulösen und ge- <lb/>mäß Art.
                                     XV der Bundesverfassung Neuwah- <lb/>len auszuschreiben. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_24"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_24"/>
                   <head>Art. XXIV.
                               </head>
@@ -689,7 +689,7 @@
                                     für die Wahl zur Bundesver- <lb/>sammlung geregelt.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_25"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_25"/>
                   <head>Art. XXV.
                               </head>
@@ -700,7 +700,7 @@
                                     Hause nach Entfernung der Zuhörer <lb/>beschlossen wird.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_26"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_26"/>
                   <head>Art. XXVI.
                               </head>
@@ -710,7 +710,7 @@
                                     auf die Dauer einer <lb/>Session der Bundesversammlung </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_27"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_27"/>
                   <head>Art. XXVII.
                               </head>
@@ -719,7 +719,7 @@
                                     Vorsitzender des Bundesrates <lb/>und als Stellvertreter
                                     desselben fungie- <lb/>ren die bei der Wahl aus der Landesver-</p>
                   <p>6</p>
-                  <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+                  <pb facs="#facs_11" n="11"/>
                   <p>- 10 - <lb/>sammlung hiezu an erster und zweiter <lb/>Stelle
                                     ermächtigten Vertreter des je- <lb/>weils zum Vorsitz berufenen
                                     Landes. <lb/>Der Bundesrat wird durch seinen <lb/>Vorsitzenden
@@ -729,7 +729,7 @@
                                     einfachen Beschluß. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_28"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_28"/>
                   <head>Art. XXVIII.
                               </head>
@@ -739,7 +739,7 @@
                                     Bundesrates sind <lb/>nicht öffentlich. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_29"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_29"/>
                   <head>Art. XXIX.</head>
                   <p>
@@ -754,13 +754,13 @@
                                     Wahl in den Bundesrat vorgenommen <lb/>hat. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_30"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_30"/>
                   <head>Art. XXX.
                               </head>
                   <p>Jeder Gesetzesbeschluß sowie jeder <lb/>andere Beschluß der
                                     Bundesversammlung,</p>
-                  <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+                  <pb facs="#facs_12" n="12"/>
                   <p>- 11 - <lb/>der einer Genehmigung durch den Bundes- <lb/>rat
                                     bedarf, ist unverzüglich durch den <lb/>Präsidenten der
                                     Bundesversammlung dem <lb/>Bundeskanzler zu übermitteln, der
@@ -777,7 +777,7 @@
                                     bekanntzuge- <lb/>ben.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_31"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_31"/>
                   <head>Art. XXXI.
                               </head>
@@ -792,12 +792,12 @@
                                     erteilt noch mit Angabe von Gründen <lb/>verweigert, so hat der
                                     Bundespräsident <lb/>den Gesetzesbeschluß ohne die Genehmigung</p>
                   <p>7</p>
-                  <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+                  <pb facs="#facs_13" n="13"/>
                   <p>- 12 - <lb/>des Bundesrates zu beurkunden und seine <lb/>Kundmachung
                                     zu veranlassen. <lb/>Eventuell. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_32"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_32"/>
                   <head>Art. XXXI.
                               </head>
@@ -817,7 +817,7 @@
                                     Angabe von Gründen verweigert hat.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_33"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_33"/>
                   <head>Art. XXXII.
                               </head>
@@ -827,12 +827,12 @@
       <lb/>Diese Beurkundung ist vom Bundes- <lb/>kanzler
                                     und dem ressortmäßig zuständigen <lb/>Staatssekretär zu
                                     gegenzeichnen.</p>
-                  <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+                  <pb facs="#facs_14" n="14"/>
                   <p>- 13 -
                               </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_34"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_34"/>
                   <head>Art. XXXIII.
                               </head>
@@ -847,7 +847,7 @@
                                     durch den Bundeskanzler. <lb/>Eventuell.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_35"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_35"/>
                   <head>Art. XXXIII.
                               </head>
@@ -859,7 +859,7 @@
                                     den Bundeskanzler.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_36"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_36"/>
                   <head>Art. XXXIV.
                               </head>
@@ -871,7 +871,7 @@
                                     während der Dauer der Session wegen <lb/>einer strafbaren
                                     Handlung - den Fall der</p>
                   <p>8</p>
-                  <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+                  <pb facs="#facs_15" n="15"/>
                   <p>- 14 - <lb/>Ergreifung auf frischer Tat ausgenommen - <lb/>ohne
                                     Zustimmung der Bundesversammlung ver- <lb/>haftet oder
                                     behördlich verfolgt werden. <lb/>Selbst in dem Falle der
@@ -882,7 +882,7 @@
                                     ganze Sitzungspe- <lb/>riode aufgeschoben werden.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_37"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_37"/>
                   <head>Art. XXXV.
                               </head>
@@ -891,7 +891,7 @@
                                     der ganzen Dauer ihrer Funktion <lb/>als Bundesratsmitglieder. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_38"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_38"/>
                   <head>Art. XXXVI
                               </head>
@@ -899,7 +899,7 @@
                                     Bundesrat ange- <lb/>hören. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_39"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_39"/>
                   <head>Art. XXXVII.</head>
                   <p>
@@ -909,21 +909,21 @@
                                     ihres Mandates keines Urlaubes. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_40"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_40"/>
                   <head>Art. XXXVIII.
                               </head>
                   <p>Die Mitglieder der Bundesregierung <lb/>sowie die von ihnen
                                     entsendeten Vertre- <lb/>ter sind berechtigt, an allen Beratun- <lb/>gen
                                     der Bundesversammlung und des Bun-</p>
-                  <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+                  <pb facs="#facs_16" n="16"/>
                   <p>- 15 - <lb/>desrates sowie deren Ausschüsse teilzu- <lb/>nehmen.
                                     Sie müssen auf ihr Verlangen je- <lb/>desmal gehört werden. Die
                                     Bundesversamm- <lb/>lung sowie der Bundesrat kann die Anwesen- <lb/>heit
                                     der Mitglieder der Bundesregierung <lb/>verlangen. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_41"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_41"/>
                   <head>Art. XXXIX.
                               </head>
@@ -940,7 +940,7 @@
                                     erfolgt zugleich mit der <lb/>Hauptwahl zur Bundesversammlung
                                     und für <lb/>die Dauer ihrer Funktionsperiode.</p>
                   <p>9</p>
-                  <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+                  <pb facs="#facs_17" n="17"/>
                   <p>- 16 - <lb/>Wird die Bundesversammlung vor Ab- <lb/>lauf der . .
                                     . jährigen Legislativpe- <lb/>riode aufgelöst, hat auch eine
                                     Neuwahl <lb/>des Bundespräsidenten und seines Stell- <lb/>vertreters
@@ -964,7 +964,7 @@
                                     die meisten <lb/>Stimmen erhalten hat. <lb/>Derjenige
                                     Kandidat, der die nächst- <lb/>hohe Stimmziffer erreicht, gilt
                                     als zum</p>
-                  <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+                  <pb facs="#facs_18" n="18"/>
                   <p>- 27 - <lb/>Stellvertreter des Bundespräsidenten ge- <lb/>wählt. <lb/>Art.
                                     XLIV <lb/>Der Bundespräsident und sein Stell- <lb/>vertreter
                                     dürfen während ihrer Amtstätig- <lb/>keit keiner politischen
@@ -987,7 +987,7 @@
                                     rechtskräftig Ver- <lb/>urteilter, die Milderung der von den
                                     Ge- <lb/>richten ausgesprochenen Strafen, die</p>
                   <p>10</p>
-                  <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+                  <pb facs="#facs_19" n="19"/>
                   <p>- 18 - <lb/>Nachsicht von Rechtsfolgen und die Til- <lb/>gung von
                                     Verurteilungen, ferner die Abo- <lb/>lition von
                                     strafgerichtlichen Verfahren. <lb/>Art. XLVIII. <lb/>Der
@@ -1009,7 +1009,7 @@
                                     Funktionen des Präsidenten auf die <lb/>Bundesregierung über. <lb/>Art.
                                     LI. <lb/>Der Bundespräsident bleibt auch <lb/>nach Ablauf der
                                     Legislativperiode und</p>
-                  <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+                  <pb facs="#facs_20" n="20"/>
                   <p>- 19 - <lb/>nach Auflösung der Bundesversammlung u. <lb/>zw. so
                                     lange im Amte, bis der neue Bundes¬ <lb/>präsident gewählt ist
                                     und sein Amt ange- <lb/>treten hat. <lb/>Eine wiederholte Wahl
@@ -1032,7 +1032,7 @@
                                     Bundes- <lb/>kanzlers und der Staatssekretäre sowie <lb/>der
                                     Unterstaatsekretäre werden vom Bun-</p>
                   <p>11</p>
-                  <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+                  <pb facs="#facs_21" n="21"/>
                   <p>- 20 - <lb/>despräsidenten mit dem Datum des Tages <lb/>der
                                     Abgelobung ausgefertigt und vom neu <lb/>bestellten
                                     Bundeskanzler gegengezeichnet. <lb/>Art. LIV. <lb/>Bis die
@@ -1057,7 +1057,7 @@
                                     Werktag zu vertagen. Eine <lb/>neuerliche Vertagung der
                                     Abstimmung kann <lb/>nur auf Beschluß der Bundesversammlung <lb/>
                                     erfolgen.</p>
-                  <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+                  <pb facs="#facs_22" n="22"/>
                   <p>- 21 - <lb/>Zu einem Beschlusse des Bundesrates, <lb/>mit welchem
                                     das Vertrauen versagt wird, <lb/>ist die Anwesenheit mindestens
                                     eines Ver- <lb/>treters eines jeden Landes erforderlich. <lb/>Die
@@ -1080,7 +1080,7 @@
                                     und vorübergehend kann <lb/>der Bundeskanaler der Vizekanzler
                                     oder</p>
                   <p>12</p>
-                  <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+                  <pb facs="#facs_23" n="23"/>
                   <p>- 22 -</p>
                   <p>ein Staatssekretär auch mit der Führung <lb/>eines ihm nicht nach
                                     Art. LXVII unter- <lb/>stellten Bundesamtes betraut werden. <lb/>Andererseits
@@ -1101,7 +1101,7 @@
                                     Gerichtsbarkeit geht vom <lb/>Bunde aus. <lb/>Die Urteile und
                                     Erkenntnisse <lb/>werden im Namen der Republik Deutsch- <lb/>österreich
                                     ausgefertigt.</p>
-                  <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+                  <pb facs="#facs_24" n="24"/>
                   <p>- 23 - <lb/>Art. LXII. <lb/>Die Verfassung und Zuständigkeit <lb/>der
                                     Gerichte wird durch Bundesgesetz fest- <lb/>gestellt. <lb/>Ausnahmsgerichte
                                     sind nur in den <lb/>im Gesetze vorausbestimmten Fällen zu- <lb/>lässig.
@@ -1121,7 +1121,7 @@
                                     dazu bestimmten Senate über <lb/>Antrag der Bunderegierung vom
                                     Bundesprä- <lb/>sidenten oder über dessen Ermächtigung vom</p>
                   <p>13</p>
-                  <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+                  <pb facs="#facs_25" n="25"/>
                   <p>- 24 - <lb/>Staatssekretär für Justiz ernannt. <lb/>Der durch den
                                     Staatesekretär <lb/>für Justiz an die Bundesregierung zu lei- <lb/>tende
                                     oder dem Staatssekretär für Justiz <lb/>vorzulegende
@@ -1142,7 +1142,7 @@
                                     Erreichung der im Gerichtsor- <lb/>ganisationsgesetz
                                     festgesetzten Altersgren- <lb/>ze dürfen Richter nur auf Grund
                                     eines <lb/>förmlichen richterlichen Erkenntnisses</p>
-                  <pb facs="#facs_26" n="26" xml:id="img_0026"/>
+                  <pb facs="#facs_26" n="26"/>
                   <p>- 25 - <lb/>ihres Amtes ersetzt werden; ihre zeitwei- <lb/>es
                                     Enthebung des Gerichtsvorstandes <lb/>oder höheren
                                     Gerichtsbehörde unter gleich- <lb/>zeitiger Verweisung der
@@ -1165,7 +1165,7 @@
                                     Bundesverfassungsgerichte <lb/>zu stellen. (Art CXXV) <lb/>Art.
                                     LXIX. <lb/>Wegen der von einem Richter in</p>
                   <p>14</p>
-                  <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+                  <pb facs="#facs_27" n="27"/>
                   <p>- 26 - <lb/>Ausübung eeines Amtes verursachten Rechts- <lb/>verletzungen
                                     kann dieser Richter sowie <lb/>der Bund ausser den im
                                     gerichtlichen Ver- <lb/>fahren vorgezeichneten Rechtsmitteln
@@ -1185,7 +1185,7 @@
                                     Schuld <lb/>des Angeklagten. <lb/>Art. LXXII. <lb/>Als
                                     oberste Instanz in Zivil- <lb/>und Strafrechtssachen besteht
                                     das Oberste <lb/>Bundesgericht in Wien.</p>
-                  <pb facs="#facs_28" n="28" xml:id="img_0028"/>
+                  <pb facs="#facs_28" n="28"/>
                   <p>- 27 - <lb/>Art. LXXIII. <lb/>Die Erteilung von Amnestien er- <lb/>folgt
                                     durch Bundesgesetz. <lb/>Art. LXXIV. <lb/>Die Rechtspflege
                                     wird von der <lb/>Verwaltung in allen Instanzen getrennt. <lb/>Die
@@ -1203,7 +1203,7 @@
                                     geheimen und direkten <lb/>Verhältniswahlrechtes aller
                                     Bundesbürger</p>
                   <p>15</p>
-                  <pb facs="#facs_29" n="29" xml:id="img_0029"/>
+                  <pb facs="#facs_29" n="29"/>
                   <p>- 28 - <lb/>ohne Unterschied des Geschlechtes gewählt <lb/>
                                     werden.
       <lb/>Die Landeswahlordnungen dürfen <lb/>die
@@ -1224,7 +1224,7 @@
                                     abgeändert wer- <lb/>den. <lb/>Ein Landesverfassungsgesetz
                                     kann <lb/>nur bei Anwesenheit der Zweidrittel <lb/>aller
                                     Mitglieder der Landesversammlung</p>
-                  <pb facs="#facs_30" n="30" xml:id="img_0030"/>
+                  <pb facs="#facs_30" n="30"/>
                   <p>- 29 - <lb/>mit einer Mehrheit von Dreiviertel aller <lb/>abgegebenen
                                     Stimmen beschlossen werden. <lb/>Art. LXXX. <lb/>Die
                                     Kundmachung der Landesgesetze <lb/>erfolgt mir Berufung auf den
@@ -1246,7 +1246,7 @@
                                     Angelegenheiten <lb/>des der Landesregierung übertragenen <lb/>Wirkungskreises
                                     der Bundesgewalt die</p>
                   <p>16</p>
-                  <pb facs="#facs_31" n="31" xml:id="img_0031"/>
+                  <pb facs="#facs_31" n="31"/>
                   <p>- 30 - <lb/>Verantwortung gegenüber der Bundesregie- <lb/>rung
                                     gemäss Art. CXXVIII der Bundesver- <lb/>fassung. <lb/>Der
                                     Landesversammlung sind die Mit <lb/>glieder der Landesregierung
@@ -1269,7 +1269,7 @@
                                     bestimmt ist - bis zur <lb/>Bundesregierung bezw. den
                                     ressortmässig <lb/>zustehenden Bundesämtern. <lb/>Art. LXXXIV. <lb/>Aus
                                     besonderen Gründen kann über</p>
-                  <pb facs="#facs_32" n="32" xml:id="img_0032"/>
+                  <pb facs="#facs_32" n="32"/>
                   <p>- 31 - <lb/>Beschluss der Bundesregierung zur Wahr- <lb/>nehmung
                                     der Angelegenheiten des der Lan- <lb/>desregierung vom Bunde
                                     übertragenen Wir- <lb/>kungskreises vom Bundspräsidenten ein <lb/>ausserordentlicher
@@ -1289,7 +1289,7 @@
                                     Bundesrechnungshof untersteht <lb/>unmittelbar der
                                     Bundesversammlung und <lb/>dem Bundesrat.</p>
                   <p>17</p>
-                  <pb facs="#facs_33" n="33" xml:id="img_0033"/>
+                  <pb facs="#facs_33" n="33"/>
                   <p>- 32 - <lb/>Art. LXXXVI. <lb/>Der Bundesrechnungshof besteht <lb/>aus
                                     einem Präsidenten und den erforder- <lb/>lichen Beamten und
                                     Hilfskräften. <lb/>Der Präsident des Bundesrechnungs- <lb/>hofes
@@ -1309,7 +1309,7 @@
                                     Beschluss der Bundesver¬ <lb/>sammlung oder des Bundesrates
                                     abberufen <lb/>werden. Auf diese Beschlüsse finden die <lb/>Bestimmungen
                                     des Art. IV der Bundesver-</p>
-                  <pb facs="#facs_34" n="34" xml:id="img_0034"/>
+                  <pb facs="#facs_34" n="34"/>
                   <p>- 33 - <lb/>fassung analoge Anwendung. <lb/>Art. LXXXIX. <lb/>Der
                                     Präsident des Bundesrech- <lb/>nungshofes verkehrt mit der
                                     Bundesver- <lb/>sammlung, dem Bundesrat und der Bundes- <lb/>regierung
@@ -1325,7 +1325,7 @@
                                     Verlangen jedesmal gehört werden.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_42"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_42"/>
                   <head>Art. XC.
                               </head>
@@ -1337,14 +1337,14 @@
                                     erledigt, kann der Stellvertre- <lb/>ter vom Bundespräsidenten,
                                     bis die Wahl <lb/>des Präsidenten des Bundesrechmungs-</p>
                   <p>18</p>
-                  <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+                  <pb facs="#facs_35" n="35"/>
                   <p>- 34 - <lb/>hofes erfolgt ist, mit der Leitung des <lb/>Bundesrechnungshofes
                                     betraut werden. In <lb/>diesem Falle finden auch auf den
                                     Stellver- <lb/>treter die Bestimmungen des Art. LXXXVIII <lb/>und
                                     LXXXIX Anwendung.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_43"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_43"/>
                   <head>Art. XCI.
                               </head>
@@ -1355,7 +1355,7 @@
                                     nach <lb/>Anhörung des Gremiums. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_44"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_44"/>
                   <head>Art. XCII.
                               </head>
@@ -1370,20 +1370,20 @@
                                     oder deren Ange- <lb/>hörigen zum Zwecke haben. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_45"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_45"/>
                   <head>Art. XCIII.
                               </head>
                   <p>Alle Urkunden über Staatsschulden <lb/>(Finanz- und
                                     Verwaltungsschulden) sind</p>
-                  <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+                  <pb facs="#facs_36" n="36"/>
                   <p>- 35 - <lb/>vom Präsidenten des Bundesrechnungshofes <lb/>gegenzuzeichnen;
                                     durch diese Gegenzeich- <lb/>nung wird lediglich die
                                     Gesetzmässigkeit <lb/>und rechnungsmässige Richtigkeit der <lb/>Gebarung
                                     bekräftigt. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_46"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_46"/>
                   <head>Art. XCIV.
                               </head>
@@ -1396,7 +1396,7 @@
                                     ziffernmäßige Nachprüfung <lb/>beschränken. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_47"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_47"/>
                   <head>Art. XCV.
                               </head>
@@ -1412,12 +1412,12 @@
                                     Vornahme von Lokalerhe- <lb/>bungen durch die
                                     Verwaltungsbehörden anzu-</p>
                   <p>19</p>
-                  <pb facs="#facs_37" n="37" xml:id="img_0037"/>
+                  <pb facs="#facs_37" n="37"/>
                   <p>- 36 - <lb/>ordnen und an diesen Amtshandlungen durch <lb/>Beauftragte
                                     teilzunehmen. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_48"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_48"/>
                   <head>Art. XCVI.
                               </head>
@@ -1431,7 +1431,7 @@
                                     zu pflegen.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_49"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_49"/>
                   <head>Art. XCVII.
                               </head>
@@ -1445,12 +1445,12 @@
                                     Landesregierung zu pflegen. <lb/>Grundsätzliche Aenderungen im <lb/>Rechnungs-
                                     und Kassenwesen dürfen nur im <lb/>Einvernehmen mit dem
                                     Bundesrechnungshofs <lb/>getroffen werden.</p>
-                  <pb facs="#facs_38" n="38" xml:id="img_0038"/>
+                  <pb facs="#facs_38" n="38"/>
                   <p>- 37 -
                               </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_50"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_50"/>
                   <head>Art. XCVIII.
                               </head>
@@ -1462,7 +1462,7 @@
                                     nicht austragen lassen, entschei- <lb/>det der Bundesrat. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_51"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_51"/>
                   <head>Art. XCIX.
                               </head>
@@ -1471,7 +1471,7 @@
                                     Bundesrechnugs- <lb/>hofe nach dessen Anordnung vorzulegen. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_52"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_52"/>
                   <head>Art. C.
                               </head>
@@ -1484,14 +1484,14 @@
                                     näheren Bestimmungen über die <lb/>innere Einrichtung und den
                                     Geschäftsgang</p>
                   <p>20</p>
-                  <pb facs="#facs_39" n="39" xml:id="img_0039"/>
+                  <pb facs="#facs_39" n="39"/>
                   <p>- 38 - <lb/>des Bundesrechnungshofes regelt die Ge- <lb/>schäftsordnung.
                                     Sie ist vom Bundesrech- <lb/>nungshofe dem Bundespräsidenten im
                                     Wege <lb/>der Bundesregierung zur Genehmigung <lb/>vorzulegen.</p>
                   <p>Sechster Abschnitt. <lb/>Von den Grund- und Freiheitsrechten. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_53"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_53"/>
                   <head>Art. CII.
                               </head>
@@ -1500,7 +1500,7 @@
                                     immer ausgeschlossen. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_54"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_54"/>
                   <head>Art. CIII.
                               </head>
@@ -1508,7 +1508,7 @@
                                     Staatsbürger <lb/>gleich zugänglich. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_55"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_55"/>
                   <head>Art. CIV.
                               </head>
@@ -1518,19 +1518,19 @@
                                     bestimmt <lb/>das Gesetz. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_56"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_56"/>
                   <head>Art. CV.
                               </head>
                   <p>Die Auswanderungsfreiheit ist nur <lb/>aus dem Grunde der
                                     Landesverteidigung <lb/>beschränkbar. <lb/>Der Verlust der
                                     Staatsbürger-</p>
-                  <pb facs="#facs_40" n="40" xml:id="img_0040"/>
+                  <pb facs="#facs_40" n="40"/>
                   <p>- 39 - <lb/>schaft infolge Auswanderung wird durch <lb/>besondere
                                     Gesetze geregelt. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_57"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_57"/>
                   <head>Art. CVI.
                               </head>
@@ -1542,7 +1542,7 @@
                                     beschränkt.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_58"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_58"/>
                   <head>Art. CVII.
                               </head>
@@ -1552,7 +1552,7 @@
                                     Gesetz. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_59"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_59"/>
                   <head>Art. CVIII.
                               </head>
@@ -1560,7 +1560,7 @@
                                     zulässig ist, <lb/>bestimmt das Gesetz.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_60"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_60"/>
                   <head>Art. CIX.
                               </head>
@@ -1569,13 +1569,13 @@
                                     bestimmt das Gesetz. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_61"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_61"/>
                   <head>Art. CX.
                               </head>
                   <p>Die Freiheit der Meinungsäusse-</p>
                   <p>21</p>
-                  <pb facs="#facs_41" n="41" xml:id="img_0041"/>
+                  <pb facs="#facs_41" n="41"/>
                   <p>- 40 - <lb/>rung ist nur durch das Strafgesetz be- <lb/>schränkt. <lb/>Die
                                     Pressfreiheit ist gewähr- <lb/>laistet, die Beschlagnahme von
                                     Druck- <lb/>schriften darf nur auf den vom Straf- <lb/>gesetz,
@@ -1586,7 +1586,7 @@
                                     vorgesehenen Fällen erlassen wer¬ <lb/>den.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_62"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_62"/>
                   <head>Art. CXI.
                               </head>
@@ -1594,7 +1594,7 @@
                                     Gesetze <lb/>geregelt. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_63"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_63"/>
                   <head>Art. CXII.
                               </head>
@@ -1607,11 +1607,11 @@
                                     kirchlichen Feier- <lb/>lichkeit kann niemand gezwungen werden. <lb/>Die
                                     Stellung der Religionsgesell- <lb/>schaften im Staate und die
                                     Rechte ihrer <lb/>Angehörigen werden durch besondere Ge-</p>
-                  <pb facs="#facs_42" n="42" xml:id="img_0042"/>
+                  <pb facs="#facs_42" n="42"/>
                   <p>- 41 - <lb/>setze geregelt. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_64"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_64"/>
                   <head>Art. CXIII.
                               </head>
@@ -1621,7 +1621,7 @@
                                     besonderes <lb/>Gesetz).</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_65"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_65"/>
                   <head>Art. CXIV.
                               </head>
@@ -1629,7 +1629,7 @@
                                     Gesetz Be- <lb/>schränkungen und Enteignungen vorsieht. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_66"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_66"/>
                   <head>Art. CXV.
                               </head>
@@ -1645,12 +1645,12 @@
                                     Kraft zu setzen, falle es die <lb/>Bundeeversammlung oder der
                                     Bundesrat be- <lb/>echliesst.</p>
                   <p>22</p>
-                  <pb facs="#facs_43" n="43" xml:id="img_0043"/>
+                  <pb facs="#facs_43" n="43"/>
                   <p>- 42 - <lb/>Siebenter Abschnitt. <lb/>Von den Garantien des
                                     öffentlichen Rechtes. <lb/>A) Von den verwaltungsgerichten. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_67"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_67"/>
                   <head>Art. CXVI.
                               </head>
@@ -1663,7 +1663,7 @@
                                     Bundesver- <lb/>waltung, das Bundesverwaltungsgericht</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_68"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_68"/>
                   <head>Art. CXVII.
                               </head>
@@ -1676,13 +1676,13 @@
                                     letzterwähnten <lb/>Beamten ernennt der Bundespräsident über <lb/>Vorschlag
                                     der Rundesregierung den Präsi- <lb/>denten, aus dem Stande der
                                     ersterwähnten <lb/>Beamten über Vorschlag der Landesregie-</p>
-                  <pb facs="#facs_44" n="44" xml:id="img_0044"/>
+                  <pb facs="#facs_44" n="44"/>
                   <p>- 43 - <lb/>rung den Vizepräsidenten des Landesver- <lb/>
                                     waltungsgerichtes.
       </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_69"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_69"/>
                   <head>Art. CXVIII.
                               </head>
@@ -1693,7 +1693,7 @@
                                     der Bundesregierung vom Bundes- <lb/>präsidenten besetzt.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_70"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_70"/>
                   <head>Art. CXIX.
                               </head>
@@ -1706,7 +1706,7 @@
                                     Beschwerde erheben.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_71"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_71"/>
                   <head>Art. CXX.
                               </head>
@@ -1715,13 +1715,13 @@
                                     ihnen, wird durch ein besonderes <lb/>Bundesgesetz geregelt. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_72"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_72"/>
                   <head>Art. CXXI.
                               </head>
                   <p>Von der Zuständigkeit der Verwal-</p>
                   <p>23</p>
-                  <pb facs="#facs_45" n="45" xml:id="img_0045"/>
+                  <pb facs="#facs_45" n="45"/>
                   <p>- 44 - <lb/>tungsgerichte sind ausgeschlossen: <lb/>a)
                                     Angelegenheiten, über welche den <lb/>ordentlichen Gerichten
                                     die Entscheidung <lb/>zusteht. <lb/>b) Angelegenheiten, welche
@@ -1731,7 +1731,7 @@
                                     haben. <lb/>d) Disziplinarangelegenheiten.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_73"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_73"/>
                   <head>Art. CXXII.
                               </head>
@@ -1745,19 +1745,19 @@
                                     sei. <lb/>B). Von dem Bundesverfassungsgericht. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_74"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_74"/>
                   <head>Art. CXXIII.
                               </head>
                   <p>Das Bundesverfassungsgericht in <lb/>wien entscheidet alle
                                     Rechtsstreitigkeiten <lb/>zwischen den souveränen Ländern,
                                     sowie <lb/>zwischen einem souveränen Lande und dem <lb/>Bund.</p>
-                  <pb facs="#facs_46" n="46" xml:id="img_0046"/>
+                  <pb facs="#facs_46" n="46"/>
                   <p>- 45 -
                               </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_75"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_75"/>
                   <head>Art. CXXIV.
                               </head>
@@ -1768,7 +1768,7 @@
                                     und der Bundesregierung.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_76"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_76"/>
                   <head>Art. CXXV.
                               </head>
@@ -1788,7 +1788,7 @@
       </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_77"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_77"/>
                   <head>Art. CXXVI.
                               </head>
@@ -1796,7 +1796,7 @@
                                     Bundesgesetzwidrigkeit <lb/>von Landesgesetzen auf Antrag der
                                     Bun-</p>
                   <p>24</p>
-                  <pb facs="#facs_47" n="47" xml:id="img_0047"/>
+                  <pb facs="#facs_47" n="47"/>
                   <p>- 46 - <lb/>desregierung. <lb/>Der Antrag der Bundesregierung <lb/>muss
                                     binnen vier Wochen nach erfolgter <lb/>Kundmachung des
                                     Landesgesetzes der Lan- <lb/>desregierung bekanntgegeben und
@@ -1808,7 +1808,7 @@
                                     Aufhebung im Landes- <lb/>gesetzblatte. </p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_78"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_78"/>
                   <head>Art. CXXVII.
                               </head>
@@ -1818,7 +1818,7 @@
                                     des <lb/>Mandatsverlustes eines ihrer Mitglie- <lb/>der.</p>
                </div>
                <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_79"/>
+                  <a class="navigation_article"/>
                   <a class="navigation_article" xml:id="navigation_article_79"/>
                   <head>Art. CXXVIII.
                               </head>
@@ -1828,7 +1828,7 @@
       <lb/>b) der Mitglieder der
                                     Bundesregierung <lb/>und der ihnen hinsichtlich der Verant- <lb/>wortlichkeit
                                     gleichgestellten Organe,</p>
-                  <pb facs="#facs_48" n="48" xml:id="img_0048"/>
+                  <pb facs="#facs_48" n="48"/>
                   <p>- 47 - <lb/>c) der Mitglieder der Landesregierun- <lb/>gen und
                                     der ihnen hinsichtlich der Verant- <lb/>wortlichkeit
                                     gleichgestellten Organe, u. <lb/>zw. <lb/>wegen vorsätzlicher
@@ -1852,7 +1852,7 @@
                                     hat auf <lb/>Verlust des Amtes eventuell auch der poli- <lb/>tischen
                                     Rechte zu lauten.</p>
                   <p>25</p>
-                  <pb facs="#facs_49" n="49" xml:id="img_0049"/>
+                  <pb facs="#facs_49" n="49"/>
                   <p>Art. CXXIII - CXXVXX - III. <lb/>ren vor Ihm in den verschiedenen
                                     in den <lb/>deeverannteresse rowi ee Veri¬ <lb/>même nähere
                                     Organisation des Pun¬ <lb/>Ανοχου ἐυχη <lb/>nue der Witte
@@ -1874,7 +1874,7 @@
                                     1 4 W1 IJædirn und 8 Nr. <lb/>Wien weetent aus einem Preśteten,
                                     einen <lb/>Das Bundesvereinigkeit zu können. <lb/>.° XIXX0 ⁒
                                     2.10 <lb/>8 f</p>
-                  <pb facs="#facs_50" n="50" xml:id="img_0050"/>
+                  <pb facs="#facs_50" n="50"/>
                   <p>- 49 - <lb/>wird in gesonderten Bundesgesetzen ge- <lb/>regelt.</p>
                   <p>26</p>
                </div>
