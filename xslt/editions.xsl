@@ -80,7 +80,7 @@
                                         <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
                                         <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
                                         <h3 align="center">
-                                            <a href="{$teiSource}">
+                                            <a href="./{$teiSource}">
                                                 <i class="fas fa-download" title="show TEI source"/>
                                             </a>
                                         </h3>
