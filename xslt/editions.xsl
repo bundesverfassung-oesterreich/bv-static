@@ -189,7 +189,6 @@
         <xsl:variable name="facsUrl">
             <xsl:value-of select="data(//tei:surface[@xml:id=$pbId]/tei:graphic/@url)"/>
         </xsl:variable>
-        <span class="anchor-pb"></span>
         <span class="pb" source="{$facsUrl}">
             <xsl:value-of select="@n"/>
         </span>
