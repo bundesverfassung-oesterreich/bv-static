@@ -23,7 +23,7 @@ jobs:
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         ./shellscripts/script.sh
-        pip install -r ./pyscripts/requirements.txt
+        pip install -r ./requirements.txt
     - name: fetch data
       run: | 
         ./shellscripts/fetch_editions.sh
