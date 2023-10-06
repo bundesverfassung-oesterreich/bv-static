@@ -107,27 +107,31 @@ viewport position of next and previous element with class pb
 pb = pagebreaks
 ##################################################################
 */
-window.addEventListener("scroll", function (event) {
-  // elements in view
-  var elements_in_viewport = [];
-  for (let el of element) {
-    if (isInViewportAll(el)) {
-      elements_in_viewport.push(el);
+window.addEventListener(
+  "scroll", 
+  function (event) {
+    // elements in view
+    var elements_in_viewport = [];
+    for (let el of element) {
+      if (isInViewportAll(el)) {
+        elements_in_viewport.push(el);
+      }
     }
-  }
-  if (elements_in_viewport.length != 0) {
-    // first element in view
-    var first_element_in_viewport = elements_in_viewport[0];
-    // get current_pb_index of element
-    var first_element_in_viewport_index = Array.from(element).findIndex((el) => el === first_element_in_viewport);
-    current_pb_index = first_element_in_viewport_index + 1;
-    previous_pb_index = first_element_in_viewport_index - 1;
-    // test if element is in viewport position to load correct image
-    if (isInViewport(element[first_element_in_viewport_index])) {
-      loadNewImage(element[first_element_in_viewport_index]);
+    if (elements_in_viewport.length != 0) {
+      // first element in view
+      var first_element_in_viewport = elements_in_viewport[0];
+      // get current_pb_index of element
+      var first_element_in_viewport_index = Array.from(element).findIndex((el) => el === first_element_in_viewport);
+      current_pb_index = first_element_in_viewport_index + 1;
+      previous_pb_index = first_element_in_viewport_index - 1;
+      // test if element is in viewport position to load correct image
+      if (isInViewport(element[first_element_in_viewport_index])) {
+        loadNewImage(element[first_element_in_viewport_index]);
+      }
     }
-  }
-});
+  },
+  {passive: true}
+);
 
 /*
 ##################################################################
