@@ -28,6 +28,19 @@ get all image urls stored in span el class tei-xml-images
 creates an array for osd viewer with static images
 ##################################################################
 */
+const throttle = function (throttled_func, delay_ms) {
+  let time = Date.now();
+  if (delay_ms === undefined) {
+    delay_ms = 20;
+  } 
+  return () => {
+    if((time + delay_ms - Date.now()) <= 0) {
+      throttled_func();
+      time = Date.now();
+    };
+  };
+};
+
 var element = document.getElementsByClassName("pb");
 var tileSources = [];
 var img = element[0].getAttribute("source");
@@ -212,17 +225,6 @@ eventlisteners to max hight of the container
 ##################################################################
 */
 
-const delay_ms = 20;
-const throttle = function (throttled_func) {
-  let time = Date.now();
-  return () => {
-    if((time + delay_ms - Date.now()) <= 0) {
-      throttled_func();
-      time = Date.now();
-    };
-  };
-};
-
 const image_rights = document.getElementsByClassName("image_rights")[0];
 function calculate_facsContainer_height(facsContainer) {
   let image_rights_height = image_rights.getBoundingClientRect().height;
@@ -247,8 +249,7 @@ for (trigger_event_type of osd_container_resize_events) {
     trigger_event_type,
     //resize_facsContainer
     throttle(
-      resize_facsContainer,
-      delay_ms
+      resize_facsContainer
     )
   );
 };
