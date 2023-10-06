@@ -28,6 +28,25 @@ get all image urls stored in span el class tei-xml-images
 creates an array for osd viewer with static images
 ##################################################################
 */
+const navbar_wrapper = document.getElementById("wrapper-navbar");
+const image_rights = document.getElementsByClassName("image_rights")[0];  
+function calculate_facsContainer_height() {
+  let image_rights_height = image_rights.getBoundingClientRect().height;
+  let new_container_height =
+    window.innerHeight -
+    (window.innerHeight / 10 + //this is necessary, cause container has fixed top val of 10%
+    image_rights_height);
+  return Math.round(new_container_height);
+};
+
+function resize_facsContainer() {
+    let new_container_height = calculate_facsContainer_height();
+    if (new_container_height != container_facs_1.clientHeight) {
+      container_facs_1.style.height = `${String(new_container_height)}px`;
+    };
+};
+
+resize_facsContainer()
 const throttle = function (throttled_func, delay_ms) {
   let time = Date.now();
   if (delay_ms === undefined) {
@@ -58,7 +77,7 @@ initialize osd
 var viewer = OpenSeadragon({
   id: "container_facs_1",
   prefixUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/images/",
+    "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
   sequenceMode: true,
   showNavigator: true,
   tileSources: tileSources,
@@ -164,7 +183,10 @@ prev.addEventListener("click", () => {
   }
 });
 next.addEventListener("click", () => {
-  element_a[current_pb_index].scrollIntoView();
+  throttle(
+    element_a[current_pb_index].scrollIntoView(),
+    delay_ms=10
+  )
 });
 
 /*
@@ -224,7 +246,7 @@ function isInViewportAll(element) {
 eventlisteners to max hight of the container
 ##################################################################
 */
-
+/*
 const image_rights = document.getElementsByClassName("image_rights")[0];
 function calculate_facsContainer_height(facsContainer) {
   let image_rights_height = image_rights.getBoundingClientRect().height;
@@ -240,8 +262,8 @@ function resize_facsContainer() {
     if (new_container_height != container_facs_1.clientHeight) {
       container_facs_1.style.height = `${String(new_container_height)}px`;
     };
-};
-
+};*/
+/*
 // create event-listeners
 var osd_container_resize_events = ["scroll", "resize", "load"];
 for (trigger_event_type of osd_container_resize_events) {
@@ -252,6 +274,4 @@ for (trigger_event_type of osd_container_resize_events) {
       resize_facsContainer
     )
   );
-};
-
-resize_facsContainer()
+};*/
