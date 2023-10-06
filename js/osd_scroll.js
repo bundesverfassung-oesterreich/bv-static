@@ -65,8 +65,8 @@ index and previous index for click navigation in osd viewer
 locate index of anchor element
 ##################################################################
 */
-var idx = 0;
-var prev_idx = -1;
+var current_pb_index = 0;
+var previous_pb_index = -1;
 
 /*
 ##################################################################
@@ -77,22 +77,22 @@ pb = pagebreaks
 */
 window.addEventListener("scroll", function (event) {
   // elements in view
-  var esiv = [];
+  var elements_in_viewport = [];
   for (let el of element) {
     if (isInViewportAll(el)) {
-      esiv.push(el);
+      elements_in_viewport.push(el);
     }
   }
-  if (esiv.length != 0) {
+  if (elements_in_viewport.length != 0) {
     // first element in view
-    var eiv = esiv[0];
-    // get idx of element
-    var eiv_idx = Array.from(element).findIndex((el) => el === eiv);
-    idx = eiv_idx + 1;
-    prev_idx = eiv_idx - 1;
+    var first_element_in_viewport = elements_in_viewport[0];
+    // get current_pb_index of element
+    var first_element_in_viewport_index = Array.from(element).findIndex((el) => el === first_element_in_viewport);
+    current_pb_index = first_element_in_viewport_index + 1;
+    previous_pb_index = first_element_in_viewport_index - 1;
     // test if element is in viewport position to load correct image
-    if (isInViewport(element[eiv_idx])) {
-      loadNewImage(element[eiv_idx]);
+    if (isInViewport(element[first_element_in_viewport_index])) {
+      loadNewImage(element[first_element_in_viewport_index]);
     }
   }
 });
@@ -144,14 +144,14 @@ var next = document.querySelector("div[title='Next page']");
 prev.style.opacity = 1;
 next.style.opacity = 1;
 prev.addEventListener("click", () => {
-  if (idx == 0) {
-    element_a[idx].scrollIntoView();
+  if (current_pb_index == 0) {
+    element_a[current_pb_index].scrollIntoView();
   } else {
-    element_a[prev_idx].scrollIntoView();
+    element_a[previous_pb_index].scrollIntoView();
   }
 });
 next.addEventListener("click", () => {
-  element_a[idx].scrollIntoView();
+  element_a[current_pb_index].scrollIntoView();
 });
 
 /*
