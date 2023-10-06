@@ -19,14 +19,17 @@ jobs:
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v3
+    - name: fetch data
+      run: | 
+        ./shellscripts/fetch_editions.sh
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: fetched fresh data from gh-data repo
     - name: Install Saxon, Ant and Python
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         ./shellscripts/script.sh
         pip install -r ./pyscripts/requirements.txt
-    - name: fetch data
-      run: | 
-        ./shellscripts/fetch_editions.sh
     - name: Build
       run: |
         ant
