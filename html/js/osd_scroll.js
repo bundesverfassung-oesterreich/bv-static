@@ -1,4 +1,5 @@
 const container_facs_1 = document.getElementById("container_facs_1");
+const text_wrapper = document.getElementById("text-resize");
 container_facs_1.style.height = `${String(screen.height / 2)}px`;
 //container_facs_1.style.height = `${String(window.innerHeight - container_facs_1.offset.top)}px`;
 /*var wrapper_column = document.getElementsByClassName("facsimiles")[0];
@@ -22,6 +23,8 @@ if (!wrapper_column.classList.contains("fade")) {
   // if false get width from sibling container / 2
   container.style.width = `${String(width.clientWidth / 2)}px`;
 }*/
+
+
 /*
 ##################################################################
 get all image urls stored in span el class tei-xml-images
@@ -279,3 +282,49 @@ for (trigger_event_type of osd_container_resize_events) {
     )
   );
 };*/
+
+
+// test
+bell_anchor = document.createElement("a");
+
+text_wrapper.appendChild(
+  bell_anchor
+);
+
+var bottom_whitespace = 0;
+function check_bottom_whitespace_of_textWrapper(check_bottom_whitespace) {
+  if (check_bottom_whitespace === undefined) {
+    check_bottom_whitespace = false;
+    console.log("bottom whitespace was undefined");
+  }
+  if (check_bottom_whitespace === true){
+    console.log("checking bottom whitespace");
+    if (bottom_whitespace == 0) {
+      console.log("bottom whitespace was 0");
+      change_bottom_whitespace_of_textWrapper();
+    }
+  } else {
+      console.log("not even checking bottom whitespace");
+      change_bottom_whitespace_of_textWrapper();
+  }
+}
+
+function change_bottom_whitespace_of_textWrapper() {
+  console.log("changing the bottom whitespace");
+  bottom_whitespace = ((window.innerHeight / 10) *8);
+  console.log(bottom_whitespace);
+  text_wrapper.style.paddingBottom = `${bottom_whitespace}px`
+};
+
+let io_options = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 1.0,
+};
+
+let observer = new IntersectionObserver(
+  function () {check_bottom_whitespace_of_textWrapper(check_bottom_whitespace=true)},
+  io_options
+);
+observer.observe(bell_anchor);
+addEventListener("resize", check_bottom_whitespace_of_textWrapper);
