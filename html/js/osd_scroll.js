@@ -1,30 +1,6 @@
 const container_facs_1 = document.getElementById("container_facs_1");
 const text_wrapper = document.getElementById("text-resize");
 container_facs_1.style.height = `${String(screen.height / 2)}px`;
-//container_facs_1.style.height = `${String(window.innerHeight - container_facs_1.offset.top)}px`;
-/*var wrapper_column = document.getElementsByClassName("facsimiles")[0];
-var text_container = document.getElementById("section");
-const image_size_relations =
-  container_facs_1.getBoundingClientRect().width /
-  Number(container_facs_1.style.height.replace("px", ""));
-// set osd wrapper container width
-var container = document.getElementById("viewer");
-if (text_container !== null) {
-  var width = text_container.clientWidth;
-} else {
-  var width = 0;
-}
-// check if facsimiles are displayed
-container.style.width = "auto";
-if (!wrapper_column.classList.contains("fade")) {
-  // if true get width from sibling container - offset
-  container.style.width = `${String(width - 25)}px`;
-} else {
-  // if false get width from sibling container / 2
-  container.style.width = `${String(width.clientWidth / 2)}px`;
-}*/
-
-
 /*
 ##################################################################
 get all image urls stored in span el class tei-xml-images
@@ -248,50 +224,28 @@ function isInViewportAll(element) {
   }
 }
 
+
 /*
 ##################################################################
-eventlisteners to max hight of the container
+test to add whitespace at end of the page to make 
+the scrolling mechanism work.
 ##################################################################
 */
-/*
-const image_rights = document.getElementsByClassName("image_rights")[0];
-function calculate_facsContainer_height(facsContainer) {
-  let image_rights_height = image_rights.getBoundingClientRect().height;
-  let new_container_height =
-    window.innerHeight -
-    facsContainer.getBoundingClientRect().top -
-    image_rights_height;
-  return Math.round(new_container_height);
-};
-
-function resize_facsContainer() {
-    let new_container_height = calculate_facsContainer_height(container_facs_1);
-    if (new_container_height != container_facs_1.clientHeight) {
-      container_facs_1.style.height = `${String(new_container_height)}px`;
-    };
-};*/
-/*
-// create event-listeners
-var osd_container_resize_events = ["scroll", "resize", "load"];
-for (trigger_event_type of osd_container_resize_events) {
-  window.addEventListener(
-    trigger_event_type,
-    //resize_facsContainer
-    throttle(
-      resize_facsContainer
-    )
-  );
-};*/
-
-
-// test
+// create anchor as a point of reference for the end of the textblock
 bell_anchor = document.createElement("a");
-
 text_wrapper.appendChild(
   bell_anchor
 );
-
+// stuff to change / set the whitespace at bottom
 var bottom_whitespace = 0;
+
+function change_bottom_whitespace_of_textWrapper() {
+  console.log("changing the bottom whitespace");
+  bottom_whitespace = ((window.innerHeight / 10) *8);
+  console.log(bottom_whitespace);
+  text_wrapper.style.paddingBottom = `${bottom_whitespace}px`
+};
+
 function check_bottom_whitespace_of_textWrapper(check_bottom_whitespace) {
   if (check_bottom_whitespace === undefined) {
     check_bottom_whitespace = false;
@@ -309,13 +263,7 @@ function check_bottom_whitespace_of_textWrapper(check_bottom_whitespace) {
   }
 }
 
-function change_bottom_whitespace_of_textWrapper() {
-  console.log("changing the bottom whitespace");
-  bottom_whitespace = ((window.innerHeight / 10) *8);
-  console.log(bottom_whitespace);
-  text_wrapper.style.paddingBottom = `${bottom_whitespace}px`
-};
-
+// setting up eventlistener and Intersectionobserver
 let io_options = {
   root: null,
   rootMargin: "0px",
