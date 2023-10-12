@@ -39,9 +39,10 @@ const throttle = function (throttled_func, delay_ms) {
   };
 };
 
-var element = document.getElementsByClassName("pb");
+var pb_elements = document.getElementsByClassName("pb");
+var pb_elements_array = Array.from(pb_elements);
 var tileSources = [];
-var img = element[0].getAttribute("source");
+var img = pb_elements[0].getAttribute("source");
 var imageURL = {
   type: "image",
   url: img,
@@ -76,9 +77,12 @@ index and previous index for click navigation in osd viewer
 locate index of anchor element
 ##################################################################
 */
-var current_pb_index = 0;
+var next_pb_index = 0;
 var previous_pb_index = -1;
-
+const a_elements = document.getElementsByClassName("anchor-pb");
+const max_index = (a_elements.length - 1);
+const prev = document.querySelector("div[title='Previous page']");
+const next = document.querySelector("div[title='Next page']");
 /*
 ##################################################################
 triggers on scroll and switches osd viewer image base on 
@@ -86,29 +90,31 @@ viewport position of next and previous element with class pb
 pb = pagebreaks
 ##################################################################
 */
+function load_top_viewport_image() {
+  // elements in view
+  var elements_in_viewport = [];
+  for (let el of pb_elements) {
+    if (isInViewportAll(el)) {
+      elements_in_viewport.push(el);
+    }
+  }
+  if (elements_in_viewport.length != 0) {
+    // first element in view
+    var first_element_in_viewport = elements_in_viewport[0];
+    // get next_pb_index of element
+    var current_pb_index = pb_elements_array.findIndex((el) => el === first_element_in_viewport);
+    next_pb_index = current_pb_index + 1;
+    previous_pb_index = current_pb_index - 1;
+    // test if element is in viewport position to load correct image
+    if (isInViewport(pb_elements[current_pb_index])) {
+      loadNewImage(pb_elements[current_pb_index]);
+    }
+  }
+}
+
 window.addEventListener(
-  "scroll", 
-  function (event) {
-    // elements in view
-    var elements_in_viewport = [];
-    for (let el of element) {
-      if (isInViewportAll(el)) {
-        elements_in_viewport.push(el);
-      }
-    }
-    if (elements_in_viewport.length != 0) {
-      // first element in view
-      var first_element_in_viewport = elements_in_viewport[0];
-      // get current_pb_index of element
-      var first_element_in_viewport_index = Array.from(element).findIndex((el) => el === first_element_in_viewport);
-      current_pb_index = first_element_in_viewport_index + 1;
-      previous_pb_index = first_element_in_viewport_index - 1;
-      // test if element is in viewport position to load correct image
-      if (isInViewport(element[first_element_in_viewport_index])) {
-        loadNewImage(element[first_element_in_viewport_index]);
-      }
-    }
-  },
+  "scroll",
+  load_top_viewport_image,
   {passive: true}
 );
 
@@ -153,23 +159,33 @@ accesses osd viewer prev and next button to switch image and
 scrolls to next or prev span element with class pb (pagebreak)
 ##################################################################
 */
-var element_a = document.getElementsByClassName("anchor-pb");
-var prev = document.querySelector("div[title='Previous page']");
-var next = document.querySelector("div[title='Next page']");
+
 prev.style.opacity = 1;
 next.style.opacity = 1;
-prev.addEventListener("click", () => {
-  if (current_pb_index == 0) {
-    element_a[current_pb_index].scrollIntoView();
+
+function scroll_prev() {
+  console.log(`prev: ${previous_pb_index}, max_index:${max_index}`);
+  if (previous_pb_index == -1) {
+    a_elements[0].scrollIntoView();
   } else {
-    element_a[previous_pb_index].scrollIntoView();
-  }
+    a_elements[previous_pb_index].scrollIntoView();
+  };
+};
+
+function scroll_next() {
+  console.log(`next: ${next_pb_index}, max_index:${max_index}`);
+  if (next_pb_index > max_index) {
+    a_elements[max_index].scrollIntoView();
+  } else {
+    a_elements[next_pb_index].scrollIntoView();
+  };
+};
+
+prev.addEventListener("click", () => {
+  scroll_prev();
 });
 next.addEventListener("click", () => {
-  throttle(
-    element_a[current_pb_index].scrollIntoView(),
-    delay_ms=10
-  )
+  scroll_next()
 });
 
 /*
