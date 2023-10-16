@@ -26,6 +26,9 @@
     <xsl:variable name="doc_id">
         <xsl:value-of select="data(tei:TEI/@xml:id)"/>
     </xsl:variable>
+        <xsl:variable name="target_xml">
+        <xsl:value-of select="./html/xml-sources"/>
+    </xsl:variable>
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@type = 'label'][1]/text()"/>
     </xsl:variable>
@@ -77,7 +80,7 @@
                                         <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
                                         <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
                                         <h3 align="center">
-                                            <a href="./{$doc_id}.xml">
+                                            <a href="{$target_xml}{$doc_id}.xml">
                                                 <i class="fas fa-download" title="show TEI source"/>
                                             </a>
                                         </h3>
