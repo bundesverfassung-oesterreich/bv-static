@@ -70,7 +70,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="bv_manifestation_type_id__4">
+                  <objectDesc form="Lithographie">
                         </objectDesc>
                   <handDesc>
                         </handDesc>
@@ -179,7 +179,7 @@
                   height="4415px"/>
       </surface>
    </facsimile>
-   <text type="bv_doctype_id__1">
+   <text type="Manuskript">
       <body>
          <div type="main">
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
