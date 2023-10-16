@@ -2,7 +2,7 @@
 <project basedir="." name="tei2html">
     <property name="index" value="./data/meta/about.xml"/>
     <property name="target" value="./html"/>
-    <property name="target_xml" value="./html/xml-view"/>
+    <property name="target_xml" value="./html/xml-sources"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
