@@ -87,9 +87,12 @@
         <include name="*.html"/>
         <replacetoken>&lt;/br&gt;</replacetoken>
     </replace>
-    <copy todir="${target}" flatten="true">
+    <copy todir="${target_xml}" flatten="true">
         <fileset dir="./data/">
             <include name="**/*.xml"/>
         </fileset>
     </copy>
+    <delete>
+        <fileset dir="${target}" includes="*.xml" />
+    </delete>
 </project>
