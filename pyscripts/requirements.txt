@@ -1,0 +1,6 @@
+acdh_cfts_pyutils
+acdh_tei_pyutils
+favicons
+tqdm
+typesense
+rlPyCairo
