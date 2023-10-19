@@ -90,29 +90,36 @@ viewport position of next and previous element with class pb
 pb = pagebreaks
 ##################################################################
 */
-function load_top_viewport_image() {
+function load_top_viewport_image(check=true) {
   // elements in view
-  var elements_in_viewport = [];
-  for (let el of pb_elements) {
-    if (isInViewportAll(el)) {
-      elements_in_viewport.push(el);
+  console.log("… scrolling …")
+  let first_pb_element_in_viewport = undefined;
+  for (let pb_element of pb_elements) {
+    if (isInViewport(pb_element)) {
+      first_pb_element_in_viewport = pb_element;
+      break;
     }
   }
-  if (elements_in_viewport.length != 0) {
-    // first element in view
-    var first_element_in_viewport = elements_in_viewport[0];
+  if (first_pb_element_in_viewport != undefined) {
     // get next_pb_index of element
-    var current_pb_index = pb_elements_array.findIndex((el) => el === first_element_in_viewport);
+    let current_pb_index = pb_elements_array.findIndex((el) => el === first_pb_element_in_viewport);
     next_pb_index = current_pb_index + 1;
     previous_pb_index = current_pb_index - 1;
     // test if element is in viewport position to load correct image
-    if (isInViewport(pb_elements[current_pb_index])) {
-      loadNewImage(pb_elements[current_pb_index]);
+    let current_pb_element = pb_elements[current_pb_index];
+    if (check) {
+      if (isInTopViewport(current_pb_element)) {
+        loadNewImage(current_pb_element);
+      };
+    } else {
+      
+      console.log(`Didnt check for visibility. Scrolling to ${current_pb_index}`);
+      loadNewImage(current_pb_element, true);
     }
   }
 }
 
-window.addEventListener(
+document.addEventListener(
   "scroll",
   load_top_viewport_image,
   {passive: true}
@@ -123,32 +130,36 @@ window.addEventListener(
 function to trigger image load and remove events
 ##################################################################
 */
-function loadNewImage(new_item) {
+
+function add_image_to_viewer(new_image) {
+  viewer.addSimpleImage({
+    url: new_image,
+    success: function (event) {
+      function ready() {
+        setTimeout(() => {
+          viewer.world.removeItem(viewer.world.getItemAt(0));
+        }, 200);
+      }
+      // test if item was loaded and trigger function to remove previous item
+      if (event.item) {
+        // .getFullyLoaded()
+        ready();
+      } else {
+        event.item.addOnceHandler("fully-loaded-change", ready());
+      }
+    },
+  });
+}
+
+function loadNewImage(new_item, dont_check=false) {
   if (new_item) {
     // source attribute hold image item id without url
     var new_image = new_item.getAttribute("source");
     var old_image = viewer.world.getItemAt(0);
-    if (old_image) {
-      // get url from current/old image and replace the image id with
-      // new id of image to be loaded
-      // access osd viewer and add simple image and remove current image
-      viewer.addSimpleImage({
-        url: new_image,
-        success: function (event) {
-          function ready() {
-            setTimeout(() => {
-              viewer.world.removeItem(viewer.world.getItemAt(0));
-            }, 200);
-          }
-          // test if item was loaded and trigger function to remove previous item
-          if (event.item) {
-            // .getFullyLoaded()
-            ready();
-          } else {
-            event.item.addOnceHandler("fully-loaded-change", ready());
-          }
-        },
-      });
+    if (dont_check){
+      add_image_to_viewer(new_image);
+    } else if (old_image) {
+        add_image_to_viewer(new_image);
     }
   }
 }
@@ -164,7 +175,6 @@ prev.style.opacity = 1;
 next.style.opacity = 1;
 
 function scroll_prev() {
-  console.log(`prev: ${previous_pb_index}, max_index:${max_index}`);
   if (previous_pb_index == -1) {
     a_elements[0].scrollIntoView();
   } else {
@@ -173,7 +183,6 @@ function scroll_prev() {
 };
 
 function scroll_next() {
-  console.log(`next: ${next_pb_index}, max_index:${max_index}`);
   if (next_pb_index > max_index) {
     a_elements[max_index].scrollIntoView();
   } else {
@@ -193,7 +202,7 @@ next.addEventListener("click", () => {
 function to check if element is close to top of window viewport
 ##################################################################
 */
-function isInViewport(element) {
+function isInTopViewport(element) {
   // Get the bounding client rectangle position in the viewport
   var bounding = element.getBoundingClientRect();
   // Checking part. Here the code checks if el is close to top of viewport.
@@ -218,10 +227,9 @@ function isInViewport(element) {
 function to check if element is anywhere in window viewport
 ##################################################################
 */
-function isInViewportAll(element) {
+function isInViewport(element) {
   // Get the bounding client rectangle position in the viewport
   var bounding = element.getBoundingClientRect();
-  // Checking part. Here the code checks if el is close to top of viewport.
   // console.log("Top");
   // console.log(bounding.top);
   // console.log("Bottom");
@@ -256,25 +264,19 @@ text_wrapper.appendChild(
 var bottom_whitespace = 0;
 
 function change_bottom_whitespace_of_textWrapper() {
-  console.log("changing the bottom whitespace");
   bottom_whitespace = ((window.innerHeight / 10) *8);
-  console.log(bottom_whitespace);
   text_wrapper.style.paddingBottom = `${bottom_whitespace}px`
 };
 
 function check_bottom_whitespace_of_textWrapper(check_bottom_whitespace) {
   if (check_bottom_whitespace === undefined) {
     check_bottom_whitespace = false;
-    console.log("bottom whitespace was undefined");
   }
   if (check_bottom_whitespace === true){
-    console.log("checking bottom whitespace");
     if (bottom_whitespace == 0) {
-      console.log("bottom whitespace was 0");
       change_bottom_whitespace_of_textWrapper();
     }
   } else {
-      console.log("not even checking bottom whitespace");
       change_bottom_whitespace_of_textWrapper();
   }
 }
@@ -290,5 +292,12 @@ let observer = new IntersectionObserver(
   function () {check_bottom_whitespace_of_textWrapper(check_bottom_whitespace=true)},
   io_options
 );
+
 observer.observe(bell_anchor);
 addEventListener("resize", check_bottom_whitespace_of_textWrapper);
+
+window.addEventListener("load", function() {
+  if (window.location.href.includes("#")) {
+    load_top_viewport_image(false);
+  }
+});
