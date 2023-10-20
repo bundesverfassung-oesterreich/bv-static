@@ -58,7 +58,6 @@
                             <li class="nav-item">
                                 <a title="Volltextsuche" class="nav-link" href="search.html"  data-i18n="navbar__search" ></a>
                             </li>
-                            <select name="language" id="languageSwitcher"></select>
                         </ul>
                     </div>
                 </div>
