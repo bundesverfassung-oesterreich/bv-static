@@ -1,3 +1,9 @@
+:root {
+    --bv-main-bg-color: #F8F0E3;
+    --bv-small-highlight: lightgray;
+    --bv-big-highlight: #23ad23;
+}
+
 *, :after, :before {
     box-sizing: border-box;
 }
@@ -7,26 +13,34 @@ span {
 }
 
 a {
-    color: #88dbdf;
+    color: var(--bv-big-highlight);
 }
 
 /* a:hover {
     color: #fff;
 } */
 
-.navbar-nav ul li a, .navbar-nav ul li a:visited {
-    /* change navbar link color */
+
+.navbar {
+    border-bottom: 5px solid var(--bv-small-highlight);
+    background-color: var(--bv-big-highlight);
+    max-height: 100vh;
 }
+
+.navbar-nav, .nav-item, a.nav-link {
+    color: var(--bv-main-bg-color)!important;
+}
+
 
 .navbar-nav ul li a:hover, .navbar-nav ul li a:active {
     /* change navbar link color */
-    background-color: #88dbdf;
+    background-color: (--bv-small-highlight);
     color: #fff;
 }
 
 .navbar-nav ul li.active a {
     /* change navbar link color */
-    background-color: #88dbdf;
+    background-color: var(--bv-big-highlight);
 }
 
 cite {
@@ -41,7 +55,7 @@ cite {
     background-color: #fff;
     /*height: 93vh;
     overflow: hidden;*/
-    /*border-bottom: 3px solid #88dbdf;*/
+    /*border-bottom: 3px solid var(--bv-big-highlight);*/
 }
 
 /*rules for anchor hack */
@@ -227,7 +241,7 @@ border-right: 1px solid lightgrey;
 }
 
 #wrapper-footer-full {
-    border-top: 3px solid #88dbdf;
+    border-top: 3px solid var(--bv-big-highlight);
     margin-top: auto;
     display: flex;
     background-color:#fff;
@@ -276,7 +290,7 @@ a.anchorFoot {
     right: 10%;
     max-width: 100px;
     padding: .5em;
-    background-color: #88dbdf;
+    background-color: var(--bv-big-highlight);
     color: #fff;
     border-radius: 1rem;
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
@@ -331,7 +345,7 @@ a.anchorFoot {
 }
 
 .fas {
-    color: #88dbdf;
+    color: var(--bv-big-highlight);
 }
 
 #text-resize {
@@ -388,12 +402,6 @@ div.dataTables_filter {
 
 .exportbuttons {
   text-align: right;
-}
-
-.navbar {
-    border-bottom: 5px solid #88dbdf;
-    background-color: #fff;
-    max-height: 100vh;
 }
 
 .dataTables_info {
@@ -453,7 +461,7 @@ div.dataTables_filter {
     background-color: transparent;
     border: none;
     text-align: center;
-    color: #88dbdf;
+    color: var(--bv-big-highlight);
 }
 
 .index-card .card-body {
@@ -479,7 +487,7 @@ div.dataTables_filter {
     background-color: transparent;
     border: none;
     text-align: center;
-    color: #88dbdf; 
+    color: var(--bv-big-highlight); 
 }
 
 .index-card .card-body {
