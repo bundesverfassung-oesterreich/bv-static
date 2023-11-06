@@ -16,10 +16,21 @@ a {
     color: var(--bv-big-highlight);
 }
 
-/* a:hover {
-    color: #fff;
-} */
-
+/*left align any content text per default*/
+div.container p,
+div.container h1,
+div.container h2,
+div.container h3,
+div.container h4,
+div.container h5,
+div.edition_container p,
+div.edition_container h1,
+div.edition_container h2,
+div.edition_container h3,
+div.edition_container h4,
+div.edition_container h5 {
+    text-align: left !important;
+}
 
 .navbar {
     border-bottom: 5px solid var(--bv-small-highlight);
