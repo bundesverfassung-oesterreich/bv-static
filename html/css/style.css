@@ -121,7 +121,6 @@ cite {
 
 .landing_text p {
     hyphens: auto;
-    text-align: justify;
 }
 
 .custom-logo-link {
@@ -471,40 +470,12 @@ div.dataTables_filter {
 .index-card .card-header {
     background-color: transparent;
     border: none;
-    text-align: center;
     color: var(--bv-big-highlight);
 }
 
 .index-card .card-body {
     background-color: transparent;
     border: none;
-    text-align: center;
-    padding: 0;
-    
-}
-
-.index-card {
-    margin-top: 0 !important;
-    box-shadow: none !important;
-    transition: transform .2s;
-    
-}
-
-.card-body img {
-    border-radius: .35rem .35rem 0 0;
-}
-
-.index-card .card-header {
-    background-color: transparent;
-    border: none;
-    text-align: center;
-    color: var(--bv-big-highlight); 
-}
-
-.index-card .card-body {
-    background-color: transparent;
-    border: none;
-    text-align: center;
     padding: 0;
     
 }
