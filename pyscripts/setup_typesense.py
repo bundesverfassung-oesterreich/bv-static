@@ -144,7 +144,7 @@ def create_records():
             "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
         )
         creation_date = xml_doc.any_xpath(
-            "normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])"
+            "normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"
         )
         try:
             material_doc_type = xml_doc.any_xpath(
