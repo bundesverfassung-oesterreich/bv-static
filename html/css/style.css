@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+:root * {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
 span {
     display: inline;
 }
@@ -367,11 +371,6 @@ a.anchorFoot {
     display: block;
 }
 
-/*.navBarNavDropdown ul li {
-    list-style-type: none;
-}*/
-
-
 /*chapter navigation*/
 .section_ref>a{
     font-weight: bolder;
@@ -431,11 +430,6 @@ div.dataTables_filter {
 .footer-separator {
     border-top: 1px solid #f1f1f1;
     padding: 2em 0;
-}
-
-/**** Font Aweseome ***/
-.far {
-    font-family: "Font Awesome 5 Free" !important;
 }
 
 .img-fluid {
