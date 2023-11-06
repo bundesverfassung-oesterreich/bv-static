@@ -432,6 +432,12 @@ div.dataTables_filter {
     padding: 2em 0;
 }
 
+/**** Font Aweseome ***/
+/* don't remove this or the download icon breaks !!!*/
+h3 a i.fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
 .img-fluid {
     max-width: 6rem !important;
 }
