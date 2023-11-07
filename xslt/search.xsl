@@ -54,8 +54,8 @@
                                     <div class="col-md-8">
                                         <div id="sort-by"></div>
                                         <div id="current-refinements"></div>
-                                        <div id="pagination"></div>
                                         <div id="hits"></div>
+                                        <div id="pagination"></div>
                                     </div>
                                 </div>
                             </div>
