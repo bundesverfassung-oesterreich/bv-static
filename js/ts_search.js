@@ -48,6 +48,16 @@ search.addWidgets([
           `,
     },
   }),
+  /*
+    removed this from above
+    <div>
+      <div>
+          {{#persons}}
+          <span class="badge bg-secondary">{{ . }}</span>
+          {{/persons}}
+      </div>
+    </div>
+  */
 
   instantsearch.widgets.pagination({
     container: "#pagination",
@@ -175,7 +185,7 @@ search.addWidgets([
   instantsearch.widgets.sortBy({
     container: "#sort-by",
     items: [
-      { label: "standard", value: `${project_collection_name}` },
+      { label: "Default", value: `${project_collection_name}` },
       { label: "chronologisch", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
       { label: "umgekehrt chronologisch", value: `${project_collection_name}/sort/creation_date:desc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
     ],

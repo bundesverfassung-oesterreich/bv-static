@@ -43,7 +43,7 @@ div.edition_container h5 {
 }
 
 .navbar-nav, .nav-item, a.nav-link {
-    color: white;
+    color: var(--bv-main-bg-color)!important;
 }
 
 
