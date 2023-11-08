@@ -47,6 +47,10 @@ div.edition_container h5 {
 }
 
 
+#navbarSupportedContent a.nav-link {
+    font-size: 1.15rem;
+}
+
 .navbar-nav ul li a:hover, .navbar-nav ul li a:active {
     /* change navbar link color */
     background-color: (--bv-small-highlight);
