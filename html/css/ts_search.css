@@ -142,8 +142,8 @@ input[type=checkbox] {
 
 
 .btn {
-    background-color: lightgrey;
-    border-color: lightgrey;
+    background-color: var(--bv-darker-lightgray);
+    border-color: var(--bv-darker-lightgray);
     color: #000;
 }
 
@@ -157,15 +157,9 @@ input[type=checkbox] {
     border-color: transparent !important;
 }
 
-/*.ais-SearchBox-submitIcon {
-    background-color: transparent;
-    border-color: transparent;
-    color: #000 !important;
-}*/
-
 .btn:hover {
     color: #fff;
-
+    background-color: var(--bv-small-highlight);
 }
 
 .search-panel {
