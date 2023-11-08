@@ -52,15 +52,11 @@ div.edition_container h5 {
 }
 
 .navbar-nav ul li a:hover, .navbar-nav ul li a:active {
-    /* change navbar link color */
-    background-color: (--bv-small-highlight);
-    color: #fff;
+    /* change navbar text color and background color for hover and active*/
+    color: var(--bv-big-highlight);
 }
 
-.navbar-nav ul li.active a {
-    /* change navbar link color */
-    background-color: var(--bv-big-highlight);
-}
+
 
 cite {
     font-style: normal;
