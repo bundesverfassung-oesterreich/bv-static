@@ -1,6 +1,7 @@
 :root {
     --bv-main-bg-color: #F8F0E3;
-    --bv-small-highlight: lightgray;
+    --bv-small-highlight: rgb(156, 156, 156);
+    --bv-darker-lightgray: lightgray;
     --bv-big-highlight: #23ad23;
 }
 
