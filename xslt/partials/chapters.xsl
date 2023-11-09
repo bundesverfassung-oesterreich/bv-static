@@ -20,10 +20,11 @@
                 </svg>
             </a>
             <ul class="dropdown-menu" id="chapter_navigation">
+                <!--<xsl:variable name="section_divs" select=".//tei:body//tei:div[contains(@type, 'section')]"/>-->
                 <xsl:variable name="section_divs" select=".//tei:body//tei:div[contains(@type, 'section')]"/>
-                <xsl:variable name="section_divs_exist" select="if ($section_divs) then true else false"/>
+                <xsl:variable name="section_divs_exist" select="if ($section_divs) then 'true' else 'false'"/>
                 <xsl:choose>
-                    <xsl:when test="$section_divs_exist">
+                    <xsl:when test="$section_divs_exist = 'true'">
                         <xsl:for-each select="$section_divs">
                             <li class="section_ref">
                                 <a class="dropdown-item">
