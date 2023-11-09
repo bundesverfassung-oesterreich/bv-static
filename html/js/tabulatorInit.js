@@ -1,8 +1,8 @@
 let paginatorOptions = {
     pagination:true,
     paginationSize:15,
-    layout: "fitColumns",
-    responsiveLayout:"hide",
+    layout: "fitDataStretch",
+    responsiveLayout:"collapse",
     columns: [
         {
             headerFilter: "input",
