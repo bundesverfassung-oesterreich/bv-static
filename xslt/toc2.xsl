@@ -19,7 +19,7 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
-                <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css"></link>
+                <link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet"/>
                 <xsl:call-template name="meta-tags">
                     <xsl:with-param name="title" select="$doc_title"></xsl:with-param>
                     <xsl:with-param name="source_authors" select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"></xsl:with-param>
@@ -37,15 +37,14 @@
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
-                                <table class="table table-striped display" id="tocTable" style="width:100%">
+                                <table id="tocTable">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
-                                            <th scope="col">Entstehung</th>
+                                            <th scope="col">Entstehung (tpq)</th>
                                             <th scope="col">beteiligte Personen</th>
                                             <th scope="col">Dokumententyp</th>
                                             <th scope="col">Materialtyp</th>
-                                            <th scope="col">Dateinname</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -62,8 +61,18 @@
                                                         <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
                                                     </a>
                                                 </td>
-                                                <td>                                        
-                                                    <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date/@from[1])"/>
+                                                <!--
+                                                if necessary data could here be alterd to provide a 
+                                                sorter val for the date and an human readable value 
+                                                (preventing further dependencies for tabulator script)
+
+                                                <xsl:variable name="iso_date_taq" select="normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"/>
+                                                <td isodate="{translate($iso_date_taq, '-', '')}">
+                                                    <xsl:value-of select="format-date(xs:date($iso_date_taq), '[D]. [M]. [Y]')" />
+                                                </td>
+                                                -->
+                                                <td>
+                                                    <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"/>
                                                 </td>
                                                 <td>                                        
                                                     <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/>
@@ -74,9 +83,6 @@
                                                 <td>                                        
                                                     <xsl:value-of select="//tei:text/@type"/>
                                                 </td>
-                                                <td>
-                                                    <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
-                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
@@ -86,13 +92,8 @@
                     </div>
                     
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script>
-                    <script type="text/javascript" src="js/dt.js"></script>
-                    <script>
-                        $(document).ready(function () {
-                        createDataTable('tocTable');
-                        });
-                    </script>
+                    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
+                    <script type="text/javascript" src="js/tabulatorInit.js"></script>
                 </div>
             </body>
         </html>
