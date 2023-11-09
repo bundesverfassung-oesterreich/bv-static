@@ -23,7 +23,6 @@
 #clear-refinements, 
 #range-input {
     padding: 1em 0 .5em 0;
-
 }
 #refinement-list-persons,
 #refinement-list-doc-title {
@@ -31,7 +30,7 @@
     -webkit-box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
     -moz-box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
     box-shadow: -14px 21px 24px -28px rgba(156,156,156,1);
-    background-color: #fff;
+    background-color: var(--bv-main-bg-color);
     border-radius: .10rem;
 
 }
@@ -40,7 +39,7 @@
 #refinement-list-doc-material,
 #refinement-range-year {
     padding: 1em .5em 1em .5em;
-    background-color: #fff;
+    background-color: var(--bv-main-bg-color);
     border-radius: .10rem;
 }
 
@@ -50,7 +49,7 @@
 }
 
 .ais-Hits-item {
-    background-color: #fff;
+    background-color: var(--bv-main-bg-color);
 }
 
 .page-link {
@@ -69,9 +68,17 @@ ul .ais-Pagination-item .ais-Pagination-link:hover {
     color: #fff !important;
 }
 
+.form-control {
+	background-color: var(--bv-main-bg-color);
+}
+
+.ais-SearchBox-input {
+	background-color: var(--bv-main-bg-color);
+}
+
 .form-control:focus {
     color: #212529;
-    background-color: #fff;
+    background-color: var(--bv-main-bg-color);
     border-color: #86b7fe;
     outline: 0;
     border: 0.02rem solid var(--bv-big-highlight);
@@ -140,6 +147,10 @@ input[type=checkbox] {
 	border-radius: 5px;
 }
 
+/* change button collor */
+.ais-RangeInput-submit:hover, .ais-RangeInput-submit:focus {
+	background-color: var(--bv-small-highlight);
+}
 
 .btn {
     background-color: var(--bv-darker-lightgray);
