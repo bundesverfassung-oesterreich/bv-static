@@ -11,6 +11,19 @@
         </desc>
     </doc>
 
+    <xsl:template name="get_article_nav">
+        <xsl:for-each select=".//tei:div[@type='article']">
+            <li class="article_ref">
+                <a class="dropdown-item">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="./tei:head[1]/normalize-space()"/>
+                </a>
+            </li>
+        </xsl:for-each>
+    </xsl:template>
+
     <xsl:template name="chapters">
         <div id="chapter-navBarNavDropdown" class="navBarNavDropdown dropstart">
             <!-- Your menu goes here -->
@@ -34,31 +47,13 @@
                                     <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                                 </a>
                                 <ul class="dropown-menu dropdown-submenu">
-                                    <xsl:for-each select=".//tei:div[@type='article']">
-                                        <li class="article_ref">
-                                            <a class="dropdown-item">
-                                                <xsl:attribute name="href">
-                                                    <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
-                                                </xsl:attribute>
-                                                <xsl:value-of select="./tei:head[1]/normalize-space()"/>
-                                            </a>
-                                        </li>
-                                    </xsl:for-each>
+                                    <xsl:call-template name="get_article_nav"/>
                                 </ul>
                             </li>
                         </xsl:for-each>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:for-each select=".//tei:div[@type='article']">
-                            <li class="article_ref">
-                                <a class="dropdown-item">
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
-                                    </xsl:attribute>
-                                    <xsl:value-of select="./tei:head[1]/normalize-space()"/>
-                                </a>
-                            </li>
-                        </xsl:for-each>
+                        <xsl:call-template name="get_article_nav"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </ul>
