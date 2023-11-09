@@ -52,7 +52,7 @@
                                         <div id="refinement-range-year"></div>
                                     </div>
                                     <div class="col-md-8">
-                                        <div id="sort-by"></div>
+                                        <!--<div id="sort-by"></div>-->
                                         <div id="current-refinements"></div>
                                         <div id="hits"></div>
                                         <div id="pagination"></div>

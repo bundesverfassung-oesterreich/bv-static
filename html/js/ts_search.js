@@ -172,14 +172,14 @@ search.addWidgets([
     },
   }),
 
-  instantsearch.widgets.sortBy({
+  /*instantsearch.widgets.sortBy({
     container: "#sort-by",
     items: [
       { label: "standard", value: `${project_collection_name}` },
       { label: "chronologisch", value: `${project_collection_name}/sort/creation_date:asc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
       { label: "umgekehrt chronologisch", value: `${project_collection_name}/sort/creation_date:desc, bv_doc_id_num:asc, doc_internal_orderval:asc` },
     ],
-  }),
+  }),*/
 
   instantsearch.widgets.configure({
     hitsPerPage: 8,
