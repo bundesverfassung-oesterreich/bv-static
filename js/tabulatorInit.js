@@ -1,6 +1,6 @@
 let paginatorOptions = {
     pagination:true,
-    paginationSize:10,
+    paginationSize:15,
     layout: "fitColumns",
     responsiveLayout:"hide",
     columns: [
@@ -8,17 +8,13 @@ let paginatorOptions = {
             headerFilter: "input",
             title: "Titel",
             field: "Titel",
-            formatter: function (cell) {
-                return cell.getValue();
-            },
+            formatter: "html"
         },
         {
             headerFilter: "input",
             title: "beteiligte Personen",
             field: "beteiligte Personen",
-            formatter: function (cell) {
-                return cell.getValue();
-            },
+            formatter: "html"
         },
         {
             headerFilter: "input",
