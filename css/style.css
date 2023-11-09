@@ -1,5 +1,5 @@
 :root {
-    --bv-main-bg-color: #F8F0E3;
+    --bv-main-bg-color: #FAF9F6;
     --bv-small-highlight: rgb(156, 156, 156);
     --bv-darker-lightgray: lightgray;
     --bv-big-highlight: #23ad23;
@@ -11,6 +11,14 @@
 
 :root * {
     font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+body #page {
+    background-color: var(--bv-main-bg-color);
+}
+
+body #page div{
+    background-color: var(--bv-main-bg-color);
 }
 
 span {
@@ -38,7 +46,7 @@ div.edition_container h5 {
 }
 
 .navbar {
-    border-bottom: 5px solid var(--bv-small-highlight);
+    /*border-bottom: 5px solid var(--bv-small-highlight);*/
     background-color: var(--bv-big-highlight);
     max-height: 100vh;
 }
@@ -47,6 +55,9 @@ div.edition_container h5 {
     color: white;
 }
 
+#page nav.navbar div {
+    background-color: var(--bv-big-highlight);
+}
 
 #navbarSupportedContent a.nav-link {
     font-size: 1.15rem;
@@ -400,38 +411,47 @@ li.article_ref:last-child {
     padding: 2em;
 }
 
-/* Datatables, provided by https://github.com/babslgam*/
+/* custom tabulator toc start */
 
-div.dataTables_filter {
-  text-align:left !important;
+.tabulator .tabulator-header .tabulator-col {
+	border-right: 0px;
 }
 
-.btn-link {
-  font-size:20px;
+body #tocTable .tabulator-row .tabulator-cell {
+	border-right: 0px;
+    background-color: inherit;
 }
 
-.exportbuttons {
-  text-align: right;
+.tabulator .tabulator-header {
+	background-color: var(--bv-small-highlight);
 }
 
-.dataTables_info {
-  text-align: center;
+body #tocTable div.tabulator-table div.tabulator-row.tabulator-row-even {
+	background-color: var(--bv-main-bg-color);
 }
 
-.filters input {
-  width:100%;
-  padding: 3px;
-  box-sizing: border-box;
+body #tocTable div.tabulator-table div.tabulator-row.tabulator-row-odd {
+	background-color: var(--bv-darker-lightgray);
 }
 
-.dataTables_wrapper table {
-  width:100%;
+body #tocTable div.tabulator-table div.tabulator-row.tabulator-row-odd.tabulator-selectable:hover,
+body #tocTable div.tabulator-table div.tabulator-row.tabulator-row-even.tabulator-selectable:hover {
+	background-color: var(--bv-small-highlight);
+	cursor: pointer;
 }
 
-.footer-separator {
-    border-top: 1px solid #f1f1f1;
-    padding: 2em 0;
+.tabulator .tabulator-footer span.tabulator-pages .tabulator-page.active {
+	color: var(--bv-big-highlight);
 }
+
+body #tocTable input:focus,
+body #tocTable input:focus-visible {
+    outline: 0;
+    border: 0.02rem solid var(--bv-big-highlight)!important;
+    box-shadow: 0px 0.1rem 0.4rem var(--bv-big-highlight)!important;
+}
+
+/* custom tabulator toc end */
 
 /**** Font Aweseome ***/
 /* don't remove this or the download icon breaks !!!*/
