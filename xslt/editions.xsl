@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
-        omit-xml-declaration="yes"/>
+                omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
@@ -14,25 +14,25 @@
     <xsl:import href="partials/chapters.xsl"/>
     <xsl:import href="partials/edition.xsl"/>
     <xsl:import href="partials/meta_tags.xsl"/>
-
+    
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"
-        />
+            />
     </xsl:variable>
     <xsl:variable name="next">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@next), '/')[last()], '.xml', '.html')"
-        />
+            />
     </xsl:variable>
     <xsl:variable name="doc_id">
         <xsl:value-of select="data(tei:TEI/@xml:id)"/>
     </xsl:variable>
-        <xsl:variable name="target_xml">
+    <xsl:variable name="target_xml">
         <xsl:value-of select="'./xml-sources'"/>
     </xsl:variable>
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@type = 'label'][1]/text()"/>
     </xsl:variable>
-
+    
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@type = 'main'][1]/text()"/>
@@ -52,6 +52,12 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                            <h4 class="text-white">Collapsed content</h4>
+                            <span class="text-muted">Toggleable via the navbar brand.</span>
+                        </div>
+                    </div>
                     <div class="edition_container">
                         <div class="wp-transcript">
                             <div class="card-header">
@@ -60,12 +66,12 @@
                                         <xsl:if test="ends-with($prev, '.html')">
                                             <h1>
                                                 <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="replace($prev, '.html', '_facsimile.html')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <i class="fas fa-chevron-left" title="prev"/>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of
+                                                            select="replace($prev, '.html', '_facsimile.html')"
+                                                            />
+                                                    </xsl:attribute>
+                                                    <i class="fas fa-chevron-left" title="prev"/>
                                                 </a>
                                             </h1>
                                         </xsl:if>
@@ -86,16 +92,16 @@
                                         </h3>
                                     </div>
                                     <div class="col-md-2 col-lg-2 col-sm-12"
-                                        style="text-align:right">
+                                         style="text-align:right">
                                         <xsl:if test="ends-with($next, '.html')">
                                             <h1>
                                                 <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="replace($next, '.html', '_facsimile.html')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <i class="fas fa-chevron-right" title="next"/>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of
+                                                            select="replace($next, '.html', '_facsimile.html')"
+                                                            />
+                                                    </xsl:attribute>
+                                                    <i class="fas fa-chevron-right" title="next"/>
                                                 </a>
                                             </h1>
                                         </xsl:if>
@@ -119,7 +125,7 @@
                                     </div>
                                 </div>
                                 <div id="text-resize"
-                                    class="col-md-6 col-lg-6 col-sm-12 text yes-index">
+                                     class="col-md-6 col-lg-6 col-sm-12 text yes-index">
                                     <div id="section">
                                         <xsl:for-each select="//tei:body/tei:div">
                                             <div class="card-body">
@@ -127,22 +133,22 @@
                                             </div>
                                             <xsl:if test="//tei:note[@type = 'footnote']">
                                                 <div class="card-footer">
-                                                  <a class="anchor" id="footnotes"/>
-                                                  <ul class="footnotes">
-                                                  <xsl:for-each select="//tei:note[@place = 'foot']">
-                                                  <li>
-                                                  <a class="anchorFoot" id="{@xml:id}"/>
-                                                  <span class="footnote_link">
-                                                  <a href="#{@xml:id}_inline" class="nounderline">
-                                                  <xsl:value-of select="@n"/>
-                                                  </a>
-                                                  </span>
-                                                  <span class="footnote_text">
-                                                  <xsl:apply-templates/>
-                                                  </span>
-                                                  </li>
-                                                  </xsl:for-each>
-                                                  </ul>
+                                                    <a class="anchor" id="footnotes"/>
+                                                    <ul class="footnotes">
+                                                        <xsl:for-each select="//tei:note[@place = 'foot']">
+                                                            <li>
+                                                                <a class="anchorFoot" id="{@xml:id}"/>
+                                                                <span class="footnote_link">
+                                                                    <a href="#{@xml:id}_inline" class="nounderline">
+                                                                        <xsl:value-of select="@n"/>
+                                                                    </a>
+                                                                </span>
+                                                                <span class="footnote_text">
+                                                                    <xsl:apply-templates/>
+                                                                </span>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
                                                 </div>
                                             </xsl:if>
                                         </xsl:for-each>
@@ -197,7 +203,7 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:lb">
-         <br />
+        <br />
     </xsl:template>
     <xsl:template match="tei:p | tei:lg">
         <!-- simply keep paragraphs -->
@@ -227,11 +233,11 @@
     </xsl:template>
     <!-- delete empty p/hi/div elements -->
     <xsl:template match="
-            *[
+        *[
             (
-            local-name() = 'p'
-            or local-name() = 'hi'
-            or local-name() = 'div'
+                local-name() = 'p'
+                or local-name() = 'hi'
+                or local-name() = 'div'
             )
             and
             not(@* | * | comment() | processing-instruction())
@@ -274,4 +280,3 @@
         </a>
     </xsl:template>
 </xsl:stylesheet>
-    
