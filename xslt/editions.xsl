@@ -52,12 +52,6 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="collapse" id="navbarToggleExternalContent">
-                        <div class="bg-dark p-4">
-                            <h4 class="text-white">Collapsed content</h4>
-                            <span class="text-muted">Toggleable via the navbar brand.</span>
-                        </div>
-                    </div>
                     <div class="edition_container">
                         <div class="wp-transcript">
                             <div class="card-header">
