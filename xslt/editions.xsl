@@ -101,11 +101,11 @@
                                         </xsl:if>
                                     </div>
                                 </div>
-                                <div id="editor-widget">
+                                <!--<div id="editor-widget">
                                     <xsl:call-template name="editions"></xsl:call-template>
                                     <xsl:call-template name="chapters"></xsl:call-template>
                                     <xsl:call-template name="annotation-options"/>
-                                </div>
+                                </div>-->
                             </div>
                             <div id="container-resize" class="row transcript active">
                                 <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
