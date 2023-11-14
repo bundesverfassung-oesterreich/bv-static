@@ -53,7 +53,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="edition_container ">
-                        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <!--<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                             Link with href
                         </a>
                         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
@@ -80,7 +80,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="wp-transcript">
                             <div class="card-header">
                                 <div class="row">
