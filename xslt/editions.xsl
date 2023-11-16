@@ -13,6 +13,7 @@
     <xsl:import href="partials/aot-options.xsl"/>
     <xsl:import href="partials/chapters.xsl"/>
     <xsl:import href="partials/edition.xsl"/>
+    <xsl:import href="partials/edition_side_nav.xsl"/>
     <xsl:import href="partials/meta_tags.xsl"/>
     
     <xsl:variable name="prev">
@@ -55,14 +56,14 @@
                         <xsl:with-param name="edition_buttons" as="xs:boolean" select="true()"/>
                     </xsl:call-template>
                     <div class="edition_container ">
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel" data-bs-scroll="true" data-bs-backdrop="false">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasNavigationLabel">Navigation</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
                                 <div>
-                                    <xsl:call-template name="editions"></xsl:call-template>
+                                    <xsl:call-template name="editions_side_nav"></xsl:call-template>
                                     <xsl:call-template name="chapters"></xsl:call-template>
                                 </div>
                             </div>
@@ -70,7 +71,7 @@
                         <div class="wp-transcript">
                             <div class="card-header">
                                 <div class="row" id="edition_metadata">
-                                    <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel">
+                                    <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
                                         <div class="offcanvas-header">
                                             <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Menü</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
