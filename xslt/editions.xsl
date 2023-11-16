@@ -73,12 +73,40 @@
                                 <div class="row" id="edition_metadata">
                                     <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
                                         <div class="offcanvas-header">
-                                            <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Menü</h5>
+                                            <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body">
                                             <div>
-                                                <xsl:call-template name="annotation-options"/>
+                                                <ul>
+                                                    <li >
+                                                        <full-size opt="fls"></full-size>
+                                                    </li>
+                                                    <li >
+                                                        <image-switch opt="es"></image-switch>
+                                                    </li>
+                                                    <li >
+                                                        <font-size opt="fs"></font-size>
+                                                    </li>
+                                                    <li >
+                                                        <font-family opt="ff"></font-family>
+                                                    </li>
+                                                    <li  style="border-top: 5px dashed lightgrey !important;">
+                                                        <annotation-slider opt="ef"></annotation-slider>
+                                                    </li>
+                                                    <li >
+                                                        <annotation-slider opt="prs"></annotation-slider>
+                                                    </li>
+                                                    <li >
+                                                        <annotation-slider opt="plc"></annotation-slider>
+                                                    </li>
+                                                    <li >
+                                                        <annotation-slider opt="wrk"></annotation-slider>
+                                                    </li>
+                                                    <li >
+                                                        <annotation-slider opt="org"></annotation-slider>
+                                                    </li>
+                                                </ul>                                
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +157,7 @@
                                         </xsl:if>
                                     </div>
                                 </div>
-                             </div>
+                            </div>
                             <div id="container-resize" class="row transcript active">
                                 <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
                                     <div id="viewer">
