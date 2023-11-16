@@ -106,10 +106,10 @@
                     </div>
                 </li>
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#docs-collapse" aria-expanded="false">
+                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
                         Aktuelles Dokument
                     </button>
-                    <div class="collapse" id="docs-collapse">
+                    <div class="collapse" id="current-doc-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <xsl:call-template name="get_chapter_and_article_nav">
                                 
