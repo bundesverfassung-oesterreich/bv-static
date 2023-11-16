@@ -51,43 +51,40 @@
             </head>
             <body class="page">
                 <div class="hfeed site" id="page">
-                    <xsl:call-template name="nav_bar"/>
+                    <xsl:call-template name="nav_bar">
+                        <xsl:with-param name="edition_buttons" as="xs:boolean" select="true()"/>
+                    </xsl:call-template>
                     <div class="edition_container ">
-                        <!--<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                            Link with href
-                        </a>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                            Button with data-bs-target
-                        </button>
-                        
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                                <h5 class="offcanvas-title" id="offcanvasNavigationLabel">Navigation</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
                                 <div>
-                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                                </div>
-                                <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                        Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
+                                    <xsl:call-template name="editions"></xsl:call-template>
+                                    <xsl:call-template name="chapters"></xsl:call-template>
                                 </div>
                             </div>
-                        </div>-->
+                        </div>
                         <div class="wp-transcript">
                             <div class="card-header">
-                                <div class="row">
+                                <div class="row" id="edition_metadata">
+                                    <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Menü</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <div>
+                                                <xsl:call-template name="annotation-options"/>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-2 col-lg-2 col-sm-12">
                                         <xsl:if test="ends-with($prev, '.html')">
                                             <h1>
-                                                <a>
+                                                <a style="background-color:red">
                                                     <xsl:attribute name="href">
                                                         <xsl:value-of
                                                             select="replace($prev, '.html', '_facsimile.html')"
@@ -132,11 +129,10 @@
                                     </div>
                                 </div>
                                 <!--<div id="editor-widget">
-                                    <xsl:call-template name="editions"></xsl:call-template>
-                                    <xsl:call-template name="chapters"></xsl:call-template>
-                                    <xsl:call-template name="annotation-options"/>
-                                </div>-->
-                            </div>
+                                     
+                                     
+                                     </div>-->
+                             </div>
                             <div id="container-resize" class="row transcript active">
                                 <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
                                     <div id="viewer">
