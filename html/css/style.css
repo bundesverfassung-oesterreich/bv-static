@@ -86,6 +86,24 @@ div.edition_container h5 {
     fill: white;
 }
 
+
+li.mb-1 > button {
+    font-weight: bolder;
+}
+
+
+#left_edition_content_nav li {
+    padding-left: 1rem;
+}
+
+#left_edition_content_nav li li{
+    padding-left: 1.5rem;
+}
+
+#left_edition_content_nav li li li {
+    padding-left: 2rem;
+}
+
 cite {
     font-style: normal;
 }

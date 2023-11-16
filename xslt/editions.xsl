@@ -129,10 +129,6 @@
                                         </xsl:if>
                                     </div>
                                 </div>
-                                <!--<div id="editor-widget">
-                                     
-                                     
-                                     </div>-->
                              </div>
                             <div id="container-resize" class="row transcript active">
                                 <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
