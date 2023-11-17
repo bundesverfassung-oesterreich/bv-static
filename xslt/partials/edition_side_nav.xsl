@@ -52,11 +52,6 @@
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
                         <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
-                            <!--
-                                 Problem: cant toggle dropdown & navigate to chapter at the same time … 
-                                 <xsl:attribute name="href">
-                                 <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
-                                 </xsl:attribute>-->
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
@@ -74,7 +69,7 @@
     </xsl:template>
     
     
-    <xsl:template name="editions_side_nav">
+    <xsl:template name="edition_side_nav">
         <div id="edtion-navBarNavDropdown" class="dropstart navBarNavDropdown">
             <xsl:variable name="data_set_A_id" as="xs:string" select="string(195363)"/>
             <xsl:variable name="data_set_B_id" as="xs:string" select="string(196428)"/>
@@ -108,16 +103,19 @@
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
                         Aktuelles Dokument
-                    </button>
+                    </button>                                       
                     <div class="collapse" id="current-doc-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <xsl:call-template name="get_chapter_and_article_nav">
-                                
-                            </xsl:call-template>
+                            <xsl:call-template name="get_chapter_and_article_nav"/>
                         </ul>
                     </div>
                 </li>
             </ul>
+            <h3>
+                <a href="{$target_xml}/{$doc_id}.xml">
+                    <i class="fas fa-download" title="show TEI source"/>
+                </a>
+            </h3>
         </div>
         <!--<script type="text/javascript">
              $('#edition-navBarNavDropdown .dropdown-menu .nav-item').click(function(e) {

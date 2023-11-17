@@ -63,8 +63,7 @@
                             </div>
                             <div class="offcanvas-body">
                                 <div>
-                                    <xsl:call-template name="editions_side_nav"></xsl:call-template>
-                                    <xsl:call-template name="chapters"></xsl:call-template>
+                                    <xsl:call-template name="edition_side_nav"></xsl:call-template>
                                 </div>
                             </div>
                         </div>
@@ -135,11 +134,6 @@
                                         <p class="document_info"><xsl:value-of select="//tei:text/@type"/></p>
                                         <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
                                         <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
-                                        <h3>
-                                            <a href="{$target_xml}/{$doc_id}.xml">
-                                                <i class="fas fa-download" title="show TEI source"/>
-                                            </a>
-                                        </h3>
                                     </div>
                                     <div class="col-md-2 col-lg-2 col-sm-12"
                                          style="text-align:right">
