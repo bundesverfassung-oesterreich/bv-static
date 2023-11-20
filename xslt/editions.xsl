@@ -226,7 +226,7 @@
             <xsl:value-of select="data(//tei:surface[@xml:id=$pbId]/tei:graphic/@url)"/>
         </xsl:variable>
         <span class="pb" source="{$facsUrl}">
-            <xsl:value-of select="@n"/>
+            <!--<xsl:value-of select="@n"/>-->
         </span>
     </xsl:template>
     <xsl:template match="tei:ab">
