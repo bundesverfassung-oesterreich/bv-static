@@ -46,7 +46,6 @@ div.edition_container h5 {
 }
 
 .navbar {
-    /*border-bottom: 5px solid var(--bv-small-highlight);*/
     background-color: var(--bv-big-highlight);
     max-height: 100vh;
 }
@@ -68,7 +67,42 @@ div.edition_container h5 {
     color: var(--bv-big-highlight);
 }
 
+.btn-primary {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: var(--bv-big-highlight);
+	--bs-btn-border-color: var(--bv-big-highlight);
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: var(--bv-big-highlight);
+	--bs-btn-hover-border-color: var(--bv-big-highlight);
+	--bs-btn-focus-shadow-rgb: 49,132,253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: var(--bv-big-highlight);
+	--bs-btn-active-border-color: var(--bv-big-highlight);
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: var(--bv-big-highlight);
+	--bs-btn-disabled-border-color: var(--bv-big-highlight);
+    color: white;
+    fill: white;
+}
 
+
+li.mb-1 > button {
+    font-weight: bolder;
+}
+
+
+#left_edition_content_nav li {
+    padding-left: 1rem;
+}
+
+#left_edition_content_nav li li{
+    padding-left: 1.5rem;
+}
+
+#left_edition_content_nav li li li {
+    padding-left: 2rem;
+}
 
 cite {
     font-style: normal;
