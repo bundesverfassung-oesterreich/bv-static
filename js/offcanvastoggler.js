@@ -15,4 +15,5 @@ function handle_the_handler(off_canvas_id) {
   
   //function call
   handle_the_handler('offcanvasNavigation');
-  handle_the_handler('offcanvasOptions');
+  //handle_the_handler('offcanvasOptions');
+  // rather annoying to use it there
