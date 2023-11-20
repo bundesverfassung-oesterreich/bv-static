@@ -3,6 +3,8 @@
  * EDITIONS view properties 
  * ###########################*/
 
+
+
 .fade {
   display: none;
 }
@@ -192,7 +194,7 @@ input:checked + .i-slider:before {
   font-size: 14px !important;
 }
 
-/* test */
+/* for fontfield */
 select#fs {
 	background-color: var(--bv-main-bg-color);
 }
