@@ -5,7 +5,8 @@ var editor = new LoadEditor({
         {
           opt: "ef",
           opt_slider: "entities-features-slider",
-          title: "All",
+          //title: "All",
+          title: "Alles",
           color: "red",
           html_class: "undefined",
           css_class: "undefined",
@@ -22,7 +23,8 @@ var editor = new LoadEditor({
         {
           opt: "prs",
           color: "blue",
-          title: "Persons",
+          //title: "Persons",
+          title: "Personen",
           html_class: "persons",
           css_class: "pers",
           hide: {
@@ -38,7 +40,8 @@ var editor = new LoadEditor({
         {
           opt: "plc",
           color: "green",
-          title: "Places",
+          //title: "Places",
+          title: "Orte",
           html_class: "places",
           css_class: "plc",
           hide: {
@@ -54,7 +57,8 @@ var editor = new LoadEditor({
         {
           opt: "org",
           color: "yellow",
-          title: "Organizations",
+          //title: "Organizations",
+          title: "Organisationen",
           html_class: "orgs",
           css_class: "org",
           hide: {
@@ -70,7 +74,8 @@ var editor = new LoadEditor({
         {
           opt: "wrk",
           color: "lila",
-          title: "Works",
+          //title: "Works",
+          title: "Werke",
           html_class: "works",
           css_class: "wrk",
           chg_citation: "citation-url",
@@ -137,11 +142,13 @@ var editor = new LoadEditor({
       variants: [
         {
           opt: "fs",
-          title: "Font Size",
+          //title: "Font Size",
+          title: "Schriftgröße",
           urlparam: "fs",
           chg_citation: "citation-url",
           sizes: {
-            default: "default",
+            //default: "default",
+            default: "standard",
             font_size_14: "14",
             font_size_18: "18",
             font_size_22: "22",
@@ -160,7 +167,8 @@ var editor = new LoadEditor({
       variants: [
         {
           opt: "es",
-          title: "Facsimiles On/Off",
+          //title: "Facsimiles On/Off",
+          title: "Faksimile an/aus",
           urlparam: "img",
           chg_citation: "citation-url",
           fade: "fade",
