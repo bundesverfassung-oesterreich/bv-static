@@ -7,6 +7,17 @@
   display: none;
 }
 
+/*facs button */
+image-switch a#es {
+  background-color: rgba(var(--bv-big-highlight-rgb),0.5) !important;
+  border: none;
+}
+
+image-switch a#es.active {
+  background-color: var(--bv-big-highlight)!important;
+  border: none;
+}
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
@@ -20,6 +31,7 @@
   /* opacity: 0; */
   width: 0;
   height: 0;
+  display: none;
 }
 
 /* The slider */
@@ -30,19 +42,21 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--bv-main-background-color);
+  border: 1px solid;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
+/* slider bullet */
 .i-slider:before {
   position: absolute;
   content: "";
   height: 15px;
   width: 15px;
   left: 4px;
-  bottom: 3px;
-  background-color: white;
+  bottom: 2px;
+  background-color: var(--bv-darker-lightgray);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -178,24 +192,12 @@ input:checked + .i-slider:before {
   font-size: 14px !important;
 }
 
-/* Fullsize mode */
-
-.nav-link {
-  background-color: transparent !important;
+/* test */
+select#fs {
+	background-color: var(--bv-main-bg-color);
 }
-
-.nav-link.active {
-  background-color: #fff !important;
-}
-
-.nav-link.btn.active {
-  background-color: #88dbdf !important;
-}
-
-.nav-link.btn {
-  background-color: transparent !important;
-}
-
-.nav-link.btn-backlink {
-  background-color: transparent !important;
+.form-select:focus {
+	border-color: #86b7fe;
+	outline: 0;
+	box-shadow: 0px 0.1rem 0.4rem var(--bv-big-highlight);
 }

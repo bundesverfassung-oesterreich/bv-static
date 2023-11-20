@@ -122,11 +122,6 @@
                 </a>
             </h3>
         </div>
-        <!--<script type="text/javascript">
-             $('#edition-navBarNavDropdown .dropdown-menu .nav-item').click(function(e) {
-             e.stopPropagation();
-             });
-             </script>-->
-             
- </xsl:template>
+        
+    </xsl:template>
 </xsl:stylesheet>

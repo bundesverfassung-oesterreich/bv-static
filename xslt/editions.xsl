@@ -67,20 +67,20 @@
                                         </div>
                                         <div class="offcanvas-body">
                                             <div>
-                                                <ul>
-                                                    <li >
+                                                <ul class="list-unstyled fw-normal pb-1 small">
+                                                    <!--<li >
                                                         <full-size opt="fls"></full-size>
-                                                    </li>
+                                                    </li>-->
                                                     <li >
                                                         <image-switch opt="es"></image-switch>
                                                     </li>
                                                     <li >
                                                         <font-size opt="fs"></font-size>
                                                     </li>
-                                                    <li >
+                                                    <!--<li >
                                                         <font-family opt="ff"></font-family>
-                                                    </li>
-                                                    <li  style="border-top: 5px dashed lightgrey !important;">
+                                                    </li>-->
+                                                    <li>
                                                         <annotation-slider opt="ef"></annotation-slider>
                                                     </li>
                                                     <li >

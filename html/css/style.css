@@ -1,8 +1,9 @@
 :root {
-    --bv-main-bg-color: #FAF9F6;
+    --bv-main-bg-color: rgb(250, 248, 245);
     --bv-small-highlight: rgb(156, 156, 156);
-    --bv-darker-lightgray: lightgray;
-    --bv-big-highlight: #23ad23;
+    --bv-darker-lightgray: rgb(212, 212, 212);
+    --bv-big-highlight: rgb(35, 173, 35);
+    --bv-big-highlight-rgb: 35,173,35;
 }
 
 *, :after, :before {
