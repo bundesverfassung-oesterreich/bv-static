@@ -199,6 +199,7 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"/>
                 <script type="text/javascript" src="js/osd_scroll.js"/>
                 <script type="text/javascript" src="js/run.js"/>
+                <script type="text/javascript" src="js/offcanvastoggler.js"/>
             </body>
         </html>
     </xsl:template>
