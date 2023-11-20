@@ -3,7 +3,13 @@
  * EDITIONS view properties 
  * ###########################*/
 
+ul#edition_display_options > li {
+  padding-bottom: .75rem;
+}
 
+ul#edition_display_options > li:nth-child(3) {
+  padding-top: 3rem;
+}
 
 .fade {
   display: none;
@@ -61,6 +67,10 @@ image-switch a#es.active {
   background-color: var(--bv-darker-lightgray);
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.i-slider::after {
+  padding-left: 0.5rem;
 }
 
 input:checked + .i-slider {
