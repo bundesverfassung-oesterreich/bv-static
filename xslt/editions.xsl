@@ -12,7 +12,6 @@
     <xsl:import href="partials/shared.xsl"/>
     <xsl:import href="partials/aot-options.xsl"/>
     <xsl:import href="partials/chapters.xsl"/>
-    <xsl:import href="partials/edition.xsl"/>
     <xsl:import href="partials/edition_side_nav.xsl"/>
     <xsl:import href="partials/meta_tags.xsl"/>
     
