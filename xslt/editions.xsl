@@ -23,20 +23,11 @@
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@next), '/')[last()], '.xml', '.html')"
             />
     </xsl:variable>
-    <xsl:variable name="doc_id">
-        <xsl:value-of select="data(tei:TEI/@xml:id)"/>
-    </xsl:variable>
-    <xsl:variable name="target_xml">
-        <xsl:value-of select="'./xml-sources'"/>
-    </xsl:variable>
     <xsl:variable name="doc_title">
-        <xsl:value-of select=".//tei:title[@type = 'label'][1]/text()"/>
+        <xsl:value-of select=".//tei:title[@type = 'main'][1]/text()"/>
     </xsl:variable>
     
     <xsl:template match="/">
-        <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type = 'main'][1]/text()"/>
-        </xsl:variable>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <head>
