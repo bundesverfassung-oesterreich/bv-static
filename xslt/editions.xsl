@@ -10,7 +10,6 @@
     <xsl:import href="partials/osd-container.xsl"/>
     <xsl:import href="partials/tei-facsimile.xsl"/>
     <xsl:import href="partials/shared.xsl"/>
-    <xsl:import href="partials/aot-options.xsl"/>
     <xsl:import href="partials/chapters.xsl"/>
     <xsl:import href="partials/edition_side_nav.xsl"/>
     <xsl:import href="partials/meta_tags.xsl"/>
@@ -67,7 +66,7 @@
                                         </div>
                                         <div class="offcanvas-body">
                                             <div>
-                                                <ul class="list-unstyled fw-normal pb-1 small">
+                                                <ul id="edition_display_options" class="list-unstyled fw-normal pb-1 small">
                                                     <!--<li >
                                                         <full-size opt="fls"></full-size>
                                                     </li>-->
