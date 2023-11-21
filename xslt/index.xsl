@@ -43,12 +43,11 @@
                         <div class="row intro">
                             <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                 <div class="landing_text">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Stemma_codicum_Plauto.svg/800px-Stemma_codicum_Plauto.svg.png" alt="genetisches Stemma der Fassungen"/>
+                                    <img src="./images/b-vg-stemma.svg" alt="genetisches Stemma der Fassungen"/>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
