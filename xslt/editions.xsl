@@ -46,7 +46,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <p>Die vorliegende Transkription wurde maschinell erstellt, um das Dokument grundlegend durchsuchbar zu machen. Sie sollte – ob ihres rein provisorischen Charakters – keinesfalls als Zitationsquelle verwendet werden. Diese Dokument wird in nächster Zeit kollationiert, annotiert und erschlossen werden. Dieses Banner wird nach Abschluss dieser Erschließung nicht mehr angezeigt.</p>
+                        <p>Die vorliegende Transkription wurde maschinell erstellt, um das Dokument grundlegend durchsuchbar zu machen. Sie sollte – ob ihres rein provisorischen Charakters – keinesfalls als Zitationsquelle verwendet werden. Dieses Dokument wird in nächster Zeit kollationiert, annotiert und erschlossen werden.</p>
                     </div>
                 </div>
                 <div class="hfeed site" id="page">
@@ -76,18 +76,18 @@
                                         <div class="offcanvas-body">
                                             <div>
                                                 <ul id="edition_display_options" class="list-unstyled fw-normal pb-1 small">
-                                                    <!--<li >
+                                                    <li >
                                                          <full-size opt="fls"></full-size>
-                                                         </li>-->
+                                                         </li>
                                                     <li >
                                                         <image-switch opt="es"></image-switch>
                                                     </li>
                                                     <li >
                                                         <font-size opt="fs"></font-size>
                                                     </li>
-                                                    <!--<li >
+                                                    <li >
                                                          <font-family opt="ff"></font-family>
-                                                         </li>-->
+                                                         </li>
                                                     <li>
                                                         <annotation-slider opt="ef"></annotation-slider>
                                                     </li>

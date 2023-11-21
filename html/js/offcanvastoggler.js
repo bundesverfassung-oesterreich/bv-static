@@ -8,12 +8,18 @@ function handle_the_handler(off_canvas_id) {
     const listenToMouseLeave = (event) => {
       event.target.addEventListener('mouseleave', hideCanvas);
     }
-    
     offcanvas_container_div.addEventListener('shown.bs.offcanvas', listenToMouseLeave);
   }
-  
-  
+
+
+
+/*window.addEventListener("load", function() {
+  let disclaimer = document.getElementById("text_quality_disclaimer");
+  let openedCanvas = bootstrap.Offcanvas.getInstance(disclaimer);
+  openedCanvas.hide();
+});*/
+
   //function call
   handle_the_handler('offcanvasNavigation');
-  //handle_the_handler('offcanvasOptions');
+  handle_the_handler('text_quality_disclaimer');
   // rather annoying to use it there
