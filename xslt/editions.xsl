@@ -76,27 +76,27 @@
                                         <div class="offcanvas-body">
                                             <div>
                                                 <ul id="edition_display_options" class="list-unstyled fw-normal pb-1 small">
-                                                    <li >
-                                                         <full-size opt="fls"></full-size>
-                                                         </li>
+                                                    <!--<li >
+                                                        <full-size opt="fls"></full-size>
+                                                    </li>-->
                                                     <li >
                                                         <image-switch opt="es"></image-switch>
                                                     </li>
                                                     <li >
                                                         <font-size opt="fs"></font-size>
                                                     </li>
-                                                    <li >
+                                                    <!--<li >
                                                          <font-family opt="ff"></font-family>
-                                                         </li>
+                                                         </li>-->
                                                     <li>
                                                         <annotation-slider opt="ef"></annotation-slider>
                                                     </li>
                                                     <li >
                                                         <annotation-slider opt="prs"></annotation-slider>
                                                     </li>
-                                                    <li >
-                                                        <annotation-slider opt="plc"></annotation-slider>
-                                                    </li>
+                                                    <!--<li >
+                                                         <annotation-slider opt="plc"></annotation-slider>
+                                                         </li>-->
                                                     <li >
                                                         <annotation-slider opt="wrk"></annotation-slider>
                                                     </li>
