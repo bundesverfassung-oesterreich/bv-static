@@ -40,6 +40,15 @@
                 </xsl:call-template>
             </head>
             <body class="page">
+                <div id="text_quality_disclaimer" class="offcanvas offcanvas-start show" tabindex="-1" aria-labelledby="tqd_label" data-bs-scroll="false" data-bs-backdrop="false">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavigationLabel">Achtung!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Die vorliegende Transkription wurde maschinell erstellt, um das Dokument grundlegend durchsuchbar zu machen. Sie sollte – ob ihres rein provisorischen Charakters – keinesfalls als Zitationsquelle verwendet werden. Diese Dokument wird in nächster Zeit kollationiert, annotiert und erschlossen werden. Dieses Banner wird nach Abschluss dieser Erschließung nicht mehr angezeigt.</p>
+                    </div>
+                </div>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar">
                         <xsl:with-param name="edition_buttons" as="xs:boolean" select="true()"/>
@@ -68,8 +77,8 @@
                                             <div>
                                                 <ul id="edition_display_options" class="list-unstyled fw-normal pb-1 small">
                                                     <!--<li >
-                                                        <full-size opt="fls"></full-size>
-                                                    </li>-->
+                                                         <full-size opt="fls"></full-size>
+                                                         </li>-->
                                                     <li >
                                                         <image-switch opt="es"></image-switch>
                                                     </li>
@@ -77,8 +86,8 @@
                                                         <font-size opt="fs"></font-size>
                                                     </li>
                                                     <!--<li >
-                                                        <font-family opt="ff"></font-family>
-                                                    </li>-->
+                                                         <font-family opt="ff"></font-family>
+                                                         </li>-->
                                                     <li>
                                                         <annotation-slider opt="ef"></annotation-slider>
                                                     </li>

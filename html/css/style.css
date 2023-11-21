@@ -447,6 +447,24 @@ li.article_ref:last-child {
     padding: 2em;
 }
 
+/* transcription quality disclaimer */
+
+body.page > div#text_quality_disclaimer {
+	/*background: var(--bv-darker-lightgray);*/
+    hyphens: auto;
+	background: gray;
+    color: white;
+	left: 50%;
+	top: 50%;
+    width: 40rem;
+    opacity: 0.9;
+    height: fit-content;
+	margin-left: -20rem;
+	margin-top: -25vh;
+    padding: 2rem;
+}
+
+
 /**** Font Aweseome ***/
 /* don't remove this or the download icon breaks !!!*/
 h3 a i.fas {
