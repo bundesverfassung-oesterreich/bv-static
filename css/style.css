@@ -2,8 +2,8 @@
     --bv-main-bg-color: rgb(250, 248, 245);
     --bv-small-highlight: rgb(156, 156, 156);
     --bv-darker-lightgray: rgb(212, 212, 212);
-    --bv-big-highlight: rgb(35, 173, 35);
-    --bv-big-highlight-rgb: 35,173,35;
+    --bv-big-highlight-rgb: 26,150,51;
+    --bv-big-highlight: rgb(var(--bv-big-highlight-rgb));
 }
 
 *, :after, :before {
