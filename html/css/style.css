@@ -471,9 +471,9 @@ h3 a i.fas {
     font-family: "Font Awesome 5 Free" !important;
 }
 
-.img-fluid {
+/*.img-fluid {
     max-width: 6rem !important;
-}
+}*/
 
 .card {
     margin: 2em auto;
@@ -613,9 +613,9 @@ resolution
         padding-top: 2rem;
         margin-top: .5rem;
     }
-    .img-fluid {
+    /*.img-fluid {
         max-width: 3.5rem !important;
-    }
+    }*/
 /* 
 #########################################
 add rules for smallest tablet high
@@ -649,9 +649,9 @@ resolution or low resolution screens
     #wrapper-footer-full {
         padding: 1em 0;
     }
-    .img-fluid {
+    /*.img-fluid {
         max-width: 2rem !important;
-    }
+    }*/
     .custom-logo-link {
         margin-bottom: 0;
     }
