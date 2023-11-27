@@ -15,9 +15,12 @@
                     </div>                    
                 </xsl:if>
                 <div class="container-fluid">
-                    <!-- Your site title as branding in the menu -->
-                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
-                    <!--<a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><xsl:value-of select="$project_short_title"/></a>-->
+                    
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                        <!--<img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" />-->
+                        <img src="{$project_logo}" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" />
+                    </a>
+                    
                     <span class="badge bg-light text-dark">in development</span>
                     <button id="media-menu-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
