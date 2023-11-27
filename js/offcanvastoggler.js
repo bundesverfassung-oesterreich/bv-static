@@ -1,9 +1,9 @@
 function handle_the_handler(off_canvas_id) {
     let offcanvas_container_div = document.getElementById(off_canvas_id);
-    const hideCanvas = () => {
+    const hideCanvas = (event) => {
       let openedCanvas = bootstrap.Offcanvas.getInstance(offcanvas_container_div);
       openedCanvas.hide();
-      target.removeEventListener('mouseleave', hideCanvas);
+      event.target.removeEventListener('mouseleave', hideCanvas);
     }
     const listenToMouseLeave = (event) => {
       event.target.addEventListener('mouseleave', hideCanvas);
