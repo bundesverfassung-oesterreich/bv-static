@@ -1,8 +1,8 @@
 :root {
-    --bv-main-bg-color: rgb(250, 248, 245);
+    --bv-main-bg-color: rgb(248, 249, 236);
     --bv-small-highlight: rgb(156, 156, 156);
     --bv-darker-lightgray: rgb(212, 212, 212);
-    --bv-big-highlight-rgb: 26,150,51;
+    --bv-big-highlight-rgb: 0, 116, 82;
     --bv-big-highlight: rgb(var(--bv-big-highlight-rgb));
 }
 
@@ -65,7 +65,9 @@ div.edition_container h5 {
 
 .navbar-nav ul li a:hover, .navbar-nav ul li a:active {
     /* change navbar text color and background color for hover and active*/
-    color: var(--bv-big-highlight);
+    background-color: var(--bv-main-bg-color);
+    color: var(--bv-big-highlight)
+
 }
 
 div#navbarSupportedContent div#navbar_right_spacer {
@@ -382,6 +384,11 @@ a.anchorFoot {
     overflow-x: hidden !important;
 }
 
+
+nav div#navbarSupportedContent li ul.dropdown-menu.show {
+    background-color: var(--bv-main-bg-color);
+}
+
 #chapter_navigation {
     max-width: 20rem;
 }
@@ -582,6 +589,12 @@ button#ssDoSearch {
 #github-logo:hover {
     transform: scale(1.05);
 }
+
+/*Tabulator*/
+div#tocTable div.tabulator-header-filter input{
+    background-color: var(--bv-main-bg-color);
+    border: solid grey 1px;
+    border-radius: 0.2rem;
 
 /*
 ####################################
