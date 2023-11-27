@@ -31,7 +31,6 @@ a {
 }
 
 /*left align any content text per default*/
-div.container p,
 div.container h1,
 div.container h2,
 div.container h3,
@@ -45,6 +44,12 @@ div.edition_container h4,
 div.edition_container h5 {
     text-align: left !important;
 }
+
+div.container p {
+    text-align: justify;
+    hyphens: auto;
+}
+
 
 .navbar {
     background-color: var(--bv-big-highlight);
