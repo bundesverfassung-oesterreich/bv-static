@@ -15,10 +15,14 @@
                     </div>                    
                 </xsl:if>
                 <div class="container-fluid">
-                    
+                    <!--
+                        <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                            <img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" />
+                        </a>
+                    -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
                         <!--<img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" />-->
-                        <img src="{$project_logo}" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" />
+                        <img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo"/>
                     </a>
                     
                     <span class="badge bg-light text-dark">in development</span>
@@ -68,6 +72,7 @@
                                 <a title="Volltextsuche" class="nav-link" href="search.html"  data-i18n="navbar__search" ></a>
                             </li>
                         </ul>
+                        <div class="flex" id="navbar_right_spacer"></div>
                     </div>
                 </div>
                 <xsl:if test="$edition_buttons">

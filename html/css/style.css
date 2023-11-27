@@ -68,6 +68,11 @@ div.edition_container h5 {
     color: var(--bv-big-highlight);
 }
 
+div#navbarSupportedContent div#navbar_right_spacer {
+    min-width: 10%;
+    max-width: 30rem;
+}
+
 .btn-primary {
 	--bs-btn-color: #fff;
 	--bs-btn-bg: var(--bv-big-highlight);
@@ -252,7 +257,7 @@ a {
 }
 
 .container-fluid {
-    max-width: 1200px;
+    max-width: 1800px;
 }
 
 .italic {
