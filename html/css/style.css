@@ -175,9 +175,9 @@ cite {
     hyphens: auto;
 }
 
-.custom-logo-link {
+/*.custom-logo-link {
     margin-bottom: -2em;
-}
+}*/
 
 body {
     border-top-width: 0;
@@ -651,10 +651,10 @@ resolution or low resolution screens
     }
     /*.img-fluid {
         max-width: 2rem !important;
-    }*/
+    }
     .custom-logo-link {
         margin-bottom: 0;
-    }
+    }*/
     
 /* 
 #########################################
