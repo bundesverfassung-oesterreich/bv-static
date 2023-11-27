@@ -1,6 +1,6 @@
 let paginatorOptions = {
-  pagination: "local",
-  paginationSize: 15,
+  //pagination: "local",
+  //paginationSize: 15,
   layout: "fitDataStretch",
   responsiveLayout: "collapse",
   paginationCounter: "rows",
