@@ -9,15 +9,14 @@
         
         <div class="wrapper hide-reading" id="wrapper-footer-full">
             <div class="container-fluid" id="footer-full-content" tabindex="-1">
-                <div class="container">
-                    <div class="row justify-content-start align-items-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto row justify-content-start align-items-center">
                         <h6 class="font-weight-bold" style="font-variant: small-caps;">Projektpartner</h6>
-                        <div class="col-auto ">
+                        <div class="col-auto">
                             <a href="https://www.univie.ac.at/">
                                 <img class="card-img-right flex-auto d-md-block" 
                                      src="./images/footer_logos/uniwien/Uni_Logo_2016_SW.png"
                                      alt="Universität Wien"
-                                     style="max-width: 200px; height: auto; margin-top:1em;" 
                                      title="Universität Wien"/>
                             </a>
                         </div>
@@ -26,7 +25,6 @@
                                 <img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh-ch-logo-with-text-grayscale.png" 
                                      class="image" 
                                      alt="ACDHCH Logo" 
-                                     style="max-width: 200px; height: auto; margin-top:1em;" 
                                      title="ACDHCH Logo"/>
                             </a>
                         </div>
@@ -35,35 +33,28 @@
                                 <img class="card-img-right flex-auto d-md-block" 
                                      src="./images/footer_logos/unifreiburg/20221107-UFR-logo-blue-rgb-344A9A.png"
                                      alt=" Albert-Ludwigs-Universität Freiburg" 
-                                     style="max-width: 200px; height: auto; margin-top:1em;" 
                                      title="Universität Freiburg"/>
                             </a>
                         </div>
                     </div>
-                    <div class="row justify-content-start align-items-center">
+                    <div class="col-auto row justify-content-start align-items-center">
                         <h6 class="font-weight-bold" style="font-variant: small-caps;">Förderungsgeber</h6>
-                        <div class="col-auto">
-                            <div class="flex-md-row mb-4 align-items-center">
-                                <a href="https://www.fwf.ac.at/en/">
-                                    <img class="card-img-right flex-auto d-md-block" 
-                                         src="./images/footer_logos/fwf/FWF_Logo.png"
-                                         alt="FWF Der Wissenschaftsfond Logo" 
-                                         style="max-width: 200px; height: auto; margin-top:1em;" 
-                                         title="FWF Der Wissenschaftsfond"/>
-                                </a>
-                            </div>
+                        <div class="col-auto ">
+                            <a href="https://www.fwf.ac.at/en/">
+                                <img class="card-img-right flex-auto d-md-block" 
+                                     src="./images/footer_logos/fwf/FWF_Logo.png"
+                                     alt="FWF Der Wissenschaftsfond Logo" 
+                                     title="FWF Der Wissenschaftsfond"/>
+                            </a>
                         </div>
                         <div class="col-auto">
-                            <div class="flex-md-row mb-4 align-items-center">
-                                <a href="https://www.dfg.de/">
-                                    <img class="card-img-right flex-auto d-md-block" 
-                                         src="./images/footer_logos/dfg/dfg_logo_schriftzug_blau.gif"
-                                         alt="DFG - Deutsche Forschungsgemeinschaft" 
-                                         style="max-width: 200px; height: auto; margin-top:1em;" 
-                                         title="FWF Der Wissenschaftsfond"/>
-                                </a>
-                            </div>
-                        </div> 
+                            <a href="https://www.dfg.de/">
+                                <img class="card-img-right flex-auto d-md-block" 
+                                     src="./images/footer_logos/dfg/dfg_logo_schriftzug_blau.gif"
+                                     alt="DFG - Deutsche Forschungsgemeinschaft" 
+                                     title="FWF Der Wissenschaftsfond"/>
+                            </a>
+                        </div>
                     </div>
                 </div>                
             </div>
