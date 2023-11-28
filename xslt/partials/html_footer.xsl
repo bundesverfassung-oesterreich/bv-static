@@ -43,23 +43,61 @@
                     <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
                         <h6 class="font-weight-bold">PROJEKTPARTNER</h6>
                         <div class="container">
+                            <!--<div class="row">
+                                 <div class="col-lg-6 col-md-6 col-sm-12">
+                                 <div class="flex-md-row mb-4 align-items-center">
+                                 <a href="https://www.fwf.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 140px; height: auto; margin-top:1em;" title="FWF Der Wissenschaftsfond" /></a>
+                                 </div>
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-12">
+                                 <div class="flex-md-row mb-4 align-items-center">
+                                 <a href="https://www.univie.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://communications.univie.ac.at/fileadmin/user_upload/d_oeffentlichkeitsarbeit/Logos/2016-02/Uni_Logo_2016.jpg" alt="Universität Wien Logo" style="max-width: 160px; height: auto; vertical-align: middle;" title="Universität Wien" /></a>
+                                 </div>
+                                 </div>                                
+                                 </div>-->
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.fwf.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 140px; height: auto; margin-top:1em;" title="FWF Der Wissenschaftsfond" /></a>
-                                        <!--<div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Project partner</p>
-                                        </div>-->
+                                        <a href="https://www.fwf.ac.at/en/">
+                                            <img class="card-img-right flex-auto d-md-block" 
+                                                 src="./images/footer_logos/fwf/FWF_Logo.png"
+                                                 alt="FWF Der Wissenschaftsfond Logo" 
+                                                 style="max-width: 140px; height: auto; margin-top:1em;" 
+                                                 title="FWF Der Wissenschaftsfond"/>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.univie.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://communications.univie.ac.at/fileadmin/user_upload/d_oeffentlichkeitsarbeit/Logos/2016-02/Uni_Logo_2016.jpg" alt="Universität Wien Logo" style="max-width: 160px; height: auto; vertical-align: middle;" title="Universität Wien" /></a>
-                                        <!--<div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Project partner</p>
-                                        </div>-->
+                                        <a href="https://www.dfg.de/">
+                                            <img class="card-img-right flex-auto d-md-block" 
+                                                 src="./images/footer_logos/dfg/dfg_logo_schriftzug_blau.gif"
+                                                 alt="DFG - Deutsche Forschungsgemeinschaft" 
+                                                 style="max-width: 140px; height: auto; margin-top:1em;" 
+                                                 title="FWF Der Wissenschaftsfond"/>
+                                        </a>
                                     </div>
-                                </div>                                
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <a href="https://www.univie.ac.at/">
+                                        <img class="card-img-right flex-auto d-md-block" 
+                                             src="./images/footer_logos/uniwien/Uni_Logo_2016_SW.png"
+                                             alt="Universität Wien"
+                                             style="max-width: 140px; height: auto; margin-top:1em;" 
+                                             title="Universität Wien"/>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <a href="https://www.dfg.de/">
+                                        <img class="card-img-right flex-auto d-md-block" 
+                                             src="./images/footer_logos/unifreiburg/20221107-UFR-logo-blue-rgb-344A9A.png"
+                                             alt=" Albert-Ludwigs-Universität Freiburg" 
+                                             style="max-width: 140px; height: auto; margin-top:1em;" 
+                                             title="Universität Freiburg"/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
