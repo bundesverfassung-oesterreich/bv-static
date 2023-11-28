@@ -9,9 +9,9 @@
         
         <div class="wrapper hide-reading" id="wrapper-footer-full">
             <div class="container-fluid" id="footer-full-content" tabindex="-1">
-                <div class="row justify-content-center align-items-center">
+                <div class="col-auto row justify-content-center align-items-center">
                     <div class="col-auto row justify-content-start align-items-center">
-                        <h6 class="font-weight-bold" style="font-variant: small-caps;">Projektpartner</h6>
+                        <!--<h6 class="font-weight-bold" style="font-variant: small-caps;">Projektpartner</h6>-->
                         <div class="col-auto">
                             <a href="https://www.univie.ac.at/">
                                 <img class="card-img-right flex-auto d-md-block" 
@@ -37,8 +37,10 @@
                             </a>
                         </div>
                     </div>
+                </div>
+                <div class="col-auto row justify-content-center align-items-center">
                     <div class="col-auto row justify-content-start align-items-center">
-                        <h6 class="font-weight-bold" style="font-variant: small-caps;">Förderungsgeber</h6>
+                        <!--<h6 class="font-weight-bold" style="font-variant: small-caps;">Förderungsgeber</h6>-->
                         <div class="col-auto ">
                             <a href="https://www.fwf.ac.at/en/">
                                 <img class="card-img-right flex-auto d-md-block" 
@@ -56,7 +58,7 @@
                             </a>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
         <!-- #wrapper-footer-full -->
