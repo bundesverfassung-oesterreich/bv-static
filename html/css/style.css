@@ -342,6 +342,18 @@ border-right: 1px solid lightgrey;
     margin-bottom: 1.5rem;
 }
 
+div#page div#wrapper-footer-secondary {
+    text-align:center;
+    padding:0.4rem 0;
+    font-size: 0.9rem;
+    background-color: var(--bv-big-highlight);
+    color: var(--bv-main-bg-color);
+}
+
+div#page div#wrapper-footer-secondary a{
+    color: var(--bv-main-bg-color);
+}
+
 a.anchor, .anchor-pb {
     position: relative;
     top: -120px;
