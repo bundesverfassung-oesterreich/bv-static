@@ -57,6 +57,10 @@
 }
 
 /* overwriting default colors */
+li.ais-Pagination-item.page-item > a {
+    background-color: var(--bv-main-bg-color);
+}
+
 ul .ais-Pagination-item--selected .ais-Pagination-link {
     background-color: #615a60 !important;
     border-color: #615a60 !important;
