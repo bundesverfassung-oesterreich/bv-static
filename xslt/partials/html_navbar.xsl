@@ -15,16 +15,9 @@
                     </div>                    
                 </xsl:if>
                 <div class="container-fluid">
-                    <!--
-                        <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                            <img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" />
-                        </a>
-                    -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                        <!--<img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" />-->
                         <img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo"/>
                     </a>
-                    
                     <span class="badge bg-light text-dark">in development</span>
                     <button id="media-menu-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
