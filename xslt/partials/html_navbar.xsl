@@ -49,13 +49,13 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__register" ></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="listperson.html"  data-i18n="navbar__persons"  ></a>
+                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html"  data-i18n="navbar__persons"  ></a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="listorg.html"  data-i18n="navbar__orgs" ></a>
+                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html"  data-i18n="navbar__orgs" ></a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="listbibl.html"  data-i18n="navbar__works" ></a>
+                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html"  data-i18n="navbar__works" ></a>
                                     </li>
                                 </ul>
                             </li>
