@@ -6,6 +6,6 @@
     <xsl:param name="project_short_title">B-VG 1920</xsl:param>
     <xsl:param name="github_url">https://github.com/bundesverfassung-oesterreich/bv-static-v1</xsl:param>
     <xsl:param name="html_title">B-VG 1920</xsl:param>
-    <xsl:param name="project_logo">images/b-vg-logo-1-weiß.svg</xsl:param>
+    <xsl:param name="project_logo">images/b-vg-logo-1-white.svg</xsl:param>
     <xsl:param name="base_url">https://bundesverfassung-oesterreich.github.io/bv-static-v1</xsl:param>
 </xsl:stylesheet>
