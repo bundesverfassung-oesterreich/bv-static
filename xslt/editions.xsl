@@ -61,7 +61,9 @@
                             </div>
                             <div class="offcanvas-body">
                                 <div>
-                                    <xsl:call-template name="edition_side_nav"></xsl:call-template>
+                                    <xsl:call-template name="edition_side_nav">
+                                        <xsl:with-param name="doc_title" select="$doc_title"/>
+                                    </xsl:call-template>
                                 </div>
                             </div>
                         </div>
@@ -77,8 +79,8 @@
                                             <div>
                                                 <ul id="edition_display_options" class="list-unstyled fw-normal pb-1 small">
                                                     <!--<li >
-                                                        <full-size opt="fls"></full-size>
-                                                    </li>-->
+                                                         <full-size opt="fls"></full-size>
+                                                         </li>-->
                                                     <li >
                                                         <image-switch opt="es"></image-switch>
                                                     </li>

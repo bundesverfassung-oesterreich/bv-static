@@ -75,6 +75,7 @@
     
     
     <xsl:template name="edition_side_nav">
+        <xsl:param name="doc_title"/>
         <div id="edtion-navBarNavDropdown" class="dropstart navBarNavDropdown">
             <xsl:variable name="data_set_A_id" as="xs:string" select="string(195363)"/>
             <xsl:variable name="data_set_B_id" as="xs:string" select="string(196428)"/>
@@ -107,7 +108,9 @@
                 </li>
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
-                        Aktuelles Dokument
+                        <xsl:value-of
+                            select="$doc_title"
+                            />
                     </button>                                       
                     <div class="collapse" id="current-doc-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
