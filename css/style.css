@@ -66,6 +66,10 @@ button#media-menu-toggler:hover {
     max-height: 100vh;
 }
 
+.navbar.navbar-expand-lg {
+    padding: 0;
+}
+
 .navbar-nav, .nav-item, a.nav-link {
     color: white;
 }
@@ -207,10 +211,6 @@ cite {
 .landing_text p {
     hyphens: auto;
 }
-
-/*.custom-logo-link {
-    margin-bottom: -2em;
-}*/
 
 body {
     border-top-width: 0;
