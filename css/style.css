@@ -67,7 +67,7 @@ button#media-menu-toggler:hover {
 }
 
 .navbar.navbar-expand-lg {
-    padding: 0;
+    padding: 0.5rem;
 }
 
 .navbar-nav, .nav-item, a.nav-link {
@@ -80,6 +80,7 @@ button#media-menu-toggler:hover {
 
 #navbarSupportedContent a.nav-link {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .navbar-nav ul li a {
@@ -159,6 +160,11 @@ cite {
     /*height: 93vh;
     overflow: hidden;*/
     /*border-bottom: 3px solid var(--bv-big-highlight);*/
+}
+
+
+div#docinfo h1 {
+    font-weight: bold;
 }
 
 /*rules for anchor hack */
@@ -705,7 +711,6 @@ add rules for smallest tablet high
 resolution or low resolution screens
 #########################################
 */
-}
 
 @media (max-width: 768px) {
     .facsimiles {
