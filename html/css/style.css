@@ -50,6 +50,15 @@ div.container p {
     hyphens: auto;
 }
 
+button#media-menu-toggler {
+    border: none;
+    box-shadow:none;
+}
+
+button#media-menu-toggler:focus {
+    border: none;
+    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) var(--bv-main-bg-color);
+}
 
 .navbar {
     background-color: var(--bv-big-highlight);
