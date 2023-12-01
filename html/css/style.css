@@ -71,7 +71,7 @@ button#media-menu-toggler:hover {
 }
 
 .navbar-nav, .nav-item, a.nav-link {
-    color: white;
+    color: var(--bv-main-bg-color);
 }
 
 #page nav.navbar div {
@@ -82,11 +82,15 @@ button#media-menu-toggler:hover {
     font-size: 1.5rem;
 }
 
-.navbar-nav ul li a:hover, .navbar-nav ul li a:active {
-    /* change navbar text color and background color for hover and active*/
-    background-color: var(--bv-main-bg-color);
-    color: var(--bv-big-highlight)
+.navbar-nav ul li a {
+    background-color: var(--bv-big-highlight);
+    color: var(--bv-main-bg-color);
+}
 
+.navbar-nav ul li a:hover, 
+.navbar-nav ul li a:active {
+    background-color: var(--bv-big-highlight);
+    color: black;
 }
 
 div#navbarSupportedContent div#navbar_right_spacer {
@@ -427,16 +431,29 @@ a.anchorFoot {
     padding-bottom: 0.5rem;
 }
 
-
 .dropdown-menu {
     height: fit-content !important;
     max-height: 800px !important;
     overflow-x: hidden !important;
 }
 
+a.nav-link.dropdown-toggle{
+    border-left: 0.2rem solid transparent;
+}
 
-nav div#navbarSupportedContent li ul.dropdown-menu.show {
-    background-color: var(--bv-main-bg-color);
+a.nav-link.dropdown-toggle.show,
+a.nav-link.dropdown-toggle:active {
+    border-left: 0.2rem solid black;
+}
+
+li ul.dropdown-menu.show {
+    background: var(--bv-big-highlight);
+    /*color: var(--bv-main-bg-color);*/
+    color: var(--bv-main-bg-color);
+    border: none;
+    border-left: 0.2rem solid black;
+    margin-top: 0;
+    border-radius: 0;
 }
 
 #chapter_navigation {
@@ -459,11 +476,6 @@ nav div#navbarSupportedContent li ul.dropdown-menu.show {
 }
 
 .bi-pencil-square {
-    color: #fff;
-    fill: #fff;
-}
-  
-.bi-book {
     color: #fff;
     fill: #fff;
 }
