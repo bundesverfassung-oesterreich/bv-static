@@ -65,7 +65,7 @@ div.container p {
 }
 
 #navbarSupportedContent a.nav-link {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
 }
 
 .navbar-nav ul li a:hover, .navbar-nav ul li a:active {
@@ -276,6 +276,10 @@ a {
 
 .container-fluid {
     max-width: 1800px;
+}
+
+div#main_navbar_flex_container {
+    max-width: 100%;
 }
 
 .italic {
@@ -522,6 +526,9 @@ h3 a i.fas {
 /*.img-fluid {
     max-width: 6rem !important;
 }*/
+.img-fluid {
+    height: 5vh;
+}
 
 .card {
     margin: 2em auto;
