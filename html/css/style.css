@@ -53,9 +53,10 @@ div.container p {
 button#media-menu-toggler {
     border: none;
     box-shadow:none;
+    padding: 0;
 }
 
-button#media-menu-toggler:focus {
+button#media-menu-toggler:hover {
     border: none;
     box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) var(--bv-main-bg-color);
 }
