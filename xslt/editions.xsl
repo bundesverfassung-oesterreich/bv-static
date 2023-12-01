@@ -124,13 +124,13 @@
                                         </xsl:if>
                                     </div>
                                     <div id="docinfo" class="col-md-8 col-lg-8 col-sm-12">
+                                    <xsl:variable name="doc_type" select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/>
                                         <div>
                                             <h1>
-                                                <xsl:value-of select="$doc_title"/>
+                                                <xsl:value-of select="concat('(', $doc_title, ' | ', $doc_type, ')')"/> 
                                             </h1>
                                         </div>
-                                        <p class="document_info">Entstehung: <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
-                                        <p class="document_info"><xsl:value-of select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/></p>
+                                        <p class="document_info">Entstehung: <xsl:value-of /></p>
                                         <p class="document_info"><xsl:value-of select="//tei:text/@type"/></p>
                                         <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
                                         <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
