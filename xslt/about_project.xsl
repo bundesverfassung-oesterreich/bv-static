@@ -34,10 +34,7 @@
                         <div class="row intro">
                             <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                 <div class="landing_text">
-                                    <h1>Das Projekt</h1>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                                    <xsl:apply-templates select="//tei:body"/>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +47,11 @@
     <xsl:template match="tei:div//tei:head">
         <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
     </xsl:template>
-    
+
+    <xsl:template match="tei:body/tei:p[1]">
+        <h1 id="{generate-id()}"><xsl:apply-templates/></h1>
+    </xsl:template>
+
     <xsl:template match="tei:p">
         <p id="{generate-id()}"><xsl:apply-templates/></p>
     </xsl:template>
@@ -62,6 +63,7 @@
     <xsl:template match="tei:item">
         <li id="{generate-id()}"><xsl:apply-templates/></li>
     </xsl:template>
+    
     <xsl:template match="tei:ref">
         <xsl:choose>
             <xsl:when test="starts-with(data(@target), 'http')">
@@ -75,4 +77,5 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
 </xsl:stylesheet>

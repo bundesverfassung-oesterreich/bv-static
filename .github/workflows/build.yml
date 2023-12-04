@@ -16,6 +16,7 @@ jobs:
       TYPESENSE_HOST: ${{secrets.TYPESENSE_HOST}}
       TYPESENSE_PORT: ${{vars.TYPESENSE_PORT}}
       TYPESENSE_PROTOCOL: ${{vars.TYPESENSE_PROTOCOL}}
+      RETRIEVED_TEXTS_DIR: ./data/externally_sourced_texts/
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v3
@@ -25,6 +26,12 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: fetched fresh data from gh-data repo
+    - name: copy basic texts for pages
+      run: |
+        if [ -d $RETRIEVED_TEXTS_DIR ]; then rm -rf $RETRIEVED_TEXTS_DIR; fi
+        mkdir $RETRIEVED_TEXTS_DIR
+        wget https://github.com/bundesverfassung-oesterreich/bv-commentary-parser/raw/main/tei/about_bvg.xml -P $RETRIEVED_TEXTS_DIR
+        wget https://raw.githubusercontent.com/bundesverfassung-oesterreich/bv-commentary-parser/main/tei/about_project.xml -P $RETRIEVED_TEXTS_DIR
     - name: Install Saxon, Ant and Python
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend

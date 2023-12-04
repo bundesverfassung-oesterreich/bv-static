@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="tei2html">
     <property name="index" value="./data/meta/about.xml"/>
+    <property name="about_bvg" value="./data/externally_sourced_texts/about_bvg.xml"/>
+    <property name="about_project" value="./data/externally_sourced_texts/about_project.xml"/>
     <property name="target" value="./html"/>
     <property name="target_xml" value="./html/xml-sources"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
-    <delete dir="${target}/static-search"/>
     <xslt style="./xslt/editions.xsl" basedir="./data/editions" destdir="${target}" includes="*.xml" extension=".html">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -23,15 +24,11 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="${index}" out="${target}/about_project.html" style="./xslt/about_project.xsl">
+    <xslt in="${about_project}" out="${target}/about_project.html" style="./xslt/about_project.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="${index}" out="${target}/about_bvg.html" style="./xslt/about_bvg.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt in="${index}" out="${target}/about_sources.html" style="./xslt/about_sources.xsl">
+    <xslt in="${about_bvg}" out="${target}/about_bvg.html" style="./xslt/about_bvg.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
