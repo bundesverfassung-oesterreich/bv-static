@@ -9,7 +9,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/meta_tags.xsl"/>
-    
+    <xsl:variable name="wrong_link_prefix" select="'http://.'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select='"B-VG 1920"'/>
@@ -47,11 +47,11 @@
     <xsl:template match="tei:div//tei:head">
         <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
     </xsl:template>
-
+    
     <xsl:template match="tei:body/tei:p[1]">
         <h1 id="{generate-id()}"><xsl:apply-templates/></h1>
     </xsl:template>
-
+    
     <xsl:template match="tei:p">
         <p id="{generate-id()}"><xsl:apply-templates/></p>
     </xsl:template>
@@ -66,6 +66,14 @@
     
     <xsl:template match="tei:ref">
         <xsl:choose>
+            <xsl:when test="starts-with(data(@target), $wrong_link_prefix)">
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="substring(@target, string-length($wrong_link_prefix))"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="."/>
+                </a>
+            </xsl:when>
             <xsl:when test="starts-with(data(@target), 'http')">
                 <a>
                     <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
