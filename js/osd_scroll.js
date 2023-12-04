@@ -59,7 +59,7 @@ var viewer = OpenSeadragon({
   prefixUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
   sequenceMode: true,
-  showNavigator: true,
+  //showNavigator: true,
   tileSources: tileSources,
 });
 /*
