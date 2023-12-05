@@ -58,10 +58,52 @@ var viewer = OpenSeadragon({
   id: "container_facs_1",
   prefixUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
-  sequenceMode: true,
-  showNavigator: false,
   tileSources: tileSources,
+  //homeFillsViewer: true,
+  sequenceMode: true,
+  showNavigationControl: true,
+  showNavigator: false,
+  showSequenceControl: false,
+  showZoomControl: true,
+  zoomInButton:   "osd_zoom_in_button",
+  zoomOutButton:  "osd_zoom_out_button",
+  homeButton : "osd_zoom_reset_button",
 });
+
+
+/*
+id: "container_facs_1",
+prefixUrl:
+  "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+sequenceMode: true,
+showNavigator: false,
+showHomeControl: true,
+showNavigationControl: true, //should break custom buttons, showNavigationControl is overriding this setting when set to false.
+showZoomControl: true, //overrides the above
+showFullPageControl: true,
+showRotationControl: true,
+showFlipControl: true,
+showSequenceControl: false,
+showReferenceStrip: true,
+tileSources: tileSources,
+//toolbar: "osd_toolbar_container"
+zoomInButton:   "osd_zoom_in_button",
+zoomOutButton:  "osd_zoom_out_button",
+//nextButton:     "osd_next_button",
+//previousButton: "osd_prev_button",
+});
+
+let button_option_names = {
+zoomInButton : "",
+zoomOutButton : "",
+homeButton : "",
+fullPageButton : "",
+rotateLeftButton : "",
+rotateRightButton : "",
+previousButton : "",
+nextButton : "",
+}*/
+
 /*
 ##################################################################
 remove container holding the images url
@@ -81,8 +123,10 @@ var next_pb_index = 0;
 var previous_pb_index = -1;
 const a_elements = document.getElementsByClassName("anchor-pb");
 const max_index = (a_elements.length - 1);
-const prev = document.querySelector("div[title='Previous page']");
-const next = document.querySelector("div[title='Next page']");
+// const prev = document.querySelector("div[title='Previous page']");
+// const next = document.querySelector("div[title='Next page']");
+const prev = document.getElementById("osd_prev_button");
+const next = document.getElementById("osd_next_button");
 /*
 ##################################################################
 triggers on scroll and switches osd viewer image base on 
@@ -112,8 +156,6 @@ function load_top_viewport_image(check=true) {
         loadNewImage(current_pb_element);
       };
     } else {
-      
-      console.log(`Didnt check for visibility. Scrolling to ${current_pb_index}`);
       loadNewImage(current_pb_element, true);
     }
   }
@@ -132,23 +174,25 @@ function to trigger image load and remove events
 */
 
 function add_image_to_viewer(new_image) {
-  viewer.addSimpleImage({
-    url: new_image,
-    success: function (event) {
-      function ready() {
-        setTimeout(() => {
-          viewer.world.removeItem(viewer.world.getItemAt(0));
-        }, 200);
-      }
-      // test if item was loaded and trigger function to remove previous item
-      if (event.item) {
-        // .getFullyLoaded()
-        ready();
-      } else {
-        event.item.addOnceHandler("fully-loaded-change", ready());
-      }
-    },
-  });
+  viewer.addSimpleImage(
+    {
+      url: new_image,
+      success: function (event) {
+        function ready() {
+          setTimeout(() => {
+            viewer.world.removeItem(viewer.world.getItemAt(0));
+          }, 200);
+        }
+        // test if item was loaded and trigger function to remove previous item
+        if (event.item) {
+          // .getFullyLoaded()
+          ready();
+        } else {
+          event.item.addOnceHandler("fully-loaded-change", ready());
+        }
+      },
+    }
+  );
 }
 
 function loadNewImage(new_item, dont_check=false) {
