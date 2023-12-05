@@ -3,6 +3,7 @@
     --bv-small-highlight: rgb(156, 156, 156);
     --bv-darker-lightgray: rgb(212, 212, 212);
     --bv-big-highlight-rgb: 0, 116, 82;
+    /*#007452*/
     --bv-big-highlight: rgb(var(--bv-big-highlight-rgb));
 }
 
@@ -249,14 +250,42 @@ p {
     width: fit-content;
 }
 
+
 div.image_rights{
     padding-top: 1rem;
     padding-bottom: 1rem;
     height: fit-content;
     font-size: x-small;
-    color: gray;
-    text-align: center;
 }
+
+div.image_rights div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: fit-content;
+    font-size: x-small;
+    padding-right: 0;
+}
+
+div button.osd_nav_element {
+    width: fit-content;
+    color: var(--bv-main-bg-color);
+    background-color: var(--bv-big-highlight);
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    height: 3rem;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 3rem;
+    margin-left: 0.5rem;
+    border-radius: 3px;
+    width: 3rem;
+}
+
+
 div.image_rights p{
     margin: auto;
     max-width: 70em;
