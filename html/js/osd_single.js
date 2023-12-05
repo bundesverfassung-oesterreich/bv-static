@@ -11,7 +11,7 @@ function load_image(facs_id, osd_container_id, osd_container_id2){
         prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/',
         // sequenceMode: true,
         // showReferenceStrip: true,
-        // showNavigator: true,
+        showNavigator: false,
         // imageLoaderLimit: 10,
         defaultZoomLevel: 1,
         tileSources: imageURL
