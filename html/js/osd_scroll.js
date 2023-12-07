@@ -18,14 +18,6 @@ function calculate_facsContainer_height() {
   return Math.round(new_container_height);
 };
 
-function resize_facsContainer() {
-    let new_container_height = calculate_facsContainer_height();
-    if (new_container_height != container_facs_1.clientHeight) {
-      container_facs_1.style.height = `${String(new_container_height)}px`;
-    };
-};
-
-resize_facsContainer()
 const throttle = function (throttled_func, delay_ms) {
   let time = Date.now();
   if (delay_ms === undefined) {
@@ -59,7 +51,7 @@ var viewer = OpenSeadragon({
   prefixUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
   tileSources: tileSources,
-  //homeFillsViewer: true,
+  homeFillsViewer: false,
   sequenceMode: true,
   showNavigationControl: true,
   showNavigator: false,
@@ -69,49 +61,6 @@ var viewer = OpenSeadragon({
   zoomOutButton:  "osd_zoom_out_button",
   homeButton : "osd_zoom_reset_button",
 });
-
-
-/*
-id: "container_facs_1",
-prefixUrl:
-  "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
-sequenceMode: true,
-showNavigator: false,
-showHomeControl: true,
-showNavigationControl: true, //should break custom buttons, showNavigationControl is overriding this setting when set to false.
-showZoomControl: true, //overrides the above
-showFullPageControl: true,
-showRotationControl: true,
-showFlipControl: true,
-showSequenceControl: false,
-showReferenceStrip: true,
-tileSources: tileSources,
-//toolbar: "osd_toolbar_container"
-zoomInButton:   "osd_zoom_in_button",
-zoomOutButton:  "osd_zoom_out_button",
-//nextButton:     "osd_next_button",
-//previousButton: "osd_prev_button",
-});
-
-let button_option_names = {
-zoomInButton : "",
-zoomOutButton : "",
-homeButton : "",
-fullPageButton : "",
-rotateLeftButton : "",
-rotateRightButton : "",
-previousButton : "",
-nextButton : "",
-}*/
-
-/*
-##################################################################
-remove container holding the images url
-##################################################################
-*/
-// setTimeout(function() {
-//     document.getElementById("container_facs_2").remove();
-// }, 500);
 
 /*
 ##################################################################
@@ -123,8 +72,6 @@ var next_pb_index = 0;
 var previous_pb_index = -1;
 const a_elements = document.getElementsByClassName("anchor-pb");
 const max_index = (a_elements.length - 1);
-// const prev = document.querySelector("div[title='Previous page']");
-// const next = document.querySelector("div[title='Next page']");
 const prev = document.getElementById("osd_prev_button");
 const next = document.getElementById("osd_next_button");
 /*
@@ -134,7 +81,7 @@ viewport position of next and previous element with class pb
 pb = pagebreaks
 ##################################################################
 */
-function load_top_viewport_image(check=true) {
+function load_top_viewport_image(check=false) {
   // elements in view
   console.log("… scrolling …")
   let first_pb_element_in_viewport = undefined;
@@ -187,6 +134,7 @@ function add_image_to_viewer(new_image) {
         if (event.item) {
           // .getFullyLoaded()
           ready();
+          fitVertically_align_left(viewer);
         } else {
           event.item.addOnceHandler("fully-loaded-change", ready());
         }
@@ -197,15 +145,27 @@ function add_image_to_viewer(new_image) {
 
 function loadNewImage(new_item, dont_check=false) {
   if (new_item) {
-    // source attribute hold image item id without url
     var new_image = new_item.getAttribute("source");
     var old_image = viewer.world.getItemAt(0);
     if (dont_check){
       add_image_to_viewer(new_image);
     } else if (old_image) {
-        add_image_to_viewer(new_image);
+      add_image_to_viewer(new_image);
     }
   }
+}
+
+function fitVertically_align_left(viewer) {
+  var tiledImage = viewer.world.getItemAt(0); 
+  console.log(tiledImage);
+  //var imageRect = new OpenSeadragon.Rect(0, 0, 1000, 1000); // Or whatever area you want to focus on
+  //var viewportRect = tiledImage.imageToViewportRectangle(imageRect);
+  //viewer.viewport.fitBounds(viewportRect, true);
+  var bounds = viewer.viewport.getBounds(true);
+  var currentRect = tiledImage.viewportToImageRectangle(bounds);
+  var rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, currentRect.height);
+  console.log(rect);
+  viewer.viewport.fitBoundsWithConstraints(rect, true);
 }
 
 /*
@@ -249,11 +209,6 @@ function to check if element is close to top of window viewport
 function isInTopViewport(element) {
   // Get the bounding client rectangle position in the viewport
   var bounding = element.getBoundingClientRect();
-  // Checking part. Here the code checks if el is close to top of viewport.
-  // console.log("Top");
-  // console.log(bounding.top);
-  // console.log("Bottom");
-  // console.log(bounding.bottom);
   if (
     bounding.top <= 180 &&
     bounding.bottom <= 210 &&
@@ -274,10 +229,6 @@ function to check if element is anywhere in window viewport
 function isInViewport(element) {
   // Get the bounding client rectangle position in the viewport
   var bounding = element.getBoundingClientRect();
-  // console.log("Top");
-  // console.log(bounding.top);
-  // console.log("Bottom");
-  // console.log(bounding.bottom);
   if (
     bounding.top >= 0 &&
     bounding.left >= 0 &&
@@ -299,11 +250,19 @@ test to add whitespace at end of the page to make
 the scrolling mechanism work.
 ##################################################################
 */
+
+
+/* since not all pages in the original document contain a lot of text,
+it could happen that the image on the last page doesnt get loaded, cause 
+its impossible to scroll far enough to trigger the load image stuff   */
+// setting up eventlistener and Intersectionobserver
+
 // create anchor as a point of reference for the end of the textblock
 bell_anchor = document.createElement("a");
 text_wrapper.appendChild(
   bell_anchor
 );
+
 // stuff to change / set the whitespace at bottom
 var bottom_whitespace = 0;
 
@@ -338,10 +297,19 @@ let observer = new IntersectionObserver(
 );
 
 observer.observe(bell_anchor);
-addEventListener("resize", check_bottom_whitespace_of_textWrapper);
 
-window.addEventListener("load", function() {
-  if (window.location.href.includes("#")) {
-    load_top_viewport_image(false);
+
+/* change size of facs container */
+function resize_facsContainer() {
+  let new_container_height = calculate_facsContainer_height();
+  if (new_container_height != container_facs_1.clientHeight) {
+    container_facs_1.style.height = `${String(new_container_height)}px`;
+  };
+};
+//resize_facsContainer()
+
+addEventListener("resize", function () {
+    //resize_facsContainer();
+    check_bottom_whitespace_of_textWrapper();
   }
-});
+);
