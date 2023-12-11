@@ -8,8 +8,11 @@ creates an array for osd viewer with static images
 ##################################################################
 */
 const navbar_wrapper = document.getElementById("wrapper-navbar");
-const image_rights = document.getElementsByClassName("image_rights")[0];  
+const image_rights = document.getElementsByClassName("image_rights")[0];
+
+
 function calculate_facsContainer_height() {
+  // calcutlates hight of osd container based on heigt of screen - (height of navbar + img rights&buttons)
   let image_rights_height = image_rights.getBoundingClientRect().height;
   let new_container_height =
     window.innerHeight -
@@ -52,42 +55,37 @@ const viewer = new OpenSeadragon.Viewer({
   zoomInButton:   "osd_zoom_in_button",
   zoomOutButton:  "osd_zoom_out_button",
   homeButton : "osd_zoom_reset_button",
+  constrainDuringPan: true,
 });
 
+viewer.viewport.goHome = function () {
+  fitVertically_align_left();
+}
 
 // function & event handler to set hight of image to max and pan the image to the left
 // this is done via this handler & not in the load function due to laoding the initial tile via the
 // tile source opt in constructor. 
 
-function fitVertically_align_left(viewer) {
-  var tiledImage = viewer.world.getItemAt(0); 
-  var bounds = viewer.viewport.getBounds(true);
-  var currentRect = tiledImage.viewportToImageRectangle(bounds);
-  var rect_from_img = new OpenSeadragon.Rect(0,0, tiledImage.contentAspectX, tiledImage.normHeight);
-  var new_rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, currentRect.height);
-  //var rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, tiledImage.normHeight);
-  //using the image height, to make shure it is fully displayed
-  new_rect.height = rect_from_img.height;
-  if (new_rect.width < rect_from_img.width) {
-    new_rect.width = rect_from_img.width;
-  }
-  console.log(new_rect);
-  console.log(rect_from_img);
-  viewer.viewport.fitBoundsWithConstraints(new_rect, true);
+function fitVertically_align_left() {
+  let tiledImage = viewer.world.getItemAt(0);
+  let bounds = viewer.viewport.getBounds(true);
+  var newBounds = new OpenSeadragon.Rect(0, 0, 1, bounds.height / bounds.width);
+  if (tiledImage.normHeight < newBounds.height) {
+    newBounds.y = tiledImage.normHeight - newBounds.height;
+  };
+  console.log(newBounds);
+  console.log(tiledImage);
+  viewer.viewport.fitBounds(newBounds, true);
+}
+function home(viewer){
+  viewer.raiseEvent('home', {
+    immediately: immediately
+  });
+  return viewer.fitBounds(viewer.getHomeBounds(), immediately);
 }
 
-// override the goHome function
-viewer.viewport.goHome = function(immediately) {
-  if( this.viewer ){
-      this.viewer.raiseEvent( 'home', {
-          immediately: immediately
-      });
-  }
-  fitVertically_align_left(viewer);
-};
+viewer.addHandler("tile-loaded", (x) => {fitVertically_align_left(viewer)});
 
-viewer.addHandler("tile-loaded", x => {fitVertically_align_left(viewer)});
-viewer.addHandler("home", x => {fitVertically_align_left(viewer)});
 /*
 ##################################################################
 index and previous index for click navigation in osd viewer
