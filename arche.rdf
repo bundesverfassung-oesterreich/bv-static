@@ -251,489 +251,9 @@
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__68">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__68"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Großdeutsch Sonderdruck Textvariante 1</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__4">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__4"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Kelsen Entwurf IV</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__7">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__7"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Falser II</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__16">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__16"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Danneberg</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__67">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__67"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Mayr I Druck saubere Fassung</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__23">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__23"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">UA 23. September 1920 Textvariante</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__26">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__26"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Renner-Mayr saubere Version</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__1">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__1"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Kelsen Entwurf I</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__30">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__30"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Evidenzexemplar maschinschriftlich</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__27">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__27"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Ministerial II Typoskript</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__14">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__14"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">CS II KNV Beilage</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__5">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__5"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Kelsen Entwurf V</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__31">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__31"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">CS I Sonderdruck</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__13">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__13"></acdh:hasIdentifier>
       <acdh:hasTitle xml:lang="de">unidentifizierter Entwurf nach Linz</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__22">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__22"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">UA 23. September 1920</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__28">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__28"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Großdeutsch KNV Beilage</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -795,9 +315,9 @@
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__21">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__21"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">UA 15.September 1920</acdh:hasTitle>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__10">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__10"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Rehrl</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -827,9 +347,9 @@
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__3">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__3"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Kelsen Entwurf III</acdh:hasTitle>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__62">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__62"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">B-VG saubere Variante</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -859,9 +379,9 @@
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__20">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__20"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Renner-Mayr mit Einklebungen</acdh:hasTitle>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__23">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__23"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">UA 23. September 1920 Textvariante</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -891,201 +411,9 @@
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__15">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__15"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Abram KNV Beilage</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__63">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__63"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Bericht VfA Sonderdruck</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__2">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__2"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Kelsen Entwurf II</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__12">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__12"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">VfA Entwurf KNV Beilage</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__69">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__69"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Großdeutsch Sonderdruck Textvariante 2</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__24">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__24"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">UA 26. August 1920 Textvariante</acdh:hasTitle>
-      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
-      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
-      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
-      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
-      
-      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
-      
-      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
-      
-      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
-      
-      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
-      
-      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
-      
-      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
-      
-      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
-      
-      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
-      
-      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
-      
-      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
-      
-      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
-      </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__32">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__32"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Mayr I Typoskript</acdh:hasTitle>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__67">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__67"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Mayr I Druck saubere Fassung</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -1147,9 +475,105 @@
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       </acdh:Resource>
-   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__66">
-      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__66"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">CS I KNV-Beilage</acdh:hasTitle>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__16">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__16"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Danneberg</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__28">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__28"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Großdeutsch KNV Beilage</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__35">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__35"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Renner Entwurf 1918</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__15">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__15"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Abram KNV Beilage</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -1182,6 +606,678 @@
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__29">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__29"></acdh:hasIdentifier>
       <acdh:hasTitle xml:lang="de">Mayr I Druck</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__31">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__31"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">CS I Sonderdruck</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__27">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__27"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Ministerial II Typoskript</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__7">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__7"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Falser II</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__66">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__66"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">CS I KNV-Beilage</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__4">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__4"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Kelsen Entwurf IV</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__69">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__69"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Großdeutsch Sonderdruck Textvariante 2</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__12">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__12"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">VfA Entwurf KNV Beilage</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__68">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__68"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Großdeutsch Sonderdruck Textvariante 1</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__1">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__1"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Kelsen Entwurf I</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__21">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__21"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">UA 15.September 1920</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__32">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__32"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Mayr I Typoskript</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__24">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__24"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">UA 26. August 1920 Textvariante</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__2">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__2"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Kelsen Entwurf II</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__5">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__5"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Kelsen Entwurf V</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__22">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__22"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">UA 23. September 1920</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__26">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__26"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Renner-Mayr saubere Version</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__20">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__20"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Renner-Mayr mit Einklebungen</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__63">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__63"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Bericht VfA Sonderdruck</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__14">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__14"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">CS II KNV Beilage</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__3">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__3"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Kelsen Entwurf III</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__30">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__30"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Evidenzexemplar maschinschriftlich</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
