@@ -21,7 +21,7 @@ function calculate_facsContainer_height() {
 // initially resizing the facs container to max
 // needs to be done before calling the viewer construtor, 
 // since it doesnt update size
-resize_facsContainer()
+resize_facsContainer();
 
 var pb_elements = document.getElementsByClassName("pb");
 var pb_elements_array = Array.from(pb_elements);
@@ -38,7 +38,7 @@ tileSources.push(imageURL);
 initialize osd
 ##################################################################
 */
-var viewer = new OpenSeadragon.Viewer({
+const viewer = new OpenSeadragon.Viewer({
   id: "container_facs_1",
   prefixUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
@@ -61,14 +61,33 @@ var viewer = new OpenSeadragon.Viewer({
 
 function fitVertically_align_left(viewer) {
   var tiledImage = viewer.world.getItemAt(0); 
-  console.log(tiledImage);
   var bounds = viewer.viewport.getBounds(true);
   var currentRect = tiledImage.viewportToImageRectangle(bounds);
-  var rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, currentRect.height);
-  console.log(rect);
-  viewer.viewport.fitBoundsWithConstraints(rect, true);
+  var rect_from_img = new OpenSeadragon.Rect(0,0, tiledImage.contentAspectX, tiledImage.normHeight);
+  var new_rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, currentRect.height);
+  //var rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, tiledImage.normHeight);
+  //using the image height, to make shure it is fully displayed
+  new_rect.height = rect_from_img.height;
+  if (new_rect.width < rect_from_img.width) {
+    new_rect.width = rect_from_img.width;
+  }
+  console.log(new_rect);
+  console.log(rect_from_img);
+  viewer.viewport.fitBoundsWithConstraints(new_rect, true);
 }
-viewer.addHandler("tile-loaded", (x) => {console.log(x); fitVertically_align_left(viewer)});
+
+// override the goHome function
+viewer.viewport.goHome = function(immediately) {
+  if( this.viewer ){
+      this.viewer.raiseEvent( 'home', {
+          immediately: immediately
+      });
+  }
+  fitVertically_align_left(viewer);
+};
+
+viewer.addHandler("tile-loaded", x => {fitVertically_align_left(viewer)});
+viewer.addHandler("home", x => {fitVertically_align_left(viewer)});
 /*
 ##################################################################
 index and previous index for click navigation in osd viewer
@@ -296,12 +315,18 @@ function resize_facsContainer() {
   let new_container_height = calculate_facsContainer_height();
   if (new_container_height != container_facs_1.clientHeight) {
     container_facs_1.style.height = `${String(new_container_height)}px`;
+    return true;
   };
+  return false;
 };
 
 
-addEventListener("resize", function () {
-    resize_facsContainer();
+addEventListener("resize", function (event) {
+    let resized = resize_facsContainer();
+    if (resized) {
+        viewer.forceResize();
+        fitVertically_align_left(viewer);
+    };
     check_bottom_whitespace_of_textWrapper();
   }
 );
