@@ -18,18 +18,10 @@ function calculate_facsContainer_height() {
   return Math.round(new_container_height);
 };
 
-const throttle = function (throttled_func, delay_ms) {
-  let time = Date.now();
-  if (delay_ms === undefined) {
-    delay_ms = 20;
-  } 
-  return () => {
-    if((time + delay_ms - Date.now()) <= 0) {
-      throttled_func();
-      time = Date.now();
-    };
-  };
-};
+// initially resizing the facs container to max
+// needs to be done before calling the viewer construtor, 
+// since it doesnt update size
+resize_facsContainer()
 
 var pb_elements = document.getElementsByClassName("pb");
 var pb_elements_array = Array.from(pb_elements);
@@ -46,7 +38,7 @@ tileSources.push(imageURL);
 initialize osd
 ##################################################################
 */
-var viewer = OpenSeadragon({
+var viewer = new OpenSeadragon.Viewer({
   id: "container_facs_1",
   prefixUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
@@ -62,6 +54,21 @@ var viewer = OpenSeadragon({
   homeButton : "osd_zoom_reset_button",
 });
 
+
+// function & event handler to set hight of image to max and pan the image to the left
+// this is done via this handler & not in the load function due to laoding the initial tile via the
+// tile source opt in constructor. 
+
+function fitVertically_align_left(viewer) {
+  var tiledImage = viewer.world.getItemAt(0); 
+  console.log(tiledImage);
+  var bounds = viewer.viewport.getBounds(true);
+  var currentRect = tiledImage.viewportToImageRectangle(bounds);
+  var rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, currentRect.height);
+  console.log(rect);
+  viewer.viewport.fitBoundsWithConstraints(rect, true);
+}
+viewer.addHandler("tile-loaded", (x) => {console.log(x); fitVertically_align_left(viewer)});
 /*
 ##################################################################
 index and previous index for click navigation in osd viewer
@@ -132,9 +139,7 @@ function add_image_to_viewer(new_image) {
         }
         // test if item was loaded and trigger function to remove previous item
         if (event.item) {
-          // .getFullyLoaded()
           ready();
-          fitVertically_align_left(viewer);
         } else {
           event.item.addOnceHandler("fully-loaded-change", ready());
         }
@@ -153,19 +158,6 @@ function loadNewImage(new_item, dont_check=false) {
       add_image_to_viewer(new_image);
     }
   }
-}
-
-function fitVertically_align_left(viewer) {
-  var tiledImage = viewer.world.getItemAt(0); 
-  console.log(tiledImage);
-  //var imageRect = new OpenSeadragon.Rect(0, 0, 1000, 1000); // Or whatever area you want to focus on
-  //var viewportRect = tiledImage.imageToViewportRectangle(imageRect);
-  //viewer.viewport.fitBounds(viewportRect, true);
-  var bounds = viewer.viewport.getBounds(true);
-  var currentRect = tiledImage.viewportToImageRectangle(bounds);
-  var rect = tiledImage.imageToViewportRectangle(0, 0, currentRect.width, currentRect.height);
-  console.log(rect);
-  viewer.viewport.fitBoundsWithConstraints(rect, true);
 }
 
 /*
@@ -306,10 +298,10 @@ function resize_facsContainer() {
     container_facs_1.style.height = `${String(new_container_height)}px`;
   };
 };
-//resize_facsContainer()
+
 
 addEventListener("resize", function () {
-    //resize_facsContainer();
+    resize_facsContainer();
     check_bottom_whitespace_of_textWrapper();
   }
 );
