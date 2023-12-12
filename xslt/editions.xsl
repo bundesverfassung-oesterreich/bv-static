@@ -251,7 +251,7 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:lb">
-        <br />
+        <br class="tei_lb" />
     </xsl:template>
     <xsl:template match="tei:p | tei:lg">
         <!-- simply keep paragraphs -->
