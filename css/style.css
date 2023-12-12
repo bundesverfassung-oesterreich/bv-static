@@ -625,8 +625,17 @@ div.card-body.no-mimetic-linebreaks {
     max-width: 40rem;
 }
 
-div.card-body.no-mimetic-linebreaks br {
+div.card-body.no-mimetic-linebreaks br.tei_lb {
     display: none;
+}
+
+div.card-body.mimetic-linebreaks br.tei_lb {
+    display: unset;
+}
+
+div.card-body.mimetic-linebreaks br.tei_lb:before{
+    content: "-";
+    display: inline;
 }
 
 .index-card .card-body {
