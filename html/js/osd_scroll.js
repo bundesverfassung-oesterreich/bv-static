@@ -46,12 +46,14 @@ const viewer = new OpenSeadragon.Viewer({
   prefixUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
   tileSources: tileSources,
-  homeFillsViewer: false,
+  //homeFillsViewer: false,
+  visibilityRatio: 1,
   sequenceMode: true,
   showNavigationControl: true,
   showNavigator: false,
   showSequenceControl: false,
   showZoomControl: true,
+  //defaultZoomLevel: 1,
   zoomInButton:   "osd_zoom_in_button",
   zoomOutButton:  "osd_zoom_out_button",
   homeButton : "osd_zoom_reset_button",
@@ -59,36 +61,63 @@ const viewer = new OpenSeadragon.Viewer({
 });
 
 viewer.viewport.goHome = function () {
-  fitVertically_align_left();
+  fitVertically_align_left_bottom();
 }
 
 // function & event handler to set hight of image to max and pan the image to the left
 // this is done via this handler & not in the load function due to laoding the initial tile via the
 // tile source opt in constructor. 
 
-function fitVertically_align_left() {
+function fitVertically_align_left_top() {
   let tiledImage = viewer.world.getItemAt(0);
   let bounds = viewer.viewport.getBounds(true);
   var newBounds = new OpenSeadragon.Rect(0, 0, 1, bounds.height / bounds.width);
-  if (tiledImage.normHeight < newBounds.height) {
-    newBounds.y = tiledImage.normHeight - newBounds.height;
-  };
   console.log(newBounds);
   console.log(tiledImage);
-  viewer.viewport.fitBounds(newBounds, true);
-}
-function home(viewer){
-  viewer.raiseEvent('home', {
-    immediately: immediately
-  });
-  return viewer.fitBounds(viewer.getHomeBounds(), immediately);
+  viewer.viewport.fitBoundsWithConstraints(newBounds, true);
 }
 
-viewer.addHandler("tile-loaded", (x) => {fitVertically_align_left(viewer)});
+
+function getCoverBounds(imageBounds, viewportBounds) {
+  var scaleForWidth = imageBounds.width / viewportBounds.width;
+  var scaleForHeight = imageBounds.height / viewportBounds.height;
+  
+  var x, y, width, height;
+  if (scaleForWidth < scaleForHeight) {
+    x = imageBounds.x;
+    width = imageBounds.width;
+    height = scaleForWidth * viewportBounds.height;
+    y = (viewportBounds.height - height) / 2;
+  } else {
+    y = imageBounds.y;
+    height = imageBounds.height;
+    width = scaleForHeight * viewportBounds.width;
+    x = (viewportBounds.width - width) / 2;
+  }
+  
+  var newBounds = OpenSeadragon.Rect(x, y, width, height);
+  return newBounds;
+}
+
+
+function fitVertically_align_left_bottom() {
+  let tiledImage = viewer.world.getItemAt(0);
+  let bounds = viewer.viewport.getBounds(true);
+  console.log(tiledImage);
+  var newBounds = new OpenSeadragon.Rect(0, 0, 1, tiledImage.normHeight);
+  if (tiledImage.normHeight < bounds.height) {
+    bounds.y = tiledImage.normHeight - bounds.height;
+  };
+  console.log(bounds);
+  console.log(newBounds);
+  viewer.viewport.fitBoundsWithConstraints(newBounds, true);
+}
+
+viewer.addHandler("tile-loaded", (x) => {fitVertically_align_left_bottom(viewer)});
 
 /*
 ##################################################################
-index and previous index for click navigation in osd viewer
+index and previous index for click navigation in osd0viewer
 locate index of anchor element
 ##################################################################
 */
@@ -323,7 +352,7 @@ addEventListener("resize", function (event) {
     let resized = resize_facsContainer();
     if (resized) {
         viewer.forceResize();
-        fitVertically_align_left(viewer);
+        fitVertically_align_left_bottom(viewer);
     };
     check_bottom_whitespace_of_textWrapper();
   }
