@@ -100,7 +100,7 @@ function getCoverBounds(imageBounds, viewportBounds) {
 }
 
 
-function fitVertically_align_left_bottom() {
+function fitVertically_align_left_bottom_bak() {
   let tiledImage = viewer.world.getItemAt(0);
   let bounds = viewer.viewport.getBounds(true);
   console.log(tiledImage);
@@ -108,6 +108,33 @@ function fitVertically_align_left_bottom() {
   console.log(bounds);
   console.log(newBounds);
   viewer.viewport.fitBounds(newBounds, true);
+}
+
+function fitVertically_align_left_bottom() {
+  let initial_bounds = viewer.viewport.getBounds();
+  let ratio = initial_bounds.width / initial_bounds.height;
+  let tiledImage = viewer.world.getItemAt(0);
+  if (ratio > tiledImage.contentAspectX) {
+    viewer.viewport.fitVertically(true);
+    let bounds = viewer.viewport.getBounds();
+    console.log(tiledImage);
+    console.log(bounds);
+    // this shouldnt work but it does
+    let x = bounds.width/2;
+    let y = bounds.height/2;
+    var point = new OpenSeadragon.Point(x,y);
+  } else {
+    viewer.viewport.fitHorizontally(true);
+    let bounds = viewer.viewport.getBounds();
+    console.log(tiledImage);
+    console.log(bounds);
+    let x = bounds.width/2;
+    let diff = bounds.height - tiledImage.normHeight;
+    let y = (bounds.height/2) - diff;
+    var point = new OpenSeadragon.Point(x,y);
+  }
+  console.log(point);
+  viewer.viewport.panTo(point, true);
 }
 
 viewer.addHandler("tile-loaded", (x) => {fitVertically_align_left_bottom(viewer)});
