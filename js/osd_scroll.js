@@ -54,8 +54,8 @@ const viewer = new OpenSeadragon.Viewer({
   showSequenceControl: false,
   showZoomControl: true,
   //defaultZoomLevel: 1,
-  zoomInButton:   "osd_zoom_in_button",
-  zoomOutButton:  "osd_zoom_out_button",
+  zoomInButton: "osd_zoom_in_button",
+  zoomOutButton: "osd_zoom_out_button",
   homeButton : "osd_zoom_reset_button",
   constrainDuringPan: true,
 });
@@ -77,25 +77,12 @@ function fitVertically_align_left_top() {
   viewer.viewport.fitBoundsWithConstraints(newBounds, true);
 }
 
-function fitVertically_align_left_bottom_bak() {
-  let tiledImage = viewer.world.getItemAt(0);
-  let bounds = viewer.viewport.getBounds(true);
-  console.log(tiledImage);
-  var newBounds = new OpenSeadragon.Rect(bounds.x, 0, 1, bounds.height / bounds.width);  
-  console.log(bounds);
-  console.log(newBounds);
-  viewer.viewport.fitBounds(newBounds, true);
-}
-
 function fitVertically_align_left_bottom(){
   let initial_bounds = viewer.viewport.getBounds();
-  console.log(initial_bounds);
   let ratio = initial_bounds.width / initial_bounds.height;
   console.log(viewer.world.getItemCount());
   let tiledImage = viewer.world.getItemAt(viewer.world.getItemCount()-1);
   console.log(viewer.world);
-  console.log(tiledImage);
-  console.log(ratio);
   if (ratio > tiledImage.contentAspectX) {
     var new_width = tiledImage.normHeight * ratio;
     var new_bounds = new OpenSeadragon.Rect(0, 0 , new_width, tiledImage.normHeight)
@@ -105,9 +92,7 @@ function fitVertically_align_left_bottom(){
     let bounds_y = -(new_height - tiledImage.normHeight);
     var new_bounds = new OpenSeadragon.Rect(0, bounds_y, 1, new_height);
   }
-  console.log(new_bounds);
   viewer.viewport.fitBounds(new_bounds, true);
-  console.log(`is ${viewer.viewport.getBounds()}`);
 }
 
 
