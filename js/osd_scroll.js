@@ -129,7 +129,7 @@ function fitVertically_align_left_bottom() {
   } else {
     var new_height = 1 / ratio;
     let height_diff = new_height - tiledImage.normHeight;
-    let bounds_y = (new_height/2) - height_diff;
+    let bounds_y = -(height_diff);
     let new_bounds = new OpenSeadragon.Rect(0, bounds_y, 1, new_height);
     viewer.viewport.fitHorizontally(true);
     let bounds = viewer.viewport.getBounds();
