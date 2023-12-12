@@ -104,13 +104,10 @@ function fitVertically_align_left_bottom() {
   let tiledImage = viewer.world.getItemAt(0);
   let bounds = viewer.viewport.getBounds(true);
   console.log(tiledImage);
-  var newBounds = new OpenSeadragon.Rect(0, 0, 1, tiledImage.normHeight);
-  if (tiledImage.normHeight < bounds.height) {
-    bounds.y = tiledImage.normHeight - bounds.height;
-  };
+  var newBounds = new OpenSeadragon.Rect(bounds.x, 0, 1, bounds.height / bounds.width);  
   console.log(bounds);
   console.log(newBounds);
-  viewer.viewport.fitBoundsWithConstraints(newBounds, true);
+  viewer.viewport.fitBounds(newBounds, true);
 }
 
 viewer.addHandler("tile-loaded", (x) => {fitVertically_align_left_bottom(viewer)});
