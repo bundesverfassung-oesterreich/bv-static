@@ -46,14 +46,12 @@ const viewer = new OpenSeadragon.Viewer({
   prefixUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
   tileSources: tileSources,
-  //homeFillsViewer: false,
   visibilityRatio: 1,
   sequenceMode: true,
   showNavigationControl: true,
   showNavigator: false,
   showSequenceControl: false,
   showZoomControl: true,
-  //defaultZoomLevel: 1,
   zoomInButton: "osd_zoom_in_button",
   zoomOutButton: "osd_zoom_out_button",
   homeButton : "osd_zoom_reset_button",
@@ -202,9 +200,10 @@ function add_image_to_viewer(new_image) {
       url: new_image,
       success: function (event) {
         function ready() {
-          setTimeout(() => {
-            viewer.world.removeItem(viewer.world.getItemAt(0));
-          }, 200);
+          //setTimeout(() => {
+          //  viewer.world.removeItem(viewer.world.getItemAt(0));
+          //}, 200);
+          viewer.world.removeItem(viewer.world.getItemAt(0));
         }
         // test if item was loaded and trigger function to remove previous item
         if (event.item) {
