@@ -625,6 +625,14 @@ div.card-body.no-mimetic-linebreaks {
     max-width: 40rem;
 }
 
+div.card-body {
+    max-width: 60rem;
+}
+
+div.card-body.no-mimetic-linebreaks {
+    max-width: 40rem;
+}
+
 div.card-body.no-mimetic-linebreaks br.tei_lb {
     display: none;
 }
