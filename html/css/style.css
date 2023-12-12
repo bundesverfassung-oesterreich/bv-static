@@ -31,12 +31,6 @@ a {
     color: var(--bv-big-highlight);
 }
 
-/*div#container_facs_1 {
-    height: 1041px !important;
-    width: 836px !important;
-}*/
-
-
 /*left align any content text per default*/
 div.container h1,
 div.container h2,
