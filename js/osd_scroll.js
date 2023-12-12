@@ -65,9 +65,7 @@ viewer.viewport.goHome = function () {
 function fitVertically_align_left_bottom(){
   let initial_bounds = viewer.viewport.getBounds();
   let ratio = initial_bounds.width / initial_bounds.height;
-  console.log(viewer.world.getItemCount());
   let tiledImage = viewer.world.getItemAt(viewer.world.getItemCount()-1);
-  console.log(viewer.world);
   if (ratio > tiledImage.contentAspectX) {
     var new_width = tiledImage.normHeight * ratio;
     var new_bounds = new OpenSeadragon.Rect(0, 0 , new_width, tiledImage.normHeight)
