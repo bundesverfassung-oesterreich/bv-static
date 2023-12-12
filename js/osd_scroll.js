@@ -62,19 +62,6 @@ viewer.viewport.goHome = function () {
   fitVertically_align_left_bottom();
 }
 
-// function & event handler to set hight of image to max and pan the image to the left
-// this is done via this handler & not in the load function due to laoding the initial tile via the
-// tile source opt in constructor. 
-
-function fitVertically_align_left_top() {
-  let tiledImage = viewer.world.getItemAt(0);
-  let bounds = viewer.viewport.getBounds(true);
-  var newBounds = new OpenSeadragon.Rect(0, 0, 1, bounds.height / bounds.width);
-  console.log(newBounds);
-  console.log(tiledImage);
-  viewer.viewport.fitBoundsWithConstraints(newBounds, true);
-}
-
 function fitVertically_align_left_bottom(){
   let initial_bounds = viewer.viewport.getBounds();
   let ratio = initial_bounds.width / initial_bounds.height;
@@ -91,45 +78,6 @@ function fitVertically_align_left_bottom(){
     var new_bounds = new OpenSeadragon.Rect(0, bounds_y, 1, new_height);
   }
   viewer.viewport.fitBounds(new_bounds, true);
-}
-
-
-function fitVertically_align_left_bottom_test() {
-  let initial_bounds = viewer.viewport.getBounds();
-  console.log(initial_bounds);
-  let ratio = initial_bounds.width / initial_bounds.height;
-  let tiledImage = viewer.world.getItemAt(0);
-  console.log(tiledImage);
-  console.log(ratio);
-  if (ratio > tiledImage.contentAspectX) {
-    var new_width = tiledImage.normHeight * ratio;
-    let new_bounds = new OpenSeadragon.Rect(0, 0 , new_width, tiledImage.normHeight)
-    viewer.viewport.fitVertically(true);
-    let bounds = viewer.viewport.getBounds();
-    console.log(`would have been ${new_bounds}`);
-    bounds.x = 0;
-    bounds.y = 0;
-    viewer.viewport.fitBounds(new_bounds, true);
-  } else {
-    var new_height = 1 / ratio;
-    let height_diff = new_height - tiledImage.normHeight;
-    let bounds_y = -(height_diff);
-    let new_bounds = new OpenSeadragon.Rect(0, bounds_y, 1, new_height);
-    viewer.viewport.fitHorizontally(true);
-    let bounds = viewer.viewport.getBounds();
-    bounds.x = 0;
-    let diff = bounds.height - tiledImage.normHeight;
-    bounds.y = -(tiledImage.normHeight/2) + diff;
-    console.log(`would have been ${new_bounds}`);
-    let x = bounds.width/2;
-    let y = (bounds.height/2) - diff;
-    var point = new OpenSeadragon.Point(x,y);
-    //var point = new OpenSeadragon.Point(x,y);
-    //viewer.viewport.fitBounds(bounds, true);
-    //viewer.viewport.panTo(point, true);
-    viewer.viewport.fitBounds(new_bounds, true);
-  }
-  console.log(`is ${viewer.viewport.getBounds()}`);
 }
 
 viewer.addHandler("tile-loaded", (x) => {fitVertically_align_left_bottom(viewer)});
