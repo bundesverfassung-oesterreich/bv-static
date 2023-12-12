@@ -77,29 +77,6 @@ function fitVertically_align_left_top() {
   viewer.viewport.fitBoundsWithConstraints(newBounds, true);
 }
 
-
-function getCoverBounds(imageBounds, viewportBounds) {
-  var scaleForWidth = imageBounds.width / viewportBounds.width;
-  var scaleForHeight = imageBounds.height / viewportBounds.height;
-  
-  var x, y, width, height;
-  if (scaleForWidth < scaleForHeight) {
-    x = imageBounds.x;
-    width = imageBounds.width;
-    height = scaleForWidth * viewportBounds.height;
-    y = (viewportBounds.height - height) / 2;
-  } else {
-    y = imageBounds.y;
-    height = imageBounds.height;
-    width = scaleForHeight * viewportBounds.width;
-    x = (viewportBounds.width - width) / 2;
-  }
-  
-  var newBounds = OpenSeadragon.Rect(x, y, width, height);
-  return newBounds;
-}
-
-
 function fitVertically_align_left_bottom_bak() {
   let tiledImage = viewer.world.getItemAt(0);
   let bounds = viewer.viewport.getBounds(true);
@@ -110,7 +87,31 @@ function fitVertically_align_left_bottom_bak() {
   viewer.viewport.fitBounds(newBounds, true);
 }
 
-function fitVertically_align_left_bottom() {
+function fitVertically_align_left_bottom(){
+  let initial_bounds = viewer.viewport.getBounds();
+  console.log(initial_bounds);
+  let ratio = initial_bounds.width / initial_bounds.height;
+  console.log(viewer.world.getItemCount());
+  let tiledImage = viewer.world.getItemAt(viewer.world.getItemCount()-1);
+  console.log(viewer.world);
+  console.log(tiledImage);
+  console.log(ratio);
+  if (ratio > tiledImage.contentAspectX) {
+    var new_width = tiledImage.normHeight * ratio;
+    var new_bounds = new OpenSeadragon.Rect(0, 0 , new_width, tiledImage.normHeight)
+   
+  } else {
+    var new_height = 1 / ratio;
+    let bounds_y = -(new_height - tiledImage.normHeight);
+    var new_bounds = new OpenSeadragon.Rect(0, bounds_y, 1, new_height);
+  }
+  console.log(new_bounds);
+  viewer.viewport.fitBounds(new_bounds, true);
+  console.log(`is ${viewer.viewport.getBounds()}`);
+}
+
+
+function fitVertically_align_left_bottom_test() {
   let initial_bounds = viewer.viewport.getBounds();
   console.log(initial_bounds);
   let ratio = initial_bounds.width / initial_bounds.height;
@@ -125,7 +126,7 @@ function fitVertically_align_left_bottom() {
     console.log(`would have been ${new_bounds}`);
     bounds.x = 0;
     bounds.y = 0;
-    viewer.viewport.fitBounds(bounds, true);
+    viewer.viewport.fitBounds(new_bounds, true);
   } else {
     var new_height = 1 / ratio;
     let height_diff = new_height - tiledImage.normHeight;
@@ -142,7 +143,8 @@ function fitVertically_align_left_bottom() {
     var point = new OpenSeadragon.Point(x,y);
     //var point = new OpenSeadragon.Point(x,y);
     //viewer.viewport.fitBounds(bounds, true);
-    viewer.viewport.panTo(point, true);
+    //viewer.viewport.panTo(point, true);
+    viewer.viewport.fitBounds(new_bounds, true);
   }
   console.log(`is ${viewer.viewport.getBounds()}`);
 }
@@ -161,6 +163,7 @@ const a_elements = document.getElementsByClassName("anchor-pb");
 const max_index = (a_elements.length - 1);
 const prev = document.getElementById("osd_prev_button");
 const next = document.getElementById("osd_next_button");
+
 /*
 ##################################################################
 triggers on scroll and switches osd viewer image base on 
@@ -168,6 +171,7 @@ viewport position of next and previous element with class pb
 pb = pagebreaks
 ##################################################################
 */
+
 function load_top_viewport_image(check=false) {
   // elements in view
   console.log("… scrolling …")
@@ -227,6 +231,7 @@ function add_image_to_viewer(new_image) {
     }
   );
 }
+
 
 function loadNewImage(new_item, dont_check=false) {
   if (new_item) {
