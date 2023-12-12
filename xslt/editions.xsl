@@ -251,7 +251,14 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:lb">
-        <br class="tei_lb" />
+        <xsl:choose>
+            <xsl:when test="@break='no'">
+                <br class="tei_lb line_breaks_in_word"/>
+            </xsl:when>
+            <xsl:when test="@break='yes'">
+                <br class="tei_lb"/>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:p | tei:lg">
         <!-- simply keep paragraphs -->

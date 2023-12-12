@@ -103,7 +103,6 @@ pb = pagebreaks
 
 function load_top_viewport_image(check=false) {
   // elements in view
-  console.log("… scrolling …")
   let first_pb_element_in_viewport = undefined;
   for (let pb_element of pb_elements) {
     if (isInViewport(pb_element)) {

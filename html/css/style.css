@@ -621,6 +621,14 @@ h3 a i.fas {
     color: var(--bv-big-highlight);
 }
 
+div.card-body.no-mimetic-linebreaks {
+    max-width: 40rem;
+}
+
+div.card-body.no-mimetic-linebreaks br {
+    display: none;
+}
+
 .index-card .card-body {
     background-color: transparent;
     border: none;
