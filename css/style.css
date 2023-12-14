@@ -641,7 +641,7 @@ div.card-body.mimetic-linebreaks br.tei_lb {
     display: unset;
 }
 
-div.card-body.mimetic-linebreaks br.tei_lb:before{
+div.card-body.mimetic-linebreaks br.tei_lb.line_breaks_in_word:before{
     content: "-";
     display: inline;
 }
