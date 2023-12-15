@@ -6,7 +6,9 @@
     /*#007452*/
     --bv-big-highlight: rgb(var(--bv-big-highlight-rgb));
     /*--bv-contrast: black;*/
-    --bv-contrast: yellow;
+    /*--bv-contrast:  hsl(162, 100%, 23%);*/
+    --bv-contrast:  hsl(158, 77%, 69%);
+    /*--bv-contrast:  hsl(150, 80%, 43%);*/
 }
 
 *, :after, :before {
