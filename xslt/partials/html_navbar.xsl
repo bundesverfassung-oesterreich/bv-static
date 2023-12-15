@@ -30,36 +30,36 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__about_toplevel" ></a>
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Einführung</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="about_project.html"  data-i18n="navbar__about_project" ></a>
+                                        <a class="dropdown-item" href="about_project.html">Das Projekt</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="about_bvg.html"  data-i18n="navbar__about_bvg" ></a>
+                                        <a class="dropdown-item" href="about_bvg.html">Das Bundes-Verfassungsgesetz</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="toc.html"  data-i18n="navbar__toc" ></a>
+                                <a class="nav-link" href="toc.html">Quellen</a>
                             </li>
                             <li class="nav-item dropdown disabled">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-i18n="navbar__register" ></a>
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Register</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html"  data-i18n="navbar__persons"  ></a>
+                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html" >Personen</a>
                                     </li>
                                     <li>
-                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html"  data-i18n="navbar__orgs" ></a>
+                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html">Organsisationen</a>
                                     </li>
                                     <li>
-                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html"  data-i18n="navbar__works" ></a>
+                                        <a style="color: grey;" class="dropdown-item" href="./no_data.html">Werke</a>
                                     </li>
                                 </ul>
                             </li>
                             
                             <li class="nav-item">
-                                <a title="Volltextsuche" class="nav-link" href="search.html"  data-i18n="navbar__search" ></a>
+                                <a title="Volltextsuche" class="nav-link" href="search.html">Volltextsuche</a>
                             </li>
                         </ul>
                         <div class="flex" id="navbar_right_spacer"></div>
