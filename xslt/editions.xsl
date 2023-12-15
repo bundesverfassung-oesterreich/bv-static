@@ -163,8 +163,8 @@
                                                 <button class="osd_nav_element" id="osd_prev_button">&#8592;</button>
                                                 <button class="osd_nav_element" id="osd_next_button">&#8594;</button>
                                                 <button class="osd_nav_element" id="osd_zoom_out_button">–</button>
+                                                <button class="osd_nav_element" id="osd_zoom_reset_button">Ø</button>
                                                 <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
-                                                <button class="osd_nav_element" id="osd_zoom_reset_button">0</button>
                                             </div>
                                             <p>Das Original befindet sich im Eigentum des Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>)“.</span> Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des ÖStA entsprechend der geltenden Benutzungsordnung.</p>
                                         </div>
