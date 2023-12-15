@@ -630,27 +630,19 @@ h3 a i.fas {
     color: var(--bv-big-highlight);
 }
 
-div.card-body.no-mimetic-linebreaks {
-    max-width: 40rem;
-}
+/* default: display no linebreaks */
 
 div#text-resize div.card-body {
-    max-width: 60rem;
-}
-
-div.card-body.no-mimetic-linebreaks {
     max-width: 40rem;
 }
 
-div.card-body.no-mimetic-linebreaks br.tei_lb {
+div.card-body br.tei_lb {
     display: none;
 }
 
-div.card-body.mimetic-linebreaks br.tei_lb {
-    display: unset;
-}
+/* mimetic-linebreaks triggers display of lb */
 
-div.card-body br.tei_lb.line_breaks_in_word:before{
+div.card-body.mimetic-linebreaks br.tei_lb {
     content: "-";
     display: inline;
 }
