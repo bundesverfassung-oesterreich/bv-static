@@ -38,7 +38,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" href="css/micro-editor.css" type="text/css" /><script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script><script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script><script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.2/i18nextHttpBackend.min.js"></script><meta charset="UTF-8" />
+      <link rel="stylesheet" href="css/micro-editor.css" type="text/css" />
+      <meta charset="UTF-8" />
       <meta name="description" content="Die Entstehung der Österreichischen Bundes-Verfassung 1920" />
       <meta name="keywords" content="Bundes-Verfassungsgesetz, B-VG, Verfassung Österreich, Bundesverfassung, Unterausschuss des Verfassungsausschusses, UA 26. August 1920 Textvariante" />
       <meta name="author" content="Thomas Olechowski" />
@@ -62,19 +63,19 @@
                <div id="main_navbar_flex_container" class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="images/b-vg-logo-1-white.svg" class="img-fluid" title="B-VG 1920" alt="B-VG 1920" itemprop="logo" /></a><span class="badge bg-light text-dark">in development</span><button id="media-menu-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" class="navbar-toggler-icon" height="16" width="14" viewBox="0 0 448 512">
                         <path fill="#f8f9ec" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button><div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                      <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="navbar__about_toplevel"></a><ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="about_project.html" data-i18n="navbar__about_project"></a></li>
-                              <li><a class="dropdown-item" href="about_bvg.html" data-i18n="navbar__about_bvg"></a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Einführung</a><ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="about_project.html">Das Projekt</a></li>
+                              <li><a class="dropdown-item" href="about_bvg.html">Das Bundes-Verfassungsgesetz</a></li>
                            </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="toc.html" data-i18n="navbar__toc"></a></li>
-                        <li class="nav-item dropdown disabled"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="navbar__register"></a><ul class="dropdown-menu">
-                              <li><a style="color: grey;" class="dropdown-item" href="./no_data.html" data-i18n="navbar__persons"></a></li>
-                              <li><a style="color: grey;" class="dropdown-item" href="./no_data.html" data-i18n="navbar__orgs"></a></li>
-                              <li><a style="color: grey;" class="dropdown-item" href="./no_data.html" data-i18n="navbar__works"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="toc.html">Quellen</a></li>
+                        <li class="nav-item dropdown disabled"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Register</a><ul class="dropdown-menu">
+                              <li><a style="color: grey;" class="dropdown-item" href="./no_data.html">Personen</a></li>
+                              <li><a style="color: grey;" class="dropdown-item" href="./no_data.html">Organsisationen</a></li>
+                              <li><a style="color: grey;" class="dropdown-item" href="./no_data.html">Werke</a></li>
                            </ul>
                         </li>
-                        <li class="nav-item"><a title="Volltextsuche" class="nav-link" href="search.html" data-i18n="navbar__search"></a></li>
+                        <li class="nav-item"><a title="Volltextsuche" class="nav-link" href="search.html">Volltextsuche</a></li>
                      </ul>
                      <div class="flex" id="navbar_right_spacer"></div>
                   </div>
@@ -2511,5 +2512,5 @@
             </div>
          </div>
          <div class="footer-imprint-bar text-light hide-reading" id="wrapper-footer-secondary">
-            © Copyright OEAW | <a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="js/listStopProp.js"></script><script src="js/i18n.js"></script></div><script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script><script type="text/javascript" src="js/osd_scroll.js"></script><script type="text/javascript" src="js/run.js"></script><script type="text/javascript" src="js/offcanvastoggler.js"></script></body>
+            © Copyright OEAW | <a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="js/listStopProp.js"></script></div><script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script><script type="text/javascript" src="js/osd_scroll.js"></script><script type="text/javascript" src="js/run.js"></script><script type="text/javascript" src="js/offcanvastoggler.js"></script></body>
 </html>
