@@ -80,14 +80,15 @@ button#media-menu-toggler:hover {
 }
 
 #navbarSupportedContent a.nav-link {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.7rem;
+    font-weight: 900;
 }
 
 .navbar-nav ul li a {
     background-color: var(--bv-big-highlight);
     color: var(--bv-main-bg-color);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .navbar-nav ul li a:hover, 
