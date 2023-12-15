@@ -5,6 +5,8 @@
     --bv-big-highlight-rgb: 0, 116, 82;
     /*#007452*/
     --bv-big-highlight: rgb(var(--bv-big-highlight-rgb));
+    /*--bv-contrast: black;*/
+    --bv-contrast: yellow;
 }
 
 *, :after, :before {
@@ -94,7 +96,11 @@ button#media-menu-toggler:hover {
 .navbar-nav ul li a:hover, 
 .navbar-nav ul li a:active {
     background-color: var(--bv-big-highlight);
-    color: black;
+    color: var(--bv-contrast);
+}
+
+.nav-link:focus, .nav-link:hover {
+	color: var(--bv-contrast);
 }
 
 div#navbarSupportedContent div#navbar_right_spacer {
@@ -482,7 +488,8 @@ a.nav-link.dropdown-toggle{
 
 a.nav-link.dropdown-toggle.show,
 a.nav-link.dropdown-toggle:active {
-    border-left: 0.2rem solid black;
+    border-left: 0.2rem solid var(--bv-contrast);
+    color: var(--bv-contrast);
 }
 
 li ul.dropdown-menu.show {
@@ -490,7 +497,7 @@ li ul.dropdown-menu.show {
     /*color: var(--bv-main-bg-color);*/
     color: var(--bv-main-bg-color);
     border: none;
-    border-left: 0.2rem solid black;
+    border-left: 0.2rem solid var(--bv-contrast);
     margin-top: 0;
     border-radius: 0;
 }
