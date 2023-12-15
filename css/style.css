@@ -634,7 +634,7 @@ div.card-body.no-mimetic-linebreaks {
     max-width: 40rem;
 }
 
-div.card-body {
+div#text-resize div.card-body {
     max-width: 60rem;
 }
 
