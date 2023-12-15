@@ -239,7 +239,7 @@
          <div type="main">
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <p>
-               <hi rend="bold:true;">unleserlich</hi>
+               <hi rend="bold">unleserlich</hi>
                <lb break="yes"/>Sozialdemokratischer Entwurf
       <lb break="yes"/>einer
       <lb break="yes"/>Bundesversassung.
@@ -263,8 +263,8 @@
       <lb break="yes"/>und wird gebildet von den Ländern: Kärnten, Niederöster
 <lb break="no"/>reich. Oberösterreich, Salzburg, Steiermark, Tirol, Vor
 <lb break="no"/>arlberg und Wien.
-      <lb break="yes"/>(2) Das <hi rend="underlined:true;">Burgenland </hi>wird als Land dem Bund ange
-<lb break="no"/>gliedert, sobald seine Bevölkerung durch freie <hi rend="underlined:true;">Volksab</hi>
+      <lb break="yes"/>(2) Das <ul>Burgenland </ul>wird als Land dem Bund ange
+<lb break="no"/>gliedert, sobald seine Bevölkerung durch freie <ul>Volksab</ul>
                   <lb break="no"/>stimmung darüber entschieden hat.</p>
             </div>
             <div type="article">
@@ -357,10 +357,10 @@
       <lb break="yes"/>übertragen:
       <lb break="yes"/>1. die auswärtigen Angelegenheiten mit Einschluß der
       <lb break="yes"/>politischen und wirtschaftlichen Vertretung gegenüber dem
-      <lb break="yes"/>Auslande; die Grenzvermarkung; die Regelung des Waren¬
+      <lb break="yes"/>Auslande; die Grenzvermarkung; die Regelung des Waren-
       <lb break="yes"/>und Viehverkehres mit dem Auslande; das Zollwesen;
       <lb break="yes"/>2. die Regelung und Ueberwachung des Eintrittes in
-      <lb break="yes"/>das Bundesgebiet und des Austrittes aus diesem; das Ein¬
+      <lb break="yes"/>das Bundesgebiet und des Austrittes aus diesem; das Ein-
       <lb break="yes"/>und Auswanderungswesen; die Abschiebung, Abschaffung
       <lb break="yes"/>Ausweisung und Auslieferung aus dem Bundesgebiet sowie
       <lb break="yes"/>die Durchlieferung;
@@ -463,7 +463,7 @@
                <p>574</p>
                <pb facs="#facs_5" n="5" xml:id="img_0005"/>
                <p>8. das Gesundheitswesen mit Ausnahme der Heil= und
-      <lb break="yes"/>Pflegeanstalten und Ambularien, des Kurorte-, Leichen¬
+      <lb break="yes"/>Pflegeanstalten und Ambularien, des Kurorte-, Leichen-
       <lb break="yes"/>und Begräbniswesens, sowie des Gemeindesanitätsdienstes
       <lb break="yes"/>und Rettungswesens; das Volkswohnungs- und Volks
 <lb break="no"/>pflegestättenwesen; das Beterinärwesen:
@@ -489,7 +489,7 @@
       <lb break="yes"/>Bundesgesetzgebung für:
       <lb break="yes"/>1. die Organisation der Verwaltung in den Ländern;
       <lb break="yes"/>2. das Armenwesen; die Bevölkerungspolitik;
-      <lb break="yes"/>Mutterschafts=, Säuglings= und Jugendfürsorge; das Heil¬
+      <lb break="yes"/>Mutterschafts=, Säuglings= und Jugendfürsorge; das Heil-
       <lb break="yes"/>und Pflegeanstaltenwesen, einschließlich der Ambulatorien
       <lb break="yes"/>die Ausgrabung und Ueberführung von Leichen;
       <lb break="yes"/>3. die Einrichtungen zum Schutze der Gesellschaft gegen
@@ -589,7 +589,7 @@
 <lb break="no"/>lichen Selbstverwaltung heranzuziehen.
       <lb break="yes"/>Die Mitwirkung der Betriebsräte, der Gewerkschaften
       <lb break="yes"/>und Berufsvereine der Arbeiter und Angestellten und der
-      <lb break="yes"/>Kammern für Arbeiter und Angestellte, sowie der Erwerbs¬
+      <lb break="yes"/>Kammern für Arbeiter und Angestellte, sowie der Erwerbs-
       <lb break="yes"/>und Wirtschaftsgenossenschaften der Landwirte sowie der Ar
 <lb break="no"/>beiter und Angestellten an der wirtschaftlichen Selbstverwal
 <lb break="no"/>tung ist gewährleistet.
