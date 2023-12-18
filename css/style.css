@@ -633,10 +633,10 @@ h3 a i.fas {
 /* default: display no linebreaks */
 
 div#text-resize div.card-body.mimetic_lbs {
-    max-width: 40rem;
+    max-width: 55rem;
 }
 div#text-resize div.card-body.non_mimetic_lbs {
-    max-width: 55rem;
+    max-width: 40rem;
 }
 
 /* START
