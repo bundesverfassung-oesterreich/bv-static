@@ -632,17 +632,15 @@ h3 a i.fas {
 
 /* default: display no linebreaks */
 
-div#text-resize div.card-body {
+div#text-resize div.card-body.mimetic_lbs {
     max-width: 40rem;
+}
+div#text-resize div.card-body.non_mimetic_lbs {
+    max-width: 55rem;
 }
 
 /* START
     of lb handling */
-
-/*
-div.card-body span.tei_lb {
-    display: inline;
-}*/
 
 div.card-body span.tei_lb::before {
     content: " ";
