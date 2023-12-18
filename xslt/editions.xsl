@@ -212,7 +212,7 @@
                     
                     <xsl:call-template name="html_footer"/>
                 </div>
-                <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
+                <script src="https://unpkg.com/de-micro-editor@0.2.84/dist/de-editor.min.js"/>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"/>
                 <script type="text/javascript" src="js/osd_scroll.js"/>
                 <script type="text/javascript" src="js/run.js"/>
@@ -250,28 +250,20 @@
     <xsl:template match="tei:ab">
         <p><xsl:apply-templates/></p>
     </xsl:template>
-    <!--<xsl:template match="tei:lb">
-         <xsl:choose>
-         <xsl:when test="@break='no'">
-         <br class="tei_lb line_breaks_in_word"/>
-         </xsl:when>
-         <xsl:when test="@break='yes'">
-         <br class="tei_lb"/>
-         </xsl:when>
-         </xsl:choose>
-         </xsl:template>-->
 
+    <!-- handle lb-elements / convert them to span -->
     <xsl:template match="text()[following-sibling::tei:lb[1][@break='no']]">
         <xsl:value-of select="normalize-space(.)"/>
-        <span class="tei_lb line_breaks_in_word"></span>
+        <span class="tei_lb line_breaks_in_word"/>
     </xsl:template>
     <xsl:template match="text()[following-sibling::tei:lb[1][@break='yes']]">
         <xsl:value-of select="."/>
-        <span class="tei_lb"></span>
+        <span class="tei_lb"/>
     </xsl:template>
     <xsl:template match="tei:lb"/>
+
+    <!-- simply keep paragraphs -->
     <xsl:template match="tei:p | tei:lg">
-        <!-- simply keep paragraphs -->
         <p>
             <xsl:apply-templates/>
         </p>
