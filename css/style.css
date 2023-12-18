@@ -636,16 +636,43 @@ div#text-resize div.card-body {
     max-width: 40rem;
 }
 
-div.card-body br.tei_lb {
-    display: none;
-}
+/* START
+    of lb handling */
 
-/* mimetic-linebreaks triggers display of lb */
+/*
+div.card-body span.tei_lb {
+    display: inline;
+}*/
 
-div.card-body.mimetic-linebreaks br.tei_lb {
-    content: "-";
+div.card-body span.tei_lb::before {
+    content: " ";
     display: inline;
 }
+
+/* line-breaks not mimetic */
+div.card-body.non_mimetic_lbs span.tei_lb.line_breaks_in_word::before {
+    content: "";
+    display: inline;
+}
+div.card-body.non_mimetic_lbs span.tei_lb::after {
+    content: "";
+    white-space: pre;
+}
+
+/* line-breaks mimetic */
+div.card-body.mimetic_lbs span.tei_lb.line_breaks_in_word::before {
+    content: "-"!important;
+    display: inline;
+}
+
+/* div.card-body span.tei_lb.line_breaks_in_word::after { */
+div.card-body.mimetic_lbs span.tei_lb::after {
+    content: "\a";
+    white-space: pre;
+}
+
+/* END
+    of lb handling */
 
 .index-card .card-body {
     background-color: transparent;
