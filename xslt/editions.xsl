@@ -174,7 +174,7 @@
                                      class="col-md-6 col-lg-6 col-sm-12 text yes-index">
                                     <div id="section">
                                         <xsl:for-each select="//tei:body/tei:div">
-                                            <div class="card-body">
+                                            <div class="card-body non_mimetic_lbs">
                                                 <xsl:apply-templates/>
                                             </div>
                                             <xsl:if test="//tei:note[@type = 'footnote']">
@@ -250,16 +250,26 @@
     <xsl:template match="tei:ab">
         <p><xsl:apply-templates/></p>
     </xsl:template>
-    <xsl:template match="tei:lb">
-        <xsl:choose>
-            <xsl:when test="@break='no'">
-                <br class="tei_lb line_breaks_in_word"/>
-            </xsl:when>
-            <xsl:when test="@break='yes'">
-                <br class="tei_lb"/>
-            </xsl:when>
-        </xsl:choose>
+    <!--<xsl:template match="tei:lb">
+         <xsl:choose>
+         <xsl:when test="@break='no'">
+         <br class="tei_lb line_breaks_in_word"/>
+         </xsl:when>
+         <xsl:when test="@break='yes'">
+         <br class="tei_lb"/>
+         </xsl:when>
+         </xsl:choose>
+         </xsl:template>-->
+
+    <xsl:template match="text()[following-sibling::tei:lb[1][@break='no']]">
+        <xsl:value-of select="normalize-space(.)"/>
+        <span class="tei_lb line_breaks_in_word"></span>
     </xsl:template>
+    <xsl:template match="text()[following-sibling::tei:lb[1][@break='yes']]">
+        <xsl:value-of select="."/>
+        <span class="tei_lb"></span>
+    </xsl:template>
+    <xsl:template match="tei:lb"/>
     <xsl:template match="tei:p | tei:lg">
         <!-- simply keep paragraphs -->
         <p>
@@ -288,19 +298,19 @@
     </xsl:template>
     <!-- delete empty p/hi/div elements -->
     <xsl:template match="
-        *[
-            (
-                local-name() = 'p'
-                or local-name() = 'hi'
-                or local-name() = 'div'
-            )
-            and
-            not(@* | * | comment() | processing-instruction())
-            and normalize-space() = '']"/>
+                    *[
+                    (
+                    local-name() = 'p'
+                    or local-name() = 'hi'
+                    or local-name() = 'div'
+                    )
+                    and
+                    not(@* | * | comment() | processing-instruction())
+                    and normalize-space() = '']"/>
     <xsl:template match="//tei:body//tei:head">
         <!-- find level of head between 1 and 6, the level is not semantical, the hirarchy never interruptet-->
         <xsl:variable name="head_level_number_raw"
-            select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
+                      select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
         <xsl:variable name="head_level_number">
             <xsl:choose>
                 <xsl:when test="$head_level_number_raw gt 6">6</xsl:when>
