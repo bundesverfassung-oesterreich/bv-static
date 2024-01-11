@@ -68,74 +68,57 @@
                             </div>
                         </div>
                         <div class="wp-transcript">
-                            <div class="card-header">
-                                <div class="row" id="edition_metadata">
-                                    <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
-                                        <div class="offcanvas-header">
-                                            <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div class="offcanvas-body">
-                                            <div>
-                                                <ul id="edition_display_options" class="list-unstyled fw-normal pb-1 small">
-                                                    <!--<li >
-                                                         <full-size opt="fls"></full-size>
-                                                         </li>-->
-                                                    <li >
-                                                        <image-switch opt="es"></image-switch>
-                                                    </li>
-                                                    <li >
-                                                        <font-size opt="fs"></font-size>
-                                                    </li>
-                                                    <!--<li >
-                                                         <font-family opt="ff"></font-family>
-                                                         </li>-->
-                                                    <li>
-                                                        <annotation-slider opt="ef"></annotation-slider>
-                                                    </li>
-                                                    <li >
-                                                        <annotation-slider opt="prs"></annotation-slider>
-                                                    </li>
-                                                    <!--<li >
-                                                         <annotation-slider opt="plc"></annotation-slider>
-                                                         </li>-->
-                                                    <li >
-                                                        <annotation-slider opt="wrk"></annotation-slider>
-                                                    </li>
-                                                    <li >
-                                                        <annotation-slider opt="org"></annotation-slider>
-                                                    </li>
-                                                </ul>                                
-                                            </div>
-                                        </div>
+                            <div class="row" id="edition_metadata">
+                                <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
-                                    <div id="docinfo" class="col-md-8 col-lg-8 col-sm-12">
-                                        <xsl:variable name="doc_type" select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
+                                    <div class="offcanvas-body">
                                         <div>
-                                            <h1>
-                                                <xsl:value-of select="concat($doc_title, ' (', $doc_type, ')')"/> 
-                                            </h1>
+                                            <ul id="edition_display_options" class="list-unstyled fw-normal pb-1 small">
+                                                <!--<li >
+                                                     <full-size opt="fls"></full-size>
+                                                     </li>-->
+                                                <li >
+                                                    <image-switch opt="es"></image-switch>
+                                                </li>
+                                                <li >
+                                                    <font-size opt="fs"></font-size>
+                                                </li>
+                                                <!--<li >
+                                                     <font-family opt="ff"></font-family>
+                                                     </li>-->
+                                                <li>
+                                                    <annotation-slider opt="ef"></annotation-slider>
+                                                </li>
+                                                <li >
+                                                    <annotation-slider opt="prs"></annotation-slider>
+                                                </li>
+                                                <!--<li >
+                                                     <annotation-slider opt="plc"></annotation-slider>
+                                                     </li>-->
+                                                <li >
+                                                    <annotation-slider opt="wrk"></annotation-slider>
+                                                </li>
+                                                <li >
+                                                    <annotation-slider opt="org"></annotation-slider>
+                                                </li>
+                                            </ul>                                
                                         </div>
-                                        <p class="document_info">Entstehung: <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
-                                        <p class="document_info"><xsl:value-of select="//tei:text/@type"/></p>
-                                        <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
-                                        <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
                                     </div>
-                                    <div class="col-md-4 col-lg-4 col-sm-12"
-                                         style="text-align:right">
-                                        <xsl:if test="ends-with($next, '.html')">
-                                            <h1>
-                                                <a>
-                                                    <xsl:attribute name="href">
-                                                        <xsl:value-of
-                                                            select="replace($next, '.html', '_facsimile.html')"
-                                                            />
-                                                    </xsl:attribute>
-                                                    <i class="fas fa-chevron-right" title="next"/>
-                                                </a>
-                                            </h1>
-                                        </xsl:if>
+                                </div>
+                                <div id="docinfo" class="col-md-8 col-lg-8 col-sm-12">
+                                    <xsl:variable name="doc_type" select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
+                                    <div>
+                                        <h1>
+                                            <xsl:value-of select="concat($doc_title, ' (', $doc_type, ')')"/> 
+                                        </h1>
                                     </div>
+                                    <p class="document_info">Entstehung: <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
+                                    <p class="document_info"><xsl:value-of select="//tei:text/@type"/></p>
+                                    <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
+                                    <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
                                 </div>
                             </div>
                             <div id="container-resize" class="row transcript active">
@@ -247,10 +230,10 @@
         <span class="tei_lb"/>
     </xsl:template>
     <xsl:template match="tei:lb"/>
-
+    
     <!-- simply keep paragraphs -->
     <xsl:template match="tei:p | tei:lg">
-                <p>
+        <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
