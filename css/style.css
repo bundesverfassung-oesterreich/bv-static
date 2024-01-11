@@ -449,6 +449,7 @@ a.anchorFoot {
 
 .wp-transcript {
     margin: 2em auto;
+    margin-top: 0;
 }
 
 .wp-transcript .card-header {
