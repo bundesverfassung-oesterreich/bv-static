@@ -109,20 +109,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 col-lg-2 col-sm-12">
-                                        <xsl:if test="ends-with($prev, '.html')">
-                                            <h1>
-                                                <a style="background-color:red">
-                                                    <xsl:attribute name="href">
-                                                        <xsl:value-of
-                                                            select="replace($prev, '.html', '_facsimile.html')"
-                                                            />
-                                                    </xsl:attribute>
-                                                    <i class="fas fa-chevron-left" title="prev"/>
-                                                </a>
-                                            </h1>
-                                        </xsl:if>
-                                    </div>
                                     <div id="docinfo" class="col-md-8 col-lg-8 col-sm-12">
                                         <xsl:variable name="doc_type" select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
                                         <div>
@@ -135,7 +121,7 @@
                                         <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
                                         <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
                                     </div>
-                                    <div class="col-md-2 col-lg-2 col-sm-12"
+                                    <div class="col-md-4 col-lg-4 col-sm-12"
                                          style="text-align:right">
                                         <xsl:if test="ends-with($next, '.html')">
                                             <h1>
