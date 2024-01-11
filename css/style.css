@@ -452,6 +452,17 @@ a.anchorFoot {
     margin-top: 0;
 }
 
+#page #edition_metadata {
+    padding: 1rem;
+    padding-left: 4rem;
+    background-color: rgba(var(--bv-big-highlight-rgb), 0.35);
+    margin-bottom: 2rem;
+}
+
+#page #edition_metadata div{
+    background-color: rgba(var(--bv-big-highlight-rgb), 0);
+}
+
 .wp-transcript .card-header {
     padding: 2em 0;
 }
