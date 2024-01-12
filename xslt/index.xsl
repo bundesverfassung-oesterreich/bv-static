@@ -43,7 +43,7 @@
                         <div class="row intro">
                             <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                 <div class="landing_text">
-                                    <img src="./images/b-vg-stemma.svg" alt="genetisches Stemma der Fassungen"/>
+                                    <embed src="./images/b-vg-stemma.svg" alt="genetisches Stemma der Fassungen"/>
                                 </div>
                             </div>
                         </div>
