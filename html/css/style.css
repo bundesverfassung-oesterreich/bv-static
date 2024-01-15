@@ -173,8 +173,13 @@ cite {
 }
 
 
-div#docinfo h1 {
-    font-weight: bold;
+div#docinfo {
+    font-weight: 10;
+}
+
+div#docinfo p.document_info {
+    font-size: medium;
+    margin: unset;
 }
 
 /*rules for anchor hack */
@@ -463,7 +468,7 @@ a.anchorFoot {
 #page #edition_metadata {
     padding: 1rem;
     padding-left: 4rem;
-    background-color: rgba(var(--bv-big-highlight-rgb), 0.35);
+    background-color: rgba(var(--bv-big-highlight-rgb), 0.2);
     margin-bottom: 2rem;
 }
 

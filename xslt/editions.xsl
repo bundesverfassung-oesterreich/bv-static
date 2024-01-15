@@ -112,13 +112,14 @@
                                     <xsl:variable name="doc_type" select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
                                     <div>
                                         <h1>
-                                            <xsl:value-of select="concat($doc_title, ' (', $doc_type, ')')"/> 
+                                            <xsl:value-of select="$doc_title"/> 
                                         </h1>
                                     </div>
-                                    <p class="document_info">Entstehung: <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
+                                    <p class="document_info"><xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
+                                    <p class="document_info"><xsl:value-of select="concat('(', $doc_type), ')'"/></p>
                                     <p class="document_info"><xsl:value-of select="//tei:text/@type"/></p>
-                                    <p class="document_info">Beteiligte Personen: <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
-                                    <p class="document_info"><xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc)"/></p>
+                                    <p class="document_info"><xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
+                                    <p class="document_info"><xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/></p>
                                 </div>
                             </div>
                             <div id="container-resize" class="row transcript active">
