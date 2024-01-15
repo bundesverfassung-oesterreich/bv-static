@@ -110,14 +110,11 @@
                                 </div>
                                 <div id="docinfo" class="col-md-8 col-lg-8 col-sm-12">
                                     <xsl:variable name="doc_type" select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
-                                    <div>
                                         <h1>
                                             <xsl:value-of select="$doc_title"/> 
                                         </h1>
-                                    </div>
                                     <p class="document_info"><xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
-                                    <p class="document_info"><xsl:value-of select="concat('(', $doc_type), ')'"/></p>
-                                    <p class="document_info"><xsl:value-of select="//tei:text/@type"/></p>
+                                    <p class="document_info"><xsl:value-of select="//tei:text/@type"/><xsl:value-of select="concat(' (', $doc_type), ')'"/></p>
                                     <p class="document_info"><xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
                                     <p class="document_info"><xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/></p>
                                 </div>
@@ -138,7 +135,7 @@
                                                 </button>
                                                 <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
                                             </div>
-                                            <p>Das Original befindet sich im Eigentum des Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>)“.</span> Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des ÖStA entsprechend der geltenden Benutzungsordnung.</p>
+                                            <p>Das Original befindet sich im Eigentum des Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>“.</span> Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des ÖStA entsprechend der geltenden Benutzungsordnung.</p>
                                         </div>
                                     </div>
                                 </div>
