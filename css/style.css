@@ -1,5 +1,5 @@
 :root {
-    --bv-main-bg-color: rgb(248, 249, 236);
+    --bv-main-bg-color: #f8f9ec;
     --bv-small-highlight: rgb(156, 156, 156);
     --bv-darker-lightgray: rgb(212, 212, 212);
     --bv-big-highlight-rgb: 0, 116, 82;
@@ -293,6 +293,15 @@ div button.osd_nav_element {
     width: 3rem;
 }
 
+div button#osd_zoom_reset_button.osd_nav_element {
+    display: flex;
+    align-items: center;
+}
+
+div button#osd_zoom_reset_button.osd_nav_element svg{
+    margin: 0 auto;
+    display: block;
+}
 
 div.image_rights p{
     margin: auto;
