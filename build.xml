@@ -25,11 +25,11 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="${about_project}" out="${target}/about_project.html" style="./xslt/about_project.xsl">
+    <xslt in="${about_project}" out="${target}/about_project.html" style="./xslt/about.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="${about_bvg}" out="${target}/about_bvg.html" style="./xslt/about_bvg.xsl">
+    <xslt in="${about_bvg}" out="${target}/about_bvg.html" style="./xslt/about.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
