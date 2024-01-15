@@ -3,6 +3,7 @@
 !search.html
 /saxon
 data/imprint.xml
+data/externally_sourced_texts
 /static-search
 html/static-search
 html/*.html
