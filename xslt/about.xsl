@@ -64,6 +64,12 @@
         <li id="{generate-id()}"><xsl:apply-templates/></li>
     </xsl:template>
     
+    <xsl:template match="tei:hi[contains(@rend, 'bold') or contains(@rendition, 'bold')]">
+        <b>
+            <xsl:apply-templates></xsl:apply-templates>
+        </b>
+    </xsl:template>
+
     <xsl:template match="tei:ref">
         <xsl:choose>
             <xsl:when test="starts-with(data(@target), $wrong_link_prefix)">
