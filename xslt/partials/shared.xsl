@@ -18,9 +18,6 @@
         <span class="anchor-pb"></span>
         <span class="pb" source="{@facs}"><xsl:value-of select="./@n"/></span>
     </xsl:template>
-    <xsl:template match="tei:del">
-        <del><xsl:apply-templates/></del>
-    </xsl:template>
     <xsl:template match="tei:cit">
         <cite><xsl:apply-templates/></cite>
     </xsl:template>
