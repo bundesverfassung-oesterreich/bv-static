@@ -363,8 +363,13 @@ a {
 .edition_container div{
     background-color: inherit;
 }
+
 .container-fluid {
     max-width: 1800px;
+}
+
+.container-fluid-smaller {
+    max-width: 40rem;
 }
 
 div#main_navbar_flex_container {
