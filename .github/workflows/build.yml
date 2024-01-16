@@ -33,6 +33,9 @@ jobs:
         apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
         ./shellscripts/script.sh
         pip install -r ./pyscripts/requirements.txt
+    - name: imprint
+      run: |
+        ./shellscripts/dl_imprint.sh
     - name: Build
       run: |
         ant
