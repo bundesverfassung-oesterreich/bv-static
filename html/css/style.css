@@ -8,6 +8,7 @@
     /*--bv-contrast:  hsl(162, 100%, 23%);*/
     /*--bv-contrast:  #FAFF01;*/
     --bv-contrast:  #eff15ef6;
+    --bv-comment-button-rgb: 255, 1, 1;
 }
 
 *, :after, :before {
@@ -15,7 +16,7 @@
 }
 
 :root * {
-    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
@@ -167,28 +168,55 @@ cite {
 }
 
 
-div#docinfo {
+div.docinfo {
     font-weight: 600;
     margin-bottom: 0.35rem;
 }
 
-div#docinfo h1{
+div.docinfo h1{
     max-width: 40rem;
     padding-top: 1rem;
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-#docinfo p.document_info {
+.docinfo .document_info {
     max-width: 40rem;
     font-size: 1.5rem;
 }
 
-#docinfo p.document_info.archival_small{
+.docinfo .document_info.archival_small{
     max-width: 40rem;
     font-size: 1rem;
     margin-bottom: 0;
     line-height: 1.5rem;
+}
+
+#edition_metadata div.row {
+    margin: 0;
+}
+
+#edition_metadata div.edition_metadata_button {
+    width: fit-content;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5rem 1.25rem 0.5rem 0;
+    background-color: var(--bv-big-highlight);
+    color: var(--bv-main-bg-color);
+}
+
+#edition_metadata div.edition_metadata_button:last-child {
+    background-color: rgba(var(--bv-comment-button-rgb), 0.6);
+}
+
+div.edition_metadata_button a{
+    color: var(--bv-main-bg-color);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+div.edition_metadata_button a{
+    color: var(--bv-main-bg-color);
+    font-weight: 600;
 }
 
 div.offcanvas div{
@@ -496,6 +524,8 @@ a.anchorFoot {
 
 #edition_metadata div{
     background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .wp-transcript .card-header {
@@ -641,7 +671,6 @@ body.page > div#text_quality_disclaimer div{
 h3 a i.fas {
     font-family: "Font Awesome 5 Free" !important;
 }
-
 
 .img-fluid {
     height: 5vh;
