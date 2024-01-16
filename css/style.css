@@ -75,7 +75,7 @@ button#media-menu-toggler:hover {
     color: var(--bv-main-bg-color);
 }
 
-#page nav.navbar div {
+nav.navbar div {
     background-color: var(--bv-big-highlight);
 }
 
@@ -182,13 +182,13 @@ div#docinfo h1{
 #docinfo p.document_info {
     max-width: 40rem;
     font-size: 1.5rem;
-    margin: 0.3rem;
 }
 
 #docinfo p.document_info.archival_small{
     max-width: 40rem;
     font-size: 1rem;
-    margin: 0.1rem;
+    margin-bottom: 0;
+    line-height: 1.5rem;
 }
 
 div.offcanvas div{
@@ -437,7 +437,7 @@ border-right: 1px solid lightgrey;
     margin-bottom: 1.5rem;
 }
 
-div#page div#wrapper-footer-secondary {
+div#wrapper-footer-secondary {
     text-align:center;
     padding:0.4rem 0;
     font-size: 0.9rem;
@@ -445,7 +445,7 @@ div#page div#wrapper-footer-secondary {
     color: var(--bv-main-bg-color);
 }
 
-div#page div#wrapper-footer-secondary a{
+div#wrapper-footer-secondary a{
     color: var(--bv-main-bg-color);
 }
 
@@ -482,15 +482,15 @@ a.anchorFoot {
     margin-top: 0;
 }
 
-#page #edition_metadata {
+#edition_metadata {
     padding: 1rem;
     padding-left: 4rem;
     background-color: rgba(var(--bv-big-highlight-rgb), 0.2);
     margin-bottom: 2rem;
 }
 
-#page #edition_metadata div{
-    background-color: rgba(var(--bv-big-highlight-rgb), 0);
+#edition_metadata div{
+    background-color: transparent;
 }
 
 .wp-transcript .card-header {
