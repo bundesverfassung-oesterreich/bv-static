@@ -18,11 +18,8 @@
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
-body #page {
-    background-color: var(--bv-main-bg-color);
-}
 
-body #page div{
+body {
     background-color: var(--bv-main-bg-color);
 }
 
@@ -166,7 +163,7 @@ cite {
 }
 
 .intro {
-    background-color: #fff;
+    background-color:var(--bv-main-bg-color);
 }
 
 
@@ -182,10 +179,20 @@ div#docinfo h1{
     font-weight: 800;
 }
 
-div#docinfo p.document_info {
+#docinfo p.document_info {
     max-width: 40rem;
     font-size: 1.5rem;
     margin: 0.3rem;
+}
+
+#docinfo p.document_info.archival_small{
+    max-width: 40rem;
+    font-size: 1rem;
+    margin: 0.1rem;
+}
+
+div.offcanvas div{
+    background-color:var(--bv-main-bg-color);
 }
 
 /*rules for anchor hack */
@@ -269,7 +276,6 @@ p {
     width: fit-content;
 }
 
-
 div.image_rights{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -351,8 +357,12 @@ a {
 
 .edition_container {
     width: 100%;
+    background-color: var(--bv-main-bg-color);
 }
 
+.edition_container div{
+    background-color: inherit;
+}
 .container-fluid {
     max-width: 1800px;
 }
@@ -414,7 +424,7 @@ border-right: 1px solid lightgrey;
     border-top: 0.3rem solid var(--bv-big-highlight);
     margin-top: auto;
     display: flex;
-    background-color:#fff;
+    background-color:var(--bv-main-bg-color);
     z-index: 1;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -604,7 +614,6 @@ li.article_ref:last-child {
 /* transcription quality disclaimer */
 
 body.page > div#text_quality_disclaimer {
-	/*background: var(--bv-darker-lightgray);*/
     hyphens: auto;
 	background: gray;
     color: white;
@@ -618,6 +627,9 @@ body.page > div#text_quality_disclaimer {
     padding: 2rem;
 }
 
+body.page > div#text_quality_disclaimer div{
+	background: gray;
+}
 
 /**** Font Aweseome ***/
 /* don't remove this or the download icon breaks !!!*/
@@ -633,6 +645,7 @@ h3 a i.fas {
 .card {
     margin: 2em auto;
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
+    background-color:var(--bv-main-bg-color);
 }
 
 .img_bottom {
