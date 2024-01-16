@@ -114,7 +114,7 @@
                                             <xsl:value-of select="$doc_title"/> 
                                         </h1>
                                     <p class="document_info"><xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/></p>
-                                    <p class="document_info"><xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
+                                    <p class="document_info archival_small"><xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/></p>
                                     <p class="document_info archival_small"><xsl:value-of select="//tei:text/@type"/><xsl:value-of select="concat(' (', $doc_type), ')'"/></p>
                                     <p class="document_info archival_small"><xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/></p>
                                 </div>
