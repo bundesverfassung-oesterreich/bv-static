@@ -187,6 +187,38 @@
       
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
       </acdh:Collection>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__54">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__54"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Protokoll Länderkonferenz Salzburg</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__24">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__24"></acdh:hasIdentifier>
       <acdh:hasTitle xml:lang="de">UA 26. August 1920 Textvariante</acdh:hasTitle>
@@ -413,7 +445,7 @@
       </acdh:Resource>
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__32">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__32"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Ministerial II Typoskript</acdh:hasTitle>
+      <acdh:hasTitle xml:lang="de">Ministerial I Typoskript</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -510,6 +542,38 @@
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__28">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__28"></acdh:hasIdentifier>
       <acdh:hasTitle xml:lang="de">Großdeutsch KNV Beilage</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__70">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__70"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Bericht 5. Länderkonferenz</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
@@ -1339,6 +1403,38 @@
       
       <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
       </acdh:Resource>
+   <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__55">
+      <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__55"></acdh:hasIdentifier>
+      <acdh:hasTitle xml:lang="de">Protokoll Länderkonferenz Linz</acdh:hasTitle>
+      <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
+      <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
+      <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>
+      <acdh:isPartOf rdf:resource=""></acdh:isPartOf>
+      
+      <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"></acdh:hasLicense>
+      
+      <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasLicensor>
+      
+      <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasContact>
+      
+      <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"></acdh:hasOwner>
+      
+      <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"></acdh:hasRightsHolder>
+      
+      <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"></acdh:hasRelatedDiscipline>
+      
+      <acdh:hasCreator rdf:resource="xxx"></acdh:hasCreator>
+      
+      <acdh:hasDepositor rdf:resource="xxx"></acdh:hasDepositor>
+      
+      <acdh:hasCurator rdf:resource="xxx"></acdh:hasCurator>
+      
+      <acdh:hasMetadataCreator rdf:resource="xxx"></acdh:hasMetadataCreator>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"></acdh:hasOaiSet>
+      
+      <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"></acdh:hasOaiSet>
+      </acdh:Resource>
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__11">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__11"></acdh:hasIdentifier>
       <acdh:hasTitle xml:lang="de">B-VG Sonderdruck</acdh:hasTitle>
@@ -1405,7 +1501,7 @@
       </acdh:Resource>
    <acdh:Resource xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" rdf:about="/bv_doc_id__27">
       <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/bv-static-v1/bv_doc_id__27"></acdh:hasIdentifier>
-      <acdh:hasTitle xml:lang="de">Ministerial I Typoskript</acdh:hasTitle>
+      <acdh:hasTitle xml:lang="de">Ministerial II Typoskript</acdh:hasTitle>
       <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"></acdh:hasAccessRestriction>
       <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"></acdh:hasCategory>
       <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"></acdh:hasLanguage>

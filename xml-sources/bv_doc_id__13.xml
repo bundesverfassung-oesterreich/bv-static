@@ -28,26 +28,30 @@
             </respStmt>
             <respStmt>
                <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer</persName>
+               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+                    </persName>
             </respStmt>
             <respStmt>
                <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak</persName>
+               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                    </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
+               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                        Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
             </publisher>
             <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und Verfassungsgeschichte</orgName>
+               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                        Verfassungsgeschichte</orgName>
             </publisher>
             <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
             <date when="2023">2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
-                                    applies to this text.</p>
+                            applies to this text.</p>
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
@@ -66,7 +70,7 @@
                   <msItem>
                      <author role="acdh:hasAuthor">Länderkonferenz</author>
                      <title>unidentifizierter Entwurf nach Linz</title>
-                     <note type="editor">Nicht identifizierter, undatierter Entwurf, betitelt "Linzer Entwurf neuer Text". Gemeint dabei ist folgendes: in der linken Spalte Verweise auf die Dokumentstruktur von Mayr II (=Linzer Entwurf). Restlicher Text modifizierte Variante, unklar was genau??? Unbekannte Variante nach Evidenzexemplar??? Zustand gut, ohne Anmerkungen, 132 Artikel, die aber nicht alle wörtlich ausgeführt werden (siehe am Schluss 126-132)</note>
+                     <note type="editor">Nicht identifizierter, undatierter Entwurf, betitelt "Linzer Entwurf neuer Text". Gemeint dabei ist folgendes: in der linken Spalte Verweise auf die Dokumentstruktur von Mayr II (=Linzer Entwurf). Restlicher Text modifizierte Variante, unklar was genau??? Unbekannte Variante nach Evidenzexemplar??? Zustand gut, ohne Anmerkungen, 132 Artikel, die aber nicht alle wörtlich ausgeführt werden (siehe am Schluss 126-132). Möglicherweise Vorstufe zu Renner-Mayr</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -87,10 +91,13 @@
          </abstract>
          <creation>
             <date notBefore-iso="1920-04-23" notAfter-iso="1920-07-07">
-                Zwischen dem 23. April 1920 und 8. Juli 1920
-            </date>
+                    Zwischen dem 23. April 1920 und 8. Juli 1920
+                </date>
          </creation>
       </profileDesc>
+      <revisionDesc status="created">
+         <change when="2024-01-17" who="#cfh">document automatically created</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface ulx="0" uly="0" lrx="2802" lry="4558" xml:id="facs_2">
