@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Ministerial I Typoskript</title>
+            <title type="main">Ministerial II Typoskript</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -28,26 +28,30 @@
             </respStmt>
             <respStmt>
                <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer</persName>
+               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+                    </persName>
             </respStmt>
             <respStmt>
                <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak</persName>
+               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                    </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
+               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                        Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
             </publisher>
             <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und Verfassungsgeschichte</orgName>
+               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                        Verfassungsgeschichte</orgName>
             </publisher>
             <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
             <date when="2023">2023</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
-                                    applies to this text.</p>
+                            applies to this text.</p>
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
@@ -65,8 +69,8 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Staatssekretariat für die Verfasssungs- und Verwaltungsreform</author>
-                     <title>Ministerial I Typoskript</title>
-                     <note type="editor">Ministerial II (Titel des Dokuments: "Vorgelegter Entwurf 12/4/20"), Typoskript auf Durchschlagpapier, Papier sehr dünn, Schrift blau. Zustand: mäßig, Papier rissig, teils zerknittert, Stücke fehlen. Wenige handschriftliche Anmerkungen, 167 Artikel</note>
+                     <title>Ministerial II Typoskript</title>
+                     <note type="editor">Ministerial II (Titel des Dokuments: "Vorgelegter Entwurf 12/4/20"), Typoskript auf Durchschlagpapier, Papier sehr dünn, Schrift blau. Zustand: mäßig, Papier rissig, teils zerknittert, Stücke fehlen. Wenige handschriftliche Anmerkungen, 167 Artikel. Artikel 52-58 (betr. den Bundespräsidenten) nur in einer statt in zwei Textvarianten (Bundespräsident) enthalten, entsprechende Seiten fehlen, es wird jedoch im Text auf sie verwiesen</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,7 +80,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-04-12" to="1920-04-12">12. April 1920</origin>
+                  <origin from="1920-04-12" to="1920-04-12">12. April 1920 (händisch ergänztes Datum auf dem Deckblatt)</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -87,10 +91,13 @@
          </abstract>
          <creation>
             <date notBefore-iso="1920-04-12" notAfter-iso="1920-04-12">
-                12. April 1920
-            </date>
+                    12. April 1920 (händisch ergänztes Datum auf dem Deckblatt)
+                </date>
          </creation>
       </profileDesc>
+      <revisionDesc status="created">
+         <change when="2024-01-17" who="#cfh">document automatically created</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface ulx="0" uly="0" lrx="2961" lry="4771" xml:id="facs_2">
