@@ -174,10 +174,27 @@ div.docinfo {
 }
 
 div.docinfo h1{
+    width: fit-content;
     max-width: 40rem;
     padding-top: 1rem;
     font-size: 2.5rem;
     font-weight: 800;
+    padding-left: 0;
+}
+
+div.revision_desc {
+    width: fit-content;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    margin: 0.5rem 0rem;
+    color: var(--bv-main-bg-color);
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 8px;
+}
+
+div.revision_desc.created {
+    color: var(--bv-main-bg-color);
+    background-color: gray !important;
 }
 
 .docinfo .document_info {
@@ -192,6 +209,11 @@ div.docinfo h1{
     line-height: 1.5rem;
 }
 
+
+#edition_metadata div{
+    background-color: transparent;
+}
+
 #edition_metadata div.row {
     margin: 0;
 }
@@ -200,8 +222,8 @@ div.docinfo h1{
     width: fit-content;
     padding: 0.5rem 1rem 0.5rem 1rem;
     margin: 0.5rem 1.25rem 0.5rem 0;
-    background-color: var(--bv-big-highlight);
     color: var(--bv-main-bg-color);
+    background-color: var(--bv-big-highlight);
 }
 
 #edition_metadata div.edition_metadata_button:last-child {
@@ -212,11 +234,6 @@ div.edition_metadata_button a{
     color: var(--bv-main-bg-color);
     font-weight: 600;
     font-size: 1.25rem;
-}
-
-div.edition_metadata_button a{
-    color: var(--bv-main-bg-color);
-    font-weight: 600;
 }
 
 div.offcanvas div{
@@ -520,12 +537,6 @@ a.anchorFoot {
     padding-left: 4rem;
     background-color: rgba(var(--bv-big-highlight-rgb), 0.2);
     margin-bottom: 2rem;
-}
-
-#edition_metadata div{
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .wp-transcript .card-header {
