@@ -135,7 +135,7 @@
                                         <xsl:otherwise>
                                             <div>
                                                 <xsl:attribute name="class">
-                                                    <xsl:value-of select="concat('revision_desc ', $text_status)"></xsl:value-of>
+                                                    <xsl:value-of select="'revision_desc created'"></xsl:value-of>
                                                 </xsl:attribute>
                                                  maschinell erfasster Rohtext 
                                             </div>
