@@ -100,11 +100,6 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <surface ulx="0" uly="0" lrx="3101" lry="4439" xml:id="facs_1">
-         <graphic url="IMG_0001"
-                  width="3101px"
-                  height="4439px"/>
-      </surface>
       <surface ulx="0" uly="0" lrx="3125" lry="4405" xml:id="facs_2">
          <graphic url="IMG_0002"
                   width="3125px"
@@ -149,8 +144,6 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p/>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <p>Unleserlich</p>
             <p>

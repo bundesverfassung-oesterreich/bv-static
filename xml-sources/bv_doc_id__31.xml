@@ -100,11 +100,6 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <surface ulx="0" uly="0" lrx="3312" lry="3662" xml:id="facs_1">
-         <graphic url="IMG_0001"
-                  width="3312px"
-                  height="3662px"/>
-      </surface>
       <surface ulx="0" uly="0" lrx="2399" lry="3655" xml:id="facs_2">
          <graphic url="IMG_0003"
                   width="2399px"
@@ -229,43 +224,6 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p>  ==================
-      <lb break="yes"/>Der deutsch
-      <lb break="yes"/>Bundesfreistaat
-      <lb break="yes"/>Osterreich.
-      <lb break="yes"/>Der christlichsoziale
-      <lb break="yes"/>Verfassungsentwur
-      <lb break="yes"/>eingebracht in der Sitzung der
-      <lb break="yes"/>Nationalversammlung
-      <lb break="yes"/>am 14. Mai 1919.</p>
-            <p>VQVO60
-      <lb break="yes"/>Dem Antworten der Stadt.
-      <lb break="yes"/>0/6*
-      <lb break="yes"/>8H4M
-      <lb break="yes"/>(a)
-      <lb break="yes"/>eiusbew
-      <lb break="yes"/>Sachverständigen-Zubeh.
-      <lb break="yes"/>VI.
-      <lb break="yes"/>91
-      <lb break="yes"/>91</p>
-            <p>008800*
-      <lb break="yes"/>14400
-      <lb break="yes"/>Looort
-      <lb break="yes"/>dans le dernier
-      <lb break="yes"/>Orgzoo=
-      <lb break="yes"/>16060#
-      <lb break="yes"/>Sl969l#
-      <lb break="yes"/>6060  =
-      <lb break="yes"/>∆Ολδη=
-      <lb break="yes"/>anjä
-      <lb break="yes"/>am 3. Jahr.
-      <lb break="yes"/>ue∆S
-      <lb break="yes"/>MOIIO(
-      <lb break="yes"/>Rer
-      <lb break="yes"/>(14)
-      <lb break="yes"/>1
-      <lb break="yes"/>V 8</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <p>Der deutsche
       <lb break="yes"/>Bundesfreistaat

@@ -100,11 +100,6 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <surface ulx="0" uly="0" lrx="2911" lry="4740" xml:id="facs_1">
-         <graphic url="IMG_0001"
-                  width="2911px"
-                  height="4740px"/>
-      </surface>
       <surface ulx="0" uly="0" lrx="2915" lry="4745" xml:id="facs_2">
          <graphic url="IMG_0002"
                   width="2915px"
@@ -289,40 +284,6 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_1" n="1" xml:id="img_0001"/>
-            <p>Entwurf
-      <lb break="yes"/>einer provisorischen
-      <lb break="yes"/>Verfassung.
-      <lb break="yes"/>Wir freigewählten Abgeordneten, Kraft des allge
-<lb break="no"/>meinen und gleichen Stimmrechts zur Zeit
-      <lb break="yes"/>und gesetzlichen
-      <lb break="yes"/>allein befugten Vertreter des deutschen Volkes
-      <lb break="yes"/>der bisherigen im Reichsrat vertretenen
-      <lb break="yes"/>Königreiche und Länder der Oester
-<lb break="no"/>reichisch-Ungarischen Monarchie</p>
-            <p>haben uns infolge der allgemeinen Auflösung
-      <lb break="yes"/>des Staates und der völligen [Unfruc] Unhaltbarkeit
-      <lb break="yes"/>seiner Verfassung, [und] nachdem sich alle übrigen
-      <lb break="yes"/>Nationen der Monarchie von dem bisherigen, auf
-      <lb break="yes"/>der pragmatischen Sanktion ruhenden Länder
-<lb break="no"/>verbande losgesagt haben, und da da unser
-      <lb break="yes"/>Volk auf sich selbst und allein angewiesen
-      <lb break="yes"/>ist, in der Not des Krieges zu einer provi
-<lb break="no"/>sorischen Nationalversammlung zusam
-<lb break="no"/>menge[schlossen]tan und für unser Volk
-      <lb break="yes"/>und Land die nachstehende provisorische
-      <lb break="yes"/> Verfassung beschlossen:
-      <lb break="yes"/>Verlassen
-      <lb break="yes"/>Sachverständigen-Zubehör.de
-      <lb break="yes"/>Ce
-      <lb break="yes"/>Grey
-      <lb break="yes"/>Magenta
-      <lb break="yes"/>White
-      <lb break="yes"/>Green
-      <lb break="yes"/>Yellow
-      <lb break="yes"/>Rec.
-      <lb break="yes"/>Black
-      <lb break="yes"/>(einem Teile</p>
             <pb facs="#facs_2" n="2" xml:id="img_0002"/>
             <p>Entwurf
       <lb break="yes"/>einer provisorischen
