@@ -116,13 +116,32 @@
                                     </p>
                                     <p class="document_info archival_small">
                                         <xsl:value-of select="//tei:text/@type"/>
-                                        <xsl:value-of select="concat(' (', $doc_type), ')'"/>
+                                        <xsl:value-of select="concat(' (', normalize-space($doc_type)),')'"/>
                                     </p>
                                     <p class="document_info archival_small">
                                         <xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type="archive"]/text()[1]/normalize-space()'/>
                                     </p>
+                                    <xsl:variable name="text_status" select="//tei:teiHeader/tei:revisionDesc/@status"/>
+                                    <xsl:variable name="changes" select="//tei:teiHeader/tei:revisionDesc/tei:change"/>
+                                    <xsl:choose>
+                                        <xsl:when test="$text_status = 'created'">
+                                            <div>
+                                                <xsl:attribute name="class">
+                                                    <xsl:value-of select="concat('revision_desc ', $text_status)"></xsl:value-of>
+                                                </xsl:attribute>
+                                                 maschinell erfasster Rohtext
+                                            </div>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <div>
+                                                <xsl:attribute name="class">
+                                                    <xsl:value-of select="concat('revision_desc ', $text_status)"></xsl:value-of>
+                                                </xsl:attribute>
+                                                 maschinell erfasster Rohtext 
+                                            </div>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </div>
-                                <div class="revision_desc"></div>
                                 <div class="row align-items-start justify-content-start">
                                     <div class="edition_metadata_button" role="button">
                                         <a href="{$target_xml}/{$doc_id}.xml">
