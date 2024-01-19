@@ -27,7 +27,7 @@
             </head>
             
             
-            <body class="page">
+            <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     

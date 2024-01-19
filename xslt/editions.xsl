@@ -34,7 +34,7 @@
                     <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
                 </xsl:call-template>
             </head>
-            <body class="page">
+            <body class="page" lang="de">
                 <div id="text_quality_disclaimer" class="offcanvas offcanvas-start show" tabindex="-1" aria-labelledby="tqd_label" data-bs-scroll="false" data-bs-backdrop="false">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavigationLabel">Achtung!</h5>

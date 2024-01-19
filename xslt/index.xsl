@@ -27,7 +27,7 @@
                     <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
                 </xsl:call-template>
             </head>            
-            <body class="page">
+            <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="container">

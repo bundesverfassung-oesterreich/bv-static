@@ -22,7 +22,7 @@
                 </xsl:call-template>
             </head>
             
-            <body class="page">
+            <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -109,7 +109,7 @@
                         <xsl:with-param name="html_title" select="$name"></xsl:with-param>
                     </xsl:call-template>
                     
-                    <body class="page">
+                    <body class="page" lang="de">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
                             
