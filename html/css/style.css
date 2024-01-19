@@ -889,9 +889,6 @@ resolution or low resolution screens
     .facsimiles {
         display: none;
     }
-    .navBarNavDropdown ul li:nth-child(-n + 2) {
-        display: none !important;
-    }
     .text {
         padding-left: 0;
     }
@@ -918,11 +915,11 @@ resolution or low resolution screens
     }
     
     nav.navbar.navbar-expand-lg div{
-        order: 2
+        order: 3
     }
 
     nav.navbar.navbar-expand-lg div:first-child{
-        order: 3
+        order: 2
     }
 
     nav.navbar.navbar-expand-lg #main_navbar_flex_container{
