@@ -212,6 +212,7 @@ div.revision_desc.created {
 
 #edition_metadata div{
     background-color: transparent;
+    hyphens: auto;
 }
 
 #edition_metadata div.row {
@@ -916,6 +917,19 @@ resolution or low resolution screens
         padding: 1em 0;
     }
     
+    nav.navbar.navbar-expand-lg div{
+        order: 2
+    }
+
+    nav.navbar.navbar-expand-lg div:first-child{
+        order: 3
+    }
+
+    nav.navbar.navbar-expand-lg #main_navbar_flex_container{
+        order: 1;
+        /*border-bottom: var(--bv-main-bg-color) solid 0.1rem;*/
+        padding-bottom: 0.5rem;
+    }
 /* 
 #########################################
 add rules for smallest smartphones 
