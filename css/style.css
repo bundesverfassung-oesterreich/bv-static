@@ -895,7 +895,13 @@ resolution or low resolution screens
         padding-left: 0;
     }
     .wp-transcript {
-        padding: 0 2em;
+        padding: 0 2rem 2rem 2rem;
+    }
+    #edition_metadata {
+        margin-left: -2rem;
+        margin-right: -2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .img_bottom {
         padding: 1em;
@@ -909,12 +915,6 @@ resolution or low resolution screens
     #wrapper-footer-full {
         padding: 1em 0;
     }
-    /*.img-fluid {
-        max-width: 2rem !important;
-    }
-    .custom-logo-link {
-        margin-bottom: 0;
-    }*/
     
 /* 
 #########################################
