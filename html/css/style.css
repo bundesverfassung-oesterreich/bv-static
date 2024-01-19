@@ -968,6 +968,14 @@ high resolution or tablet regular resolution
         max-width: 500px;
         overflow: hidden;
     }
+    body.page > div#text_quality_disclaimer {
+        left: 50%;
+        top: 50%;
+        width: 40rem;
+        max-width: 100%;
+        margin-left: -50%;
+        margin-top: -50%;
+    }
 /* 
 #########################################
 add rules for smallest smartphones 
@@ -980,6 +988,14 @@ regular resolution
     .dropdown-menu li a {
         max-width: 400px;
         overflow: hidden;
+    }
+    body.page > div#text_quality_disclaimer {
+        left: 50%;
+        top: 50%;
+        width: 40rem;
+        max-width: 100%;
+        margin-left: -50%;
+        margin-top: -50%;
     }
 /* 
 #########################################
