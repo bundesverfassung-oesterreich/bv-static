@@ -8,7 +8,7 @@
     /*--bv-contrast:  hsl(162, 100%, 23%);*/
     /*--bv-contrast:  #FAFF01;*/
     --bv-contrast:  #eff15ef6;
-    --bv-comment-button-rgb: 255, 1, 1;
+    --bv-transp-red: 255, 1, 1;
 }
 
 *, :after, :before {
@@ -194,7 +194,8 @@ div.revision_desc {
 
 div.revision_desc.created {
     color: var(--bv-main-bg-color);
-    background-color: gray !important;
+    /*background-color: gray !important;*/
+    background-color: rgba(var(--bv-transp-red), 0.6)!important;
 }
 
 .docinfo .document_info {
@@ -228,7 +229,8 @@ div.revision_desc.created {
 }
 
 #edition_metadata div.edition_metadata_button:last-child {
-    background-color: rgba(var(--bv-comment-button-rgb), 0.6);
+    /*background-color: rgba(var(--bv-transp-red), 0.6);*/
+    background-color: var(--bv-big-highlight);
 }
 
 div.edition_metadata_button a{
@@ -869,15 +871,26 @@ resolution
 */
 }
 
-/*@media (max-width: 1024px) {
-    .navbar .navbar-collapse {
-        border-top: 1px solid rgba(0,0,0,.075);
-        padding-top: 2rem;
-        margin-top: .5rem;
-    }*/
-    /*.img-fluid {
-        max-width: 3.5rem !important;
-    }*/
+@media (max-width: 1024px) {
+
+    #container-resize {
+        justify-content: left;
+    }
+
+    nav.navbar.navbar-expand-lg div{
+        order: 3
+    }
+
+    nav.navbar.navbar-expand-lg div:first-child{
+        order: 2
+    }
+
+    nav.navbar.navbar-expand-lg #main_navbar_flex_container{
+        order: 1;
+        /*border-bottom: var(--bv-main-bg-color) solid 0.1rem;*/
+        padding-bottom: 0.5rem;
+    }
+}
 /* 
 #########################################
 add rules for smallest tablet high
@@ -885,7 +898,7 @@ resolution or low resolution screens
 #########################################
 */
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
     .facsimiles {
         display: none;
     }
@@ -934,6 +947,15 @@ high resolution or tablet regular resolution
 #########################################
 */
 }
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        min-width: 30rem;
+        width: 50%;
+    }
+}
+
 
 @media (max-width: 575px) {
     br {
