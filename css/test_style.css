@@ -47,3 +47,46 @@ div.card-body.non_mimetic_lbs p {
     text-align: justify!important;
     hyphens: auto;
 }
+
+#container-resize h2.section {
+    padding-top: 1rem;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    margin-left: -1rem;
+    font-size: large;
+}
+
+#container-resize h3.section {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+}
+
+
+#container-resize h3.section.alone {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+}
+
+#container-resize ul>li {
+    max-width: 25rem;
+}
+
+#container-resize ul {
+    list-style-type: none;
+    padding: 0 2rem;
+}
+
+#container-resize a.org {
+    background-color: lightgrey;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 0.4rem;
+    margin: none;
+}
