@@ -195,7 +195,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="text-resize" class="col-md-6 col-lg-6 col-sm-12 text yes-index">
+                        <div id="text-resize" lang="de" class="col-md-6 col-lg-6 col-sm-12 text yes-index">
                             <div id="section">
                                 <xsl:for-each select="//tei:body/tei:div">
                                     <div class="card-body non_mimetic_lbs">
@@ -271,6 +271,7 @@
     <xsl:number level="any"/>
 </xsl:variable>
 <span class="pb" source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';">
+    <hr n="{$page_number}"></hr>
 </span>
 
 </xsl:template>
@@ -317,6 +318,7 @@
     </xsl:when>
 </xsl:choose>
 </xsl:template>
+
 <!-- delete empty p/hi/div elements -->
 <xsl:template match="
                     *[
