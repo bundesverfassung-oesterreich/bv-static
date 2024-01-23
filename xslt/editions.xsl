@@ -165,9 +165,9 @@
                                     <!--<a href="{$target_xml}/comment_{$doc_id}.xml">-->
                                     <a href="no_data.html">
                                             Editorischer Bericht
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
-                                                <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"/>
-                                              </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
+                                            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"/>
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
@@ -267,9 +267,12 @@
 <xsl:variable name="facsUrl">
     <xsl:value-of select="data(//tei:surface[@xml:id=$pbId]/tei:graphic/@url)"/>
 </xsl:variable>
-<span class="pb" source="{$facsUrl}">
-    <!--<xsl:value-of select="@n"/>-->
+<xsl:variable name="page_number">
+    <xsl:number level="any"/>
+</xsl:variable>
+<span class="pb" source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';">
 </span>
+
 </xsl:template>
 <xsl:template match="tei:ab">
 <p>
