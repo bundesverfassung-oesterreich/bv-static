@@ -441,6 +441,10 @@ div#main_navbar_flex_container {
     text-decoration: none;
 }
 
+s, del {
+    text-decoration: none;
+}
+
 #viewer {
     position: sticky;
     top: 10%;
@@ -506,6 +510,11 @@ a.anchor, .anchor-pb {
     position: relative;
     top: -120px;
     visibility: hidden;
+}
+
+
+hr {
+    display: none;
 }
 
 a.anchorFoot {
