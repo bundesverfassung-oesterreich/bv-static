@@ -506,15 +506,23 @@ div#wrapper-footer-secondary a{
     color: var(--bv-main-bg-color);
 }
 
+span.pb {
+    visibility: hidden;
+    line-height: 0rem;
+    padding: 0;
+    margin: 0;
+}
+
 a.anchor, .anchor-pb {
     position: relative;
     top: -120px;
-    visibility: hidden;
+    visibility: collapse;
 }
 
 
 hr {
-    display: none;
+    visibility: collapse;
+    margin: 0rem;
 }
 
 a.anchorFoot {
