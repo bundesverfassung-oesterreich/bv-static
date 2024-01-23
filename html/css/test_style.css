@@ -1,0 +1,35 @@
+hr[n='1'] {
+    display: none;
+}
+
+hr {
+    margin: 0 1rem;
+}
+
+span.pb:not([n='1'])::before {
+    content: var(--page_before);
+}
+
+hr::after {
+    content: var(--beginning_page);
+}
+
+hr {
+    color: lightgrey!important;
+    opacity: 1!important;
+}
+
+
+span.pb:not([n='1'])::before,
+hr::after {
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: .4rem;
+    color: lightgrey!important;
+    opacity: 1!important;
+}
+
+div.card-body.non_mimetic_lbs p {
+    text-align: justify!important;
+}
