@@ -14,7 +14,7 @@
         <xsl:param name="heading"></xsl:param>
         <xsl:param name="expanded" as="xs:string" select="'false'"/>
         <li>
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$id_name_for_toggle}" aria-expanded="{$expanded}">
+            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$id_name_for_toggle}" aria-expanded="{$expanded}">
                 <xsl:value-of select="$heading"/>
             </button>
             <div class="collapse " id="{$id_name_for_toggle}">
@@ -56,7 +56,7 @@
                 <xsl:for-each select="$section_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
-                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
+                        <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
@@ -82,7 +82,7 @@
             <xsl:variable name="data_set_C_id" as="xs:string" select="string(196429)"/>
             <ul id="left_edition_content_nav" class="list-unstyled ps-0">
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#docs-collapse" aria-expanded="false">
+                    <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#docs-collapse" aria-expanded="false">
                         Alle Dokumente
                     </button>
                     <div class="collapse" id="docs-collapse">
@@ -107,7 +107,7 @@
                     </div>
                 </li>
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
+                    <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
                         <xsl:value-of
                             select="$doc_title"
                             />
