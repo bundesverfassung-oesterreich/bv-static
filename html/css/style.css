@@ -508,10 +508,6 @@ a.anchor, .anchor-pb {
     visibility: hidden;
 }
 
-span.pb:not([n='1'])::before {
-    content: var(--page_before)' | ' var(--beginning_page);
-}
-
 a.anchorFoot {
     position: relative;
     top: -110px;
