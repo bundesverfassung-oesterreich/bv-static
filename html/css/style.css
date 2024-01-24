@@ -341,7 +341,6 @@ div.image_rights div {
 }
 
 div button.osd_nav_element {
-    width: fit-content;
     color: var(--bv-main-bg-color);
     background-color: var(--bv-big-highlight);
     box-shadow: none;
@@ -351,7 +350,6 @@ div button.osd_nav_element {
     font-size: 3rem;
     font-weight: 800;
     height: 3rem;
-    vertical-align: middle;
     text-align: center;
     line-height: 3rem;
     margin-left: 0.5rem;
@@ -359,14 +357,17 @@ div button.osd_nav_element {
     width: 3rem;
 }
 
-div button#osd_zoom_reset_button.osd_nav_element {
-    display: flex;
-    align-items: center;
-}
 
-div button#osd_zoom_reset_button.osd_nav_element svg{
+div button#osd_zoom_reset_button.osd_nav_element svg,
+div button#osd_next_button.osd_nav_element svg,
+div button#osd_prev_button.osd_nav_element svg {
     margin: 0 auto;
     display: block;
+}
+
+div button#osd_next_button.osd_nav_element,
+div button#osd_prev_button.osd_nav_element {
+    padding: 0.5rem 0.3rem;
 }
 
 div.image_rights p{
