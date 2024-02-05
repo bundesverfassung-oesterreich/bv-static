@@ -21,25 +21,24 @@ hr {
     margin: auto;
     border-top: 0.15rem solid rgba(128, 128, 128, 0.6);
     max-width: 11rem;
-}
-
-span.pb:not([n='1'])::before,
-hr::after {
-    text-align: center;
-    display: block;
-    margin: 0;
-    color: grey;
-    padding: 0.3rem 0;
-    font-size: 0.7rem;
+    display: none;
 }
 
 span.pb:not([n='1'])::before {
-    content: var(--page_before);
+    display: block;
+    position: relative;
+    left: -3rem;
+    width: 1.5rem;
     opacity: 0.6;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    content: var(--beginning_page);
+    text-align: right;
 }
 
-hr::after {
-    content: var(--beginning_page);
+span.pb hr::after {
+    /*content: var(--beginning_page);*/
     color: grey;
 }
 
