@@ -9,6 +9,8 @@
     /*--bv-contrast:  #FAFF01;*/
     --bv-contrast:  #eff15ef6;
     --bv-transp-red: 255, 1, 1;
+    --default-line-height: 1.5rem;
+    --default-line-height-negative: -1.5rem;
 }
 
 *, :after, :before {
@@ -50,6 +52,7 @@ div.edition_container h5 {
 div.container p {
     text-align: justify;
     hyphens: auto;
+    line-height: var(--default-line-height);
 }
 
 button#media-menu-toggler {
