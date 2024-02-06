@@ -1,50 +1,40 @@
 span.pb {
     visibility: visible;
-    line-height: 1rem;
-}
-
-hr {
-    visibility: visible;
-}
-
-hr[n='1'] {
-    display: none;
-}
-
-hr {
-    /*all: initial;*/
-    color: grey;
-    opacity: 1;
-}
-
-hr {
-    margin: auto;
-    border-top: 0.15rem solid rgba(128, 128, 128, 0.6);
-    max-width: 11rem;
-    display: none;
-}
-
-span.pb:not([n='1'])::before {
+    line-height: inherit;
     display: block;
-    position: relative;
-    left: -3rem;
+    position: absolute;
+    left: -1.5rem;
     width: 1.5rem;
-    opacity: 0.6;
+    margin-top: var(--default-line-height-negative);
+}
+
+span.pb::before {
+    display: block;
+    opacity: 0.5;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: inherit;
     color: black;
-    content: var(--beginning_page);
+    content: "|"var(--beginning_page)"|";
     text-align: right;
 }
 
-span.pb hr::after {
-    /*content: var(--beginning_page);*/
+span.pb_marker {
     color: grey;
+}
+
+span.pb_marker::after {
+    content: "|";
+    padding: 0 1rem;
 }
 
 div.card-body.non_mimetic_lbs p {
     text-align: justify!important;
     hyphens: auto;
+}
+
+div.card-body {
+    position: relative;
+    padding: 1rem;
 }
 
 #container-resize h2.section {
