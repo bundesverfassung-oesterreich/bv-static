@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529210</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14521</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-09-26" to="1920-09-26">26. September 1920</origin>
+                  <origin notBefore-iso="1920-09-26" notAfter-iso="1920-09-26">26. September 1920</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -299,7 +300,7 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>VIII</p>
             <p>991 der Beilagen. — Konstituierende Nationalversammlung. 1
       <lb break="yes"/>Antrag des Verfassungsausschusses.
@@ -345,7 +346,7 @@
       <lb break="yes"/>die Änderung einer Landesgrenze innerhalb des
       <lb break="yes"/>Bundesgebietes kann - abgesehen von Friedens=</p>
                <p>1</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 2
       <lb break="yes"/>verträgen - nur durch übereinstimmende Ver
 <lb break="no"/>fassungsgesetze des Bundes und jenes Landes er
@@ -429,7 +430,7 @@
       <lb break="yes"/>1. Bundesverfassung, insbesondere Wahlen
       <lb break="yes"/>zum Nationalrat, Volksabstimmungen auf Grund der
       <lb break="yes"/>Bundesverfassnng; Verfassungsgerichtsbarkeit;</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 8
       <lb break="yes"/>2. äußere Angelegenheiten mit Einschluß der
       <lb break="yes"/>politischen und wirtschaftlichen Vertretung gegenüber
@@ -488,7 +489,7 @@
 <lb break="no"/>stromwegerecht, soweit sich die Leitungsanlage auf
       <lb break="yes"/>zwei oder mehrere Länder erstreckt; Dampfkessel-
       <lb break="yes"/>und Kraftmaschinenwesen; Vermessungswesen</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>991 der Beilagen.</p>
                <p>Konstituierende Nationalversammlung. 4
       <lb break="yes"/>11.Arbeiterrecht sowie Arbeiter= und An
@@ -551,7 +552,7 @@
       <lb break="yes"/>der Benutzung öffentlicher Verkehrswege und Ein
 <lb break="no"/>richtungen mit Gebühren und zur Verhinderung
       <lb break="yes"/>der Schädigung der Bundesfinanzen;</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 5
       <lb break="yes"/>5. Munitions-, Schieß= und Sprengmittel
 <lb break="no"/>wesen, soweit es nicht dem Monopol unterliegt,
@@ -616,7 +617,7 @@
       <lb break="yes"/>zustehen, der Regelung der Anteilnahme der Länder
       <lb break="yes"/>und der Gemeinden an den Einnahmen des Bundes
       <lb break="yes"/>und der Regelung der Beiträge und Zuschüsse aus</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 6
       <lb break="yes"/>Bundesmitteln zu den Ausgaben der Länder und
       <lb break="yes"/>der Gemeinden.
@@ -679,7 +680,7 @@
 <lb break="no"/>gebung befugt, die zur Regelung des Gegenstandes
       <lb break="yes"/>erforderlichen Bestimmungen auch auf dem Gebiete
       <lb break="yes"/>des Straf= und Zivilrechtes zu treffen.</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 7
       </p>
             </div>
@@ -756,7 +757,7 @@
       <lb break="yes"/>sind der Bundespräsident, die Bundesminister, die
       <lb break="yes"/>Staatssekretäre und die Mitglieder der Landes
 <lb break="no"/>regierungen.</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 8
       <lb break="yes"/>(2) Die Geschäftsführung der Volksbeauftragten
       <lb break="yes"/>unterliegt der Aufsicht der Volksvertretung, von
@@ -819,7 +820,7 @@
       <lb break="yes"/>Länder und der Gemeinden können durch Bundes
 <lb break="no"/>gesetz einheitlich festgesetzt werden. Sie sind gesetzlich
       <lb break="yes"/>geschützt.</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 9
       </p>
             </div>
@@ -892,7 +893,7 @@
       <lb break="yes"/>der letzten Volkszählung in den Wahlkreisen ihren
       <lb break="yes"/>ordentlichen Wohnsitz hatten. Eine Gliederung der
       <lb break="yes"/>Wählerschaft in andere Wahlkörper ist nicht zulässig</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 10
       <lb break="yes"/>(3) Der Wahltag muß ein Sonntag oder ein
       <lb break="yes"/>anderer öffentlicher Ruhetag sein.
@@ -968,7 +969,7 @@
                <p>Zu einem Beschlusse des Nationalrates
       <lb break="yes"/>soweit in diesem Gesetze nicht anderes bestimmt ist,
       <lb break="yes"/>die Anwesenheit von mindesten einem Drittel der</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 11
       <lb break="yes"/>Mitglieder und die unbedingte Mehrheit der ab
 <lb break="no"/>gegebenen Stimmen erforderlich.
@@ -1042,7 +1043,7 @@
                   <lb break="yes"/>
                   <lb break="yes"/>
                </p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>12</p>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung.
       <lb break="yes"/>(3) Nach Ablauf der Gesetzgebungsperiode eines
@@ -1108,7 +1109,7 @@
       <lb break="yes"/>Angelobung, dann zur Beschlußfassung über eine
       <lb break="yes"/>Kriegserklärung am Sitze des Nationalrates zu
 <lb break="no"/>sammen.</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 13
       </p>
             </div>
@@ -1179,7 +1180,7 @@
 <lb break="no"/>kanzlers dem Nationalrate innerhalb acht Wochen
       <lb break="yes"/>nach Einlangen des Gesetzesbeschlusses beim Bundes
 <lb break="no"/>rate schriftlich mitgeteilt werden.</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 14
       <lb break="yes"/>(4) Wiederholt der Nationalrat seinen ursprüng
 <lb break="no"/>lichen Beschluß bei Anwesenheit von mindestens der
@@ -1255,7 +1256,7 @@
                <p>
                   <lb break="yes"/>
                </p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 15
       <lb break="yes"/>(2) Stimmberechtigt ist jeder zum Nationalrat
       <lb break="yes"/>wahlberechtigte Bundesbürger.
@@ -1326,7 +1327,7 @@
                   <lb break="yes"/>
                   <lb break="yes"/>
                </p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 16
       </p>
             </div>
@@ -1409,7 +1410,7 @@
                <p>Die Mitglieder des Nationalrates und die
       <lb break="yes"/>Mitglieder des Bundesrates sind bei der Ausübung
       <lb break="yes"/>dieses Berufes an keinen Auftrag gebunden.</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 17
       </p>
             </div>
@@ -1482,7 +1483,7 @@
       <lb break="yes"/>(3) Zum Bundespräsidenten kann nur gewählt
       <lb break="yes"/>werden, wer das Wahlrecht zum Nationalrat und</p>
                <p>2</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
                <p>991 der Beilagen.</p>
                <p>Konstituierende Nationalversammlung. 18
       <lb break="yes"/>vor dem 1. Jänner des Jahres der Wahl das fünf-
@@ -1555,7 +1556,7 @@
       <lb break="yes"/>genehmigt die Bestellung der fremden Konsuln,
       <lb break="yes"/>bestellt die konsularischen Vertreter der Republik
       <lb break="yes"/>im Ausland und schließt die Staatsverträge ab.</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 19
       <lb break="yes"/>(2) Weiter stehen ihm - außer den ihm nach
       <lb break="yes"/>anderen Bestimmungen dieser Verfassung über
@@ -1624,7 +1625,7 @@
                <p>(1) Der Bundespräsident ist für die Ausübung
       <lb break="yes"/>seiner Funktionen der Bundesversammlung gemäß
       <lb break="yes"/>Artikel 143 verantwortlich.</p>
-               <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+               <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 20
       <lb break="yes"/>(2) Zur Geltendmachung dieser Verantwortung
       <lb break="yes"/>ist die Bundesversammlung auf Beschluß des National
@@ -1693,7 +1694,7 @@
 <lb break="no"/>timmung findet sinngemäß Anwendung, wenn ein
 <lb break="no"/>zelne Mitglieder aus der Bundesregierung ausge
 <lb break="no"/>schieden sind.</p>
-               <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+               <pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>
                <p>21
       <lb break="yes"/>991 der Beilagen. — Konstituierende Nationalversammlung.
       </p>
@@ -1764,7 +1765,7 @@
 <lb break="no"/>rat, der Bundesrat und die Bundesversammlung
       <lb break="yes"/>sowie deren Ausschüsse können die Anwesenheit der
       <lb break="yes"/>Mitglieder der Bundesregierung verlangen.</p>
-               <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+               <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 22
       </p>
             </div>
@@ -1839,7 +1840,7 @@
       <lb break="yes"/>Insoweit diesem nicht durch das Wehrgesetz die
       <lb break="yes"/>unmittelbare Verfügung vorbehalten ist, wird mit
       <lb break="yes"/>der Verfügung die Bundesregierung oder innerhalb</p>
-               <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+               <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 23
       <lb break="yes"/>der von dieser erteilten Ermächtigung der zuständige
       <lb break="yes"/>Bundesminister betraut.
@@ -1919,7 +1920,7 @@
       <lb break="yes"/>wenn aber mehr als eine Stelle zu besetzen ist,
       <lb break="yes"/>mindestens doppelt so viel Personen zu umfassen,
       <lb break="yes"/>als Richter zu ernennen sind.</p>
-               <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+               <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
                <p>24</p>
                <p>991 der Beilagen.</p>
                <p>Konstituierende Nationalversammlung.
@@ -1995,7 +1996,7 @@
 <lb break="no"/>sachen vor dem erkennenden Gericht sind mündlich
       <lb break="yes"/>und öffentlich. Ausnahmen bestimmt das Gesetz.
       <lb break="yes"/>(2) Im Strafverfahren gilt der Anklageprozeß.</p>
-               <pb facs="#facs_26" n="26" xml:id="img_0026"/>
+               <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 25
       </p>
             </div>
@@ -2070,7 +2071,7 @@
       <lb break="yes"/>nicht enger ziehen als die Wahlordnung zum
       <lb break="yes"/>Nationalrat.</p>
                <p>ordentlichen</p>
-               <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+               <pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 26
       <lb break="yes"/>(3) Die Wähler üben ihr Wahlrecht in Wahl
 <lb break="no"/>kreisen aus, von denen jeder ein geschlossenes Gebiet
@@ -2143,7 +2144,7 @@
       <lb break="yes"/>Anwesenheit der Hälfte der Mitglieder des Land
 <lb break="no"/>tages und mit einer Mehrheit von zwei Dritteln
       <lb break="yes"/>der abgegebenen Stimmen beschlossen werden.</p>
-               <pb facs="#facs_28" n="28" xml:id="img_0028"/>
+               <pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 27
       </p>
             </div>
@@ -2219,7 +2220,7 @@
                   <lb break="yes"/>
                   <lb break="yes"/>
                </p>
-               <pb facs="#facs_29" n="29" xml:id="img_0029"/>
+               <pb facs="#facs_29" n="29" xml:id="img_0029" break="yes"/>
                <p>991 der Beilagen.
       <lb break="yes"/>de</p>
                <p>Konstituierende Nationalversammlung. 28
@@ -2293,7 +2294,7 @@
       <lb break="yes"/>Er ist auch in den Angelegenheiten der mittelbaren
       <lb break="yes"/>Bundesverwaltung das Hilfsorgan des Landes
 <lb break="no"/>hauptmannes.</p>
-               <pb facs="#facs_30" n="30" xml:id="img_0030"/>
+               <pb facs="#facs_30" n="30" xml:id="img_0030" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 29
       </p>
             </div>
@@ -2374,7 +2375,7 @@
       </head>
                <p>Für beide Landesteile gelten die allgemeinen
       <lb break="yes"/>Bestimmungen dieses Hauptstückes. Für Wien hat</p>
-               <pb facs="#facs_31" n="31" xml:id="img_0031"/>
+               <pb facs="#facs_31" n="31" xml:id="img_0031" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 30
       <lb break="yes"/>dabei der vom Gemeinderat gewählte Bürgermeister
       <lb break="yes"/>auch die Stellung eines Landeshauptmannes, der
@@ -2454,7 +2455,7 @@
       <lb break="yes"/>wirtschaftliche Unternehmungen zu betreiben, ihren
       <lb break="yes"/>Haushalt selbständig zu führen und Abgaben ein
 <lb break="no"/>zuheben.</p>
-               <pb facs="#facs_32" n="32" xml:id="img_0032"/>
+               <pb facs="#facs_32" n="32" xml:id="img_0032" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 31
       </p>
             </div>
@@ -2519,7 +2520,7 @@
 <lb break="no"/>ausschüssen sowie den Ämtern zukommen, bestimmen
       <lb break="yes"/>die Bundesgesetzgebung und die Landesgesetzhebungen
       <lb break="yes"/>innerhalb ihrer verfassungsmäßigen Zuständigkeit</p>
-               <pb facs="#facs_33" n="33" xml:id="img_0033"/>
+               <pb facs="#facs_33" n="33" xml:id="img_0033" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 32
       <lb break="yes"/>(3) Hiebei ist jedoch den Gemeinden ein Wirkungs
 <lb break="no"/>kreis in erster Instanz in folgenden Angelegenheiten
@@ -2590,7 +2591,7 @@
                <p>
                   <lb break="yes"/>
                </p>
-               <pb facs="#facs_34" n="34" xml:id="img_0034"/>
+               <pb facs="#facs_34" n="34" xml:id="img_0034" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 33
       </p>
             </div>
@@ -2669,7 +2670,7 @@
                   <lb break="yes"/>
                </p>
                <p>3</p>
-               <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+               <pb facs="#facs_35" n="35" xml:id="img_0035" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 34
       <lb break="yes"/>administrativen Instanzenzuges Beschwerde beim
       <lb break="yes"/>Verwaltungsgerichtshof erheben.
@@ -2741,7 +2742,7 @@
       <lb break="yes"/>selbst entscheiden, soweit nicht die Behörde nach
       <lb break="yes"/>den Bestimmungen des Gesetzes zur Entscheidung
       <lb break="yes"/>oder Verfügung nach freiem Ermessen befugt ist.</p>
-               <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+               <pb facs="#facs_36" n="36" xml:id="img_0036" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 35
       </p>
             </div>
@@ -2821,7 +2822,7 @@
       <lb break="yes"/>von Amts wegen;
       <lb break="yes"/>über Gesetzwidrigkeit von Verordnungen einer
       <lb break="yes"/>Landesbehörde auch auf Antrag der Bundesregierung;</p>
-               <pb facs="#facs_37" n="37" xml:id="img_0037"/>
+               <pb facs="#facs_37" n="37" xml:id="img_0037" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 36
       <lb break="yes"/>über Gesetzwidrigkeit von Verordnungen einer
       <lb break="yes"/>Bundesbehörde auch auf Antrag einer Landes
@@ -2891,7 +2892,7 @@
       <lb break="yes"/>und die ihnen hinsichtlich der Verantwortlich
 <lb break="no"/>keit gleichgestellten Organe wegen Gesetzes
 <lb break="no"/>verletzung: durch Beschluß des Nationalrates;</p>
-               <pb facs="#facs_38" n="38" xml:id="img_0038"/>
+               <pb facs="#facs_38" n="38" xml:id="img_0038" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 37
       <lb break="yes"/>c) gegen die Mitglieder einer Landesregierung
       <lb break="yes"/>und die ihnen hinsichtlich der Verantwortlich
@@ -2964,7 +2965,7 @@
                <p>Die Exekution der Erkenntnisse des Ver
 <lb break="no"/>fassungsgerichtshofes liegt dem Bundespräsidenten ob.</p>
                <p>neben</p>
-               <pb facs="#facs_39" n="39" xml:id="img_0039"/>
+               <pb facs="#facs_39" n="39" xml:id="img_0039" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 38
       </p>
             </div>
@@ -3032,9 +3033,9 @@
       <lb break="yes"/>St. G. Bl. Nr. 303.</p>
                <p>Neben
       <lb break="yes"/>
-                  <hi rend="bold">Unleserlich</hi>
+                  <gap reason="illegible"/>
                </p>
-               <pb facs="#facs_40" n="40" xml:id="img_0040"/>
+               <pb facs="#facs_40" n="40" xml:id="img_0040" break="yes"/>
                <p>991 der Beilagen. — Konstituierende Nationalversammlung. 39
       <lb break="yes"/>(2) Artikel 20 des Gesetzes vom 21. Dezember
       <lb break="yes"/>1867, R. G. Bl. Nr. 142, sowie das auf Grund

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">UA 26. August 1920 Textvariante</title>
+            <title type="main">UA Entwurf 26. August 1920 Textvariante</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529223</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14550</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +70,7 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
-                     <title>UA 26. August 1920 Textvariante</title>
+                     <title>UA Entwurf 26. August 1920 Textvariante</title>
                      <note type="editor">UA-Entwurf 26. August Textvariante (Titel des Dokuments: "Entwurf eines Gesetzes, betreffend die Verfassung der Republik Österreich"), unklar welchen Stand der Bearbeitung im UA das Dokument wiedergibt. Handschriftlich gekennzeichnet mit "Seipel II", einliegend ein Blatt in Maschinschrift mit Textvarianten zu den Artikeln 92 und 92a, Zustand gut, zahlreiche handschriftliche Ergänzungen in Bleistift, 157 Artikel</note>
                   </msItem>
                </msContents>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-08-26" to="1920-08-26">26. August 1920</origin>
+                  <origin notBefore-iso="1920-08-26" notAfter-iso="1920-08-26">26. August 1920</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -144,10 +145,14 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p>Unleserlich</p>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>
-               <lb break="yes"/>Unleserlich</p>
+               <gap reason="illegible"/>
+            </p>
+            <p>
+               <lb break="yes"/>
+               <gap reason="illegible"/>
+            </p>
             <p>Bekanntlich hat der Unterausschuß des Verfassungsausschusses auf Grundlage der verschiedenen Entwürfe für ein Bundesverfassung
       <lb break="yes"/>die Materie mit Ausnahme des Abschnittes über die Grund- und Freiheitsrechte durchberaten.
       <lb break="yes"/>Im nachfolgenden wird nunmehr der Entwurf, wie er im Unterausschusse beschlossen wurde, in seiner Gänze der Öffentlichkeit zu
@@ -196,7 +201,7 @@
 <lb break="no"/>gesetze des Bundes und jenes Landes erfolgen, dessen
       <lb break="yes"/>Gebiet eine Änderung erfährt.
       <lb break="yes"/>
-                  <hi rend="bold">Unleserlich</hi>
+                  <gap reason="illegible"/>
                   <lb break="yes"/>Artitel 3 a.
       <lb break="yes"/>(1) Das Bundesgebiet bildet ein einheitliches
       <lb break="yes"/>Wahrungs-, Wirtschafts- und Zollgebiet.
@@ -414,24 +419,28 @@
       <lb break="yes"/>Regelung der Grundsätze vorbehalten ist, obliegt die
       <lb break="yes"/>nähere Ausführung der Landesgesetzgebung innerhalb
       <lb break="yes"/>des bundesgesetzlich festgelegten Rahmens. Das Bundes-</p>
-               <p>Unleserlich
-      <lb break="yes"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
                </p>
                <p>Seipel
       <lb break="yes"/>II</p>
-               <p>Unleserlich
-      <lb break="yes"/>20.
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>20.
       <lb break="yes"/>Lad. Mct.
       <lb break="yes"/>Scoweren
       <lb break="yes"/>605
       <lb break="yes"/>Bed. M.1.
       <lb break="yes"/>6b</p>
-               <p>Unleserlich
-      <lb break="yes"/>Heklerb
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>Heklerb
       <lb break="yes"/>
                   <lb break="yes"/>116</p>
-               <p>Unleserlich
-      <lb break="yes"/>llen
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>llen
       <lb break="yes"/>er126
       <lb break="yes"/>Sr. le L
       <lb break="yes"/>
@@ -444,14 +453,17 @@
                   <lb break="yes"/>
                   <lb break="yes"/>
                </p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-               <p>unleserlich
-      <lb break="yes"/>2</p>
-               <p>unleserlich
-      <lb break="yes"/>Berche
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>2</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>Berche
       <lb break="yes"/>N Punk</p>
-               <p>unleserlich
-      <lb break="yes"/>V4o
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>V4o
       <lb break="yes"/>U</p>
                <p>gesetz kann für die Erlassung der Ausführungsgesetze
       <lb break="yes"/>eine Frist bestimmen, die nicht kürzer als drei
@@ -729,8 +741,9 @@
       <lb break="yes"/>(1) Im Bundesrate sind die Länder im Verhältnis
       <lb break="yes"/>ihrer Einwphnerzahl gemäß den folgenden Be
       <lb break="yes"/>sümmungen vertreten.</p>
-               <p>unleserlich
-      <lb break="yes"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
                   <lb break="yes"/>v1.
       <lb break="yes"/>20010
       <lb break="yes"/>00140
@@ -745,11 +758,14 @@
       <lb break="yes"/>24 161
       <lb break="yes"/>ob
       <lb break="yes"/>ih.</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
-               <p>unleserlich</p>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
                <p>3</p>
-               <p>Unleserlich
-      <lb break="yes"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
                </p>
                <p>(2) Das Land mit der größten Einwohnerzahl
       <lb break="yes"/>entsendet 12 Mitglieder, jedes andere Lans s
@@ -1002,10 +1018,13 @@
       <lb break="yes"/>(1) Niemand kann gleichzeitig dem Nationalrat und
       <lb break="yes"/>(2) öffentliche Ungestellte und Junttionäre ein
 <lb break="no"/>schließlich der Ungehörigen des Bundesheeres bedürsen</p>
-               <p>unleserlich</p>
-               <p>unleserlich
-      <lb break="yes"/>&amp; Werdel</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>&amp; Werdel</p>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_15"/>
@@ -1045,10 +1064,12 @@
       <lb break="yes"/>Die Bestimmungen des Artikels 92, Absatz 2 und 4, finden nicht
       <lb break="yes"/>Anwendung auf Einrichtungen zur Besorgung der Geschäfte des Bundes
       <lb break="yes"/>als Träger von Privatrechten (Artikel 14).</p>
-               <p>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
                <p>65</p>
                <p/>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>zur Ausübung eines Mandates im Nationalrat oder
       <lb break="yes"/>im Bundesrale seines Urlaubes.
       <lb break="yes"/>(3) Wenn sich die im Absatz 2 bezeichneten
@@ -1353,7 +1374,7 @@
       <lb break="yes"/>der Republik ob.
       <lb break="yes"/>(2) Das Bundesheer ist, soweit die gesetzmäßige
       <lb break="yes"/>bürgerliche Gewalt seine Mitwirlung in Anspruch</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>nimmt, zum Schutz der verfassungsmäßigen Einrich
 <lb break="no"/>tungen sowie zur Aufrechterhaltung der Ordnung un
       <lb break="yes"/>Sicherheit im Innern überhaupt und zur Hilfeleistung
@@ -1550,7 +1571,7 @@
       <lb break="yes"/>enger ziehen, als dies in der Wahlordnung zum
       <lb break="yes"/>Nationalrat der Fall ist.
       <lb break="yes"/>
-                  <hi rend="bold">Unleserlich</hi>
+                  <gap reason="illegible"/>
                </p>
             </div>
             <div type="article">
@@ -1649,7 +1670,7 @@
       <lb break="yes"/>werden durch den Bundespräsidenten auf die Bundes
 <lb break="no"/>verfassung angelobt.
       <lb break="yes"/>
-                  <hi rend="bold">Unleserlich</hi>
+                  <gap reason="illegible"/>
                </p>
             </div>
             <div type="article">
@@ -1689,7 +1710,7 @@
                <p>(1) Der Landeshauptmann oder sein Stellvertreter
       <lb break="yes"/>vertritt das Land. Er trägt in den Angelegenheiten</p>
                <p>65</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>der mittelbaren Bundesverwaltung die Verantwortung
       <lb break="yes"/>gegenüber der Bundesregierung gemäg Artisel 152. Der
       <lb break="yes"/>Geltendmachung dieser Verantwortung steht die
@@ -1779,7 +1800,6 @@
       <lb break="yes"/>andere als territoriale Wahllörper eingeteilt werden.
       <lb break="yes"/>Die Wahlordnung kann bestmmen, daß die Wähler
       <lb break="yes"/>schaft ihr Wahlrecht in Wahlbezirken auszuüben hat,</p>
-               <p/>
                <p>die geschlossene Territorien sein müsssen. Die Mandate
       <lb break="yes"/>sind auf die Wahlbezirke im Verhältnis der Zahl der
       <lb break="yes"/>Bundesangehörigen, die in ihnen nach dme Ergebnis
@@ -1796,7 +1816,7 @@
       <lb break="yes"/>(5) Die Leiter der Bezirksämter und der Kreisämter
       <lb break="yes"/>müssen rechtskündige Verwaltungsbeämte sein.
       <lb break="yes"/>
-                  <hi rend="bold">unleserlich</hi>
+                  <gap reason="illegible"/>
                   <lb break="yes"/>Artikel 97 f.
       <lb break="yes"/>Die Festschung der weileren Grundsäze für die Or
 <lb break="no"/>ganisation der allgemeinen staatlichen verwältung in
@@ -1901,8 +1921,8 @@
 <lb break="no"/>waltung.
       <lb break="yes"/>A. Der Verwaltungsgerichtshof.
       <lb break="yes"/>
-                  <hi rend="bold">unleserlich</hi> Artitel 138.
-      <lb break="yes"/>(1) Wegen Rechtsverletzung durch die Entscheidung
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>(1) Wegen Rechtsverletzung durch die Entscheidung
       <lb break="yes"/>oder Verfügung einer Verwaltungsbehörde des Bunöes
       <lb break="yes"/>oder eines landes entscheidet nach brschöpfung des
       <lb break="yes"/>administrativen Instanzenzuges der verwältungs
@@ -1975,7 +1995,7 @@
       <lb break="yes"/>ernannt. Der Vorschlag der Bundesregierung bedarf
       <lb break="yes"/>bezüglich des Präsidenten und der Hälfte der Mit
 <lb break="no"/>glieder der Zustimmung des Hauptauschusses des</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>Nationalrates, bezüglich des Vizepräsidenten und der
       <lb break="yes"/>anderen Hälfte der Mitglieder der Zustimmung des
       <lb break="yes"/>Bundesrates.
@@ -2182,11 +2202,10 @@
 <lb break="no"/>läufige Ausgestaltung der dermäligen Bezütsverwal
       <lb break="yes"/>tung naci Artitel &amp; ist Sache der Bundesgesehgebung;
       <lb break="yes"/>ihre Ausführung liegt den Tandchgeschen ob.</p>
-               <p/>
                <p>
-                  <hi rend="bold">unleserlich</hi>
+                  <gap reason="illegible"/>
                   <lb break="yes"/>
-                  <hi rend="bold">unleserlich</hi>
+                  <gap reason="illegible"/>
                </p>
             </div>
          </div>

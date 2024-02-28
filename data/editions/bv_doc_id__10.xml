@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Rehrl</title>
+            <title type="main">Rehrl Entwurf</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529208</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14520</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +70,7 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Rehrl, Franz</author>
-                     <title>Rehrl</title>
+                     <title>Rehrl Entwurf</title>
                      <note type="editor">Rehrl (Titel des Dokuments: "Die Bundesverfassung Österreichs"), Zustand: mäßig, zahlreiche Unterstreichungen, Anmerkungen in Steno, keine formale Artikelzählung</note>
                   </msItem>
                </msContents>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1919-12-01" to="1919-12-31">Im Dezember 1919</origin>
+                  <origin notBefore-iso="1919-12-01" notAfter-iso="1919-12-31">Im Dezember 1919</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -134,7 +135,7 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>Die Bundesverfassung Oesterreichs
       <lb break="yes"/>von Landeshauptmannstellvertreter Dr. Rehrl.</p>
             <p>Am 18. September 1919 fand beim Salzburger Lan
@@ -238,18 +239,24 @@
       <lb break="yes"/>Ländern durch die Landesregierung besorgt wird, da</p>
             <p>?
       <lb break="yes"/>!
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
-            <p>20</p>
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <p>unleserlich
-      <lb break="yes"/>?
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>!
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>!</p>
+      <lb break="yes"/>
+               <gap reason="illegible"/>
+               <lb break="yes"/>
+               <gap reason="illegible"/>
+               <lb break="yes"/>
+               <gap reason="illegible"/>
+            </p>
+            <p>20<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
+               <gap reason="illegible"/>
+               <lb break="yes"/>?
+      <lb break="yes"/>
+               <gap reason="illegible"/>
+               <lb break="yes"/>
+               <gap reason="illegible"/>
+               <lb break="yes"/>!
+      <lb break="yes"/>
+               <gap reason="illegible"/>
+               <lb break="yes"/>!</p>
             <p>man sich ansonsten in den einzelnen Ländern vor lau
 <lb break="no"/>ter bürokratisch organisierten Regierungsbehörden nicht
       <lb break="yes"/>mehr auskennen würde und schließlich für die Selbst
@@ -381,9 +388,7 @@
       <lb break="yes"/>gesetzgebenden Organe
       <lb break="yes"/>betrifft, so ist nach dem Regierungsentwürfe der Bun
 <lb break="no"/>destag das, was heute die Nationalversammlung ist,
-      <lb break="yes"/>währens der Bundesrat eine Länderkammer darstellt.</p>
-            <pb facs="#facs_4" n="4" xml:id="img_0004"/>
-            <p>des von der Regierung vorgeschlagenen Namens
+      <lb break="yes"/>währens der Bundesrat eine Länderkammer darstellt.<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>des von der Regierung vorgeschlagenen Namens
       <lb break="yes"/>"Bundesrat" den Ausdruck, Länderkammer gebrau
 <lb break="no"/>chen, da der Name Bundesrat für die Bundesregierung
       <lb break="yes"/>aufbewahrt werden soll. Die Länderkammer soll nach
@@ -441,7 +446,7 @@
       <lb break="yes"/>Bundesrates vorsteht. Die Hauptaufgabe der
       <lb break="yes"/>Länderkammer, von der Regierung, Bundesrat"
       <lb break="yes"/>genannt, hat, wie schon erwähnt, in der Genehmigung der
-      <lb break="yes"/>Beschlüsse des Bundestages zu stehen, die <hi rend="bold">unleserlich</hi>
+      <lb break="yes"/>Beschlüsse des Bundestages zu stehen, die <gap reason="illegible"/>
                <lb break="yes"/>einer bestimmten Frist zu erfolgen haben, damit Ver
 <lb break="no"/>schleppungen verhindert werden, da in einem solchen
       <lb break="yes"/>Fall die Kundmachung des Gesetzes auch ohne Genehm
@@ -524,10 +529,13 @@
 <lb break="no"/>nehmungen gleichzeitig Partei und Behörde waren, sind</p>
             <p>!!!</p>
             <p>21</p>
-            <p>unleserlich
-      <lb break="yes"/>unleserlich</p>
-            <pb facs="#facs_5" n="5" xml:id="img_0005"/>
-            <p>unleserlich</p>
+            <p>
+               <gap reason="illegible"/>
+               <lb break="yes"/>
+               <gap reason="illegible"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
+               <gap reason="illegible"/>
+            </p>
             <p>ihres behördlichen Charakters zur Gänze zu entkleiden
       <lb break="yes"/>und als Verwaltungsbetriebe des Staates auf kauf
 <lb break="no"/>männische Grundtage zu stellen. Insoweit eine Staats
@@ -662,11 +670,13 @@
 <lb break="no"/>tion eines Stellvertrefers des Landeshauptmannes.
       <lb break="yes"/>Jedoch ist hiemit zum Unterschiede von jetzt nur dann
       <lb break="yes"/>eine besondere Funktion verbunden, wenn diesselben</p>
-            <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
-            <pb facs="#facs_6" n="6" xml:id="img_0006"/>
-            <p>den Landeshauptmann im Falle von Krankheit, Ab
+            <p>
+               <gap reason="illegible"/>
+               <lb break="yes"/>
+               <gap reason="illegible"/>
+               <lb break="yes"/>
+               <gap reason="illegible"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>den Landeshauptmann im Falle von Krankheit, Ab
 <lb break="no"/>wesenheit. Versetzung in den Anklagezustand oder be
 <lb break="no"/>stimmten Auftrag im einzelnen Falle zu vertreten ha
 <lb break="no"/>ben. Die Bestätigung des Landeshauptmannes und
@@ -805,10 +815,8 @@
       <lb break="yes"/>Schließlich sei noch auf
       <lb break="yes"/>die obersten Gerichtshöfe
       <lb break="yes"/>hingewiesen, auf den Bundesverwaltungsge-</p>
-            <p>22</p>
-            <pb facs="#facs_7" n="7" xml:id="img_0007"/>
-            <p>
-               <hi rend="bold">unleserlich</hi>
+            <p>22<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
+               <gap reason="illegible"/>
             </p>
             <p>Unleserlich 211 Mappe 3
       <lb break="yes"/>13932/68</p>

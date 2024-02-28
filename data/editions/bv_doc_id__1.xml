@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529199</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14485</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1919-05-01" to="1919-11-30">Zwischen Mai und November 1919</origin>
+                  <origin notBefore-iso="1919-05-01" notAfter-iso="1919-11-30">Zwischen Mai und November 1919</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -349,7 +350,7 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>Entw I
       <lb break="yes"/>Erster Abschnitt.
       </p>
@@ -404,7 +405,7 @@
                </p>
                <p>./.</p>
                <p>2</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                <p>- 2 -
       </p>
             </div>
@@ -450,7 +451,7 @@
       <lb break="yes"/>Umfanges des den Ländern zustehenden
       <lb break="yes"/>Rechtes, öffentliche Abgaben auszuschrei
 <lb break="no"/>hen und einzuheben,</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>- 3 -</p>
                <p>3.) die Regelung des Staatsbürger-
       <lb break="yes"/>und Heimatsrechtes,
@@ -488,7 +489,7 @@
 <lb break="no"/>versammlungen gewählten Bundesrate das
       <lb break="yes"/>höchste Organ des Bundes.</p>
                <p>3</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>- 4 -</p>
             </div>
             <div type="article">
@@ -541,7 +542,7 @@
                <head>Art. XII.
       </head>
                <p>Zur Bundesversammlung werden in dem</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>- 5 -</p>
                <p>gesamten Bundesgebiet... Abgeordnete
       <lb break="yes"/>auf Grund des gleichen, direkten persön
@@ -587,7 +588,7 @@
                <p>Während der Sitzungsperiode kann
       <lb break="yes"/>die Bundesversammlung durch einen Be-</p>
                <p>4</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>- 6 
 <lb break="no"/>schluß des Hauses oder über Vorschlag der
       <lb break="yes"/>Bundesregierung durch den Bundespräsiden
@@ -629,7 +630,7 @@
       <lb break="yes"/>im Rahmen dieses Gesetzes von der Bun
 <lb break="no"/>desversammlung zu beschließenden auto
 <lb break="no"/>nomen Geschäftsordnung.</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>- 7 -
       </p>
             </div>
@@ -679,7 +680,7 @@
 <lb break="no"/>sen und vom Bundesrat genehmigt ist - vor
       <lb break="yes"/>der Beurkundung durch den Bundespräsiden-</p>
                <p>5</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>- 8 
 <lb break="no"/>ten einer Abstimmung des gesamten Bundes
 <lb break="no"/>volkes zu unterziehen.
@@ -732,7 +733,7 @@
                <p>Ist eine Gesamtänderung der Bundes
 <lb break="no"/>verfassung durch Volksabstimmung abge
 <lb break="no"/>lehnt worden, hat der Bundespräsident</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
                <p>- 9 
 <lb break="no"/>die Bundesversammlung aufzulösen und ge
 <lb break="no"/>mäß Art. XV der Bundesverfassung Neuwah
@@ -785,7 +786,7 @@
       <lb break="yes"/>und als Stellvertreter desselben fungie
 <lb break="no"/>ren die bei der Wahl aus der Landesver-</p>
                <p>6</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
                <p>- 10 
 <lb break="no"/>sammlung hiezu an erster und zweiter
       <lb break="yes"/>Stelle ermächtigten Vertreter des je
@@ -813,8 +814,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_29"/>
                <head>Art. XXIX.</head>
-               <p>
-</p>
                <p>Die Mitglieder des Bundesrates blei
 <lb break="no"/>ben bis zum Beginn der neuen Session der
       <lb break="yes"/>Bundesversammlung, darüber hinaus aber
@@ -836,7 +835,7 @@
       </head>
                <p>Jeder Gesetzesbeschluß sowie jeder
       <lb break="yes"/>andere Beschluß der Bundesversammlung,</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>- 11 
 <lb break="no"/>der einer Genehmigung durch den Bundes
 <lb break="no"/>rat bedarf, ist unverzüglich durch den
@@ -877,7 +876,7 @@
       <lb break="yes"/>verweigert, so hat der Bundespräsident
       <lb break="yes"/>den Gesetzesbeschluß ohne die Genehmigung</p>
                <p>7</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>- 12 
 <lb break="no"/>des Bundesrates zu beurkunden und seine
       <lb break="yes"/>Kundmachung zu veranlassen.
@@ -920,7 +919,7 @@
       <lb break="yes"/>Diese Beurkundung ist vom Bundes
 <lb break="no"/>kanzler und dem ressortmäßig zuständigen
       <lb break="yes"/>Staatssekretär zu gegenzeichnen.</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
                <p>- 13 -
       </p>
             </div>
@@ -970,7 +969,7 @@
       <lb break="yes"/>darf während der Dauer der Session wegen
       <lb break="yes"/>einer strafbaren Handlung - den Fall der</p>
                <p>8</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>- 14 
 <lb break="no"/>Ergreifung auf frischer Tat ausgenommen 
 <lb break="no"/>ohne Zustimmung der Bundesversammlung ver
@@ -1008,8 +1007,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_39"/>
                <head>Art. XXXVII.</head>
-               <p>
-</p>
                <p>Die der Bundesversammlung oder dem
       <lb break="yes"/>Bundesrat angehörenden öffentlichen Ange
 <lb break="no"/>stellten und Funktionäre bedürfen zur
@@ -1024,7 +1021,7 @@
       <lb break="yes"/>sowie die von ihnen entsendeten Vertre
 <lb break="no"/>ter sind berechtigt, an allen Beratun
 <lb break="no"/>gen der Bundesversammlung und des Bun-</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
                <p>- 15 
 <lb break="no"/>desrates sowie deren Ausschüsse teilzu
 <lb break="no"/>nehmen. Sie müssen auf ihr Verlangen je
@@ -1058,7 +1055,7 @@
       <lb break="yes"/>Hauptwahl zur Bundesversammlung und für
       <lb break="yes"/>die Dauer ihrer Funktionsperiode.</p>
                <p>9</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p>- 16 
 <lb break="no"/>Wird die Bundesversammlung vor Ab
 <lb break="no"/>lauf der . . . jährigen Legislativpe
@@ -1093,7 +1090,7 @@
       <lb break="yes"/>Stimmen erhalten hat.
       <lb break="yes"/>Derjenige Kandidat, der die nächst
 <lb break="no"/>hohe Stimmziffer erreicht, gilt als zum</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>- 27 
 <lb break="no"/>Stellvertreter des Bundespräsidenten ge
 <lb break="no"/>wählt.
@@ -1128,7 +1125,7 @@
 <lb break="no"/>urteilter, die Milderung der von den Ge
 <lb break="no"/>richten ausgesprochenen Strafen, die</p>
                <p>10</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
                <p>- 18 
 <lb break="no"/>Nachsicht von Rechtsfolgen und die Til
 <lb break="no"/>gung von Verurteilungen, ferner die Abo
@@ -1162,7 +1159,7 @@
       <lb break="yes"/>Art. LI.
       <lb break="yes"/>Der Bundespräsident bleibt auch
       <lb break="yes"/>nach Ablauf der Legislativperiode und</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
                <p>- 19 
 <lb break="no"/>nach Auflösung der Bundesversammlung u.
       <lb break="yes"/>zw. so lange im Amte, bis der neue Bundes
@@ -1198,7 +1195,7 @@
 <lb break="no"/>kanzlers und der Staatssekretäre sowie
       <lb break="yes"/>der Unterstaatsekretäre werden vom Bun-</p>
                <p>11</p>
-               <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+               <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
                <p>- 20 
 <lb break="no"/>despräsidenten mit dem Datum des Tages
       <lb break="yes"/>der Abgelobung ausgefertigt und vom neu
@@ -1234,7 +1231,7 @@
       <lb break="yes"/>neuerliche Vertagung der Abstimmung kann
       <lb break="yes"/>nur auf Beschluß der Bundesversammlung
       <lb break="yes"/>erfolgen.</p>
-               <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+               <pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>
                <p>- 21 
 <lb break="no"/>Zu einem Beschlusse des Bundesrates,
       <lb break="yes"/>mit welchem das Vertrauen versagt wird,
@@ -1269,7 +1266,7 @@
       <lb break="yes"/>Ausnahmsweise und vorübergehend kann
       <lb break="yes"/>der Bundeskanaler der Vizekanzler oder</p>
                <p>12</p>
-               <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+               <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
                <p>- 22 -</p>
                <p>ein Staatssekretär auch mit der Führung
       <lb break="yes"/>eines ihm nicht nach Art. LXVII unter
@@ -1301,7 +1298,7 @@
       <lb break="yes"/>Die Urteile und Erkenntnisse
       <lb break="yes"/>werden im Namen der Republik Deutsch
 <lb break="no"/>österreich ausgefertigt.</p>
-               <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+               <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
                <p>- 23 
 <lb break="no"/>Art. LXII.
       <lb break="yes"/>Die Verfassung und Zuständigkeit
@@ -1334,7 +1331,7 @@
       <lb break="yes"/>Antrag der Bunderegierung vom Bundesprä
 <lb break="no"/>sidenten oder über dessen Ermächtigung vom</p>
                <p>13</p>
-               <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+               <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
                <p>- 24 
 <lb break="no"/>Staatssekretär für Justiz ernannt.
       <lb break="yes"/>Der durch den Staatesekretär
@@ -1366,7 +1363,7 @@
 <lb break="no"/>ganisationsgesetz festgesetzten Altersgren
 <lb break="no"/>ze dürfen Richter nur auf Grund eines
       <lb break="yes"/>förmlichen richterlichen Erkenntnisses</p>
-               <pb facs="#facs_26" n="26" xml:id="img_0026"/>
+               <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
                <p>- 25 
 <lb break="no"/>ihres Amtes ersetzt werden; ihre zeitwei
 <lb break="no"/>es Enthebung des Gerichtsvorstandes
@@ -1399,7 +1396,7 @@
       <lb break="yes"/>Art. LXIX.
       <lb break="yes"/>Wegen der von einem Richter in</p>
                <p>14</p>
-               <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+               <pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/>
                <p>- 26 
 <lb break="no"/>Ausübung eeines Amtes verursachten Rechts
 <lb break="no"/>verletzungen kann dieser Richter sowie
@@ -1431,7 +1428,7 @@
       <lb break="yes"/>Als oberste Instanz in Zivil-
       <lb break="yes"/>und Strafrechtssachen besteht das Oberste
       <lb break="yes"/>Bundesgericht in Wien.</p>
-               <pb facs="#facs_28" n="28" xml:id="img_0028"/>
+               <pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>
                <p>- 27 
 <lb break="no"/>Art. LXXIII.
       <lb break="yes"/>Die Erteilung von Amnestien er
@@ -1461,7 +1458,7 @@
       <lb break="yes"/>Grund des gleichen, geheimen und direkten
       <lb break="yes"/>Verhältniswahlrechtes aller Bundesbürger</p>
                <p>15</p>
-               <pb facs="#facs_29" n="29" xml:id="img_0029"/>
+               <pb facs="#facs_29" n="29" xml:id="img_0029" break="yes"/>
                <p>- 28 
 <lb break="no"/>ohne Unterschied des Geschlechtes gewählt
       <lb break="yes"/>werden.
@@ -1492,7 +1489,7 @@
       <lb break="yes"/>Ein Landesverfassungsgesetz kann
       <lb break="yes"/>nur bei Anwesenheit der Zweidrittel
       <lb break="yes"/>aller Mitglieder der Landesversammlung</p>
-               <pb facs="#facs_30" n="30" xml:id="img_0030"/>
+               <pb facs="#facs_30" n="30" xml:id="img_0030" break="yes"/>
                <p>- 29 
 <lb break="no"/>mit einer Mehrheit von Dreiviertel aller
       <lb break="yes"/>abgegebenen Stimmen beschlossen werden.
@@ -1525,7 +1522,7 @@
       <lb break="yes"/>des der Landesregierung übertragenen
       <lb break="yes"/>Wirkungskreises der Bundesgewalt die</p>
                <p>16</p>
-               <pb facs="#facs_31" n="31" xml:id="img_0031"/>
+               <pb facs="#facs_31" n="31" xml:id="img_0031" break="yes"/>
                <p>- 30 
 <lb break="no"/>Verantwortung gegenüber der Bundesregie
 <lb break="no"/>rung gemäss Art. CXXVIII der Bundesver
@@ -1558,7 +1555,7 @@
       <lb break="yes"/>zustehenden Bundesämtern.
       <lb break="yes"/>Art. LXXXIV.
       <lb break="yes"/>Aus besonderen Gründen kann über</p>
-               <pb facs="#facs_32" n="32" xml:id="img_0032"/>
+               <pb facs="#facs_32" n="32" xml:id="img_0032" break="yes"/>
                <p>- 31 
 <lb break="no"/>Beschluss der Bundesregierung zur Wahr
 <lb break="no"/>nehmung der Angelegenheiten des der Lan
@@ -1589,7 +1586,7 @@
       <lb break="yes"/>unmittelbar der Bundesversammlung und
       <lb break="yes"/>dem Bundesrat.</p>
                <p>17</p>
-               <pb facs="#facs_33" n="33" xml:id="img_0033"/>
+               <pb facs="#facs_33" n="33" xml:id="img_0033" break="yes"/>
                <p>- 32 
 <lb break="no"/>Art. LXXXVI.
       <lb break="yes"/>Der Bundesrechnungshof besteht
@@ -1622,7 +1619,7 @@
 <lb break="no"/>sammlung oder des Bundesrates abberufen
       <lb break="yes"/>werden. Auf diese Beschlüsse finden die
       <lb break="yes"/>Bestimmungen des Art. IV der Bundesver-</p>
-               <pb facs="#facs_34" n="34" xml:id="img_0034"/>
+               <pb facs="#facs_34" n="34" xml:id="img_0034" break="yes"/>
                <p>- 33 
 <lb break="no"/>fassung analoge Anwendung.
       <lb break="yes"/>Art. LXXXIX.
@@ -1660,7 +1657,7 @@
 <lb break="no"/>ter vom Bundespräsidenten, bis die Wahl
       <lb break="yes"/>des Präsidenten des Bundesrechmungs-</p>
                <p>18</p>
-               <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+               <pb facs="#facs_35" n="35" xml:id="img_0035" break="yes"/>
                <p>- 34 
 <lb break="no"/>hofes erfolgt ist, mit der Leitung des
       <lb break="yes"/>Bundesrechnungshofes betraut werden. In
@@ -1706,7 +1703,7 @@
       </head>
                <p>Alle Urkunden über Staatsschulden
       <lb break="yes"/>(Finanz- und Verwaltungsschulden) sind</p>
-               <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+               <pb facs="#facs_36" n="36" xml:id="img_0036" break="yes"/>
                <p>- 35 
 <lb break="no"/>vom Präsidenten des Bundesrechnungshofes
       <lb break="yes"/>gegenzuzeichnen; durch diese Gegenzeich
@@ -1750,7 +1747,7 @@
       <lb break="yes"/>c) die Vornahme von Lokalerhe
 <lb break="no"/>bungen durch die Verwaltungsbehörden anzu-</p>
                <p>19</p>
-               <pb facs="#facs_37" n="37" xml:id="img_0037"/>
+               <pb facs="#facs_37" n="37" xml:id="img_0037" break="yes"/>
                <p>- 36 
 <lb break="no"/>ordnen und an diesen Amtshandlungen durch
       <lb break="yes"/>Beauftragte teilzunehmen.
@@ -1791,7 +1788,7 @@
       <lb break="yes"/>Rechnungs- und Kassenwesen dürfen nur im
       <lb break="yes"/>Einvernehmen mit dem Bundesrechnungshofs
       <lb break="yes"/>getroffen werden.</p>
-               <pb facs="#facs_38" n="38" xml:id="img_0038"/>
+               <pb facs="#facs_38" n="38" xml:id="img_0038" break="yes"/>
                <p>- 37 -
       </p>
             </div>
@@ -1838,7 +1835,7 @@
       <lb break="yes"/>Die näheren Bestimmungen über die
       <lb break="yes"/>innere Einrichtung und den Geschäftsgang</p>
                <p>20</p>
-               <pb facs="#facs_39" n="39" xml:id="img_0039"/>
+               <pb facs="#facs_39" n="39" xml:id="img_0039" break="yes"/>
                <p>- 38 
 <lb break="no"/>des Bundesrechnungshofes regelt die Ge
 <lb break="no"/>schäftsordnung. Sie ist vom Bundesrech
@@ -1887,7 +1884,7 @@
       <lb break="yes"/>aus dem Grunde der Landesverteidigung
       <lb break="yes"/>beschränkbar.
       <lb break="yes"/>Der Verlust der Staatsbürger-</p>
-               <pb facs="#facs_40" n="40" xml:id="img_0040"/>
+               <pb facs="#facs_40" n="40" xml:id="img_0040" break="yes"/>
                <p>- 39 
 <lb break="no"/>schaft infolge Auswanderung wird durch
       <lb break="yes"/>besondere Gesetze geregelt.
@@ -1942,7 +1939,7 @@
       </head>
                <p>Die Freiheit der Meinungsäusse-</p>
                <p>21</p>
-               <pb facs="#facs_41" n="41" xml:id="img_0041"/>
+               <pb facs="#facs_41" n="41" xml:id="img_0041" break="yes"/>
                <p>- 40 
 <lb break="no"/>rung ist nur durch das Strafgesetz be
 <lb break="no"/>schränkt.
@@ -1984,7 +1981,7 @@
       <lb break="yes"/>Die Stellung der Religionsgesell
 <lb break="no"/>schaften im Staate und die Rechte ihrer
       <lb break="yes"/>Angehörigen werden durch besondere Ge-</p>
-               <pb facs="#facs_42" n="42" xml:id="img_0042"/>
+               <pb facs="#facs_42" n="42" xml:id="img_0042" break="yes"/>
                <p>- 41 
 <lb break="no"/>setze geregelt.
       </p>
@@ -2030,7 +2027,7 @@
       <lb break="yes"/>Bundeeversammlung oder der Bundesrat be
 <lb break="no"/>echliesst.</p>
                <p>22</p>
-               <pb facs="#facs_43" n="43" xml:id="img_0043"/>
+               <pb facs="#facs_43" n="43" xml:id="img_0043" break="yes"/>
                <p>- 42 
 <lb break="no"/>Siebenter Abschnitt.
       <lb break="yes"/>Von den Garantien des öffentlichen Rechtes.
@@ -2070,7 +2067,7 @@
       <lb break="yes"/>Vorschlag der Rundesregierung den Präsi
 <lb break="no"/>denten, aus dem Stande der ersterwähnten
       <lb break="yes"/>Beamten über Vorschlag der Landesregie-</p>
-               <pb facs="#facs_44" n="44" xml:id="img_0044"/>
+               <pb facs="#facs_44" n="44" xml:id="img_0044" break="yes"/>
                <p>- 43 
 <lb break="no"/>rung den Vizepräsidenten des Landesver
 <lb break="no"/>waltungsgerichtes.
@@ -2120,7 +2117,7 @@
       </head>
                <p>Von der Zuständigkeit der Verwal-</p>
                <p>23</p>
-               <pb facs="#facs_45" n="45" xml:id="img_0045"/>
+               <pb facs="#facs_45" n="45" xml:id="img_0045" break="yes"/>
                <p>- 44 
 <lb break="no"/>tungsgerichte sind ausgeschlossen:
       <lb break="yes"/>a) Angelegenheiten, über welche den
@@ -2161,7 +2158,7 @@
       <lb break="yes"/>zwischen den souveränen Ländern, sowie
       <lb break="yes"/>zwischen einem souveränen Lande und dem
       <lb break="yes"/>Bund.</p>
-               <pb facs="#facs_46" n="46" xml:id="img_0046"/>
+               <pb facs="#facs_46" n="46" xml:id="img_0046" break="yes"/>
                <p>- 45 -
       </p>
             </div>
@@ -2209,7 +2206,7 @@
       <lb break="yes"/>entscheidet über Bundesgesetzwidrigkeit
       <lb break="yes"/>von Landesgesetzen auf Antrag der Bun-</p>
                <p>24</p>
-               <pb facs="#facs_47" n="47" xml:id="img_0047"/>
+               <pb facs="#facs_47" n="47" xml:id="img_0047" break="yes"/>
                <p>
                   <lb break="yes"/>
                   <lb break="yes"/>
@@ -2243,7 +2240,7 @@
                   <lb break="yes"/>
                </p>
                <p/>
-               <pb facs="#facs_48" n="48" xml:id="img_0048"/>
+               <pb facs="#facs_48" n="48" xml:id="img_0048" break="yes"/>
                <p>- 47 
 <lb break="no"/>c) der Mitglieder der Landesregierun
 <lb break="no"/>gen und der ihnen hinsichtlich der Verant
@@ -2277,7 +2274,7 @@
       <lb break="yes"/>Verlust des Amtes eventuell auch der poli
 <lb break="no"/>tischen Rechte zu lauten.</p>
                <p>25</p>
-               <pb facs="#facs_49" n="49" xml:id="img_0049"/>
+               <pb facs="#facs_49" n="49" xml:id="img_0049" break="yes"/>
                <p>
                   <lb break="yes"/>
                   <lb break="yes"/>
@@ -2311,7 +2308,7 @@
                   <lb break="yes"/>
                </p>
                <p/>
-               <pb facs="#facs_50" n="50" xml:id="img_0050"/>
+               <pb facs="#facs_50" n="50" xml:id="img_0050" break="yes"/>
                <p>- 49 
 <lb break="no"/>wird in gesonderten Bundesgesetzen ge
 <lb break="no"/>regelt.</p>

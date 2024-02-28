@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529209</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14541</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-10-01" to="1920-10-01">1. Oktober 1920</origin>
+                  <origin notBefore-iso="1920-10-01" notAfter-iso="1920-10-01">1. Oktober 1920</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -199,7 +200,7 @@
    <text type="Verfassungstext">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>Sonderabdruck aus der „Wiener Zeitung“ Nr. 228 vom Dienstag, den 5. Oktober 1920.</p>
             <p>Gesetz vom 1. Oktober 1920,
       <lb break="yes"/>womit die Republik Österreich als Bundesstaat eingerichtet wird (Bundesverfassungsgesetz).*)</p>
@@ -353,7 +354,7 @@
       <lb break="yes"/>wegen ihrer Bedeutung für den Durchzugsverkehr durch
       <lb break="yes"/>Bundesgesetz als Bundesstraßen erklärten Straßenzüge;</p>
                <p>4) Enthalten in dem heute, den 5. Oktober 1920, aufgegebenen 140. Stüde des Staatsgesetzblattes unter Nr. 450.</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                <p>1</p>
                <p>Strom- und Schifffahrtspolizei: Post- Telegraphen-
       <lb break="yes"/>und Fernsprechwesen:
@@ -524,7 +525,7 @@
       </head>
                <p>(1) Soweit eine Angelegenheit nicht ausdrücklich
       <lb break="yes"/>durch die Bundesverfassung der Gesetzgebung oder</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>4</p>
                <p>(2) Für die Dauer außerordentlicher Verhältnisse
       <lb break="yes"/>kann der Bundespräsident auf Antrag der Bundes
@@ -726,7 +727,7 @@
 <lb break="no"/>wesenheit von mindestens einem Drittel der Mit
 <lb break="no"/>glieder und die unbedingte Mehrheit der abgegebenen
       <lb break="yes"/>Stimmen erforderlich.</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>4</p>
                <p>(2) Für die Dauer außerordentlicher Verhältnisse
       <lb break="yes"/>kann der Bundespräsident auf Antrag der Bundes
@@ -923,7 +924,7 @@
 <lb break="no"/>wesenheit von mindestens einem Drittel der Mit
 <lb break="no"/>glieder und die unbedingte Mehrheit der abgegebenen
       <lb break="yes"/>Stimmen erforderlich.</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>(2) Der Bundesrat gibt sich seine Geschäftsordnung
       <lb break="yes"/>durch Beschluß. Dieser Beschluß kann nur bei An
 <lb break="no"/>wesenheit der Hälfte der Mitglieder mit einer Mehr
@@ -1124,7 +1125,7 @@
 <lb break="no"/>gesetzblattes, das die Kundmachung enthält. heraus
 <lb break="no"/>gegeben und versendet wird. und erstreckt sich, wenn
       <lb break="yes"/>nicht ausdrücklich anderes bestimmt ist auf das gesamte</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>6</p>
                <p>(2) Über das Bundesgesetzblatt ergeht ein besonderes
       <lb break="yes"/>Bundesgesetz.
@@ -1323,7 +1324,7 @@
       <lb break="yes"/>(2) Der Antrag auf Verfolgung des Bundes
 <lb break="no"/>präsidenten ist von der zuständigen Behörde beim
       <lb break="yes"/>Nationalrat zu stellen, der beschließt, ob die</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>Rundesversammlung damit zu befassen ist. Spricht
       <lb break="yes"/>die Bundesversammlung sofort einzuberufen.
       </p>
@@ -1488,7 +1489,7 @@
       <lb break="yes"/>Hälfte der Mitalieder des Nationalrates erforderlich
       <lb break="yes"/>Doch ist. wenn es ein Fünftel der anwesenden Mit
 <lb break="no"/>glieder verlanat. die Abstimmuna auf den zweit-</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>8</p>
                <p>nächsten Werktag zu vertagen. Eine neuerliche Ber
 <lb break="no"/>tagung der Abstimmung kann nur durch Beschluß des
@@ -1685,7 +1686,7 @@
       <lb break="yes"/>und Versetzungen in den Ruhestand keine Anwendung,
       <lb break="yes"/>die durch Veränderungen in der Verfassung der
       <lb break="yes"/>zu den im Artikel 79. Absatz 2. erwähnten Zwecken (Gerichte nötig werden. In einem solchen Fall wird</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
                <p>9</p>
                <p>durch das Gesetz festgestellt, innerhlab welchen Zeit
       <lb break="yes"/>rahmens Richter ohne die sonst vorgeschriebenen Förm
@@ -1887,7 +1888,7 @@
       <lb break="yes"/>Landesregierung nur gewählt werden, wer zum Land
 <lb break="no"/>
                </p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
                <p>10</p>
                <p>(3) Die Tandesregierung besteht aus dem Landes
 <lb break="no"/>hauptmann, der erforderlichen Zahl von Stellvertretern
@@ -2082,7 +2083,7 @@
       <lb break="yes"/>Landeshauptmann von Niederösterreich-Land gehören
       <lb break="yes"/>der Verwaltungskommission an und führen abwechselnd
       <lb break="yes"/>den Vorsitz.</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>11</p>
             </div>
             <div type="article">
@@ -2282,7 +2283,7 @@
       <lb break="yes"/>gilt für die Verleihung von Amtstiteln. Doch kann
       <lb break="yes"/>der Bundespräsident den Präsidenten des Rechnungs
 <lb break="no"/>hofes ermächtigen, Beamte bestimmter Rategorien zu</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>12</p>
                <p>(2) Die Hilfskräfte ernennt der Präsident des
       <lb break="yes"/>Rechnungshofes.
@@ -2491,7 +2492,7 @@
                <p>(1) Der Verfassungsgerichtshof erkennt über Ver
 <lb break="no"/>fassungswidrigkeit von Landesgesetzen auf Antrag
       <lb break="yes"/>der Bundesregierung, über Verfassungswidrigkeit von</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
                <p>13</p>
                <p>Bundesgesetzen auf Antrag einer Landesregierung,
       <lb break="yes"/>Sofern aber ein solches Gesetz die Voraussetzung eines
@@ -2670,7 +2671,7 @@
 <lb break="no"/>zember 1867. R. G. BI. Nr. 142. sowie das auf
       <lb break="yes"/>Grund dieses Artifels erlassene Gesetz vom 5. Mai
       <lb break="yes"/>1869, R. G. VI. Nr. 66, treten außer Kraft.</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>14</p>
             </div>
             <div type="article">
@@ -2718,7 +2719,7 @@
       <lb break="yes"/>Besta m. p.
       <lb break="yes"/>Grünberger m. p.
       <lb break="yes"/>Heinlm. p.</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
                <p>Verfassungsgesetz vom 1. Oktober 1920,
       <lb break="yes"/>betreffend den Übergang zur bundesstaatlichen Verfassung.*)</p>
                <p>Die Nationalnersammlung hat beschlossen:
@@ -2830,7 +2831,7 @@
       <lb break="yes"/>der Agrarbehörden erster und zweiter Instanz (Agrar
 <lb break="no"/>bezirksbehörden und Agrarlandesbehörden) — werden
       <lb break="yes"/>Behörden des Bundes</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p>16</p>
                <p>(2) Die Stellung der im Absatz I ausgenommenen (
       <lb break="yes"/>staatlichen Behörden wird durch das Verfassungs-(außer Kraft.
@@ -2956,7 +2957,7 @@
       <lb break="yes"/>§ 18.
       <lb break="yes"/>Zu Artikel 15, Absatz 3.
       <lb break="yes"/>(1) In den Angelegenheiten der Artikel 11 und 12.
-      <lb break="yes"/>bleiben, solange <hi rend="bold">n</hi>eue Bundesgesetze noch nicht erlassen
+      <lb break="yes"/>bleiben, solange <hi rend="emphasis">n</hi>eue Bundesgesetze noch nicht erlassen
       <lb break="yes"/>sind, entgegen den Bestimmungen des § 6 die in den
       <lb break="yes"/>bisherigen Gesetzen und Vollzugsanweisungen (Ver
 <lb break="no"/>ordnungen) enthaltenen besonderen Vorschriften über
@@ -2972,7 +2973,7 @@
       <lb break="yes"/>Die Bestimmungen des Gesetzes vom 12. Juli
       <lb break="yes"/>1872. R. G. BI. Nr. 112 (Sundikatsgesetz),
       <lb break="yes"/>bleiben mit den durch § 12. Absatz 2, des Grund-</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>gesetzes vom 22. November 1918,l St. G. Bl. 
       <lb break="yes"/>Nr. 38, über die richterliche Gewalt vorgenom
 <lb break="no"/>menen Änderungen bis zur Erlassung des zur Durch
@@ -3114,7 +3115,7 @@
       <lb break="yes"/>und Zusammensetzung der Zivil- und Strafgerichte blei
 <lb break="no"/>ben bis auf weiteres in Kraft.</p>
                <p/>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
                <p>18</p>
                <p>§ 29</p>
                <p>Zu Artifel 95.
@@ -3254,7 +3255,7 @@
       <lb break="yes"/>(1) Der bisherige Staatsrechnungshof wird zum
       <lb break="yes"/>Rechnungshof im Sinne des Bundesverfafsungsgesetzes.
       <lb break="yes"/>(2) Bis zur Wahl des Präsidenten des Rechnungs-</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
                <p>19</p>
                <p>hofes versieht der bisherige Präsident des Staats-( weit es sich nicht um Angelegenheiten der ehemals
 <lb break="no"/>rechnungshofes dessen Funktionen.

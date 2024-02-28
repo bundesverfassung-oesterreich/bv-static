@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Großdeutsch KNV Beilage</title>
+            <title type="main">Großdeutsch Entwurf KNV Beilage</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529226</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14560</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +70,7 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Großdeutsche Volkspartei</author>
-                     <title>Großdeutsch KNV Beilage</title>
+                     <title>Großdeutsch Entwurf KNV Beilage</title>
                      <note type="editor">Großdeutsch (Titel des Dokuments "Antrag des Abgeordneten Dinghofer und Genossen betreffend die Grundzüge der österreichischen Verfassung"), KNV Beilage 842, Zustand: gut, handschriftliche Ergänzung am Titelblatt, 104 Artikel</note>
                   </msItem>
                </msContents>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-04-20" to="1920-05-18">18. Mai 1920 (aber vor dem 20. April 1920 entstanden)</origin>
+                  <origin notBefore-iso="1920-04-20" notAfter-iso="1920-05-18">18. Mai 1920 (aber vor dem 20. April 1920 entstanden)</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -259,20 +260,20 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>V</p>
-            <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung.   1</hi>
+            <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung.   1</hi>
                <lb break="yes"/>eingebracht: 18. V. 1920
       <lb break="yes"/>
-               <hi rend="bold">Antrag</hi>
+               <hi rend="emphasis">Antrag</hi>
                <lb break="yes"/>
-               <hi rend="bold">des</hi>
+               <hi rend="emphasis">des</hi>
                <lb break="yes"/>
-               <hi rend="bold">Abgeordneten Dr. Franz Dinghofer und Genossen,</hi>
+               <hi rend="emphasis">Abgeordneten Dr. Franz Dinghofer und Genossen,</hi>
                <lb break="yes"/>
-               <hi rend="bold">betreffend</hi>
+               <hi rend="emphasis">betreffend</hi>
                <lb break="yes"/>
-               <hi rend="bold">die Grundzüge der österreichischen Verfassung.</hi>
+               <hi rend="emphasis">die Grundzüge der österreichischen Verfassung.</hi>
             </p>
             <p>Unter dem Zwange des Vertrages von
       <lb break="yes"/>St. Germain, der den Anschluß an das Deutsche
@@ -285,14 +286,14 @@
       <lb break="yes"/>und geben sich nachstehende Verfassung:</p>
             <p>I. Hauptteil.
       <lb break="yes"/>
-               <hi rend="bold">Aufbau und Aufgaben des Staates.</hi>
+               <hi rend="emphasis">Aufbau und Aufgaben des Staates.</hi>
             </p>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_1"/>
                <head>Artikel 1.
       </head>
                <p>
-                  <hi rend="bold">Demokratische Republik.</hi>
+                  <hi rend="emphasis">Demokratische Republik.</hi>
                   <lb break="yes"/>Österreich ist eine demokratische Republik; alle
       <lb break="yes"/>Gewalt im Staate geht vom Volk aus. Jeder
       <lb break="yes"/>Staatsbürger hat Anteil an der wirtschaftlichen und
@@ -306,15 +307,15 @@
                <head>Artikel 2.
       </head>
                <p>
-                  <hi rend="bold">Bundesstaat.</hi>
+                  <hi rend="emphasis">Bundesstaat.</hi>
                   <lb break="yes"/>Österreich ist ein Bundesstaat, gebildet aus
       <lb break="yes"/>den selbständigen Ländern Niederösterreich, Ober
 <lb break="no"/>österreich, Salzburg, Steiermark, Kärnten, Tirol
       <lb break="yes"/>und Vorarlberg. Wenn die Stadt Wien aus dem
       <lb break="yes"/>Verbande des Landes Niederösterreich ausscheidet
       <lb break="yes"/>und zu einem selbständigen Gebiet wird, und sobald</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-               <p>842 der Beilagen. - <hi rend="bold">Konstituierende Nationalversammlung. 2</hi>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
+               <p>842 der Beilagen. - <hi rend="emphasis">Konstituierende Nationalversammlung. 2</hi>
                   <lb break="yes"/>das Heinzenland sich als selbständiges Land bildet,
       <lb break="yes"/>werden Wien und Heinzenland selbständige und
       <lb break="yes"/>gleichberechtigte Glieder des Bundesstaates.
@@ -325,7 +326,7 @@
                <head>Artikel 3.
       </head>
                <p>
-                  <hi rend="bold">Bundesgebiete.</hi>
+                  <hi rend="emphasis">Bundesgebiete.</hi>
                   <lb break="yes"/>(1) Der Bundesstaat umfaßt das Gebiet der
       <lb break="yes"/>Länder in ihrem geschichtlich gewordenen Umfang,
       <lb break="yes"/>soweit er nicht durch den Vertrag von St. Germain
@@ -344,7 +345,7 @@
                <head>Artikel 4.
       </head>
                <p>
-                  <hi rend="bold">Staatshoheit.</hi>
+                  <hi rend="emphasis">Staatshoheit.</hi>
                   <lb break="yes"/>(1) Die Länder sind selbständig, soweit ihre
       <lb break="yes"/>Selbständigkeit nicht durch die Verfassung zugunsten
       <lb break="yes"/>des Bundesstaates beschränkt ist.
@@ -359,9 +360,9 @@
                <head>Artikel 5.
       </head>
                <p>
-                  <hi rend="bold">Die Machtverteilung zwischen dem Bund und den</hi>
+                  <hi rend="emphasis">Die Machtverteilung zwischen dem Bund und den</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Ländern.</hi>
+                  <hi rend="emphasis">Ländern.</hi>
                   <lb break="yes"/>(1) Soweit die Länder durch diese Verfassung
       <lb break="yes"/>ihre Hoheitsrechte dem Bunde übertragen, kommt
       <lb break="yes"/>diesem in den übertragenen Angelegenheiten ent
@@ -378,8 +379,8 @@
       <lb break="yes"/>(grundsätzlicher Wirkungskreis).
       <lb break="yes"/>(2) Soweit verfassungsgemäß Bundesgesetze vor
 <lb break="no"/>liegen, sind sie für die Länder bindend.</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung.   3</hi>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung.   3</hi>
                   <lb break="yes"/>(3) Soweit eine Übertragung an den Bund nicht
       <lb break="yes"/>vorliegt, steht den Ländern Gesetzgebung und
       <lb break="yes"/>Verwaltung zu. Erläßt der Bund ein grundsätz
@@ -402,7 +403,7 @@
                <head>Artikel 6.
       </head>
                <p>
-                  <hi rend="bold">Ausschließlicher Wirkungskreis des Bundes.</hi>
+                  <hi rend="emphasis">Ausschließlicher Wirkungskreis des Bundes.</hi>
                   <lb break="yes"/>Der Bund hat Gesetzgebung und Verwaltung
       <lb break="yes"/>über folgende Angelegenheiten:
       <lb break="yes"/>1. Die Bundesverfassung, die Verlautbarung
@@ -437,9 +438,9 @@
       <lb break="yes"/>nur zu einem Lande gehört, Luft= und Kraftfahr
 <lb break="no"/>zeuge, Bundesbahnen, Bundesstraßen.
       <lb break="yes"/>9. Bergbauangelegenheiten.</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>4</p>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung.  4</hi>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung.  4</hi>
                   <lb break="yes"/>10. Das gesamte Schulwesen, mit Ausnahme
       <lb break="yes"/>der landwirtschaftlichen Fach- und Fortbildungs
 <lb break="no"/>schulen.
@@ -470,7 +471,7 @@
                <head>Artikel 7.
       </head>
                <p>
-                  <hi rend="bold">Der grundlegende Wirkungskreis des Bundes.</hi>
+                  <hi rend="emphasis">Der grundlegende Wirkungskreis des Bundes.</hi>
                   <lb break="yes"/>Zu dem grundlegenden Wirkungskreise des
       <lb break="yes"/>Bundes gehören:
       <lb break="yes"/>1. Die Organisation der Landesbehörden,
@@ -495,8 +496,8 @@
       <lb break="yes"/>10. Personalstandsangelegenheiten, einschließlich
       <lb break="yes"/>der Matrikenführung.
       <lb break="yes"/>11. Vermessungswesen.</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung.   5</hi>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung.   5</hi>
                   <lb break="yes"/>12. Das Heimatrecht und das Landes
 <lb break="no"/>bürgerrecht.
       <lb break="yes"/>13. Das Bestattungswesen.
@@ -507,7 +508,7 @@
                <head>Artikel 8.
       </head>
                <p>
-                  <hi rend="bold">Der grundsätzliche Wirkungskreis.</hi>
+                  <hi rend="emphasis">Der grundsätzliche Wirkungskreis.</hi>
                   <lb break="yes"/>Zum grundsätzlichen Wirkungskreis des Bundes
       <lb break="yes"/>gehört:
       <lb break="yes"/>1. Die Gemeindegesetzgebung.
@@ -529,7 +530,7 @@
                <head>Artikel 9.
       </head>
                <p>
-                  <hi rend="bold">Die Landesverfassungen.</hi>
+                  <hi rend="emphasis">Die Landesverfassungen.</hi>
                </p>
                <p>(1) Jedes Land muß eine demokratische, repu
 <lb break="no"/>blikanische Verfassung haben. Die politische Volks
@@ -554,24 +555,24 @@
                <head>Artikel 10.
       </head>
                <p>
-                  <hi rend="bold">Die Ausübung der Staatsgewalt.</hi>
+                  <hi rend="emphasis">Die Ausübung der Staatsgewalt.</hi>
                   <lb break="yes"/>(1) Die Staatsgewalt wird in Bundesangelegen
 <lb break="no"/>heiten durch Organe des Bundes auf Grund der
       <lb break="yes"/>Bundesverfassung, in Landesangelegenheiten durch
       <lb break="yes"/>Organe der Länder auf Grund der Landes
 <lb break="no"/>verfassungen ausgeübt.</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
-               <p>  842 der Beilagen. —<hi rend="bold"> Konstituierende Nationalversammlung.  6</hi>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
+               <p>  842 der Beilagen. —<hi rend="emphasis"> Konstituierende Nationalversammlung.  6</hi>
                   <lb break="yes"/>(2) Soweit den Ländern die Durchführung
       <lb break="yes"/>Bundesgesetze überlassen ist, sind sie verpflichtet,
       <lb break="yes"/>der Aufsicht des Bundes zu unterwerfen und über
       <lb break="yes"/>Ersuchen des Bundes Mängel zu beseitigen.
       <lb break="yes"/>
-                  <hi rend="bold">II. Hauptteil.</hi>
+                  <hi rend="emphasis">II. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Grundrechte und Pflichten der Staats¬</hi>
+                  <hi rend="emphasis">Grundrechte und Pflichten der Staats¬</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">bürger.</hi>
+                  <hi rend="emphasis">bürger.</hi>
                </p>
             </div>
             <div type="article">
@@ -579,7 +580,7 @@
                <head>Artikel 11.
       </head>
                <p>
-                  <hi rend="bold">Bundes- oder Staatsbürgerschaft.</hi>
+                  <hi rend="emphasis">Bundes- oder Staatsbürgerschaft.</hi>
                </p>
                <p>(1) Jedes Land hat eine Landesbürgerschaft. Die
       <lb break="yes"/>Voraussetzungen für Erwerb und Verlust der
@@ -600,7 +601,7 @@
                <head>Artikel 12.
       </head>
                <p>
-                  <hi rend="bold">Gleichheit der Staatsbürger.</hi>
+                  <hi rend="emphasis">Gleichheit der Staatsbürger.</hi>
                </p>
                <p>(1) Die Staatsbürger sind vor dem Gesetze gleich;
       <lb break="yes"/>sie haben ohne Unterschied des Geschlechts gleiche
@@ -618,7 +619,7 @@
                <head>Artikel 13.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Person.</hi>
+                  <hi rend="emphasis">Freiheit der Person.</hi>
                   <lb break="yes"/>(1) Die Freiheit der Person ist unverletzlich.
       <lb break="yes"/>Außer im Falle der Ergreifung auf frischer Tat
       <lb break="yes"/>kann eine Verhaftung nur auf Grund eines Befehles
@@ -629,8 +630,8 @@
       <lb break="yes"/>Widerrechtlich verfügte oder verlängerte Gefangen
 <lb break="no"/>schaft gewährt Anspruch auf Genugtuung und
       <lb break="yes"/>Schadenersatz.</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
-               <p>842 der Beilagen. —<hi rend="bold"> Konstituierende Nationalversammlung.   7</hi>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
+               <p>842 der Beilagen. —<hi rend="emphasis"> Konstituierende Nationalversammlung.   7</hi>
                   <lb break="yes"/>(3) Dieser Anspruch besteht gegen den Staat
       <lb break="yes"/>und ist im ordentlichen Rechtswege geltend zu
       <lb break="yes"/>machen.
@@ -641,7 +642,7 @@
                <head>Artikel 14.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Wohnung.</hi>
+                  <hi rend="emphasis">Freiheit der Wohnung.</hi>
                   <lb break="yes"/>(1) Die Wohnung jedes Staatsbürgers ist für
       <lb break="yes"/>ihn eine unverletzliche Freistätte.
       <lb break="yes"/>(2) Eine Hausdurchsuchung ist nur zulässig auf
@@ -658,7 +659,7 @@
                <head>Artikel 15.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Mitteilung.</hi>
+                  <hi rend="emphasis">Freiheit der Mitteilung.</hi>
                   <lb break="yes"/>Das Briefgeheimnis, das Post-, Telegraphen-
       <lb break="yes"/>und Fernsprechgeheimnis ist unverletzlich. Eingriffe
       <lb break="yes"/>können durch Bundesgesetz für zulässig erklärt werden.
@@ -669,7 +670,7 @@
                <head>Artikel 16.
       </head>
                <p>
-                  <hi rend="bold">Freizügigkeit.</hi>
+                  <hi rend="emphasis">Freizügigkeit.</hi>
                   <lb break="yes"/>(1) Jeder Staatsbürger hat das Recht der Frei
 <lb break="no"/>zügigkeit der Person und des Vermögens in allen
       <lb break="yes"/>zum Bunde gehörigen Ländern.
@@ -688,7 +689,7 @@
                <head>Artikel 17.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Auswanderung.</hi>
+                  <hi rend="emphasis">Freiheit der Auswanderung.</hi>
                   <lb break="yes"/>Jeder Staatsbürger ist berechtigt, auszu
 <lb break="no"/>wandern. Durch Bundesgesetz kann die Freiheit der
       <lb break="yes"/>Auswanderung von der Erfüllung der staatsbürger
@@ -700,11 +701,11 @@
                <head>Artikel 18.
       </head>
                <p>
-                  <hi rend="bold">Rechtsschutz.</hi>
+                  <hi rend="emphasis">Rechtsschutz.</hi>
                   <lb break="yes"/>(1) Jeder Staatsbürger hat Anspruch auf Schutz
       <lb break="yes"/>durch Gesetze. Niemand darf seinem gesetzlichen Richter</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
-               <p>842 der Beilagen. —<hi rend="bold"> Konstituierende Nationalversammlung. 8</hi>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
+               <p>842 der Beilagen. —<hi rend="emphasis"> Konstituierende Nationalversammlung. 8</hi>
                   <lb break="yes"/>entzogen werden. Kein Bundesbürger darf einer
       <lb break="yes"/>ausländischen Macht ausgeliefert werden. Eine
       <lb break="yes"/>Handlung darf nur dann bestraft werden, wenn
@@ -723,7 +724,7 @@
                <head>Artikel 19.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Meinungsäußerung.</hi>
+                  <hi rend="emphasis">Freiheit der Meinungsäußerung.</hi>
                   <lb break="yes"/>(1) Jeder Staatsbürger hat das Recht, seine
       <lb break="yes"/>Meinung frei zu äußern, bleibt aber verantwortlich,
       <lb break="yes"/>wenn er Strafgesetze übertritt.
@@ -743,7 +744,7 @@
                <head>Artikel 29.
       </head>
                <p>
-                  <hi rend="bold">Versammlungsfreiheit.</hi>
+                  <hi rend="emphasis">Versammlungsfreiheit.</hi>
                   <lb break="yes"/>(1) Alle Staatsbürger haben das Recht, sich
       <lb break="yes"/>unbewaffnet zu versammeln.
       <lb break="yes"/>(2) Versammlungen unter freiem Himmel be
@@ -755,7 +756,7 @@
                <head>Artikel 21.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Vereinsbildung.</hi>
+                  <hi rend="emphasis">Freiheit der Vereinsbildung.</hi>
                   <lb break="yes"/>Alle Staatsbürger haben das Recht, Vereine
       <lb break="yes"/>oder Gesellschaften zu bilden, sofern deren Zweck
       <lb break="yes"/>den Strafgesetzen nicht zuwiderläuft. Der Verein
@@ -771,11 +772,11 @@
                <head>Artikel 22.
       </head>
                <p>
-                  <hi rend="bold">Wahlrecht.</hi>
+                  <hi rend="emphasis">Wahlrecht.</hi>
                   <lb break="yes"/>(1) Jeder volljährige, geistig gesunde und voll
 <lb break="no"/>berechtigte Staatsbürger (Artikel 12) hat das Recht,</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 9</hi>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 9</hi>
                   <lb break="yes"/>an der gesetzgebenden Gewalt und an der Ver
 <lb break="no"/>waltung nach Maßgabe der Gesetze mitzuwirken.
       <lb break="yes"/>Er hat in die politischen Vertretungskörper das
@@ -792,7 +793,7 @@
                <head>Artikel 23.
       </head>
                <p>
-                  <hi rend="bold">Petitionsrecht.</hi>
+                  <hi rend="emphasis">Petitionsrecht.</hi>
                   <lb break="yes"/>Jeder Staatsbürger hat das Recht, sich mit
       <lb break="yes"/>Bitten und Beschwerden an die zuständige Behörde
       <lb break="yes"/>oder an die Volksvertretung zu wenden. Mehrere
@@ -805,7 +806,7 @@
                <head>Artikel 24.
       </head>
                <p>
-                  <hi rend="bold">Glaubensfreiheit.</hi>
+                  <hi rend="emphasis">Glaubensfreiheit.</hi>
                </p>
                <p>(1) Jeder Staatsbürger hat volle Glaubens= und
       <lb break="yes"/>Gewissensfreiheit. Die Auskunftspflicht gegenüber der
@@ -836,8 +837,8 @@
 <lb break="no"/>lichen Gesellschaften gleich.
       <lb break="yes"/>(8) Sonntage und staatlich anerkannte Feiertage
       <lb break="yes"/>bleiben Tage der Arbeitsruhe.</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 10</hi>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 10</hi>
                </p>
             </div>
             <div type="article">
@@ -868,7 +869,7 @@
                <head>Artikel 26.
       </head>
                <p>
-                  <hi rend="bold">Das Recht auf Unterricht.</hi>
+                  <hi rend="emphasis">Das Recht auf Unterricht.</hi>
                   <lb break="yes"/>Die Kunst, die Wissenschaft und ihre Lehre
       <lb break="yes"/>sind frei.
       </p>
@@ -876,8 +877,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_27"/>
                <head>Artikel 27.</head>
-               <p>
-</p>
                <p>(1) Jeder Staatsbürger hat nach Maßgabe der
       <lb break="yes"/>Gesetze Anspruch, daß durch Schulbildung seine
       <lb break="yes"/>geistigen Kräfte entwickelt werden.
@@ -911,8 +910,8 @@
                <p>(1) In allen Schulen ist sittliche Bildung, staats
 <lb break="no"/>bürgerliche Gesinnung, persönliche und berufliche
       <lb break="yes"/>Tüchtigkeit zu erstreben.</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 11</hi>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 11</hi>
                   <lb break="yes"/>(2) Der Religionsunterricht ist ordentliches Lehr
 <lb break="no"/>fach und wird unter Aufsicht des Staates erteilt.
       <lb break="yes"/>Einführung und Dauer werden durch ein besonderes
@@ -924,7 +923,7 @@
                <head>Artikel 30.
       </head>
                <p>
-                  <hi rend="bold">Die Ehe.</hi>
+                  <hi rend="emphasis">Die Ehe.</hi>
                   <lb break="yes"/>(1) Die Ehe steht als Grundlage des Familien
 <lb break="no"/>lebens unter dem Schutze der Verfassung.
       <lb break="yes"/>(2) Nur die Einehe ist gesetzlich zulässig.
@@ -935,7 +934,7 @@
                <head>Artikel 31.
       </head>
                <p>
-                  <hi rend="bold">Der Schutz der Kinder.</hi>
+                  <hi rend="emphasis">Der Schutz der Kinder.</hi>
                </p>
                <p>(1) Der Schutz der Mutterschaft und die Fürsorge
       <lb break="yes"/>für kinderreiche Familien ist durch besondere Gesetze
@@ -947,7 +946,7 @@
 <lb break="no"/>weit die Fürsorgeerziehung der Gesamtheit ein
 <lb break="no"/>zutreten hat, ist durch besonderes Gesetz festzustellen.
       <lb break="yes"/>
-                  <hi rend="bold">Wirtschaftliche Rechte.</hi>
+                  <hi rend="emphasis">Wirtschaftliche Rechte.</hi>
                </p>
             </div>
             <div type="article">
@@ -955,9 +954,9 @@
                <head>Artikel 32.
       </head>
                <p>
-                  <hi rend="bold">Das Verhältnis der Gesamtheit zu den Wirtschafts¬</hi>
+                  <hi rend="emphasis">Das Verhältnis der Gesamtheit zu den Wirtschafts¬</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">verhältnissen.</hi>
+                  <hi rend="emphasis">verhältnissen.</hi>
                   <lb break="yes"/>(1) Die Ordnung des Wirtschaftslebens muß den
       <lb break="yes"/>Grundsätzen der Gerechtigkeit mit dem Ziele der
       <lb break="yes"/>angemessenen Anteilnahme aller Schaffenden an dem
@@ -981,11 +980,11 @@
                <head>Artikel 33.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Berufswahl.</hi>
+                  <hi rend="emphasis">Freiheit der Berufswahl.</hi>
                   <lb break="yes"/>(1) Jedem Staatsbürger steht es frei, einen Be
 <lb break="no"/>ruf zu wählen und sich darin auszubilden.</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 12</hi>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 12</hi>
                   <lb break="yes"/>(2) Alle Staatsbürger sind nach Maßgabe der
       <lb break="yes"/>Gesetze und entsprechend ihrer Befähigung und ihrere
       <lb break="yes"/>Leistung zu den öffentlichen Ämtern zuzulassen.
@@ -1000,7 +999,7 @@
                <head>Artikel 34.
       </head>
                <p>
-                  <hi rend="bold">Die Freiheit des Eigentums.</hi>
+                  <hi rend="emphasis">Die Freiheit des Eigentums.</hi>
                   <lb break="yes"/>(1) Das Eigentum wird gewährleistet. Eine Ent
 <lb break="no"/>eignung darf nur auf Grund der Gesetze zum ge
 <lb break="no"/>meinsamen Besten gegen angemesse Entschädigung
@@ -1014,7 +1013,7 @@
                <head>Artikel 35.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Arbeitskraft.</hi>
+                  <hi rend="emphasis">Freiheit der Arbeitskraft.</hi>
                   <lb break="yes"/>(1) Die Arbeitskraft, körperliche und geistige, steht
       <lb break="yes"/>unter dem Schutze der Gesetze.
       <lb break="yes"/>(2) Jeder Staatsbürger, der zur körperlichen oder
@@ -1032,7 +1031,7 @@
                <head>Artikel 36.
       </head>
                <p>
-                  <hi rend="bold">Schutz der Arbeitskraft.</hi>
+                  <hi rend="emphasis">Schutz der Arbeitskraft.</hi>
                   <lb break="yes"/>(1) Für den Fall der Krankheit und der Arbeits
 <lb break="no"/>unfähigkeit, zur Fürsorge gegen die wirtschaftlichen
       <lb break="yes"/>Folgen des Alters und der Wechselfälle des Lebens
@@ -1050,13 +1049,13 @@
                <head>Artikel 37.
       </head>
                <p>
-                  <hi rend="bold">Die Vertragsfreiheit.</hi>
+                  <hi rend="emphasis">Die Vertragsfreiheit.</hi>
                   <lb break="yes"/>(1) Im wirtschaftlichen Verkehre gilt Vertrags
 <lb break="no"/>freiheit. Wucher ist verboten.
       <lb break="yes"/>(2) Rechtsgeschäfte, die gegen die guten Sitten
       <lb break="yes"/>verstoßen, sind nichtig.</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 13</hi>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 13</hi>
                   <lb break="yes"/>(3) Die Arbeitnehmer einerseits, die Arbeitgeber
       <lb break="yes"/>andrerseits sind berufen, sich zu Verbänden zusammen
 <lb break="no"/>zuschließen, welche in gemeinsamer Arbeit an der
@@ -1070,7 +1069,7 @@
                <head>Artikel 38.
       </head>
                <p>
-                  <hi rend="bold">Vereinigungsfreiheit</hi>.
+                  <hi rend="emphasis">Vereinigungsfreiheit</hi>.
       <lb break="yes"/>(1) Die Vereinigungsfreiheit zur Wahrung und
       <lb break="yes"/>Förderung der Arbeits= und Wirtschaftsbedingungen
       <lb break="yes"/>ist gewährleistet.
@@ -1089,7 +1088,7 @@
                <head>Artikel 39.
       </head>
                <p>
-                  <hi rend="bold">Pflichten der Staatsbürger.</hi>
+                  <hi rend="emphasis">Pflichten der Staatsbürger.</hi>
                </p>
                <p>(1) Jeder Staatsbürger ist zur Ausübung der
       <lb break="yes"/>ihm zukommenden politischen Rechte, zur Teilnahme
@@ -1114,7 +1113,7 @@
                <head>Artikel 40.
       </head>
                <p>
-                  <hi rend="bold">Ausnahmszustand.</hi>
+                  <hi rend="emphasis">Ausnahmszustand.</hi>
                </p>
                <p>(1) Wird die öffentliche Sicherheit und Ordnung
       <lb break="yes"/>erheblich gestört oder gefährdet, so kann zu ihrer
@@ -1124,19 +1123,19 @@
       <lb break="yes"/>das betreffende Land die Artikeln 13, 14, 15, 16,
       <lb break="yes"/>17, 19, 20, 21, 23, 38, vorübergehend außer
       <lb break="yes"/>Kraft setzen.</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
-               <p>842 der Beilagen. <hi rend="bold">Konstituierende Nationalversammlung. 14</hi>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
+               <p>842 der Beilagen. <hi rend="emphasis">Konstituierende Nationalversammlung. 14</hi>
                   <lb break="yes"/>(2) Diese Maßnahmen sind aufzuheben, sobald es
       <lb break="yes"/>der Bundestag verlangt. Das nähere bestimmt ein
       <lb break="yes"/>besonderes Gesetz.
       <lb break="yes"/>
-                  <hi rend="bold">III. Hauptteil.</hi>
+                  <hi rend="emphasis">III. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Politische Organisation der Bundesgewalt.</hi>
+                  <hi rend="emphasis">Politische Organisation der Bundesgewalt.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">I. Kapitel.</hi>
+                  <hi rend="emphasis">I. Kapitel.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">I. Die Organe der Bundesgewalt.</hi>
+                  <hi rend="emphasis">I. Die Organe der Bundesgewalt.</hi>
                </p>
             </div>
             <div type="article">
@@ -1144,7 +1143,7 @@
                <head>Artikel 41.
       </head>
                <p>
-                  <hi rend="bold">Der Bundespräsident.</hi>
+                  <hi rend="emphasis">Der Bundespräsident.</hi>
                   <lb break="yes"/>Der Bundespräsident wird von allen wahl
 <lb break="no"/>berechtigten (Artikel 22) Staatsbürgern mit abso
 <lb break="no"/>luter Mehrheit für die Dauer von fünf Jahren
@@ -1158,7 +1157,7 @@
                <head>Artikel 42.
       </head>
                <p>
-                  <hi rend="bold">Wirkungskreis des Bundespräsidenten.</hi>
+                  <hi rend="emphasis">Wirkungskreis des Bundespräsidenten.</hi>
                   <lb break="yes"/>1. Er vertritt den Bund nach außen und
       <lb break="yes"/>beglaubigt die Gesandten; mit Zustimmung des
       <lb break="yes"/>Bundestages erklärt er Krieg und schließt Staats
@@ -1185,8 +1184,8 @@
 <lb break="no"/>recht über die Verwaltung der Länder aus;
       <lb break="yes"/>8. er hat das Recht der Begnadigung in
       <lb break="yes"/>Einzelfällen;</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 15</hi>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 15</hi>
                   <lb break="yes"/>9. er verfügt mit Zustimmung des Bundes
 <lb break="no"/>rates den Ausnahmszustand.
       </p>
@@ -1214,7 +1213,7 @@
 <lb break="no"/>kanzler die Geschäfte, die Neuwahl muß aber binnen
       <lb break="yes"/>drei Wochen ausgeschrieben werden.</p>
                <p>
-                  <hi rend="bold">II. Die Bundesregierung.</hi>
+                  <hi rend="emphasis">II. Die Bundesregierung.</hi>
                </p>
             </div>
             <div type="article">
@@ -1242,7 +1241,7 @@
       <lb break="yes"/>Bundesregierung oder die betreffenden Minister des
       <lb break="yes"/>Amtes entheben.</p>
                <p>
-                  <hi rend="bold">III. Der Bundesrat.</hi>
+                  <hi rend="emphasis">III. Der Bundesrat.</hi>
                </p>
             </div>
             <div type="article">
@@ -1250,12 +1249,12 @@
                <head>Artikel 45.
       </head>
                <p>
-                  <hi rend="bold">Vertretung der Länder.</hi>
+                  <hi rend="emphasis">Vertretung der Länder.</hi>
                   <lb break="yes"/>(1) Zur Vertretung der Länder bei der Gesetz
 <lb break="no"/>gebung und Verwaltung des Bundes dient der
       <lb break="yes"/>Bundesrat.</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
-               <p>842 der Beilagen. —<hi rend="bold"> Konstituierende Nationalversammlung. 16</hi>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
+               <p>842 der Beilagen. —<hi rend="emphasis"> Konstituierende Nationalversammlung. 16</hi>
                   <lb break="yes"/>(2) Jedes Land entsendet drei vom Landtage für
       <lb break="yes"/>die Dauer von vier Jahren gewählte Vertreter.
       <lb break="yes"/>Wenn die Bevölkerungszahl nach der letzten amt
@@ -1276,7 +1275,7 @@
                <head>Artikel 46.
       </head>
                <p>
-                  <hi rend="bold">Zuständigkeit des Bundesrates.</hi>
+                  <hi rend="emphasis">Zuständigkeit des Bundesrates.</hi>
                </p>
                <p>(1) Über Verlangen des Bundesrates hat vor
       <lb break="yes"/>ihm die Bundesregierung zur Erteilung aller be
@@ -1318,8 +1317,8 @@
 <lb break="no"/>lungen in den öffentlichen Sitzungen des Bundes
 <lb break="no"/>rates und seiner Ausschüsse sind von jeder Verant
 <lb break="no"/>wortung frei.</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 17</hi>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 17</hi>
                </p>
             </div>
             <div type="article">
@@ -1359,7 +1358,7 @@
       <lb break="yes"/>in den Räumen des Bundesrates nur mit Zustim
 <lb break="no"/>mung des Bundeskanzlers vorgenommen werden.</p>
                <p>
-                  <hi rend="bold">IV. Der Bundestag.</hi>
+                  <hi rend="emphasis">IV. Der Bundestag.</hi>
                </p>
             </div>
             <div type="article">
@@ -1388,8 +1387,8 @@
 <lb break="no"/>hörige der Wehrmacht bedürfen zur Ausübung ihres
       <lb break="yes"/>Amtes als Mitglieder des Bundestages keines
       <lb break="yes"/>Urlaubes.</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 18</hi>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 18</hi>
                   <lb break="yes"/>Bewerben sie sich um ein Mandat im
       <lb break="yes"/>Bundestage, so ist ihnen der zur Vorbereitung ihrer
       <lb break="yes"/>Wahl erforderliche Urlaub zu gewähren.
@@ -1409,8 +1408,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_54"/>
                <head>Artikel 54.</head>
-               <p>
-</p>
                <p>Die Gesetzgebungsperiode des Bundestages
       <lb break="yes"/>beträgt vier Jahre vom Tage seiner Einberufung
       <lb break="yes"/>an gerechnet. Nach ihrem Ablauf sind Neuwahlen
@@ -1434,7 +1431,7 @@
                <head>Artikel 55.
       </head>
                <p>
-                  <hi rend="bold">Auflösung des Bundestages.</hi>
+                  <hi rend="emphasis">Auflösung des Bundestages.</hi>
                   <lb break="yes"/>Der Bundespräsident kann mit Zustimmung
       <lb break="yes"/>des Bundesrates den Bundestag jedoch nur einmal
       <lb break="yes"/>aus demselben Anlaß, insbesondere wenn einem
@@ -1457,8 +1454,8 @@
       <lb break="yes"/>der Gesetzgebungsperiode bleiben der Präsident und
       <lb break="yes"/>seine Stellvertreter so lange im Amte bis der neu
 <lb break="no"/>gewählte Bundestag das Präsidium gewählt hat.</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
-               <p>842 der Beilagen. - <hi rend="bold">Konstituirende Nationalversammlung. 19</hi>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
+               <p>842 der Beilagen. - <hi rend="emphasis">Konstituirende Nationalversammlung. 19</hi>
                   <lb break="yes"/>
                   <lb break="yes"/>Die Geschäftsführung des Bundestages erfolgt
       <lb break="yes"/>auf Grund eines besonderen Gesetzes und einer im
@@ -1473,7 +1470,7 @@
                <head>Artikel 57.
       </head>
                <p>
-                  <hi rend="bold">Immunität der Berichte.</hi>
+                  <hi rend="emphasis">Immunität der Berichte.</hi>
                   <lb break="yes"/>Wahrheitsgetreue Berichte über die Verhand
 <lb break="no"/>lungen in den öffentlichen Sitzungen des Bundes
 <lb break="no"/>tages und seiner Ausschüsse bleiben von jeder Ver
@@ -1485,7 +1482,7 @@
                <head>Artikel 58.
       </head>
                <p>
-                  <hi rend="bold">Zuständigkeit des Bundestages.</hi>
+                  <hi rend="emphasis">Zuständigkeit des Bundestages.</hi>
                   <lb break="yes"/>In die Zuständigkeit des Bundestages gehört:
       <lb break="yes"/>1. Die Mitwirkung bei der Gesetzgebung in
       <lb break="yes"/>allen Bundesangelegenheiten und die Kriegserklärung
@@ -1519,7 +1516,7 @@
       <lb break="yes"/>Dritteln der Bundestagsmitglieder und die Zustimmung
       <lb break="yes"/>von drei Vierteln der Anwesenden erforderlich.
       <lb break="yes"/>
-                  <hi rend="bold">V. Volksbegehren und Volksentscheid.</hi>
+                  <hi rend="emphasis">V. Volksbegehren und Volksentscheid.</hi>
                </p>
             </div>
             <div type="article">
@@ -1528,8 +1525,8 @@
       </head>
                <p>Die gesetzgebende Gewalt wird vom Volk
       <lb break="yes"/>unmittelbar durch Volksbegehren und durch den</p>
-               <pb facs="#facs_21" n="21" xml:id="img_0021"/>
-               <p>842 der Beilagen. - <hi rend="bold">Konstituierende Nationalversammlung. 20</hi>
+               <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
+               <p>842 der Beilagen. - <hi rend="emphasis">Konstituierende Nationalversammlung. 20</hi>
                   <lb break="yes"/>Volksentscheid der wahlberechtigten Staatbürger
       <lb break="yes"/>ausgeübt.
       </p>
@@ -1539,7 +1536,7 @@
                <head>Artikel 61.
       </head>
                <p>
-                  <hi rend="bold">Volksbegehren.</hi>
+                  <hi rend="emphasis">Volksbegehren.</hi>
                   <lb break="yes"/>(1) Über ein von wenigstens 300.000 wahl
 <lb break="no"/>berechtigten Staatsbürgern gestelltes Begehren auf
       <lb break="yes"/>Abänderung oder Aufhebung der Verfassung ober
@@ -1560,7 +1557,7 @@
                <head>Artikel 62.
       </head>
                <p>
-                  <hi rend="bold">Volksentscheid</hi>.
+                  <hi rend="emphasis">Volksentscheid</hi>.
       <lb break="yes"/>Dem Volksentscheid ist zu unterziehen:
       <lb break="yes"/>1. jede Änderung oder Aufhebung der Ver
 <lb break="no"/>fassung;
@@ -1575,11 +1572,11 @@
       <lb break="yes"/>Annahme oder Ablehnung vorgelegt wird. Die
       <lb break="yes"/>näheren Bestimmungen regelt ein Bundesgesetz.
       <lb break="yes"/>
-                  <hi rend="bold">II. Kapitel.</hi>
+                  <hi rend="emphasis">II. Kapitel.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Artikel 63.</hi>
+                  <hi rend="emphasis">Artikel 63.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Gesetzgebung.</hi>
+                  <hi rend="emphasis">Die Gesetzgebung.</hi>
                </p>
                <p>(1) Zu einem Gesetz ist ein Beschluß des Bundes
 <lb break="no"/>tages, die Genehmigung durch den Bundespräsidenten
@@ -1591,8 +1588,8 @@
       <lb break="yes"/>zur Kenntnis zu bringen. Gibt der Bundespräsident
       <lb break="yes"/>binnen vier Wochen keine Erklärung ab, so gilt der
       <lb break="yes"/>Beschluß des Bundestages als genehmigt.</p>
-               <pb facs="#facs_22" n="22" xml:id="img_0022"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 21</hi>
+               <pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 21</hi>
                   <lb break="yes"/>(3) Innerhalb dieser Frist kann der Bundes
 <lb break="no"/>präsident über Antrag des Bundesrates die Ge
 <lb break="no"/>nehmigung versagen und den Beschluß an den
@@ -1607,11 +1604,11 @@
 <lb break="no"/>präsidenten unter Gegenzeichnung des Kanzlers und
       <lb break="yes"/>der zuständigen Minister zu verlautbaren.</p>
                <p>
-                  <hi rend="bold">IV. Hauptteil.</hi>
+                  <hi rend="emphasis">IV. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Länder.</hi>
+                  <hi rend="emphasis">Die Länder.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Organe der Länder.</hi>
+                  <hi rend="emphasis">Die Organe der Länder.</hi>
                </p>
             </div>
             <div type="article">
@@ -1619,7 +1616,7 @@
                <head>Artikel 64.
       </head>
                <p>
-                  <hi rend="bold">Die Organe der Länder.</hi>
+                  <hi rend="emphasis">Die Organe der Länder.</hi>
                   <lb break="yes"/>Jedes Land gibt sich selbst seine Verfassung,
       <lb break="yes"/>welche erst durch die Gewährleistung seitens des
       <lb break="yes"/>Bundes wirksam wird. Die gesetzgebende und voll
@@ -1638,8 +1635,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_65"/>
                <head>Artikel 66.</head>
-               <p>
-</p>
                <p>(1) Die Mitglieder des Landtages werden auf
       <lb break="yes"/>Grund des gleichen, geheimen, unmittelbaren und
       <lb break="yes"/>persönlichen Verhältniswahlrechtes aller nach der
@@ -1658,8 +1653,8 @@
       <lb break="yes"/>eine Durchsuchung oder Beschlagnahme nur mit
       <lb break="yes"/>Zustimmung des Landtagspräsidenten vorgenommen
       <lb break="yes"/>werden.</p>
-               <pb facs="#facs_23" n="23" xml:id="img_0023"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 22</hi>
+               <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 22</hi>
                </p>
             </div>
             <div type="article">
@@ -1695,7 +1690,7 @@
                <head>Artikel 69.
       </head>
                <p>
-                  <hi rend="bold">Die Gesetzgebung der Länder.</hi>
+                  <hi rend="emphasis">Die Gesetzgebung der Länder.</hi>
                   <lb break="yes"/>(1) Zu einem Landesgesetz ist der Beschluß des
       <lb break="yes"/>Landtages, die Genehmigung und Beurkundung
       <lb break="yes"/>durch den Landeshauptmann sowie die Kundmachung
@@ -1731,8 +1726,8 @@
       </head>
                <p>(1) Zur Änderung der Landesverfassung ist die
       <lb break="yes"/>Anwesenheit von zwei Dritteln der Mitglieder und</p>
-               <pb facs="#facs_24" n="24" xml:id="img_0024"/>
-               <p> 842 der Beilagen. - <hi rend="bold">Konstituierende Nationalversammlung. 23</hi>
+               <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
+               <p> 842 der Beilagen. - <hi rend="emphasis">Konstituierende Nationalversammlung. 23</hi>
                   <lb break="yes"/>die Mehrheit von drei Vierteln der angegebenen
       <lb break="yes"/>Stimmen erforderlich.
       <lb break="yes"/>(2) Das gleiche Stimmenverhältnis ist zur Er
@@ -1758,7 +1753,7 @@
 <lb break="no"/>schaffen werden, die unmittelbar der Bundesregierung
       <lb break="yes"/>unterstehen.
       <lb break="yes"/>
-                  <hi rend="bold">V. Hauptteil.</hi>
+                  <hi rend="emphasis">V. Hauptteil.</hi>
                </p>
             </div>
             <div type="article">
@@ -1766,7 +1761,7 @@
                <head>Artikel 73.
       </head>
                <p>
-                  <hi rend="bold">Wirtschaftliche Organisation.</hi>
+                  <hi rend="emphasis">Wirtschaftliche Organisation.</hi>
                   <lb break="yes"/>(1) Die wirtschaftlich tätigen Staatsbürger sind
       <lb break="yes"/>zur Mitwirkung bei der Gesetzgebung über wirt
 <lb break="no"/>schaftliche und sozialpolitische Angelegenheiten und
@@ -1781,7 +1776,7 @@
       <lb break="yes"/>ihrer wirtschaftlichen und sozialen Bedeutung ver
 <lb break="no"/>treten sind.</p>
                <p>
-                  <hi rend="bold">I. Die Bezirkswirtschaftskammer.</hi>
+                  <hi rend="emphasis">I. Die Bezirkswirtschaftskammer.</hi>
                </p>
             </div>
             <div type="article">
@@ -1803,8 +1798,8 @@
 <lb break="no"/>kammer ist insbesondere folgender:
       <lb break="yes"/>1. Beratung aller wirtschaftlichen und sozial
 <lb break="no"/>politischen Angelegenheiten des Bezirkes;</p>
-               <pb facs="#facs_25" n="25" xml:id="img_0025"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 24</hi>
+               <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 24</hi>
                   <lb break="yes"/>2. Erstattung von Gutachten und Vorschlägen
       <lb break="yes"/>in Fällen der Sozialisierung und Planwirtschaft;
       <lb break="yes"/>3. die Mitwirkung bei den Geschäften der
@@ -1813,7 +1808,7 @@
       <lb break="yes"/>4. die Entsendung von Beeräten an die Be
 <lb break="no"/>zirksbehörde.</p>
                <p>
-                  <hi rend="bold">II. Die Landwirtschaftskammer.</hi>
+                  <hi rend="emphasis">II. Die Landwirtschaftskammer.</hi>
                </p>
             </div>
             <div type="article">
@@ -1847,7 +1842,7 @@
       <lb break="yes"/>3. Die Entsendung von Beiräten an die
       <lb break="yes"/>Landesregierung.</p>
                <p>
-                  <hi rend="bold">III. Die Reichswirtschaftskammer</hi>.
+                  <hi rend="emphasis">III. Die Reichswirtschaftskammer</hi>.
       </p>
             </div>
             <div type="article">
@@ -1873,8 +1868,8 @@
       <lb break="yes"/>neue Schuldverpflichtungen eingegangen werden sollen.
       <lb break="yes"/>Der Bundestag hat bei sonstiger Ungültigkeit
       <lb break="yes"/>seines Beschlusses eine derartige Gesetzesvorlage der</p>
-               <pb facs="#facs_26" n="26" xml:id="img_0026"/>
-               <p>842 der Beilagen. - <hi rend="bold">Konstituierende Nationalversammlung. 25</hi>
+               <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
+               <p>842 der Beilagen. - <hi rend="emphasis">Konstituierende Nationalversammlung. 25</hi>
                   <lb break="yes"/>Reichswirtschaftskammer unter Setzung einer Frist
       <lb break="yes"/>von zwei bis vier Wochen zur Begutachtung zu
       <lb break="yes"/>übermitteln, ist aber nicht weiter an das Gutachten
@@ -1889,18 +1884,16 @@
       <lb break="yes"/>Die nähere Ausgestaltung hat durch Bundes
 <lb break="no"/>gesetz zu erfolgen.
       <lb break="yes"/>
-                  <hi rend="bold">VI. Hauptteil.</hi>
+                  <hi rend="emphasis">VI. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Verwaltung, Heerwesen und Rechtspflege.</hi>
+                  <hi rend="emphasis">Verwaltung, Heerwesen und Rechtspflege.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">I. Die Verwaltung.</hi>
+                  <hi rend="emphasis">I. Die Verwaltung.</hi>
                </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_79"/>
                <head>Artikel 80.</head>
-               <p>
-</p>
                <p>(1) Die Verwaltung, soweit sie nicht der Bundes
 <lb break="no"/>regierung übertragen ist, wird von der Landes
 <lb break="no"/>regierung und den von ihr bestellten Organen aus
@@ -1939,8 +1932,8 @@
       <lb break="yes"/>der Ruhegenuß und die Versorgung der Hinter
 <lb break="no"/>bliebenen öffentlicher Angestellter sind durch Gesetz
       <lb break="yes"/>zu regeln.</p>
-               <pb facs="#facs_27" n="27" xml:id="img_0027"/>
-               <p> 842 der Beilagen. - <hi rend="bold">Konstituierende Nationalversammlung. 26</hi>
+               <pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/>
+               <p> 842 der Beilagen. - <hi rend="emphasis">Konstituierende Nationalversammlung. 26</hi>
                   <lb break="yes"/>(2) Die Enthebung vom Amte und die Ver
 <lb break="no"/>setzung in den Ruhestand vor Ablauf der Dienst
 <lb break="no"/>zeit und vor Erreichung der Altersgrenze sowie
@@ -1960,14 +1953,12 @@
       <lb break="yes"/>Personalangelegenheiten werden Beamtenvertretungen
       <lb break="yes"/>durch besonderes Gesetz geschaffen.
       <lb break="yes"/>
-                  <hi rend="bold">II. Das Heerwesen.</hi>
+                  <hi rend="emphasis">II. Das Heerwesen.</hi>
                </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_82"/>
                <head>Artikel 83.</head>
-               <p>
-</p>
                <p>(1) Die Ausgestaltung und Verwendung des
       <lb break="yes"/>Bundesheeres und der Wiener Sicherheitswehr
       <lb break="yes"/>bestimmt ein Bundesgesetz.
@@ -1995,7 +1986,7 @@
       <lb break="yes"/>(2) Die Verwendung der Gendarmerie außerhalb
       <lb break="yes"/>des Landes bestimmt die Bundesregierung
       <lb break="yes"/>
-                  <hi rend="bold">III. Rechtspflege.</hi>
+                  <hi rend="emphasis">III. Rechtspflege.</hi>
                </p>
             </div>
             <div type="article">
@@ -2006,8 +1997,8 @@
       <lb break="yes"/>(2) Die Urteile und Erkenntnisse werden
       <lb break="yes"/>Namen der Republik Österreich verkündet und aus
 <lb break="no"/>gefertigt.</p>
-               <pb facs="#facs_28" n="28" xml:id="img_0028"/>
-               <p>842 der Beilagen. —<hi rend="bold"> Konstituierende Nationalversammlung. 27</hi>
+               <pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>
+               <p>842 der Beilagen. —<hi rend="emphasis"> Konstituierende Nationalversammlung. 27</hi>
                   <lb break="yes"/>(3) Die Rechtspflege wird von der Verwaltung
       <lb break="yes"/>in allen Instanzen getrennt.
       </p>
@@ -2075,8 +2066,8 @@
       <lb break="yes"/>Staatsbeamten bestehenden Rangsklassen nicht ein
 <lb break="no"/>geteilt; ihre dienstliche Verwendung ist von ihrer
       <lb break="yes"/>Einteilung in Gehaltsklassen unabhängig.</p>
-               <pb facs="#facs_29" n="29" xml:id="img_0029"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 28</hi>
+               <pb facs="#facs_29" n="29" xml:id="img_0029" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 28</hi>
                </p>
             </div>
             <div type="article">
@@ -2126,9 +2117,9 @@
       <lb break="yes"/>erteilt werden. Das Recht, im Einzelfalle zu be
 <lb break="no"/>gnadigen, steht dem Bundespräsidenten zu.</p>
                <p>
-                  <hi rend="bold">VII. Hauptteil.</hi>
+                  <hi rend="emphasis">VII. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Obersten Bundesgerichte.</hi>
+                  <hi rend="emphasis">Die Obersten Bundesgerichte.</hi>
                </p>
             </div>
             <div type="article">
@@ -2136,13 +2127,13 @@
                <head>Artikel 93.
       </head>
                <p>
-                  <hi rend="bold">Der Oberste Gerichtshof.</hi>
+                  <hi rend="emphasis">Der Oberste Gerichtshof.</hi>
                   <lb break="yes"/>In allen ordentlichen Rechtssachen ist der
       <lb break="yes"/>Oberste Gerichtshof die letzte Instanz. Er entscheidet
       <lb break="yes"/>in der Sache selbst. Das Nähere bestimmt ein be
 <lb break="no"/>sonderes Gesetz.</p>
-               <pb facs="#facs_30" n="30" xml:id="img_0030"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 29</hi>
+               <pb facs="#facs_30" n="30" xml:id="img_0030" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 29</hi>
                </p>
             </div>
             <div type="article">
@@ -2150,7 +2141,7 @@
                <head>Artikel 94.
       </head>
                <p>
-                  <hi rend="bold">Das Bundesverwaltungsgericht.</hi>
+                  <hi rend="emphasis">Das Bundesverwaltungsgericht.</hi>
                   <lb break="yes"/>(1) Das Bundesverwaltungsgericht hat als letzte
       <lb break="yes"/>Instanz in Verwaltungssachen, sofern Rechte der
       <lb break="yes"/>Partei verletzt werden, zu entscheiden. Es entscheidet
@@ -2169,7 +2160,7 @@
                <head>Artikel 95.
       </head>
                <p>
-                  <hi rend="bold">Das Bundesverfassungsgericht.</hi>
+                  <hi rend="emphasis">Das Bundesverfassungsgericht.</hi>
                   <lb break="yes"/>Das Bundesverfassungsgericht besteht aus
       <lb break="yes"/>einem Präsidenten und einem Stellvertreter, die
       <lb break="yes"/>vom Bundespräsidenten ernannt werden und aus
@@ -2216,12 +2207,12 @@
       </head>
                <p>Die Organisation und das Verfahren wird
       <lb break="yes"/>durch Bundesgesetz geregelt.</p>
-               <pb facs="#facs_31" n="31" xml:id="img_0031"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 30</hi>
+               <pb facs="#facs_31" n="31" xml:id="img_0031" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 30</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">VIII. Hauptteil.</hi>
+                  <hi rend="emphasis">VIII. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Rechnungskontrolle im Bunde.</hi>
+                  <hi rend="emphasis">Die Rechnungskontrolle im Bunde.</hi>
                </p>
             </div>
             <div type="article">
@@ -2252,8 +2243,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_100"/>
                <head>Artikel 101.</head>
-               <p>
-</p>
                <p>Die erforderlichen Angestellten des Rech
 <lb break="no"/>nungshofes werden über Vorschlag des Präsidenten
       <lb break="yes"/>des Rechnungshofes vom Bundespräsidenten er
@@ -2294,8 +2283,8 @@
                <p>Die näheren Bestimmungen über die Ein
 <lb break="no"/>richtung des Rechnungshofes erfolgen durch
       <lb break="yes"/>Bundesgesetz.</p>
-               <pb facs="#facs_32" n="32" xml:id="img_0032"/>
-               <p>842 der Beilagen. — <hi rend="bold">Konstituierende Nationalversammlung. 31</hi>
+               <pb facs="#facs_32" n="32" xml:id="img_0032" break="yes"/>
+               <p>842 der Beilagen. — <hi rend="emphasis">Konstituierende Nationalversammlung. 31</hi>
                   <lb break="yes"/>Die Gefertigten stellen den Antrag:
       <lb break="yes"/>„Das Haus wolle den vorstehenden Gesetzentwurf zum Beschlusse erheben."
       <lb break="yes"/>In formaler Beziehung wolle dieser Antrag dem Verfassungsausschusse zugewiesen werden.
