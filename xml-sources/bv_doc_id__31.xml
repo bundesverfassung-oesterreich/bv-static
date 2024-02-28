@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">CS I Sonderdruck</title>
+            <title type="main">CS Entwurf I Sonderdruck</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529229</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14566</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +70,7 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Christlichsoziale Partei</author>
-                     <title>CS I Sonderdruck</title>
+                     <title>CS Entwurf I Sonderdruck</title>
                      <note type="editor">CS I (Titel des Dokuments: "Der deutsche Bundesfreistaat Österreich"), Sonderdruck, Zustand gut, keine Anmerkungen, 55 Artikel</note>
                   </msItem>
                </msContents>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1919-05-14" to="1919-05-14">14. Mai 1919 (Einbringung in der konstituierenden Nationalversammlung)</origin>
+                  <origin notBefore-iso="1919-05-14" notAfter-iso="1919-05-14">14. Mai 1919 (Einbringung in der konstituierenden Nationalversammlung)</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -224,7 +225,7 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>Der deutsche
       <lb break="yes"/>Bundesfreistaat
       <lb break="yes"/>Österreich.
@@ -235,9 +236,7 @@
       <lb break="yes"/>am 14. Mai 1919.</p>
             <p>2
       <lb break="yes"/>Wien 1919.
-      <lb break="yes"/>Verlag: Christlichsoziale Vereinigung, Wien.</p>
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-            <p>Monsieur même
+      <lb break="yes"/>Verlag: Christlichsoziale Vereinigung, Wien.<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>Monsieur même
       <lb break="yes"/>Ilmoit nun eine
       <lb break="yes"/>Die christlichsozialen Abgeordneten haben in der
       <lb break="yes"/>Sitzung der Nationalversammlung vom 14. Mai 1919
@@ -259,9 +258,7 @@
       <lb break="yes"/>deren öffentliche Gewalten vom Volke eingesetzt werden,
       <lb break="yes"/>sowie als ein Bestandteil des Deutschen Reiches erklärt
       <lb break="yes"/>wird. Der ganze verfassungsmäßige Aufbau dieser demo
-<lb break="no"/>kratischen Republik wurde der weiteren Tätigkeit der</p>
-            <pb facs="#facs_4" n="4" xml:id="img_0004"/>
-            <p>konstituierenden Nationalversammlung vorbehal
+<lb break="no"/>kratischen Republik wurde der weiteren Tätigkeit der<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>konstituierenden Nationalversammlung vorbehal
 <lb break="no"/>ten. Das neue Verfassungswerk hat selbst die wichtigste
       <lb break="yes"/>Grundfrage, ob der neue Freistaat auf zentralistischer
       <lb break="yes"/>oder föderalistischer Grundlage aufzubauen sei, erst zu
@@ -289,9 +286,7 @@
       <lb break="yes"/>und der Vereinigten Staaten von Nordamerika unter
 <lb break="no"/>nehmen.
       <lb break="yes"/>Der wahre Volksstaat kann in Wirklichkeit, wenn
-      <lb break="yes"/>man tiefer blickt, nur durch die reine Demokra¬</p>
-            <pb facs="#facs_5" n="5" xml:id="img_0005"/>
-            <p>tie, die ausschließlich in der Eigenstaatlichkeit der Län
+      <lb break="yes"/>man tiefer blickt, nur durch die reine Demokra¬<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>tie, die ausschließlich in der Eigenstaatlichkeit der Län
 <lb break="no"/>der liegt, durch die Teilnahme des ganzen Volkes an der
       <lb break="yes"/>öffentlichen Verwaltung verwirklicht werden. Nur die
       <lb break="yes"/>Länder können bleibend die Heimat der Demokratie sein,
@@ -319,9 +314,7 @@
       <lb break="yes"/>volle freie Selbstbestimmung und selbst
 <lb break="no"/>ständigkeit wiedererlangt haben, können
       <lb break="yes"/>sich nicht länger durch verfehlte und widernatürliche ver
-<lb break="no"/>fassungsrechtliche experimente, wie es die untaugliche</p>
-            <pb facs="#facs_6" n="6" xml:id="img_0006"/>
-            <p>staatliche und autonome Doppelverwaltung des letzten
+<lb break="no"/>fassungsrechtliche experimente, wie es die untaugliche<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>staatliche und autonome Doppelverwaltung des letzten
       <lb break="yes"/>halben Jahrhunderts war, oder ein neues rein zentra
 <lb break="no"/>listisches System sein müßte, in ihrer natürlichen Ent
 <lb break="no"/>wicklung hemmen und unterdrücken lassen. Sie haben
@@ -353,7 +346,7 @@
                <p>(1) Der deutsche Bundesfreistaat Oesterreich umfaßt das
       <lb break="yes"/>Gebiet der selbständigen Länder Oesterreich unter der Enns,
       <lb break="yes"/>Oesterreich ob der Enns, Salzburg, Steiermark, Kärnten, Tirol,</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>Vorarlberg, Heinzenland, sowie das Gebiet der Freistadt Wien,
       <lb break="yes"/>und zwar in ihrem gegenwärtigen Umfange.
       <lb break="yes"/>(2) Die Grenzen der Länder können nur nach Zustimmung
@@ -378,8 +371,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_3"/>
                <head>Artikel 3.</head>
-               <p>
-</p>
                <p>(1) Der deutsche Bundesfreistaat Oesterreich ist ein Bundes
 <lb break="no"/>staat der in Artikel 1 angeführten Länder.
       <lb break="yes"/>(2) Er bezweckt die gemeinsame Vertretung und Verteidi
@@ -399,7 +390,7 @@
 <lb break="no"/>verfassung eingeschränkt ist; sie üben als solch
       <lb break="yes"/>alle Rechte aus, welche nicht durch die Bundesverfassung der
       <lb break="yes"/>Bundesgewalt übertragen sind.</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>(2) Die verfassungsmäßig zustandegekommenen Bundes
 <lb break="no"/>gesetze binden alle Länder.
       </p>
@@ -417,8 +408,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_6"/>
                <head>Artikel 6.</head>
-               <p>
-</p>
                <p>Die Länder bilden ein einheitliches Zoll= und
       <lb break="yes"/>Wirtschaftsgebiet. Binnenzölle und Verkehrs
 <lb break="no"/>beschränkungen dürfen von keiner Landes= oder Ortsgewalt
@@ -461,7 +450,7 @@
                <p>Im Falle der Auflösung des Bundesfreistaates fallen
       <lb break="yes"/>sämtliche an denselben übertragenen staatlichen Hoheitsrechte
       <lb break="yes"/>und das Bundesvermögen an die Länder zurück.</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>III. Abschnitt: Bundesstaat und Bürger.
       </p>
             </div>
@@ -516,7 +505,7 @@
       </head>
                <p>(1) Der Wirkungskreis der Bundesgewalt umfaßt alle An
 <lb break="no"/>gelegenheiten, die sich auf Rechte, Pflichten und Interessen be¬</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
                <p>10
       <lb break="yes"/>ziehen, welche den Ländern des Bundesfreistaates gemeinschaft
 <lb break="no"/>lich sind.
@@ -553,7 +542,7 @@
       <lb break="yes"/>obersten Gerichtshöfe;
       <lb break="yes"/>k) ferner der Regelung des Handels= und Wechselrechtes,
       <lb break="yes"/>das Patentwesen, Marken= und Musterschutz, der Schutz des</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
                <p>11
       <lb break="yes"/>die</p>
                <p>geistigen Eigentums, das Münz= und Währungswesen,
@@ -582,8 +571,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_16"/>
                <head>Artikel 16.</head>
-               <p>
-</p>
                <p>Die Landesgesetzgebung über die nationalen und
       <lb break="yes"/>konfessionellen Verhältnisse, über das untere und mittlere Bil
 <lb break="no"/>dungs= und Erziehungswesen, über das Sanitäts= und Veteri
@@ -605,7 +592,7 @@
       <lb break="yes"/>(2) Die gesetzgebende Gewalt wird entweder unmittelbar
       <lb break="yes"/>vom Volke durch die Volksabstimmung oder auf repräsentativem
       <lb break="yes"/>Wege durch die Volksvertretung ausgeübt.</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>12
       <lb break="yes"/>A. Die Volksvertretung
       </p>
@@ -626,8 +613,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_19"/>
                <head>Artikel 19.</head>
-               <p>
-</p>
                <p>(1) Das Volkshaus wird in geheimer, gleicher und unmittel
 <lb break="no"/>barer Abstimmung nach dem Verhältniswahlverfahren aus dem
       <lb break="yes"/>Volke gewählt. Die Abstimmung erfolgt in bundesstaatlichen
@@ -655,7 +640,7 @@
       <lb break="yes"/>Wahlberechtigt ist jedes Mitglied des Landtages. Wählbar ist
       <lb break="yes"/>jeder zum Landtage Wahlberechtigte, der das 30. Lebensjahr
       <lb break="yes"/>vollendet hat.</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>2. Ebenso entsenden die Räteorganisationen
       <lb break="yes"/>als Berufsorganisationen entsprechend
       <lb break="yes"/>ihrer Mitgliederzahl ihre Vertreter im Verhältnis
@@ -695,7 +680,7 @@
       <lb break="yes"/>c) die jährliche Prüfung und Genehmigung der Führung
       <lb break="yes"/>des Bundeshaushaltes und der Rechnungsabschlüsse; die jähr
 <lb break="no"/>liche Bewilligung der Steuern und Abgaben;</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
                <p>14
       <lb break="yes"/>d) die Gesetzgebung über Errichtung, Einrichtug und
       <lb break="yes"/>Wirkungskreis der Obersten Gerichtshöfe (Art. 55);
@@ -722,8 +707,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_23"/>
                <head>Artikel 23.</head>
-               <p>
-</p>
                <p>(1) Das Vorschlagsrecht (die lnitiative) steht dem
       <lb break="yes"/>Präsidenten des Bundesfreistaates, der Bundesregierung, jeder
       <lb break="yes"/>der beiden Kammern der Volksvertretung und jedem ein
@@ -732,7 +715,7 @@
       <lb break="yes"/>(2) Wenn 100.000 stimmberechtigte Staats
 <lb break="no"/>bürger oder die absoluten Mehrheiten zweier Länder es
       <lb break="yes"/>verlangen, steht die Institative auch beim Volke.</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>15
       </p>
             </div>
@@ -775,7 +758,7 @@
       <lb break="yes"/>Leitung des Volkshauses.
       <lb break="yes"/>(4) Alle Angelegenheiten des Wirkungskreises der Volks
 <lb break="no"/>vertretung, welche nicht in gemeinsamer Sitzung beider</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
                <p>16
       <lb break="yes"/>Kammern erledigt werden, sind von der erstberatenden Kammer
       <lb break="yes"/>der anderen zu eigener Behandlung zu übermitteln.
@@ -797,8 +780,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_27"/>
                <head>Artikel 27.</head>
-               <p>
-</p>
                <p>(1) Zu einem Gesetze im Wirkungskreise der Volksver
 <lb break="no"/>tretung sind in der Regel die übereinstimmenden Beschlüsse
       <lb break="yes"/>beider Kammern, die Zeichnung durch den Präsidenten des
@@ -821,7 +802,7 @@
       <lb break="yes"/>neben einem allfälligen Vermittlungsvorschlage des Prä
 <lb break="no"/>sidenten des Bundesfreistaates - dem Volke zur Entscheidung
       <lb break="yes"/>vorzulegen.</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p>17
       </p>
             </div>
@@ -871,7 +852,7 @@
       <lb break="yes"/>Volksvertretung.
       <lb break="yes"/>(3) Wenn das Volk die totalrevision der Bundesverfassung
       <lb break="yes"/>fordert, wird die Volksvertretung auch vor Ablauf der Wahl¬</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>18
       <lb break="yes"/>periode vom Präsidenten des Bundesfreistaates aufgelöst und
       <lb break="yes"/>es finden Neuwahlen statt. (Art. 40 und 42.)
@@ -920,7 +901,7 @@
       <lb break="yes"/>von Seite der Bundesregierung jede einschlägige Auskunft zu
       <lb break="yes"/>erteilen ist, und ihrer Ansicht in Form von Entschließungen
       <lb break="yes"/>Ausdruck zu verleihen.</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
                <p>19
       </p>
             </div>
@@ -963,8 +944,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_37"/>
                <head>Artikel 37.</head>
-               <p>
-</p>
                <p>(1) Ueber die totalrevision (gänzliche oder
       <lb break="yes"/>wesentliche Aenderung) der Bundesverfassung
       <lb break="yes"/>entscheidet das Gesamtvolk des Bundesfreistaates in allge
@@ -981,7 +960,7 @@
       <lb break="yes"/>d) über alle jene Angelegenheiten der bundesstaatlichen
       <lb break="yes"/>Gesetzgebung, die von mindestens 200.000 Stimm
 <lb break="no"/>berechtigten oder von der Mehrheit der Stimmberechtigten</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
                <p>20
       <lb break="yes"/>dreier Länder für die Volksabstimmung innerhalb 6 Wochen
       <lb break="yes"/>nach dem Tage des Inkrafttretens des Gesetzes verlangt werden.
@@ -1016,8 +995,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_40"/>
                <head>Artikel 40.</head>
-               <p>
-</p>
                <p>Wenn eine Kammer der Volksvertretung eine totalrevision
       <lb break="yes"/>verlangt, so erfolgt vorerst die Gesamterneuerung der Volks
 <lb break="no"/>vertretung, welche die totalrevision durchzuführen hat (Art. 30,
@@ -1038,7 +1015,7 @@
       <lb break="yes"/>(2) Wählbar ist jeder Staatsbürger, der nach dem Wahl
 <lb break="no"/>gesetze zum Volkshause wahlberechtigt ist und das 40. Lebens
 <lb break="no"/>jahr vollendet hat.</p>
-               <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+               <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
                <p>21
       <lb break="yes"/>(3) Präsident und Vizepräsâdent müssen verschiedenen Län
 <lb break="no"/>dern angehören und dürfen während ihrer Amtsdauer kein
@@ -1056,8 +1033,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_42"/>
                <head>Artikel 42.</head>
-               <p>
-</p>
                <p>(1) Der Präsident vertritt den Bundesfreistaat nach außen:
       <lb break="yes"/>er empfängt und beglaubigt die Gesandten, ratifiziert die
       <lb break="yes"/>Staats= und Handelsverträge. Ihm obliegt ferner:
@@ -1081,7 +1056,7 @@
       <lb break="yes"/>(3) Der Präsident ist dem Volke für seine Amtsführung
       <lb break="yes"/>verantwortlich und kann unter Staatsanklage gestellt werden
       <lb break="yes"/>(Art. 22, lit. f).</p>
-               <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+               <pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>
                <p>22.
       </p>
             </div>
@@ -1135,7 +1110,7 @@
       </head>
                <p>Die Gesetzgebung über alle Gegenstände, die nach dieser
       <lb break="yes"/>Verfassung der Landesgesetzgebung unterliegen (Art. 14 bis 16),</p>
-               <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+               <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
                <p>23
       <lb break="yes"/>wird von den Landtagen der einzelnen selbständigen Länder
       <lb break="yes"/>nach den jeweils geltenden Landesverfassungen und den durch
@@ -1192,7 +1167,7 @@
       <lb break="yes"/>zum Beschlusse erhebt. (Art. 47, 2. Absatz.)
       <lb break="yes"/>(3) Die Anfechtung ist der Landesregierung unverzüglich
       <lb break="yes"/>mitzuteilen.</p>
-               <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+               <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
                <p>24
       <lb break="yes"/>(4) Die Kundmachung des angefochtenen Beschlusses darf
       <lb break="yes"/>erst erfolgen, wenn der Verfaffungsgerichtshof die Verfassungs
@@ -1250,7 +1225,7 @@
       <lb break="yes"/>der Mitwirkung der Bundesregierung bedürfen, sind der letzte
 <lb break="no"/>ren durch die Landesregierung vorläufig zur Kenntnis zu
       <lb break="yes"/>bringen.</p>
-               <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+               <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
                <p>25
       <lb break="yes"/>D. Die Obersten Gerichtshöfe.
       </p>

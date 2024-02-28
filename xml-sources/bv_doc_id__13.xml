@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529211</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14522</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-04-23" to="1920-07-07">Zwischen dem 23. April 1920 und 8. Juli 1920</origin>
+                  <origin notBefore-iso="1920-04-23" notAfter-iso="1920-07-07">Zwischen dem 23. April 1920 und 8. Juli 1920</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -234,7 +235,7 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>- 1 -</p>
             <p>Linzer Entwurf
       </p>
@@ -249,8 +250,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_2"/>
                <head>Art. 3</head>
-               <p>
-</p>
                <p>Neuer Text
       <lb break="yes"/>Erstes Hauptstück
       <lb break="yes"/>Grundlegende Einrichtungen der Republik.
@@ -291,7 +290,7 @@
       <lb break="yes"/>Bundesgebietes können entweder durch Bundesverfassungs
       <lb break="yes"/>gesetze oder durch übereinstimmende einfache Gesetze
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                <p>Vacat
       <lb break="yes"/>Art. 2, Al. 2.</p>
                <p>- 2 
@@ -333,7 +332,7 @@
 <lb break="no"/>lei Zwischenzollinien oder sonstigen Verkehrsbe
 <lb break="no"/>schränkungen errichtet werden.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>- 3 -
       </p>
             </div>
@@ -394,8 +393,6 @@
                <a class="navigation_article" xml:id="navigation_article_13"/>
                <head>Art. 4
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_14"/>
@@ -410,7 +407,7 @@
       </head>
                <p>Alinaa 1 von
       <lb break="yes"/>Art. 10, 11, 12</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>4</p>
                <p>Vacat
       <lb break="yes"/>Vacat
@@ -472,7 +469,7 @@
                <p>(1) Mit dem Vollzuge der Gesetze sind Volksbeauftrag
 <lb break="no"/>te betraut die von den Volksvertretungen auf jederzeiti
 <lb break="no"/>gen Widerruf bestellt und diesen unmittelbar und vor dem</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>Vacat.
       <lb break="yes"/>Vacat
       <lb break="yes"/>Vacat
@@ -524,7 +521,7 @@
       <lb break="yes"/>(Vizekanzler) und den Bundesministern.
       <lb break="yes"/>(4) Die den Mitgliedern der Bundesregierung zustehen
 <lb break="no"/>den Aufträge und Vollmachten werden durch Verfassungsge-</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>6</p>
                <p>Siehe Art. 91.
       <lb break="yes"/>Siehe Art.92.
@@ -581,7 +578,7 @@
       <lb break="yes"/>sie ist von der Vollzugsgewalt getrennt und wird durch
       <lb break="yes"/>unabhängige Richter ausgeübt
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>Vacat,
       <lb break="yes"/>Siehe Art. 17, Al. 1
       <lb break="yes"/>Siehe Art 70
@@ -599,8 +596,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_27"/>
                <head>Art.10.</head>
-               <p>
-</p>
                <p>7
       <lb break="yes"/>(2) Die Richter sind auf Lebenszeit bestellt und
       <lb break="yes"/>nur vor Gerichten ihres Standes verantwortlich.
@@ -652,7 +647,7 @@
       </head>
                <p>Bundessache ist die Gesetzgebung und Voll
 <lb break="no"/>ziehung in folgenden Angelegenheiten:</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>8.</p>
                <p>Artl. 11.
       </p>
@@ -661,8 +656,6 @@
                <a class="navigation_article" xml:id="navigation_article_32"/>
                <head>Art.12.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_33"/>
@@ -727,7 +720,7 @@
 <lb break="no"/>ordnungen erläßt die Bundesregierung, soweit nicht die
       <lb break="yes"/>Erlassung von Ausführungsgesetzen Landessache ist.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_39"/>
@@ -785,7 +778,7 @@
       <lb break="yes"/>von einem silbernen Querbalken durchzogenen Schildchen
       <lb break="yes"/>belegt ist. Der Adler trägt auf dem Haupte eine goldene
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
                <p>10.
       <lb break="yes"/>Mauerkrone mit drei sichtbaren Zinnen, im rechten Fange
       <lb break="yes"/>eine goldene Sichel mit einwärts gekehrter Schneide im
@@ -824,7 +817,7 @@
 <lb break="no"/>breiten wagrechten Streifen von denen der mittlere weiss,
       <lb break="yes"/>der obere und untere rot ist.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>Linzer Entwurf.
       <lb break="yes"/>Art.15 deleatur,
       <lb break="yes"/>siehe neu Artikel
@@ -851,8 +844,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_49"/>
                <head>Art. 26</head>
-               <p>
-</p>
                <p>11.
       <lb break="yes"/>Neuer Text.
       <lb break="yes"/>Zweites Hauptstück.
@@ -891,7 +882,7 @@
 <lb break="no"/>der allgemeinen Volkszählung durch den Bundes
 <lb break="no"/>rat festgesetzt.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>Al. 6 deleatur
       </p>
             </div>
@@ -899,8 +890,6 @@
                <a class="navigation_article" xml:id="navigation_article_52"/>
                <head>Art. 27
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_53"/>
@@ -914,35 +903,25 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_54"/>
                <head>Art. 30.</head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_55"/>
                <head>Art. 46.
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_56"/>
                <head>Art. 47.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_57"/>
                <head>Art. 48.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_58"/>
                <head>Art. 49.</head>
-               <p>
-</p>
                <p>12.
       <lb break="yes"/>(4) Für jedes Mitglied wird ein Ersatz
 <lb break="no"/>mann bestellt.
@@ -970,14 +949,12 @@
 <lb break="no"/>regierung dem Bundestag zur geschäftsordnungs
 <lb break="no"/>mässigen Behandlung vorzulegen.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_59"/>
                <head>Art. 17.
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_60"/>
@@ -989,21 +966,15 @@
                <a class="navigation_article" xml:id="navigation_article_61"/>
                <head>Art. 50.
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_62"/>
                <head>Art. 51.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_63"/>
                <head>Art. 52.</head>
-               <p>
-</p>
                <p>13.
       <lb break="yes"/>(1) Uebereinstimmende Beschlüsse des
       <lb break="yes"/>Bundestages und des Bundesrates sind erfor
@@ -1038,7 +1009,7 @@
 <lb break="no"/>desregierung zu den übermittelten Beschlüs
 <lb break="no"/>sen seine Aeußerung.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>Art. 38, 39.
       <lb break="yes"/>Volsabstim
 <lb break="no"/>mung fällt.
@@ -1052,21 +1023,15 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_64"/>
                <head>Art. 31</head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_65"/>
                <head>Art. 53.
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_66"/>
                <head>Art. 54</head>
-               <p>
-</p>
                <p>14.
       <lb break="yes"/>(3) Stimmt diese Aeußerung ohne Vorbe
 <lb break="no"/>halt dem Beschlüsse zu, so kann er sofort
@@ -1101,7 +1066,7 @@
       <lb break="yes"/>(1) Zu einem Beschlüsse ist im Bundestag
       <lb break="yes"/>die Anwesenheit von mindestens einem Viertel,
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_67"/>
@@ -1115,8 +1080,6 @@
                <a class="navigation_article" xml:id="navigation_article_68"/>
                <head>Art. 34
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_69"/>
@@ -1131,8 +1094,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_70"/>
                <head>Art. 40.</head>
-               <p>
-</p>
                <p>13.
       <lb break="yes"/>im Bundesrat von mindestens der Hälfte aller Mit
 <lb break="no"/>glieder und die absolute Mehrheit der abgegebenen
@@ -1164,15 +1125,11 @@
                <a class="navigation_article" xml:id="navigation_article_71"/>
                <head>Art. 55
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_72"/>
                <head>Art. 56
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_73"/>
@@ -1185,9 +1142,7 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_74"/>
                <head>Art. 60</head>
-               <p>
-</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p>16.
       <lb break="yes"/>(2) Die Beurkundung ist vom Bundeskanzler und
       <lb break="yes"/>von den zuständigen Bundesministern gegenzuzeich
@@ -1221,8 +1176,6 @@
                <a class="navigation_article" xml:id="navigation_article_75"/>
                <head>Art. 61
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_76"/>
@@ -1234,15 +1187,13 @@
                <a class="navigation_article" xml:id="navigation_article_77"/>
                <head>Art. 41
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_78"/>
                <head>Art. 42
       </head>
                <p>Art. 43 - 48</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>Art. 49. Art. 69.</p>
                <p>17.
       <lb break="yes"/>Drittes Hauptstück.
@@ -1277,7 +1228,7 @@
       <lb break="yes"/>Bundesversammlung (Geschäftsordnung) enthält ein beson
 <lb break="no"/>deres Bundesgesetz.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_79"/>
@@ -1296,8 +1247,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_81"/>
                <head>Art. 57.</head>
-               <p>
-</p>
                <p>18.
       </p>
             </div>
@@ -1342,14 +1291,12 @@
       <lb break="yes"/>Bundesversammlung gemäß Art. 152 der Bundesverfas
 <lb break="no"/>sung verantwortlich.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_85"/>
                <head>Art. 58
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_86"/>
@@ -1361,8 +1308,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_87"/>
                <head>Art. 69</head>
-               <p>
-      </p>
                <p>19
       <lb break="yes"/>2. Die Bundesregierung
       </p>
@@ -1403,21 +1348,17 @@
 <lb break="no"/>stellt und ergänzt
       <lb break="yes"/>(2) Im Falle eines feindlichen Angriffes auf
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+               <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_90"/>
                <head>Art. 69.
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_91"/>
                <head>Art. 70.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_92"/>
@@ -1440,8 +1381,6 @@
                <a class="navigation_article" xml:id="navigation_article_93"/>
                <head>Art. 89.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_94"/>
@@ -1479,7 +1418,7 @@
       <lb break="yes"/>Bundespräsidenten oder auf Grund seiner Ermächtigung
       <lb break="yes"/>vom zuständigen Bundesminister ernannt.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+               <pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>
                <p>Al. 2.
       <lb break="yes"/>Art. 77 - 84.</p>
                <p>21.
@@ -1501,7 +1440,7 @@
       <lb break="yes"/>der Richter der dritten Instanz von der Bestimmung des
       <lb break="yes"/>zweiten und dritten Absatzes abzugehen.
       <lb break="yes"/>Art. 97 - 104.</p>
-               <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+               <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
                <p>22.
       <lb break="yes"/>Viertes Hauptstück.
       <lb break="yes"/>Von der Gesetzgebung und Vollziehung in den Ländern.
@@ -1528,8 +1467,6 @@
                <a class="navigation_article" xml:id="navigation_article_98"/>
                <head>Art. 106
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_99"/>
@@ -1557,22 +1494,16 @@
                <a class="navigation_article" xml:id="navigation_article_101"/>
                <head>Art. 85.
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_102"/>
                <head>Art. 86.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_103"/>
                <head>Art. 87.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_104"/>
@@ -1580,7 +1511,7 @@
       </head>
                <p>Art. 89. 90.
       <lb break="yes"/>Art. 91, 92 deleatur.</p>
-               <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+               <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_105"/>
@@ -1645,7 +1576,7 @@
       <lb break="yes"/>(3) Zu diesem Behufe sind die politischen Bezirke unter
       <lb break="yes"/>Berücksichtigung der geschichtlichen Landeseinteilung tunlichst
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+               <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
                <p>24
       <lb break="yes"/>zu Kreisen (Gauen, Vierteln) zu vereinigen. Aenderungen in der
       <lb break="yes"/>Abgrenzung der Gerichts- und politischen Bezirke und die Eintei
@@ -1699,7 +1630,7 @@
                <p>(1) Die Bezirks- und Kreisvertretungen haben alle bisher
       <lb break="yes"/>durch besondere Ausschüsse, Konkurrenzen und sonstigen Sonder
 <lb break="no"/>./.</p>
-               <pb facs="#facs_26" n="26" xml:id="img_0026"/>
+               <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
                <p>25
       <lb break="yes"/>vertretungen besorgten Geschäfte ihres Gebietes zu übernehmen.
       <lb break="yes"/>(2) Die Amtsgeschäfte der bisherigen landesfürstlichen po
@@ -1742,27 +1673,21 @@
 <lb break="no"/>desbehörden,
       <lb break="yes"/>2. Im Dienste dieser Interessen die Begründung, Erhaltung
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+               <pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_116"/>
                <head>Art. 98.
       </head>
-               <p>
-      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_117"/>
                <head>Art. 99.
       </head>
-               <p>
-</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_118"/>
                <head>Art. 100.</head>
-               <p>
-</p>
                <p>26
       <lb break="yes"/>und Führung von öffentlichen Einrichtungen und Anstalten zur
       <lb break="yes"/>Förderung der Volkswirtschaft, wie zur Pflege der sozialen

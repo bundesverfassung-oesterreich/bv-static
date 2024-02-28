@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Falser II</title>
+            <title type="main">Falser Entwurf II</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529205</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14511</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +70,7 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Falser, Stephan</author>
-                     <title>Falser II</title>
+                     <title>Falser Entwurf II</title>
                      <note type="editor">Falser II (Titel des Dokuments: "Die Verfassung des Bundesstaates Republik Österreich"), Zustand gut, wenige Ergänzungen (Hinweis auf fehlenden Artikel bzw. Fehler bei der Zählung), 37 Artikel</note>
                   </msItem>
                </msContents>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1919-12-18" to="1919-12-18">18. Dezember 1919</origin>
+                  <origin notBefore-iso="1919-12-18" notAfter-iso="1919-12-18">18. Dezember 1919</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -194,7 +195,7 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>- 1 -</p>
             <p>Die Verfassung des Bundesstaates Republik Oesterreich.
       <lb break="yes"/>-------------------------------------------------
@@ -238,7 +239,7 @@
 <lb break="no"/>regierungen zur Aufrechthaltung der Ruhe und Ordnung im Innern
       <lb break="yes"/>Bundeshilfe zu gewähren.</p>
                <p>23</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                <p>- 2 -</p>
                <p>Auch ohne solches Ersuchen kann die Bundesgewalt gegen Störun
 <lb break="no"/>gen der öffentlichen Ruhe und Ordnung innerhalb des Gebietes eines
@@ -276,7 +277,7 @@
       <lb break="yes"/>ist nur in den Fällen des Art. III und bei militärischen Uebungen
       <lb break="yes"/>zulässig.</p>
                <p>24</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>- 3 -</p>
             </div>
             <div type="article">
@@ -324,7 +325,7 @@
                <p>Die Glaubens- und Gewissensfreiheit ist unverletzlich. Niemand
       <lb break="yes"/>darf zur Teilnahme an einer Religionsgesellschaft oder an einem</p>
                <p>25</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>- 4 
 <lb break="no"/>religiösen Unterrichte oder zur Vornahme einer religiösen Handlung
       <lb break="yes"/>gezwungen werden.
@@ -360,8 +361,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_10"/>
                <head>Art. X.</head>
-               <p>
-</p>
                <p>Die Bürger haben das Recht, Vereine zu bilden, soferne diese
       <lb break="yes"/>weder in ihren Zwecken noch in den Mitteln rechtswidrig oder staats
 <lb break="no"/>gefährlich sind. Ueber den Mißbrauch dieses Rechtes und über das
@@ -378,7 +377,7 @@
       <lb break="yes"/>Die Militärgerichtsbarkeit bleibt nur für rein militärische
       <lb break="yes"/>Vergehen bestehen und ist durch Bundesgesetz zu regeln.</p>
                <p>26</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>- 5 -</p>
             </div>
             <div type="article">
@@ -407,8 +406,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_14"/>
                <head>Art. XIV.</head>
-               <p>
-</p>
                <p>In die Zuständigkeit des Bundes fallen:
       <lb break="yes"/>1.) Die auswärtigen Angelegenheiten mit Einschluß der diplo
 <lb break="no"/>matischen und kommerziellen Vertretung dem Auslande gegen
@@ -426,7 +423,7 @@
 <lb break="no"/>spannleistung, Verpflegung und Einquartierung des Heeres,
       <lb break="yes"/>ferner die Regelung der Militärgerichtsbarkeit in den</p>
                <p>27</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>- 6 -</p>
                <p>Schranken des Art. XI.
       <lb break="yes"/>4.) Das Finanzwesen, soweit es die gemeinschaftlich zu verwal
@@ -460,7 +457,7 @@
       <lb break="yes"/>und Luftschiffahrtswesen, die Elektrizitätsgesetzgebung und
       <lb break="yes"/>die Verwaltung der Bundesstraßen.</p>
                <p>28</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>- 7 -</p>
                <p>7.) Die Gesetzgebung über das Kredit- und Bankwesen mit Ausnahme
       <lb break="yes"/>des landwirtschaftlichen Kreditwesens (Raiffeisenkassen, land
@@ -496,7 +493,7 @@
       <lb break="yes"/>die an dieser Grenze gelegenen Bundesglieder sind dem Ver
 <lb break="no"/>fahren als beteiligte Parteien beizuziehen.
       <lb break="yes"/>29</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>- 8 -</p>
                <p>14.) Die Oberaufsicht über die Straßen und Brücken, deren In
 <lb break="no"/>standhaltung für den Bundesstaat Bedeutung hat.
@@ -515,8 +512,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_16"/>
                <head>Art. XVI.</head>
-               <p>
-</p>
                <p>Die Landesregierungen sind verpflichtet, alle Gesetzesbeschlüs
 <lb break="no"/>se der Landtage vor ihrer Kundmachung der Staatsregierung mitzutei
 <lb break="no"/>len; die gleiche Pflicht obliegt dem Stadtrate der Bundeshauptstadt
@@ -544,7 +539,7 @@
       <lb break="yes"/>Kundmachung des angefochtenen Beschlusses darf erst erfolgen, wenn
       <lb break="yes"/>der Gerichtshof dessen Verfassungsmässigkeit anerkannt hat; der</p>
                <p>30</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
                <p>- 9 -</p>
                <p>Verfassungsgerichtshof hat binnen Monatsfrist das Erkenntnis zu fäl
 <lb break="no"/>len, widrigens die Kundmachung des angefochtenen Gesetzesbeschlusses
@@ -581,7 +576,7 @@
 <lb break="no"/>treter; die Vertretung kann nicht widerrufen werden; für ausschei
 <lb break="no"/>dende Vertreter ist sobald als möglich eine Nachwahl durchzufüh-</p>
                <p>31</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
                <p>- 10 -</p>
                <p>ren. Die Art der Wahl und die Voraussetzungen der Wählbarkeit
       <lb break="yes"/>bestimmt die Landesgesetzgebung.
@@ -594,8 +589,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_19"/>
                <head>Art. XIX.</head>
-               <p>
-</p>
                <p>Die Bundesversammlung und das Ständehaus werden auf sechs
       <lb break="yes"/>Jahre gewählt. Sinkt aber die Zahl der Mitglieder einer dieser
       <lb break="yes"/>Körperschaften bis auf die Hälfte seiner gesetzmässigen Anzahl,
@@ -619,8 +612,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_21"/>
                <head>Art. XXI.</head>
-               <p>
-</p>
                <p>Bundesgesetze kommen durch den übereinstimmenden Beschluß
       <lb break="yes"/>der Bundesversammlung und des Ständehauses zusammen; die Fest
 <lb break="no"/>stellung der Voranschläge des Bundeshaushaltes, die Prüfung
@@ -631,7 +622,7 @@
       <lb break="yes"/>Gefälle (diese in den Schranken des Art. XIV,Z.4) steht ausschlies
 <lb break="no"/>send der Bundesversammlung zu.</p>
                <p>32</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>- 11 -
       </p>
             </div>
@@ -682,7 +673,7 @@
       <lb break="yes"/>fünfzigtausend Rundesbürgern oder von drei Bundesgliedern verlangt
       <lb break="yes"/>wird.</p>
                <p>33</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>- 12 
 <lb break="no"/>Die Durchführung der Volksabstimmung und die Frist zur Ein
 <lb break="no"/>bringung dieses Verlangens wird durch Bundesgesetz geregelt.
@@ -700,8 +691,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_27"/>
                <head>Art. XXVIII.</head>
-               <p>
-</p>
                <p>Die oberste vollziehende und leitende Verwaltungsbehörde
       <lb break="yes"/>des Bundesstaates ist der Bundesrat, der aus Mitgliedern be
 <lb break="no"/>steht. Die Mitglieder werden von der Bundesversammlung aus allen
@@ -734,7 +723,7 @@
                <p>Die Mitglieder des Bundesrates beziehen einen jährlichen
       <lb break="yes"/>Gehalt aus der Bundeskasse.</p>
                <p>34</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
                <p>- 13 -
       </p>
             </div>
@@ -751,8 +740,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_31"/>
                <head>Art. XXXII.</head>
-               <p>
-</p>
                <p>Der Bundesrat hat insbesondere folgende Befugnisse und Pflich
 <lb break="no"/>ten.
       <lb break="yes"/>1./ er leitet die bundesstaatlichen Angelegenheiten gemäß den
@@ -778,7 +765,7 @@
       <lb break="yes"/>8./ er erstattet der Bundesversamllung bei ihrer ordentlichen
       <lb break="yes"/>Tagung Rechenschaft über seine Tätigkeit, sowie einen Bericht über</p>
                <p>35</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>- 14 
 <lb break="no"/>die Gesamtlage des Bundesstaates im Innern und nach Aussen; er
       <lb break="yes"/>hat auch besondere Berichte zu erstatten, wenn die Bundesversammlung
@@ -800,8 +787,6 @@
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_33"/>
                <head>Art. XXXIV.</head>
-               <p>
-</p>
                <p>Zur Erledigung aller Geschäfte des Bundesrates ist ihm die
       <lb break="yes"/>Bundeskanzlei beigegeben, die unter Aufsicht des dem Bundesrate ver
 <lb break="no"/>antwortlichen Bundeskanzlers die ihr übertragenen Geschäfte zu
@@ -824,7 +809,7 @@
       <lb break="yes"/>diese Bundesverfassung nichts gegenteiliges enthält; die Aenderung
       <lb break="yes"/>der verfassungsmäßigen Zuständigkeit auf dem Gebiete der Gesetz-</p>
                <p>36</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
                <p>- 15 -</p>
                <p>gebung und Verwaltung, berührt die Fortdauer der Giltigkeit der
       <lb break="yes"/>vorstehend erwähnten Gesetze und Verordnungen nicht.
@@ -865,7 +850,7 @@
       <lb break="yes"/>aus je          Mitgliedern und ebensoviel Ersatzmännern bestehenden
       <lb break="yes"/>./.</p>
                <p>37</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p>- 16 
 <lb break="no"/>Ausschuss behufs Ausarbeitung eines neuen Verfassungsentwurfes
       <lb break="yes"/>zu bestellen, der binnen Jahresfrist dem Bundesrate Bericht zu
@@ -877,7 +862,7 @@
       <lb break="yes"/>Die gegenwärtige Bundesverfassung bleibt dann so lange noch
       <lb break="yes"/>in Kraft, bis sie im Sinne des Art. XXXVI geändert wird.</p>
                <p>38</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>Bericht über den Entwurf einer Bundesverfassung für die
       <lb break="yes"/>Republik der Deutschen Alpenlande.
       <lb break="yes"/>Dieser Bericht geht von der Annahme aus, daß die Bundesverfas
@@ -909,7 +894,7 @@
       <lb break="yes"/>Es ist aber wünschenswert, ja zum Gedeihen des Staatswesens
       <lb break="yes"/>notwendig, daß die Verfassung geändert werden kann, wenn das Volk</p>
                <p>39</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
                <p>2.</p>
                <p>als oberster Richter über sein eigenes Schicksal, übe sein Wohl
       <lb break="yes"/>und Wehe findet, daß die Teilung zwischen den Rechten des Bundes

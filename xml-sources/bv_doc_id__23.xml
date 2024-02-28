@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">UA 23. September 1920 Textvariante</title>
+            <title type="main">UA Entwurf 23. September 1920 Textvariante</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529221</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14547</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +70,7 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
-                     <title>UA 23. September 1920 Textvariante</title>
+                     <title>UA Entwurf 23. September 1920 Textvariante</title>
                      <note type="editor">UA 23. September Textvariante (Titel des Dokuments: "Ergebnis der Beratungen des Unterausschusses des Verfassungsausschusses"), dabei manche Artikel auf andersformatigen Blättern (Lithographien) eingelegt. Unklar, ob Vorstufe zum Druck oder Textvariante des UA 23. September, Zustand gut, einige handschriftliche Ergänzungen in Bleistift, eingelegte, lithographierten Blätter mit Textvarianten einzelner Artikel oder Passagen, 157 Artikel</note>
                   </msItem>
                </msContents>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-09-23" to="1920-09-23">23. September 1920</origin>
+                  <origin notBefore-iso="1920-09-23" notAfter-iso="1920-09-23">23. September 1920</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -309,8 +310,10 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
-            <p>unleserlich</p>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
+            <p>
+               <gap reason="illegible"/>
+            </p>
             <p>1</p>
             <p>Ergebnis der Beratungen des Unterausschusses des Verfassungsausschustes.
       <lb break="yes"/>Entwurf
@@ -360,9 +363,11 @@
       <lb break="yes"/>Artikel 3a.
       <lb break="yes"/>(1) Das Bundesgebiet bildet ein einheitliches
       <lb break="yes"/>Währungs-, Wirtschafts= und Zollgebiet.</p>
-               <p>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
                <p>123</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                <p>2</p>
                <p>(2) Innerhalb der Grenzen des Bundes dürfen
       <lb break="yes"/>keinerlei Zwischenzollinien errichtet werden.
@@ -437,11 +442,15 @@
       <lb break="yes"/>aller Staatsverträge: Grenzvermarkung; Regelung
       <lb break="yes"/>des Waren= und Viehverkehrs mit dem Auslande;
       <lb break="yes"/>Zollwesen:</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
                <p>124</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>3</p>
                <p>3. Regelung und Überwachung des Eintrittes
       <lb break="yes"/>in das Bundesgebiet und des Austrittes aus ihm;
@@ -499,23 +508,41 @@
       <lb break="yes"/>Ambularien, des Kurortes, Leichen= und Be
 <lb break="no"/>stattungswesens sowie des Gemeindesanitätsdienstes
       <lb break="yes"/>und Rettungswesens; Nahrungsmittelkontrolle;</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
                <p>125</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>4</p>
                <p>13. gesamtes Schul= und Erziehungswesen;
       <lb break="yes"/>Volksbildungswesen; Regelung des wissenschaftlichen
@@ -576,21 +603,37 @@
 <lb break="no"/>wesen, soweit es nicht dem Monopol unterliegt,
       <lb break="yes"/>sowie Waffenwesen; betriebstechnische Vorschriften
       <lb break="yes"/>beim Kraftfahrwesen;</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>5</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
                <p>9. Elektrizitätswesen;
       <lb break="yes"/>10. Volkswohnungs= und Volkspflegestätten=
       <lb break="yes"/>wesen; Leichen= und Bestattungswesen:
@@ -657,21 +700,36 @@
 <lb break="no"/>gebung nicht eingehalten, so geht die Zuständig
 <lb break="no"/>keit zur Erlassung des Ausführungsgesetzes für
       <lb break="yes"/>dieses Land auf den Bund über.</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>127</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
-               <p>unleserlich</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>127</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>6</p>
                <p>(3) Soll ein Akt der vollziehenden Gewalt
       <lb break="yes"/>mehrere Länder Rechtswirksamkeit äußern und ist
@@ -731,13 +789,20 @@
 <lb break="no"/>erhaltung der öffentlichen Ordnung, Ruhe und
       <lb break="yes"/>Sicherheit im Gebiete der Bundeshauptstadt Wien
       <lb break="yes"/>und der Landeshauptstädte betrauten Behörden</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
                <p>128</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>7</p>
                <p>dient die Bundespolizei. Ihre Einrichtung, Aus
 <lb break="no"/>bildung, Ausrüstung und Erhaltung sowie die Leitung
@@ -760,10 +825,12 @@
 <lb break="no"/>setzgebung und zur Teilnahme an der Verwaltung
       <lb break="yes"/>in wirtschaftlichen und sozialen Angelegenheiten
       <lb break="yes"/>heranzuziehen.</p>
-               <p>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
                <p>?</p>
                <p>12</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>7a</p>
             </div>
             <div type="article">
@@ -822,7 +889,7 @@
       <lb break="yes"/>ihren Organen von den Volksbeauftragten der Länder
       <lb break="yes"/>ausgeübt.</p>
                <p>138</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
                <p>7b</p>
                <p>(3) Die Bestellung und das Dienstrecht der
       <lb break="yes"/>Organe der Gebiets= und Ortsgemeinden, die be
@@ -873,11 +940,16 @@
       <lb break="yes"/>Alle Behörden und Ämter im Bundesgebiete
       <lb break="yes"/>sind im Rahmen ihres gesetzmäßigen Wirkungskreises
       <lb break="yes"/>zur wechselseitigen Hilfeleistung verpflichtet.</p>
-               <p>unleserlich</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
                <p>131</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
                <p>7c</p>
                <p>Artikel 14 g.
       <lb break="yes"/>(1) Alle mit der Ausübung der Bundes-, Landes-
@@ -895,7 +967,7 @@
       <lb break="yes"/>(3) Die näheren Bestimmungen trifft ein Bundes
 <lb break="no"/>gesetz.</p>
                <p>132</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>8</p>
                <p>Zweiter Abschnitt.
       <lb break="yes"/>Von der Gesetzgebung des Bundes.
@@ -964,7 +1036,7 @@
       <lb break="yes"/>wenigstens ein Viertel seiner Mitglieder oder die
       <lb break="yes"/>Bundesregierung es verlangt.</p>
                <p>133</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>9</p>
                <p>(Artikel 21 fällt aus.)
       </p>
@@ -1036,10 +1108,14 @@
 <lb break="no"/>tretung von wenigstens drei Mitgliedern.
       <lb break="yes"/>(3) Für jedes Mitglied wird ein Ersatzmann
       <lb break="yes"/>bestellt.</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
                <p>10</p>
                <p>(4) Die Mitglieder des Bundesrates und deren
       <lb break="yes"/>Ersatzmänner werden von den Landtagen für die
@@ -1098,9 +1174,11 @@
 <lb break="no"/>tikels 25 gelten auch für öffentliche Sitzungen des
       <lb break="yes"/>Bundesrates und seiner Ausschüsse.
       <lb break="yes"/>(Artikel 29 fällt aus.)</p>
-               <p>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
                <p>135</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>11</p>
                <p>C. Die Bundesversammlung.
       <lb break="yes"/>Artikel 29 a.
@@ -1164,7 +1242,7 @@
       <lb break="yes"/>von zwei Dritteln aller abgegebenen Stimmen
       <lb break="yes"/>beschlossen werden.</p>
                <p>136</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
                <p>12</p>
             </div>
             <div type="article">
@@ -1235,7 +1313,7 @@
       <lb break="yes"/>nach Einlangen des Gesetzesbeschlusses beim Bundes
 <lb break="no"/>rate schriftlich mitgeteilt werden.</p>
                <p>137</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p/>
                <p>(4) Wiederholt der Nationalrat seinen ursprüng
 <lb break="no"/>lichen Beschluß, so ist dieser zu beurkunden und
@@ -1268,9 +1346,11 @@
       <lb break="yes"/>(3) Die Beurkundung ist vom Bundeskanzler und
       <lb break="yes"/>von den zuständigen Bundesministern gegenzu
 <lb break="no"/>zeichnen.</p>
-               <p>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+               </p>
                <p>138</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>13 a
       </p>
             </div>
@@ -1301,12 +1381,17 @@
       <lb break="yes"/>Bundesgebiet.
       <lb break="yes"/>(2) Ueber das Bundesgesetzblatt ergeht ein beson
 <lb break="no"/>deres Bundesgesetz.</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
                <p>139</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
                <p>14</p>
                <p>E. Mitwirkung des Nationalrates und des Bundes
 <lb break="no"/>rates an der Vollziehung des Bundes.
@@ -1362,7 +1447,7 @@
       <lb break="yes"/>die Dauer der Gesetzgebungsperiode aufgeschoben
       <lb break="yes"/>werden.</p>
                <p>140</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
                <p>15</p>
                <p>(5) Die Immunität der Organe des National
 <lb break="no"/>rates, deren Funktion über die Gesetzgebungsperiode
@@ -1440,7 +1525,7 @@
       <lb break="yes"/>(3) Das Verfahren der Untersuchungsausschüsse
       <lb break="yes"/>wird durch das Geschäftsordnungsgesetz geregelt.</p>
                <p>141</p>
-               <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+               <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
                <p>16</p>
                <p>Dritter Abschnitt.
       <lb break="yes"/>Von der Vollziehung des Bundes.
@@ -1507,7 +1592,7 @@
       <lb break="yes"/>Bundeskanzler die Bundesversammlung innerhalb
       <lb break="yes"/>dreier Wochen einzuberufen.</p>
                <p>142</p>
-               <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+               <pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>
                <p>17</p>
             </div>
             <div type="article">
@@ -1576,7 +1661,7 @@
 <lb break="no"/>stimmter Kategorien den ressortmäßig zuständigen
       <lb break="yes"/>Mitgliedern der Bundesregierung übertragen.</p>
                <p>143</p>
-               <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+               <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
                <p>18</p>
             </div>
             <div type="article">
@@ -1650,7 +1735,7 @@
       <lb break="yes"/>Bundesregierung finden die Bestimmungen der Ab
 <lb break="no"/>sätze 2 bis 4 sinngemäße Anwendung.</p>
                <p>144</p>
-               <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+               <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
                <p>19</p>
             </div>
             <div type="article">
@@ -1717,7 +1802,7 @@
       <lb break="yes"/>und 61) sind gemäß Artikel 152 dem Nationalrat
       <lb break="yes"/>verantwortlich.</p>
                <p>145</p>
-               <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+               <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
                <p>20
       </p>
             </div>
@@ -1783,7 +1868,7 @@
       <lb break="yes"/>der von dieser erteilten Ermächtigung der zuständige
       <lb break="yes"/>Bundesminister betraut.</p>
                <p>146</p>
-               <pb facs="#facs_26" n="26" xml:id="img_0026"/>
+               <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
                <p>(2) Inwieweit auch die Behörden der Länder
       <lb break="yes"/>und Gemeinden die Mitwirkung des Bundesheeres
       <lb break="yes"/>zu den im Artikel 69, Absatz 2, erwähnten Zwecken
@@ -1841,7 +1926,7 @@
                <p>Die Militärgerichtsbarkeit ist - außer für
       <lb break="yes"/>Kriegszeiten — aufgehoben.</p>
                <p>147</p>
-               <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+               <pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/>
                <p>33
       <lb break="yes"/>(Fortsetzung zu den gedruckten Exemplare)
       <lb break="yes"/>B) Von der Gerichtsbarkeit des Bundes.
@@ -1882,7 +1967,7 @@
                <p>Die Militärgerichtsbarkeit ist - außer für Kriegszeiten
       <lb break="yes"/>aufgehoben.
       <lb break="yes"/>148</p>
-               <pb facs="#facs_28" n="28" xml:id="img_0028"/>
+               <pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>
                <p>34
       </p>
             </div>
@@ -1937,7 +2022,7 @@
 <lb break="no"/>stimmt, nach deren Erreichung die Richter in den dauernden Ruhe
       <lb break="yes"/>stand zu versetzen sind.
       <lb break="yes"/>./.</p>
-               <pb facs="#facs_29" n="29" xml:id="img_0029"/>
+               <pb facs="#facs_29" n="29" xml:id="img_0029" break="yes"/>
                <p>35
       <lb break="yes"/>(2) Im übrigen dürfen Richter nur in den vom Gesetze vorge
 <lb break="no"/>schriebenen Fällen und Formen und auf Grund eines förmlichen rich
@@ -1987,7 +2072,7 @@
 <lb break="no"/>chen und Vergehen entscheiden Geschworene über die Schuld des An
 <lb break="no"/>geklagten.</p>
                <p>149</p>
-               <pb facs="#facs_30" n="30" xml:id="img_0030"/>
+               <pb facs="#facs_30" n="30" xml:id="img_0030" break="yes"/>
                <p>36
       <lb break="yes"/>(3) Im Strafverfahren wegen niederer Verbrechen und Verge
 <lb break="no"/>hen nehmen Schöffen an der Rechtsprechung teil.
@@ -2044,7 +2129,7 @@
                <p>(1) Die Mitglieder des Landtages geniessen die gleiche Immu
 <lb break="no"/>nität wie die Mitglieder des Nationalrates, wobei die Bestimmun
 <lb break="no"/>gen des Artikels 43 sinngemäß Anwendung finden</p>
-               <pb facs="#facs_31" n="31" xml:id="img_0031"/>
+               <pb facs="#facs_31" n="31" xml:id="img_0031" break="yes"/>
                <p>37
       <lb break="yes"/>(2) Die Bestimmungen der Artikel 24 und 25 gelten auch für
       <lb break="yes"/>die Sitzungen der Landtage und ihrer Ausschüsse,
@@ -2093,7 +2178,7 @@
       <lb break="yes"/>der Hälfte aller Mitglieder des Landtages mit einer Mehrheit
       <lb break="yes"/>von zwei Dritteln aller abgegebenen Stimmen beschlossen werden</p>
                <p>150</p>
-               <pb facs="#facs_32" n="32" xml:id="img_0032"/>
+               <pb facs="#facs_32" n="32" xml:id="img_0032" break="yes"/>
                <p>38
       </p>
             </div>
@@ -2143,7 +2228,7 @@
       <lb break="yes"/>die Landesregierungen mit der Ausübung der vollziehenden Gewalt des
       <lb break="yes"/>Bundes zu beauftragen.
       <lb break="yes"/>(3) Die Errichtung von eigenen Bundesbehörden für andere als die</p>
-               <pb facs="#facs_33" n="33" xml:id="img_0033"/>
+               <pb facs="#facs_33" n="33" xml:id="img_0033" break="yes"/>
                <p>39
       <lb break="yes"/>im Absatz 2 bezeichneten Angelegenheiten kann nur mit Zustimmung der
       <lb break="yes"/>beteiligten Länder erfolgen.
@@ -2187,7 +2272,7 @@
       <lb break="yes"/>sind der Bundesregierung unverzüglich anzuzeigen.
       <lb break="yes"/>Einlage.</p>
                <p>151</p>
-               <pb facs="#facs_34" n="34" xml:id="img_0034"/>
+               <pb facs="#facs_34" n="34" xml:id="img_0034" break="yes"/>
                <p>Wm.</p>
                <p>cſe.
       <lb break="yes"/>40
@@ -2232,7 +2317,7 @@
       <lb break="yes"/>der Bundesregierung gewesen sein.
       <lb break="yes"/>Artikel 100a
       <lb break="yes"/>(1) Der Präsident des Rechnungshofes ist in bezug auf Verant-</p>
-               <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+               <pb facs="#facs_35" n="35" xml:id="img_0035" break="yes"/>
                <p>-41-
       <lb break="yes"/>wortlichkeit den Mitgliedern der Bundesregierung gleichgestellt.
       <lb break="yes"/>(2) Er kann durch Beschluss des Nationalrates abberufen
@@ -2284,7 +2369,7 @@
                <p>Die näheren Bestimmungen über die Tätigkeit des Rechnungs
 <lb break="no"/>hofes erfolgen durch Bundesgesetz.</p>
                <p>152</p>
-               <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+               <pb facs="#facs_36" n="36" xml:id="img_0036" break="yes"/>
                <p>42
       <lb break="yes"/>Sacheter Abschnitt.
       <lb break="yes"/>Von den Grund- und Freiheitsrechten
@@ -2331,7 +2416,7 @@
       <lb break="yes"/>zusteht;
       <lb break="yes"/>2. die zur Kompetenz des Verfassungsgerichtshofes gehö
 <lb break="no"/>ren;</p>
-               <pb facs="#facs_37" n="37" xml:id="img_0037"/>
+               <pb facs="#facs_37" n="37" xml:id="img_0037" break="yes"/>
                <p>43</p>
                <p>3. über die eine Kollegialbehörde zu entscheiden oder
       <lb break="yes"/>zu verfügen hat, der wenigstens ein Richter angehört;
@@ -2377,7 +2462,7 @@
       <lb break="yes"/>(3) Wenigstens die Hälfte der Mitglieder muss die Eig
 <lb break="no"/>nung zum Richteramte haben.</p>
                <p>153</p>
-               <pb facs="#facs_38" n="38" xml:id="img_0038"/>
+               <pb facs="#facs_38" n="38" xml:id="img_0038" break="yes"/>
                <p>-44-
       </p>
             </div>
@@ -2433,7 +2518,7 @@
                <p>(1) Der Verfassungsgerichtshof entscheidet über Gesetz
 <lb break="no"/>widrigkeit von Verordnungen einer Bundes - oder Landesbehörde
       <lb break="yes"/>auf Antrag eines Gerichtes;</p>
-               <pb facs="#facs_39" n="39" xml:id="img_0039"/>
+               <pb facs="#facs_39" n="39" xml:id="img_0039" break="yes"/>
                <p>45
       <lb break="yes"/>über Gesetzwidrigkeit von Verordnungen einer Landesbe
 <lb break="no"/>hörde auch auf Antrag der Bundesregierung;
@@ -2482,7 +2567,7 @@
       </head>
                <p>(1) Der Verfassungsgerichtshof entscheidet über die Ver
 <lb break="no"/>154</p>
-               <pb facs="#facs_40" n="40" xml:id="img_0040"/>
+               <pb facs="#facs_40" n="40" xml:id="img_0040" break="yes"/>
                <p>46
       <lb break="yes"/>Verantwortlichkeit:
       <lb break="yes"/>a) des Bundespräsidenten,
@@ -2519,7 +2604,7 @@
                <p>(1) Der Verfassungsgerichtshof entscheidet über Be
 <lb break="no"/>schwerden wegen Verletzung der verfassungsmässig gewährleisteten
       <lb break="yes"/>politischen Rechte durch eine Behörde nach Erschöpfung des admini-</p>
-               <pb facs="#facs_41" n="41" xml:id="img_0041"/>
+               <pb facs="#facs_41" n="41" xml:id="img_0041" break="yes"/>
                <p>47
       <lb break="yes"/>strativen Instanzenzuges.
       <lb break="yes"/>(2) Das stattgebende Erkenntnis des Verfassungsgerichts
@@ -2568,7 +2653,7 @@
                <p>Die nähere Organisation und das Verfahren des Verfassungs
 <lb break="no"/>gerichtshofes wird durch Bundesgesetz geregelt.</p>
                <p>155</p>
-               <pb facs="#facs_42" n="42" xml:id="img_0042"/>
+               <pb facs="#facs_42" n="42" xml:id="img_0042" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_112"/>
@@ -2579,21 +2664,21 @@
 <lb break="no"/>verwaltung) oder durch die Landesregierungen und die ihnen unter
 <lb break="no"/>stellten Landesbehörden (mittelbare Bundesverwaltung) ausgeübt.
       <lb break="yes"/>
-                  <hi rend="bold">unleserlich</hi>
+                  <gap reason="illegible"/>
                   <lb break="yes"/>(2) Folgende Angelegenheiten können unmittelbar durch Bun
 <lb break="no"/>desbehörden versehen werden:
       <lb break="yes"/>Waren- und Viehverkehr mit dem Auslande, Grenzvermarkung, Zoll
 <lb break="no"/>wesen, Bundesfinanzen und Regelung der Finanzangelegenheiten zwi
 <lb break="no"/>schen Bund und Ländern, Monopolwesen, Maß-, Gewichts-, Normen-und
       <lb break="yes"/>
-                  <hi rend="bold">unleserlich</hi>
+                  <gap reason="illegible"/>
                   <lb break="yes"/>Punzierungswesen, Justizpflege, Verkehrsresen, Bundesstraßen, Strom-
       <lb break="yes"/>und Schiffahrtspolizei, Post-, Telegraphen- und Fernsprechwesen,
       <lb break="yes"/>Bergwesen, militärische Angelegenheiten, Angelegeneiten des Gewer
 <lb break="no"/>bes und der Industrie, Patentwesen, Ingenieur- und Ziviltechniker
 <lb break="no"/>wesen, Regulierung und Instandhaltung von Gewässern, Erbauung und
       <lb break="yes"/>
-                  <hi rend="bold">unleserlich</hi>
+                  <gap reason="illegible"/>
                   <lb break="yes"/>Erhaltung von Wasserstraßen, Vermessungswesen, Arbeiter- und Ange
 <lb break="no"/>stelltenschutz, Sozialversicherungswesen, Fürsorge für Kriegsteil
       <lb break="yes"/>nehmer und deren Hinterbliebene, Schul- und Erziehungswesen, Volks
@@ -2614,11 +2699,17 @@
       <lb break="yes"/>Die Bestimmungen des Artikels 92, Absatz 2 und 4, finden nicht
       <lb break="yes"/>Anwendung auf Einrichtungen zur Besorgung der Geschäfte des Bundes
       <lb break="yes"/>als Träger von Privatrechten (Artikel 14)</p>
-               <p>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich
-      <lb break="yes"/>unleserlich</p>
+               <p>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+                  <lb break="yes"/>
+                  <gap reason="illegible"/>
+               </p>
                <p>156</p>
             </div>
          </div>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">UA 26. August 1920</title>
+            <title type="main">UA Entwurf 26. August 1920</title>
             <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
             <principal>
                <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529231</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14576</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +70,7 @@
                <msContents>
                   <msItem>
                      <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
-                     <title>UA 26. August 1920</title>
+                     <title>UA Entwurf 26. August 1920</title>
                      <note type="editor">UA 26. August (Titel des Dokuments: "Entwurf eines Gesetzes betreffend die Verfassung der Republik Österreich") Zustand gut, wenige handschriftliche Ergänzungen, 157 Artikel</note>
                   </msItem>
                </msContents>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-08-26" to="1920-08-26">26. August 1920</origin>
+                  <origin notBefore-iso="1920-08-26" notAfter-iso="1920-08-26">26. August 1920</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -139,7 +140,7 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>Bekanntlich hat der Unterausschuß des Verfassungsausschusses auf Grundlage der verschiedenen Entwürfe für eine Bundesverfassung
       <lb break="yes"/>die Materie mit Ausnahme des Abschnittes über die Grund- und Freiheitsrechte durchberaten.
       <lb break="yes"/>Im Nachfolgenden wird nunmehr der Entwurf, wie er im Unterausschusse beschlossen wurde, in seiner Gänze der Öffentlichkeit zur
@@ -413,7 +414,7 @@
       <lb break="yes"/>eine Frist bestimmen, die nicht kürzer als drei
       <lb break="yes"/>Monate und nicht langer als ein Jahr sein darf.
       <lb break="yes"/>Wird diese Frist von einer Landesgesehgebung nicht</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                <p>eingehalten, so geht die Zuständigkeit zur Erlassung
       <lb break="yes"/>des Ausführungsgesetes für dieses Land auf den
       <lb break="yes"/>Bund über
@@ -499,7 +500,6 @@
       <lb break="yes"/>Artitel 14 d.
       <lb break="yes"/>(1) Das Dienstrecht — einschließlich des Besoldungs
 <lb break="no"/>systems und des Disziplinarrechts - wird für jene</p>
-               <p/>
                <p>Organe des Bundes und der Länder, die behördliche
       <lb break="yes"/>Aufgaben zu besorgen haben, nach einheitlichen Gruns
 <lb break="no"/>aben durch Bundesgeseh geregelt. Hiebei wird ins
@@ -700,7 +700,7 @@
       <lb break="yes"/>(1) Im Bundesrate sind die Länder im Verhältnis
       <lb break="yes"/>zu ihrer Einwohnerzahl gemäß den folgenden Be
 <lb break="no"/>smmungen vertreten.</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>(2) Das Land mit der größten Einwohnerzahl
       <lb break="yes"/>entsendet 12 Mitglieder, jedes andere Land so
       <lb break="yes"/>viele Mitglieder, ass dem Verhältnisse seiner Ein
@@ -1001,7 +1001,7 @@
       </head>
                <p>(1) Niemand kann gleichzeitig dem Nationalrat und
       <lb break="yes"/>dem Bundesrat angehören.</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>(2) Öffentliche Angestellte und Funktionäre ein
 <lb break="no"/>schließlich der Ungehörigen des Bundesheeres bedürfen
       <lb break="yes"/>zur Ansübung eines Mandates im Nationaltat oder
@@ -1314,7 +1314,7 @@
 <lb break="no"/>minister.
       <lb break="yes"/>3) Der Staatssekretär ist dem Bundesminister
       <lb break="yes"/>unterstellt und an seine Weisungen gebunden.</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>(Artikel 67 fällt aus.)
       <lb break="yes"/>3. Das Bundesheer.
       <lb break="yes"/>(Artitel 68 fallt aus.)
@@ -1546,7 +1546,6 @@
       </head>
                <p>(1) Die Mitglieder des Landtages genießen die
       <lb break="yes"/>gleich Immunität wie die Mitglieder des Nationalrates.</p>
-               <p/>
                <p>rates, wobei die Bestimmungen des Artikels 43 sinn
 <lb break="no"/>gemäß Anwendung finden.
       <lb break="yes"/>(2) Die Bestimmungen der Artifel 24 und 25 gelten
@@ -1658,7 +1657,7 @@
       <lb break="yes"/>beauftragen.
       <lb break="yes"/>(3) Die Grrichtung von eigenen Bundesbehörden
       <lb break="yes"/>für andere als die im Absatze 2 bezeichneten An-</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                <p>gelgenheiten kann nur mit Zustimmung der beteiligten
       <lb break="yes"/>Länder erfolgen.
       <lb break="yes"/>(4) In den Angelegenheiten der mittelbaren Bundes
@@ -1953,7 +1952,7 @@
       <lb break="yes"/>(1) Das stattgebende Erkenntnis des Verwaltungs
 <lb break="no"/>gerichtshofes bewirkt die Aufhebung der rechts
 <lb break="no"/>widrigen Entscheidung oder Verfügung.</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>9) Die Verwaltungsbehörde ist bei der neu zu
       <lb break="yes"/>treffenden Entscheibung oder Verfügung an die Rechts
 <lb break="no"/>anschanung des Verwaltungsgerichtshoses gebunden.

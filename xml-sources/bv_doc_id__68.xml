@@ -57,6 +57,7 @@
             </availability>
             <idno type="transkribus_doc">1529239</idno>
             <idno type="transkribus_collection">195363</idno>
+            <idno type="bv_data_set">Datenset A</idno>
             <idno type="goobi">14642</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,7 +81,7 @@
                         </handDesc>
                </physDesc>
                <history>
-                  <origin from="1920-01-01" to="1920-05-18">Vor dem 18. Mai 1920 (vor Einbringung des GD Entwurfs in der KNV) entstanden</origin>
+                  <origin notBefore-iso="1920-01-01" notAfter-iso="1920-05-18">Vor dem 18. Mai 1920 (vor Einbringung des GD Entwurfs in der KNV) entstanden</origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-01-23" who="#cfh">document automatically created</change>
+         <change when="2024-02-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -204,22 +205,22 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
             <p>
-               <hi rend="bold">Unleserlich</hi>
+               <gap reason="illegible"/>
             </p>
             <p>
-               <hi rend="bold">Vorentwurf</hi>
+               <hi rend="emphasis">Vorentwurf</hi>
                <lb break="yes"/>
-               <hi rend="bold">einer österreichischen Verfassung</hi>
+               <hi rend="emphasis">einer österreichischen Verfassung</hi>
                <lb break="yes"/>
-               <hi rend="bold">unter Mitwirkung von Mitgliedern der Großdeutschen Vereinigung</hi>
+               <hi rend="emphasis">unter Mitwirkung von Mitgliedern der Großdeutschen Vereinigung</hi>
                <lb break="yes"/>
-               <hi rend="bold">ausgearbeitet von Mitgliedern der Deutschen Freiheits- und</hi>
+               <hi rend="emphasis">ausgearbeitet von Mitgliedern der Deutschen Freiheits- und</hi>
                <lb break="yes"/>
-               <hi rend="bold">Ordnungspartei in Oberösterreich und von Mitgliedern der</hi>
+               <hi rend="emphasis">Ordnungspartei in Oberösterreich und von Mitgliedern der</hi>
                <lb break="yes"/>
-               <hi rend="bold">Nationaldemokratischen Partei.</hi>
+               <hi rend="emphasis">Nationaldemokratischen Partei.</hi>
                <lb break="yes"/>Unter dem Zwange des Vertrages von St. Germain, der
       <lb break="yes"/>den Anschluß an das Deutsche Reich derzeit verwehrt, in dem
       <lb break="yes"/>Bestreben, dem bedrängten Volke des deutschen Alpenlandes den
@@ -228,16 +229,16 @@
       <lb break="yes"/>Steiermark, Kärnten, Tirol und Vorarlberg zu einem Bundesstaat
       <lb break="yes"/>zusammen und geben sich nachstehende Verfassung
       <lb break="yes"/>
-               <hi rend="bold">l. Hauptteil.</hi>
+               <hi rend="emphasis">l. Hauptteil.</hi>
                <lb break="yes"/>
-               <hi rend="bold">Aufbau und Aufgaben des Staates.</hi>
+               <hi rend="emphasis">Aufbau und Aufgaben des Staates.</hi>
             </p>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_1"/>
                <head>Art. 1
       </head>
                <p>
-                  <hi rend="bold">Demokratische Republik.</hi>
+                  <hi rend="emphasis">Demokratische Republik.</hi>
                   <lb break="yes"/>Österreich ist eine demokratische Republik; alle Gewalt im
       <lb break="yes"/>Staate geht vom Volke aus. Jeder Staatsbürger hat Anteil an
       <lb break="yes"/>der wirtschaftlichen und politischen Macht der Gesamtheit. Siche
@@ -250,7 +251,7 @@
                <head>Art. 2.
       </head>
                <p>
-                  <hi rend="bold">Bundesstaat.</hi>
+                  <hi rend="emphasis">Bundesstaat.</hi>
                   <lb break="yes"/>Österreich ist ein Bundesstaat, gebildet aus den selbständigen
       <lb break="yes"/>Ländern Niederösterreich, Oberösterveich, Salzburg, Steiermark,
       <lb break="yes"/>Kärnten, Tirol und Vorarlberg. Sobald die Stadt Wien aus dem
@@ -265,7 +266,7 @@
                <head>Art. 3.
       </head>
                <p>
-                  <hi rend="bold">Bundesgebiete.</hi>
+                  <hi rend="emphasis">Bundesgebiete.</hi>
                   <lb break="yes"/>Der Bundesstaat umfaßt das Gebiet der Länder in ihrem
       <lb break="yes"/>geschichtlich gewordenen Umfang, soweit er nicht durch den Vertrag
       <lb break="yes"/>von St. Germain geändert worden ist.
@@ -279,14 +280,14 @@
       <lb break="yes"/>der Anschluß Österreichs oder einzelner Länder an einen anderen
       <lb break="yes"/>Staat kann nur durch Änderung der Verfassung erfolgen.</p>
                <p>- 1 -</p>
-               <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+               <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_4"/>
                <head>Art. 4.
       </head>
                <p>
-                  <hi rend="bold">Staatshoheit.</hi>
+                  <hi rend="emphasis">Staatshoheit.</hi>
                   <lb break="yes"/>Die Länder sind selbständig, soweit ihre Selbständigkeit nicht
       <lb break="yes"/>durch die Verfassung zugunsten des Bundesstaates beschränkt ist.
       <lb break="yes"/>Den Ländern stehen alle staatlichen Hoheitsrechte zu, soweit
@@ -299,7 +300,7 @@
                <head>Art. 5.
       </head>
                <p>
-                  <hi rend="bold">Die Machtverteilung zwischen dem Bund und den Ländern.</hi>
+                  <hi rend="emphasis">Die Machtverteilung zwischen dem Bund und den Ländern.</hi>
                   <lb break="yes"/>Soweit die Länder durch diese Verfassung ihre Hoheitsrechte
       <lb break="yes"/>dem Bunde übetragen, kommt diesem in den übertragenen
       <lb break="yes"/>Angelegenheiten entweder
@@ -333,7 +334,7 @@
                <head>Art. 6.
       </head>
                <p>
-                  <hi rend="bold">Ausschließlicher Wirkungskreis des Bundes.</hi>
+                  <hi rend="emphasis">Ausschließlicher Wirkungskreis des Bundes.</hi>
                   <lb break="yes"/>Der Bund hat Gesetzgebung und Verwaltung über folgende
       <lb break="yes"/>Angelegenheiten:
       <lb break="yes"/>1. Die Bundesverfassung, die Verlautbarung der Bundes
@@ -360,7 +361,7 @@
       <lb break="yes"/>Schiffahrt, außer auf einem See, der nur zu einem Lande gehört,
       <lb break="yes"/>Luft= und Kraftfahrzeuge, Bundesbahnen, Bundesstraßen.</p>
                <p>- 2 -</p>
-               <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                <p>9. Bergbauangelegenheiten, Energiewirtschaft mit Ausnahme
       <lb break="yes"/>der Elektrizität, Kraft= und Maschinenanlagen und Regelung der
       <lb break="yes"/>technischen Gebrauchsformen.
@@ -385,7 +386,7 @@
                <head>Art. 7.
       </head>
                <p>
-                  <hi rend="bold">Der grundlegende Wirkungskreis des Bundes.</hi>
+                  <hi rend="emphasis">Der grundlegende Wirkungskreis des Bundes.</hi>
                   <lb break="yes"/>Zu dem grundlegenden Wirkungskreis des Bundes gehören:
       <lb break="yes"/>1. Die Organisation der Behörde, die Regelung des Verhält
 <lb break="no"/>nisses der Advokaten und Notare, die Regelung der Rechte der
@@ -415,7 +416,7 @@
                <head>Art. 8.
       </head>
                <p>
-                  <hi rend="bold">Der grundsätzliche Wirkungskreis.</hi>
+                  <hi rend="emphasis">Der grundsätzliche Wirkungskreis.</hi>
                   <lb break="yes"/>Zum grundsätzlichen Wirkungskreis des Bundes gehört:
       <lb break="yes"/>1. Das Heimatrecht und das Landesbürgerrecht.
       <lb break="yes"/>2. Das Forstwesen.
@@ -433,7 +434,7 @@
                <head>Art. 9.
       </head>
                <p>
-                  <hi rend="bold">Die Landesverfassungen.</hi>
+                  <hi rend="emphasis">Die Landesverfassungen.</hi>
                   <lb break="yes"/>Jedes Land muß eine demokratische, republikanische Verfassung
       <lb break="yes"/>haben. Die politische Volksvertretung in Land und Gemeinde muß
       <lb break="yes"/>in allgemeiner, gleicher, unmittelbarer und geheimer Wahl nach den
@@ -444,7 +445,7 @@
       <lb break="yes"/>Jedes Land muß um die Gewährleistung seiner Verfassung
       <lb break="yes"/>beim Bund ansuchen.</p>
                <p>- 3 -</p>
-               <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>Sofern die Landesverfassung den Vorschriften der Bundes
       <lb break="yes"/>verfassung nicht widerstreitet, hat der Bund die Landesversassung
       <lb break="yes"/>zu gewährleisten. Mit der Gewährleistung übernimmt der Bund
@@ -457,7 +458,7 @@
                <head>Art. 10.
       </head>
                <p>
-                  <hi rend="bold">Die Ausübung der Staatsgewalt.</hi>
+                  <hi rend="emphasis">Die Ausübung der Staatsgewalt.</hi>
                   <lb break="yes"/>Die Staatsgewalt wird in Bundesangelegenheiten durch
       <lb break="yes"/>Organe des Bundes auf Grund der Bundesverfassung, in Landes
 <lb break="no"/>angelegenheiten durch Organe der Länder auf Grund der Landes
@@ -466,9 +467,9 @@
       <lb break="yes"/>überlassen ist, sind sie verpflichtet, sich der Aufsicht des Bundes zu
       <lb break="yes"/>unterwerfen und über Ersuchen des Bundes Mängel zu beseitigen.
       <lb break="yes"/>
-                  <hi rend="bold">II. Hauptteil.</hi>
+                  <hi rend="emphasis">II. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Grundrechte und Pflichten der Staatsbürger.</hi>
+                  <hi rend="emphasis">Grundrechte und Pflichten der Staatsbürger.</hi>
                </p>
             </div>
             <div type="article">
@@ -476,7 +477,7 @@
                <head>Art. 11.
       </head>
                <p>
-                  <hi rend="bold">Bundes- oder Staatsbürgerschaft.</hi>
+                  <hi rend="emphasis">Bundes- oder Staatsbürgerschaft.</hi>
                   <lb break="yes"/>Jedes Land hat eine Landesbürgerschaft. Die Voraussetzungen
       <lb break="yes"/>für Erwerb und Verlust der Landesbürgerschaft sind in jedem
       <lb break="yes"/>Lande gleich und durch grundsätzliches Bundesgesetz geregelt
@@ -493,7 +494,7 @@
                <head>Art. 12.
       </head>
                <p>
-                  <hi rend="bold">Gleichheit der Staatsbürger.</hi>
+                  <hi rend="emphasis">Gleichheit der Staatsbürger.</hi>
                   <lb break="yes"/>Die Staatsbürger sind vor dem Gesetze gleich; sie haben ohne
       <lb break="yes"/>Unterschied des Geschlechtes gleiche Rechte und Pflichten. Alle
       <lb break="yes"/>Standesvorrechte sind abgeschafft.
@@ -508,7 +509,7 @@
                <head>Art. 13.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Person.</hi>
+                  <hi rend="emphasis">Freiheit der Person.</hi>
                   <lb break="yes"/>Die Freiheit der Person ist unverletzlich. Außer im Falle der
       <lb break="yes"/>Ergreifung auf frischer Tat kann eine Verhaftung nur auf Grund
       <lb break="yes"/>eines Befehles erfolgen, der von einem Strafgericht oder Gefälls
@@ -526,14 +527,14 @@
                <head>Art. 14.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Wohnung.</hi>
+                  <hi rend="emphasis">Freiheit der Wohnung.</hi>
                   <lb break="yes"/>Die Wohnung jedes Staatsbürgers ist für ihn eine unver
 <lb break="no"/>letzliche Freistätte.
       <lb break="yes"/>Eine Hausdurchsuchung ist nur zulässig auf Grund eines
       <lb break="yes"/>richterlichen Befehles (Art. 13), im Falle der Verfolgung auf frischer
       <lb break="yes"/>Tat auch durch den gesetzlich berechtigten Beamten.</p>
                <p>- 4 -</p>
-               <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
                <p>Die Unverletzlichkeit der Wohnung verhindert nicht die Ver
 <lb break="no"/>haftung eines gerichtlich Verfolgten.
       <lb break="yes"/>Gegen das Eindringen von Privatpersonen wird das Recht
@@ -545,7 +546,7 @@
                <head>Art. 15.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Mitteilung.</hi>
+                  <hi rend="emphasis">Freiheit der Mitteilung.</hi>
                   <lb break="yes"/>Das Briefgeheimnis, das Post=, Telegraphen= und Fernsprech
 <lb break="no"/>geheimnis ist unverletzlich. Eingriffe können durch Gesetz für zulässig
       <lb break="yes"/>erklärt werden.
@@ -556,7 +557,7 @@
                <head>Art. 16.
       </head>
                <p>
-                  <hi rend="bold">Freizügigkeit.</hi>
+                  <hi rend="emphasis">Freizügigkeit.</hi>
                   <lb break="yes"/>Jeder Staatsbürger hat das Recht der Freizügigkeit der Person
       <lb break="yes"/>und des Vermögens in allen zum Bunde gehorigen Ländern.
       <lb break="yes"/>Als Folge strafgerichtlicher Verurteilung kann die Freizügig
@@ -573,7 +574,7 @@
                <head>Art. 17.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Auswanderung.</hi>
+                  <hi rend="emphasis">Freiheit der Auswanderung.</hi>
                   <lb break="yes"/>Jeder Staatsbürger ist berechtigt, auszuwandern. Durch
       <lb break="yes"/>Bundesgesetz kann die Freiheit der Auswanderung von der Er
 <lb break="no"/>füllung der staatsbürgerlichen Pflichten abhängig gemacht werden.
@@ -584,7 +585,7 @@
                <head>Art. 18.
       </head>
                <p>
-                  <hi rend="bold">Rechtsschutz.</hi>
+                  <hi rend="emphasis">Rechtsschutz.</hi>
                   <lb break="yes"/>Jeder Staatsbürger hat Anspruch auf Schutz der Gesetze.
       <lb break="yes"/>Niemand darf seinem gesetzlichen Richter entzogen werden. Kein
       <lb break="yes"/>Bundesbürger darf einer ausländischen Macht ausgeliefert werden.
@@ -603,7 +604,7 @@
                <head>Art. 19.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Meinungsäußerung.</hi>
+                  <hi rend="emphasis">Freiheit der Meinungsäußerung.</hi>
                   <lb break="yes"/>Jeder Staatsbürger hat das Recht, seine Meinung frei zu
       <lb break="yes"/>äußern, bleibt aber verantwortlich, wenn er Strafgesetze übertritt.
       <lb break="yes"/>Die Preßfreiheit darf durch vorbeugende Maßregeln und Ver
@@ -620,21 +621,21 @@
                <head>Art. 20.
       </head>
                <p>
-                  <hi rend="bold">Versammlungsfreiheit.</hi>
+                  <hi rend="emphasis">Versammlungsfreiheit.</hi>
                   <lb break="yes"/>Alle Staatsbürger haben das Recht, sich unbewaffnet zu ver
 <lb break="no"/>sammeln.
       <lb break="yes"/>Versammlungen unter freiem Himmel bedürfen der Anmel
 <lb break="no"/>dung und können bei Gefahr für die öffentliche Sicherheit ver
 <lb break="no"/>boten werden.</p>
                <p>- 5 -</p>
-               <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+               <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_21"/>
                <head>Art. 21.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Vereinsbildung.</hi>
+                  <hi rend="emphasis">Freiheit der Vereinsbildung.</hi>
                   <lb break="yes"/>Alle Staatsbürger haben das Recht, Vereine oder Gesell
 <lb break="no"/>schaften zu bilden, sofern deren Zweck den Strafgesetzen nicht zu
 <lb break="no"/>widerläuft. Der Verein erwirbt die Rechtsfähigkeit gemäß den
@@ -649,7 +650,7 @@
                <head>Art. 22.
       </head>
                <p>
-                  <hi rend="bold">Wahlrecht.</hi>
+                  <hi rend="emphasis">Wahlrecht.</hi>
                   <lb break="yes"/>Jeder volljährige, geistig gesunde und vollberechtigte Staats
 <lb break="no"/>bürger (Art. 12) hat das Recht, an der gesetzgebenden Gewalt und
       <lb break="yes"/>an der Verwaltung nach Maßgabe der Gesetze mitzuwirken. Er hat
@@ -666,7 +667,7 @@
                <head>Art. 23.
       </head>
                <p>
-                  <hi rend="bold">Petitionsrecht.</hi>
+                  <hi rend="emphasis">Petitionsrecht.</hi>
                   <lb break="yes"/>Jeder Staatsbürger hat das Recht, sich mit Bitten und
       <lb break="yes"/>Beschwerden an die zuständige Behörde oder an die Volksvertretung
       <lb break="yes"/>zu wenden. Mehrere zusammen können dieses Recht nur schriftlich
@@ -678,7 +679,7 @@
                <head>Art. 24.
       </head>
                <p>
-                  <hi rend="bold">Glaubensfreiheit.</hi>
+                  <hi rend="emphasis">Glaubensfreiheit.</hi>
                   <lb break="yes"/>Jeder Staatsbürger hat volle Glaubens= und Gewissensfrei
 <lb break="no"/>heit. Die Auskunftspflicht gegenüber der Behörde wird dadurch
       <lb break="yes"/>nicht berührt.
@@ -719,9 +720,9 @@
       <lb break="yes"/>Gesellschaft angehören, an religiösen Unterrichtsfächern, Feiern
       <lb break="yes"/>und Handlungen, wird durch die Schulgesetze geregelt.</p>
                <p>- 6 -</p>
-               <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
                <p>
-                  <hi rend="bold">Das Recht auf Unterricht.</hi>
+                  <hi rend="emphasis">Das Recht auf Unterricht.</hi>
                </p>
             </div>
             <div type="article">
@@ -776,7 +777,7 @@
                <head>Art. 30.
       </head>
                <p>
-                  <hi rend="bold">Die Ehe.</hi>
+                  <hi rend="emphasis">Die Ehe.</hi>
                   <lb break="yes"/>Die Ehe steht als Grundlage des Familienlebens unter dem
       <lb break="yes"/>Schutze der Verfassung
       <lb break="yes"/>Nur die Einehe ist gesetzlich zulässig.
@@ -792,7 +793,7 @@
                <head>Art. 31.
       </head>
                <p>
-                  <hi rend="bold">Der Schutz der Kinder.</hi>
+                  <hi rend="emphasis">Der Schutz der Kinder.</hi>
                   <lb break="yes"/>Der Schutz der Mutterschaft und die Fürsorge für kinderreiche
       <lb break="yes"/>Familien ist durch besondere Gesetze zu regeln. Die Erziehung
       <lb break="yes"/>der Kinder zur leiblichen, seelischen und gesellschaftlichen Tüchtigkeit
@@ -801,7 +802,7 @@
       <lb break="yes"/>Pflichten zu zwingen sind, inwieweit die Fürsorgeerziehung der
       <lb break="yes"/>Gesamtheit einzutreten hat, ist durch besonderes Gesetz festzustellen.
       <lb break="yes"/>
-                  <hi rend="bold">Wirtschaftliche Rechte.</hi>
+                  <hi rend="emphasis">Wirtschaftliche Rechte.</hi>
                </p>
             </div>
             <div type="article">
@@ -814,7 +815,7 @@
       <lb break="yes"/>Schaffenden an dem Ertrag der Volkswirtschaft entsprechen.
       <lb break="yes"/>Aufgabe des Staates ist es, alle wirtschaftlichen Kräfte zur
       <lb break="yes"/>größtmöglichen Leistung im Dienste der Gesamtheit zu entwickeln.</p>
-               <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>Durch Bundesgesetz kann festgestellt werden, inwieweit zu
       <lb break="yes"/>diesem Zwecke für gewisse wirtschaftliche Zweige die Vereinigung
       <lb break="yes"/>von Betrieben oder eine gemeinsame Planwirtschaft vorzusehen
@@ -829,7 +830,7 @@
                <head>Art. 33.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Berufswahl.</hi>
+                  <hi rend="emphasis">Freiheit der Berufswahl.</hi>
                   <lb break="yes"/>Jedem Staatsbürger steht es frei, einen Beruf zu wählen
       <lb break="yes"/>und sich darin auszubilden.
       <lb break="yes"/>Alle Staatsbürger sind nach Maßgabe der Gesetze und ent
@@ -845,7 +846,7 @@
                <head>Art. 34.
       </head>
                <p>
-                  <hi rend="bold">Die Freiheit des Eigentums.</hi>
+                  <hi rend="emphasis">Die Freiheit des Eigentums.</hi>
                   <lb break="yes"/>Das Eigentum wird gewährleistet. Eine Enteignung darf
       <lb break="yes"/>nur auf Grund der Gesetze zum gemeinsamen Besten gegen an
 <lb break="no"/>gemessene Entschädigung erfolgen. Die Enteignung kann für zu
@@ -865,7 +866,7 @@
                <head>Art. 35.
       </head>
                <p>
-                  <hi rend="bold">Freiheit der Arbeitskraft.</hi>
+                  <hi rend="emphasis">Freiheit der Arbeitskraft.</hi>
                   <lb break="yes"/>Die Arbeitskraft, körperliche und geistige, steht unter dem
       <lb break="yes"/>Schutze der Gesetze.
       <lb break="yes"/>Jeder Staatsbürger, der zur körperlichen oder geistigen Arbeit
@@ -883,7 +884,7 @@
                <head>Art. 36.
       </head>
                <p>
-                  <hi rend="bold">Schutz der Arbeitskraft.</hi>
+                  <hi rend="emphasis">Schutz der Arbeitskraft.</hi>
                   <lb break="yes"/>Für den Fall der Krankheit und der Arbeitsunfähigkeit zum
       <lb break="yes"/>Schutz der Mutterschaft, zur Fürsorge gegen die wirtschaftlichen
       <lb break="yes"/>Folgen des Alters und der Wechselfälle des Lebens ist ein Ver
@@ -899,13 +900,13 @@
                <head>Art. 37.
       </head>
                <p>
-                  <hi rend="bold">Die Vertragsfreiheit.</hi>
+                  <hi rend="emphasis">Die Vertragsfreiheit.</hi>
                   <lb break="yes"/>Im wirtschaftlichen Verkehr gilt Vertragsfreiheit. Wucher ist
       <lb break="yes"/>verboten.
       <lb break="yes"/>Rechtsgeschäfte, die gegen die guten Sitten verstoßen, sind
       <lb break="yes"/>nichtig.</p>
                <p>- 8 -</p>
-               <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
                <p>Die Arbeitnehmer einerseits, die Arbeitgeber anderseits sind
       <lb break="yes"/>berufen, sich zu Verbänden zusammenzuschließen, welche in gemein
 <lb break="no"/>samer Arbeit an der Regelung der Lohn= und Arbeitsbedingungen
@@ -919,7 +920,7 @@
                <head>Art. 38.
       </head>
                <p>
-                  <hi rend="bold">Vereinigungsfreiheit.</hi>
+                  <hi rend="emphasis">Vereinigungsfreiheit.</hi>
                   <lb break="yes"/>Die Vereinigungsfreiheit zur Wahrung und Förderung der
       <lb break="yes"/>Arbeits- und Wirtschaftsbedingungen ist gewährleistet.
       <lb break="yes"/>Durch Bundesgesetz kann das Recht der Arbeitgeber zur Still
@@ -935,7 +936,7 @@
                <head>Art. 39.
       </head>
                <p>
-                  <hi rend="bold">Pflichten der Staatsbürger.</hi>
+                  <hi rend="emphasis">Pflichten der Staatsbürger.</hi>
                   <lb break="yes"/>Jeder Staatsbürger ist zur Ausübung der ihm zukommenden
       <lb break="yes"/>politischen Rechte, zur Teilnahme an der Verwaltung nach Maß
 <lb break="no"/>gabe der Gesetze verpflichtet.
@@ -955,7 +956,7 @@
                <head>Art. 40.
       </head>
                <p>
-                  <hi rend="bold">Ausnahmszustand.</hi>
+                  <hi rend="emphasis">Ausnahmszustand.</hi>
                   <lb break="yes"/>Wird die öffentliche Sicherheit und Ordnung erheblich gestört
       <lb break="yes"/>oder gefährdet, so kann zu ihrer Wiederherstellung der Bundesprä
       <lb break="yes"/>sident mit Zustimmung des Bundesrates für das Staatsgebiet, bei
@@ -965,14 +966,14 @@
       <lb break="yes"/>Diese Maßnahmen sind aufzuheben, sobald es der Bundestag
       <lb break="yes"/>verlangt. Das Nähere bestimmt ein besonderes Gesetz.
       <lb break="yes"/>
-                  <hi rend="bold">III. Hauptteil.</hi>
+                  <hi rend="emphasis">III. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Politische Organisation der Bundesgewalt.</hi>
+                  <hi rend="emphasis">Politische Organisation der Bundesgewalt.</hi>
                   <lb break="yes"/>I. Kapitel.
       <lb break="yes"/>
-                  <hi rend="bold">Die Organe der Bundesgewalt.</hi>
+                  <hi rend="emphasis">Die Organe der Bundesgewalt.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">I.</hi>
+                  <hi rend="emphasis">I.</hi>
                </p>
             </div>
             <div type="article">
@@ -980,21 +981,21 @@
                <head>Art. 41.
       </head>
                <p>
-                  <hi rend="bold">Der Bundespräsident.</hi>
+                  <hi rend="emphasis">Der Bundespräsident.</hi>
                   <lb break="yes"/>Der Bundespräsident wird von allen wahlberechtigten (Art. 22.)
       <lb break="yes"/>Staatsbürgern mit absoluter Mehrheit für die Dauer von fün
       <lb break="yes"/>Jahren gewählt. Wiederwahl ist zulässig. Der Bundespräsident
       <lb break="yes"/>kann nicht gleichzeitig Mitglied des Bundestages oder Bundesrates
       <lb break="yes"/>sein. Das Nähere bestimmt ein besonderes Gesetz.</p>
                <p>- 9 -</p>
-               <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_42"/>
                <head>Art. 42.
       </head>
                <p>
-                  <hi rend="bold">Wirkungskreis des Bundespräsidenten.</hi>
+                  <hi rend="emphasis">Wirkungskreis des Bundespräsidenten.</hi>
                   <lb break="yes"/>1. Er vertritt den Bund nach außen und beglaubigt die Ge
 <lb break="no"/>sandten; mit Zustimmung des Bundestages erklärt er Krieg und
       <lb break="yes"/>schließt Staatsverträge ab, mit Zustimmung des Volkes schließt
@@ -1041,7 +1042,7 @@
       <lb break="yes"/>Geschäfte, die Neuwahl muß aber binnen drei Wochen ausge
 <lb break="no"/>schrieben werden.
       <lb break="yes"/>
-                  <hi rend="bold">II. Die Bundesregierung.</hi>
+                  <hi rend="emphasis">II. Die Bundesregierung.</hi>
                </p>
             </div>
             <div type="article">
@@ -1062,7 +1063,7 @@
 <lb break="no"/>lich das Vertrauen, so muß der Bundespräsident die Bundes
 <lb break="no"/>regierung oder die betreffenden Minister des Amtes entheben.
       <lb break="yes"/>
-                  <hi rend="bold">III. Der Bundesrat.</hi>
+                  <hi rend="emphasis">III. Der Bundesrat.</hi>
                </p>
             </div>
             <div type="article">
@@ -1070,13 +1071,13 @@
                <head>Art. 45.
       </head>
                <p>
-                  <hi rend="bold">Vertretung der Länder.</hi>
+                  <hi rend="emphasis">Vertretung der Länder.</hi>
                   <lb break="yes"/>Zur Vertretung der Länder bei der Gesetzgebung und Verwal
 <lb break="no"/>tung des Bundes dient der Bundesrat.
       <lb break="yes"/>Jedes Land entsendet drei vom Landtage für die Dauer von
       <lb break="yes"/>4 Jahren gewählte Vertreter. Wenn die Bevölkerungszahl nach</p>
                <p>- 10 -</p>
-               <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>der letzten amtlichen Volkszählung 400.000 überschreitet, so gebührt
       <lb break="yes"/>dem Land für je weitere 400.000 Einwohner ein weiterer Vertreter.
       <lb break="yes"/>Beträgt der Überschuß nicht volle 400.000, ist er aber so groß als
@@ -1091,7 +1092,7 @@
                <head>Art. 46.
       </head>
                <p>
-                  <hi rend="bold">Zuständigkeit des Bundesrates.</hi>
+                  <hi rend="emphasis">Zuständigkeit des Bundesrates.</hi>
                   <lb break="yes"/>1. Über Verlangen des Bundesrates hat vor ihm die Bundes
       <lb break="yes"/>regierung zur Erteilung aller begehrten Auskünfte über Regie
 <lb break="no"/>rungsgeschäfte zu erscheinen.
@@ -1161,7 +1162,7 @@
       <lb break="yes"/>des Bundesrates nur mit Zustimmung des Bundeskanzlers vor
 <lb break="no"/>genommen werden.
       <lb break="yes"/>
-                  <hi rend="bold">IV. Der Bundestag.</hi>
+                  <hi rend="emphasis">IV. Der Bundestag.</hi>
                </p>
             </div>
             <div type="article">
@@ -1172,7 +1173,7 @@
 <lb break="no"/>schen Volkes. Die Abgeordneten werden in allgemeiner, gleicher
       <lb break="yes"/>unmittelbarer und geheimer Wahl nach dem Grundsatze der Ver¬</p>
                <p>- 11 -</p>
-               <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                <p>hältniswahl aus allen männlichen und weiblichen Staatsbürgern,
       <lb break="yes"/>die im Vollgenusse der bürgerlichen Rechte stehen, gewählt. Das
       <lb break="yes"/>nähere bestimmt ein Wahlgesetz.
@@ -1227,7 +1228,7 @@
                <head>Art. 55.
       </head>
                <p>
-                  <hi rend="bold">Auflösung des Bundestages.</hi>
+                  <hi rend="emphasis">Auflösung des Bundestages.</hi>
                   <lb break="yes"/>Der Bundespräsident kann mit Zustimmung des Bundesrates
       <lb break="yes"/>den Bundestag jedoch nur einmal aus demselben Anlaß, insbeson
 <lb break="no"/>dere wenn einem Beschluß des Bundestages die Genehmigung ver
@@ -1260,19 +1261,19 @@
                <head>Art. 57
       </head>
                <p>
-                  <hi rend="bold">Immunität der Berichte.</hi>
+                  <hi rend="emphasis">Immunität der Berichte.</hi>
                   <lb break="yes"/>Wahrheitsgetreue Berichte über die Verhandlungen in den
       <lb break="yes"/>öffentlichen Sitzungen des Bundestages und seiner Ausschüsse
       <lb break="yes"/>bleiben von jeder Verantwortung frei.</p>
                <p>- 12 -</p>
-               <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+               <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_58"/>
                <head>Art. 58
       </head>
                <p>
-                  <hi rend="bold">Zuständigkeit des Bundestages.</hi>
+                  <hi rend="emphasis">Zuständigkeit des Bundestages.</hi>
                   <lb break="yes"/>Dem Bundestage obliegt:
       <lb break="yes"/>1. Die Mitwirkung bei der Gesetzgebung in allen Bundes
 <lb break="no"/>angelegenheiten und die Kriegserklärung. Der Abschluß von
@@ -1301,7 +1302,7 @@
       <lb break="yes"/>der Bundestagsmitglieder und die Zustimmung von ¾ der An
 <lb break="no"/>wesenden erforderlich.
       <lb break="yes"/>
-                  <hi rend="bold">V. Volksbegehren und Volksentscheid.</hi>
+                  <hi rend="emphasis">V. Volksbegehren und Volksentscheid.</hi>
                </p>
             </div>
             <div type="article">
@@ -1318,7 +1319,7 @@
                <head>Art. 61.
       </head>
                <p>
-                  <hi rend="bold">Volksbegehren.</hi>
+                  <hi rend="emphasis">Volksbegehren.</hi>
                   <lb break="yes"/>Über ein von wenigstens 300.000 wahlberechtigten Staats
 <lb break="no"/>bürgern gestelltes Begehren auf Abänderung oder Aufhebung der
       <lb break="yes"/>Verfassung ober auf Abänderung, Aufhebung oder Erlassung ein
@@ -1333,7 +1334,7 @@
                <head>Art. 62.
       </head>
                <p>
-                  <hi rend="bold">Volksentscheid</hi>.
+                  <hi rend="emphasis">Volksentscheid</hi>.
       <lb break="yes"/>Dem Volksentscheid ist zu unterziehen:
       <lb break="yes"/>1. Die Änderung oder Aufhebung der Verfassung;
       <lb break="yes"/>2. der Abschluß der Friedensverträge;
@@ -1344,7 +1345,7 @@
       <lb break="yes"/>ein Beschluß des Bundestages zur Annahme oder Ablehnung vor
 <lb break="no"/>gelegt wird.
       <lb break="yes"/>
-                  <hi rend="bold">II. Kapitel.</hi>
+                  <hi rend="emphasis">II. Kapitel.</hi>
                </p>
             </div>
             <div type="article">
@@ -1352,12 +1353,12 @@
                <head>Art. 63.
       </head>
                <p>
-                  <hi rend="bold">Die Gesetzgebung.</hi>
+                  <hi rend="emphasis">Die Gesetzgebung.</hi>
                   <lb break="yes"/>Zu einem Gesetz ist ein Beschluß des Bundestages und die
       <lb break="yes"/>Genehmigung durch den Bundespräsidenten oder ein Volksent
 <lb break="no"/>scheid (Art. 62 Z. 1 und 2) erforderlich.</p>
                <p>- 13 -</p>
-               <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
                <p>Jeder Beschluß des Bundestages ist gleichzeitig dem Bundes
 <lb break="no"/>rat und dem Bundespräsidenten zur Kenntnis zu bringen. Gibt
       <lb break="yes"/>der Bundespräsident binnen 4 Wochen keine Erklärung ab, so gilt
@@ -1373,11 +1374,11 @@
 <lb break="no"/>züglich vom Bundespräsidenten unter Gegenzeichnung des Kanzlers
       <lb break="yes"/>und der zuständigen Minister zu verlautbaren.
       <lb break="yes"/>
-                  <hi rend="bold">IV. Hauptteil.</hi>
+                  <hi rend="emphasis">IV. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Länder.</hi>
+                  <hi rend="emphasis">Die Länder.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Organe der Länder.</hi>
+                  <hi rend="emphasis">Die Organe der Länder.</hi>
                </p>
             </div>
             <div type="article">
@@ -1385,7 +1386,7 @@
                <head>Art. 64.
       </head>
                <p>
-                  <hi rend="bold">Die Organe der Länder.</hi>
+                  <hi rend="emphasis">Die Organe der Länder.</hi>
                   <lb break="yes"/>Jedes Land gibt sich selbst seine Verfassung, welche erst durch
       <lb break="yes"/>die Gewährleistung seitens des Bundes wirksam wird. Die gesetz
 <lb break="no"/>gebende und vollziehende Gewalt muß nach folgenden Grundsätzen
@@ -1447,12 +1448,12 @@
                <head>Art. 69.
       </head>
                <p>
-                  <hi rend="bold">Die Gesetzgebung der Länder.</hi>
+                  <hi rend="emphasis">Die Gesetzgebung der Länder.</hi>
                   <lb break="yes"/>Zu einem Landesgesetz ist der Beschluß des Landtages, die
       <lb break="yes"/>Genehmigung und Beurkundung durch den Landeshauptmann
       <lb break="yes"/>erforderlich. Wird die Genehmigung verweigert, der Beschluß</p>
                <p>- 14 -</p>
-               <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+               <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
                <p>aber vom Landtag wiederholt, so kann der Bundespräsident den
       <lb break="yes"/>Landtag auflösen. Faßt der neugewählte Landtag den gleichen
       <lb break="yes"/>Beschluß, so ist dieser ohne weitere Genehmigung als Gesetz kund
@@ -1500,7 +1501,7 @@
 <lb break="no"/>hörden geschaffen werden, die unmittelbar der Bundesregierung
       <lb break="yes"/>unterstehen. (Gericht, Hoch- und Mittelschule.)
       <lb break="yes"/>
-                  <hi rend="bold">V. Hauptteil.</hi>
+                  <hi rend="emphasis">V. Hauptteil.</hi>
                </p>
             </div>
             <div type="article">
@@ -1508,14 +1509,14 @@
                <head>Art. 73.
       </head>
                <p>
-                  <hi rend="bold">Wirtschaftliche Organisation.</hi>
+                  <hi rend="emphasis">Wirtschaftliche Organisation.</hi>
                   <lb break="yes"/>Die wirtschaftlich tätigen Bürger sind zur Mitwirkung bei der
       <lb break="yes"/>Gesetzgebung über wirtschaftliche und sozialpolitische Angelegen
 <lb break="no"/>heiten und zur Teilnahme an der Verwaltung heranzuziehen.
       <lb break="yes"/>Zu diesem Zwecke sind durch besondere Bundesgesetze Wirt
 <lb break="no"/>schaftskammern nach folgenden Grundsätzen zu errichten:
       <lb break="yes"/>
-                  <hi rend="bold">I. Die Bezirkswirtschaftskammer.</hi>
+                  <hi rend="emphasis">I. Die Bezirkswirtschaftskammer.</hi>
                </p>
             </div>
             <div type="article">
@@ -1545,14 +1546,14 @@
       <lb break="yes"/>3. Entscheidung über Beschwerden gegen Beschlüsse der
       <lb break="yes"/>Betriebsräte;</p>
                <p>- 15 -</p>
-               <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+               <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
                <p>4. die Durchführung der Geschäfte der sozialen Versicherung,
       <lb break="yes"/>des Arbeitsnachweises und die Schlichtung von Arbeit= und Lohn
 <lb break="no"/>streitigkeiten;
       <lb break="yes"/>5. die Entsendung von laeräten an die Bezirksbehörde und
       <lb break="yes"/>an die Laiengerichte.
       <lb break="yes"/>
-                  <hi rend="bold">II. Die Landeswirtschaftskammer.</hi>
+                  <hi rend="emphasis">II. Die Landeswirtschaftskammer.</hi>
                </p>
             </div>
             <div type="article">
@@ -1585,7 +1586,7 @@
       <lb break="yes"/>4. Die Entsendung von Beiräten an die Landesregierung und
       <lb break="yes"/>die Namhaftmachung von Laienrichtern.
       <lb break="yes"/>
-                  <hi rend="bold">III. Die Reichswirtschaftskammer.</hi>
+                  <hi rend="emphasis">III. Die Reichswirtschaftskammer.</hi>
                </p>
             </div>
             <div type="article">
@@ -1620,11 +1621,11 @@
       <lb break="yes"/>an die Bundesgerichte, insoweit das Gesetz die Zuziehung solcher
       <lb break="yes"/>vorsieht.
       <lb break="yes"/>
-                  <hi rend="bold">VI. Hauptteil.</hi>
+                  <hi rend="emphasis">VI. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Verwaltung, Heerwesen und Rechtspflege.</hi>
+                  <hi rend="emphasis">Verwaltung, Heerwesen und Rechtspflege.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">I. Die Verwaltung.</hi>
+                  <hi rend="emphasis">I. Die Verwaltung.</hi>
                </p>
             </div>
             <div type="article">
@@ -1637,7 +1638,7 @@
       <lb break="yes"/>über Beschwerden gegen Verfügungen der Behörden erster
       <lb break="yes"/>Instanz, durch welche Strafen verhängt wurden, oder über Rechte</p>
                <p>- 16 -</p>
-               <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+               <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
                <p>von Bürgern erkannt wurde, hat ein Landesverwaltungsgericht
       <lb break="yes"/>das aus Richtern, Verwaltungsbeamten und Laien zusammen
 <lb break="no"/>gesetzt wird, zu entscheiden.
@@ -1677,7 +1678,7 @@
       <lb break="yes"/>Personalangelegenheiten werden Beamtenvertretungen durch be
 <lb break="no"/>sonderes Gesetz geschaffen.
       <lb break="yes"/>
-                  <hi rend="bold">II. Das Heerwesen</hi>.
+                  <hi rend="emphasis">II. Das Heerwesen</hi>.
       </p>
             </div>
             <div type="article">
@@ -1706,7 +1707,7 @@
       <lb break="yes"/>Gendarmerie (Landjägertruppe) und der Polizei außerhalb Wiens
       <lb break="yes"/>steht der Landesregierung zu.
       <lb break="yes"/>
-                  <hi rend="bold">III. Rechtspflege.</hi>
+                  <hi rend="emphasis">III. Rechtspflege.</hi>
                </p>
             </div>
             <div type="article">
@@ -1727,7 +1728,7 @@
                <p>Die ordentliche Gerichtsbarkeit wird vom Bundesgerichte und
       <lb break="yes"/>den Gerichten der Länder ausgeübt.
       <lb break="yes"/>- 17 -</p>
-               <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+               <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
                <p>In jedem Lande ist ein Landesgericht zu errichten. Der
       <lb break="yes"/>Rechtszug in Angelegenheiten der Rechtssprechung geht von den
       <lb break="yes"/>Gerichten des Landes an das Landesgericht und von diesem an
@@ -1811,7 +1812,7 @@
       <lb break="yes"/>Die Todesstrafe ist nur wegen Mordes und räuberischer
       <lb break="yes"/>Tötung zulässig.</p>
                <p>- 18 -</p>
-               <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+               <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
                <p>Die Gerichtsbarkeit in erster Instanz wird von Einzelrichtern
       <lb break="yes"/>Schöffengerichten und Geschwornengerichte ausgeübt. Die Ge
 <lb break="no"/>schwornen haben über die Schuld der Angeklagten zu entscheiden
@@ -1827,9 +1828,9 @@
 <lb break="no"/>lungen können nur durch Bundesgesetz erteilt werden. Das Recht,
       <lb break="yes"/>im Einzelfalle zu begnadigen, steht dem Bundespräsidenten zu.
       <lb break="yes"/>
-                  <hi rend="bold">VII. Hauptteil.</hi>
+                  <hi rend="emphasis">VII. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Obersten Bundesgerichte.</hi>
+                  <hi rend="emphasis">Die Obersten Bundesgerichte.</hi>
                </p>
             </div>
             <div type="article">
@@ -1837,7 +1838,7 @@
                <head>Art. 92.
       </head>
                <p>
-                  <hi rend="bold">Der Oberste Gerichtshof.</hi>
+                  <hi rend="emphasis">Der Oberste Gerichtshof.</hi>
                   <lb break="yes"/>In allen ordentlichen Rechtssachen ist der Oberste Gerichtshof
       <lb break="yes"/>die letzte Instanz. Er entscheidet in der Sache selbst. Das Nähere
       <lb break="yes"/>bestimmt ein besonderes Gesetz.
@@ -1848,7 +1849,7 @@
                <head>Art. 93
       </head>
                <p>
-                  <hi rend="bold">Das Bundesverwaltungsgericht.</hi>
+                  <hi rend="emphasis">Das Bundesverwaltungsgericht.</hi>
                   <lb break="yes"/>Das Bundesverwaltungsgericht hat als letzte Instanz in Ver
 <lb break="no"/>waltungssachen, sofern Rechte der Partei verletzt werden, zu ent
 <lb break="no"/>scheiden. Es entscheidet über Beschwerden gegen die Erkenntnisse
@@ -1866,7 +1867,7 @@
                <head>Art. 94.
       </head>
                <p>
-                  <hi rend="bold">Das Bundesverfassungsgericht.</hi>
+                  <hi rend="emphasis">Das Bundesverfassungsgericht.</hi>
                   <lb break="yes"/>Das Bundesverfassungsgericht besteht aus einem Präsidenten
       <lb break="yes"/>und einem Stellvertreter, die vom Bundespräsidenten ernannt
       <lb break="yes"/>werden und aus 14 Mitglieder, die zur Hälfte vom Bundestag,
@@ -1907,11 +1908,11 @@
                <p>Die nähere Organisation und das Verfahren wird durch
       <lb break="yes"/>Bundesgesetz geregelt.
       <lb break="yes"/>- 19 -</p>
-               <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+               <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
                <p>
-                  <hi rend="bold">VIII. Hauptteil.</hi>
+                  <hi rend="emphasis">VIII. Hauptteil.</hi>
                   <lb break="yes"/>
-                  <hi rend="bold">Die Rechnungskontrolle im Bunde.</hi>
+                  <hi rend="emphasis">Die Rechnungskontrolle im Bunde.</hi>
                </p>
             </div>
             <div type="article">
