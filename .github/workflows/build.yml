@@ -22,7 +22,7 @@ jobs:
     - name: fetch data
       run: | 
         ./shellscripts/fetch_editions.sh
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: fetched fresh data from gh-data repo
     - name: copy basic texts for pages
