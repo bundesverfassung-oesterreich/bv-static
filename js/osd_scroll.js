@@ -127,11 +127,31 @@ function load_top_viewport_image(check=false) {
   }
 }
 
+// Function to handle initial scroll position when the page loads
+function handleInitialScrollPosition() {
+  // Check if the page loads with an anchor element's ID
+  if (window.location.hash) {
+    // Extract the ID from the URL hash
+    const id = window.location.hash.substring(1);
+    // Scroll to the element with the corresponding ID
+    const targetElement = document.getElementById(id);
+    if (targetElement) {
+      targetElement.scrollIntoView();
+      // After scrolling, trigger the functionality for handling the scroll position
+      load_top_viewport_image();
+    }
+  }
+}
+
+// Call the function to handle initial scroll position when the page loads
+handleInitialScrollPosition();
+
 document.addEventListener(
   "scroll",
   load_top_viewport_image,
   {passive: true}
 );
+
 
 /*
 ##################################################################
