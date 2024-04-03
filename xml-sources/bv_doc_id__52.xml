@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-03-21" who="#cfh">document automatically created</change>
+         <change when="2024-04-02" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -423,16 +423,22 @@
 <lb break="no"/>lich als Organweingesetzte, aber ale Kompstenz "ausgeühte.
       <lb break="yes"/>Der Unterausschuß beschließt auf Antrag Prof. Dr. F«1-
       <lb break="yes"/>615
-      <lb break="yes"/>Artikel l.
-      <lb break="yes"/>deaterreich ist eine demokratioche Republik. Ihr Recht
+      </p>
+            <div type="article">
+               <a class="navigation_article" xml:id="navigation_article_1"/>
+               <head>Artikel l.
+      </head>
+               <p>deaterreich ist eine demokratioche Republik. Ihr Recht
       <lb break="yes"/>gräb von Volke ausf.
       <lb break="yes"/>Ferner/ in Art.2 nach Wiederösterreich in Klammer einzu
 <lb break="no"/>erhalten (Nigägrystarreich- Land und Kiea), nach Analogle der
       <lb break="yes"/>Schwelzer Verfassung: Besel- Land und Bassl-Stadt.
       <lb break="yes"/>22 Art.3, Abs.l schlägt Prof.Dr. Kelsen die Strei
 <lb break="no"/>
-               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p>
-            <p>chung des zweiten Satzen, Re steht unter dem Bghutz des Bundee
+               </p>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
+               <p>9</p>
+               <p>chung des zweiten Satzen, Re steht unter dem Bghutz des Bundee
       <lb break="yes"/>vor, da hierin kein neuer Gedanke ausgedrückt sei. Der Unter
 <lb break="no"/>ausschuß beschließt die Etrgichung und formuliert auf Antrag
       <lb break="yes"/>Eelsene den dritten Absatz folgendermaßen:
@@ -466,7 +472,9 @@
       <lb break="yes"/>Wortlaut zugestimmt hat:
       <lb break="yes"/>"42) Für jedes Land besteht eine Landesbärgerschaft. Ver
 <lb break="no"/>aussetzung der Landesburgerschaft ist das Heimatrecht in einer</p>
-            <p>138<pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>-10-
+               <p>138</p>
+               <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
+               <p>-10-
       <lb break="yes"/>Gemeinde des Landen. Die Bedingungen für den Erwerb und den
       <lb break="yes"/>Verlust der Landesbürgerschaft sind in jedem Land gleich,
       <lb break="yes"/>wird die weitere Erärterung der Streickungefrage bis zur Be
@@ -500,8 +508,10 @@
 <lb break="no"/>gengeändert, so daß es nicht heißt „die sich auf das ganze
       <lb break="yes"/>Bundesgebiet erstrecken“, sondern, auf Grund der Bundesverfag
 <lb break="no"/>gunge.
-      <lb break="yes"/>1.<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>11</p>
-            <p>In Art.10, Pkt.2 wird das Wort, auswärtige" In, Äußerer
+      <lb break="yes"/>1.</p>
+               <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
+               <p>11</p>
+               <p>In Art.10, Pkt.2 wird das Wort, auswärtige" In, Äußerer
       <lb break="yes"/>berichtigt und anstatteRegelung des Haren- und Vichverkahres
       <lb break="yes"/>mit dem Ausland gesetzt» Waren- und Viehverkehr mit dem Aus
 <lb break="no"/>laks.«
@@ -533,7 +543,9 @@
       <lb break="yes"/>verzichtet und die Aenderung des Punktes 7 im Sinne des Vor
 <lb break="no"/>schlages Prof.Dr. k el se ne angenommen?
       <lb break="yes"/>"7, Angelegenheiten des Gewerben und der Industrie; Be
-<lb break="no"/>109<pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>f 102/101-1900
+<lb break="no"/>109</p>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
+               <p>f 102/101-1900
       <lb break="yes"/>27
       <lb break="yes"/>kampfung des unlauteren Hettbewerbes; Patentwegen sonie Schutz
       <lb break="yes"/>von Kustern, Marken und anderen Warenbazeichaungen; Angelegen
@@ -556,6 +568,7 @@
       <lb break="yes"/>Die Sitzung wird hierauf geguhlasen: dis nächehe Titzung
       <lb break="yes"/>findet Donnerstag den 23 September, 10 Uhr vormittage stati.
       <lb break="yes"/>---009--</p>
+            </div>
          </div>
       </body>
    </text>
