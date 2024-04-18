@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -2734,8 +2734,10 @@
                <a class="navigation_article" xml:id="navigation_article_143"/>
                <head>Artikel 146.
       </head>
-               <p>Die <gap reason="illegible"/>
-                  <lb break="no"/>fassungsgerichtshofes liegt dem Bundespräsidenten ob.
+               <p>Die <emph>
+                     <gap reason="illegible"/>
+                  </emph>der Erkenntnisse des Ver
+<lb break="no"/>fassungsgerichtshofes liegt dem Bundespräsidenten ob.
       </p>
             </div>
             <div type="article">

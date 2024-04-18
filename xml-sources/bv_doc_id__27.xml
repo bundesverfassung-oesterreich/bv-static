@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -481,7 +481,7 @@
       <lb break="yes"/>7.) Das Verkenrswesen bezüglich der Eisenbahnen, der Schiff
 <lb break="no"/>fahrt . . .  . . . , der Luftschiffahrt, die Angelegenheiten der
       <lb break="yes"/>wegen ihrer Bedeutung für den Durchzugsverkehr durch
-      <lb break="yes"/>Bundesgesetz <del>er </del>als Bundesstrassen erklärten Strassenzüge;</p>
+      <lb break="yes"/>Bundesgesetz <emph>er </emph>als Bundesstrassen erklärten Strassenzüge;</p>
                <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>- 4 -</p>
                <p>die Strom- und Schiffahrtspolizei; das Post-, Telegraphen-
@@ -507,7 +507,7 @@
       <lb break="yes"/>künstlerischen und wissenschaftlichen Sammlungen und Ein
 <lb break="no"/>richtungen; den Denkmalschutz: die Angelegenheiten des
       <lb break="yes"/>Kultus; das Volkszählungswesen sowie die sonstige Statistik,
-      <lb break="yes"/>soweit sie nicht nur den Interessen eines einzelnen <del>Lmndes </del>Landes</p>
+      <lb break="yes"/>soweit sie nicht nur den Interessen eines einzelnen <emph>Lmndes </emph>Landes</p>
                <p>dient; das Stiftungs- und Fondswesen, soweit es sich um
       <lb break="yes"/>Stiftungen und Fonds handelt, die nach ihren Zwecken über
       <lb break="yes"/>den Interessenbereich eines Landes hinausgehen;
@@ -635,12 +635,12 @@
       <lb break="yes"/>für diesen Vollzugsakt auf den Bund über.
       <lb break="yes"/>(2) Wenn der Bundesgesetzgebung bloss die Regelung der Grund
 <lb break="no"/>sätze vorbehalten ist, obliegt die nähere Durchführung der Landesge
-<lb break="no"/>setzgebung innerhalb des <del>B </del>bundesgesetzlich festgelegten Rahmens.
+<lb break="no"/>setzgebung innerhalb des <emph>B </emph>bundesgesetzlich festgelegten Rahmens.
       <lb break="yes"/>(3) Die Länder sind im Bereiche ihres Gesetzgebungsrechtes be
 <lb break="no"/>fugt, die zur Regelung des Gegenstandes erforderlichen Bestimmungen
       <lb break="yes"/>auch auf dem Gebiete des Straf- und Zivilrechtes zu treffen. Insbe
 <lb break="no"/>sondere gilt dies für die Angelegenheiten der Landeskultur, wie
-      <lb break="yes"/>Höferecht, <del>Anverbenrecht </del>Anerbenrecht, Jagd, Fischerei,</p>
+      <lb break="yes"/>Höferecht, <emph>Anverbenrecht </emph>Anerbenrecht, Jagd, Fischerei,</p>
                <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
                <p>- 8 -</p>
                <p>landwirtschaftlicher Dienstverträge und Zusammenlegung von Grund
@@ -707,7 +707,7 @@
       <lb break="yes"/>Bundestag; nur Verwaltungsverträge geringerer Bedeutung (Regierungs
 <lb break="no"/>übereinkommen) kann die Bundesregierung abschliessen.
       <lb break="yes"/>(4) Wenn zur Durchführung von Staatsverträgen gesetzliche Mass
-<lb break="no"/>nahmen in Wirkungskreise der Länder erforderlich sind, <del>etc.,</del> so haben
+<lb break="no"/>nahmen in Wirkungskreise der Länder erforderlich sind, <emph>etc.,</emph> so haben
       <lb break="yes"/>die Länder die betreffenden Gesetze zu erlassen; kommt ein Land
       <lb break="yes"/>dieser Verpflichtung nicht rechtzeitig nach, so geht die Zuständigkeit
       <lb break="yes"/>der Erlassung des Gesetzes auf den Bund über.
@@ -736,7 +736,7 @@
       <lb break="yes"/>direkten, geheimen und persönlichen Wahlrechtes der über 20 Jahre
       <lb break="yes"/>alten Männer und Frauen nach den Grundsätzen der Verhältniswahl ge
 <lb break="no"/>wählt.
-      <lb break="yes"/>(2) Der Wahltag muss ein Sonntag oder anderer öffentlicher <del>Ruhetg</del>
+      <lb break="yes"/>(2) Der Wahltag muss ein Sonntag oder anderer öffentlicher <emph>Ruhetg</emph>
                   <lb break="yes"/>Ruhetag sein.
       <lb break="yes"/>(3) Wählbar ist jeder Wahlberechtigte, der das 29. Lebensjahr
       <lb break="yes"/>überschritten hat.
@@ -798,7 +798,7 @@
       <lb break="yes"/>(2) Nach Auflösung des Bundestages oder nach Ablauf der</p>
                <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
                <p>- 11 -</p>
-               <p>Gesetzgebungsperiode bleiben der Präsident und <del>oder </del>seine Stellver
+               <p>Gesetzgebungsperiode bleiben der Präsident und <emph>oder </emph>seine Stellver
 <lb break="no"/>treter so lange im Amte, bis der neugewählte Bundestag das
       <lb break="yes"/>sidium gewählt hat.
       <lb break="yes"/>(3) Die Geschäftsführung des Bundestages erfolgt auf Grund
@@ -1181,7 +1181,7 @@
       <lb break="yes"/>Verleihung von Amtstiteln an solche;
       <lb break="yes"/>b) die Schaffung von Amts- und Berufstiteln, die Verleihung
       <lb break="yes"/>
-                  <del>von </del>der Berufstitel;
+                  <emph>von </emph>der Berufstitel;
       <lb break="yes"/>c) die Begnadigung der von den Gerichten rechtskräftig Ver-</p>
                <p>urteilten, die Milderung und Umwandlung der von den Gerichten
       <lb break="yes"/>ausgesprochenen Strafen, die Nachsicht von Rechtsfolgen und die
@@ -1226,8 +1226,8 @@
                <a class="navigation_article" xml:id="navigation_article_56"/>
                <head>Artikel 56.
       </head>
-               <p>(1) <del>Diesem</del> Die dem Präsidenten des Bundestages übertragenen Funktionen
-      <lb break="yes"/>der <del>Regierungen </del>Regierungs- und Vollzugsgewalt gehen im Falle
+               <p>(1) <emph>Diesem</emph> Die dem Präsidenten des Bundestages übertragenen Funktionen
+      <lb break="yes"/>der <emph>Regierungen </emph>Regierungs- und Vollzugsgewalt gehen im Falle
       <lb break="yes"/>seiner Verhinderung auf seinen ersten und, wenn bei diesem der
       <lb break="yes"/>gleiche Fall eintritt, auf seinen zweiten Stellvertreter über.
       <lb break="yes"/>(2) Ebenso gehan die Funktionen der Regierungs- und Voll
@@ -1513,7 +1513,7 @@
       <lb break="yes"/>wird durch Gesetz festgestellt, innerhalb welchen Zeitraumes
       <lb break="yes"/>Richter ohne die sonst vorgeschriebenen Förmlichkeiten übersetzt
       <lb break="yes"/>und in den Ruhestand versetzt werden können.
-      <lb break="yes"/>(3) Die zeit<del>weilige</del>weise Enthebung der Richter von Amte darf nur
+      <lb break="yes"/>(3) Die zeit<emph>weilige</emph>weise Enthebung der Richter von Amte darf nur
       <lb break="yes"/>ihres durch Verfügung des Gerichtsvorstandes oder der höheren Gericht
 <lb break="no"/>behörde unter gleichzeitiger Verweisung der Sache an das zuständige
       <lb break="yes"/>Gericht stattfinden.
@@ -1537,7 +1537,7 @@
                <a class="navigation_article" xml:id="navigation_article_80"/>
                <head>Artikel 80.
       </head>
-               <p>(1) Die Verhandlungen <del>im </del>in Zivil- und Strafrechtssachen vor
+               <p>(1) Die Verhandlungen <emph>im </emph>in Zivil- und Strafrechtssachen vor
       <lb break="yes"/>dem erkennenden Gericht sind mündlich und öffentlich. Ausnahmen
       <lb break="yes"/>bestimmt das Gesetz.
       <lb break="yes"/>(2) Im Strafverfahren gilt der Anklageprozess.
@@ -1732,7 +1732,7 @@
       </head>
                <p>Zur Leitung des gesamten inneren Dienstbetriebes der Landes
 <lb break="no"/>regierung wird ein Landesamtsdirektor bestellt; er ist der unmittelbare
-      <lb break="yes"/>Vorgesetzte aller Landesangestellten<del>n </del>und hat für einen einheitlichen
+      <lb break="yes"/>Vorgesetzte aller Landesangestellten<emph>n </emph>und hat für einen einheitlichen
       <lb break="yes"/>und geregelten Geschäftsgang in sämtlichen Zweigen der Landesverwaltung
       <lb break="yes"/>zu sorgen.</p>
             </div>
@@ -1878,7 +1878,7 @@
                <head>Artikel 107.
       </head>
                <p>(1) Der Rechnungshof verfasst den Bundesrechnungsabschluss und
-      <lb break="yes"/>gesondert von diesem die Landesrechnungsabschlüsse und legt <del>dem </del>den
+      <lb break="yes"/>gesondert von diesem die Landesrechnungsabschlüsse und legt <emph>dem </emph>den
       <lb break="yes"/>ersteren dem Bundestag, die letzteren dem Bundesrate vor.</p>
                <pb facs="#facs_32" n="32" xml:id="img_0032" break="yes"/>
                <p>- 31 
@@ -2032,7 +2032,7 @@
       <lb break="yes"/>oder besondere Erlaubnis friedlich und unbewaffnet zu versammeln.
       <lb break="yes"/>(2) Versammlungen unter freiem Himmel können durch Bundesge
 <lb break="no"/>setz anmeldepflichtig gemacht und bei unmittelbarer Gefahr für die 
-      <lb break="yes"/>öffentliche Sicherheit <del>ge </del>verboten werden.
+      <lb break="yes"/>öffentliche Sicherheit <emph>ge </emph>verboten werden.
       </p>
             </div>
             <div type="article">
@@ -2076,7 +2076,7 @@
       <lb break="yes"/>innerhalb des Bundesgebietes unterliegt keinen Beschränkungen.
       <lb break="yes"/>(3) Jede Religionsgesellschaft ordnet und verwaltet ihre Ange
 <lb break="no"/>legenheiten selbständig innerhalb der gesetzlichen Schranken. Sie
-      <lb break="yes"/>verleiht ihre Aemter <del>oder </del>ohne Mitwirkung des Staates oder der bürgerli
+      <lb break="yes"/>verleiht ihre Aemter <emph>oder </emph>ohne Mitwirkung des Staates oder der bürgerli
 <lb break="no"/>chen Gemeinden.
       <lb break="yes"/>(4) Die Rechtsfähigkeit der Religionsgesellschaften richtet
       <lb break="yes"/>sich nach den Vorschriften des bürgerlichen Rechtes über die
@@ -2090,7 +2090,7 @@
 <lb break="no"/>titeln beruhenden Staatsleistungen an die Religionsgesellschaften
       <lb break="yes"/>werden aufgehoben.
       <lb break="yes"/>(2) Das Eigentum und andere Rechte der Religionsgesellschaften
-      <lb break="yes"/>und religiösen Vereine an ihren <del>ieren </del>für Kultus-, Unterrichts- und
+      <lb break="yes"/>und religiösen Vereine an ihren <emph>ieren </emph>für Kultus-, Unterrichts- und
       <lb break="yes"/>Wohltätigkeitszwecke bestimmten Anstalten, Stiftungen und sonstigen
       <lb break="yes"/>Vermögen werden gewährleistet.
       </p>
@@ -2196,7 +2196,7 @@
                <p>religiösen Ueberzeugung, in der Presse oder in sonstigen Veröffentli
 <lb break="no"/>chungen oder in allgemein zugänglichen Versammlungen Beschränkungen
       <lb break="yes"/>auferlegt.
-      <lb break="yes"/>(3) Durch Gesetz wird vorgesorgt, dass <del>die </del>den nicht deutschsprechen
+      <lb break="yes"/>(3) Durch Gesetz wird vorgesorgt, dass <emph>die </emph>den nicht deutschsprechen
 <lb break="no"/>den Bundesangehörigen angemessene Erleichterungen zum Gebrauch
       <lb break="yes"/>ihrer Sprache in Wort und Schrift bei den Gerichten geboten werden.
       </p>

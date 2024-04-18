@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -2664,21 +2664,27 @@
 <lb break="no"/>verwaltung) oder durch die Landesregierungen und die ihnen unter
 <lb break="no"/>stellten Landesbehörden (mittelbare Bundesverwaltung) ausgeübt.
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>(2) Folgende Angelegenheiten können unmittelbar durch Bun
 <lb break="no"/>desbehörden versehen werden:
       <lb break="yes"/>Waren- und Viehverkehr mit dem Auslande, Grenzvermarkung, Zoll
 <lb break="no"/>wesen, Bundesfinanzen und Regelung der Finanzangelegenheiten zwi
 <lb break="no"/>schen Bund und Ländern, Monopolwesen, Maß-, Gewichts-, Normen-und
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>Punzierungswesen, Justizpflege, Verkehrsresen, Bundesstraßen, Strom-
       <lb break="yes"/>und Schiffahrtspolizei, Post-, Telegraphen- und Fernsprechwesen,
       <lb break="yes"/>Bergwesen, militärische Angelegenheiten, Angelegeneiten des Gewer
 <lb break="no"/>bes und der Industrie, Patentwesen, Ingenieur- und Ziviltechniker
 <lb break="no"/>wesen, Regulierung und Instandhaltung von Gewässern, Erbauung und
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>Erhaltung von Wasserstraßen, Vermessungswesen, Arbeiter- und Ange
 <lb break="no"/>stelltenschutz, Sozialversicherungswesen, Fürsorge für Kriegsteil
       <lb break="yes"/>nehmer und deren Hinterbliebene, Schul- und Erziehungswesen, Volks

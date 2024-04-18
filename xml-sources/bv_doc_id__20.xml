@@ -98,7 +98,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -671,9 +671,9 @@
                <p>*Bürger
       <lb break="yes"/>1. Alle Bundesangehörig*en sind vor dem Ge
 <lb break="no"/>
-                  <hi rend="emphasis">**unleserlich</hi>
+                  <emph>**unleserlich</emph>
                   <lb break="yes"/>
-                  <hi rend="emphasis">***unleserlich</hi>
+                  <emph>***unleserlich</emph>
                   <lb break="yes"/>setze gleich. Vorrechte der Geburt, **des Standes *** und
       <lb break="yes"/>des Bekenntnisses sind für immer ausgeschlossen.</p>
                <p>Fällt weg. Art. 4.</p>
@@ -2098,7 +2098,9 @@
                <head>Art. 70.
       </head>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>(1) Bundestag und Bundesrat treten zu gemein
 <lb break="no"/>samer Sitzung an dem Sitze des Bundestages zu
 <lb break="no"/>sammen :

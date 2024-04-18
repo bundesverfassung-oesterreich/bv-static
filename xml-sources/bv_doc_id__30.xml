@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -424,7 +424,7 @@
                <a class="navigation_article" xml:id="navigation_article_10"/>
                <head>Artikel 10.
       </head>
-               <p>(1) <del>Die Länder übertragen *</del>der Gesetzgebung und
+               <p>(1) <emph>Die Länder übertragen *</emph>der Gesetzgebung und
       <lb break="yes"/>Vollziehung des Bundes:
       <lb break="yes"/>* kommen zu:
       <lb break="yes"/>1. die auswärtigen Angelegenheiten mit Ein
@@ -441,9 +441,9 @@
 <lb break="no"/>lieferung;
       <lb break="yes"/>3. die Wahlen zum Bundestag und die Wahl
       <lb break="yes"/>des Bundespräsidenten, die Durchführung von Volks
-<lb break="no"/>abstimmungen im ganzen Bundesgebiete<del> sowie die</del>
+<lb break="no"/>abstimmungen im ganzen Bundesgebiete<emph> sowie die</emph>
                   <lb break="yes"/>
-                  <del>Einrichtung und Führung der Bürgerlisten</del>:</p>
+                  <emph>Einrichtung und Führung der Bürgerlisten</emph>:</p>
                <p>4. die Bundessinanzen, insbesondere die öffent
 <lb break="no"/>lichen Abgaben, die ausschließlich oder teilweise für
       <lb break="yes"/>den Bund einzuheben sind; das Monopolwesen;
@@ -478,27 +478,27 @@
       <lb break="yes"/>Fernsprechwesen;
       <lb break="yes"/>8. das Bergwesen; die Angelegenheiten der</p>
                <p>Wohlfahrtswälder (Schutz= und Bannwälder) sowie
-      <lb break="yes"/>das Aufforstungswesen; * <del>die Ausführung der Re¬</del>
+      <lb break="yes"/>das Aufforstungswesen; * <emph>die Ausführung der Re¬</emph>
                   <lb break="yes"/>*das Wasserrechtswesen
       <lb break="yes"/>
-                  <del>gulierung und die Instandhaltung der schiffbaren</del>
+                  <emph>gulierung und die Instandhaltung der schiffbaren</emph>
                   <lb break="yes"/>
-                  <del>und flößbaren Gewässer, dann solcher Gewisser,</del>
+                  <emph>und flößbaren Gewässer, dann solcher Gewisser,</emph>
                   <lb break="yes"/>
-                  <del>welche die Grenze gegen das Ausland oder zwischen</del>
+                  <emph>welche die Grenze gegen das Ausland oder zwischen</emph>
                   <lb break="yes"/>
-                  <del>Ländern bilden, oder die zwei oder mehrere Länder</del>
+                  <emph>Ländern bilden, oder die zwei oder mehrere Länder</emph>
                   <lb break="yes"/>
-                  <del>durchfließen, den Bau derjenigen Wasserstraßen die</del>
+                  <emph>durchfließen, den Bau derjenigen Wasserstraßen die</emph>
                   <lb break="yes"/>
-                  <del>das Inland mit dem Ausland, oder die mehrere</del>
+                  <emph>das Inland mit dem Ausland, oder die mehrere</emph>
                   <lb break="yes"/>
-                  <del>Länder verbinden</del>; das Dampfkessel= und Kraft
+                  <emph>Länder verbinden</emph>; das Dampfkessel= und Kraft
 <lb break="no"/>maschinenwesen; das Vermessungswesen,
       <lb break="yes"/>9. das gesamte Arbeiterrecht und denArbeiter-
-      <lb break="yes"/>und Angestelltenschutz,* <del>soweit es sich nicht um land¬</del>
+      <lb break="yes"/>und Angestelltenschutz,* <emph>soweit es sich nicht um land¬</emph>
                   <lb break="yes"/>
-                  <del>und forstwirtschaftliche Arbeiter und Angestellte</del>
+                  <emph>und forstwirtschaftliche Arbeiter und Angestellte</emph>
                   <lb break="yes"/>*sowie das Sozialversicherungswesen</p>
                <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                <p>4</p>
@@ -521,7 +521,9 @@
       <lb break="yes"/>11. die militärischen Angelegenheiten; die</p>
                <p>Kriegsschadenangelegenheiten und die Fürsorge für
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>Kriegsteilnehmer und deren Hinterbliebene das
       <lb break="yes"/>Kriegsgräberwesen; die aus Anlaß eines Krieges
       <lb break="yes"/>oder im Gefolge eines solchen zur Sicherung der
@@ -695,7 +697,9 @@
       <lb break="yes"/>forstwirtschaftliche Arbeiter und Angestellte handelt;
       <lb break="yes"/>7. die beruflichen Vertretungen auf land
 <lb break="no"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>und forstwirtschaftlichem Gebiete;
       <lb break="yes"/>8. **die Bodenreform (agrarische Operationen,
       <lb break="yes"/>Wiederbesiedlung usw.) und die Bodenentschuldung;
@@ -1991,7 +1995,7 @@
       <lb break="yes"/>durch eine vom Landtag zu wählende Landes
 <lb break="no"/>regierung ausgeübt.
       <lb break="yes"/>(2) Die Landesregierung besteht aus dem Landes
-<lb break="no"/>hauptmann, ** <del>seinem Stellvertreter</del> und .... bis ...
+<lb break="no"/>hauptmann, ** <emph>seinem Stellvertreter</emph> und .... bis ...
       <lb break="yes"/>weiteren Mitgliedern.
       <lb break="yes"/>(3) Der Landeshauptmann und sein Stellvertreter
       <lb break="yes"/>werden durch den Bundespräsidenten auf die Bundes
@@ -2063,31 +2067,31 @@
 <lb break="no"/>rung der Geschäfte angewiesen
       <lb break="yes"/>sein:/
       <lb break="yes"/>
-                  <del>(2) Bis zur Beeidigung des Landeshauptmannes</del>
+                  <emph>(2) Bis zur Beeidigung des Landeshauptmannes</emph>
                   <lb break="yes"/>
-                  <del>oder seines Stellvertreters hat der Landesamts¬</del>
+                  <emph>oder seines Stellvertreters hat der Landesamts¬</emph>
                   <lb break="yes"/>
-                  <del>direktor die Geschäfte des Bundes unter seiner per¬</del>
+                  <emph>direktor die Geschäfte des Bundes unter seiner per¬</emph>
                   <lb break="yes"/>
-                  <del>sönlichen Verantwortung zu führen; für diese Ver¬</del>
+                  <emph>sönlichen Verantwortung zu führen; für diese Ver¬</emph>
                   <lb break="yes"/>
-                  <del>antwortung gelten dieselben Bestimmungen wie für</del>
+                  <emph>antwortung gelten dieselben Bestimmungen wie für</emph>
                   <lb break="yes"/>
-                  <del>jene des Landeshauptmannes. Dasselbe gilt für den</del>
+                  <emph>jene des Landeshauptmannes. Dasselbe gilt für den</emph>
                   <lb break="yes"/>
-                  <del>Fall der Verhinderung des Landeshauptmannes und</del>
+                  <emph>Fall der Verhinderung des Landeshauptmannes und</emph>
                   <lb break="yes"/>
-                  <del>seines Stellverteeters.“</del>
+                  <emph>seines Stellverteeters.“</emph>
                   <lb break="yes"/>
-                  <del>(3) Zur Vertretung des Landesamtsdirektors</del>
+                  <emph>(3) Zur Vertretung des Landesamtsdirektors</emph>
                   <lb break="yes"/>
-                  <del>jeweils der rangälteste rechtskundige Verwaltungs</del>
+                  <emph>jeweils der rangälteste rechtskundige Verwaltungs</emph>
                   <lb break="yes"/>
-                  <del>beamte der Landesregierung berufen, auf den</del>
+                  <emph>beamte der Landesregierung berufen, auf den</emph>
                   <lb break="yes"/>
-                  <del>diesem Fall auch die Bestimmungen des zweiten</del>
+                  <emph>diesem Fall auch die Bestimmungen des zweiten</emph>
                   <lb break="yes"/>
-                  <del>Absatzes Anwendung finden.</del>
+                  <emph>Absatzes Anwendung finden.</emph>
                </p>
             </div>
             <div type="article">
@@ -2095,7 +2099,7 @@
                <head>Artikel 96.
       </head>
                <p>
-                  <del>Mit Zustimmung des Bundesrates oder </del>Auf
+                  <emph>Mit Zustimmung des Bundesrates oder </emph>Auf
       <lb break="yes"/>Ersuchen des betreffenden Landtages kann der Bundes
 <lb break="no"/>präsident auf Vorschlag der Bundesregierung vorüber
 <lb break="no"/>gehend zur Aufrechterhaltung der Ordnung und

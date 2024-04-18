@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -309,13 +309,19 @@
       <lb break="yes"/>Alle Bundesbürger sind vor dem Gesetze
       <lb break="yes"/>gleich. Vorrechte der Geburt, des Geschlechtes, des</p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>1</p>
                <p>173</p>
@@ -408,11 +414,17 @@
                <p>Volksabstimmung
       <lb break="yes"/>Offen
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>2</p>
                <p>174</p>
@@ -733,13 +745,17 @@
       <lb break="yes"/>Teilen der Bundespolizei außerhalb ihres ständigen
       <lb break="yes"/>Dienstbereiches anordnen.
       <lb break="yes"/>
-                  <gap reason="illegible"/>
-                  <lb break="yes"/>Alle Behörden und Ämter im Bundesgebiete sind
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>Artikel 14 f.
+      <lb break="yes"/>Alle Behörden und Ämter im Bundesgebiete sind
       <lb break="yes"/>im Rahmen ihres gesetzmäßigen Wirkungskreises
       <lb break="yes"/>wechselseitigen Hilfeleistung verpflichtet.
       <lb break="yes"/>
-                  <gap reason="illegible"/>
-                  <lb break="yes"/>(1) Alle mit der Ausübung der Bundes-, Landes-
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>Artikel 14 8
+      <lb break="yes"/>(1) Alle mit der Ausübung der Bundes-, Landes-
       <lb break="yes"/>oder Gemeindeverwaltung oder der Gerichtsbarkeit be
 <lb break="no"/>trauten Angestellten und Funktionäre sind für jeden
       <lb break="yes"/>bei der Ausübung ihrer Tätigkeit durch vorsätzliche
@@ -771,7 +787,9 @@
       <lb break="yes"/>Von der Gesetzgebung des Bundes.
       <lb break="yes"/>A. Der Nationalrat.
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
             </div>
             <div type="article">
@@ -779,7 +797,9 @@
                <head>Artikel 15.
       </head>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>Die gesetzgebende Gewalt des Bundes übt der vom
       <lb break="yes"/>ganzen Bundesvolk gewählte Nationalrat gemeinsam
       <lb break="yes"/>mit dem von den Landtagen gewählten Bundes
@@ -841,7 +861,9 @@
 <lb break="no"/>präsidenten innerhalb 30 Tage nach der Wahl ein
 <lb break="no"/>zuberufen.
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>(3) Der Nationalrat kann nur durch seinen Be
 <lb break="no"/>schluß vertagt werden. Die Wiedereinberufung erfolgt
       <lb break="yes"/>durch seinen Präsidenten. Dieser ist verpflichtet, den
@@ -866,8 +888,12 @@
                <a class="navigation_article" xml:id="navigation_article_16"/>
                <head>Artikel 23.
       </head>
-               <p>(1) Der Nationalrat wählt aus seiner Mitte einen <gap reason="illegible"/>
-                  <lb break="yes"/>Präsidenten und zwei Vizepräsidenten. <gap reason="illegible"/>
+               <p>(1) Der Nationalrat wählt aus seiner Mitte einen <emph>
+                     <gap reason="illegible"/>
+                  </emph>
+                  <lb break="yes"/>Präsidenten und zwei Vizepräsidenten. <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>7</p>
                <p>178</p>
@@ -1059,7 +1085,9 @@
                <p>Jede Gesamtänderung der Bundesversassung, eine
       <lb break="yes"/>teilweise Änderung aber nur, wenn dies von einem</p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>38</p>
                <p>9</p>
@@ -1166,7 +1194,9 @@
       <lb break="yes"/>erfolgt mit Berufung auf den Beschluß des
       <lb break="yes"/>Nationalrates, die Kundmachung eines Bundes¬</p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>10</p>
                <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
@@ -1358,7 +1388,9 @@
       <lb break="yes"/>keinen anderen Beruf ausüben.</p>
                <p>3 h
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>12</p>
                <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
@@ -1484,13 +1516,17 @@
                <head>Artikel 58.
       </head>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>(1) Mit der Regierungsgewalt des Bundes sind,
       <lb break="yes"/>soweit diese nicht dem Bundespräsidenten übertragen
       <lb break="yes"/>ist, der Bundeskanzler, der Vizekanzler und die
       <lb break="yes"/>
-                  <gap reason="illegible"/>
-                  <lb break="yes"/>Gesamtheit die Bundesregierung unter dem Vorsitze
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>übrigen Bundesminister betraut. Sie bilden in ihrer
+      <lb break="yes"/>Gesamtheit die Bundesregierung unter dem Vorsitze
       <lb break="yes"/>des Bundeskanzlers.
       <lb break="yes"/>(2) Der Vizekanzler ist zur Vertretung des Bundes
 <lb break="no"/>kanzlers in dessen gesamtem Wirkungskreis berufen.
@@ -1573,10 +1609,14 @@
                <p>(1) Versagt der Nationalrat der Bundesregierung
       <lb break="yes"/>oder einzelnen ihrer Mitglieder durch ausdrückliche</p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>14</p>
                <p>186</p>
@@ -1902,7 +1942,9 @@
                <p>(1) Die Mitglieder des Landtages genießen die
       <lb break="yes"/>gleiche Immunität wie die Mitglieder des National¬</p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>17</p>
                <p>188</p>
@@ -2095,10 +2137,14 @@
 <lb break="no"/>kreises getroffen werden und sind der Bundesregierung
       <lb break="yes"/>unverzüglich anzuzeigen.</p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                </p>
                <p>19</p>
                <p>191</p>
