@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1251,7 +1251,9 @@
                <a class="navigation_article" xml:id="navigation_article_46"/>
                <head>Artikel 46. </head>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>Die Gesetzgebung über alle Gegenstände, die
       <lb break="yes"/>nach dieser Verfassung der Landesgesetzgebung unter
 <lb break="no"/>siegen (Artikel 14 bis 16), wird von den Land
@@ -1292,7 +1294,9 @@
                <a class="navigation_article" xml:id="navigation_article_47"/>
                <head>Artikel 50. </head>
                <p>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>Gesetzesbeschlüsse eines Landtages können
       <lb break="yes"/>wegen Verfassungswidrigkeit (Artikel 46) von der
       <lb break="yes"/>Bundesregierung binnen vierzehn Tagen nach Ein

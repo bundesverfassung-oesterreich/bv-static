@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-16" who="#cfh">document automatically created</change>
+         <change when="2024-04-17" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -2583,7 +2583,9 @@
 <lb break="no"/>verletzung vorliegt.
       <lb break="yes"/>Artikel 152 a.
       <lb break="yes"/>
-                  <gap reason="illegible"/>
+                  <emph>
+                     <gap reason="illegible"/>
+                  </emph>
                   <lb break="yes"/>Die Anklage gegen die in Artikel 152 bezeichneten
       <lb break="yes"/>Personen kann auch wegen strafgerichtlich zu verfol
 <lb break="no"/>gender Handlungen erhoben werden, die mit der
