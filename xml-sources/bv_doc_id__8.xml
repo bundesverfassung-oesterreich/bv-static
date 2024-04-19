@@ -100,6 +100,7 @@
          <change when="2024-02-27" who="#cfh">document automatically created</change>
          <change when="2024-04-05" who="#m_huber">all div for articles and sections
                         generated</change>
+         <change when="2024-04-19" who="#m_huber">fixed headings</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -192,12 +193,12 @@
    <text type="Verfassungsentwurf">
       <body>
          <div type="main">
+            <a class="navigation_main" xml:id="navigation_section_"/>
+            <head>Entwurf Falser </head>
+            <a class="navigation_main" xml:id="navigation_section_"/>
+            <head>Die Verfassung des Bundesstaates Oesterreich.</head>
             <div type="section">
                <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-               <a class="navigation_section" xml:id="navigation_section_1"/>
-               <head>Entwurf Falser </head>
-               <a class="navigation_section" xml:id="navigation_section_1"/>
-               <head>Die Verfassung des Bundesstaates Oesterreich.</head>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_1"/>
                   <head>Artikel 1.</head>
