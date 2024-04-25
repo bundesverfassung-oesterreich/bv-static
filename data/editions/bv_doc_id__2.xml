@@ -459,16 +459,35 @@
                   <p>Die <del>souveränen</del> selbständigen Länder Niederöster
                                                 <lb break="no"/>reich etz. übertragen dem Bunde ihre
                                           Staats <lb break="no"/>gewalt in den folgenden
-                                                Angelegenheiten:<lb break="yes"/>1. / Die
-                                          auswärtigen Angelegenhei <lb break="no"/>ten, <lb break="yes"/>2. das Militärwesen, <lb break="yes"/>3. die Sicherheitspolizei in Ge <lb break="no"/>meinden
+                                                Angelegenheiten:<list>
+                        <label>1.</label>
+                        <item>/ Die
+                                          auswärtigen Angelegenhei<lb break="no"/>ten, </item>
+                        <label>2.</label>
+                        <item>das Militärwesen,</item>
+                        <label>3.</label>
+                        <item>die Sicherheitspolizei in Ge<lb break="no"/>meinden
                                           bis zu . . . Einwohnern; <lb break="yes"/>die
-                                          Fremdenpolizei und das Pass <lb break="no"/>wesen, <lb break="yes"/>4. die Bundesfinanzen, das Monopol <lb break="no"/>wesen und die Verwaltung der
-                                          Bundesbetriebe, <lb break="yes"/>5. das Zollwesen, Geld-
-                                          und Bank <lb break="no"/>wesen; Handel, Gewerbe, Industrie
-                                          und Ver <lb break="no"/>kehr, Bergwesen,<lb break="yes"/>6. Mass- und Gewichtwesen, Punzie <lb break="no"/>rungswesen. <lb break="yes"/>7. Zivil und Strafjustiz,
-                                                <lb break="yes"/>3. Kultus und Hochschulwesen, <lb break="yes"/>9. Volksgesundheit und soziale Für <lb break="no"/>sorge. <lb break="yes"/>In diesen
+                                          Fremdenpolizei und das Pass <lb break="no"/>wesen, </item>
+                        <label>4.</label>
+                        <item>die Bundesfinanzen, das Monopol<lb break="no"/>wesen und die Verwaltung der
+                                          Bundesbetriebe, </item>
+                        <label>5.</label>
+                        <item>das Zollwesen, Geld-
+                                          und Bank<lb break="no"/>wesen; Handel, Gewerbe, Industrie
+                                          und Ver <lb break="no"/>kehr, Bergwesen,</item>
+                        <label>6.</label>
+                        <item>Mass- und Gewichtwesen, Punzie<lb break="no"/>rungswesen. </item>
+                        <label>7.</label>
+                        <item>Zivil und Strafjustiz,</item>
+                        <label>3.</label>
+                        <item>Kultus und Hochschulwesen,</item>
+                        <label>9.</label>
+                        <item>Volksgesundheit und soziale Für<lb break="no"/>sorge. <lb break="yes"/>In diesen
                                           Angelegenheiten steht <lb break="yes"/>dem Bunde die
-                                          Gesetzgebung und Vollziehung zu.</p>
+                                          Gesetzgebung und Vollziehung zu.</item>
+                     </list>
+                  </p>
                   <p>29</p>
                   <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                   <p>- 3 -</p>
@@ -477,19 +496,30 @@
                   <a class="navigation_article" xml:id="navigation_article_9"/>
                   <head>Art. 9. </head>
                   <p>Der Gesetzgebung des Bundes ist <lb break="yes"/>übertragen :
-                                                <lb break="yes"/>1. / die Aenderung der Bundesver
-                                                <lb break="no"/>fassung, insbesondere auch
+                                                <list>
+                        <label>1.</label>
+                        <item>/ die Aenderung der Bundesver<lb break="no"/>fassung, insbesondere auch
                                           hinsichtlich des <lb break="yes"/>Verhältnisses der
-                                          souveränen Länder zum Bun <lb break="no"/>de, <lb break="yes"/>2./ die Bestimmung der Art und des <lb break="yes"/>Umfanges des den Ländern zustehenden
+                                          souveränen Länder zum Bun <lb break="no"/>de, </item>
+                        <label>2.</label>
+                        <item>/ die Bestimmung der Art und des<lb break="yes"/>Umfanges des den Ländern zustehenden
                                           Rechtes <lb break="yes"/>öffentliche Abgaben abzuschreiben
-                                          und ein <lb break="no"/>zuheben<lb break="yes"/>3./ Die
-                                          Regelung des Staatsbürger- <lb break="yes"/>und
-                                          Heimatrechtes. <lb break="yes"/>4. / die Regelung des
-                                          Bevölkerungs <lb break="no"/>wesen, <lb break="yes"/>5.
+                                          und ein <lb break="no"/>zuheben</item>
+                        <label>3.</label>
+                        <item>/ Die
+                                          Regelung des Staatsbürger-<lb break="yes"/>und
+                                          Heimatrechtes. </item>
+                        <label>4.</label>
+                        <item>/ die Regelung des
+                                          Bevölkerungs<lb break="no"/>wesen, <lb break="yes"/>5.
                                           die Grundzüge der Verwaltungs <lb break="no"/>Örganisation
                                           der Länder, die Regelung des <lb break="yes"/>Administrativverfahrens und die Festsetzung <lb break="yes"/>der allgemeinen Grundsätze des
-                                          Verwaltungs <lb break="no"/>strafrechtes, <lb break="yes"/>6./die Feststellung der Grundsätze <lb break="yes"/>des
-                                          Wasser und Elektrizitätsrechtes. </p>
+                                          Verwaltungs <lb break="no"/>strafrechtes, </item>
+                        <label>6.</label>
+                        <item>/die Feststellung der Grundsätze<lb break="yes"/>des
+                                          Wasser und Elektrizitätsrechtes. </item>
+                     </list>
+                  </p>
                </div>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_10"/>
@@ -588,14 +618,18 @@
                                                 Bundesgebiet . . . Abgeordnete auf Grund <lb break="yes"/>des gleichen, direkten persönlichen
                                                 und ge <lb break="no"/>heimen Wahlrechtes aller
                                                 Bundesbürger ohne <lb break="yes"/>Unterschied des
-                                                Geschlechtes, die vor dem <lb break="yes"/>1. Jänner
-                                                d.J., in welchem die Wahl stattfin <lb break="no"/>det das 20. Lebensjahr überschritten haben, <lb break="yes"/>nach dem System der Verhältniswahl
+                                                Geschlechtes, die vor dem <list>
+                           <label>1.</label>
+                           <item>Jänner
+                                                d.J., in welchem die Wahl stattfin<lb break="no"/>det das 20. Lebensjahr überschritten haben, <lb break="yes"/>nach dem System der Verhältniswahl
                                                 gewählt. Wählbar ist ohne Unterschied des <lb break="yes"/>Geschlechtes jeder wahlberechtigte
                                                 Bundesbür <lb break="no"/>ger, der vor dem 1. Jänner
                                                 des Jahres, in <lb break="yes"/>welchem die Wahl zur
                                                 Bundesversammlung statt <lb break="no"/>findet, das
                                                 29. Lebensjahr überschritten hat. <lb break="yes"/>Vom Wahlrecht und der Wählbarkeit <lb break="yes"/>sind ausgeschlossen: . . . . . . . <lb break="yes"/>Die Wahlordnung für die Wahl zum Bundestag wird in
-                                                einem besonderen Gesetze <lb break="yes"/>erlassen.Sie bildet einen Bestandteil der <lb break="yes"/>Bundesverfassung. </p>
+                                                einem besonderen Gesetze <lb break="yes"/>erlassen.Sie bildet einen Bestandteil der <lb break="yes"/>Bundesverfassung. </item>
+                        </list>
+                     </p>
                   </div>
                   <div type="article">
                      <a class="navigation_article" xml:id="navigation_article_17"/>
@@ -849,24 +883,34 @@
                   <div type="article">
                      <a class="navigation_article" xml:id="navigation_article_36"/>
                      <head>Art. 36 . </head>
-                     <p>(1) Hat der Bundesrat einem Beschluss</p>
+                     <list>
+                        <label>(1)</label>
+                        <item>Hat der Bundesrat einem Beschluss</item>
+                     </list>
                      <p>des Bundestages die Genehmigung verweigert <lb break="yes"/>und beharrt der Bundestag auf seinem
                                                 ursprüng <lb break="no"/>lichen Beschluss, so hat,
                                                 falls es sich um einen Gesetzesbeschluss handelt,
                                                   <lb break="yes"/>eine Volksabstimmung zu erfolgen.
-                                                  <lb break="yes"/>(3) Nimmt das Bundesvolk den
-                                                Bechluss <lb break="yes"/>des Bundestages an, so ist
+                                                  <list>
+                           <label>(3)</label>
+                           <item>Nimmt das Bundesvolk den
+                                                Bechluss<lb break="yes"/>des Bundestages an, so ist
                                                 dieser ohne Ge <lb break="no"/>nehmigung des
                                                 Bundesrates zu beurkunden. <lb break="yes"/>in Abt.
-                                                d. erwähnte. <lb break="yes"/>(2) Auf diese in Abt.
-                                                A erwähnte Volksabstimmungen finden <lb break="yes"/>die Bestimmungen der Art. . . . . Anwendung. <lb break="yes"/>(4) Ohne Genehmigung des Bundesrates
-                                                  <lb break="yes"/>ist der Beschluss des Bundestages
+                                                d. erwähnte. </item>
+                           <label>(2)</label>
+                           <item>Auf diese in Abt.
+                                                A erwähnte Volksabstimmungen finden<lb break="yes"/>die Bestimmungen der Art. . . . . Anwendung. </item>
+                           <label>(4)</label>
+                           <item>Ohne Genehmigung des Bundesrates<lb break="yes"/>ist der Beschluss des Bundestages
                                                 auch dann <lb break="yes"/>zu beurkunden und
                                                 kundzumachen, wenn der Bun <lb break="no"/>desrat
                                                 ihm in der vor <lb break="no"/>geschriebenen Zeit
                                                 die Genehmigung weder <lb break="yes"/>erteilt, noch
                                                 mit Angabe von Gründen ver <lb break="no"/>weigert
-                                                hat.</p>
+                                                hat.</item>
+                        </list>
+                     </p>
                      <p>einschließlich der in Art 14 Abs 2 und <lb break="yes"/>Art 15 erwähnten Beschlüsse <lb break="yes"/>,handelt es sich um einen anderen <lb break="yes"/>Entschluß, so entscheidet der Bundes <lb break="no"/>präsident.</p>
                      <p>Handelt es sich um andere als im <lb break="yes"/>Gesetzesbeschlüsse oder um die in Art 14 Abs. 2
                                                   <lb break="yes"/>oder Art. 15 erwähnten
@@ -1709,9 +1753,13 @@
                                           den Staatssekretären - auch in <lb break="yes"/>den
                                           Bezügen - gleichgestellt. <lb break="yes"/>Er darf keiner
                                           politi schen <lb break="yes"/>Körperschaft angehören, und
-                                          in den letzten <lb break="yes"/>5 Jahren weder Mitglied
-                                          der Bundesregierung <lb break="yes"/>noch einer
-                                          Landesregierung gewesen sind. </p>
+                                          in den letzten <list>
+                        <label>5</label>
+                        <item>Jahren weder Mitglied
+                                          der Bundesregierung<lb break="yes"/>noch einer
+                                          Landesregierung gewesen sind. </item>
+                     </list>
+                  </p>
                </div>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_107"/>
