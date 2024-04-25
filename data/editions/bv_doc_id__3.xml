@@ -461,41 +461,71 @@
                   <p>Die selbständigen Länder Nieder <lb break="no"/>österreich
                                           etz. übertragen dem Bunde <lb break="yes"/>ihre
                                           Staatsgewalt in den folgenden <lb break="yes"/>Angelegenheiten:</p>
-                  <p>1) Die auswärtigen Angelegenheiten <lb break="yes"/>2) das
-                                          Militärwesen, <lb break="yes"/>3) die Sicherheitspolizei
-                                          in <lb break="yes"/>Gemeinden bis zu . . . . Einwohnern;
+                  <p>1) Die auswärtigen Angelegenheiten <list>
+                        <label>1) </label>
+                        <item>Die auswärtigen Angelegenheiten </item>
+                        <label>2) </label>
+                        <item>das</item>
+                        <label>3) </label>
+                        <item>die Sicherheitspolizei<lb break="yes"/>Gemeinden bis zu . . . . Einwohnern;
                                                 <lb break="yes"/>die Fremdenpolizei und das
-                                          Passwesen, <lb break="yes"/>4) die Bundesfinanzen, das
-                                          Mono <lb break="no"/>polwesen und die Verwaltung der
-                                          Bundes <lb break="no"/>betriebe, <lb break="yes"/>5) das
-                                          Zollwesen, Geld- und Bank <lb break="no"/>wesen; Handel,
-                                          Gewerbe, Industrie und</p>
+                                          Passwesen, </item>
+                        <label>4) </label>
+                        <item>die Bundesfinanzen, das<lb break="no"/>polwesen und die Verwaltung der
+                                          Bundes <lb break="no"/>betriebe, </item>
+                        <label>5) </label>
+                        <item>das<lb break="no"/>wesen; Handel,
+                                          Gewerbe, Industrie und</item>
+                     </list>
+                  </p>
                   <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
                   <p>- 3 -</p>
-                  <p>Verkehr, Bergwesen, <lb break="yes"/>6) Mass- und
-                                          Gewichtswesen, <lb break="yes"/>Punzierungswesen, <lb break="yes"/>7) Zivil- und Strafjustiz, <lb break="yes"/>8) Kultus und Hochschulwesen, <lb break="yes"/>9) Volksgesundheit und soziale <lb break="yes"/>Fürsorge, <lb break="yes"/>In diesen
+                  <p>Verkehr, Bergwesen, <list>
+                        <label>6) </label>
+                        <item>Mass- und<lb break="yes"/>Punzierungswesen, </item>
+                        <label>7) </label>
+                        <item>Zivil- und Strafjustiz, </item>
+                        <label>8) </label>
+                        <item>Kultus und Hochschulwesen, </item>
+                        <label>9) </label>
+                        <item>Volksgesundheit und soziale <lb break="yes"/>Fürsorge, <lb break="yes"/>In diesen
                                           Angelegenheiten steht <lb break="yes"/>dem Bunde die
-                                          Gesetzgebung und Vollzie <lb break="no"/>hung zu. </p>
+                                          Gesetzgebung und Vollzie <lb break="no"/>hung zu. </item>
+                     </list>
+                  </p>
                </div>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_9"/>
                   <head>Art. 9. </head>
                   <p>Der Gesetzgebung des Bundes ist <lb break="yes"/>übertragen:
-                                                <lb break="yes"/>1) die Aenderung der Bundesver-</p>
+                                                <list>
+                        <label>1) </label>
+                        <item>die Aenderung der Bundesver-</item>
+                     </list>
+                  </p>
                   <p>fassung, insbesondere auch hinsicht <lb break="no"/>lich des
                                           Verhältnisses der souveränen <lb break="yes"/>Länder zum
-                                          Bunde, <lb break="yes"/>2) die Bestimmung der Art und des
-                                                <lb break="yes"/>Umfanges des den Ländern
+                                          Bunde, <list>
+                        <label>2) </label>
+                        <item>die Bestimmung der Art und des<lb break="yes"/>Umfanges des den Ländern
                                           zustehenden <lb break="yes"/>Rechtes öffentliche Abgaben
-                                          abzuschrei <lb break="no"/>ben und einzuheben,</p>
-                  <p>3) die Regelung des Staatsbürger- <lb break="yes"/>und
-                                          Heimatrechtes, <lb break="yes"/>4) die Regelung des
-                                          Bevölkerungs <lb break="no"/>wesens, <lb break="yes"/>5)
+                                          abzuschrei <lb break="no"/>ben und einzuheben,</item>
+                     </list>
+                  </p>
+                  <p>3) die Regelung des Staatsbürger- <list>
+                        <label>3) </label>
+                        <item>die Regelung des Staatsbürger- <lb break="yes"/>und
+                                          Heimatrechtes, </item>
+                        <label>4) </label>
+                        <item>die Regelung des<lb break="no"/>wesens, <lb break="yes"/>5)
                                           die Grundzüge der Verwaltungs <lb break="no"/>organisation
                                           der Länder, die Regelung <lb break="yes"/>des
-                                          Administrativverfahrens und die <lb break="yes"/>Festsetzung der allgemeinen Grundsätze <lb break="yes"/>des Verwaltungsstrafrechtes, <lb break="yes"/>6) die
-                                          Feststellung der Grundsätze <lb break="yes"/>des Wasser
-                                          und Elektrizitätsrechtes.</p>
+                                          Administrativverfahrens und die <lb break="yes"/>Festsetzung der allgemeinen Grundsätze <lb break="yes"/>des Verwaltungsstrafrechtes, </item>
+                        <label>6) </label>
+                        <item>die<lb break="yes"/>des Wasser
+                                          und Elektrizitätsrechtes.</item>
+                     </list>
+                  </p>
                   <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                   <p>- 4 -</p>
                </div>
@@ -2268,11 +2298,14 @@
                      <a class="navigation_article" xml:id="navigation_article_159"/>
                      <head>Art. 159. </head>
                      <p>Das Bundesverfassungsgericht in Wien <lb break="yes"/>besteht aus einem Präsidenten, einem <lb break="yes"/>Vizepräsidenten, 14 Mitgliedern und 8
-                                                  <lb break="yes"/>Ersatzmitgliedern. <lb break="yes"/>Der Präsident, der Vizepräsdent, <lb break="yes"/>7 Mitglieder und 4 Ersatzmitgliedner
-                                                wer <lb break="no"/>den vom Bundestag, 7 Mitglieder
+                                                  <lb break="yes"/>Ersatzmitgliedern. <lb break="yes"/>Der Präsident, der Vizepräsdent, <list>
+                           <label>7 </label>
+                           <item>Mitglieder und 4 Ersatzmitgliedner<lb break="no"/>den vom Bundestag, 7 Mitglieder
                                                 und 4 <lb break="yes"/>Ersatzmitglieder vom
                                                 Bundesrat auf Le <lb break="no"/>bensdauer gewählt.
-                                          </p>
+                                          </item>
+                        </list>
+                     </p>
                   </div>
                   <div type="article">
                      <a class="navigation_article" xml:id="navigation_article_160"/>
