@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-23" who="#cfh">document automatically created</change>
+         <change when="2024-04-25" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -1186,7 +1186,7 @@
       <lb break="yes"/>ennie zwixchen einen Land und dem Bund
 <lb break="no"/>A5tZel 145.
       <list>
-                     <label>12) </label>
+                     <label>12)</label>
                      <item>Der Verfareengegerichteh erkannt über boestentdrig<lb break="yes"/>keft von Verordnurgen einar Eandse- oder Landssbshörsa auf
       <lb break="yes"/>Aitfeg einen Gerichter, anfetne aber eins selche Verozdnung
       <lb break="yes"/>die Verausgetzax eisse Erkerninlenss das Verfargungsgerlcht
@@ -1200,7 +1200,7 @@
 <lb break="no"/>zsting; die Aufhstung teitt an Tage der Kandrachung in Erafe.
       <lb break="yes"/>KFEI 62
       </item>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>Dar Verfaeerhgegetlanlchet erkannt über Verfakannge
 <lb break="no"/>e224LxkbL vaR LahRGEEBBEEEER Auf KlFR af Lundaereglstrg,
       <lb break="yes"/>shar der Exesungenieftghaft sen Kuntsegersren au! Antre dirsr
@@ -1219,7 +1219,7 @@
       <lb break="yes"/>der Verfassungsgerichtshof für das Aussarkrafttreten eine Frix
       <lb break="yes"/>bertiamt. Diese Frist darf sachs Monate nicht überschreiten.-
       <list>
-                     <label>(4) </label>
+                     <label>(4)</label>
                      <item>Die Bestimmung des Artikels 79, Absatzl, gilt nicht für<lb break="yes"/>die Trüfung der Verfaasungsmässigkeit von Gesetzen durch den
       <lb break="yes"/>Verfassungegerichtehof.
       </item>
@@ -1246,7 +1246,7 @@
       <lb break="yes"/>Bundes - und Landesorgane für die durch ihre Amtstätigkeit
       <lb break="yes"/>erfolgten schuldhaften Rechtsverletzungen geltand gemacht wird.-
       <list>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>Die Anklage kann erheben werdens a) gegen den Bundespräsi
 <lb break="no"/>denten wegen Verletzung der Bundesverfassungs durch Beschluß der
       <lb break="yes"/>Bundesversammlung; - b) gegen die Mitglieder der Bundesregierurg
@@ -1324,13 +1324,12 @@
                <a class="navigation_article" xml:id="navigation_article_4"/>
                <head>Artikel 158.
       </head>
-               <p>
-                  <list>
-                     <label>(1) </label>
-                     <item>Äusesr dissem gsestzs sind im Sinne der Artikele 31,<lb break="yes"/>Abs- 2 Verfaesungegesetze. StaatsgrundgsRutz vom 2l. Brzuuber
+               <list>
+                  <label>(1)</label>
+                  <item>Äusesr dissem gsestzs sind im Sinne der Artikele 31,<lb break="yes"/>Abs- 2 Verfaesungegesetze. StaatsgrundgsRutz vom 2l. Brzuuber
       </item>
-                     <label>1867</label>
-                     <item>, R.G.Bl.Nr. 142, über die allgemeinen Rechte der Siaatzbür
+                  <label>1867</label>
+                  <item>, R.G.Bl.Nr. 142, über die allgemeinen Rechte der Siaatzbür
 <lb break="no"/>gir für die im Reicherate vertretenen Känigraichs und Länder,
       <lb break="yes"/>-Greatz vom 27. Oktcber 1862, R.G.Bl. Hr. 37, zum Schutze der
       <lb break="yes"/>Erreönlicher Präinsitz - Gesutz vom 27. Oktober 1862, R.G.P1 Nr.
@@ -1342,8 +1341,9 @@
 <lb break="no"/>hebung des Adele, der weltlichen Ritter- und Demenorden und
       <lb break="yes"/>gewieser Titel und würden. - (2) Verfaszungsherlimmungen im Sinne
       <lb break="yes"/>125</item>
-                  </list>
-                  <pb facs="#facs_33" n="33" xml:id="img_0033" break="yes"/>-32-
+               </list>
+               <pb facs="#facs_33" n="33" xml:id="img_0033" break="yes"/>
+               <p>-32-
       <lb break="yes"/>den Artikels 33, Absatz d Kind, Abschnitt Vdes IIl teiles den
       <lb break="yes"/>Staatsvertrages von St. Germain vom 10. September 1919,St.C.
       <lb break="yes"/>Bl. Nr. 302; Poragraph 21, Abr.2, des Geretzes vom 10. Juni 1920,
@@ -1360,10 +1360,10 @@
                      <label>33</label>
                      <item>, Ahs- 2 keine Anwendung.<lb break="yes"/>Artikel 16B.
       </item>
-                     <label>(1) </label>
+                     <label>(1)</label>
                      <item>Dieses Gesetz tritt am Tage des ersten Zusammentretens<lb break="yes"/>des Fatiansientes in kraft, aewell nicht durch das im Art.
       </item>
-                     <label>153 </label>
+                     <label>153</label>
                      <item>bezeicknete Gesetz Ausnehmen festgesetzt werden, - (2) Bi
 <lb break="no"/>Bestinnungen des Art.42, Abe.l, und des Art.35, Abs.2, tre
 <lb break="no"/>ten jedoch am Tage der Kundmachang in Kraft, wabei bit zum In
@@ -1457,7 +1457,7 @@
 <lb break="no"/>Envereinbärungen varzubehalten esi.
       <lb break="yes"/>ner vorsitzende schlivast mit dieser reststellung um
       <list>
-                     <label>7 </label>
+                     <label>7</label>
                      <item>Ihr abende die heutige Sitzung und damit zugleich die 3itzun<lb break="yes"/>an des Interautschusese.</item>
                   </list>
                </p>

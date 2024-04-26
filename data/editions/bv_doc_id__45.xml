@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-23" who="#cfh">document automatically created</change>
+         <change when="2024-04-25" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -239,12 +239,12 @@
       <lb break="yes"/>der deutachen Verfassung zitiert. Beschlossen wird:
       <lb break="yes"/>Nrt. 30.
       <list>
-                     <label>(1) </label>
+                     <label>(1)</label>
                      <item>Gesetzesvorschläge gelangen an den Rationalrat entweder<lb break="yes"/>als Inträgeseiner Mitglieder oder als Vorlagen der Bundesregierung.
       <lb break="yes"/>Der Fandeorat kann in Wege der Bundesreglgrung Gesetzesanträge in
       <lb break="yes"/>Nationalrat stellen.
       </item>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>Der von 300.dco stinnberechtigten oder von je der Mäle
 <lb break="no"/>te der Stinnberechtigten dreier länder gestellte Antrag (Volkebe-</item>
                   </list>
@@ -258,14 +258,13 @@
                <a class="navigation_article" xml:id="navigation_article_2"/>
                <head>Art. 31.
       </head>
-               <p>
-                  <list>
-                     <label>(2) </label>
-                     <item>zu einem Beschluf des lationalrates iet die unresenheit<lb break="yes"/>von windertens einen Drittel der Mitglieder und die unbedingte
+               <list>
+                  <label>(2)</label>
+                  <item>zu einem Beschluf des lationalrates iet die unresenheit<lb break="yes"/>von windertens einen Drittel der Mitglieder und die unbedingte
       <lb break="yes"/>dehrheit der abgegebenen Ptinmen erforderlich.
       </item>
-                     <label>(2) </label>
-                     <item>Eine lbünderung der Bundesverfassung kann jedoch nur<lb break="yes"/>wel Anwegenheit der Hälfte aller Mitrlieder und nur mit einer Mehr
+                  <label>(2)</label>
+                  <item>Eine lbünderung der Bundesverfassung kann jedoch nur<lb break="yes"/>wel Anwegenheit der Hälfte aller Mitrlieder und nur mit einer Mehr
 <lb break="no"/>zeit von zwei Dritteln aller abgegebenen Stinmen beschlossen werden.
       <lb break="yes"/>den.
       <lb break="yes"/>Zu frt. 32 benerkt der Vorsitzende, daß das Nort „benchni
@@ -288,8 +287,9 @@
       <lb break="yes"/>rede, auch das srestz seltst heiset uverfassungr. Volksabstimmung
       <lb break="yes"/>sollte eintraten, wenn ein Frittel der Eitelieder dee Kinderatis
       <lb break="yes"/>oder des Fatiemitratis esverlanet.</item>
-                  </list>
-                  <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>-4-
+               </list>
+               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
+               <p>-4-
       <lb break="yes"/>Dr. Danneberg spricht sich grundsätzlich für die
       <lb break="yes"/>Volksabstimmung aus, befürchtet jedoch, das der große spparat ei
 <lb break="no"/>ner Volksabstinnung unnfentiger Linge halber in Benegung gesetzt
@@ -382,13 +382,12 @@
                <a class="navigation_article" xml:id="navigation_article_4"/>
                <head>Art. 31.
       </head>
-               <p>
-                  <list>
-                     <label>(2) </label>
-                     <item>In der Volkeabstimmung entscheidet die unbedingte Mehrheit<lb break="yes"/>der giltig abgegebenen Stimmen.
+               <list>
+                  <label>(2)</label>
+                  <item>In der Volkeabstimmung entscheidet die unbedingte Mehrheit<lb break="yes"/>der giltig abgegebenen Stimmen.
       </item>
-                     <label>(2) </label>
-                     <item>Das Ergebnie der Volkeabstimmung ist antlich zu verlaut
+                  <label>(2)</label>
+                  <item>Das Ergebnie der Volkeabstimmung ist antlich zu verlaut
 <lb break="no"/>baren.
       <lb break="yes"/>Art. 36 wird abgelehnt, da dem hundespräsidenten
       <lb break="yes"/>kein solches Recht zugebilligt wird, Art. 37 in der Fassung des
@@ -399,41 +398,40 @@
       <lb break="yes"/>der Vollständigkeit halber den Lundesrate mitzuteilen nären, woge
 <lb break="no"/>gen kein Einspruch srhoben wird.
       </item>
-                  </list>
-               </p>
+               </list>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_5"/>
                <head>Art. 38.
       </head>
-               <p>
-                  <list>
-                     <label>(2) </label>
-                     <item>jeder Oesetzesbeschlass der Nationalrates ist anverzüg
+               <list>
+                  <label>(2)</label>
+                  <item>jeder Oesetzesbeschlass der Nationalrates ist anverzüg
 <lb break="no"/>1.
       <lb break="yes"/>412</item>
-                  </list>
-                  <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>2
+               </list>
+               <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
+               <p>2
       <lb break="yes"/>lich durch dessen Präsidenten den Bundeekanzler zu übermitteln, der
       <lb break="yes"/>Ihn sofort dem Bundeerate bekanntzugeben hat.
       <list>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>Ein Gesetzesbeschlues kann, soneit nicht in diesen Artikel<lb break="yes"/>anderes bestinnt ist, nur dann beurkandet und kundgenacht werden,
       <lb break="yes"/>menn der Bandserat gegen diesen Beschluss keinen mit bründen verse
 <lb break="no"/>nenen Einspruch erhoben hat.
       </item>
-                     <label>(3) </label>
+                     <label>(3)</label>
                      <item>Disser Einspruch muss in Wege des Bundeskanzlers den Natio
 <lb break="no"/>nalrate innerhalb acht wochen nach Einlangen des Sesstzesbeschlasses
       <lb break="yes"/>beim Fandesrate schriftlich mitgeteilt werden.
       </item>
-                     <label>(4) </label>
+                     <label>(4)</label>
                      <item>wiederholt der Nationalrat seinen urspränglichen Beschluss<lb break="yes"/>so ist dieser zu beurkunden und kundzunachen. Beschliesst der Bun
 <lb break="no"/>desrat, keinen Einspruch zu erheben, oder wird innerhalb der in ab
 <lb break="no"/>satz 2 festgesetzteh Frist kein mit Begründung verschener Einspruch
       <lb break="yes"/>erhoben, so iat der Gesetzesbeschluss zu beurkunden und kundzunachen.
       </item>
-                     <label>(5) </label>
+                     <label>(5)</label>
                      <item>Das besetz über die Beschäftsführung des Nattenalrates, das<lb break="yes"/>desetz über die Auflösung des Nationalrates, die Bewilligung des
       <lb break="yes"/>Bundesvoranschlages und die Genehnigung der Rechnungsabschlüsse,
       <lb break="yes"/>die Aufnahne und Konvertierung von Bundesanleihen und die Verfügung
@@ -449,25 +447,25 @@
                <a class="navigation_article" xml:id="navigation_article_6"/>
                <head>Art. 10.
       </head>
-               <p>
-                  <list>
-                     <label>(2) </label>
-                     <item>Das verfaseungenäseige Zustandekonnen der Bundesgesetze<lb break="yes"/>somie der in Art. 38, Abs. 5, ernähnten Beschlüsse des Fetionalra
+               <list>
+                  <label>(2)</label>
+                  <item>Das verfaseungenäseige Zustandekonnen der Bundesgesetze<lb break="yes"/>somie der in Art. 38, Abs. 5, ernähnten Beschlüsse des Fetionalra
 <lb break="no"/>tes wird durch die Unterschrift des Bundeepräsidenten beurkundet.
       </item>
-                     <label>(2) </label>
-                     <item>Die Vorlage zur Beurkundung erfolgt durch den Bundeskanz
+                  <label>(2)</label>
+                  <item>Die Vorlage zur Beurkundung erfolgt durch den Bundeskanz
 <lb break="no"/>ler.
       </item>
-                     <label>(3) </label>
-                     <item>Die Beurkundung ist von Fundeskanzler und von den zuständt
+                  <label>(3)</label>
+                  <item>Die Beurkundung ist von Fundeskanzler und von den zuständt
 <lb break="no"/>gen Bundeeninistern gegenzuzeichnen.
       <lb break="yes"/>Dr. Sel pel und Dr. Denneberg münschten eine
       <lb break="yes"/>Vereinsachung der Forn des Ert. Al, wonit die Staätskanzlei betraut
       <lb break="yes"/>1.
       <lb break="yes"/>10</item>
-                  </list>
-                  <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8-
+               </list>
+               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
+               <p>8-
       <lb break="yes"/>wird. Zu Art. 12 bemerkt boktionerat Dr. Hannlicher,
       <lb break="yes"/>dass die Verringerung der vacatio legls auch für die Landesgesetz
 <lb break="no"/>gebung bereits beschlossen sei, der Artikel wird in Nortlaut des
@@ -503,12 +501,12 @@
       <lb break="yes"/>Abg. O l e &amp;s i n beantragt die Aufnahme eines Absatzee
       <lb break="yes"/>1.
       <lb break="yes"/>164</p>
-               <p>
-                  <list>
-                     <label>1</label>
-                     <item>D</item>
-                  </list>
-                  <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9-
+               <list>
+                  <label>1</label>
+                  <item>D</item>
+               </list>
+               <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
+               <p>9-
       <lb break="yes"/>auroh den Mandatowerborn des Beantenstandes der erforderliche Or
 <lb break="no"/>laub für die Handatsbenerbung genährleistet werde. Der Vorsitzende
       <lb break="yes"/>nacht auf die Schnierigkeit der Feststellung aufmerksan, wer als
@@ -538,11 +536,11 @@
       <lb break="yes"/>gegeben. Hierauf wird folgende Neueinschaltung beschlossen:
       <lb break="yes"/>Art. 42 a.
       <list>
-                     <label>(1) </label>
+                     <label>(1)</label>
                      <item>Alle politischen Staatsverträge, andere nur, sofern sie<lb break="yes"/>gesetzesändernden Inhalt haben, bedürfen zu ihrer Fültigkeit der
       <lb break="yes"/>genehnigung durch den Nationalrat.
       </item>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>aut beschlüsse des Fationalrates über die Senehnlgung von</item>
                   </list>
                   <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>10.
@@ -606,35 +604,35 @@
                <a class="navigation_article" xml:id="navigation_article_7"/>
                <head>Art. 18.
       </head>
-               <p>
-                  <list>
-                     <label>(2) </label>
-                     <item>Der Dattonalrat kann durch Beschluss Untersuchungsaus
+               <list>
+                  <label>(2)</label>
+                  <item>Der Dattonalrat kann durch Beschluss Untersuchungsaus
 <lb break="no"/>schisse einsetzen.
       </item>
-                     <label>(2) </label>
-                     <item>Die Gerichte und alle anderen Bewörden sind vergelichtet,<lb break="yes"/>dem Eräuchen dieser Zueschünse um Beweiserhebungen folge zu leisten;
+                  <label>(2)</label>
+                  <item>Die Gerichte und alle anderen Bewörden sind vergelichtet,<lb break="yes"/>dem Eräuchen dieser Zueschünse um Beweiserhebungen folge zu leisten;
       <lb break="yes"/>alle öffentlichen denter haben auf Verlangen ihre Akten vorzulegan.
       </item>
-                     <label>(3) </label>
-                     <item>Das vorfahren dor Untersuchnagsausschüsse wird durch das<lb break="yes"/>geschäftsordnungsgesetz geregelt.
+                  <label>(3)</label>
+                  <item>Das vorfahren dor Untersuchnagsausschüsse wird durch das<lb break="yes"/>geschäftsordnungsgesetz geregelt.
       <lb break="yes"/>bei Besprechung der Ueberschrift des folgenden Abschnittes
       <lb break="yes"/>bemängelt Prof. kelseA Die worte, Die Vollziehung des Bundest
       <lb break="yes"/>als juristisch unkler. Dessor wäre die vollzichende Genalt des Bun
 <lb break="no"/>des, doch ssi man primzipiell bestrebt gewesen, das Nort benalt zu
       <lb break="yes"/>1.</item>
-                  </list>
-                  <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>+12-
+               </list>
+               <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
+               <p>+12-
       <lb break="yes"/>vermelden. Beschlossen wird folgender Vortlaut:
       <lb break="yes"/>dritter abschnitt.
       <lb break="yes"/>Von der Vollziehung des Bundes.
       <lb break="yes"/>a) von der Regisrungsgemalt des Bundes.
       <list>
-                     <label>1. </label>
+                     <label>1.</label>
                      <item>Der Bundespräsident.<lb break="yes"/>Da dieser Abschnitt l bereits angenomnen ist, erörtert der Un
 <lb break="no"/>terausschues sogleich den nächsten Abschnitt:
       </item>
-                     <label>2. </label>
+                     <label>2.</label>
                      <item>Die Fundesregierung.<lb break="yes"/>Der Vorsitzende spricht sich gegen die Kenderung des Pitele
       <lb break="yes"/>Stastssekretär, an den sich die Bevölkerung nunmehr gewöhnt habe,
       <lb break="yes"/>in Bindeeninister aus. Auch in Anerika somie in früheren Deutschen
@@ -689,31 +687,31 @@
                <a class="navigation_article" xml:id="navigation_article_8"/>
                <head>Art. 60.
       </head>
-               <p>
-                  <list>
-                     <label>(1) </label>
-                     <item>Die Bundeeregierung wird vom Uationalrat gewählt. In die<lb break="yes"/>Bundesregierung kann nur gewühlt werden, wer zum Tationalrat wihl
+               <list>
+                  <label>(1)</label>
+                  <item>Die Bundeeregierung wird vom Uationalrat gewählt. In die<lb break="yes"/>Bundesregierung kann nur gewühlt werden, wer zum Tationalrat wihl
 <lb break="no"/>bar ist; die Mitglieder der Bundesregierung münsen nicht dei Ma
 <lb break="no"/>tionalrat angehören.
       </item>
-                     <label>(2) </label>
-                     <item>zur Erstattung eines Vorschlages für die Fahl der Bundes
+                  <label>(2)</label>
+                  <item>zur Erstattung eines Vorschlages für die Fahl der Bundes
 <lb break="no"/>regierung ist der vom Nationalrat aus seiner Mitte nach dem Ver
 <lb break="no"/>hältnienahlrecht gewählte Hauptausschuse berufen.
       </item>
-                     <label>(3) </label>
-                     <item>Der Nationalrat nimnt die fahl der Bundesregierung durch<lb break="yes"/>nauentliche Abstimmung über den desantvorschlag des Hauptausschue
+                  <label>(3)</label>
+                  <item>Der Nationalrat nimnt die fahl der Bundesregierung durch<lb break="yes"/>nauentliche Abstimmung über den desantvorschlag des Hauptausschue
 <lb break="no"/>ces vor.
       </item>
-                     <label>(4) </label>
-                     <item>ist der Nationslrat nicht versammelt, so wird die Bundes
+                  <label>(4)</label>
+                  <item>ist der Nationslrat nicht versammelt, so wird die Bundes
 <lb break="no"/>reglerung bis zum Zusanmenteitt des Nationalrates vom Hauptaus
 <lb break="no"/>schusg bestellt.
       <lb break="yes"/>1.</item>
-                  </list>
-                  <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>22
+               </list>
+               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
+               <p>22
       <list>
-                     <label>(5) </label>
+                     <label>(5)</label>
                      <item>auf die Besteliuag einzeiner Mitglieder der Bundesregle
 <lb break="no"/>rung finden die Bestinmungen der 1beätze 2 bie d sinngendese Ar
 <lb break="no"/>wendung.
@@ -744,7 +742,7 @@
 <lb break="no"/>günzt und folgendernassen fornuliert:
       <lb break="yes"/>Art. 6t a.
       </item>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>Die Gestallungsurkunden des Burdeskenzlers, des Vizskenz
 <lb break="no"/>lers und der übrigen Bundesminlater werden von Dundespräsidenten
       <lb break="yes"/>mit dem Datum des Tages der Angelobung ausgefertigt und von neu</item>
@@ -754,7 +752,7 @@
       <lb break="yes"/>»(2) Die Mitglieder der Bundesregierung werden vor.
       <lb break="yes"/>Antritt ihres Antes von Kundespräsidenten angelobt.
       <list>
-                     <label>(3) </label>
+                     <label>(3)</label>
                      <item>Diese Bestimmungen finden auch auf die Fälle des<lb break="yes"/>Art. 61 einngenäss Anwendung.
       <lb break="yes"/>Artikel 62 wird in der Fassung des Linzer Entwurfes
       <lb break="yes"/>angenomnen, desglelchen Art. 63 unter Streichung der Norte.
@@ -766,15 +764,15 @@
 <lb break="no"/>desministerium ist, lautet Art. 64 folgendernassen:
       <lb break="yes"/>„Art. 64.
       </item>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>zur Gesorgung der Geschäfte der Bundesvernal?<lb break="yes"/>tung sind die Bundesministerien und die ihnen unterstellten
       <lb break="yes"/>Aenter bernfen.
       </item>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>Die Zahl der Bundesninisterien, ihr Wirkangs
 <lb break="no"/>kreis und inre Einrichtung werden durch Bundesgesetz bestinnt.
       </item>
-                     <label>(3) </label>
+                     <label>(3)</label>
                      <item>Der Bundeskanzler und die Bundeeninieter kön
 <lb break="no"/>nen ausnahnsmeise auch mit der Füarung eines zweiter Bundssulni
 <lb break="no"/>steriuns betraut werden.
@@ -817,19 +815,19 @@
 <lb break="no"/>kel s5 in folgenden Fortlaut beschlossen:
       <lb break="yes"/>"Art. 66.
       <list>
-                     <label>11) </label>
+                     <label>11)</label>
                      <item>tabssonderen Fllen kann die Bestellung von Bundseniat
 <lb break="no"/>stera auch glsichzeltige Betrauung mit der Führung einss Bundes
 <lb break="no"/>niuisteriums erfolgen.
       <lb break="yes"/>nde me vetrestir
       </item>
-                     <label>(2) </label>
+                     <label>(2)</label>
                      <item>Den Bunderministern können zur Vaterstützung in der Ge
 <lb break="no"/>schafteführung und zur parlamentarischen Vertretung Stantssekretare
       <lb break="yes"/>debgegeben werden, die in gleicher reise bestellt werden sie die Bun
 <lb break="no"/>aeeminister.
       </item>
-                     <label>(5) </label>
+                     <label>(5)</label>
                      <item>der Staatssekrstär ist den Bundesntnister unterstellt und<lb break="yes"/>an seine Zeisungen gebunden.
       <lb break="yes"/>Artikel 67 wird gestrichen.
       <lb break="yes"/>Dis nächsts Sitzung Mittnech,
