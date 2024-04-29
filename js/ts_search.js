@@ -134,7 +134,7 @@ search.addWidgets([
     container: "#refinement-range-year",
     attribute: "creation_year",
     templates: {
-      separatorText: "to",
+      separatorText: "bis",
       submitText: "Suchen",
     },
     cssClasses: {
