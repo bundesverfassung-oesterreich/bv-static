@@ -395,7 +395,6 @@
                <head>Erster Abschnitt.
                                     <lb break="yes"/>
                </head>
-               <a class="navigation_section" xml:id="navigation_section_1"/>
                <head>Allgemeine Bestimmungen.</head>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_1"/>
@@ -587,7 +586,6 @@
             <div type="section">
                <a class="navigation_section" xml:id="navigation_section_2"/>
                <head>Zweiter Abschnitt.</head>
-               <a class="navigation_section" xml:id="navigation_section_2"/>
                <head>Von der Gesetzgebung des Bundes.</head>
                <div type="section">
                   <a class="navigation_section" xml:id="navigation_section_3"/>
@@ -1388,7 +1386,6 @@
             <div type="section">
                <a class="navigation_section" xml:id="navigation_section_7"/>
                <head>Dritter Abschnitt.</head>
-               <a class="navigation_section" xml:id="navigation_section_7"/>
                <head>Von der Vollziehung des Bundes. </head>
                <div type="section">
                   <a class="navigation_section" xml:id="navigation_section_8"/>
@@ -2255,7 +2252,6 @@
             <div type="section">
                <a class="navigation_section" xml:id="navigation_section_13"/>
                <head>Vierter Abschnitt. </head>
-               <a class="navigation_section" xml:id="navigation_section_13"/>
                <head>Von der Gesetzgebung und Vollziehung der Länder. </head>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_89"/>
@@ -2570,7 +2566,6 @@
             <div type="section">
                <a class="navigation_section" xml:id="navigation_section_14"/>
                <head>Fünfter Abschnitt.</head>
-               <a class="navigation_section" xml:id="navigation_section_14"/>
                <head>Von der Rechnungskontrolle des Bundes. </head>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_104"/>
@@ -2885,7 +2880,6 @@
             <div type="section">
                <a class="navigation_section" xml:id="navigation_section_15"/>
                <head>Sechster Abschnitt. </head>
-               <a class="navigation_section" xml:id="navigation_section_15"/>
                <head>Von den Grund- und Freiheitsrechten. </head>
                <div type="article">
                   <a class="navigation_article" xml:id="navigation_article_121"/>
@@ -3523,7 +3517,6 @@
             <div type="section">
                <a class="navigation_section" xml:id="navigation_section_16"/>
                <head>Siebenter Abschnitt.</head>
-               <a class="navigation_section" xml:id="navigation_section_16"/>
                <head>Von den Garantien der Verfassung und Verwaltung. </head>
                <div type="section">
                   <a class="navigation_section" xml:id="navigation_section_17"/>
