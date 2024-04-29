@@ -105,7 +105,7 @@ Anzahl Artikel: 101</note>
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-25" who="#cfh">document automatically created</change>
+         <change when="2024-04-27" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -288,20 +288,12 @@ Anzahl Artikel: 101</note>
                <p>Die Machtverteilung zwischen dem Bund und den Ländern.
       <lb break="yes"/>Soweit die Länder ihre Hoheitsrechte dem Bunde übertragen,
       <lb break="yes"/>kommt diesem in den übertragenen Angelegenheiten entweder
-      <list>
-                     <label>1.</label>
-                     <item>die ausschließliche Gesetzgebung und Verwaltung zu (aus
-<lb break="no"/>schließlicher Wirkungskreis) oder</item>
-                  </list>
-               </p>
-               <p>- 1 -<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
-               </p>
-               <list>
-                  <label>2.</label>
-                  <item>nur die Gesetzgebung und die Aufsicht über die Verwaltung<lb break="yes"/>zu, die den Ländern verbleibt (grundlegender Wirkungskreis) oder
-      </item>
-                  <label>3.</label>
-                  <item>nur die gesetzliche Festlegung der Grundsätze zu, während<lb break="yes"/>den Ländern die nähere gesetzliche Regelung und die Verwaltung
+      <lb break="yes"/>1. die ausschließliche Gesetzgebung und Verwaltung zu (aus
+<lb break="no"/>schließlicher Wirkungskreis) oder</p>
+               <p>- 1 -<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>2. nur die Gesetzgebung und die Aufsicht über die Verwaltung
+      <lb break="yes"/>zu, die den Ländern verbleibt (grundlegender Wirkungskreis) oder
+      <lb break="yes"/>3. nur die gesetzliche Festlegung der Grundsätze zu, während
+      <lb break="yes"/>den Ländern die nähere gesetzliche Regelung und die Verwaltung
       <lb break="yes"/>obliegt (grundsätzlicher Wirkungskreis).
       <lb break="yes"/>Soweit verfassungsgemäß Bundesgesetze vorliegen, sind sie für
       <lb break="yes"/>die Länder bindend.
@@ -320,8 +312,7 @@ Anzahl Artikel: 101</note>
       <lb break="yes"/>Bundesgesetz weichen.
       <lb break="yes"/>Über Verfassungsstreitigkeiten zwischen den Ländern oder
       <lb break="yes"/>zwischen dem Bund und einzelnen Ländern entscheidet das Bundes
-<lb break="no"/>verfassungsgericht.</item>
-               </list>
+<lb break="no"/>verfassungsgericht.</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_6"/>
@@ -331,59 +322,38 @@ Anzahl Artikel: 101</note>
                   <emph>Ausschließlicher Wirkungskreis des Bundes.</emph>
                   <lb break="yes"/>Der Bund hat Gesetzgebung und Verwaltung über folgende
       <lb break="yes"/>Angelegenheiten:
-      <list>
-                     <label>1.</label>
-                     <item>Die Beziehungen zum Ausland, die diplomatische und kom
+      <lb break="yes"/>1. Die Beziehungen zum Ausland, die diplomatische und kom
 <lb break="no"/>merzielle Vertretung, die Kriegserklärung, den Friedensschluß, die
       <lb break="yes"/>Staatsverträge, die Handelsverträge, die Regelung des Zollwesens.
-      </item>
-                     <label>2.</label>
-                     <item>Die Wehrverfassung mit Ausnahme des Polizei= und Gen
+      <lb break="yes"/>2. Die Wehrverfassung mit Ausnahme des Polizei= und Gen
 <lb break="no"/>darmeriewesens.
-      </item>
-                     <label>3.</label>
-                     <item>Die Erhebung der Anklage gegen den Bundespräsidenten<lb break="yes"/>den Bundeskanzler und die Mitglieder der Bundesregierung wegen
+      <lb break="yes"/>3. Die Erhebung der Anklage gegen den Bundespräsidenten
+      <lb break="yes"/>den Bundeskanzler und die Mitglieder der Bundesregierung wegen
       <lb break="yes"/>Verletzung der Verfassung.
-      </item>
-                     <label>4.</label>
-                     <item>Die Regelung der Ein= und Auswanderung, der Ausliefe
+      <lb break="yes"/>4. Die Regelung der Ein= und Auswanderung, der Ausliefe
 <lb break="no"/>rung, des Paßzwanges, der Bevölkerungspolitik, der Statistik, des
       <lb break="yes"/>Gesundheits= und Veterinärwesens.
-      </item>
-                     <label>5.</label>
-                     <item>Das Münzwesen, das Papiergeldwesens, Banken und Bör
+      <lb break="yes"/>5. Das Münzwesen, das Papiergeldwesens, Banken und Bör
 <lb break="no"/>sen, mit Ausnahme der Länderbanken, Agrarbanken, Heimstätten
       <lb break="yes"/>banken und gewerblichen Kreditanstalten.
-      </item>
-                     <label>6.</label>
-                     <item>Maße und Gewichte, Marken, Muster, Patente, Urheber
-<lb break="no"/>rechte.</item>
-                  </list>
-               </p>
-               <list>
-                  <label>7.</label>
-                  <item>Das Bundesverkehrswesen; Post, Telegraph, Fernsprecher,<lb break="yes"/>nenschiffahrt, Luft= und Kraftfahrzeuge, Bundesbahnen, Bun
+      <lb break="yes"/>6. Maße und Gewichte, Marken, Muster, Patente, Urheber
+<lb break="no"/>rechte.</p>
+               <p>7. Das Bundesverkehrswesen; Post, Telegraph, Fernsprecher,
+      <lb break="yes"/>nenschiffahrt, Luft= und Kraftfahrzeuge, Bundesbahnen, Bun
 <lb break="no"/>desstraßen.
-      </item>
-                  <label>8.</label>
-                  <item>Die Energiewirtschaft, insbesondere Elektrizität und Kohle.</item>
-                  <label>9.</label>
-                  <item>Das Volks-, Mittel- und Hochschulwesen, das Fortbildungs
+      <lb break="yes"/>8. Die Energiewirtschaft, insbesondere Elektrizität und Kohle.
+      <lb break="yes"/>9. Das Volks-, Mittel- und Hochschulwesen, das Fortbildungs
 <lb break="no"/>schulwesen.
-      </item>
-                  <label>10.</label>
-                  <item>Das Bundesfinanzwesen: Die Regelung des Bundeshaus<lb break="yes"/>haltes, der Bundessteuern, der Bundesschulden, des Bundesver
+      <lb break="yes"/>10. Das Bundesfinanzwesen: Die Regelung des Bundeshaus
+      <lb break="yes"/>haltes, der Bundessteuern, der Bundesschulden, des Bundesver
 <lb break="no"/>mögens, die Verteilung der Steuerquellen zwischen Bund und
       <lb break="yes"/>Ländern, wobei als Grundsatz zu gelten hat, daß die von Grund
       <lb break="yes"/>und Boden zu entrichtenden Steuern (Grund-, Haus= und Boden
       <lb break="yes"/>wertsteuer) den Ländern zu verbleiben haben und daß die Steuer
       <lb break="yes"/>im Lande der Produktionsstätte zu entrichten ist.
-      </item>
-                  <label>11.</label>
-                  <item>Das bürgerliche Recht, das Strafrecht. das gerichtliche Ver
+      <lb break="yes"/>11. Das bürgerliche Recht, das Strafrecht. das gerichtliche Ver
 <lb break="no"/>fahren, das Preßrecht, die Organisation der Bundesbehörden.
-      </item>
-               </list>
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_7"/>
@@ -392,39 +362,23 @@ Anzahl Artikel: 101</note>
                <p>
                   <emph>Der grundlegende Wirkungskreis des Bundes.</emph>
                   <lb break="yes"/>Zu dem grundlegenden Wirkungskreis des Bundes gehören:
-      <list>
-                     <label>1.</label>
-                     <item>Die Organisation der Behörde, die Regelung des Verhält
+      <lb break="yes"/>1. Die Organisation der Behörde, die Regelung des Verhält
 <lb break="no"/>nisses der Advokaten und Notare, die Regelung der Rechte der
       <lb break="yes"/>öffentlichen Angestellten.
-      </item>
-                     <label>2.</label>
-                     <item>Die Regelung des Arbeitsrechtes, des Arbeitschutzes und<lb break="yes"/>des Arbeitsnachweises.</item>
-                  </list>
-               </p>
-               <p>- 2 -<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
-               </p>
-               <list>
-                  <label>3.</label>
-                  <item>Die Regelung der Versicherung für den Fall der Krank
+      <lb break="yes"/>2. Die Regelung des Arbeitsrechtes, des Arbeitschutzes und
+      <lb break="yes"/>des Arbeitsnachweises.</p>
+               <p>- 2 -<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3. Die Regelung der Versicherung für den Fall der Krank
 <lb break="no"/>heit, des Alters, der Arbeitslosigkeit und des Unfalles.
-      </item>
-                  <label>4.</label>
-                  <item>Das Fürsorgewesen, insbesondere hinsichtlich der Kriegs
+      <lb break="yes"/>4. Das Fürsorgewesen, insbesondere hinsichtlich der Kriegs
 <lb break="no"/>beschädigten, der Kriegswitwen und -Waisen, der Schutz der
       <lb break="yes"/>Mutterschaft.
-      </item>
-                  <label>5.</label>
-                  <item>Das Handel= und Gewerbewesen mit Ausnahme des Bank-<lb break="yes"/>und Börsenwesens.
-      </item>
-                  <label>6.</label>
-                  <item>Die Gesetzgebung über Berufsverbände, Planwirtschaft und<lb break="yes"/>Enteignung.
-      </item>
-                  <label>7.</label>
-                  <item>Das Ernährungswesen.</item>
-                  <label>8.</label>
-                  <item>Das Wasserrechtswesen.</item>
-               </list>
+      <lb break="yes"/>5. Das Handel= und Gewerbewesen mit Ausnahme des Bank-
+      <lb break="yes"/>und Börsenwesens.
+      <lb break="yes"/>6. Die Gesetzgebung über Berufsverbände, Planwirtschaft und
+      <lb break="yes"/>Enteignung.
+      <lb break="yes"/>7. Das Ernährungswesen.
+      <lb break="yes"/>8. Das Wasserrechtswesen.
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_8"/>
@@ -433,20 +387,13 @@ Anzahl Artikel: 101</note>
                <p>
                   <emph>Der grundsätzliche Wirkungskreis.</emph>
                   <lb break="yes"/>Zum grundsätzlichen Wirkungskreis des Bundes gehört:
-      <list>
-                     <label>1.</label>
-                     <item>Das Heimatrecht und das Landesbürgerrecht;</item>
-                     <label>2.</label>
-                     <item>das Forstwesen;</item>
-                     <label>3.</label>
-                     <item>das Agrarwesen;</item>
-                     <label>4.</label>
-                     <item>das Kultuswesen;</item>
-                     <label>5.</label>
-                     <item>das Bankwesen, soweit es nicht in den ausschließlichen<lb break="yes"/>Wirkungskreis fällt.
-      </item>
-                  </list>
-               </p>
+      <lb break="yes"/>1. Das Heimatrecht und das Landesbürgerrecht;
+      <lb break="yes"/>2. das Forstwesen;
+      <lb break="yes"/>3. das Agrarwesen;
+      <lb break="yes"/>4. das Kultuswesen;
+      <lb break="yes"/>5. das Bankwesen, soweit es nicht in den ausschließlichen
+      <lb break="yes"/>Wirkungskreis fällt.
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_9"/>
@@ -976,13 +923,9 @@ Anzahl Artikel: 101</note>
                   <emph>Der Bundespräsident.</emph>
                   <lb break="yes"/>Der Bundespräsident und sein Stellvertreter werden von allen
       <lb break="yes"/>Staatsbürgern nach dem Verhältniswahlrechte für die Dauer von
-      <list>
-                     <label>4</label>
-                     <item>Jahren gewählt; ihre Wiederwahl ist zulässig. Das Nähere be
+      <lb break="yes"/>4 Jahren gewählt; ihre Wiederwahl ist zulässig. Das Nähere be
 <lb break="no"/>stimmt ein besonderes Gesetz.
-      </item>
-                  </list>
-               </p>
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_42"/>
@@ -990,52 +933,36 @@ Anzahl Artikel: 101</note>
       </head>
                <p>
                   <emph>Wirkungskreis des Bundespräsidenten.</emph>
-                  <list>
-                     <label>1.</label>
-                     <item>Er vertritt den Bund nach außen, mit Zustimmung des<lb break="yes"/>Bundestages erklärt er Krieg und schließt Staatsverträge ab, mit
+                  <lb break="yes"/>1. Er vertritt den Bund nach außen, mit Zustimmung des
+      <lb break="yes"/>Bundestages erklärt er Krieg und schließt Staatsverträge ab, mit
       <lb break="yes"/>Zustimmung des Volkes schließt er Frieden;
-      </item>
-                     <label>2.</label>
-                     <item>er hat den Oberbefehl über das Heer;</item>
-                     <label>3.</label>
-                     <item>er ernennt die Offiziere und Bundesangestellten selbst oder<lb break="yes"/>durch die Regierung;
-      </item>
-                     <label>4.</label>
-                     <item>er ernennt über Vorschlag des Bundestages den Bundes
+      <lb break="yes"/>2. er hat den Oberbefehl über das Heer;
+      <lb break="yes"/>3. er ernennt die Offiziere und Bundesangestellten selbst oder
+      <lb break="yes"/>durch die Regierung;
+      <lb break="yes"/>4. er ernennt über Vorschlag des Bundestages den Bundes
 <lb break="no"/>kanzler und über Vorschlag des Bundeskanzlers die Bundesminister
       <lb break="yes"/>ferner über Vorschlag der Landtage die Landeshauptleute und
       <lb break="yes"/>ihre beiden Stellvertreter;
-      </item>
-                     <label>5.</label>
-                     <item>er genehmigt und veröffentlicht die Beschlüsse des Bundes<lb break="yes"/>tages, er kann mit Zustimmung des Bundesrates einem Beschluß
+      <lb break="yes"/>5. er genehmigt und veröffentlicht die Beschlüsse des Bundes
+      <lb break="yes"/>tages, er kann mit Zustimmung des Bundesrates einem Beschluß
       <lb break="yes"/>des Bundestages die Genehmigung versagen und den Bundestag,
-      <lb break="yes"/>falls er auf seinem Beschluß verharrt, auflösen. Kommt der neu</item>
-                  </list>
-               </p>
+      <lb break="yes"/>falls er auf seinem Beschluß verharrt, auflösen. Kommt der neu</p>
                <p>gewählte Bundestag zum gleichen Beschluß, so erhält dieser ohne
       <lb break="yes"/>Genehmigung des Bundespräsidenten Gesetzeskraft;
-      <list>
-                     <label>6.</label>
-                     <item>er ordnet die Wahlen für den Bundesrat und Bundestag an<lb break="yes"/>leitet den Volksentscheid, beruft die Sitzungen des Bundesrates ein,
+      <lb break="yes"/>6. er ordnet die Wahlen für den Bundesrat und Bundestag an
+      <lb break="yes"/>leitet den Volksentscheid, beruft die Sitzungen des Bundesrates ein,
       <lb break="yes"/>ihm obliegt ferner die Einberufung, die Vertagung und die Schlie
 <lb break="no"/>ßung der Sitzungsperiode des Bundestages. Er kann auch außer
       <lb break="yes"/>dem Falle der Ziffer 5, jedoch nur einmal aus dem gleichen Anlasse
       <lb break="yes"/>den Bundestag auflösen, muß aber gleichzeitig Neuwahlen aus
 <lb break="no"/>schreiben.
-      </item>
-                     <label>7.</label>
-                     <item>er hat das Verordnungsrecht auf Grund der Bundesgesetze;</item>
-                     <label>8.</label>
-                     <item>er übt das dem Bund zustehende Aufsichtsrecht über die<lb break="yes"/>Verwaltung der Länder aus;
-      </item>
-                     <label>9.</label>
-                     <item>er hat das Recht der Begnadigung in Einzelfällen;</item>
-                     <label>10.</label>
-                     <item>er verfügt mit Zustimmung des Bundesrates den Aus
+      <lb break="yes"/>7. er hat das Verordnungsrecht auf Grund der Bundesgesetze;
+      <lb break="yes"/>8. er übt das dem Bund zustehende Aufsichtsrecht über die
+      <lb break="yes"/>Verwaltung der Länder aus;
+      <lb break="yes"/>9. er hat das Recht der Begnadigung in Einzelfällen;
+      <lb break="yes"/>10. er verfügt mit Zustimmung des Bundesrates den Aus
 <lb break="no"/>nahmszustand.
-      </item>
-                  </list>
-               </p>
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_43"/>
@@ -1083,30 +1010,20 @@ Anzahl Artikel: 101</note>
                <p>
                   <emph>Zuständigkeit des Bundesrates.</emph>
                </p>
-               <list>
-                  <label>1.</label>
-                  <item>Über Verlangen des Bundesrates hat vor ihm die Bundes
+               <p>1. Über Verlangen des Bundesrates hat vor ihm die Bundes
 <lb break="no"/>regierung zur Erteilung aller begehrten Auskünfte über Regie
 <lb break="no"/>rungsgeschäfte zu erscheinen.
-      </item>
-                  <label>2.</label>
-                  <item>Regierungsvorlagen können nur mit Zustimmung des Bun
+      <lb break="yes"/>2. Regierungsvorlagen können nur mit Zustimmung des Bun
 <lb break="no"/>desrates eingebracht werden.
-      </item>
-                  <label>3.</label>
-                  <item>Beschlüsse des Bundestages sind dem Bundesrate vorzulegen.<lb break="yes"/>Der Bundespräsident bedarf der Zustimmung des Bundesrates,
+      <lb break="yes"/>3. Beschlüsse des Bundestages sind dem Bundesrate vorzulegen.
+      <lb break="yes"/>Der Bundespräsident bedarf der Zustimmung des Bundesrates,
       <lb break="yes"/>falls er einem Beschluß des Bundestages die Genehmigung ver
 <lb break="no"/>weigert.
-      </item>
-                  <label>4.</label>
-                  <item>Die Verhängung des Ausnahmszustandes bedarf der Zu
+      <lb break="yes"/>4. Die Verhängung des Ausnahmszustandes bedarf der Zu
 <lb break="no"/>stimmung des Bundesrates.
-      </item>
-                  <label>5.</label>
-                  <item>Die Auflösung des Bundestages kann vom Bundespräsiden
+      <lb break="yes"/>5. Die Auflösung des Bundestages kann vom Bundespräsiden
 <lb break="no"/>ten nur mit Zustimmung des Bundesrates verfügt werden.
-      </item>
-               </list>
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_46"/>
@@ -1266,33 +1183,22 @@ Anzahl Artikel: 101</note>
                <p>
                   <emph>Zuständigkeit des Bundestages.</emph>
                   <lb break="yes"/>Dem Bundestage obliegt:
-      <list>
-                     <label>1.</label>
-                     <item>Die Mitwirkung bei der Gesetzgebung in allen Bundes
+      <lb break="yes"/>1. Die Mitwirkung bei der Gesetzgebung in allen Bundes
 <lb break="no"/>angelegenheiten und die Kriegserklärung. Der Abschluß von
       <lb break="yes"/>Staatsverträgen und die Festsetzung des Staatshaushaltes haben
       <lb break="yes"/>in Form von Gesetzen zu erfolgen.
-      </item>
-                     <label>2.</label>
-                     <item>Die Erstattung des Vorschlages zur Ernennung des<lb break="yes"/>Bundeskanzlers unter Namhaftmachung von 3 Bewerbern.
-      </item>
-                     <label>3.</label>
-                     <item>Ablehnung der Bundesminister.</item>
-                     <label>4.</label>
-                     <item>Das Recht, die Geschäftsführung der Regierung zu über¬</item>
-                  </list>
-               </p>
+      <lb break="yes"/>2. Die Erstattung des Vorschlages zur Ernennung des
+      <lb break="yes"/>Bundeskanzlers unter Namhaftmachung von 3 Bewerbern.
+      <lb break="yes"/>3. Ablehnung der Bundesminister.
+      <lb break="yes"/>4. Das Recht, die Geschäftsführung der Regierung zu über¬</p>
                <p>prüfen. Anfragen zu stellen, Auskünfte zu verlangen und über
       <lb break="yes"/>Antrag eines Fünftels der Mitglieder Untersuchungsausschüsse ein
 <lb break="no"/>zusetzen, welchen die Befugnisse eines ordentlichen Untersuchungs
 <lb break="no"/>gerichtes nach der St.=P.=O. zukommen.
-      <list>
-                     <label>5.</label>
-                     <item>Das Recht, den Bundespräsidenten, den Bundeskanzler und<lb break="yes"/>die Minister in den Anklagezustand zu versetzen und einen Volks
+      <lb break="yes"/>5. Das Recht, den Bundespräsidenten, den Bundeskanzler und
+      <lb break="yes"/>die Minister in den Anklagezustand zu versetzen und einen Volks
 <lb break="no"/>entscheid über die Absetzung des Bundespräsidenten zu verlangen.
-      </item>
-                  </list>
-               </p>
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_58"/>
@@ -1311,21 +1217,16 @@ Anzahl Artikel: 101</note>
                <head>Art. 59.</head>
                <p>Die Gesamtheit der zum Bundestage wahlberechtigten
       <lb break="yes"/>Personen wird als Organ der Staatsgewalt tätig:
-      <list>
-                     <label>1.</label>
-                     <item>Bei Änderung der Verfassung;</item>
-                     <label>2.</label>
-                     <item>bei Abschluß von Friedensverträgen;</item>
-                     <label>3.</label>
-                     <item>bei Absetzung des Bundespräsidenten.<lb break="yes"/>In den beiden ersten Fällen leitet der Bundespräsident, im
+      <lb break="yes"/>1. Bei Änderung der Verfassung;
+      <lb break="yes"/>2. bei Abschluß von Friedensverträgen;
+      <lb break="yes"/>3. bei Absetzung des Bundespräsidenten.
+      <lb break="yes"/>In den beiden ersten Fällen leitet der Bundespräsident, im
       <lb break="yes"/>letzten Falle der Präsident des Bundestages den Volksentscheid.
       <lb break="yes"/>Der Volksentscheid ist in der Weise durchzuführen, daß ihm
       <lb break="yes"/>ein Beschluß des Bundestages zur Annahme oder Ablehnung vor
 <lb break="no"/>gelegt wird.
       <lb break="yes"/>
-                        <emph>V. Die Bundesregierung.</emph>
-                     </item>
-                  </list>
+                  <emph>V. Die Bundesregierung.</emph>
                </p>
             </div>
             <div type="article">
@@ -1471,15 +1372,12 @@ Anzahl Artikel: 101</note>
                <head>Art. 69.
       </head>
                <p>Zur Änderung der Landesverfassung ist die Anwesenheit von
-      <list>
-                     <label>2</label>
-                     <item>/3 der Mitglieder und die Mehrheit von ¾ der abgegebenen<lb break="yes"/>Stimmen erforderlich.
+      <lb break="yes"/>2/3 der Mitglieder und die Mehrheit von ¾ der abgegebenen
+      <lb break="yes"/>Stimmen erforderlich.
       <lb break="yes"/>Das gleiche Stimmenverhältnis ist zur Erhebung der Anklage
       <lb break="yes"/>gegen den Landeshauptmann wegen Verletzung der Verfassung
       <lb break="yes"/>erforderlich.
-      </item>
-                  </list>
-               </p>
+      </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_70"/>
@@ -1538,35 +1436,24 @@ Anzahl Artikel: 101</note>
                <head>Art. 73.
       </head>
                <p>Der Wirkungskreis der Bezirkswirtschaftskammer ist folgender:
-      <list>
-                     <label>1.</label>
-                     <item>Beratung aller wirtschaftlichen und sozialpolitischen Ange
-<lb break="no"/>legenheiten des Bezirkes;</item>
-                  </list>
-               </p>
+      <lb break="yes"/>1. Beratung aller wirtschaftlichen und sozialpolitischen Ange
+<lb break="no"/>legenheiten des Bezirkes;</p>
                <p>* <emph>
                      <gap reason="illegible"/>
                   </emph>
                </p>
-               <p>- 14 -<pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
-               </p>
-               <list>
-                  <label>2.</label>
-                  <item>Erstattung von Gutachten und Vorschlägen in Fällen der<lb break="yes"/>Sozialisierung und Planwirtschaft;
-      </item>
-                  <label>3.</label>
-                  <item>Entscheidung über Beschwerden gegen Beschlüsse der<lb break="yes"/>Betriebsräte;
-      </item>
-                  <label>4.</label>
-                  <item>die Durchführung der Geschäfte der sozialen Versicherung<lb break="yes"/>des Arbeitsnachweises und die Schlichtung von Arbeit= und Lohn
+               <p>- 14 -<pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>2. Erstattung von Gutachten und Vorschlägen in Fällen der
+      <lb break="yes"/>Sozialisierung und Planwirtschaft;
+      <lb break="yes"/>3. Entscheidung über Beschwerden gegen Beschlüsse der
+      <lb break="yes"/>Betriebsräte;
+      <lb break="yes"/>4. die Durchführung der Geschäfte der sozialen Versicherung
+      <lb break="yes"/>des Arbeitsnachweises und die Schlichtung von Arbeit= und Lohn
 <lb break="no"/>streitigkeiten;
-      </item>
-                  <label>5.</label>
-                  <item>die Entsendung von laeräten an die Bezirksbehörde und<lb break="yes"/>an die Laiengerichte.
+      <lb break="yes"/>5. die Entsendung von laeräten an die Bezirksbehörde und
+      <lb break="yes"/>an die Laiengerichte.
       <lb break="yes"/>
-                     <emph>II. Die Landeswirtschaftskammer.</emph>
-                  </item>
-               </list>
+                  <emph>II. Die Landeswirtschaftskammer.</emph>
+               </p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_74"/>
@@ -1583,31 +1470,22 @@ Anzahl Artikel: 101</note>
                <head>Art. 75.
       </head>
                <p>Zum Wirkungskreis der Landeswirtschaftskammer gehören,
-      <list>
-                     <label>1.</label>
-                     <item>Die Vorberatung aller sozialpolitischen und wirtschaftlichen<lb break="yes"/>Landesgesetze.
+      <lb break="yes"/>1. Die Vorberatung aller sozialpolitischen und wirtschaftlichen
+      <lb break="yes"/>Landesgesetze.
       <lb break="yes"/>Der Landtag hat bei sonstiger Ungültigkeit seines Beschlusses
       <lb break="yes"/>eine derartige Gesetzesvorlage der Landeswirtschaftskammer unter
       <lb break="yes"/>setzung einer Frist von zwei bis vier Wochen zur Begutachtung
       <lb break="yes"/>bermitteln, ist aber nicht weiter an das Gutachten gebunden.
-      </item>
-                     <label>2.</label>
-                     <item>Die Antragstellung auf Erlassung von Landesgesetzen sozial¬</item>
-                  </list>
-               </p>
+      <lb break="yes"/>2. Die Antragstellung auf Erlassung von Landesgesetzen sozial¬</p>
                <p>politischen und wirtschaftlichen Inhaltes und Vertretung dieses
       <lb break="yes"/>Antrages im Landtag durch ein Mitglied der Landeswirtschafts
 <lb break="no"/>kammer.
-      <list>
-                     <label>3.</label>
-                     <item>Die Entscheidung über Beschwerden gegen Verfügungen der<lb break="yes"/>Bezirkswirtschaftskammern.
-      </item>
-                     <label>4.</label>
-                     <item>Die Entsendung von laeräten an die Landesregierung und<lb break="yes"/>die Namhaftmachung von Laienrichtern.
+      <lb break="yes"/>3. Die Entscheidung über Beschwerden gegen Verfügungen der
+      <lb break="yes"/>Bezirkswirtschaftskammern.
+      <lb break="yes"/>4. Die Entsendung von laeräten an die Landesregierung und
+      <lb break="yes"/>die Namhaftmachung von Laienrichtern.
       <lb break="yes"/>
-                        <emph>III. Die Reichswirtschaftskammer.</emph>
-                     </item>
-                  </list>
+                  <emph>III. Die Reichswirtschaftskammer.</emph>
                </p>
             </div>
             <div type="article">
@@ -1624,35 +1502,29 @@ Anzahl Artikel: 101</note>
                <a class="navigation_article" xml:id="navigation_article_77"/>
                <head>Art. 77.</head>
                <p>Zum Wirkungskreis der Reichswirtschaftskammer gehören:
-      <list>
-                     <label>1.</label>
-                     <item>Die Vorberatung aller sozialpolitischen und wirtschaftlichen<lb break="yes"/>Bundesgesetze, insbesondere solcher, durch welche neue Steuern
+      <lb break="yes"/>1. Die Vorberatung aller sozialpolitischen und wirtschaftlichen
+      <lb break="yes"/>Bundesgesetze, insbesondere solcher, durch welche neue Steuern
       <lb break="yes"/>aufgelegt oder neue Schuldverpflichtungen eingegangen werden
       <lb break="yes"/>sollen.
       <lb break="yes"/>Der Bundestag hat bei sonstiger Ungültigkeit seines Beschlusses
       <lb break="yes"/>eine derartige Gesetzesvorlage der Reichswirtschaftskammer unter
       <lb break="yes"/>setzung einer Frist von zwei bis vier Wochen zur Begutachtung
       <lb break="yes"/>zu übermitteln, ist aber nicht weiter an das Gutachten gebunden.
-      </item>
-                     <label>2.</label>
-                     <item>Die Antragstellung auf Erlassung von Bundesgesetzen<lb break="yes"/>sozialpolitischen und wirtschaftlichen Inhaltes und Vertretung dieses
+      <lb break="yes"/>2. Die Antragstellung auf Erlassung von Bundesgesetzen
+      <lb break="yes"/>sozialpolitischen und wirtschaftlichen Inhaltes und Vertretung dieses
       <lb break="yes"/>Antrages im Bundestage durch ein Mitglied der Reichswirtschafts
 <lb break="no"/>kammer.
-      </item>
-                     <label>3.</label>
-                     <item>Die Entscheidung über Beschwerden gegen Verfügungen<lb break="yes"/>und Entscheidungen der Landeswirtschaftskammer.
-      </item>
-                     <label>4.</label>
-                     <item>Die Entsendung von laeräten an die Bundesregierung und<lb break="yes"/>an die Bundesgerichte, insoweit das Gesetz die Zuziehung solcher
+      <lb break="yes"/>3. Die Entscheidung über Beschwerden gegen Verfügungen
+      <lb break="yes"/>und Entscheidungen der Landeswirtschaftskammer.
+      <lb break="yes"/>4. Die Entsendung von laeräten an die Bundesregierung und
+      <lb break="yes"/>an die Bundesgerichte, insoweit das Gesetz die Zuziehung solcher
       <lb break="yes"/>vorsieht.
       <lb break="yes"/>
-                        <emph>VI. Hauptteil</emph>.
+                  <emph>VI. Hauptteil</emph>.
       <lb break="yes"/>
-                        <emph>Verwaltung, Heerwesen und Rechtspflege.</emph>
-                        <lb break="yes"/>
-                        <emph>Die Verwaltung.</emph>
-                     </item>
-                  </list>
+                  <emph>Verwaltung, Heerwesen und Rechtspflege.</emph>
+                  <lb break="yes"/>
+                  <emph>Die Verwaltung.</emph>
                </p>
             </div>
             <div type="article">
@@ -1897,27 +1769,18 @@ Anzahl Artikel: 101</note>
                <a class="navigation_article" xml:id="navigation_article_93"/>
                <head>Art. 93.</head>
                <p>Das Bundesverfassungsgericht hat zu entscheiden
-      <list>
-                     <label>1.</label>
-                     <item>Über Kompetenzkonflikte zwischen den ordentlichen Gerichten<lb break="yes"/>und den Verwaltungsbehörden, bezw. Verwattungsgerichten.
-      </item>
-                     <label>2.</label>
-                     <item>Über Kompetenzkonflikte zwischen der Bundesregierung und<lb break="yes"/>einer Landesregierung oder zwischen Landesnegierungen unter
+      <lb break="yes"/>1. Über Kompetenzkonflikte zwischen den ordentlichen Gerichten
+      <lb break="yes"/>und den Verwaltungsbehörden, bezw. Verwattungsgerichten.
+      <lb break="yes"/>2. Über Kompetenzkonflikte zwischen der Bundesregierung und
+      <lb break="yes"/>einer Landesregierung oder zwischen Landesnegierungen unter
 <lb break="no"/>einander.
-      </item>
-                     <label>3.</label>
-                     <item>Über die Frage, ob Landesgesetze, Bundes- oder Landes
+      <lb break="yes"/>3. Über die Frage, ob Landesgesetze, Bundes- oder Landes
 <lb break="no"/>verordnungen gesetzwidrig sind.
-      </item>
-                     <label>4.</label>
-                     <item>Über die Anfechtung von Wahlen und über die Frage des<lb break="yes"/>Mandatsverlustes bei öffentlichen Vertretungskörpern.
-      </item>
-                     <label>5.</label>
-                     <item>Über die Anklage gegen den Bundespräsidenten, die Mit
+      <lb break="yes"/>4. Über die Anfechtung von Wahlen und über die Frage des
+      <lb break="yes"/>Mandatsverlustes bei öffentlichen Vertretungskörpern.
+      <lb break="yes"/>5. Über die Anklage gegen den Bundespräsidenten, die Mit
 <lb break="no"/>glieder der Bundesregierung und der Landesregirungen wegen
-      <lb break="yes"/>Verletzung der Verfassung.</item>
-                  </list>
-               </p>
+      <lb break="yes"/>Verletzung der Verfassung.</p>
                <p>- 18 -<pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
                </p>
             </div>
@@ -1978,16 +1841,12 @@ Anzahl Artikel: 101</note>
                <head>Art. 99.
       </head>
                <p>Zum Wirkungskreis des Rechnungshofes gehört:
-      <list>
-                     <label>1.</label>
-                     <item>Die Gegenzeichnung aller Urkunden über Staatsschulden,<lb break="yes"/>insoweit sie eine Verpflichtung des Bundes beinhalten.
+      <lb break="yes"/>1. Die Gegenzeichnung aller Urkunden über Staatsschulden,
+      <lb break="yes"/>insoweit sie eine Verpflichtung des Bundes beinhalten.
       <lb break="yes"/>Die Gegenzeichnung ist nur der Ausdruck der Gesetzmäßigkeit
       <lb break="yes"/>und rechnungsmäßigen Richtigkeit der Gebarung.
-      </item>
-                     <label>2.</label>
-                     <item>Die Abfassung des Bundesrechnungsabschlusses und der<lb break="yes"/>Landesrechnungsabschlüsse.</item>
-                  </list>
-               </p>
+      <lb break="yes"/>2. Die Abfassung des Bundesrechnungsabschlusses und der
+      <lb break="yes"/>Landesrechnungsabschlüsse.</p>
             </div>
             <div type="article">
                <a class="navigation_article" xml:id="navigation_article_100"/>
