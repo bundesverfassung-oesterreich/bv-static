@@ -104,7 +104,7 @@ input.ais-SearchBox-input:focus {
 
 /* fix the checkboxes and the colors */
 
-input[type=checkbox] {
+/* input[type=checkbox] {
     display: none;
   }
    
@@ -114,31 +114,30 @@ input[type=checkbox] {
     display:inline-block;
     padding-left: 20px;
     position: relative;
-  }
+  } */
 
   input[type=checkbox] + label:before,
   input[type=checkbox] + span:before
   {
-    content: "";
+    /* content: ""; */
     background: lightgray;
-    position: absolute;
+    /* position: absolute;
     top: 0.25rem;
     left: 0;
     height: 1rem;
     width: 1rem;
-    border-radius: 50%;
+    border-radius: 50%; */
   }
 
   input[type=checkbox]:checked + label:before,
   input[type=checkbox]:checked + span:before
   {
-    content: "\f00c";
-    font-family: 'FontAwesome';
+    /* content: "&#10003;"; */
     color: var(--bv-big-highlight);
-    font-size: 0.8rem;
+    /* font-size: 0.8rem;
     line-height: 1rem;
     display: flex; 
-    justify-content: center;
+    justify-content: center; */
   }
 
 /* change color of filters */
