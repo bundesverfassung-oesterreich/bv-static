@@ -104,10 +104,11 @@ input.ais-SearchBox-input:focus {
 
 /* fix the checkboxes and the colors */
 
-/* input[type=checkbox] {
-    display: none;
+ input[type=checkbox] {
+    /* display: none; */
+    accent-color: var(--bv-big-highlight);
   }
-   
+  /*
   input[type=checkbox] + label,
   input[type=checkbox] + span
   {
