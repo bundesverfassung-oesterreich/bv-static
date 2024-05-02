@@ -150,12 +150,16 @@ li.mb-1 > button {
     padding-left: 1rem;
 }
 
-#left_edition_content_nav li li{
-    padding-left: 1.5rem;
+
+ul#left_edition_content_nav li.mb-1 ul li button{
+    margin-left: .25rem;
+    padding-left: 0;
+    text-align: left;
 }
 
-#left_edition_content_nav li li li {
-    padding-left: 2rem;
+/* nav elements representing articles */
+ul#left_edition_content_nav li.mb-1 ul li a {
+    font-size: .8rem;
 }
 
 cite {

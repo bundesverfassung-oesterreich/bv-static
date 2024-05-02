@@ -69,7 +69,8 @@
                 <xsl:for-each select="$subsection_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
-                        <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
+                        <!-- <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false"> -->
+                        <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
@@ -94,7 +95,8 @@
                 <xsl:for-each select="$toplevel_section_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
-                        <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
+                        <!-- <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false"> -->
+                        <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
