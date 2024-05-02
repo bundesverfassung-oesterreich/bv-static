@@ -70,7 +70,7 @@
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
                         <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
-                            <xsl:value-of select="concat('subsection', ./tei:head[1]/normalize-space())"/>
+                            <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -95,7 +95,7 @@
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
                         <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
-                            <xsl:value-of select="concat('toplevel: ', ./tei:head[1]/normalize-space())"/>
+                            <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
