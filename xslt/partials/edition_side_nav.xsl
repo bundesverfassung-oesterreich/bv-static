@@ -19,12 +19,11 @@
             </button>
             <div class="collapse " id="{$id_name_for_toggle}">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <xsl:for-each select="collection('../../data/editions/')//tei:TEI[.//tei:teiHeader[1]/tei:fileDesc[1]/tei:publicationStmt[1]/tei:idno[@type='transkribus_collection' and ./text()=$data_set_id_transkribus]]" >
+                    <xsl:for-each select="collection('../../data/editions/')//tei:TEI[.//tei:teiHeader[1]/tei:fileDesc[1]/tei:publicationStmt[1]/tei:idno[@type='transkribus_collection' and ./text()=$data_set_id_transkribus]]">
                         <xsl:variable as="xs:string" name="text_title" select="//tei:fileDesc//tei:titleStmt//tei:title[@type='main']/normalize-space()"/>
                         <xsl:variable as="xs:string" name="page_uri" select="replace(tokenize(document-uri(/), '/')[last()], '.xml', '.html')"/>
                         <li>
-                            <a class="dropdown-item" href="{$page_uri}"
-                               title="{$text_title}">
+                            <a class="dropdown-item" href="{$page_uri}" title="{$text_title}">
                                 <xsl:value-of select="$text_title"/>
                             </a>
                         </li>
@@ -33,7 +32,7 @@
             </div>
         </li>
     </xsl:template>
-    
+
     <xsl:template name="get_article_nav">
         <xsl:for-each select=".//tei:div[@type='article']">
             <xsl:variable name="article_title" select="./tei:head[1]/normalize-space()"/>
@@ -47,21 +46,60 @@
             </li>
         </xsl:for-each>
     </xsl:template>
-    
-    <xsl:template name="get_chapter_and_article_nav">
-        <xsl:variable name="section_divs" select=".//tei:body//tei:div[contains(@type, 'section')]"/>
-        <xsl:variable name="section_divs_exist" select="if ($section_divs) then 'true' else 'false'"/>
+
+    <xsl:template name="get_strict_article_nav">
+        <xsl:for-each select="./tei:div[@type='article']">
+            <xsl:variable name="article_title" select="./tei:head[1]/normalize-space()"/>
+            <li>
+                <a class="dropdown-item" title="{$article_title}">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="$article_title"/>
+                </a>
+            </li>
+        </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template name="get_subsection_and_article_nav">
+        <xsl:variable name="subsection_divs" select="./tei:div[contains(@type, 'section')]"/>
+        <xsl:variable name="subsection_divs_exist" select="if ($subsection_divs) then 'true' else 'false'"/>
         <xsl:choose>
-            <xsl:when test="$section_divs_exist = 'true'">
-                <xsl:for-each select="$section_divs">
+            <xsl:when test="$subsection_divs_exist = 'true'">
+                <xsl:for-each select="$subsection_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
                         <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
-                            <xsl:value-of select="./tei:head[1]/normalize-space()"/>
+                            <xsl:value-of select="concat('subsection', ./tei:head[1]/normalize-space())"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <xsl:call-template name="get_article_nav"/>
+                                <xsl:call-template name="get_subsection_and_article_nav"/>
+                            </ul>
+                        </div>
+                    </li>
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:call-template name="get_strict_article_nav"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template name="get_chapter_and_article_nav">
+        <xsl:variable name="toplevel_section_divs" select=".//tei:body//tei:div[contains(@type, 'section') and not(ancestor::tei:div[contains(@type, 'section')])]"/>
+        <xsl:variable name="toplevel_section_divs_exist" select="if ($toplevel_section_divs) then 'true' else 'false'"/>
+        <xsl:choose>
+            <xsl:when test="$toplevel_section_divs_exist = 'true'">
+                <xsl:for-each select="$toplevel_section_divs">
+                    <li>
+                        <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
+                        <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
+                            <xsl:value-of select="concat('toplevel: ', ./tei:head[1]/normalize-space())"/>
+                        </button>
+                        <div class="collapse " id="{$derived_target_id_for_button}">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <xsl:call-template name="get_subsection_and_article_nav"/>
                             </ul>
                         </div>
                     </li>
@@ -72,8 +110,8 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
-    
+
+
     <xsl:template name="edition_side_nav">
         <xsl:param name="doc_title"/>
         <div id="edtion-navBarNavDropdown" class="dropstart navBarNavDropdown">
@@ -108,10 +146,8 @@
                 </li>
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
-                        <xsl:value-of
-                            select="$doc_title"
-                            />
-                    </button>                                       
+                        <xsl:value-of select="$doc_title" />
+                    </button>
                     <div class="collapse" id="current-doc-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                             <xsl:call-template name="get_chapter_and_article_nav"/>
@@ -121,10 +157,11 @@
             </ul>
             <h3>
                 <a href="{$target_xml}/{$doc_id}.xml">
-                    <i class="fas fa-download" title="show TEI source"/> Download
+                    <i class="fas fa-download" title="show TEI source"/>
+ Download
                 </a>
             </h3>
         </div>
-        
+
     </xsl:template>
 </xsl:stylesheet>
