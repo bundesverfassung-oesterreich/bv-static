@@ -145,6 +145,15 @@ li.mb-1 > button {
     font-weight: bolder;
 }
 
+div#edtion-navBarNavDropdown a{
+    overflow: hidden;
+    text-overflow: ellipsis ellipsis;
+}
+
+div#edtion-navBarNavDropdown li{
+    overflow: hidden;
+    text-overflow: ellipsis ellipsis;
+}
 
 #left_edition_content_nav li {
     padding-left: 1rem;
@@ -152,6 +161,8 @@ li.mb-1 > button {
 
 
 ul#left_edition_content_nav li.mb-1 ul li button{
+    overflow: hidden;
+    text-overflow: ellipsis ellipsis;
     margin-left: .25rem;
     padding-left: 0;
     text-align: left;
