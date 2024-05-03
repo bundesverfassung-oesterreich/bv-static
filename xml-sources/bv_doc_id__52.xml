@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-27" who="#cfh">document automatically created</change>
+         <change when="2024-05-01" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -428,15 +428,17 @@
                <a class="navigation_article" xml:id="navigation_article_1"/>
                <head>Artikel l.
       </head>
-               <p>deaterreich ist eine demokratioche Republik. Ihr Recht
+               <p type="legal_section">deaterreich ist eine demokratioche Republik. Ihr Recht
       <lb break="yes"/>gräb von Volke ausf.
       <lb break="yes"/>Ferner/ in Art.2 nach Wiederösterreich in Klammer einzu
 <lb break="no"/>erhalten (Nigägrystarreich- Land und Kiea), nach Analogle der
       <lb break="yes"/>Schwelzer Verfassung: Besel- Land und Bassl-Stadt.
-      <lb break="yes"/>22 Art.3, Abs.l schlägt Prof.Dr. Kelsen die Strei
+      </p>
+               <p type="legal_section">
+                  <label>22</label> Art.3, Abs.l schlägt Prof.Dr. Kelsen die Strei
 <lb break="no"/>
                   <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p>
-               <p>chung des zweiten Satzen, Re steht unter dem Bghutz des Bundee
+               <p type="legal_section">chung des zweiten Satzen, Re steht unter dem Bghutz des Bundee
       <lb break="yes"/>vor, da hierin kein neuer Gedanke ausgedrückt sei. Der Unter
 <lb break="no"/>ausschuß beschließt die Etrgichung und formuliert auf Antrag
       <lb break="yes"/>Eelsene den dritten Absatz folgendermaßen:
@@ -452,7 +454,9 @@
       <lb break="yes"/>Zu Art.1 bringen sowohl Prof.Dr. Falsaa als auch
       <lb break="yes"/>Dr. Danneberg mehrfache Abänderungevorschläge vor.
       <lb break="yes"/>Ereterer verweint auf eine Anfräge des Präsidenten
-      <lb break="yes"/>3« itz, daß das Optionsrecht in den Fabergangabestimmungen
+      </p>
+               <p type="legal_section">
+                  <label>3</label>« itz, daß das Optionsrecht in den Fabergangabestimmungen
       <lb break="yes"/>bereits berücksichtigt sei- und findet, daß in der nunmehrigen
       <lb break="yes"/>Fasgung, in der Staatsbürgerschaft und Heimatrecht durch Art.10
       <lb break="yes"/>der Gesetzgebung und Vollziehung dem Bund überwiesen sind,
@@ -470,7 +474,7 @@
       <lb break="yes"/>Wortlaut zugestimmt hat:
       <lb break="yes"/>"42) Für jedes Land besteht eine Landesbärgerschaft. Ver
 <lb break="no"/>aussetzung der Landesburgerschaft ist das Heimatrecht in einer</p>
-               <p>138<pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>-10-
+               <p type="legal_section">138<pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>-10-
       <lb break="yes"/>Gemeinde des Landen. Die Bedingungen für den Erwerb und den
       <lb break="yes"/>Verlust der Landesbürgerschaft sind in jedem Land gleich,
       <lb break="yes"/>wird die weitere Erärterung der Streickungefrage bis zur Be
@@ -505,7 +509,7 @@
       <lb break="yes"/>Bundesgebiet erstrecken“, sondern, auf Grund der Bundesverfag
 <lb break="no"/>gunge.
       <lb break="yes"/>1.<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>11</p>
-               <p>In Art.10, Pkt.2 wird das Wort, auswärtige" In, Äußerer
+               <p type="legal_section">In Art.10, Pkt.2 wird das Wort, auswärtige" In, Äußerer
       <lb break="yes"/>berichtigt und anstatteRegelung des Haren- und Vichverkahres
       <lb break="yes"/>mit dem Ausland gesetzt» Waren- und Viehverkehr mit dem Aus
 <lb break="no"/>laks.«
