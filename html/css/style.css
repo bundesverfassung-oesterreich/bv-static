@@ -878,6 +878,16 @@ div#tocTable div.tabulator-header-filter input{
     border: solid grey 1px;
     border-radius: 0.2rem;
 }
+
+/*
+add whitespace to end of doc to scroll last page into view
+*/
+
+
+div#text-resize>div#section:last-child  {
+    padding-bottom: 95vh;
+}
+
 /*
 ####################################
 proposed mobile resolution handling
