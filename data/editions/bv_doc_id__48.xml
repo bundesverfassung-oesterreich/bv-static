@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-27" who="#cfh">document automatically created</change>
+         <change when="2024-05-01" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -508,7 +508,7 @@
                <a class="navigation_article" xml:id="navigation_article_1"/>
                <head>Art. 1508.
       </head>
-               <p>ta den Aogelegenheiten der Art. 149 - 150 kann der
+               <p type="legal_section">ta den Aogelegenheiten der Art. 149 - 150 kann der
       <lb break="yes"/>Verfassungsgerichtshof seine Zuständigkeit auch von amtswe
 <lb break="no"/>gen wahrnehmen-. Obwchl Prof.Dr. kels ea betent, daß
       <lb break="yes"/>der Verfassungsgerichtshof erst durch diese Bestimmng ein
@@ -522,7 +522,9 @@
 <lb break="no"/>schene in »subjektivene beschlessen.
       <lb break="yes"/>Berichtigt wird ferner der Wertlaut des Art.156:
       <lb break="yes"/>dieser lautet aunmehr:
-      <lb break="yes"/>(1) Der Präsident des Verfassungsgerichtshofes
+      </p>
+               <p type="legal_section">
+                  <label>(1)</label> Der Präsident des Verfassungsgerichtshofes
       <lb break="yes"/>steht im Kange des Bundeskanzlers, der Vizepräsident im
       <lb break="yes"/>fange eines Bundesministers.“
       <lb break="yes"/>Am Schlüsse der Sitzung gibt frof.Dr. Seipe1
@@ -539,11 +541,11 @@
       <lb break="yes"/>der obligatorischen Zivilehe in der Verfassung.
       <lb break="yes"/>Das Stadtamt Rottenmann wendet sich an die Staatsre
 <lb break="no"/>gierung mit allen Mitteln den Anschluß an das Deutsche Reich</p>
-               <p>371<pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>12-
+               <p type="legal_section">371<pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>12-
       <lb break="yes"/>anzustreben und die Geneinde Furth in Rezirk Krens begrüft
       <lb break="yes"/>den Beschluß degen Verstattlichung des Schulnesens.
       <lb break="yes"/>Schluß der Sitzung 7 Uhr abends.</p>
-               <p>371</p>
+               <p type="legal_section">371</p>
             </div>
          </div>
       </body>

@@ -97,7 +97,7 @@
          </creation>
       </profileDesc>
       <revisionDesc status="created">
-         <change when="2024-04-27" who="#cfh">document automatically created</change>
+         <change when="2024-05-01" who="#cfh">document automatically created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -450,18 +450,23 @@
                <a class="navigation_article" xml:id="navigation_article_1"/>
                <head>Art. X.
       </head>
-               <p>(1) bis zur Hzarichtung der allgemeinen stadtli
+               <p type="legal_section">
+                  <label>(1)</label> bis zur Hzarichtung der allgemeinen stadtli
 <lb break="no"/>chen Verwaltung in den Ländern nach den Bestimmungen der
       <lb break="yes"/>Artikel 97a bis e bleibt die dermalige Bezirksverwaltung
       <lb break="yes"/>mit der lassgabe bestehen, dass im bereiche jeder Bezirks
 <lb break="no"/>hauptmannschaft für jene Verwaltungszweige, für die nicht
       <lb break="yes"/>besondere Eiorichtungen der Selbstverwaltung bestehen, ei
 <lb break="no"/>ne Bezirksvertretung gewählt wird.
-      <lb break="yes"/>(2) In den Stadten mit eigenem Statut überniamt
+      </p>
+               <p type="legal_section">
+                  <label>(2)</label> In den Stadten mit eigenem Statut überniamt
       <lb break="yes"/>die Gemeiadevertretung augleich die Aufgeben der Vezirks
 <lb break="no"/>vertretung. Diese Aufgeben konnen einem besonderen Ausschuss
       <lb break="yes"/>der Gemeindevertretung übertragen werden.
-      <lb break="yes"/>(3) In den Bereichen der Bezirkshauptmannschaften
+      </p>
+               <p type="legal_section">
+                  <label>(3)</label> In den Bereichen der Bezirkshauptmannschaften
       <lb break="yes"/>wird die Wahl auf Grund des gleichen, gehernen, personli
 <lb break="no"/>chen und unmittelbaren Fahlrechtes aller kundesangehörigen
       <lb break="yes"/>durchgefuhrt, die im Pereiche der Bezirtshauptmennschaft
@@ -470,11 +475,17 @@
 <lb break="no"/>men; die Anzahl der Manipte der Bezickvertretungen wird
       <lb break="yes"/>auf die Gerichtsbezirke gach dem Verhaltais ihrer Einwohner
 <lb break="no"/>zahl aufgeteilt. Die Bestimmungen des Artikels 97 e. Absatz
-      <lb break="yes"/>2, Kinden siangemasse Anwendung.
-      <lb break="yes"/>4) In die Bezirksvertretung sind nur Personen<pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>10-
+      </p>
+               <p type="legal_section">
+                  <label>2</label>, Kinden siangemasse Anwendung.
+      </p>
+               <p type="legal_section">
+                  <label>4)</label> In die Bezirksvertretung sind nur Personen<pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>10-
       <lb break="yes"/>wählbar, die im fereiche der Bezirkshauptmannschaft ihren
       <lb break="yes"/>ordentlichen Monnsitz haben und zum länftige vehlbar sind.
-      <lb break="yes"/>(5) Die näheren Bestimmungen der Durchkührung
+      </p>
+               <p type="legal_section">
+                  <label>(5)</label> Die näheren Bestimmungen der Durchkührung
       <lb break="yes"/>dieser Mahlen werden von der leidesgesetzgebung getroffen.
       </p>
             </div>
@@ -482,7 +493,7 @@
                <a class="navigation_article" xml:id="navigation_article_2"/>
                <head>Art. 5.
       </head>
-               <p>Die Festsetzung der weiteren Grundsätze für die
+               <p type="legal_section">Die Festsetzung der weiteren Grundsätze für die
       <lb break="yes"/>vorläufige Ausgestaltung der dermaligen Bezirksverwaltung
       <lb break="yes"/>nach Art. &amp; ist Sache der Fundesgesetzgebung: ihre Ausfüh
 <lb break="no"/>rung liegt den Landesgesetzen at.
@@ -521,7 +532,9 @@
       <lb break="yes"/>den Ergebnis der letzten Volkszänlung inren Lohnsitz natten, zu ver
 <lb break="no"/>teilen. Eine Fliederung der ränlerscaaft in andere lanlkörper ist
       <lb break="yes"/>nicht zulässig.
-      <lb break="yes"/>(3) Die Landesgesetzgebung kann vorschreiben, dass bei der Wahl
+      </p>
+               <p type="legal_section">
+                  <label>(3)</label> Die Landesgesetzgebung kann vorschreiben, dass bei der Wahl
       <lb break="yes"/>von Vertretungen der Geneinden, die weniger als od tinmonner haben,
       <lb break="yes"/>anstelle des Verhältnismahlrecntes das Menrneitsmahlrecht zu tresen.
       <lb break="yes"/>nat. In diesen Falle können die ähler auch in andere als territoria
