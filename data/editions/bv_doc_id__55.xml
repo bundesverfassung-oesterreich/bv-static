@@ -1,467 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__55">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Protokoll Linzer Länderkonferenz 1920</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Protokoll Linzer Länderkonferenz 1920</title>
+                <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                <principal>
+                    <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
+                </principal>
+                <funder>
+                    <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                     </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                     </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
                         Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                </publisher>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
                         Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
                             applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529263</idno>
-            <idno type="transkribus_collection">196428</idno>
-            <idno type="bv_data_set">Datenset B</idno>
-            <idno type="goobi">14604</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                  <idno type="archive">AVA, Nachlasssammlung, E 1717 (Nachlass Fink), Karton 3, Mappe 1</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Länderkonferenz</author>
-                     <title>Protokoll Linzer Länderkonferenz 1920</title>
-                     <note type="editor">Protokoll Linzer Länderkonferenz (Titel des Dokuments: "Stenographische Verhandlungsschrift über die Länderkonferenz in Linz am 20., 21., 22. und 23. April 1920"), Typ: Druck, Zustand: gut, keine Anmerkungen</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Druck">
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+                <idno type="transkribus_doc">1529263</idno>
+                <idno type="transkribus_collection">196428</idno>
+                <idno type="bv_data_set">Datenset B</idno>
+                <idno type="goobi">14604</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="invetory">
+                    <msIdentifier>
+                        <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
+                        <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
+                        <idno type="archive">AVA, Nachlasssammlung, E 1717 (Nachlass Fink), Karton 3, Mappe 1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author role="acdh:hasAuthor">Länderkonferenz</author>
+                            <title>Protokoll Linzer Länderkonferenz 1920</title>
+                            <note type="editor">Protokoll Linzer Länderkonferenz (Titel des Dokuments: "Stenographische Verhandlungsschrift über die Länderkonferenz in Linz am 20., 21., 22. und 23. April 1920"), Typ: Druck, Zustand: gut, keine Anmerkungen</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Druck">
                         </objectDesc>
-                  <handDesc>
+                        <handDesc>
                         </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1920-04-20" notAfter-iso="1920-04-23">Zwischen 20. und 23. April 1920</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1920-04-20" notAfter-iso="1920-04-23">
+                    </physDesc>
+                    <history>
+                        <origin notBefore-iso="1920-04-20" notAfter-iso="1920-04-23">Zwischen 20. und 23. April 1920</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation>
+                <date notBefore-iso="1920-04-20" notAfter-iso="1920-04-23">
                     Zwischen 20. und 23. April 1920
                 </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-05-01" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="3194" lry="4309" xml:id="facs_2">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0002/full/full/0/default.jpg"
-                  width="3194px"
-                  height="4309px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3075" lry="4305" xml:id="facs_3">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0004/full/full/0/default.jpg"
-                  width="3075px"
-                  height="4305px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3083" lry="4316" xml:id="facs_4">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0005/full/full/0/default.jpg"
-                  width="3083px"
-                  height="4316px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3041" lry="4310" xml:id="facs_5">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0008/full/full/0/default.jpg"
-                  width="3041px"
-                  height="4310px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3115" lry="4308" xml:id="facs_6">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0009/full/full/0/default.jpg"
-                  width="3115px"
-                  height="4308px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3014" lry="4308" xml:id="facs_7">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0010/full/full/0/default.jpg"
-                  width="3014px"
-                  height="4308px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3115" lry="4279" xml:id="facs_8">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0011/full/full/0/default.jpg"
-                  width="3115px"
-                  height="4279px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3048" lry="4289" xml:id="facs_9">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0012/full/full/0/default.jpg"
-                  width="3048px"
-                  height="4289px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3151" lry="4337" xml:id="facs_10">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0013/full/full/0/default.jpg"
-                  width="3151px"
-                  height="4337px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3061" lry="4345" xml:id="facs_11">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0014/full/full/0/default.jpg"
-                  width="3061px"
-                  height="4345px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3153" lry="4348" xml:id="facs_12">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0015/full/full/0/default.jpg"
-                  width="3153px"
-                  height="4348px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3034" lry="4333" xml:id="facs_13">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0016/full/full/0/default.jpg"
-                  width="3034px"
-                  height="4333px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3164" lry="4325" xml:id="facs_14">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0017/full/full/0/default.jpg"
-                  width="3164px"
-                  height="4325px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3025" lry="4325" xml:id="facs_15">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0018/full/full/0/default.jpg"
-                  width="3025px"
-                  height="4325px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3135" lry="4326" xml:id="facs_16">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0019/full/full/0/default.jpg"
-                  width="3135px"
-                  height="4326px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3034" lry="4305" xml:id="facs_17">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0020/full/full/0/default.jpg"
-                  width="3034px"
-                  height="4305px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3178" lry="4332" xml:id="facs_18">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0021/full/full/0/default.jpg"
-                  width="3178px"
-                  height="4332px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3043" lry="4291" xml:id="facs_19">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0022/full/full/0/default.jpg"
-                  width="3043px"
-                  height="4291px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3132" lry="4327" xml:id="facs_20">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0023/full/full/0/default.jpg"
-                  width="3132px"
-                  height="4327px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3063" lry="4320" xml:id="facs_21">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0024/full/full/0/default.jpg"
-                  width="3063px"
-                  height="4320px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3129" lry="4322" xml:id="facs_22">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0025/full/full/0/default.jpg"
-                  width="3129px"
-                  height="4322px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3016" lry="4324" xml:id="facs_23">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0027/full/full/0/default.jpg"
-                  width="3016px"
-                  height="4324px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3159" lry="4347" xml:id="facs_24">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0028/full/full/0/default.jpg"
-                  width="3159px"
-                  height="4347px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3063" lry="4334" xml:id="facs_25">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0029/full/full/0/default.jpg"
-                  width="3063px"
-                  height="4334px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3127" lry="4323" xml:id="facs_26">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0030/full/full/0/default.jpg"
-                  width="3127px"
-                  height="4323px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2992" lry="4314" xml:id="facs_27">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0031/full/full/0/default.jpg"
-                  width="2992px"
-                  height="4314px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3040" lry="4337" xml:id="facs_28">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0032/full/full/0/default.jpg"
-                  width="3040px"
-                  height="4337px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3142" lry="4321" xml:id="facs_29">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0033/full/full/0/default.jpg"
-                  width="3142px"
-                  height="4321px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3096" lry="4333" xml:id="facs_30">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0034/full/full/0/default.jpg"
-                  width="3096px"
-                  height="4333px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3140" lry="4317" xml:id="facs_31">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0035/full/full/0/default.jpg"
-                  width="3140px"
-                  height="4317px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3064" lry="4303" xml:id="facs_32">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0036/full/full/0/default.jpg"
-                  width="3064px"
-                  height="4303px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3103" lry="4304" xml:id="facs_33">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0037/full/full/0/default.jpg"
-                  width="3103px"
-                  height="4304px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3101" lry="4310" xml:id="facs_34">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0038/full/full/0/default.jpg"
-                  width="3101px"
-                  height="4310px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3127" lry="4312" xml:id="facs_35">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0039/full/full/0/default.jpg"
-                  width="3127px"
-                  height="4312px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3080" lry="4300" xml:id="facs_36">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0040/full/full/0/default.jpg"
-                  width="3080px"
-                  height="4300px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3131" lry="4350" xml:id="facs_37">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0041/full/full/0/default.jpg"
-                  width="3131px"
-                  height="4350px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3026" lry="4297" xml:id="facs_38">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0042/full/full/0/default.jpg"
-                  width="3026px"
-                  height="4297px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3181" lry="4309" xml:id="facs_39">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0043/full/full/0/default.jpg"
-                  width="3181px"
-                  height="4309px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2962" lry="4301" xml:id="facs_40">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0044/full/full/0/default.jpg"
-                  width="2962px"
-                  height="4301px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3168" lry="4331" xml:id="facs_41">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0045/full/full/0/default.jpg"
-                  width="3168px"
-                  height="4331px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3051" lry="4321" xml:id="facs_42">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0046/full/full/0/default.jpg"
-                  width="3051px"
-                  height="4321px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3195" lry="4311" xml:id="facs_43">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0047/full/full/0/default.jpg"
-                  width="3195px"
-                  height="4311px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3064" lry="4306" xml:id="facs_44">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0048/full/full/0/default.jpg"
-                  width="3064px"
-                  height="4306px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3173" lry="4333" xml:id="facs_45">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0049/full/full/0/default.jpg"
-                  width="3173px"
-                  height="4333px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3092" lry="4301" xml:id="facs_46">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0050/full/full/0/default.jpg"
-                  width="3092px"
-                  height="4301px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3049" lry="4301" xml:id="facs_47">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0051/full/full/0/default.jpg"
-                  width="3049px"
-                  height="4301px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3172" lry="4348" xml:id="facs_48">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0052/full/full/0/default.jpg"
-                  width="3172px"
-                  height="4348px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3063" lry="4310" xml:id="facs_49">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0053/full/full/0/default.jpg"
-                  width="3063px"
-                  height="4310px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3168" lry="4344" xml:id="facs_50">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0054/full/full/0/default.jpg"
-                  width="3168px"
-                  height="4344px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2996" lry="4272" xml:id="facs_51">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0055/full/full/0/default.jpg"
-                  width="2996px"
-                  height="4272px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3172" lry="4372" xml:id="facs_52">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0056/full/full/0/default.jpg"
-                  width="3172px"
-                  height="4372px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3072" lry="4330" xml:id="facs_53">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0057/full/full/0/default.jpg"
-                  width="3072px"
-                  height="4330px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3150" lry="4317" xml:id="facs_54">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0058/full/full/0/default.jpg"
-                  width="3150px"
-                  height="4317px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3033" lry="4318" xml:id="facs_55">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0059/full/full/0/default.jpg"
-                  width="3033px"
-                  height="4318px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3150" lry="4350" xml:id="facs_56">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0060/full/full/0/default.jpg"
-                  width="3150px"
-                  height="4350px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3039" lry="4300" xml:id="facs_57">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0061/full/full/0/default.jpg"
-                  width="3039px"
-                  height="4300px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3158" lry="4324" xml:id="facs_58">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0062/full/full/0/default.jpg"
-                  width="3158px"
-                  height="4324px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3041" lry="4309" xml:id="facs_59">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0064/full/full/0/default.jpg"
-                  width="3041px"
-                  height="4309px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3164" lry="4311" xml:id="facs_60">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0065/full/full/0/default.jpg"
-                  width="3164px"
-                  height="4311px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3015" lry="4283" xml:id="facs_61">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0066/full/full/0/default.jpg"
-                  width="3015px"
-                  height="4283px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3175" lry="4320" xml:id="facs_62">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0067/full/full/0/default.jpg"
-                  width="3175px"
-                  height="4320px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3081" lry="4306" xml:id="facs_63">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0069/full/full/0/default.jpg"
-                  width="3081px"
-                  height="4306px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3166" lry="4316" xml:id="facs_64">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0070/full/full/0/default.jpg"
-                  width="3166px"
-                  height="4316px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3047" lry="4320" xml:id="facs_65">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0071/full/full/0/default.jpg"
-                  width="3047px"
-                  height="4320px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3162" lry="4330" xml:id="facs_66">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0072/full/full/0/default.jpg"
-                  width="3162px"
-                  height="4330px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3056" lry="4320" xml:id="facs_67">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0073/full/full/0/default.jpg"
-                  width="3056px"
-                  height="4320px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3134" lry="4321" xml:id="facs_68">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0074/full/full/0/default.jpg"
-                  width="3134px"
-                  height="4321px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3034" lry="4292" xml:id="facs_69">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0075/full/full/0/default.jpg"
-                  width="3034px"
-                  height="4292px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3209" lry="4314" xml:id="facs_70">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0076/full/full/0/default.jpg"
-                  width="3209px"
-                  height="4314px"/>
-      </surface>
-   </facsimile>
-   <text type="Sitzungsprotokoll">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>Stenographische
+            </creation>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when="2024-05-05" who="#cfh">document automatically created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0"><surface ulx="0" uly="0" lrx="3194" lry="4309" xml:id="facs_2"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0002/full/full/0/default.jpg" width="3194px" height="4309px"/></surface><surface ulx="0" uly="0" lrx="3075" lry="4305" xml:id="facs_3"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0004/full/full/0/default.jpg" width="3075px" height="4305px"/></surface><surface ulx="0" uly="0" lrx="3083" lry="4316" xml:id="facs_4"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0005/full/full/0/default.jpg" width="3083px" height="4316px"/></surface><surface ulx="0" uly="0" lrx="3041" lry="4310" xml:id="facs_5"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0008/full/full/0/default.jpg" width="3041px" height="4310px"/></surface><surface ulx="0" uly="0" lrx="3115" lry="4308" xml:id="facs_6"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0009/full/full/0/default.jpg" width="3115px" height="4308px"/></surface><surface ulx="0" uly="0" lrx="3014" lry="4308" xml:id="facs_7"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0010/full/full/0/default.jpg" width="3014px" height="4308px"/></surface><surface ulx="0" uly="0" lrx="3115" lry="4279" xml:id="facs_8"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0011/full/full/0/default.jpg" width="3115px" height="4279px"/></surface><surface ulx="0" uly="0" lrx="3048" lry="4289" xml:id="facs_9"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0012/full/full/0/default.jpg" width="3048px" height="4289px"/></surface><surface ulx="0" uly="0" lrx="3151" lry="4337" xml:id="facs_10"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0013/full/full/0/default.jpg" width="3151px" height="4337px"/></surface><surface ulx="0" uly="0" lrx="3061" lry="4345" xml:id="facs_11"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0014/full/full/0/default.jpg" width="3061px" height="4345px"/></surface><surface ulx="0" uly="0" lrx="3153" lry="4348" xml:id="facs_12"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0015/full/full/0/default.jpg" width="3153px" height="4348px"/></surface><surface ulx="0" uly="0" lrx="3034" lry="4333" xml:id="facs_13"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0016/full/full/0/default.jpg" width="3034px" height="4333px"/></surface><surface ulx="0" uly="0" lrx="3164" lry="4325" xml:id="facs_14"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0017/full/full/0/default.jpg" width="3164px" height="4325px"/></surface><surface ulx="0" uly="0" lrx="3025" lry="4325" xml:id="facs_15"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0018/full/full/0/default.jpg" width="3025px" height="4325px"/></surface><surface ulx="0" uly="0" lrx="3135" lry="4326" xml:id="facs_16"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0019/full/full/0/default.jpg" width="3135px" height="4326px"/></surface><surface ulx="0" uly="0" lrx="3034" lry="4305" xml:id="facs_17"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0020/full/full/0/default.jpg" width="3034px" height="4305px"/></surface><surface ulx="0" uly="0" lrx="3178" lry="4332" xml:id="facs_18"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0021/full/full/0/default.jpg" width="3178px" height="4332px"/></surface><surface ulx="0" uly="0" lrx="3043" lry="4291" xml:id="facs_19"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0022/full/full/0/default.jpg" width="3043px" height="4291px"/></surface><surface ulx="0" uly="0" lrx="3132" lry="4327" xml:id="facs_20"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0023/full/full/0/default.jpg" width="3132px" height="4327px"/></surface><surface ulx="0" uly="0" lrx="3063" lry="4320" xml:id="facs_21"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0024/full/full/0/default.jpg" width="3063px" height="4320px"/></surface><surface ulx="0" uly="0" lrx="3129" lry="4322" xml:id="facs_22"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0025/full/full/0/default.jpg" width="3129px" height="4322px"/></surface><surface ulx="0" uly="0" lrx="3016" lry="4324" xml:id="facs_23"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0027/full/full/0/default.jpg" width="3016px" height="4324px"/></surface><surface ulx="0" uly="0" lrx="3159" lry="4347" xml:id="facs_24"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0028/full/full/0/default.jpg" width="3159px" height="4347px"/></surface><surface ulx="0" uly="0" lrx="3063" lry="4334" xml:id="facs_25"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0029/full/full/0/default.jpg" width="3063px" height="4334px"/></surface><surface ulx="0" uly="0" lrx="3127" lry="4323" xml:id="facs_26"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0030/full/full/0/default.jpg" width="3127px" height="4323px"/></surface><surface ulx="0" uly="0" lrx="2992" lry="4314" xml:id="facs_27"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0031/full/full/0/default.jpg" width="2992px" height="4314px"/></surface><surface ulx="0" uly="0" lrx="3040" lry="4337" xml:id="facs_28"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0032/full/full/0/default.jpg" width="3040px" height="4337px"/></surface><surface ulx="0" uly="0" lrx="3142" lry="4321" xml:id="facs_29"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0033/full/full/0/default.jpg" width="3142px" height="4321px"/></surface><surface ulx="0" uly="0" lrx="3096" lry="4333" xml:id="facs_30"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0034/full/full/0/default.jpg" width="3096px" height="4333px"/></surface><surface ulx="0" uly="0" lrx="3140" lry="4317" xml:id="facs_31"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0035/full/full/0/default.jpg" width="3140px" height="4317px"/></surface><surface ulx="0" uly="0" lrx="3064" lry="4303" xml:id="facs_32"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0036/full/full/0/default.jpg" width="3064px" height="4303px"/></surface><surface ulx="0" uly="0" lrx="3103" lry="4304" xml:id="facs_33"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0037/full/full/0/default.jpg" width="3103px" height="4304px"/></surface><surface ulx="0" uly="0" lrx="3101" lry="4310" xml:id="facs_34"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0038/full/full/0/default.jpg" width="3101px" height="4310px"/></surface><surface ulx="0" uly="0" lrx="3127" lry="4312" xml:id="facs_35"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0039/full/full/0/default.jpg" width="3127px" height="4312px"/></surface><surface ulx="0" uly="0" lrx="3080" lry="4300" xml:id="facs_36"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0040/full/full/0/default.jpg" width="3080px" height="4300px"/></surface><surface ulx="0" uly="0" lrx="3131" lry="4350" xml:id="facs_37"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0041/full/full/0/default.jpg" width="3131px" height="4350px"/></surface><surface ulx="0" uly="0" lrx="3026" lry="4297" xml:id="facs_38"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0042/full/full/0/default.jpg" width="3026px" height="4297px"/></surface><surface ulx="0" uly="0" lrx="3181" lry="4309" xml:id="facs_39"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0043/full/full/0/default.jpg" width="3181px" height="4309px"/></surface><surface ulx="0" uly="0" lrx="2962" lry="4301" xml:id="facs_40"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0044/full/full/0/default.jpg" width="2962px" height="4301px"/></surface><surface ulx="0" uly="0" lrx="3168" lry="4331" xml:id="facs_41"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0045/full/full/0/default.jpg" width="3168px" height="4331px"/></surface><surface ulx="0" uly="0" lrx="3051" lry="4321" xml:id="facs_42"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0046/full/full/0/default.jpg" width="3051px" height="4321px"/></surface><surface ulx="0" uly="0" lrx="3195" lry="4311" xml:id="facs_43"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0047/full/full/0/default.jpg" width="3195px" height="4311px"/></surface><surface ulx="0" uly="0" lrx="3064" lry="4306" xml:id="facs_44"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0048/full/full/0/default.jpg" width="3064px" height="4306px"/></surface><surface ulx="0" uly="0" lrx="3173" lry="4333" xml:id="facs_45"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0049/full/full/0/default.jpg" width="3173px" height="4333px"/></surface><surface ulx="0" uly="0" lrx="3092" lry="4301" xml:id="facs_46"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0050/full/full/0/default.jpg" width="3092px" height="4301px"/></surface><surface ulx="0" uly="0" lrx="3049" lry="4301" xml:id="facs_47"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0051/full/full/0/default.jpg" width="3049px" height="4301px"/></surface><surface ulx="0" uly="0" lrx="3172" lry="4348" xml:id="facs_48"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0052/full/full/0/default.jpg" width="3172px" height="4348px"/></surface><surface ulx="0" uly="0" lrx="3063" lry="4310" xml:id="facs_49"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0053/full/full/0/default.jpg" width="3063px" height="4310px"/></surface><surface ulx="0" uly="0" lrx="3168" lry="4344" xml:id="facs_50"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0054/full/full/0/default.jpg" width="3168px" height="4344px"/></surface><surface ulx="0" uly="0" lrx="2996" lry="4272" xml:id="facs_51"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0055/full/full/0/default.jpg" width="2996px" height="4272px"/></surface><surface ulx="0" uly="0" lrx="3172" lry="4372" xml:id="facs_52"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0056/full/full/0/default.jpg" width="3172px" height="4372px"/></surface><surface ulx="0" uly="0" lrx="3072" lry="4330" xml:id="facs_53"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0057/full/full/0/default.jpg" width="3072px" height="4330px"/></surface><surface ulx="0" uly="0" lrx="3150" lry="4317" xml:id="facs_54"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0058/full/full/0/default.jpg" width="3150px" height="4317px"/></surface><surface ulx="0" uly="0" lrx="3033" lry="4318" xml:id="facs_55"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0059/full/full/0/default.jpg" width="3033px" height="4318px"/></surface><surface ulx="0" uly="0" lrx="3150" lry="4350" xml:id="facs_56"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0060/full/full/0/default.jpg" width="3150px" height="4350px"/></surface><surface ulx="0" uly="0" lrx="3039" lry="4300" xml:id="facs_57"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0061/full/full/0/default.jpg" width="3039px" height="4300px"/></surface><surface ulx="0" uly="0" lrx="3158" lry="4324" xml:id="facs_58"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0062/full/full/0/default.jpg" width="3158px" height="4324px"/></surface><surface ulx="0" uly="0" lrx="3041" lry="4309" xml:id="facs_59"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0064/full/full/0/default.jpg" width="3041px" height="4309px"/></surface><surface ulx="0" uly="0" lrx="3164" lry="4311" xml:id="facs_60"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0065/full/full/0/default.jpg" width="3164px" height="4311px"/></surface><surface ulx="0" uly="0" lrx="3015" lry="4283" xml:id="facs_61"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0066/full/full/0/default.jpg" width="3015px" height="4283px"/></surface><surface ulx="0" uly="0" lrx="3175" lry="4320" xml:id="facs_62"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0067/full/full/0/default.jpg" width="3175px" height="4320px"/></surface><surface ulx="0" uly="0" lrx="3081" lry="4306" xml:id="facs_63"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0069/full/full/0/default.jpg" width="3081px" height="4306px"/></surface><surface ulx="0" uly="0" lrx="3166" lry="4316" xml:id="facs_64"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0070/full/full/0/default.jpg" width="3166px" height="4316px"/></surface><surface ulx="0" uly="0" lrx="3047" lry="4320" xml:id="facs_65"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0071/full/full/0/default.jpg" width="3047px" height="4320px"/></surface><surface ulx="0" uly="0" lrx="3162" lry="4330" xml:id="facs_66"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0072/full/full/0/default.jpg" width="3162px" height="4330px"/></surface><surface ulx="0" uly="0" lrx="3056" lry="4320" xml:id="facs_67"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0073/full/full/0/default.jpg" width="3056px" height="4320px"/></surface><surface ulx="0" uly="0" lrx="3134" lry="4321" xml:id="facs_68"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0074/full/full/0/default.jpg" width="3134px" height="4321px"/></surface><surface ulx="0" uly="0" lrx="3034" lry="4292" xml:id="facs_69"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0075/full/full/0/default.jpg" width="3034px" height="4292px"/></surface><surface ulx="0" uly="0" lrx="3209" lry="4314" xml:id="facs_70"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__55/files/images/IMG_0076/full/full/0/default.jpg" width="3209px" height="4314px"/></surface></facsimile>
+    <text type="Sitzungsprotokoll">
+        <body><div type="main"><pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/><p>Stenographische
       <lb break="yes"/>Verhandlungsschrift
       <lb break="yes"/>über die
       <lb break="yes"/>Länderkonferenz
       <lb break="yes"/>in Linz
       <lb break="yes"/>am 20.,21.,22. und 23. April 1920.
       <lb break="yes"/>Verlag des oberösterreichischen Landesrates in Linz.
-      <lb break="yes"/>Druck von Jof. Feichtingers Erben, Linz.</p>
-            <p>2</p>
-            <p>245<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>Teilnehmer an der Länderkonferenz.</p>
-            <p>Staatsregierung:
+      <lb break="yes"/>Druck von Jof. Feichtingers Erben, Linz.</p><p>2</p><p>245<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>Teilnehmer an der Länderkonferenz.</p><p>Staatsregierung:
       <lb break="yes"/>Staatsfefretär Dr. Mahr.
       <lb break="yes"/>Staatslanzlei:
       <lb break="yes"/>Sektionsrat Dr. Fröhlich,
@@ -496,8 +145,7 @@
       <lb break="yes"/>Landeshauptmannftellvertreter Dr. Schlegel (chr.
       <lb break="yes"/>0z.),
       <lb break="yes"/>Landeshauptmannstellvertreter Gruber (joz. dem.),
-      <lb break="yes"/>Landeshauptmannftellvertreter Langoth (gr. d.),</p>
-            <p>Landesrat Dr. Schwinner (chr. soz.),
+      <lb break="yes"/>Landeshauptmannftellvertreter Langoth (gr. d.),</p><p>Landesrat Dr. Schwinner (chr. soz.),
       <lb break="yes"/>Landesamtsdirektor Attems.
       <lb break="yes"/>Landesamtsrat Dr. Gnsthaler,
       <lb break="yes"/>Statthaltereifonzipift Dr. Sommer.
@@ -536,8 +184,7 @@
       <lb break="yes"/>Magistratsdirektor Dr. Hartl.
       <lb break="yes"/>1*
       <lb break="yes"/>217<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>Offizieller Bericht des Pressekomitees
-      <lb break="yes"/>über die am 20. april sattgehabte vertrauliche Vorbesprechung.</p>
-            <p>Heute nach 6 Uhr abends traten die Delegierten
+      <lb break="yes"/>über die am 20. april sattgehabte vertrauliche Vorbesprechung.</p><p>Heute nach 6 Uhr abends traten die Delegierten
       <lb break="yes"/>der Länderkonferenz zu einer Vorbesprechung zu
 <lb break="no"/>ammen. Sie wurde im Namen des Landeshäupt
 <lb break="no"/>mannes Häuser, der wegen einer Tagung der
@@ -560,8 +207,7 @@
       <lb break="yes"/>Landeshauptmann Geber (Niederöfterreich) und
       <lb break="yes"/>Landesrat Christoph (Salzburg).
       <lb break="yes"/>Abgeordneter Runschaf beantragte weiters,
-      <lb break="yes"/>die gleiche Geschäftsordnung wie in Salzburglfür morgen 4 Uhr nachmittags festgesetzt.</p>
-            <p>festzusetzen. Abgeordneter Dr. Danneberg erklärt.
+      <lb break="yes"/>die gleiche Geschäftsordnung wie in Salzburglfür morgen 4 Uhr nachmittags festgesetzt.</p><p>festzusetzen. Abgeordneter Dr. Danneberg erklärt.
       <lb break="yes"/>sich hiemit im Prinzib einverstanden, wünscht
       <lb break="yes"/>jedoch, daß der Antrag dem Geschäftsordnungs
 <lb break="no"/>ausschuß zugewiesen werde. Dieser könne darüber
@@ -583,13 +229,10 @@
       <lb break="yes"/>In den Presseausschuk werden gewählt:
       <lb break="yes"/>Dr. Schumacher (wiedergewählt) und Speiser,
       <lb break="yes"/>sowie Dr. Mittermann (neu).
-      <lb break="yes"/>Die erste Blenarsitzung der Konferenz wurde</p>
-            <p>218<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>7</p>
-            <p>Erste Sitzung
+      <lb break="yes"/>Die erste Blenarsitzung der Konferenz wurde</p><p>218<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>7</p><p>Erste Sitzung
       <lb break="yes"/>am 21. 2prII 1820.
       <lb break="yes"/>Vorsitender: Der Herr Landeshauptmann von Steiermark Dr. Rinfelen.
-      <lb break="yes"/>Eröffnung der Sitzung um 4 Uhr 18 Minuten nachmittags.</p>
-            <p>Herr Landeshauptmann Dr. Rintelen: Ver
+      <lb break="yes"/>Eröffnung der Sitzung um 4 Uhr 18 Minuten nachmittags.</p><p>Herr Landeshauptmann Dr. Rintelen: Ver
 <lb break="no"/>ehrte Herrenl Indem ich hiemit die Sitzungen der
       <lb break="yes"/>Länderkonferenz eröffne, erkläre ich, daß das gestern
       <lb break="yes"/>von Ihnen gewählte Präfidium dankend die Wahl
@@ -632,8 +275,7 @@
 <lb break="no"/>weise. Es heißt dort, wenn ein Antrag auf Schluß
       <lb break="yes"/>der Dehatte gestellt und angenommen wird, so
       <lb break="yes"/>wird sofort zur Abstimmung über den Verhand
-<lb break="no"/>lungsgegenstand geschritten.</p>
-            <p>(s foll heißen: „Wird sofort die Meinungs
+<lb break="no"/>lungsgegenstand geschritten.</p><p>(s foll heißen: „Wird sofort die Meinungs
 <lb break="no"/>äußerung der verschiedenen Parteien zur Kenntnis
       <lb break="yes"/>genommen“, so wie wir das in Salzburg be
 <lb break="no"/>schlossen haben.
@@ -734,8 +376,7 @@
       <lb break="yes"/>Das kommt am deutlichsten zum Ausdruck dadurch,
       <lb break="yes"/>dan von einer Partei ein Entwurf vorgelegt
       <lb break="yes"/>wurde, von der Großdeutschen Vereinigung, nicht
-      <lb break="yes"/>etwa von den Mitaliedern dieser Partei aus Salz-</p>
-            <p>Tirol oder Oberösterreich, sondern es liegt der
+      <lb break="yes"/>etwa von den Mitaliedern dieser Partei aus Salz-</p><p>Tirol oder Oberösterreich, sondern es liegt der
       <lb break="yes"/>Intwurf der Gesamtpartei vor.
       <lb break="yes"/>Meine Herren! Die Konferenz kann zufolge
       <lb break="yes"/>ihrer ganzen Konstruktion keine Beschlüsse fassen:
@@ -851,8 +492,7 @@
       <lb break="yes"/>zu neuem Leben erweckt und in einer Form, die
       <lb break="yes"/>ganz unannehmbar erscheint. Die Zusammensetzung
       <lb break="yes"/>dieses Bundesrates soll eine derartige sein, daß
-      <lb break="yes"/>wir ihr unsere Zustimmung nicht geben könnten.</p>
-            <p>9
+      <lb break="yes"/>wir ihr unsere Zustimmung nicht geben könnten.</p><p>9
       <lb break="yes"/>ter einer überragenden Körperschaft gewährt wer
 <lb break="no"/>den foll, die in einer ganzen Reihe wichtiger Fragen
       <lb break="yes"/>die Beschlüsse des Bundestages annullieren kann.
@@ -972,8 +612,7 @@
       <lb break="yes"/>zu nehmen. Wir haben uns auf einen vollständig
       <lb break="yes"/>ausgearbeiteten Verfassungsentwurf geeinigt und
       <lb break="yes"/>uns erlaubt, diesen Verfassungsentwurf heute der
-      <lb break="yes"/>Länderkonferenz vorzulegen. Ich hege nicht dieIden ihm zukommenden politischen Anteil an Macht,</p>
-            <p>Absicht, alle Einzelheiten unjeres Entwurfes zu
+      <lb break="yes"/>Länderkonferenz vorzulegen. Ich hege nicht dieIden ihm zukommenden politischen Anteil an Macht,</p><p>Absicht, alle Einzelheiten unjeres Entwurfes zu
       <lb break="yes"/>erörtern, sondern möchte mich lediglich darauf
       <lb break="yes"/>beschränken, die wichtigsten Bestimmungen und
       <lb break="yes"/>rundsätze, insbesondere aber jene Bestimmungen
@@ -1088,8 +727,7 @@
       <lb break="yes"/>Manr'sche Entwurf hat im Artikel X. Punkt 12,
       <lb break="yes"/>die innere Einrichtung und Ausrüftuung der
       <lb break="yes"/>Gendarmerie dem ausschließlichen Wirkungskreise
-      <lb break="yes"/>überwiesen.</p>
-            <p>11
+      <lb break="yes"/>überwiesen.</p><p>11
       <lb break="yes"/>Formell ist ein Unterschied zwischen unserem
       <lb break="yes"/>und dem Mahrichen Entwürfe darin gelegen,
       <lb break="yes"/>daß wir das Käpitel über die Grund- und
@@ -1208,8 +846,7 @@
       <lb break="yes"/>eken hier die Arbeit von Salzbura fört und zwar
       <lb break="yes"/>nach der Salzburger Methode. Daß die nicht ge
 <lb break="no"/>rade die von uns gewünschte war, habe ich den
-      <lb break="yes"/>herren in Salzburg schon gesagt. Meines Erachtens</p>
-            <p>wäre es Aufgabe der Länderkonferenz, den vor
+      <lb break="yes"/>herren in Salzburg schon gesagt. Meines Erachtens</p><p>wäre es Aufgabe der Länderkonferenz, den vor
 <lb break="no"/>liegenden Entwurf genau durchzuarbeiten nach
       <lb break="yes"/>einer richtigen jystematischen Methode, um zu posi
 <lb break="no"/>tiven Abänderungsvorschlägen in den einzelnen
@@ -1285,112 +922,108 @@
       <lb break="yes"/>der Mann den Schlüssel zur Geldkasse seiner Frau
       <lb break="yes"/>bedingungslos
       <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-            </p>
-            <p>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-            </p>
-            <p>222<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>14
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/></p><p>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/></p><p>222<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>14
       <lb break="yes"/>vorsieht, würde nach meiner festen Überzeugung
       <lb break="yes"/>diese Probe nicht bestehen können. Im übrigen bin
       <lb break="yes"/>ich dafür, daß wir ganze Arbeit leisten. Der Herr
@@ -1450,8 +1083,7 @@
       <lb break="yes"/>Herr Vorsitzender Dr. Rintelen: Herr
       <lb break="yes"/>Dr. Steinwender hat das Wort.
       <lb break="yes"/>Herr Staatsfekretär a. D. Dr. Stein
-<lb break="no"/>wender (Kärnten): Verehrte Herren! Ich be-</p>
-            <p>chränke mich im allgemeinen nur auf einen ein
+<lb break="no"/>wender (Kärnten): Verehrte Herren! Ich be-</p><p>chränke mich im allgemeinen nur auf einen ein
 <lb break="no"/>zigen Satz, es ist der Widerspruch zwischen Zö
 <lb break="no"/>beralisnus und Zentralismus. Wollen Sie über
 <lb break="no"/>zeugt sein, es gibt Menschen, hochstehende Men
@@ -1570,8 +1202,7 @@
       <lb break="yes"/>5250 Millionen bleiben ja nicht stehen. Die Staats
 <lb break="no"/>betriebe müssen nicht nur mit diesen Ausgaben aus
       <lb break="yes"/>ihrem Ertrage gedeckt werden mit den Kosten,
-      <lb break="yes"/>die im Budaet stehen, sondern es kommen</p>
-            <p>15
+      <lb break="yes"/>die im Budaet stehen, sondern es kommen</p><p>15
       <lb break="yes"/>noch die staatlichen, die jetzigen außerordentlichen
       <lb break="yes"/>Zuschüsse dazu. Wenn Sie diese ebenfalls abziehen,
       <lb break="yes"/>o müssen Sie um eine ganze Milliarde zurück
@@ -1695,8 +1326,7 @@
 <lb break="no"/>wweijungen wieder in die neue Steuergesetzgebung
       <lb break="yes"/>Eingang finde, daß die Finanzwirtschaft in unserem
       <lb break="yes"/>Bundesstaate auf die Überweisungen aufgebaut
-      <lb break="yes"/>oder von diesen wesentlich beeinflußt werde. Das</p>
-            <p>Sustem der Überweisungen ist nach meiner Auf
+      <lb break="yes"/>oder von diesen wesentlich beeinflußt werde. Das</p><p>Sustem der Überweisungen ist nach meiner Auf
 <lb break="no"/>assung das unerträglichste Sustem, das man sich
       <lb break="yes"/>überhaupt denten fann.
       <lb break="yes"/>Von den moralischen Gründen, die gegen
@@ -1815,8 +1445,7 @@
 <lb break="no"/>leiten, das ift die Verfänderung des Schulwesens,
       <lb break="yes"/>die Erweiterung der Einflußfphäre der einzelnen
       <lb break="yes"/>fiedstaaten auf das Schulwesen. Wir werden
-      <lb break="yes"/>uns erlauben auch in diesem Sinne im weiteren</p>
-            <p>17
+      <lb break="yes"/>uns erlauben auch in diesem Sinne im weiteren</p><p>17
       <lb break="yes"/>Verlaufe der Verhandlungen unsere Anregungen
       <lb break="yes"/>noch genauer darzulegen und hoffen, daß es uns
       <lb break="yes"/>gelingen wird, selbe dem Verständnis nicht nur
@@ -1938,8 +1567,7 @@
       <lb break="yes"/>ist, bemerken, daß auch im Schoße unserer Parter
       <lb break="yes"/>ein Verfassungsentwurf ausgearbeitet wurde, daß
       <lb break="yes"/>wir aber diesen Verfassungsentwurf nicht der
-      <lb break="yes"/>Länderkonferenz in Linz unterbreiten, sondern da</p>
-            <p>er in Wien zur Veröffentlichung gelangen wird.
+      <lb break="yes"/>Länderkonferenz in Linz unterbreiten, sondern da</p><p>er in Wien zur Veröffentlichung gelangen wird.
       <lb break="yes"/>Wir werden uns aber erlauben, schon im Laufe
       <lb break="yes"/>der Debatte, die hier auf dieser Konferenz geführt
       <lb break="yes"/>wird, meritorische Bestimmungen unseres Verfas
@@ -2057,8 +1685,7 @@
       <lb break="yes"/>Landeshauptmannftellvertreter Langoth in feiner
       <lb break="yes"/>Rede selber erwähnt hat. Im Artikel VIII des
       <lb break="yes"/>Grofdeutschen Entwurfes finden wir zum Beispiel
-      <lb break="yes"/>als zum grundsätzlichen Wirkungskreis des Bundes</p>
-            <p>19
+      <lb break="yes"/>als zum grundsätzlichen Wirkungskreis des Bundes</p><p>19
       <lb break="yes"/>gehörig unter Punkt 9 die Organisation und Ver
 <lb break="no"/>wendung der Gendarmerie sowie Polizei außer
 <lb break="no"/>halb Wiens und im Artikel VI, wo diejenigen Agenden
@@ -2177,8 +1804,7 @@
       <lb break="yes"/>über seine Ungliederung an Deutschöfterreich zu
       <lb break="yes"/>entscheiden.
       <lb break="yes"/>Im Entwurf des Herrn Staatssekretärs Doktor
-      <lb break="yes"/>Wahr ist auch davon die Rede, daß das Bundes-</p>
-            <p>gebiet neben den Gebieten der selbständigen Länder
+      <lb break="yes"/>Wahr ist auch davon die Rede, daß das Bundes-</p><p>gebiet neben den Gebieten der selbständigen Länder
       <lb break="yes"/>auch das Gebiet der Bundeshaubtstadt Wien
 <lb break="no"/>Landes hat. Auch diese Formel erscheint uns nicht
       <lb break="yes"/>annehmbar und zwar deshalb, weil wir feineswegs
@@ -2295,8 +1921,7 @@
       <lb break="yes"/>Volkes dienen soll-.
       <lb break="yes"/>Es heißt also hier auch:
       <lb break="yes"/>„Unter möglichster Berücksichtigung des
-      <lb break="yes"/>Willens der beteiligten Bevölkerung.</p>
-            <p>21
+      <lb break="yes"/>Willens der beteiligten Bevölkerung.</p><p>21
       <lb break="yes"/>Auch die deutsche Verfassung betrachtet die
       <lb break="yes"/>heutigen Länder, die das Bundesgebiet bilden,
       <lb break="yes"/>nicht als endgültig gebildet in Bezug auf ihre
@@ -2356,8 +1981,7 @@
       <lb break="yes"/>bedaure es lebhaft, daß Herr Staatssekretär Pro
 <lb break="no"/>fessor Dr. Mayr uns nicht, wenn schon nicht in
       <lb break="yes"/>Salzburg, so doch wenigstens in Dinz eine Vyr
-<lb break="no"/>lage über die Verwaltungsreform vorgelegt hat.</p>
-            <p>226<pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>22
+<lb break="no"/>lage über die Verwaltungsreform vorgelegt hat.</p><p>226<pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>22
       <lb break="yes"/>Da er schon eine Privatarbeit auf diesem Gebiete
       <lb break="yes"/>macht, so hätte er seine Privatarbeit hier fort
 <lb break="no"/>setzen sollen. Ich muß feststellen, daß diese un
@@ -2415,8 +2039,7 @@
       <lb break="yes"/>Frage aufgenommen werden soll. Ich möchte
       <lb break="yes"/>diesen Artikel, wie wir ihn in unserem Entwür
 <lb break="no"/>haben, den Herren mit Erlaubnis des Vorsitzen
-<lb break="no"/>den ebenfalss zur Verlesung bringen (lieft):</p>
-            <p>„Die Organisation der Gütererzeugung und
+<lb break="no"/>den ebenfalss zur Verlesung bringen (lieft):</p><p>„Die Organisation der Gütererzeugung und
       <lb break="yes"/>der Güterverteilung ift Aufaabe des Bündes.
       <lb break="yes"/>Durch planmäßigen Aufbau dieser Organisation
       <lb break="yes"/>ist die politische Demokratie zur wirtschaftlichen
@@ -2533,8 +2156,7 @@
       <lb break="yes"/>kassung, aber nicht so geändert, wie wir es wünschen
       <lb break="yes"/>müßten. Denn wir sehen nicht ein, warum der
       <lb break="yes"/>Bundesrat anders zusammengesetzt werden sollte
-      <lb break="yes"/>als entsprechend der Bevölkerungszahl der einzelnen</p>
-            <p>23
+      <lb break="yes"/>als entsprechend der Bevölkerungszahl der einzelnen</p><p>23
       <lb break="yes"/>Länder. Der Entwurf des Staatssekretärs Doktor
       <lb break="yes"/>Mayr sieht diese Bestimmung nicht vor, sondern
       <lb break="yes"/>enthält eine Konstruktion, die immer noch eine arge
@@ -2655,8 +2277,7 @@
       <lb break="yes"/>Und zwar gedenke ich es in erfter Linie wieder
       <lb break="yes"/>so zu halten wie in Salzburg, daß ich mich
       <lb break="yes"/>in eine Polemik über die Reden der verehrten
-      <lb break="yes"/>Herren Vorredner nicht weiter einlasse, sondern</p>
-            <p>höchstens, soweit ich es für notwendig halte, mir
+      <lb break="yes"/>Herren Vorredner nicht weiter einlasse, sondern</p><p>höchstens, soweit ich es für notwendig halte, mir
       <lb break="yes"/>Richtigstellungen vorzunehmen erlaube. Im übri
 <lb break="no"/>gen werde ich mich rezeptiv verhalten. Ich möchte
       <lb break="yes"/>in diesem Sinne nur auf zwei Bemerkungen des
@@ -2725,9 +2346,7 @@
       <lb break="yes"/>Abgeordneter, besonders als Abgeordneter von
       <lb break="yes"/>Tirol, den Entwurf zu machen gehabt hätte, so
       <lb break="yes"/>könnten die Herren versichert sein, daß ich selbst
-      <lb break="yes"/>mit vielen Bunkten nicht einverstanden sein)</p>
-            <p>25</p>
-            <p>könnte. Ich beanspruche für meine Wenigkeit nur
+      <lb break="yes"/>mit vielen Bunkten nicht einverstanden sein)</p><p>25</p><p>könnte. Ich beanspruche für meine Wenigkeit nur
       <lb break="yes"/>das eine Verdienst, die Verfassungsreform- und
       <lb break="yes"/>Verwaltungsreformfrage in Fluß zu bringen und
       <lb break="yes"/>wenn ich das erreicht habe, bin ich zufrieden.
@@ -2738,8 +2357,7 @@
       <lb break="yes"/>Schluß der Sitzung um 6 Uhr 45 Minuten
       <lb break="yes"/>abends.):<pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>Geschäftsordndung der Länderkonferenz
       <lb break="yes"/>nach den Beschlüssen der Landerkonjerenz in Salzburg und des
-      <lb break="yes"/>Geschaftspronungskomitees der zanverkonjerenz in 2inz.</p>
-            <p>(s werden drei Vorsitzende gewählt.
+      <lb break="yes"/>Geschaftspronungskomitees der zanverkonjerenz in 2inz.</p><p>(s werden drei Vorsitzende gewählt.
       <lb break="yes"/>II.
       <lb break="yes"/>Für die Verhandlungen gelten die in unferen
       <lb break="yes"/>gesetzgebenden Körperschaften üblichen Grundsätze.
@@ -2756,8 +2374,7 @@
       <lb break="yes"/>III.
       <lb break="yes"/>Die Feftstellung der Meinungen wird derart
       <lb break="yes"/>vorgenommen, daß für jedes Land jede Partei
-<lb break="no"/>ihre Äußerung abgibt.</p>
-            <p>IV.
+<lb break="no"/>ihre Äußerung abgibt.</p><p>IV.
       <lb break="yes"/>Der Vorsitzende bestellt einen paritätischen
       <lb break="yes"/>Pressedienst.
       <lb break="yes"/>V.
@@ -2771,8 +2388,7 @@
       <lb break="yes"/>3. Abschnitt IV.
       <lb break="yes"/>4. Grund- und Freiheitsrechte,
       <lb break="yes"/>5. Behandlung des Artifels 141.<pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>Offizieller Bereicht des Pressekomitees
-      <lb break="yes"/>über die vertraulichen Beratungen am 22. ApriI.</p>
-            <p>Einz. 22. Bei der heutigen Vormittagberatung
+      <lb break="yes"/>über die vertraulichen Beratungen am 22. ApriI.</p><p>Einz. 22. Bei der heutigen Vormittagberatung
       <lb break="yes"/>der Länderkonferenz, die den Charakter einer Aus
 <lb break="no"/>schußberatung trug, führte Landeshauptmann Seven
       <lb break="yes"/>den Vorsitz. In durchaus ruhiger und sachlicher
@@ -2818,8 +2434,7 @@
       <lb break="yes"/>und Rechtsanwälte, Ingenieure und Ziviltechniker,
       <lb break="yes"/>der Sandels- und Gewerbefammern, des gesamten
       <lb break="yes"/>Verfehrswesens, des Post-, Telegraphen- und Fern
-<lb break="no"/>sprechwesens, des Vermessungswesens, endlich der</p>
-            <p>Angelegenheiten der Sochschulen und fachlichen
+<lb break="no"/>sprechwesens, des Vermessungswesens, endlich der</p><p>Angelegenheiten der Sochschulen und fachlichen
       <lb break="yes"/>Zentrallehranftalten und der militärischen Ange
 <lb break="no"/>legenheiten gehalten werden können. Wenn in der
       <lb break="yes"/>Zukunft weitere Gegenstände vom Bunde durch
@@ -2927,8 +2542,7 @@
       <lb break="yes"/>und Verufzausübung von Heilpersonen, sowie das
       <lb break="yes"/>Heilmittelwesen der ausschließlichen Bundeskom
 <lb break="no"/>petenz entzogen werde, sowie daß die bundesstaat
-<lb break="no"/>liche Kompetenz betreffend Stiftungen und Fonds</p>
-            <p>jene Stiftungen nicht zu berühren habe, die heute
+<lb break="no"/>liche Kompetenz betreffend Stiftungen und Fonds</p><p>jene Stiftungen nicht zu berühren habe, die heute
       <lb break="yes"/>chon in der Verwaltung einzelner Länder stehen.
       <lb break="yes"/>Gegenüber der in dem Entwurfe enthaltenen
       <lb break="yes"/>Bestimmung, daß die aus Anlaß eines Krieges
@@ -3042,8 +2656,7 @@
       <lb break="yes"/>der Bund den Ländern Gesetzaebungsrechte über
 <lb break="no"/>trägt. Er verlange aber nicht, daß diefes letztere
       <lb break="yes"/>ausdrücklich ausgesprochen werde, aber man möge
-      <lb break="yes"/>eine neutrale Paffung wählen.</p>
-            <p>29
+      <lb break="yes"/>eine neutrale Paffung wählen.</p><p>29
       <lb break="yes"/>Nach 12 Uhr mittags wurde die Verhandlung
       <lb break="yes"/>geschlossen. Fortsetzung 3 Uhr nachmittags.
       <lb break="yes"/>Vinz. 22. Nachmittags 3 Uhr wurde unter dem
@@ -3099,9 +2712,7 @@
       <lb break="yes"/>230<pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>31
       <lb break="yes"/>Zweite Sitzung
       <lb break="yes"/>am 22. April 1920.
-      <lb break="yes"/>Vorsikender: Der Herr Landesrat von Salzburg Christoph.</p>
-            <p>Eröffnung der Sitzung 3 Uhr 40 Minuten nachmittags.</p>
-            <p>Herr Landesrat Christoph (Salzburg): Ich
+      <lb break="yes"/>Vorsikender: Der Herr Landesrat von Salzburg Christoph.</p><p>Eröffnung der Sitzung 3 Uhr 40 Minuten nachmittags.</p><p>Herr Landesrat Christoph (Salzburg): Ich
       <lb break="yes"/>bitte Herrn Staatssekretär Dr. Mahr, die Debatte
       <lb break="yes"/>einzuleiten.
       <lb break="yes"/>Herr Staatssekretär Dr. Mahr: Ich glaube,
@@ -3144,8 +2755,7 @@
       <lb break="yes"/>nämlich vielmehr die Länder als Gliedstaaten
       <lb break="yes"/>die Steuerhoheit haben und die Steuerhoheit an
       <lb break="yes"/>den Bund nur teilweise abtreten, freilich in sehr
-      <lb break="yes"/>wichtigen Belangen so weit abtreten, als sie über-</p>
-            <p>haupt abtreten können, ohne die eigene Lebend
+      <lb break="yes"/>wichtigen Belangen so weit abtreten, als sie über-</p><p>haupt abtreten können, ohne die eigene Lebend
 <lb break="no"/>jähigkeit preiszugeben. Daß der Vund sehr große
       <lb break="yes"/>Mittel braucht, ift ja gewiß keinem von uns ver
 <lb break="no"/>schlossen, und daß ihm diese Mittel zur Verfügung
@@ -3249,8 +2859,7 @@
       <lb break="yes"/>möglichft großen Anteil zu bekommen. Es ist ein
       <lb break="yes"/>Anreiz in diesem Überweisungsinstem gelegen, die
       <lb break="yes"/>Finanzen des Landes so schlecht zu gestalten, als
-      <lb break="yes"/>es geht. Das ist schlecht. Das verleitet die Länder-</p>
-            <p>dazu sichtlich etwas zu wenig sparsam zu sein und
+      <lb break="yes"/>es geht. Das ist schlecht. Das verleitet die Länder-</p><p>dazu sichtlich etwas zu wenig sparsam zu sein und
       <lb break="yes"/>ich zu sehr auf die Überweisungen des Bundes
       <lb break="yes"/>zu verlassen. Und zweitens ist es geeignet, die
       <lb break="yes"/>Budgetabrechnung in der ganzen Finanzierung
@@ -3367,8 +2976,7 @@
       <lb break="yes"/>daran, daß sie nicht jeweils im Gesetzgebungs
 <lb break="no"/>weae nach vorausgegangener Prüfung des wirk
 <lb break="no"/>lichen Bedarfes festgelegt wurden, sondern in ein
-      <lb break="yes"/>gewisses Schema hineingepreßt und im Wege der</p>
-            <p>33
+      <lb break="yes"/>gewisses Schema hineingepreßt und im Wege der</p><p>33
       <lb break="yes"/>Verwaltung gegeben wurden, so daß die Ver
 <lb break="no"/>waltungsorgane dann vom Lande gepreßt und
       <lb break="yes"/>gedrückt werden mußten und Zuckerl austeilen.
@@ -3489,8 +3097,7 @@
 <lb break="no"/>tränfefteuer. Nun das wäre vorderhand der An
 <lb break="no"/>fang. Nun kann es fich aber herausftellen, daß
       <lb break="yes"/>möglicherweise die Bedürfnisse des Bundesstaates
-      <lb break="yes"/>größer sind, als wir heute annehmen.</p>
-            <p>Zweifellos ist, daß die Getränkesteuer mehr
+      <lb break="yes"/>größer sind, als wir heute annehmen.</p><p>Zweifellos ist, daß die Getränkesteuer mehr
       <lb break="yes"/>tragen wird, als was wir heute in Rechnung
       <lb break="yes"/>tellen. Gs fann aber auch möglicherweife bei dem
       <lb break="yes"/>Anteile der Länder eine Herabminderung ftatt
@@ -3610,8 +3217,7 @@
       <lb break="yes"/>können beffer geftellt werden, aber es follen nicht
       <lb break="yes"/>mehr sein, als notwendig ist. Ich mache aufmerk
 <lb break="no"/>sam, was in Wien geschehen ist bei der Finanz
-<lb break="no"/>landesdirektion. Die Zahl der Beamten wurde</p>
-            <p>35
+<lb break="no"/>landesdirektion. Die Zahl der Beamten wurde</p><p>35
       <lb break="yes"/>von 4000 herabgesetzt auf 2000 und es wird besser
       <lb break="yes"/>gearbeitet als früher. (Zurufe: „Rückständel
       <lb break="yes"/>Rückstände sind überall. Die Finanzdirektion war
@@ -3733,8 +3339,7 @@
 <lb break="no"/>fahrung, wir müssen mit Bedauern bemerken, daß
       <lb break="yes"/>wir einen zweijährigen Steuerrückstand haben in
       <lb break="yes"/>Wien, und vergèssen Sie nicht, was heute das
-      <lb break="yes"/>Geld wert ist und was das Geld wert gewesen</p>
-            <p>wäre, wenn der Staat in der Lage gewesen wäre,
+      <lb break="yes"/>Geld wert ist und was das Geld wert gewesen</p><p>wäre, wenn der Staat in der Lage gewesen wäre,
       <lb break="yes"/>es auszunußen. Heute ift dem Staate nicht mehr
 <lb break="no"/>o gedient damit, wenn er das schlechte Geld be
 <lb break="no"/>kommt. Gs ift nicht immer qut.
@@ -3851,8 +3456,7 @@
       <lb break="yes"/>berichtigen oder zu ergänzen, fofern ich nicht in
       <lb break="yes"/>in der Lage bin, genaue Ungaben machen zu körnen.
       <lb break="yes"/>Vorerst drei Ziffern, meine sehr verehrten
-      <lb break="yes"/>Herren! Im ersten Salbjahre 1919 wurden an diref-</p>
-            <p>37
+      <lb break="yes"/>Herren! Im ersten Salbjahre 1919 wurden an diref-</p><p>37
       <lb break="yes"/>ten Steuern, und zwar Grundsteuern, Hausklassen
 <lb break="no"/>steuern, Hauszinssteuern, 5 9ige allgemeine Er
 <lb break="no"/>werbsteuern, Haufiersteuern, Kentensteuern, Ein
@@ -3973,8 +3577,7 @@
       <lb break="yes"/>Stadt übrig. Also dieses Argument ändert nichts
       <lb break="yes"/>an der Tatsache, daß eine einzige Stadt, die
       <lb break="yes"/>allerdings die Hauptstadt eines 40 Millionen
-      <lb break="yes"/>Reiches gewesen ist, eine so überragende Stellung</p>
-            <p>in bezug auf die Steuerleiftung einnimmt. Wenn
+      <lb break="yes"/>Reiches gewesen ist, eine so überragende Stellung</p><p>in bezug auf die Steuerleiftung einnimmt. Wenn
       <lb break="yes"/>wir zu einer solchen Verländerung und zu einer
       <lb break="yes"/>olchen Verteilung der Steuerquellen kommen,
       <lb break="yes"/>dann nehmen wir für Wien das gleiche Recht in
@@ -4093,8 +3696,7 @@
       <lb break="yes"/>Herr Landtagsabgeordneter Segur (Nieder
 <lb break="no"/>österreich): Meine Herren! Ich will Sie nicht
       <lb break="yes"/>länge aufhalten, aber ich glaube, daß die Sache
-      <lb break="yes"/>vorgebracht und von der Länderkonferenz besprochen)</p>
-            <p>39
+      <lb break="yes"/>vorgebracht und von der Länderkonferenz besprochen)</p><p>39
       <lb break="yes"/>werden muß. Der Herr Landeshauptmann von
       <lb break="yes"/>Vorarlberg hat bereits in feinen Ausführungen
       <lb break="yes"/>der Gemeinden und Bezirke gedacht. Ich möchte
@@ -4215,8 +3817,7 @@
       <lb break="yes"/>grof ungefähr die Steuerquellen sein müssen, die
       <lb break="yes"/>das Land braucht, zeigt schon, daß wir 130 Mil
 <lb break="no"/>tionen Kronen Bedeckung haben und gegenwärtig
-      <lb break="yes"/>ein Erfordernis von 320 Millionen Kronen. Wenn</p>
-            <p>ich nur an den Zinfendienft denke, und das Er
+      <lb break="yes"/>ein Erfordernis von 320 Millionen Kronen. Wenn</p><p>ich nur an den Zinfendienft denke, und das Er
 <lb break="no"/>fordernis steigert sich zu Ende des Jahres noch be
 <lb break="no"/>deutend, so beträgt der Zinsendienst pro Jahr
       <lb break="yes"/>15 bis 16 Millionen Kronen, wofür ich die Umlagen
@@ -4334,8 +3935,7 @@
       <lb break="yes"/>bestehen, ist der Umstand, daß bestimmte Steuer
 <lb break="no"/>beiträge in bestimmten Quartalen eingehoben wer
 <lb break="no"/>den, wohl nicht maßgebend, sie als Grundlage
-      <lb break="yes"/>Insteamaticher und prinzipieller Steuerbehandlung</p>
-            <p>41
+      <lb break="yes"/>Insteamaticher und prinzipieller Steuerbehandlung</p><p>41
       <lb break="yes"/>zu nehmen. Dazu kommt noch, daß die Steuerkraft
       <lb break="yes"/>Wiens infolge der Änderung der Grenzen und der
       <lb break="yes"/>Verminderung des Staatsumfanges im wirtschaft
@@ -4457,8 +4057,7 @@
       <lb break="yes"/>von anderen Verwaltungen beftritten werden, die
       <lb break="yes"/>Einnahmen zu beschaffen, so daß auch auf dem
       <lb break="yes"/>(ebiete des Einnahmenwesens ein Bestreben nach
-      <lb break="yes"/>Vereinheitlichung bei der zentralen Verwaltung</p>
-            <p>nur insoweit besteht, als diese eben aus allgemeinen
+      <lb break="yes"/>Vereinheitlichung bei der zentralen Verwaltung</p><p>nur insoweit besteht, als diese eben aus allgemeinen
       <lb break="yes"/>Bedürfnissen und aus technischen und aus volkz
 <lb break="no"/>wirtschaftlichen Rücksichten sich als notwendig er
 <lb break="no"/>weist. Nun ist es allerdings so, daß wir die
@@ -4577,8 +4176,7 @@
       <lb break="yes"/>gehen die Zinsen und Amortfationsqutione dieser
       <lb break="yes"/>Unleihe in eine dauernde Belaftung über.
       <lb break="yes"/>Was die Vermögensabgabe anbelangt, so ist
-      <lb break="yes"/>selbst bei den weitgehendsten Anträgen, die im Unter</p>
-            <p>43
+      <lb break="yes"/>selbst bei den weitgehendsten Anträgen, die im Unter</p><p>43
       <lb break="yes"/>ausschluß von Seite der sozialdemokratischen Ver
 <lb break="no"/>treter geftellt wurden, mit einem plötzlichen und
       <lb break="yes"/>chnellen Abbau von Ausgaben durch ihren Ertrag
@@ -4699,8 +4297,7 @@
       <lb break="yes"/>Beteiligung der Länder am Staatssteuerertrage
       <lb break="yes"/>Der Staatssteuerapparat wird zu einer Steuer
 <lb break="no"/>schöpfmaschine für den Staat und die Länder.
-      <lb break="yes"/>Der Staat gibt jedem einzelnen Lande die gleiche</p>
-            <p>Quote der Steuer von jenem Branntwein, der in
+      <lb break="yes"/>Der Staat gibt jedem einzelnen Lande die gleiche</p><p>Quote der Steuer von jenem Branntwein, der in
       <lb break="yes"/>dem Lande fonfumiert wird. Und schließlich war
       <lb break="yes"/>es auch bei der Viersteuer so gedacht.
       <lb break="yes"/>Wenn es nun zu einer Degenerierung dieser
@@ -4817,8 +4414,7 @@
       <lb break="yes"/>Die Steuereinnahmen aus dem Steuer
 <lb break="no"/>programme sind geschäkt auf 1-9 Milliarden, dies
       <lb break="yes"/>bei einer Erhöhung der Ginkommenfteuer bis zu
-      <lb break="yes"/>609.</p>
-            <p>45
+      <lb break="yes"/>609.</p><p>45
       <lb break="yes"/>Auch die Vermögenssteuer und die Vermögens
 <lb break="no"/>zuwachssteuer sind schon darin einbezogen. Es er
 <lb break="no"/>gibt sich eine Steuereinnahme von 3-3 Milliarden
@@ -4939,8 +4535,7 @@
       <lb break="yes"/>nicht ganz flar geftellt ift, welche Auslagen die
       <lb break="yes"/>Länder zu tragen haben.
       <lb break="yes"/>Gs ift heute in Diskussion gestanden.
-      <lb break="yes"/>Übernahme der Volksschule, die Übernahme der</p>
-            <p>Volksschule durch den Bundesstaat aus Anlaßz der
+      <lb break="yes"/>Übernahme der Volksschule, die Übernahme der</p><p>Volksschule durch den Bundesstaat aus Anlaßz der
       <lb break="yes"/>Töderalisierung. Ich habe keine Daten, aber ich
       <lb break="yes"/>glaube, die übernahme des Perfonalaufwandes
       <lb break="yes"/>der Volksschule, soweit ihn der Staat nicht jetzt
@@ -5058,8 +4653,7 @@
 <lb break="no"/>kommensteuerüberweisung würde sicher die For
 <lb break="no"/>derung erhoben werden, daß demjenigen Lande,
       <lb break="yes"/>wo die Produktionsstätte und nicht wo der Wohn
-<lb break="no"/>ort der Steuerpflichtigen ist, ein Teil zugewiesen</p>
-            <p>47
+<lb break="no"/>ort der Steuerpflichtigen ist, ein Teil zugewiesen</p><p>47
       <lb break="yes"/>werde. Besonders schwierig ist die Sache bei den
       <lb break="yes"/>indirekten Steuern. Bei den indireften Steuern
       <lb break="yes"/>hat bereits früher bei uns eine Ertragspartizipation
@@ -5181,8 +4775,7 @@
 <lb break="no"/>ziehungsweise zwischen Bundesstaat und Einzelstaat
       <lb break="yes"/>auch noch die Gemeinden einbezogen werden, daß
       <lb break="yes"/>etwa noch aus dieser ohnehin sehr kurzen Steuer
-<lb break="no"/>decke noch getrennte Steuern herausgenommen und</p>
-            <p>den Gemeinden zugewiesen werden, das halte ich
+<lb break="no"/>decke noch getrennte Steuern herausgenommen und</p><p>den Gemeinden zugewiesen werden, das halte ich
       <lb break="yes"/>ür eine unmögliche Sache. Die Gemeinden werden
       <lb break="yes"/>bei der Auseinandersetzung zwischen Bund und
       <lb break="yes"/>Einzelftaat einzelftaatliche Angelegenheiten. Gs ift
@@ -5278,8 +4871,7 @@
       <lb break="yes"/>sonst können wir aus unserem Glende nicht heraus
 <lb break="no"/>kommen. Aber es ift nur die Ffrage, ob wir als
       <lb break="yes"/>ganze Dettler an Deutschland angegliedert werden.
-      <lb break="yes"/>oder ob wir in halbwegs ordentlichem Zustande</p>
-            <p>49
+      <lb break="yes"/>oder ob wir in halbwegs ordentlichem Zustande</p><p>49
       <lb break="yes"/>zu den deutschen Brüdern kommen wollen. Die
       <lb break="yes"/>heutige Konferenz wird so verlaufen wie das
       <lb break="yes"/>Hornberger Schiefzen oder die Salzburger Taguna,
@@ -5316,9 +4908,7 @@
       <lb break="yes"/>hier zu erscheinen.
       <lb break="yes"/>Die Sitzung ist geschlossen.
       <lb break="yes"/>(Schlußz der Sitzuna 6 Uhr 15 Minuten.
-      <lb break="yes"/>nachmittags.)</p>
-            <p>7</p>
-            <p>240<pb facs="#facs_47" n="47" xml:id="img_0047" break="yes"/>51<pb facs="#facs_48" n="48" xml:id="img_0048" break="yes"/>﻿52
+      <lb break="yes"/>nachmittags.)</p><p>7</p><p>240<pb facs="#facs_47" n="47" xml:id="img_0047" break="yes"/>51<pb facs="#facs_48" n="48" xml:id="img_0048" break="yes"/>﻿52
       <lb break="yes"/>geleat würde, innerhalb und auf Grund deren
       <lb break="yes"/>die Länder von ihrer Kompetenz Gebrauch machen
       <lb break="yes"/>können. Gs ift naturgemäß, wenigstens meiner An
@@ -5378,8 +4968,7 @@
 <lb break="no"/>freis nicht entbehren können.
       <lb break="yes"/>Gs ift eine allgemeine Klage der Gemeinden,
       <lb break="yes"/>und sie dürfte in allen Landtagen wiedergefehrt.
-      <lb break="yes"/>sein, daß die Gemeinden durch die Geschäfte des</p>
-            <p>übertragenen Wirfungskreifes wefentlich beschwert
+      <lb break="yes"/>sein, daß die Gemeinden durch die Geschäfte des</p><p>übertragenen Wirfungskreifes wefentlich beschwert
       <lb break="yes"/>ind, daß sie durch die Ausführung der Geschäfte
       <lb break="yes"/>des übertragenen Wirkungskreises bemüßigt sind,
       <lb break="yes"/>ihre Gemeindebeamten nicht nur in größerer Zahl,
@@ -5497,8 +5086,7 @@
       <lb break="yes"/>anderen Ländern ist. Bei uns in Oberösterreich
       <lb break="yes"/>stehen wir vor dieser Frage und der Landtag
       <lb break="yes"/>wird sich in allernächster Zeit mit dieser Frage
-      <lb break="yes"/>zu beschäftigen haben. Die Verhältnisse der Be-</p>
-            <p>53
+      <lb break="yes"/>zu beschäftigen haben. Die Verhältnisse der Be-</p><p>53
       <lb break="yes"/>meindesekretäre sind im Lande natürlich sehr ver
 <lb break="no"/>chieden. Eine ganze Anzahl Gemeinden befoldet
       <lb break="yes"/>die Sekretäre in angemessener Weise. In vielen
@@ -5618,8 +5206,7 @@
 <lb break="no"/>schädigung im übertragenen Wirkungskreise. Ich
       <lb break="yes"/>kann allerdings das heute nur anfündigen. Es
       <lb break="yes"/>hat dann der Herr Kollege Landeshauptmann
-<lb break="no"/>stellvertreter Langoth hingewiesen auf den Ar-</p>
-            <p>titel 31 des grofzdeutschen Verfassungsentwurfes
+<lb break="no"/>stellvertreter Langoth hingewiesen auf den Ar-</p><p>titel 31 des grofzdeutschen Verfassungsentwurfes
       <lb break="yes"/>der schon direkte Bestinmungen enthält.
       <lb break="yes"/>Ich kann nur dasselbe sagen, daß nur in der
       <lb break="yes"/>Fform ein Unterschied ist. Ich denke mir eine Re
@@ -5737,8 +5324,7 @@
       <lb break="yes"/>dadurch ein Schwebezustand ein, der für und
       <lb break="yes"/>in den Ländern unhaltbar ist. Ich habe im Salz
 <lb break="no"/>burger Landtag die Erfahrung gemacht, daß bereits
-      <lb break="yes"/>vor vier Wochen telephönisch die Vorstellung an-</p>
-            <p>55
+      <lb break="yes"/>vor vier Wochen telephönisch die Vorstellung an-</p><p>55
       <lb break="yes"/>gekündigt wurde, die Ausführung der Vorstellung
       <lb break="yes"/>aber bis heute noch nicht erfolgt ist.
       <lb break="yes"/>Wir stehen vor Beginn der Landtagsfession
@@ -5859,8 +5445,7 @@
       <lb break="yes"/>eine Frist von drei Wochen.
       <lb break="yes"/>Herr Vorsitzender Landeshauptmann Doktor
       <lb break="yes"/>Rintelen: Es ist sonst niemand zum Worte ge
-<lb break="no"/>meldet.</p>
-            <p>Herr Staatssekretär Dr. Mayr: Ich nehme
+<lb break="no"/>meldet.</p><p>Herr Staatssekretär Dr. Mayr: Ich nehme
       <lb break="yes"/>die Wünsche zur Kenntnis und werde trachten,
       <lb break="yes"/>soweit als möglich sie zu erfüllen.
       <lb break="yes"/>Herr Vorsitzender Landeshauptmann Doktor
@@ -5978,8 +5563,7 @@
       <lb break="yes"/>dieser Antrag nicht berücksichtigt werden wird,
       <lb break="yes"/>möchte ich zu Artikel 92 folgéndes bemerken.
       <lb break="yes"/>Gs ist wohl in den weitesten Kreisen bekannt,
-      <lb break="yes"/>daß einer der grundlegendsten Fehler in unserer</p>
-            <p>57
+      <lb break="yes"/>daß einer der grundlegendsten Fehler in unserer</p><p>57
       <lb break="yes"/>Verwaltung der war, daß man dem Fachmanne
       <lb break="yes"/>nie jene Stellung eingeräumt hat, die ihm zukam.
       <lb break="yes"/>In der Folgezeit wird wohl bei den Ländes
@@ -6102,8 +5686,7 @@
       <lb break="yes"/>gesamten inneren Dienstbetriebes der Ländes
 <lb break="no"/>regieruna ift ein rechtskundiger Beamter zu be
 <lb break="no"/>stellen.“ Ob der Titel Landesamt3direftor heißt,
-      <lb break="yes"/>ist doch Nebensche (Herr Landeshauptmannstell-</p>
-            <p>59
+      <lb break="yes"/>ist doch Nebensche (Herr Landeshauptmannstell-</p><p>59
       <lb break="yes"/>vertreter Landoth "Das ist gleichgültig!"),
       <lb break="yes"/>daß ein leitender Veamter da fein muß, stelle ich
       <lb break="yes"/>est. Die weiteren Bestimmungen wegen Führung
@@ -6226,8 +5809,7 @@
       <lb break="yes"/>dann brauchen Sie nicht foviel zurückzuzahlen.
       <lb break="yes"/>Ein Bundeskommissär ist vollständig überflüssig.
       <lb break="yes"/>Herr Gemeinderat Schmitz (Wien): Zum
-      <lb break="yes"/>Artikel 96 möchte ich einige Bemerkungen machen,</p>
-            <p>daß er nämlich nur in ganz besonderen Ausnahme
+      <lb break="yes"/>Artikel 96 möchte ich einige Bemerkungen machen,</p><p>daß er nämlich nur in ganz besonderen Ausnahme
 <lb break="no"/>fällen Anwendung finden kann und er mir deshalb
       <lb break="yes"/>ungerechtfertiat erscheint.
       <lb break="yes"/>Herr Vorsitzender Landeshauptmann Doktor
@@ -6345,8 +5927,7 @@
 <lb break="no"/>ferenz zur Erledigung der Verfassungsfrage von
       <lb break="yes"/>uns im allgemeinen nicht anerkannt wird, in be
 <lb break="no"/>zug auf eine Erledigung dieser Frage aber inz
-<lb break="no"/>besondere. Denn in der Frage der Grundrechte</p>
-            <p>61
+<lb break="no"/>besondere. Denn in der Frage der Grundrechte</p><p>61
       <lb break="yes"/>handelt es fich nicht um irgend welche befondere
       <lb break="yes"/>Länderinteressen, die vor der Fertigstellung der
       <lb break="yes"/>Verfassung zu erörtern wären, sondern um große
@@ -6469,8 +6050,7 @@
       <lb break="yes"/>diesem Gesichtspunkte aus werden die Destim
 <lb break="no"/>mungen in den betreffenden Artikeln auch zu über
 <lb break="no"/>prüfen sein. Die Bestimmungen über die Gleich
-<lb break="no"/>berechtigung der Staatsbürger ohne Unterschied</p>
-            <p>der Nationalität erscheinen in dem Entwurfe des
+<lb break="no"/>berechtigung der Staatsbürger ohne Unterschied</p><p>der Nationalität erscheinen in dem Entwurfe des
       <lb break="yes"/>Herrn Staatssekretärs nicht entsprechend heraus
 <lb break="no"/>gearbeitet. Ich glaube, daß hier das einfachste
       <lb break="yes"/>wohl sein wird, wenn wir die Bestimmung des
@@ -6586,28 +6166,23 @@
 <lb break="no"/>änderungsanträge stellén, weil in dieser Form
       <lb break="yes"/>die Sache zu kombliziert würde, sondern wir schlagen
       <lb break="yes"/>vor, daß dieses Kabitel. dieser Abschnitt überhaupt
-      <lb break="yes"/>anders lauten soll. Und ich möchte mir nur erlauben</p>
-            <p>63
+      <lb break="yes"/>anders lauten soll. Und ich möchte mir nur erlauben</p><p>63
       <lb break="yes"/>o wie wir ihn uns denken, diesen Abschnitt zu
       <lb break="yes"/>verlesen (lieft):
       <lb break="yes"/>„Sechster Abschnitt.
       <lb break="yes"/>Die Grund- und Freiheitsrechte.
-      </p>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_1"/>
-               <head>Artikel 105.
+      </p><div type="article">
+<head>Artikel 105.
       </head>
-               <p type="legal_section">Vor dem Gesetze sind alle Staatsbürger gleich.
+<p type="legal_section">Vor dem Gesetze sind alle Staatsbürger gleich.
       <lb break="yes"/>Vorrechte der Nationalität, der Konfession, des
       <lb break="yes"/>Geschlechtes, Standes oder der Klafse sind für
       <lb break="yes"/>immer ausgeschlossen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_2"/>
-               <head>Artikel 106.
+      </p></div>
+<div type="article">
+<head>Artikel 106.
       </head>
-               <p type="legal_section">Der Adel, seine äußzeren Ehrenvorzüge
+<p type="legal_section">Der Adel, seine äußzeren Ehrenvorzüge
       <lb break="yes"/>sowie bloß zur Auszeichnung verliehene, mit einer
       <lb break="yes"/>amtlichen Stellung, dem Verufe oder einer wissen
 <lb break="no"/>schaftlichen oder künftlerischen Befähigung nicht
@@ -6618,22 +6193,18 @@
       <lb break="yes"/>Kein Bundesangehöriger darf von einer
       <lb break="yes"/>ausländischen Regierung Titel oder Orden an
 <lb break="no"/>nehmen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_3"/>
-               <head>Artikel 107.
+      </p></div>
+<div type="article">
+<head>Artikel 107.
       </head>
-               <p type="legal_section">Die öffentlichen Umter und Funktionen sind
+<p type="legal_section">Die öffentlichen Umter und Funktionen sind
       <lb break="yes"/>für alle Staatsbürger ohne Unterschied nach Maß
 <lb break="no"/>gabe der Gesetze gleich zugänglich.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_4"/>
-               <head>Artikel 108.
+      </p></div>
+<div type="article">
+<head>Artikel 108.
       </head>
-               <p type="legal_section">Die Freizügigkeit der Personen und Güter
+<p type="legal_section">Die Freizügigkeit der Personen und Güter
       <lb break="yes"/>innerhalb des Bundesgebietes ift jedermann ge
 <lb break="no"/>währleistet. Einschränkungen können nur durch
       <lb break="yes"/>Bundesgesetz bestimmt werden.
@@ -6656,20 +6227,16 @@
       <lb break="yes"/>sich nach Belieben beruflich betätigen. Die Freiheit
       <lb break="yes"/>der Berufswahl ist nur durch das Familienrecht be
 <lb break="no"/>schränkt.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_5"/>
-               <head>Artikel 111.
+      </p></div>
+<div type="article">
+<head>Artikel 111.
       </head>
-               <p type="legal_section">() Die Freiheit der Person ist gewährleistet.
+<p type="legal_section">() Die Freiheit der Person ist gewährleistet.
       <lb break="yes"/>Die zum Schutze von Stäat und Gesellschaft er
 <lb break="no"/>forderlichen Schranken können nur durch Bundes
 <lb break="no"/>gesetz errichtet werden.
       <lb break="yes"/>247<pb facs="#facs_60" n="60" xml:id="img_0060" break="yes"/>64
-      </p>
-               <p type="legal_section">
-                  <label>(2)</label> Personen, denen die Freiheit  entzogen
+      </p><p type="legal_section"><label>(2)</label> Personen, denen die Freiheit  entzogen
       <lb break="yes"/>wird, sind spätestens am darauffolgenden Täge in
       <lb break="yes"/>Kenntnis zu fetzen, von welcher Behörde und aus
       <lb break="yes"/>welchen Gründen die Entziehung der Freiheit an
@@ -6677,41 +6244,34 @@
       <lb break="yes"/>Gelegenheit gegeben werden, Einwendungen gegen
       <lb break="yes"/>die Freiheitsentziehung vorzubringen.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_6"/>
-               <head>Artikel 112.
+</div>
+<div type="article">
+<head>Artikel 112.
       </head>
-               <p type="legal_section">() Das Ashlrecht für Delikte, die aus poli
+<p type="legal_section">() Das Ashlrecht für Delikte, die aus poli
 <lb break="no"/>tischen Motiben begangen oder im Zusammenhang
       <lb break="yes"/>mit solchen Delikten verübt wurden, wird gewähr
 <lb break="no"/>leiftet.
       <lb break="yes"/>Das Recht der Auslieferung von Ver
 <lb break="no"/>brechern wird durch Bundesgesetz geregelt.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_7"/>
-               <head>Artikel 113.
+      </p></div>
+<div type="article">
+<head>Artikel 113.
       </head>
-               <p type="legal_section">Das Hausrecht ist gewährleistet. Wann eine
+<p type="legal_section">Das Hausrecht ist gewährleistet. Wann eine
       <lb break="yes"/>Hausdurchsuchung zulässig ist, wird durch Bundes
 <lb break="no"/>gesetz bestimmt.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_8"/>
-               <head>Artikel 114.
+      </p></div>
+<div type="article">
+<head>Artikel 114.
       </head>
-               <p type="legal_section">Das Brief- Post-, Telegraphen- und Fern
+<p type="legal_section">Das Brief- Post-, Telegraphen- und Fern
 <lb break="no"/>sprechgeheimnis ist gewährleiftet. Ausnahmen in
       <lb break="yes"/>den Fällen strafgerichtlicher Untersuchung und
       <lb break="yes"/>unter außzerordentlichen Verhältnissen können nur
       <lb break="yes"/>durch Bundesgesetz bestimmt werden.
       <lb break="yes"/>Artifel 115.
-      </p>
-               <p type="legal_section">
-                  <label>(1)</label> Die Freiheit der Meinungsäußerung ist
+      </p><p type="legal_section"><label>(1)</label> Die Freiheit der Meinungsäußerung ist
       <lb break="yes"/>nur durch das Strafaeset beschränkt.
       <lb break="yes"/>() Die Breßfreiheit ist gewährleistet. Die
       <lb break="yes"/>Beschlagnahme von Druckwerfen darf nur aus den
@@ -6726,24 +6286,20 @@
       <lb break="yes"/>Schauftellungen und Darbietungen gesetzliche Maß
 <lb break="no"/>nahmen zulässig.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_9"/>
-               <head>Artikel 116.
+</div>
+<div type="article">
+<head>Artikel 116.
       </head>
-               <p type="legal_section">Die Ehe ift ein bürgerlicher Vertrag.
+<p type="legal_section">Die Ehe ift ein bürgerlicher Vertrag.
       <lb break="yes"/>Sie kann nur vor den ftaatlichen Behörden
       <lb break="yes"/>geschlossen werden. Doch bleibt es dabei jedermann
       <lb break="yes"/>unbenommen, auch die Vorschriften seiner Religion
       <lb break="yes"/>zu erfüllen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_10"/>
-               <head>Artikel 117.
+      </p></div>
+<div type="article">
+<head>Artikel 117.
       </head>
-               <p type="legal_section">
-                  <label>(1)</label> Der Eheschließung kann aus Gründen
+<p type="legal_section"><label>(1)</label> Der Eheschließung kann aus Gründen
       <lb break="yes"/>des religiösen Bekenntnisses oder eines religiösen
       <lb break="yes"/>(elübdes fein rechtliches Sindernis geseßzt werden.
       <lb break="yes"/>Die Möglichkeit einer Trennung der Ghe
@@ -6751,8 +6307,7 @@
       <lb break="yes"/>ist zu gewährleisten. In welchen Fällen die Ehe
 <lb break="no"/>auch ohne die Zustimmung eines der beiden Ehe
 <lb break="no"/>gatten zu trennen ift. bestimmt das Gesetz. Doch
-      <lb break="yes"/>ist in beiden Fällen auf die Versorgung der Kinder/</p>
-               <p type="legal_section">aus der getrennten Ehe durch ihre Eltern gesetzlich
+      <lb break="yes"/>ist in beiden Fällen auf die Versorgung der Kinder/</p><p type="legal_section">aus der getrennten Ehe durch ihre Eltern gesetzlich
       <lb break="yes"/>Bedacht zu nehmen.
       <lb break="yes"/>Artifel 118.
       <lb break="yes"/>Den unehelichen Kindern sind durch die Gesetz
@@ -6765,19 +6320,16 @@
       <lb break="yes"/>zu bilden. Dieses Recht darf durch Ausführungs
 <lb break="no"/>gesetze nicht gemindert werden. Eine Sonder
 <lb break="no"/>behandlung der politischen Vereine ift ausgeschlossen.
-      </p>
-               <p type="legal_section">
-                  <label>(2)</label> Für Vereinigungen, die religiöse Zwecke
+      </p><p type="legal_section"><label>(2)</label> Für Vereinigungen, die religiöse Zwecke
       <lb break="yes"/>verfolgen, gelten dieselben Bestimmungen.
       <lb break="yes"/>über die Rechtsfähigkeit von Vereinen
       <lb break="yes"/>bestimmen die Vorschriften des bürgerlichen Rechtes.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_11"/>
-               <head>Artikel 120.
+</div>
+<div type="article">
+<head>Artikel 120.
       </head>
-               <p type="legal_section">Alle Staatsbürger haben das Recht, sich
+<p type="legal_section">Alle Staatsbürger haben das Recht, sich
       <lb break="yes"/>ohne Anmeldung oder besondere Erlaubnis un
 <lb break="no"/>bewaffnet zu versammeln. Dieses Recht darf durch
       <lb break="yes"/>Ausführungsgefeße nicht gemindert werden.
@@ -6785,24 +6337,20 @@
 <lb break="no"/>können durch Bundesgefeß anmeldepflichtig gemacht
       <lb break="yes"/>und bei unmittelbarer Gefährdung der Teilnehmer
       <lb break="yes"/>oder anderer Personen verboten werden.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_12"/>
-               <head>Artikel 121.
+      </p></div>
+<div type="article">
+<head>Artikel 121.
       </head>
-               <p type="legal_section">Die volle Glaubens- und Gewiffensfreiheit,
+<p type="legal_section">Die volle Glaubens- und Gewiffensfreiheit,
       <lb break="yes"/>insbesondere die pribate und öffentliche Religions
 <lb break="no"/>übung wird jedermann gewährleiftet.
       <lb break="yes"/>Einschränkungen sind nur durch das Straf
 <lb break="no"/>gesetz zulässig.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_13"/>
-               <head>Artikel 122.
+      </p></div>
+<div type="article">
+<head>Artikel 122.
       </head>
-               <p type="legal_section">Der Genuk der bürgerlichen und poli
+<p type="legal_section">Der Genuk der bürgerlichen und poli
 <lb break="no"/>tischen Rechte sowie die Zulassung zu den öffent
 <lb break="no"/>lichen Ämtern ift von dem Religionsbekenntis un
 <lb break="no"/>abhängig; doch darf den staatsbürgerlichen Pflichten
@@ -6816,9 +6364,7 @@
       <lb break="yes"/>angeordnete statiftische Erhebung dies erfordert.
       <lb break="yes"/>In diesem Sinne ist durch Bundesgesetz
 <lb break="no"/>die Führung der Standesregister zu regeln.
-      </p>
-               <p type="legal_section">
-                  <label>(1)</label> Niemand darf zu einer kirchlichen Hand
+      </p><p type="legal_section"><label>(1)</label> Niemand darf zu einer kirchlichen Hand
 <lb break="no"/>lung, zur Teilnahme an einer kirchlichen Feier
 <lb break="no"/>lichteit oder an religiöfen übungen gezwungen.
       <lb break="yes"/>werden. Zu gerichtlichen oder sonftigen behördlichen
@@ -6826,10 +6372,8 @@
       <lb break="yes"/>werden.
       <lb break="yes"/>Artifel 123.
       </p>
-               <p type="legal_section">
-                  <label>(1)</label> Staat und Kirche werden getrennt.</p>
-               <p type="legal_section">
-                  <label>(2)</label> Die Freiheit der Vereinigung zu Religions
+<p type="legal_section"><label>(1)</label> Staat und Kirche werden getrennt.</p>
+<p type="legal_section"><label>(2)</label> Die Freiheit der Vereinigung zu Religions
 <lb break="no"/>gesellschaften wird gewährleistet. Der Zusammen
 <lb break="no"/>schluß von Religionsgesellschaften innerhalb des
       <lb break="yes"/>Bundesgehietes unterliegt keinen Beschränkungen.
@@ -6843,98 +6387,81 @@
       <lb break="yes"/>bürgerlichen Rechtes über die Rechtsfähigkeit der
       <lb break="yes"/>Vereine.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_14"/>
-               <head>Artikel 124.
+</div>
+<div type="article">
+<head>Artikel 124.
       </head>
-               <p type="legal_section">Alle bishier auf Gefetz, Vertrag oder be
+<p type="legal_section">Alle bishier auf Gefetz, Vertrag oder be
 <lb break="no"/>sonderen Rechtstiteln beruhenden Staatsleiftungen
       <lb break="yes"/>an die Religionsgesellschaften werden aufgehoben.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_15"/>
-               <head>Artikel 125.
+      </p></div>
+<div type="article">
+<head>Artikel 125.
       </head>
-               <p type="legal_section">Den Angehörigen des öffentlichen Dienstes
+<p type="legal_section">Den Angehörigen des öffentlichen Dienstes
       <lb break="yes"/>sowie der Wehrmacht ist die nötige freie Zeit zur
       <lb break="yes"/>Befriedigung ihrer religiösen Bedürfnisse zu ge
 <lb break="no"/>währen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_16"/>
-               <head>Artikel 126.
+      </p></div>
+<div type="article">
+<head>Artikel 126.
       </head>
-               <p type="legal_section">Soweit das Bedürfnis nach Gottesdienft und
+<p type="legal_section">Soweit das Bedürfnis nach Gottesdienft und
       <lb break="yes"/>Seelsorae in öffentlichen Anstalten besteht, sind
       <lb break="yes"/>die Religionsgefellschaften zur Vornahme réligiöfer
       <lb break="yes"/>Handlungen zuzulassen, wobei jeder Zwang fern
 <lb break="no"/>zuhalten ift.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_17"/>
-               <head>Artikel 127.
+      </p></div>
+<div type="article">
+<head>Artikel 127.
       </head>
-               <p type="legal_section">Die Kunft, die Wissenschaft und ihre Lehre
+<p type="legal_section">Die Kunft, die Wissenschaft und ihre Lehre
       <lb break="yes"/>sind frei. Der Staat gewährt ihnen Schutz und
       <lb break="yes"/>nimmt an ihrer Pflegé teil.
       <lb break="yes"/>Die Denkmäler der Kunft. der Geschichte
       <lb break="yes"/>und der Natur genießen den Schutz und die Pflege
       <lb break="yes"/>des Staates.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_18"/>
-               <head>Artikel 128.
+      </p></div>
+<div type="article">
+<head>Artikel 128.
       </head>
-               <p type="legal_section">Gs besteht allgemeine Schulpflicht. Ihrer Er
+<p type="legal_section">Gs besteht allgemeine Schulpflicht. Ihrer Er
 <lb break="no"/>füllung dient grundfätzlich die Voltsschüle mit
       <lb break="yes"/>mindestens acht Schuljahren und die anschließende
       <lb break="yes"/>Fortbildungsschule bis zum vollendeten 18. Lebens
 <lb break="no"/>jahre. Der Unterricht und die Zernmittel sind un
 <lb break="no"/>entgeltlich.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_19"/>
-               <head>Artikel 129.
+      </p></div>
+<div type="article">
+<head>Artikel 129.
       </head>
-               <p type="legal_section">In allen Schulen ist sittliche Vildung,
+<p type="legal_section">In allen Schulen ist sittliche Vildung,
       <lb break="yes"/>staatsbürgerliche Gesinnung und berufliche Tüch
 <lb break="no"/>tigkeit zu erstreben.
       <lb break="yes"/>Beim Unterricht in öffentlichen Schulen
-      </p>
-               <p type="legal_section">
-                  <label>1</label>it Bedacht zu nehmen, daß die Empfindungen
+      </p><p type="legal_section"><label>1</label>it Bedacht zu nehmen, daß die Empfindungen
       <lb break="yes"/>Andersdeükender nicht verletzt werden.
       <lb break="yes"/>Staatsbürgerfunde und Arbeitsunterricht
       <lb break="yes"/>sind Lehrfächer der Schulen. Jeder Schüler er
 <lb break="no"/>hält bei Beendigung der Schulpflicht einen Ab
 <lb break="no"/>druck der Verfassung.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_20"/>
-               <head>Artikel 130.
+</div>
+<div type="article">
+<head>Artikel 130.
       </head>
-               <p type="legal_section">für den Zugang Minderbemittelter zu den
-      <lb break="yes"/>mittleren und höheren Schulen sind durch Bund,</p>
-               <p type="legal_section">65
+<p type="legal_section">für den Zugang Minderbemittelter zu den
+      <lb break="yes"/>mittleren und höheren Schulen sind durch Bund,</p><p type="legal_section">65
       <lb break="yes"/>Länder und Gemeinden öffentliche Mittel bereit
 <lb break="no"/>zustellen, insbesondere Erziehungsbeihilfen für
       <lb break="yes"/>Eltern von Kindern, die zur Ausbildung auf mitt
 <lb break="no"/>leren und höheren Schulen für geeignet erachtet
       <lb break="yes"/>werden, bis zur Beendigung der Ausbildung.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_21"/>
-               <head>Artikel 131.
+      </p></div>
+<div type="article">
+<head>Artikel 131.
       </head>
-               <p type="legal_section">Von Staatswegen wird weder Religions
+<p type="legal_section">Von Staatswegen wird weder Religions
 <lb break="no"/>unterricht erteilt, noch für die Ausbildung von
       <lb break="yes"/>Seelsorgern irgend einer Religion gesorat. Doch ist
       <lb break="yes"/>an den öffentlichen Volksschulen den Kindern Ge
@@ -6950,18 +6477,14 @@
       <lb break="yes"/>Pribate Schulen als Erfatz für öffentliche
       <lb break="yes"/>Schulen bedürfen der Genehmigung des Bundes
       <lb break="yes"/>und unterstehen den Bundesgesetzen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_22"/>
-               <head>Artikel 133.
+      </p></div>
+<div type="article">
+<head>Artikel 133.
       </head>
-               <p type="legal_section">Alle Bundesangehörigen haben ein glei
+<p type="legal_section">Alle Bundesangehörigen haben ein glei
 <lb break="no"/>ches Recht auf Wahruna ihrer Nationalität und
       <lb break="yes"/>Sprache.
-      </p>
-               <p type="legal_section">
-                  <label>(2)</label> Keinem Bundesangehörigen werden im
+      </p><p type="legal_section"><label>(2)</label> Keinem Bundesangehörigen werden im
       <lb break="yes"/>Gebräuche irgend einer Sprache im Privat- oder
       <lb break="yes"/>Geschäftsvertehr sowie bei Betätigung der reli
 <lb break="no"/>giösen Überzeugung, in der Presse oder in son
@@ -6973,12 +6496,11 @@
       <lb break="yes"/>in Wort und Schrift bei den Gerichten geboten
       <lb break="yes"/>werden.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_23"/>
-               <head>Artikel 134.
+</div>
+<div type="article">
+<head>Artikel 134.
       </head>
-               <p type="legal_section">Bundesangehörige, die nach Nationalität,
+<p type="legal_section">Bundesangehörige, die nach Nationalität,
       <lb break="yes"/>Sprache oder Religion einer Minderheit angehören,
       <lb break="yes"/>haben das gleiche Recht wie die der Mehrheit
       <lb break="yes"/>Angehörenden, in den auf ihre eigenen Kosten er
@@ -7003,19 +6525,16 @@
       <lb break="yes"/>Die Zwecke, zu denen enteignet werden
       <lb break="yes"/>kann, werden in besonderen Gesetzen, das Enteig
 <lb break="no"/>nunazuerfahren wird durch Bundesgesetz geregelt.
-      </p>
-               <p type="legal_section">
-                  <label>(3)</label> In welchen Fällen auf Verfall oder Ein
+      </p><p type="legal_section"><label>(3)</label> In welchen Fällen auf Verfall oder Ein
 <lb break="no"/>ziehung von Gegenständen als Folge einer rechts
 <lb break="no"/>widrigen Sandlung zu erkennen ist, bestimmt
       <lb break="yes"/>das Gesetz.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_24"/>
-               <head>Artikel 137.
+</div>
+<div type="article">
+<head>Artikel 137.
       </head>
-               <p type="legal_section">Alle Fideikommisse sind aufgehoben.“ (Sbricht:)
+<p type="legal_section">Alle Fideikommisse sind aufgehoben.“ (Sbricht:)
       <lb break="yes"/>Eine Bestimmung, die auch im Entwurf des Herrn
       <lb break="yes"/>Staatsfefretärs fehlt. (Lieft weiter:)
       <lb break="yes"/>„Artikel 138.
@@ -7045,13 +6564,11 @@
 <lb break="no"/>ichtigung der besonderen Verhältnisse auszudehnen.
       <lb break="yes"/>Der Bund schafft ein einheitliches Ar
 <lb break="no"/>beitsrecht.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_25"/>
-               <head>Artikel 140.
+      </p></div>
+<div type="article">
+<head>Artikel 140.
       </head>
-               <p type="legal_section">Das Roalitionsrecht der Arbeiter und An
+<p type="legal_section">Das Roalitionsrecht der Arbeiter und An
 <lb break="no"/>gestellten ift gewährleiftet. Alle Abreden und Maß
 <lb break="no"/>nahmen, welche dieses Recht einzuschränken oder
       <lb break="yes"/>zu behindern suchen, sind nichtig.
@@ -7063,13 +6580,11 @@
       <lb break="yes"/>schafft der Bund ein umfassendes Versicherungs
 <lb break="no"/>wesen, wobei die Verwaltung unbeschadet des Auf
 <lb break="no"/>ichtsrechtes des Staates ausschließlich von den
-      <lb break="yes"/>Versicherten selbst zu besorgen ist.</p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_26"/>
-               <head>Artikel 142.
+      <lb break="yes"/>Versicherten selbst zu besorgen ist.</p></div>
+<div type="article">
+<head>Artikel 142.
       </head>
-               <p type="legal_section">Wer in einem Dienst- oder Arbeitsverhältnis
+<p type="legal_section">Wer in einem Dienst- oder Arbeitsverhältnis
       <lb break="yes"/>als Ungestellter oder Arbeiter fteht, hat das Recht
       <lb break="yes"/>auf die zur Wahrnehmung staatsbürgerlicher
       <lb break="yes"/>Rechte und, soweit dadurch der Betrieb nicht er
@@ -7077,13 +6592,11 @@
 <lb break="no"/>tragener öffentlicher Ehrenämter nötige freie Zeit.
       <lb break="yes"/>Wie weit ihm der Anspruch auf Vergütung er
 <lb break="no"/>halten bleibt, bestimmt das Gefeß.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_27"/>
-               <head>Artikel 143.
+      </p></div>
+<div type="article">
+<head>Artikel 143.
       </head>
-               <p type="legal_section">Jedem Bundesangehörigen soll die Möglich
+<p type="legal_section">Jedem Bundesangehörigen soll die Möglich
 <lb break="no"/>keit gegeben werden, durch wirtschaftliche Arbeit
       <lb break="yes"/>einen Unterhalt zu erwerben. Soweit ihm ange
 <lb break="no"/>messene Arbeitsgelegenheit nicht nachgewiesen wer
@@ -7190,8 +6703,7 @@
       <lb break="yes"/>findet dies seine Entschuldigung in der Natur der
       <lb break="yes"/>Materie, die wir zu behandeln hatten. Mehr als
       <lb break="yes"/>alle bisher besprochenen Fragen drängt aber
-      <lb break="yes"/>Behandlung der Frage von dem Grund- und</p>
-               <p type="legal_section">67
+      <lb break="yes"/>Behandlung der Frage von dem Grund- und</p><p type="legal_section">67
       <lb break="yes"/>Freiheitsrechte auf das parteipolitische Gehiet. Sie
       <lb break="yes"/>müßte und würde die Länderkonferenz in eine
       <lb break="yes"/>Parteienfonferenz verwandeln und so einen Zu
@@ -7317,8 +6829,7 @@
       <lb break="yes"/>Sandlungen zuzulassen.“
       <lb break="yes"/>Der Dr. Maürsche Entwurf legt also die
       <lb break="yes"/>Entscheidung über die Frage des Bedürfnisses,
-      <lb break="yes"/>nicht so wie in der deutlichen Reichsverfassung, in</p>
-               <p type="legal_section">die Hände der Anstaltsleitung, sondern in die
+      <lb break="yes"/>nicht so wie in der deutlichen Reichsverfassung, in</p><p type="legal_section">die Hände der Anstaltsleitung, sondern in die
       <lb break="yes"/>Hände der Religionsgesellschaft. Einer solchen
       <lb break="yes"/>Fassung könnten wir nicht zustimmen und sprechen
       <lb break="yes"/>auch hier aus, daß nach unserem Entwurf es den
@@ -7333,9 +6844,7 @@
       <lb break="yes"/>Wenn ich noch ein paar allgemeine Worte
       <lb break="yes"/>sprechen darf über die Frage des Unterrichtes und
       <lb break="yes"/>der Schule, so möchte ich feststellen, daß der Artikel
-      </p>
-               <p type="legal_section">
-                  <label>149</label> der deutschen Reichsverfassung die Möglichkeit
+      </p><p type="legal_section"><label>149</label> der deutschen Reichsverfassung die Möglichkeit
       <lb break="yes"/>des öffentlichen staatlichen Bekenntnisses, freie
       <lb break="yes"/>Schule zuläßzt, während bei uns es im Artikel 130.
       <lb break="yes"/>des Dr. Mahrschen Entwurfes ausdrücklich heißt:
@@ -7373,12 +6882,11 @@
       <lb break="yes"/>Jjedermann unbenommen, auch die Vorschriften
       <lb break="yes"/>einer Religion zu erfüllen.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_28"/>
-               <head>Artikel 117.
+</div>
+<div type="article">
+<head>Artikel 117.
       </head>
-               <p type="legal_section">Der Eheschließung kann aus Gründen.
+<p type="legal_section">Der Eheschließung kann aus Gründen.
       <lb break="yes"/>des religiösen Bekenntnisses oder eines religiösen
       <lb break="yes"/>Gelübdes fein rechtliches Hindernis gesetzt werden.
       <lb break="yes"/>Die Möglichkeit einer Trennung der Ghe
@@ -7393,13 +6901,11 @@
 <lb break="no"/>sehaebung die gleichen Bedingungen für ihre
       <lb break="yes"/>leibliche, seelische und gesellschaftliche Entwicklung
       <lb break="yes"/>zu schaffen wie den ehelichen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_29"/>
-               <head>Artikel 119.
+      </p></div>
+<div type="article">
+<head>Artikel 119.
       </head>
-               <p type="legal_section">(,) Alle Bundesangehörigen haben das nur
+<p type="legal_section">(,) Alle Bundesangehörigen haben das nur
       <lb break="yes"/>durch das Strafgesetz eingeschränkte Recht, Ver
 <lb break="no"/>eine zu bilden. Dieses Recht darf durch Aus
 <lb break="no"/>führungsgefeke nicht gemindert werden. Eine
@@ -7418,27 +6924,21 @@
       <lb break="yes"/>können durch Bundesaesek anmeldepflichtig ge
 <lb break="no"/>macht und bei unmittelbarer Gefährdung der Teil
 <lb break="no"/>nehmer oder anderer Personen verboten werden.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_30"/>
-               <head>Artikel 121.
+      </p></div>
+<div type="article">
+<head>Artikel 121.
       </head>
-               <p type="legal_section">
-                  <label>(1)</label> Die volle Glaubens- und Gewifsensfrei
+<p type="legal_section"><label>(1)</label> Die volle Glaubens- und Gewifsensfrei
 <lb break="no"/>heit, insbesondere die private und öffentliche
       <lb break="yes"/>Religionsübung, wird jedermann gewährleistet.
-      </p>
-               <p type="legal_section">
-                  <label>3)</label> Einschränkungen sind nur durch das Straf
+      </p><p type="legal_section"><label>3)</label> Einschränkungen sind nur durch das Straf
 <lb break="no"/>gesetz zulässig.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_31"/>
-               <head>Artikel 122.
+</div>
+<div type="article">
+<head>Artikel 122.
       </head>
-               <p type="legal_section">() Der Genusi der bürgerlichen und politischen
+<p type="legal_section">() Der Genusi der bürgerlichen und politischen
       <lb break="yes"/>Rechte sowie die Zulassung zu den öffentlichen
       <lb break="yes"/>Ämtern ist von dem Religionsbekenntnis unäb
 <lb break="no"/>hängig; doch darf den staatsbürgerlichen Pflichten
@@ -7455,8 +6955,7 @@
       <lb break="yes"/>() Niemand darf zu einer kirchlichen Hand
 <lb break="no"/>lung, zur Teilnahme an einer kirchlichen Feier
 <lb break="no"/>lichteit oder an religiöfen übungen gezwungen
-      <lb break="yes"/>werden. Zu gerichtlichen oder sonstigen behörd-</p>
-               <p type="legal_section">69
+      <lb break="yes"/>werden. Zu gerichtlichen oder sonstigen behörd-</p><p type="legal_section">69
       <lb break="yes"/>lichen Zwecken darf seine religiöse Eidesformel
       <lb break="yes"/>benubt werden.
       <lb break="yes"/>Artifel 123.
@@ -7475,67 +6974,55 @@
 <lb break="no"/>chaften richtet sich nach den Vorschriften des
       <lb break="yes"/>bürgerlichen Rechtes über die Rechtsfähigkeit der
       <lb break="yes"/>Vereine.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_32"/>
-               <head>Artikel 124.
+      </p></div>
+<div type="article">
+<head>Artikel 124.
       </head>
-               <p type="legal_section">Alle bisher auf Gefek. Vertrag oder befon
+<p type="legal_section">Alle bisher auf Gefek. Vertrag oder befon
 <lb break="no"/>deren Rechtstiteln beruhenden Staatsleiftungen an
       <lb break="yes"/>die Religionsgefellschaften werden aufgehoben.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_33"/>
-               <head>Artikel 125.
+      </p></div>
+<div type="article">
+<head>Artikel 125.
       </head>
-               <p type="legal_section">Den Angehörigen des öffentlichen Dienstes
+<p type="legal_section">Den Angehörigen des öffentlichen Dienstes
       <lb break="yes"/>sowie der Wehrmacht ift die nötige freie Zeit zur
       <lb break="yes"/>Befriedigung ihrer religiösen Bedürfnisse zu ge
 <lb break="no"/>währen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_34"/>
-               <head>Artikel 126.
+      </p></div>
+<div type="article">
+<head>Artikel 126.
       </head>
-               <p type="legal_section">Soweit das Bedürfnis nach Gottesdienft und
+<p type="legal_section">Soweit das Bedürfnis nach Gottesdienft und
       <lb break="yes"/>Seeljorge in öffentlichen Anstalten besteht, sind
       <lb break="yes"/>die Religionsaefellschaften zur Vornahme religiöfer
       <lb break="yes"/>Handlungen zuzulassen, wobei jeder Zwang fern
 <lb break="no"/>zuhalten ift.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_35"/>
-               <head>Artikel 127.
+      </p></div>
+<div type="article">
+<head>Artikel 127.
       </head>
-               <p type="legal_section">() Die Kunft. die Wissenschaft und ihre
+<p type="legal_section">() Die Kunft. die Wissenschaft und ihre
       <lb break="yes"/>Lehre sind frei. Der Staat gewährt ihnen Schut-
       <lb break="yes"/>und nimmt an ihrer Pflege teil.
       <lb break="yes"/>Die Denkmäler der Kunft, der Geschichte
       <lb break="yes"/>und der Natur genießen den Schutz und die
       <lb break="yes"/>Pflege des Staates.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_36"/>
-               <head>Artikel 128.
+      </p></div>
+<div type="article">
+<head>Artikel 128.
       </head>
-               <p type="legal_section">Gs befieht allgemeine Schulpflicht. Ihrer
+<p type="legal_section">Gs befieht allgemeine Schulpflicht. Ihrer
       <lb break="yes"/>Erfüllung dient grundfätzlich die Volfsschule mit
       <lb break="yes"/>mindestens acht Schuljahren und die anschließende
       <lb break="yes"/>Fortbildungsschule bis zum vollendeten 18. Lebens
 <lb break="no"/>jahre. Der Unterricht und die Lernmittel sind
       <lb break="yes"/>unentgeltlich.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_37"/>
-               <head>Artikel 129.
+      </p></div>
+<div type="article">
+<head>Artikel 129.
       </head>
-               <p type="legal_section">In allen Schulen ist sittliche Bildung,
+<p type="legal_section">In allen Schulen ist sittliche Bildung,
       <lb break="yes"/>staatsbüraerliche Gesinnung und berufliche Tüch
 <lb break="no"/>tigkeit zu erftreben.
       <lb break="yes"/>Beim Unterricht in öffentlichen Schulen
@@ -7546,13 +7033,11 @@
 <lb break="no"/>250<pb facs="#facs_66" n="66" xml:id="img_0066" break="yes"/>70
       <lb break="yes"/>hält bei Beendigung der Schulpflicht einen Ab
 <lb break="no"/>druck der Verfassung.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_38"/>
-               <head>Artikel 130.
+      </p></div>
+<div type="article">
+<head>Artikel 130.
       </head>
-               <p type="legal_section">Für den Zugang Minderbemittelter zu den
+<p type="legal_section">Für den Zugang Minderbemittelter zu den
       <lb break="yes"/>mittleren und höheren Schulen sind durch Bund,
       <lb break="yes"/>Länder und Gemeinden öffentliche Mittel bereit
 <lb break="no"/>zustellen, insbesondere Erziehungsbeihilfen für
@@ -7560,13 +7045,11 @@
       <lb break="yes"/>mittleren und höheren Schulen für geeignet er
 <lb break="no"/>achtet werden, bis zur Beendigung der Aus
 <lb break="no"/>bildung.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_39"/>
-               <head>Artikel 131.
+      </p></div>
+<div type="article">
+<head>Artikel 131.
       </head>
-               <p type="legal_section">Von Staats wegen wird weder Reli
+<p type="legal_section">Von Staats wegen wird weder Reli
 <lb break="no"/>gionzunterricht erteilt, noch für die Ausbildung
       <lb break="yes"/>von Seelsorgern irgend einer Religion gesorgt
       <lb break="yes"/>Doch ist an den öffentlichen Volksschulen den
@@ -7578,22 +7061,18 @@
       <lb break="yes"/>Handlungen bleibt der Willenserklärung desjenigen
       <lb break="yes"/>überlassen, der über die religiöse Erziehung des
       <lb break="yes"/>Kindes zu bestimmen hat.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_40"/>
-               <head>Artikel 132.
+      </p></div>
+<div type="article">
+<head>Artikel 132.
       </head>
-               <p type="legal_section">Private Schulen als Ersatz für öffentliche
+<p type="legal_section">Private Schulen als Ersatz für öffentliche
       <lb break="yes"/>Schulen bedürfen der Genehmigung des Bundes
       <lb break="yes"/>und unterstehen den Bundesgesetzen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_41"/>
-               <head>Artikel 133.
+      </p></div>
+<div type="article">
+<head>Artikel 133.
       </head>
-               <p type="legal_section">Alle Bundesangehörigen haben ein gleiches
+<p type="legal_section">Alle Bundesangehörigen haben ein gleiches
       <lb break="yes"/>Recht auf Wahrung ihrer Nationalität und
       <lb break="yes"/>Sprache.
       <lb break="yes"/>keinem Bundesangehörigen werden im
@@ -7608,13 +7087,11 @@
 <lb break="no"/>gemessene Erleichterungen zum Gebrauch ihrer
       <lb break="yes"/>Sprache in Wort und Schrift bei den Gerichten
       <lb break="yes"/>geboten werden.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_42"/>
-               <head>Artikel 134.
+      </p></div>
+<div type="article">
+<head>Artikel 134.
       </head>
-               <p type="legal_section">Bundesangehörige, die nach Nationalität,
+<p type="legal_section">Bundesangehörige, die nach Nationalität,
       <lb break="yes"/>Sprache oder Religion einer Minderheit ange
 <lb break="no"/>hören, haben das gleiche Recht wie die der Mehr
 <lb break="no"/>heit Angehörenden in den auf ihre eigenen Kosten
@@ -7622,54 +7099,42 @@
       <lb break="yes"/>Erziehungs- und sonftigen Anstalten, ihre eigene
       <lb break="yes"/>Sprache nach Belieben zu gebrauchen und ihre
       <lb break="yes"/>Religion frei auszuüben.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_43"/>
-               <head>Artikel 135.
+      </p></div>
+<div type="article">
+<head>Artikel 135.
       </head>
-               <p type="legal_section">Wo eine verhältnismäßig beträchtliche Anzahl
-      <lb break="yes"/>von Bundesangehörigen wohnt, die einer Minder-</p>
-               <p type="legal_section">heit nach Nationalität oder Sprache angehört,
+<p type="legal_section">Wo eine verhältnismäßig beträchtliche Anzahl
+      <lb break="yes"/>von Bundesangehörigen wohnt, die einer Minder-</p><p type="legal_section">heit nach Nationalität oder Sprache angehört,
       <lb break="yes"/>sind von allen Veiträgen, die etwa für Erziehungs-
       <lb break="yes"/>oder Wohltätigkeitszwecke aus öffentlichen Mitteln
       <lb break="yes"/>zugewendet werden, diese Minderheiten angemessen.
       <lb break="yes"/>zu beteilen.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_44"/>
-               <head>Artikel 136.
+      </p></div>
+<div type="article">
+<head>Artikel 136.
       </head>
-               <p type="legal_section">
-                  <label>(1)</label> Das Gigentum ist von der staatlichen
+<p type="legal_section"><label>(1)</label> Das Gigentum ist von der staatlichen
       <lb break="yes"/>Rechtsordnung verliehen und kann durch sie ent
 <lb break="no"/>zogen werden.
-      </p>
-               <p type="legal_section">
-                  <label>(2)</label> Die Zwecke, zu denen enteignet werden.
+      </p><p type="legal_section"><label>(2)</label> Die Zwecke, zu denen enteignet werden.
       <lb break="yes"/>kann, werden in besonderen Gesetzen, das Ent
 <lb break="no"/>eignungsverfahren wird durch Bundesgesetz geregelt.
       </p>
-               <p type="legal_section">
-                  <label>(3)</label> In welchen Fällen auf Verfall oder Ein
+<p type="legal_section"><label>(3)</label> In welchen Fällen auf Verfall oder Ein
 <lb break="no"/>ziehung von Gegenständen als Folge einer rechts
 <lb break="no"/>widrigen Handlung zu erkennen ist, bestimmt das
       <lb break="yes"/>Gesetz.
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_45"/>
-               <head>Artikel 137.
+</div>
+<div type="article">
+<head>Artikel 137.
       </head>
-               <p type="legal_section">Alle Fideikommisse sind aufgehoben.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_46"/>
-               <head>Artikel 138.
+<p type="legal_section">Alle Fideikommisse sind aufgehoben.
+      </p></div>
+<div type="article">
+<head>Artikel 138.
       </head>
-               <p type="legal_section">() Wer durch schuldhaft rechtswidrige Aus
+<p type="legal_section">() Wer durch schuldhaft rechtswidrige Aus
 <lb break="no"/>übung der öffentlichen Gewalt Schaden erleidet,
       <lb break="yes"/>hat Anspruch auf Entschädigung gegen den Bund-
       <lb break="yes"/>oder das Land, durch dessen Organ der Schaden
@@ -7678,13 +7143,11 @@
 <lb break="no"/>gesetz. Dieses stellt auch fest, unter welcher Vor
 <lb break="no"/>aussetzung ein Rückgriffsrecht gegen das schuld
 <lb break="no"/>tragende Organ zulässig ist.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_47"/>
-               <head>Artikel 139.
+      </p></div>
+<div type="article">
+<head>Artikel 139.
       </head>
-               <p type="legal_section">Die Arbeitskraft steht unter dem beson
+<p type="legal_section">Die Arbeitskraft steht unter dem beson
 <lb break="no"/>deren Schutz des Bundes.
       <lb break="yes"/>Der Sonntag und die staatlich aner
 <lb break="no"/>kannten Feiertage bleiben als Tage der Arbeits
@@ -7701,36 +7164,30 @@
 <lb break="no"/>hältnisse auszudehnen.
       <lb break="yes"/>Der Bund schafft ein einheitliches Ar
 <lb break="no"/>beitsrecht.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_48"/>
-               <head>Artikel 140.
+      </p></div>
+<div type="article">
+<head>Artikel 140.
       </head>
-               <p type="legal_section">Das Roalitionsrecht der Arbeiter und An
+<p type="legal_section">Das Roalitionsrecht der Arbeiter und An
 <lb break="no"/>gestellten ist gewährleistet. Alle Abreden und
       <lb break="yes"/>Maßnahmen, welche dieses Recht einzuschränten.
       <lb break="yes"/>oder zu behindern suchen, sind nichtig.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_49"/>
-               <head>Artikel 141.
+      </p></div>
+<div type="article">
+<head>Artikel 141.
       </head>
-               <p type="legal_section">Zur Erhaltung der Gesundheit und Arbeits
+<p type="legal_section">Zur Erhaltung der Gesundheit und Arbeits
 <lb break="no"/>fähigkeit, zum Schutze der Mutterschaft und zur
       <lb break="yes"/>Vorsorge gegen die wirtschaftlichen Folgen von
       <lb break="yes"/>Alter, Schwache und Wechselfällen des Lebens<pb facs="#facs_67" n="67" xml:id="img_0067" break="yes"/>schafft der Bund ein umfassendes Versicherungä
 <lb break="no"/>wesen, wobei die Verwaltung unbeschädet des
       <lb break="yes"/>Aufsichtsrechtes des Staates ausschlieklich von
       <lb break="yes"/>den Versicherten selbst zu besorgen ist.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_50"/>
-               <head>Artikel 142.
+      </p></div>
+<div type="article">
+<head>Artikel 142.
       </head>
-               <p type="legal_section">Wer in einem Dienft- oder Arbeitsverhältnis
+<p type="legal_section">Wer in einem Dienft- oder Arbeitsverhältnis
       <lb break="yes"/>als Angestellter oder Arbeiter steht, hat das Recht
       <lb break="yes"/>auf die zur Wahrnehmung staatsbürgerlicher Rechte
       <lb break="yes"/>und, söweit dadurch der Betrieb nicht erheblich
@@ -7738,13 +7195,11 @@
       <lb break="yes"/>öffentlicher Ehrenämter nötigé freie Zeit. Wie
       <lb break="yes"/>weit ihni der Anspruch auf Vergütung erhalten
       <lb break="yes"/>bleibt, bestimmt das Gefeb.
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_51"/>
-               <head>Artikel 143..
+      </p></div>
+<div type="article">
+<head>Artikel 143..
       </head>
-               <p type="legal_section">Jedem Bundesangehörigen soll die Mög
+<p type="legal_section">Jedem Bundesangehörigen soll die Mög
 <lb break="no"/>lichteit gegeben werden, durch wirtschaftliche Arbeit
       <lb break="yes"/>seinen Unterhalt zu erwerben. Soweit ihm an
 <lb break="no"/>gemessene Arbeitsgelegenheit nicht nachgewiesen
@@ -7787,8 +7242,7 @@
       <lb break="yes"/>weiter, als mir persönlich lieb war. Ich stehe auf
       <lb break="yes"/>dem Standpunkt, daß es sich nicht um eine
       <lb break="yes"/>flabische Nachahmung irgend eines Musters
-      <lb break="yes"/>handeln fann.</p>
-               <p type="legal_section">71
+      <lb break="yes"/>handeln fann.</p><p type="legal_section">71
       <lb break="yes"/>Was den Inhalt des Entwurfes anbelangt,
       <lb break="yes"/>o möchte ich noch einmal hervorheben, daß es sich
       <lb break="yes"/>um eine Privatarbeit handelt und daß ich auf
@@ -7801,9 +7255,7 @@
 <lb break="no"/>genommen habe, so möchte ich hinweisen, daß
       <lb break="yes"/>mir gerade da das deutsche Muster fast Wort
       <lb break="yes"/>für Wort maßgebend gewesen ist.
-      </p>
-               <p type="legal_section">
-                  <label>(5</label>s ift vielleicht eine kleine Dosheit von mir.
+      </p><p type="legal_section"><label>(5</label>s ift vielleicht eine kleine Dosheit von mir.
       <lb break="yes"/>Ich persönlich lege nicht viel Wert auf Adel und
       <lb break="yes"/>Adelsvorrechte und beabsichtige nicht in mittel
 <lb break="no"/>alterliche Zustände zurückzukommen. Eine andere
@@ -7913,7 +7365,7 @@
 <lb break="no"/>hof so wie bisher in solchen Fällen nicht zu ent
 <lb break="no"/>scheiden berufen sein soll und deshalb möchte ich
       <lb break="yes"/>bitten, von den Funktionen des Verwaliungs-</p>
-               <p type="legal_section">gerichtshofes, wie sie in diesem Artikel vorgesehen
+<p type="legal_section">gerichtshofes, wie sie in diesem Artikel vorgesehen
       <lb break="yes"/>sind, abzusehen. Uns ist es lieber, wenn in der
       <lb break="yes"/>dritten Instanz nicht der Verwaltungsgerichtshof,
       <lb break="yes"/>sondern direkt eine Bundesbehörde entscheidet.
@@ -7927,9 +7379,7 @@
       <lb break="yes"/>privatrechtlicher Natur hervorbringen, wird es
       <lb break="yes"/>notwendig sein, die Bundesinteressen noch durch
       <lb break="yes"/>verschärfte Bestimmungen, als wie sie im Artikel
-      </p>
-               <p type="legal_section">
-                  <label>141</label> des Vorentwurfes vorgefehen find, unbedingt
+      </p><p type="legal_section"><label>141</label> des Vorentwurfes vorgefehen find, unbedingt
       <lb break="yes"/>zu schützen. Wir stellen uns daher auf den Stand
 <lb break="no"/>punkt folgender Bestimmungen (lieft):
       <lb break="yes"/>„Zum Schutze der Interessen des Bundes
@@ -8035,7 +7485,7 @@
       <lb break="yes"/>so wie das bei der Länderkonferenz in Salzburg
       <lb break="yes"/>geschehen ist, und daß dieses Protokoll der Regie
 <lb break="no"/>rung übermittelt wird. Wozu da sich ein eigener</p>
-               <p type="legal_section">73
+<p type="legal_section">73
       <lb break="yes"/>Landesrat strapazieren soll, das weiß ich nicht,
       <lb break="yes"/>Der Herr Staatssekretär hat uns eingeladen und
       <lb break="yes"/>wir haben vor ihm unsere Meinungsäußerungen
@@ -8133,8 +7583,7 @@
 <lb break="no"/>organ der Länder.
       <lb break="yes"/>Herr Abgeordneter Runschak (Wien): Da nutt
       <lb break="yes"/>nichts. Wir müssen zur Kenntnis nehmen, daß die
-      <lb break="yes"/>Sozialdemotraten sich für diesen Antrag nicht aus-</p>
-               <p type="legal_section">gesprochen haben und werden die Sache an den
+      <lb break="yes"/>Sozialdemotraten sich für diesen Antrag nicht aus-</p><p type="legal_section">gesprochen haben und werden die Sache an den
       <lb break="yes"/>Tandesrat bringen, ob er einem solchen Wunsche
       <lb break="yes"/>entsprechen will.
       <lb break="yes"/>Herr Landeshauptmann Dr. Rintelen: Für
@@ -8169,9 +7618,7 @@
       <lb break="yes"/>den weiteren Ausbau des Verfafsungswerfes ent
 <lb break="no"/>sprechend zur Geltung zu bringen.
       <lb break="yes"/>Die Konferenz ist geschlossen.
-      <lb break="yes"/>(Schluß der Sitzung um 12 Uhr mittags.)</p>
-            </div>
-         </div>
-      </body>
-   </text>
+      <lb break="yes"/>(Schluß der Sitzung um 12 Uhr mittags.)</p></div>
+</div></body>
+    </text>
 </TEI>

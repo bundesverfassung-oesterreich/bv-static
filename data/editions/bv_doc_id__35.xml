@@ -1,299 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__35">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Renner Entwurf 1918</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Renner Entwurf 1918</title>
+                <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                <principal>
+                    <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
+                </principal>
+                <funder>
+                    <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                     </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                     </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
                         Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                </publisher>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
                         Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
                             applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529233</idno>
-            <idno type="transkribus_collection">195363</idno>
-            <idno type="bv_data_set">Datenset A</idno>
-            <idno type="goobi">14574</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                  <idno type="archive">AVA, Nachlasssammlung, E 1731 (Nachlass Renner) Mappe 292</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Renner, Karl</author>
-                     <title>Renner Entwurf 1918</title>
-                     <note type="editor">Renner Entwurf 1918 (Titel des Dokuments: "Entwurf einer provisorischen Verfassung"), Zustand mäßig, zahllose Streichungen, Ergänzungen, Anmerkungen. Definitiver Text teils schwer zu identifizieren, 23 Seiten, Artikel/Paragraphenzählung konfus, eventuell nicht vollständig</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Manuskript bestehend aus Handschrift und Typoskript">
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+                <idno type="transkribus_doc">1529233</idno>
+                <idno type="transkribus_collection">195363</idno>
+                <idno type="bv_data_set">Datenset A</idno>
+                <idno type="goobi">14574</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="invetory">
+                    <msIdentifier>
+                        <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
+                        <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
+                        <idno type="archive">AVA, Nachlasssammlung, E 1731 (Nachlass Renner) Mappe 292</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author role="acdh:hasAuthor">Renner, Karl</author>
+                            <title>Renner Entwurf 1918</title>
+                            <note type="editor">Renner Entwurf 1918 (Titel des Dokuments: "Entwurf einer provisorischen Verfassung"), Zustand mäßig, zahllose Streichungen, Ergänzungen, Anmerkungen. Definitiver Text teils schwer zu identifizieren, 23 Seiten, Artikel/Paragraphenzählung konfus, eventuell nicht vollständig</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Manuskript bestehend aus Handschrift und Typoskript">
                         </objectDesc>
-                  <handDesc>
+                        <handDesc>
                         </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1918-11-01" notAfter-iso="1918-11-30">November 1918</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1918-11-01" notAfter-iso="1918-11-30">
+                    </physDesc>
+                    <history>
+                        <origin notBefore-iso="1918-11-01" notAfter-iso="1918-11-30">November 1918</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation>
+                <date notBefore-iso="1918-11-01" notAfter-iso="1918-11-30">
                     November 1918
                 </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-05-01" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="2915" lry="4745" xml:id="facs_2">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0002/full/full/0/default.jpg"
-                  width="2915px"
-                  height="4745px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2942" lry="4715" xml:id="facs_3">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0003/full/full/0/default.jpg"
-                  width="2942px"
-                  height="4715px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2959" lry="4748" xml:id="facs_4">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0004/full/full/0/default.jpg"
-                  width="2959px"
-                  height="4748px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2982" lry="4734" xml:id="facs_5">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0005/full/full/0/default.jpg"
-                  width="2982px"
-                  height="4734px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2938" lry="4722" xml:id="facs_6">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0006/full/full/0/default.jpg"
-                  width="2938px"
-                  height="4722px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2961" lry="4762" xml:id="facs_7">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0007/full/full/0/default.jpg"
-                  width="2961px"
-                  height="4762px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2990" lry="4797" xml:id="facs_8">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0008/full/full/0/default.jpg"
-                  width="2990px"
-                  height="4797px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2987" lry="4747" xml:id="facs_9">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0009/full/full/0/default.jpg"
-                  width="2987px"
-                  height="4747px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2985" lry="4795" xml:id="facs_10">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0010/full/full/0/default.jpg"
-                  width="2985px"
-                  height="4795px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2988" lry="4735" xml:id="facs_11">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0011/full/full/0/default.jpg"
-                  width="2988px"
-                  height="4735px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2944" lry="4730" xml:id="facs_12">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0012/full/full/0/default.jpg"
-                  width="2944px"
-                  height="4730px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2938" lry="4712" xml:id="facs_13">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0013/full/full/0/default.jpg"
-                  width="2938px"
-                  height="4712px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2937" lry="4729" xml:id="facs_14">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0014/full/full/0/default.jpg"
-                  width="2937px"
-                  height="4729px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2938" lry="4722" xml:id="facs_15">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0015/full/full/0/default.jpg"
-                  width="2938px"
-                  height="4722px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2940" lry="4772" xml:id="facs_16">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0016/full/full/0/default.jpg"
-                  width="2940px"
-                  height="4772px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2941" lry="4736" xml:id="facs_17">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0017/full/full/0/default.jpg"
-                  width="2941px"
-                  height="4736px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2954" lry="4756" xml:id="facs_18">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0018/full/full/0/default.jpg"
-                  width="2954px"
-                  height="4756px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2990" lry="4794" xml:id="facs_19">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0019/full/full/0/default.jpg"
-                  width="2990px"
-                  height="4794px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2957" lry="4709" xml:id="facs_20">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0020/full/full/0/default.jpg"
-                  width="2957px"
-                  height="4709px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2975" lry="4723" xml:id="facs_21">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0021/full/full/0/default.jpg"
-                  width="2975px"
-                  height="4723px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2934" lry="4714" xml:id="facs_22">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0022/full/full/0/default.jpg"
-                  width="2934px"
-                  height="4714px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2957" lry="4754" xml:id="facs_23">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0023/full/full/0/default.jpg"
-                  width="2957px"
-                  height="4754px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2988" lry="4762" xml:id="facs_24">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0025/full/full/0/default.jpg"
-                  width="2988px"
-                  height="4762px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2976" lry="4747" xml:id="facs_25">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0026/full/full/0/default.jpg"
-                  width="2976px"
-                  height="4747px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3007" lry="4781" xml:id="facs_26">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0027/full/full/0/default.jpg"
-                  width="3007px"
-                  height="4781px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2979" lry="4749" xml:id="facs_27">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0028/full/full/0/default.jpg"
-                  width="2979px"
-                  height="4749px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2983" lry="4791" xml:id="facs_28">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0029/full/full/0/default.jpg"
-                  width="2983px"
-                  height="4791px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2955" lry="4784" xml:id="facs_29">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0030/full/full/0/default.jpg"
-                  width="2955px"
-                  height="4784px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2145" lry="2951" xml:id="facs_30">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0031/full/full/0/default.jpg"
-                  width="2145px"
-                  height="2951px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2974" lry="4760" xml:id="facs_31">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0032/full/full/0/default.jpg"
-                  width="2974px"
-                  height="4760px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2960" lry="4774" xml:id="facs_32">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0033/full/full/0/default.jpg"
-                  width="2960px"
-                  height="4774px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2965" lry="4781" xml:id="facs_33">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0034/full/full/0/default.jpg"
-                  width="2965px"
-                  height="4781px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2961" lry="2792" xml:id="facs_34">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0035/full/full/0/default.jpg"
-                  width="2961px"
-                  height="2792px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2995" lry="4763" xml:id="facs_35">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0036/full/full/0/default.jpg"
-                  width="2995px"
-                  height="4763px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2967" lry="4766" xml:id="facs_36">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0037/full/full/0/default.jpg"
-                  width="2967px"
-                  height="4766px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2982" lry="4730" xml:id="facs_37">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0038/full/full/0/default.jpg"
-                  width="2982px"
-                  height="4730px"/>
-      </surface>
-   </facsimile>
-   <text type="Verfassungsentwurf">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>Entwurf
+            </creation>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when="2024-05-05" who="#cfh">document automatically created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0"><surface ulx="0" uly="0" lrx="2915" lry="4745" xml:id="facs_2"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0002/full/full/0/default.jpg" width="2915px" height="4745px"/></surface><surface ulx="0" uly="0" lrx="2942" lry="4715" xml:id="facs_3"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0003/full/full/0/default.jpg" width="2942px" height="4715px"/></surface><surface ulx="0" uly="0" lrx="2959" lry="4748" xml:id="facs_4"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0004/full/full/0/default.jpg" width="2959px" height="4748px"/></surface><surface ulx="0" uly="0" lrx="2982" lry="4734" xml:id="facs_5"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0005/full/full/0/default.jpg" width="2982px" height="4734px"/></surface><surface ulx="0" uly="0" lrx="2938" lry="4722" xml:id="facs_6"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0006/full/full/0/default.jpg" width="2938px" height="4722px"/></surface><surface ulx="0" uly="0" lrx="2961" lry="4762" xml:id="facs_7"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0007/full/full/0/default.jpg" width="2961px" height="4762px"/></surface><surface ulx="0" uly="0" lrx="2990" lry="4797" xml:id="facs_8"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0008/full/full/0/default.jpg" width="2990px" height="4797px"/></surface><surface ulx="0" uly="0" lrx="2987" lry="4747" xml:id="facs_9"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0009/full/full/0/default.jpg" width="2987px" height="4747px"/></surface><surface ulx="0" uly="0" lrx="2985" lry="4795" xml:id="facs_10"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0010/full/full/0/default.jpg" width="2985px" height="4795px"/></surface><surface ulx="0" uly="0" lrx="2988" lry="4735" xml:id="facs_11"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0011/full/full/0/default.jpg" width="2988px" height="4735px"/></surface><surface ulx="0" uly="0" lrx="2944" lry="4730" xml:id="facs_12"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0012/full/full/0/default.jpg" width="2944px" height="4730px"/></surface><surface ulx="0" uly="0" lrx="2938" lry="4712" xml:id="facs_13"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0013/full/full/0/default.jpg" width="2938px" height="4712px"/></surface><surface ulx="0" uly="0" lrx="2937" lry="4729" xml:id="facs_14"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0014/full/full/0/default.jpg" width="2937px" height="4729px"/></surface><surface ulx="0" uly="0" lrx="2938" lry="4722" xml:id="facs_15"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0015/full/full/0/default.jpg" width="2938px" height="4722px"/></surface><surface ulx="0" uly="0" lrx="2940" lry="4772" xml:id="facs_16"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0016/full/full/0/default.jpg" width="2940px" height="4772px"/></surface><surface ulx="0" uly="0" lrx="2941" lry="4736" xml:id="facs_17"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0017/full/full/0/default.jpg" width="2941px" height="4736px"/></surface><surface ulx="0" uly="0" lrx="2954" lry="4756" xml:id="facs_18"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0018/full/full/0/default.jpg" width="2954px" height="4756px"/></surface><surface ulx="0" uly="0" lrx="2990" lry="4794" xml:id="facs_19"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0019/full/full/0/default.jpg" width="2990px" height="4794px"/></surface><surface ulx="0" uly="0" lrx="2957" lry="4709" xml:id="facs_20"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0020/full/full/0/default.jpg" width="2957px" height="4709px"/></surface><surface ulx="0" uly="0" lrx="2975" lry="4723" xml:id="facs_21"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0021/full/full/0/default.jpg" width="2975px" height="4723px"/></surface><surface ulx="0" uly="0" lrx="2934" lry="4714" xml:id="facs_22"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0022/full/full/0/default.jpg" width="2934px" height="4714px"/></surface><surface ulx="0" uly="0" lrx="2957" lry="4754" xml:id="facs_23"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0023/full/full/0/default.jpg" width="2957px" height="4754px"/></surface><surface ulx="0" uly="0" lrx="2988" lry="4762" xml:id="facs_24"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0025/full/full/0/default.jpg" width="2988px" height="4762px"/></surface><surface ulx="0" uly="0" lrx="2976" lry="4747" xml:id="facs_25"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0026/full/full/0/default.jpg" width="2976px" height="4747px"/></surface><surface ulx="0" uly="0" lrx="3007" lry="4781" xml:id="facs_26"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0027/full/full/0/default.jpg" width="3007px" height="4781px"/></surface><surface ulx="0" uly="0" lrx="2979" lry="4749" xml:id="facs_27"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0028/full/full/0/default.jpg" width="2979px" height="4749px"/></surface><surface ulx="0" uly="0" lrx="2983" lry="4791" xml:id="facs_28"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0029/full/full/0/default.jpg" width="2983px" height="4791px"/></surface><surface ulx="0" uly="0" lrx="2955" lry="4784" xml:id="facs_29"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0030/full/full/0/default.jpg" width="2955px" height="4784px"/></surface><surface ulx="0" uly="0" lrx="2145" lry="2951" xml:id="facs_30"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0031/full/full/0/default.jpg" width="2145px" height="2951px"/></surface><surface ulx="0" uly="0" lrx="2974" lry="4760" xml:id="facs_31"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0032/full/full/0/default.jpg" width="2974px" height="4760px"/></surface><surface ulx="0" uly="0" lrx="2960" lry="4774" xml:id="facs_32"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0033/full/full/0/default.jpg" width="2960px" height="4774px"/></surface><surface ulx="0" uly="0" lrx="2965" lry="4781" xml:id="facs_33"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0034/full/full/0/default.jpg" width="2965px" height="4781px"/></surface><surface ulx="0" uly="0" lrx="2961" lry="2792" xml:id="facs_34"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0035/full/full/0/default.jpg" width="2961px" height="2792px"/></surface><surface ulx="0" uly="0" lrx="2995" lry="4763" xml:id="facs_35"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0036/full/full/0/default.jpg" width="2995px" height="4763px"/></surface><surface ulx="0" uly="0" lrx="2967" lry="4766" xml:id="facs_36"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0037/full/full/0/default.jpg" width="2967px" height="4766px"/></surface><surface ulx="0" uly="0" lrx="2982" lry="4730" xml:id="facs_37"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__35/files/images/IMG_0038/full/full/0/default.jpg" width="2982px" height="4730px"/></surface></facsimile>
+    <text type="Verfassungsentwurf">
+        <body><div type="main"><pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/><p>Entwurf
       <lb break="yes"/>einer provisorischen
       <lb break="yes"/>Verfassung
       <lb break="yes"/>Wir freigewählten Abgeordneten, Kraft des allge
 <lb break="no"/>meinen und gleichen Stimmrechts zur Zeit
       <lb break="yes"/>allein befugten [und gesetzlichen] Vertreter des deutschen Volkes
-      <lb break="yes"/>der bisherigen im Reichsrat vertretenen</p>
-            <p>Königreiche und Länder der Oester
+      <lb break="yes"/>der bisherigen im Reichsrat vertretenen</p><p>Königreiche und Länder der Oester
 <lb break="no"/>reichisch-Ungarischen Monarchie
       <lb break="yes"/>haben uns infolge der allgemeinen Auflösung
       <lb break="yes"/>des Staates und der völligen Unfruc Unhaltbarkeit
@@ -306,8 +122,7 @@
 <lb break="no"/>sorischen Nationalversammlung zusam
 <lb break="no"/>mengeschlossentan und für einer Volk
       <lb break="yes"/>und Land die nachstehende provisorische
-      <lb break="yes"/>Verfassung beschlossen:</p>
-            <p>Erster Titel
+      <lb break="yes"/>Verfassung beschlossen:</p><p>Erster Titel
       <lb break="yes"/>Zeichen
       <lb break="yes"/>Von Namen, Wesen und Zeichen Wappen
       <lb break="yes"/>des Staates.
@@ -359,14 +174,12 @@
       <lb break="yes"/>beruht.
       <lb break="yes"/>Alle öffentliche Gewalt, die er aufrichtet, und alles
       <lb break="yes"/>Recht, nach dem seine Bürger leben, nimmt durch das gleiche
-      <lb break="yes"/>und direkte<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>3</p>
-            <p>Hämmer, über denen ein Kranz von Roggenähren
+      <lb break="yes"/>und direkte<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>3</p><p>Hämmer, über denen ein Kranz von Roggenähren
       <lb break="yes"/>liegt und die Umschrift „Freistaat Deutschöster
 <lb break="no"/>reich" "Südostdeutschland".
       <lb break="yes"/>Zweiter Titel.
       <lb break="yes"/>Vom Staatsgebiete.
-      <lb break="yes"/>§ 5.</p>
-            <p>Das Staatsgebiet, über das der Freistaat seine volle
+      <lb break="yes"/>§ 5.</p><p>Das Staatsgebiet, über das der Freistaat seine volle
       <lb break="yes"/>Hoheit ausübt, ist das geschlossene Siedlungsgebiet
       <lb break="yes"/>der Deutschen innerhalb der bisherigen im Reichs
 <lb break="no"/>rat vertretenen Königreiche und Länder,
@@ -374,26 +187,24 @@
 <lb break="no"/>gebietes durch Vereinbarungen mit den übrigen Nation[en]alstaaten,
       <lb break="yes"/>die auf dem Gebiete der österreichisch-ungarischen Monarchie
       <lb break="yes"/>entstehen, beziehungsweise vorbehaltlich der Regieung Ab
-<lb break="no"/>grenzung durch den Friedenskongress gehören zum Freistaat Südost-</p>
-            <p>
-               <lb break="yes"/>deutschland: Das Erzherzogtum Oesterreich unter der Enns, das Erherzogtum
+<lb break="no"/>grenzung durch den Friedenskongress gehören zum Freistaat Südost-</p><p>
+      <lb break="yes"/>deutschland: Das Erzherzogtum Oesterreich unter der Enns, das Erherzogtum
       <lb break="yes"/>tum Oesterreich/ob der Enns, das Herzogtum Salzburg, das Hertzogtum Steiermark,
       <lb break="yes"/>ferner
       <lb break="yes"/>mit Ausschluss des geschlossenen italienischen Siedlingsgebietes
       <lb break="yes"/>das Herzogtum Kärnten, die gefürstete Grafschaft Tirol und Vor
 <lb break="no"/>arlberg mit Ausschluss der geschlossenen jugoslavischen und italienischen
       <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>Siedlungsgebiete, ferner endlich die neukonstituierte neuaufgerichteten  Provinz[en] Nordböhmen
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>Siedlungsgebiete, ferner endlich die neukonstituierte neuaufgerichteten  Provinz[en] Nordböhmen
       <lb break="yes"/>und die Provinz Deutschschlesien.
       <lb break="yes"/>§ 2
-      <lb break="yes"/>§ 6.</p>
-            <p>Die in den Siedlungsgebieten anderer Nationen eingeschlossenen, [von
+      <lb break="yes"/>§ 6.</p><p>Die in den Siedlungsgebieten anderer Nationen eingeschlossenen, [von
       <lb break="yes"/>deutschen] allein oder überwiegend von Deutschen bewohnten oder
       <lb break="yes"/>verwalteten Sprachinseln, Städte und Gemeinden der
       <lb break="yes"/>im Reichsrat vertretenen Königreiche und Länder bleiben
@@ -405,8 +216,7 @@
       <lb break="yes"/>Sie behalten ihre bisherige Vertretung in der provi
 <lb break="no"/>sorischen Nationalversammlung und bleiben der Gesetz
 <lb break="no"/>gebungs= und Vollzugsgewalt unterstellt.
-      <lb break="yes"/>des Freistaates<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>4</p>
-            <p>§ 7.
+      <lb break="yes"/>des Freistaates<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>4</p><p>§ 7.
       <lb break="yes"/>Das in den bisherigen Ländern der heiligen ungarischen
       <lb break="yes"/>Krone gelegene geschlossene deutsche Siedlungsgebiet,
       <lb break="yes"/>sowie die dort gele in d gelegenen deutschen Sprach
@@ -420,9 +230,7 @@
       <lb break="yes"/>sich bemühen, ihren Bestand, ihre Zukunft und
       <lb break="yes"/>ihre [i?] nationalen und wirtschaftliche Beziehungen
       <lb break="yes"/>zum Freistaat völkerrechtlich zu sichern.
-      <lb break="yes"/>§ 8.<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>5</p>
-            <p>[2]</p>
-            <p>[§ 3].
+      <lb break="yes"/>§ 8.<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>5</p><p>[2]</p><p>[§ 3].
       <lb break="yes"/>§ 8
       <lb break="yes"/>[Wien ist die Ha]
       <lb break="yes"/>[Herzogtümer, Grafschaften]
@@ -433,7 +241,7 @@
       <lb break="yes"/>untrennbare Glieder und
       <lb break="yes"/>als Provinzen des
       <lb break="yes"/>
-               <lb break="yes"/>schlesien bilden [die Provinzen des Staates und sind]
+      <lb break="yes"/>schlesien bilden [die Provinzen des Staates und sind]
       <lb break="yes"/>[führen[?] die[?],
       <lb break="yes"/>Bestandteile [des Staates] und [Glieder und]
       <lb break="yes"/>[Bezeichnung]
@@ -448,7 +256,7 @@
       <lb break="yes"/>in § 3 und 6
       <lb break="yes"/>[Staats]
       <lb break="yes"/>
-               <lb break="yes"/>teiles des [in § 1 und 2] [in § 5und 6] umschriebenen Gebietes und Verwaltungs
+      <lb break="yes"/>teiles des [in § 1 und 2] [in § 5und 6] umschriebenen Gebietes und Verwaltungs
 <lb break="no"/>bereiches erforder[n][t] die Zustimmung der Gesetzgebung der National
 <lb break="no"/>versammlung. [Der Anschluss Der Beitritt]
       <lb break="yes"/>[§ 10]
@@ -463,8 +271,7 @@
       <lb break="yes"/>[§ ii]
       <lb break="yes"/>[§ 6.]
       <lb break="yes"/>Wien ist die Hauptstadt des Freistaates [,] [und] der Sitz der
-      <lb break="yes"/>Staatsgewalt [und der] Staatsämter] Regierungsbehörden</p>
-            <p>[2. Abschnitt.] [II] Dritte[?] Tafel
+      <lb break="yes"/>Staatsgewalt [und der] Staatsämter] Regierungsbehörden</p><p>[2. Abschnitt.] [II] Dritte[?] Tafel
       <lb break="yes"/>Von den Staatsbürgern.
       <lb break="yes"/>§ 7.
       <lb break="yes"/>§ 12
@@ -513,8 +320,7 @@
 <lb break="no"/>[ferner bei der Verteilung der öffentlichen [Lasten] Pflichten und Lasten]
       <lb break="yes"/>gelung der Aemterfähigkeit dürfen Unterscheidungen [der] (Staats
 <lb break="no"/>[zwischen den]
-      <lb break="yes"/>bürger nicht gemacht werden.</p>
-            <p>[§ 15] 
+      <lb break="yes"/>bürger nicht gemacht werden.</p><p>[§ 15] 
       <lb break="yes"/>[§ 10.]
       <lb break="yes"/>Bis zur Erlassung eines besonderen Gesetzes [über die
       <lb break="yes"/>allgemeinen, bürgerliche und politischen Rechte der Staatsburger]
@@ -538,9 +344,7 @@
       <lb break="yes"/>verbindende Organ ist der Vollungsausschuß (Staatsrat) der
       <lb break="yes"/>Nationalversammlung (Staatsrat)
       <lb break="yes"/>
-               <lb break="yes"/>
-               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>6</p>
-            <p>A. Von der gesetzgebenden Gewalt
+      <lb break="yes"/><pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>6</p><p>A. Von der gesetzgebenden Gewalt
       <lb break="yes"/>[1. Die Staatsgesetzgebung]
       <lb break="yes"/>[A] [§ 20.] [16]
       <lb break="yes"/>Die [Nationalversammlung (§ 2) wird jedes Jahr am .] Montag
@@ -555,8 +359,7 @@
 <lb break="no"/>nung, sowie die sonstigen auf den Reichsrat bezüglichen Ge
 <lb break="no"/>setze in Kraft. bilden die in den nachstehend bezeichneten
       <lb break="yes"/>Wahlbezirken gewährten Reichsratsabgeordneten provisorisch
-      <lb break="yes"/>die Nationalversammlung [von Südost-Deutschland].</p>
-            <p>§ [21.] [17]
+      <lb break="yes"/>die Nationalversammlung [von Südost-Deutschland].</p><p>§ [21.] [17]
       <lb break="yes"/>Die konstituierende Nationalversammlung besteht aus dem
       <lb break="yes"/>Volkshause und dem Senate. [Alle] Gesetzesanträge und Regierungs
 <lb break="no"/>werden von der Regierung
@@ -615,8 +418,7 @@
       <lb break="yes"/>vom Präsidenten des Voltzugsausschusses [und vom] [dem] Staatskanzler
       <lb break="yes"/>[und von den mit dem Vollzuge betrauten Staatssekretären zu zeichnen.
       <lb break="yes"/>[§ 32.] [§ 18]
-      <lb break="yes"/>Das Volkshaus besteht aus [.......] Abgeordneten, welche</p>
-            <p>auf Grund des allgemeinen, gleichen und direkten Wahlrechtes
+      <lb break="yes"/>Das Volkshaus besteht aus [.......] Abgeordneten, welche</p><p>auf Grund des allgemeinen, gleichen und direkten Wahlrechtes
       <lb break="yes"/>nach den Grundsätzen der Verhältniswahl [gewählt we] berufen
       <lb break="yes"/>werden. Jeder politische Kreis ([......] [§27, 44]) ist zugleich Wahl
 <lb break="no"/>kreis, und wählt [auf je ..... Einwohner einen Abgeordneten]
@@ -626,8 +428,7 @@
       <lb break="yes"/>Vertreter entfällt. Sämtliche Abgeordnete eines Kreises* werden
       <lb break="yes"/>in einem Wahlgange durch Listenwahl berufen.
       <lb break="yes"/>[19]
-      <lb break="yes"/>[§ 23.]</p>
-            <p>Wahlberechtigt zur Wahl eines Abgeordneten ist jeder Staats
+      <lb break="yes"/>[§ 23.]</p><p>Wahlberechtigt zur Wahl eines Abgeordneten ist jeder Staats
 <lb break="no"/>bürger ohne Unterschied des Geschlechtes, welcher das 20. Lebenjahr
       <lb break="yes"/>zurückgelegt hat, nach der Reichsratswahlordnung vom Wahlrechte
       <lb break="yes"/>nicht ausgenommen oder ausgeschlossen ist und innerhal[]b des
@@ -648,8 +449,7 @@
       <lb break="yes"/>Der Senat besteht aus [....] [mindestens] Mitgliedern. Mitglieder
       <lb break="yes"/>des Senates sind kraft ihrer Stellung 1. der bürgermeister
       <lb break="yes"/>und die beiden Vizebürgermeister der Staatshauptsradt Wien und
-      <lb break="yes"/>die Bürgermeister der Landeshauptstädte. 2. Die Landeshaupt¬</p>
-            <p>männer der Provinzen, 33. [Direktoren] [Die] [R]ektoren der Universitäten und
+      <lb break="yes"/>die Bürgermeister der Landeshauptstädte. 2. Die Landeshaupt¬</p><p>männer der Provinzen, 33. [Direktoren] [Die] [R]ektoren der Universitäten und
       <lb break="yes"/>aller anderen Hochschulen, [D][d]ie Präsidenten der Akademien.
       <lb break="yes"/>Durch Wahl berufen werden die Vertreter: 1. Der Handels- und
       <lb break="yes"/>Gewerbekammer und zwar von der Handels- und Gewerbekammer
@@ -700,8 +500,7 @@
       <lb break="yes"/>regeln die Gemeindebewohner ihre gemeinsamen
       <lb break="yes"/>Angelegenheiten [selbs] durch die Gemeindevertre
 <lb break="no"/>tung.
-      <lb break="yes"/>§ 18.</p>
-            <p>Mit dem Vollzuge [ihrer] der Gesetze und ihrer Be
+      <lb break="yes"/>§ 18.</p><p>Mit dem Vollzuge [ihrer] der Gesetze und ihrer Be
 <lb break="no"/>schlüsse beauftragt die Nationalversammlung den
       <lb break="yes"/>von ihr eingesetzten Vollzugsausschuss. Er führt
       <lb break="yes"/>den Titel Staatsrat und ist als oberster Träger
@@ -718,8 +517,7 @@
 <lb break="no"/>sam [der] nach dem besonderen Gesetze über die
       <lb break="yes"/>Ministerverantwortlichkeit der Nationalversamm
 <lb break="no"/>lung verantwortlich.
-      <lb break="yes"/>§20.</p>
-            <p>Die richterliche Gewalt wird im [Namen des Volkes
+      <lb break="yes"/>§20.</p><p>Die richterliche Gewalt wird im [Namen des Volkes
       <lb break="yes"/>und] im Auftrag des Volkes und im Namen des Frei
 <lb break="no"/>staats durch unabhängige Richter gehand
 <lb break="no"/>habt. Die Justizverwaltung liegt in den Händen
@@ -729,8 +527,7 @@
       <lb break="yes"/>Bürgerschaft des Staates. Sie steht unter Befehl des
       <lb break="yes"/>der Nationalversammlung verantwortlichen
       <lb break="yes"/>Oberbefehlshabers. Die Heeresverwaltung
-      <lb break="yes"/>führt der Staatssekretär des Heerwesens.</p>
-            <p>Erster Abschnitt.
+      <lb break="yes"/>führt der Staatssekretär des Heerwesens.</p><p>Erster Abschnitt.
       <lb break="yes"/>Von der gesetzgeben Gewalt.
       <lb break="yes"/>[a) die Staatsgesetzgebung]
       <lb break="yes"/>§22.
@@ -775,8 +572,7 @@
       <lb break="yes"/>Beschlußgewalt kommt einzig dem
       <lb break="yes"/>Volkshause zu. Der Senat wirkt bei dessen
       <lb break="yes"/>Beschlüssen mit seinem Rate [mit] [und Gutachten mit.]
-      <lb break="yes"/>§ 25.</p>
-            <p>Mitglieder des [Senates] [Senates] werden [Kraft]
+      <lb break="yes"/>§ 25.</p><p>Mitglieder des [Senates] [Senates] werden [Kraft]
       <lb break="yes"/>Kraft ihrer öffentlichen Stellung
       <lb break="yes"/>[außerdem im]
       <lb break="yes"/>[A?]
@@ -819,8 +615,7 @@
       <lb break="yes"/>2. Fünf Vertreter der Industrie [und] darunter
       <lb break="yes"/>[einer]
       <lb break="yes"/>[Zwei] des Berg- u. Hüttenwesens [und drei]
-      <lb break="yes"/>[der übrigen Industriev,],</p>
-            <p>3. drei Vertreter des Handels,
+      <lb break="yes"/>[der übrigen Industriev,],</p><p>3. drei Vertreter des Handels,
       <lb break="yes"/>4. fünf Vertreter des Gewerbes
       <lb break="yes"/>5. zehn Vertreter der gewerkschaftlich und
       <lb break="yes"/>genossenschaftlich organisierten Arbei
@@ -832,8 +627,7 @@
       <lb break="yes"/>Der Staatsrat legt[?] durch eine Kundmachung [?]fast
       <lb break="yes"/>in welcher Weise die Mitglieder gewählt, beziehungs
 <lb break="no"/>weise vorgeschlagen und berufen werden.
-      <lb break="yes"/>§ 27</p>
-            <p>Ausserdem werden vom Staatsrat ausgezeichnete
+      <lb break="yes"/>§ 27</p><p>Ausserdem werden vom Staatsrat ausgezeichnete
       <lb break="yes"/>Männer, welche sich um den Staat oder die Nation,
       <lb break="yes"/>um Gesetzgebung, Verwaltung, Rechtspflege und Landes
 <lb break="no"/>verteidigung, um Volkswirtschaft und den
@@ -841,19 +635,18 @@
       <lb break="yes"/>verdient gemacht haben, auf die Dauer der
       <lb break="yes"/>berufen. Die Zahl der freiberufenen Senats
 <lb break="no"/>
-               <lb break="yes"/>mitglieder nicht mehr als darf das doppelte der
+      <lb break="yes"/>mitglieder nicht mehr als darf das doppelte der
       <lb break="yes"/>sonstigen Mitglieder nicht überschreiten.
       <lb break="yes"/>§ 28
       <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>Das Volkshaus und der Senatwähler wählt aus seiner Mitte je den
+      <lb break="yes"/>
+      <lb break="yes"/>Das Volkshaus und der Senatwähler wählt aus seiner Mitte je den
       <lb break="yes"/>Vizepraesidenten
       <lb break="yes"/>Präsidenten und zwei Stellvertreter, der Senat
       <lb break="yes"/>den Präsidenten und einen Vizepräsidenten. Im
       <lb break="yes"/>
-               <lb break="yes"/>Übrigen beschliessen das Volkshaus und der Senat ihre Geschäfts-
-      <lb break="yes"/>und Hausordnung selbständig.<pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>11</p>
-            <p>§ 29. 
+      <lb break="yes"/>Übrigen beschliessen das Volkshaus und der Senat ihre Geschäfts-
+      <lb break="yes"/>und Hausordnung selbständig.<pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>11</p><p>§ 29. 
       <lb break="yes"/>Beschlussanträge Gesetzesvorlagen und Regierungs
 <lb break="no"/>berichte werden vom der Regierung zunächst un
 <lb break="no"/>Volkshause eingebracht, diesem steht gleichfalls
@@ -861,7 +654,7 @@
       <lb break="yes"/>und Berichte seiner Mitglieder oder Ausschüsse
       <lb break="yes"/>in Verhandlung zu nehmen. Gesetzesbeschlüsse des
       <lb break="yes"/>
-               <lb break="yes"/>Volkshauses werden von dessen Praesidenten
+      <lb break="yes"/>Volkshauses werden von dessen Praesidenten
       <lb break="yes"/>dem Senat zur Rückäußerung übermittelt.
       <lb break="yes"/>§ 30.
       <lb break="yes"/>Gesetzesvorlagen, Beschlußan
@@ -876,30 +669,29 @@
       <lb break="yes"/>§ 31.
       <lb break="yes"/>Die üb dem Volkshaus übermittelten Gesetzes
 <lb break="no"/>
-               <lb break="yes"/>beschlüsse des Senats müssen sind vom Volkshaus
+      <lb break="yes"/>beschlüsse des Senats müssen sind vom Volkshaus
       <lb break="yes"/>der Behandlung der Verhandlung und Beschluß
 <lb break="no"/>fassung zuzuführen.
       <lb break="yes"/>
-               <lb break="yes"/>Nur eine die nach Anhörung des Senats vom Volkshaus
+      <lb break="yes"/>Nur eine die nach Anhörung des Senats vom Volkshaus
       <lb break="yes"/>gefaßte Entschließungen gelten gilt als Be
 <lb break="no"/> schluß der Nationalversammlung und als
       <lb break="yes"/>
-               <lb break="yes"/>somit als Unterlage für ein Gesetz der zu einem Gesetz Gesetzes
+      <lb break="yes"/>somit als Unterlage für ein Gesetz der zu einem Gesetz Gesetzes
 <lb break="no"/>kraft.
       <lb break="yes"/>Endgiltige Beschlüsse der Nationalversammlung werden
       <lb break="yes"/>an den unverzüglich an den Staatsrat geleitet.
       <lb break="yes"/>§ 32
       <lb break="yes"/>Der Staatsrat hat das Recht, einen Beschluß
       <lb break="yes"/>
-               <lb break="yes"/>der Nationalversammlung, wenn den er ihn als
+      <lb break="yes"/>der Nationalversammlung, wenn den er ihn als
       <lb break="yes"/>zum Vollzuge ungeeignet befindet, binnen vier
 <lb break="no"/>zehn Tagen an das Volkshaus zurückzulei
 <lb break="no"/>ten, ist jedoch in diesem Falle gehalten, in dem
       <lb break="yes"/>
-               <lb break="yes"/>selben Gegenstande binnen drei Monaten dem im Volks
+      <lb break="yes"/>selben Gegenstande binnen drei Monaten dem im Volks
 <lb break="no"/>haus eine eigene Vorlage einzubringen.Liegt
-      <lb break="yes"/>über diese Vorlage ein neuerlicher Beschluß<pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>12</p>
-            <p>der Nationalversammlung vor, so kann der Staats
+      <lb break="yes"/>über diese Vorlage ein neuerlicher Beschluß<pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>12</p><p>der Nationalversammlung vor, so kann der Staats
 <lb break="no"/>rat dem ihm den Vollzug nicht mehr versagen.
       <lb break="yes"/>Der Staatsrat berät u. beschließt über den
       <lb break="yes"/>Beschluß der Nationalversammlung nach seiner Ge
@@ -921,22 +713,21 @@
 <lb break="no"/>hauses und kraft Beschlußes des Staats
 <lb break="no"/>rates ordnen wir an wie folgt:
       <lb break="yes"/>
-               <lb break="yes"/>Der darauff folgende Gesetzestext ist vom
+      <lb break="yes"/>Der darauff folgende Gesetzestext ist vom
       <lb break="yes"/>Praesidenten des Staatsrats zu fertigen und
       <lb break="yes"/>sowie vom Kanzler nebst und den mit dem Vollzug
       <lb break="yes"/>
-               <lb break="yes"/>betrauten Staatssekretären gegenzu
+      <lb break="yes"/>betrauten Staatssekretären gegenzu
 <lb break="no"/>zeichnen.
-      <lb break="yes"/>§ 34.<pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>18</p>
-            <p>Monates. Die Nationalversammlung tritt am 2. Montag des Monates
+      <lb break="yes"/>§ 34.<pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>18</p><p>Monates. Die Nationalversammlung tritt am 2. Montag des Monates
       <lb break="yes"/>April zu ihrer Konstituierung zusammen.
       <lb break="yes"/>§ 27. 23 § 34
       <lb break="yes"/>
-               <lb break="yes"/>Die Nationalversammlung vereinigt sich jedes Jahr zur regelmässigen ordentlichen
+      <lb break="yes"/>Die Nationalversammlung vereinigt sich jedes Jahr zur regelmässigen ordentlichen
       <lb break="yes"/>
-               <lb break="yes"/>Frühjahrstagung am dritten Montag des April Februar jeden Jahres, zur
+      <lb break="yes"/>Frühjahrstagung am dritten Montag des April Februar jeden Jahres, zur
       <lb break="yes"/>
-               <lb break="yes"/>ordentlichen
+      <lb break="yes"/>ordentlichen
       <lb break="yes"/>regelmässigen Herbsttagung am 3. dritten Montag des Monats September.
       <lb break="yes"/>Das Verwaltungsjahr des Staates beginnt am 1. Juli
       <lb break="yes"/>jedes Jahres und endigt am 30. Juni des nächstfolgenden Jahres.
@@ -944,102 +735,99 @@
       <lb break="yes"/>ist in der ersten Sitzung
       <lb break="yes"/>zu Beginn der ordentlichen Frühjahrstagung von der Staatsregierung Regierung
       <lb break="yes"/>
-               <lb break="yes"/>vorzulegen, die erste Lesung ist in der ersten binnen einer Woche zu ab beenden -
+      <lb break="yes"/>vorzulegen, die erste Lesung ist in der ersten binnen einer Woche zu ab beenden -
       <lb break="yes"/>und der Staatsvoranschlag sohin dem Haushaltsausschusse zuzuweisen.
       <lb break="yes"/>
-               <lb break="yes"/>Der Bericht dieses Ausschusses gelangt am 3. dritten Montag des Monates April Mai
+      <lb break="yes"/>Der Bericht dieses Ausschusses gelangt am 3. dritten Montag des Monates April Mai
       <lb break="yes"/>
-               <lb break="yes"/>an das Haus und ist bis Ende zum zweiten Samstag des Mai im Hause der Beschlussfassung zu
+      <lb break="yes"/>an das Haus und ist bis Ende zum zweiten Samstag des Mai im Hause der Beschlussfassung zu
 <lb break="no"/>zuführen. Zu Beginn des Monates Mai gelangt Der Beschluss des
       <lb break="yes"/>
-               <lb break="yes"/>Volkshauses gelangt unverzüglich an den Senat, dessen Rückäusserung erfolgt bis zum zweiten
+      <lb break="yes"/>Volkshauses gelangt unverzüglich an den Senat, dessen Rückäusserung erfolgt bis zum zweiten
       <lb break="yes"/>Samstag des
       <lb break="yes"/>16- 17. Mai und wird direkt an den Haushaltsausschuss des Volkshauses
       <lb break="yes"/>
-               <lb break="yes"/>geleitet, welcher bis zum 1. Wochentag des Juni längstens Ende Mai 
+      <lb break="yes"/>geleitet, welcher bis zum 1. Wochentag des Juni längstens Ende Mai 
       <lb break="yes"/>am ersten Wochentage des Mai
       <lb break="yes"/>
-               <lb break="yes"/>an das Volkshaus berichtet. Der Bericht ist sofort zu beha am erste Wochentage des Mai
+      <lb break="yes"/>an das Volkshaus berichtet. Der Bericht ist sofort zu beha am erste Wochentage des Mai
       <lb break="yes"/>Juni in Verhandlung zu nehmen, und am 14. Tage nachher der Abstimmung
       <lb break="yes"/>
-               <lb break="yes"/>zu unterziehen. Der so gefasste Beschluss der Nationalversammlung
+      <lb break="yes"/>zu unterziehen. Der so gefasste Beschluss der Nationalversammlung
       <lb break="yes"/>
-               <lb break="yes"/>ist dem Vollzugsausschusse Staatsrat sofort zu unterbreiten und von
+      <lb break="yes"/>ist dem Vollzugsausschusse Staatsrat sofort zu unterbreiten und von
       <lb break="yes"/>
-               <lb break="yes"/>diesem bis vorletzten Juni am vorletzten Juni zu vollziehen. als Haushaltge
-<lb break="no"/>setz Kundzumachen (§ 62).</p>
-            <p>§ 35
+      <lb break="yes"/>diesem bis vorletzten Juni am vorletzten Juni zu vollziehen. als Haushaltge
+<lb break="no"/>setz Kundzumachen (§ 62).</p><p>§ 35
       <lb break="yes"/>§ 28
       <lb break="yes"/>(§ ...)
       <lb break="yes"/>
-               <lb break="yes"/>Die Wehrvorlage ist am 1. ersten Tage der ordentlichen Herbsttagung
+      <lb break="yes"/>Die Wehrvorlage ist am 1. ersten Tage der ordentlichen Herbsttagung
       <lb break="yes"/>dem im Volkshause zu unterbreiten einzuzubringen (§ ...), und die erste Lesung längstens am
       <lb break="yes"/>
-               <lb break="yes"/>siebenten Tage darauf zu beenden, und die Vorlage dem Wehrausschusse zuzuweisen 
+      <lb break="yes"/>siebenten Tage darauf zu beenden, und die Vorlage dem Wehrausschusse zuzuweisen 
 <lb break="no"/>
-               <lb break="yes"/>Dieser Erstattung erstattet binnen einem Monat eines Monates  Bericht, worauf das Volks
+      <lb break="yes"/>Dieser Erstattung erstattet binnen einem Monat eines Monates  Bericht, worauf das Volks
 <lb break="no"/>
-               <lb break="yes"/>haus die zweite Lesung binnen acht Tagen beendet und am ersten Wochentage des November zur Abstimmung schreitet vornimmt. Beschliesst dieses eine Rück
+      <lb break="yes"/>haus die zweite Lesung binnen acht Tagen beendet und am ersten Wochentage des November zur Abstimmung schreitet vornimmt. Beschliesst dieses eine Rück
 <lb break="no"/>verweisung an den Ausschuss Wehrausschuss, so hat dieser binnen
       <lb break="yes"/>weiteren acht Tagen Bericht zu erstatten und das Volkshaus
       <lb break="yes"/>
-               <lb break="yes"/>über den Bericht in längstens acht am dritten Wochentag des November endgiltig Tagen Beschluss zu fassen.<pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>19</p>
-            <p>10.
+      <lb break="yes"/>über den Bericht in längstens acht am dritten Wochentag des November endgiltig Tagen Beschluss zu fassen.<pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>19</p><p>10.
       <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>Der Beschluss des Volkshauses über die Wehrvorlagen wird nicht an den
+      <lb break="yes"/>
+      <lb break="yes"/>Der Beschluss des Volkshauses über die Wehrvorlagen wird nicht an den
       <lb break="yes"/>Senat geleitet, sondern gilt als Beschluss der Nationalver
 <lb break="no"/>sammlung
       <lb break="yes"/>§ 25
       <lb break="yes"/>§ 36
       <lb break="yes"/>§ 27.
       <lb break="yes"/>
-               <lb break="yes"/>Der Staatsrechnungsabschluss wird am ersten Wochentage des Dezember
+      <lb break="yes"/>Der Staatsrechnungsabschluss wird am ersten Wochentage des Dezember
       <lb break="yes"/>zugleich den im Finanzkontrolausschuss des Volkshauses und des Senates
       <lb break="yes"/>
-               <lb break="yes"/>unterbreitet eingebracht. Der Bericht dieser Ausschüsse wird binnen vierzehn
+      <lb break="yes"/>unterbreitet eingebracht. Der Bericht dieser Ausschüsse wird binnen vierzehn
       <lb break="yes"/>Tagen erstattet und getrennt im Volkshause und im Senate
       <lb break="yes"/>der Erledigung zugeführt.
       <lb break="yes"/>§ 37
       <lb break="yes"/>Der Staatsrat  Vollzugsausschuss oder ein Drittel der Abgeordneten
       <lb break="yes"/>
-               <lb break="yes"/>des Volkshauses oder die Hälfte der Mitglieder des Senates haben das Recht
+      <lb break="yes"/>des Volkshauses oder die Hälfte der Mitglieder des Senates haben das Recht
       <lb break="yes"/>(eine ausserordentliche Tagung) zu einer Zeit, wo der die National
 <lb break="no"/>
-               <lb break="yes"/>versammlung nicht versammelt ist, derselben einzuberufen zu verlangen.
+      <lb break="yes"/>versammlung nicht versammelt ist, derselben einzuberufen zu verlangen.
       <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>Die Einberufung erfolgt ergeht sohin von dem durch den Präsidenten des Volks
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>Die Einberufung erfolgt ergeht sohin von dem durch den Präsidenten des Volks
 <lb break="no"/>hauses, und des Senates Staatsrats.
       <lb break="yes"/>§ 26
       <lb break="yes"/>§ 28
       <lb break="yes"/>
-               <lb break="yes"/>2. b) Die Landes und und Kreisgesetzgebung.
+      <lb break="yes"/>2. b) Die Landes und und Kreisgesetzgebung.
       <lb break="yes"/>
-               <lb break="yes"/>§ 38
+      <lb break="yes"/>§ 38
       <lb break="yes"/>
-               <lb break="yes"/>In jeder Provinz jedem Lande besteht ein Landtag, der auf Grund</p>
-            <p>des allgemeinen, gleichen und direkten Wahlrechtes aller Staats
+      <lb break="yes"/>In jeder Provinz jedem Lande besteht ein Landtag, der auf Grund</p><p>des allgemeinen, gleichen und direkten Wahlrechtes aller Staats
 <lb break="no"/>bürger nach dem System der Verhältniswahl berufen wird. Die
       <lb break="yes"/>Erfordernisse der Wahlberechtigung sind dieselben, wie bei den
       <lb break="yes"/>Wahlen zum Volkshause. Die Zusammensetzung und Geschäftsordnung,
       <lb break="yes"/>sowie die Zuständigekeit der Landtage auf dem Gebiete der Ge
 <lb break="no"/>
-               <lb break="yes"/>setzgebung wird durch ein besonderes allgemeines Staatsgesetz, durch die allgemeine
+      <lb break="yes"/>setzgebung wird durch ein besonderes allgemeines Staatsgesetz, durch die allgemeine
       <lb break="yes"/>
-               <lb break="yes"/>Landesordnung geregelt. Innerhalb dieser der allgemeinen Landesordung steht
+      <lb break="yes"/>Landesordnung geregelt. Innerhalb dieser der allgemeinen Landesordung steht
       <lb break="yes"/>den Landtagen das Recht zu, die inneren Einrichtungen des Land
 <lb break="no"/>
-               <lb break="yes"/>tages und des Landes durch ein[?] Landesstatut autonom  zu ordnen zu regeln.
+      <lb break="yes"/>tages und des Landes durch ein[?] Landesstatut autonom  zu ordnen zu regeln.
       <lb break="yes"/>§ 39
       <lb break="yes"/>§ 29. § 27
       <lb break="yes"/>Im Rahmen der Staats- und Landesgesetze trifft der
       <lb break="yes"/>
-               <lb break="yes"/>Kreistag die erforderliche allgemeine Anordnungen. Für jeden politischen Kreis
+      <lb break="yes"/>Kreistag die erforderliche allgemeine Anordnungen. Für jeden politischen Kreis
       <lb break="yes"/>wird ein Kreistag berufen.
       <lb break="yes"/>
-               <lb break="yes"/>Der Kreis ist die der einheitliche Sprengel für die gesamte
+      <lb break="yes"/>Der Kreis ist die der einheitliche Sprengel für die gesamte
       <lb break="yes"/>Lokalverwaltung, somit für den politischen, Justiz-, Finanz und
       <lb break="yes"/>Absatz
       <lb break="yes"/>Heeresdienst erster Instanz. Der Kreistag hat das Recht ist befugt, in
@@ -1053,17 +841,15 @@
       <lb break="yes"/>a) Die allgemeine Regierungs
       <lb break="yes"/>Gewalt im Allgemeinen
       <lb break="yes"/>§ 40
-      <lb break="yes"/>des</p>
-            <p>Zur Einsetzung seines
+      <lb break="yes"/>des</p><p>Zur Einsetzung seines
       <lb break="yes"/>Zur Wahl des Vollzugsausschusses oder Senates des Staats
 <lb break="no"/>rates tritt die provisorische Nationalversammlung binnen acht
       <lb break="yes"/>
-               <lb break="yes"/>Tagen nach Kundmachung dieser Verfassung, später jedes
+      <lb break="yes"/>Tagen nach Kundmachung dieser Verfassung, später jedes
       <lb break="yes"/>Jahr am zweiten Wochentage des Mai zu einer feier
 <lb break="no"/>lichen Sitzung zusammen. An In denselben dieser werden
       <lb break="yes"/>auch das Heeres-, Justiz- und Staatschul
-<lb break="no"/>dendirektorium bestellt (§§  ...) (72[?], 63 u 82)</p>
-            <p>§ 41
+<lb break="no"/>dendirektorium bestellt (§§  ...) (72[?], 63 u 82)</p><p>§ 41
       <lb break="yes"/>Der Staatsrat, besteht aus dem der Praesident
       <lb break="yes"/>ohne
       <lb break="yes"/>und die beiden Vizepraesidenten des Volkshauses Vor
@@ -1080,8 +866,7 @@
       <lb break="yes"/>Gesetz über die Geschäftsanweisung für die des Staats
 <lb break="no"/>rat geregelt.
       <lb break="yes"/>frühen[?]  u um Treffen[?] 
-      <lb break="yes"/>§ 42.</p>
-            <p>Nachvollzogener Wahl versammeln sich die Mitglieder
+      <lb break="yes"/>§ 42.</p><p>Nachvollzogener Wahl versammeln sich die Mitglieder
       <lb break="yes"/>und Beisitzer des Staatsrats und konstituieren unter
       <lb break="yes"/>dem Vorsitz des Praesidenten des Volkshauses den Staats
 <lb break="no"/>rat, indem sie dessen den Praesidenten, dessen den und
@@ -1091,22 +876,20 @@
       <lb break="yes"/>Die Siegelbewahrer des Staats Freistaats bestellen. Hierauf
       <lb break="yes"/>übergibt überträgt der Praesident des Volkshauses die Gewalt
       <lb break="yes"/>
-               <lb break="yes"/>von dem scheidenden auf den neuen Staatsrat. Der Prae
+      <lb break="yes"/>von dem scheidenden auf den neuen Staatsrat. Der Prae
 <lb break="no"/>sident des Staatsrates übernimmt den Vorsitz
       <lb break="yes"/>und schreitet an die Konstituierung der Staats
-<lb break="no"/>ratskommissionen. § 43 </p>
-            <p>Jede Commission zählt drei Mitglieder und zwei Beisitzer. Kein
+<lb break="no"/>ratskommissionen. § 43 </p><p>Jede Commission zählt drei Mitglieder und zwei Beisitzer. Kein
       <lb break="yes"/>Mitglied des Staatsrats darf mehr als drei Kommissionen
       <lb break="yes"/>angehören. Jede für ans[?] jede Commission bestellt
       <lb break="yes"/>
-               <lb break="yes"/>der Praesident einen Kom Mitglied zum Kommissions
+      <lb break="yes"/>der Praesident einen Kom Mitglied zum Kommissions
 <lb break="no"/>leiter. und eine folgende Commissionen sind
       <lb break="yes"/>müssen ständig ausgerichtet sein:
       <lb break="yes"/>1. Die Verfassungskommission
       <lb break="yes"/>2. Die auswärtige Kommission
       <lb break="yes"/>3. Die Heereskommission
-      <lb break="yes"/>4. Die Kommission für innere Verwaltung</p>
-            <p>5. Die Justizkommission
+      <lb break="yes"/>4. Die Kommission für innere Verwaltung</p><p>5. Die Justizkommission
       <lb break="yes"/>6. Die Unterrichtskommission
       <lb break="yes"/>7. Die Finanzkommission
       <lb break="yes"/>8. Die Hauptkommission für Volks
@@ -1114,8 +897,7 @@
       <lb break="yes"/>den Unterkommissionen für Ackerbau,
       <lb break="yes"/>für Gewerbe  u Industrie und Handel
       <lb break="yes"/>für Verkehrswesen, für soziale Ver
-<lb break="no"/>waltung und für Volksernährung.</p>
-            <p>Außerdem können nach Bedarf fallweise
+<lb break="no"/>waltung und für Volksernährung.</p><p>Außerdem können nach Bedarf fallweise
       <lb break="yes"/>oder ständig besondere Kommissionen eingerichtet
       <lb break="yes"/>Der Praesident des Staatsrats bildet außer
 <lb break="no"/>werden.
@@ -1134,8 +916,7 @@
       <lb break="yes"/>über ihm Wahrnehmungen im Staatsrat zu berichten
       <lb break="yes"/>die zur Reform führender Vors Vorlagen auszuarbeiten
       <lb break="yes"/>und die zur Besetzung der Staatssekretariate dien
-      <lb break="yes"/>diensamen Vorschläge zu erstatten.</p>
-            <p>§ 45
+      <lb break="yes"/>diensamen Vorschläge zu erstatten.</p><p>§ 45
       <lb break="yes"/>Der Staatsrat erläßt auf Grund des Berichtes und der
       <lb break="yes"/>Anträge des Staatskanzlers und der mit dem Berichten
       <lb break="yes"/>der Sache[?]
@@ -1147,8 +928,7 @@
       <lb break="yes"/>Beschlüsse der Nationalversammlung an die
       <lb break="yes"/>Staatsbürger zu richten sind.
       <lb break="yes"/>§ 46.
-      <lb break="yes"/>[Kurzschrift]</p>
-            <p>Die unmittelbare Dienstgewalt über die Regierung
+      <lb break="yes"/>[Kurzschrift]</p><p>Die unmittelbare Dienstgewalt über die Regierung
       <lb break="yes"/>übt der Staatsrat einging aus allein durch die Person
       <lb break="yes"/>seines Praesidenten. Dieser vollzieht die Ernennung
       <lb break="yes"/>des Staatskanzlers und der Staatssekretäre. Weder
@@ -1157,15 +937,13 @@
       <lb break="yes"/>der Verwaltung.
       <lb break="yes"/>Der Staatsrat erläßt diejenige Anwei
 <lb break="no"/>sungen, die er zur Durchführung der Gesetze
-      <lb break="yes"/>durch an Behörde und Ämter zr[?] erforderlich hält, schrift-</p>
-            <p>lich an den Staatskanzler. Diese Anweisun
+      <lb break="yes"/>durch an Behörde und Ämter zr[?] erforderlich hält, schrift-</p><p>lich an den Staatskanzler. Diese Anweisun
 <lb break="no"/>gen sind vom Praesidenten des Staatsrats
       <lb break="yes"/>und vom Leiter der an ihrer Verberatung be
 <lb break="no"/>teiligte Commission zu fertigen. Staats
 <lb break="no"/>kanzler, Staatssekretäre und alle ihnen
       <lb break="yes"/>nachgeordneten Stellen sind an diese An
-<lb break="no"/>weisungen gebunden.<pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>§ 47. 23</p>
-            <p>Der Staatsrat und seine Kommissionen sind ständig
+<lb break="no"/>weisungen gebunden.<pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>§ 47. 23</p><p>Der Staatsrat und seine Kommissionen sind ständig
       <lb break="yes"/>im Amt, auch in der Zeit, wo die Nationalversammlung
       <lb break="yes"/>nicht tagt. Seine Anträge u Vollmachten er
 <lb break="no"/>löschen erst, nachdem der neu gewä eingesetzte
@@ -1179,25 +957,24 @@
       <lb break="yes"/>Die Verwaltung im Besonderen
       <lb break="yes"/>§ 34 35
       <lb break="yes"/>
-               <lb break="yes"/>§ 48
+      <lb break="yes"/>§ 48
       <lb break="yes"/>
-               <lb break="yes"/>Auf Grund der Gesetze und der Anweisungen des
+      <lb break="yes"/>Auf Grund der Gesetze und der Anweisungen des
       <lb break="yes"/>
-               <lb break="yes"/>StR
+      <lb break="yes"/>StR
       <lb break="yes"/>Vollzugsausschusses führen die Behörden und Ämter die Ver
 <lb break="no"/>waltung des Freistaats. Die Regierung und die ihr nachgeordneten
       <lb break="yes"/>Für die Gesetzlichkeit. § 36 35 § 49.
       <lb break="yes"/>
-               <lb break="yes"/>An der Spitze der Verwaltung Regierung steht der Staatskanzler.
+      <lb break="yes"/>An der Spitze der Verwaltung Regierung steht der Staatskanzler.
       <lb break="yes"/>Er ist der oberste Chef aller Behörden und Ämter, der
       <lb break="yes"/>
-               <lb break="yes"/>höchste Vorgesetzte aller Beamten und B öffentlichen Staatsbedien- Bedien
+      <lb break="yes"/>höchste Vorgesetzte aller Beamten und B öffentlichen Staatsbedien- Bedien
 <lb break="no"/>steten mit alleiniger Ausnahme der Richter) und sowie der
       <lb break="yes"/>
-               <lb break="yes"/>Offiziere u. Soldaten der bewaffneten Macht.
+      <lb break="yes"/>Offiziere u. Soldaten der bewaffneten Macht.
       <lb break="yes"/>§ 36. 37 36 
-      <lb break="yes"/>§ 50</p>
-            <p>Der Staatskanzler ist vor allem für die Gesetzlich
+      <lb break="yes"/>§ 50</p><p>Der Staatskanzler ist vor allem für die Gesetzlich
 <lb break="no"/>keit, Einheitlichkeit und Stetigkeit der Verwaltung
       <lb break="yes"/>verantwortlich. Alle nachgeordneten Behörden und
       <lb break="yes"/>Ämter, Beamten und Diener des Staates schulden seinen
@@ -1207,13 +984,11 @@
       <lb break="yes"/>selbst richten, zu erlassen ist er der Kanzler nicht befugt,
       <lb break="yes"/>solche
       <lb break="yes"/>
-               <lb break="yes"/>Verordnungen u  Verfügungen sind nichtig andernfalls nichtig.
+      <lb break="yes"/>Verordnungen u  Verfügungen sind nichtig andernfalls nichtig.
       <lb break="yes"/>(gehen vom Staatsrate aus und)
       <lb break="yes"/>§ 57
       <lb break="yes"/>38. 37.
-      <lb break="yes"/>
-            </p>
-            <p>Die zentrale Staatsverwaltung besorgen führen die nach
+      <lb break="yes"/></p><p>Die zentrale Staatsverwaltung besorgen führen die nach
 <lb break="no"/>stehenden Ämter Behörden.
       <lb break="yes"/>1. Das Staatskanzleramt, dem die allgemeine Übersicht über
       <lb break="yes"/>die genannten alle Verwaltungsgeschäfte, die Geschäftsverteilung, die Leitung zwei
@@ -1221,7 +996,7 @@
       <lb break="yes"/>des Geschäftsgangs und o, die Austragung von Fällen zweifelhafter
       <lb break="yes"/>Zuständigkeit, das Zusammenwirken in Geschäften, an denen zwei
       <lb break="yes"/>
-               <lb break="yes"/>oder mehrere Ämter Behörden beteiligt sind, die Aufsicht über die
+      <lb break="yes"/>oder mehrere Ämter Behörden beteiligt sind, die Aufsicht über die
       <lb break="yes"/>Geschäftsführung und die Beschleunigung des Geschäftsganges
       <lb break="yes"/>obli obliegt. obliegen.<pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>23
       <lb break="yes"/>2. Das Staats auswärtige Amt
@@ -1244,8 +1019,7 @@
       <lb break="yes"/>7. 8. Das Staatsverkehrsamt, dem
       <lb break="yes"/>a) das Staatseisenbahnamt
       <lb break="yes"/>b) das Staatsamt für Fuß u Seeschiffahrt und
-      <lb break="yes"/>c) das Staatspostamt (Post, Telegraphie, Telephon)</p>
-            <p>eingegliedert sind.
+      <lb break="yes"/>c) das Staatspostamt (Post, Telegraphie, Telephon)</p><p>eingegliedert sind.
       <lb break="yes"/>8. 9. Das Staatsschatzamt, dem
       <lb break="yes"/>a) das Staatsamt für direkte Besteuerung
       <lb break="yes"/>b) a) das Staatsamt für Verkehrs- und Verbrauchsabgaben
@@ -1255,8 +1029,7 @@
       <lb break="yes"/>eingegliedert sein.
       <lb break="yes"/>§ 52
       <lb break="yes"/>§ 38 § 48
-      <lb break="yes"/>§ 39</p>
-            <p>Ander Geitze der erwähnten acht des Staatskanzleramts
+      <lb break="yes"/>§ 39</p><p>Ander Geitze der erwähnten acht des Staatskanzleramts
       <lb break="yes"/>steht der Staatskanzler, an der Spitze jedes der unter
       <lb break="yes"/>2 bis 9 genannte Staatsämter ein Staatssekretär, an
       <lb break="yes"/>der Spitze der unter 6,7 und 8 angeführten angegliederten
@@ -1270,39 +1043,37 @@
       <lb break="yes"/>§ 49 § 53
       <lb break="yes"/>§ 39 § 40
       <lb break="yes"/>
-               <lb break="yes"/>Der Kanzlerrat steht durch die Person des Staatskanzlers
+      <lb break="yes"/>Der Kanzlerrat steht durch die Person des Staatskanzlers
       <lb break="yes"/>in unmittelbaren Verkehr mit dem Praesidenten des Vollzugs
 <lb break="no"/> ausschusses StR. Außerdem hat jeder Staatssekretär das Recht
       <lb break="yes"/>
-               <lb break="yes"/>Unterstaatssekretär</p>
-            <p>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <lb break="yes"/>
-               <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>14
+      <lb break="yes"/>Unterstaatssekretär</p><p>
       <lb break="yes"/>
-               <lb break="yes"/>und die Pflicht, allein oder mit dem Kanzler in der seinen Verwaltungszweig berührenden
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/>
+      <lb break="yes"/><pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>14
+      <lb break="yes"/>
+      <lb break="yes"/>und die Pflicht, allein oder mit dem Kanzler in der seinen Verwaltungszweig berührenden
       <lb break="yes"/>Kommission des Vollzugsauschusses StR zu erscheinen.
       <lb break="yes"/>Auf Verlangen Weisung des Praesidentes des Vollzugsaus
 <lb break="no"/>
-               <lb break="yes"/>
-               <lb break="yes"/>schusses oder auf Beschluß des Senates Volkshauses oder Senates
+      <lb break="yes"/>
+      <lb break="yes"/>schusses oder auf Beschluß des Senates Volkshauses oder Senates
       <lb break="yes"/>haben die Mitglieder des Kanzlerrates in den beiden
       <lb break="yes"/>ges Körpern der Nationalversammlung zu erscheinen
       <lb break="yes"/>wie
@@ -1312,16 +1083,14 @@
       <lb break="yes"/>des Vollzugsausschusses StR Gesetzesvorlagen
       <lb break="yes"/>auszuarbeiten, und ihm zu unterbreiten. Lehnt
       <lb break="yes"/>
-               <lb break="yes"/>dieser die Vorlage Einbringung an die Nationalversammlung
+      <lb break="yes"/>dieser die Vorlage Einbringung an die Nationalversammlung
       <lb break="yes"/>
-               <lb break="yes"/>ab, so kann der Kanzlerrat gegen diese
+      <lb break="yes"/>ab, so kann der Kanzlerrat gegen diese
       <lb break="yes"/>Ablehnung unter Anschluß des Entwurfes
       <lb break="yes"/>eine motivierte Vorstellung an die National
 <lb break="no"/>versammlung richten. Über diese Vorstellung
       <lb break="yes"/>muß binnen drei zwei Monaten eine ein Beschluß
-      <lb break="yes"/>der Nationalversammlung eingeholt werden.</p>
-            <p>§ 41 39 40 § 50 54</p>
-            <p>Die Mittelsteller der Staatsverwaltung ist,
+      <lb break="yes"/>der Nationalversammlung eingeholt werden.</p><p>§ 41 39 40 § 50 54</p><p>Die Mittelsteller der Staatsverwaltung ist,
       <lb break="yes"/>die Landesregierung. In jeder Provinz wird
       <lb break="yes"/>mit dem Sitze in der Landeshauptstadt eine Landes
 <lb break="no"/>regierung errichtet, welche unter einem die bisher
@@ -1332,8 +1101,7 @@
       <lb break="yes"/>Bis zur Be Erlassung eines eigenen
       <lb break="yes"/>(und autonome)
       <lb break="yes"/>Kompetenzgesetzes bleibt die bisherige Kom
-<lb break="no"/>petenzverteilung aufrecht.</p>
-            <p>unter 
+<lb break="no"/>petenzverteilung aufrecht.</p><p>unter 
       <lb break="yes"/>einem
       <lb break="yes"/>mitbringen[?]<pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/>15
       <lb break="yes"/>§
@@ -1352,7 +1120,7 @@
       <lb break="yes"/>In diesen Angelegenheiten ist der Landesausschuß
       <lb break="yes"/>dem Landtag verantwortlich.
       <lb break="yes"/>
-               <lb break="yes"/>§ 52[?] 56 §43 § 42
+      <lb break="yes"/>§ 52[?] 56 §43 § 42
       <lb break="yes"/>Der Landeshauptmann und seine beiden Stell
 <lb break="no"/>vertreter bilden zusammen die Landesregie
 <lb break="no"/>rung. Sie führt Kolle Körperschaftlich
@@ -1368,14 +1136,12 @@
       <lb break="yes"/>ist
       <lb break="yes"/>und ausschließt
       <lb break="yes"/>§ 53 57
-      <lb break="yes"/>§ 43 44.</p>
-            <p>Erledigt[?]
+      <lb break="yes"/>§ 43 44.</p><p>Erledigt[?]
       <lb break="yes"/>allgemeinen Staatsgesetzen, nachdem
       <lb break="yes"/>d[?] Durchführungs
 <lb break="no"/>verordnungen[?] des 
       <lb break="yes"/>Staatsrats und
-      <lb break="yes"/>nach den</p>
-            <p>Durch besondere Dienstauweisungen können
+      <lb break="yes"/>nach den</p><p>Durch besondere Dienstauweisungen können
       <lb break="yes"/>von den in § 43 § 52 berührten Angelegenheiten allge
 <lb break="no"/>mein oder fallweise einzelne wie die Angelegen
 <lb break="no"/>heiten der Staatspolizei, dem Landeshaupt
@@ -1385,8 +1151,7 @@
       <lb break="yes"/>Am Vororte des Kreises, und am Sitze des Kreis
 <lb break="no"/>tages werden Kreisregierungen errichtet.
       <lb break="yes"/>als oberste und zusammenfassende Lokalverwaltungstellen
-      <lb break="yes"/>Der Kreistag bestellt aus seiner Mitte</p>
-            <p>und der Kreis- und
+      <lb break="yes"/>Der Kreistag bestellt aus seiner Mitte</p><p>und der Kreis- und
       <lb break="yes"/>und Landes
 <lb break="no"/>gerichte<pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>16
       <lb break="yes"/>einen Kreisausschuß von 17 sieben Mitgliedern,
@@ -1406,9 +1171,7 @@
       <lb break="yes"/>In diesen Funktionen ist der Kreisaus
 <lb break="no"/>schuß dem Kreistage verantwortlich.
       <lb break="yes"/>§ 46 45 §59 55
-      <lb break="yes"/>
-            </p>
-            <p>Der Kreishauptmann und seine Stellvertreter
+      <lb break="yes"/></p><p>Der Kreishauptmann und seine Stellvertreter
       <lb break="yes"/>bilden die Kreisregierung. Auf sie geht
       <lb break="yes"/>die gesamte Kompetenz über, die durch
       <lb break="yes"/>das erwähnte Gesetz vom 19. Mai 1868, §§
@@ -1417,8 +1180,7 @@
       <lb break="yes"/>führt diese Geschäfte nach den allgemeinen
       <lb break="yes"/>Staatsgesetzen, nach den Durchführungs
 <lb break="no"/>verordnungen des Staatsrates und sowie
-      <lb break="yes"/>nach den Weisungen der übergeordneten</p>
-            <p>Behörden, darin nur diesen und nicht
+      <lb break="yes"/>nach den Weisungen der übergeordneten</p><p>Behörden, darin nur diesen und nicht
       <lb break="yes"/>dem Kreistage verantwortlich.
       <lb break="yes"/>Durch besondere Dienstanweisungen
       <lb break="yes"/>können von diesen Angelegenheiten einzelne
@@ -1441,11 +1203,10 @@
       <lb break="yes"/>Geschäfte einfacher oder dringlicher Art im
       <lb break="yes"/>Namen des Kreishauptmanns. [Fühlt sich
       <lb break="yes"/>
-               <lb break="yes"/>eine Partei gegen durch eine Verfügung oder Entschei
+      <lb break="yes"/>eine Partei gegen durch eine Verfügung oder Entschei
 <lb break="no"/>dung des Amtmanns beschwert, so steht ihr
       <lb break="yes"/>das Recht unmittelbarer persönlicher, mündlicher
-      <lb break="yes"/>telephonischer oder drahtlicher oder schriftlicher</p>
-            <p>Vorstellung an den Amtschef zu. Erfolgt
+      <lb break="yes"/>telephonischer oder drahtlicher oder schriftlicher</p><p>Vorstellung an den Amtschef zu. Erfolgt
       <lb break="yes"/>keine Vorstellung oder wird diese abgewiesen, so geht
       <lb break="yes"/>gilt die Verfügung oder Entscheidung als vom
       <lb break="yes"/>Kreisamt erflossen[?].
@@ -1457,8 +1218,7 @@
       <lb break="yes"/>Der Rechtszug geht, einerlei ob im eigenen oder
       <lb break="yes"/>übertragenen Wirkungskreise, von der Gemeinde
       <lb break="yes"/>einheitlich im Wege des Bezirksamts an die
-      <lb break="yes"/>Kreisregierung.</p>
-            <p>Das ob erwähnte Kompetenzgesetz wird
+      <lb break="yes"/>Kreisregierung.</p><p>Das ob erwähnte Kompetenzgesetz wird
       <lb break="yes"/>feststellen, in welchen Angelegenheiten der Rechts
 <lb break="no"/>zug bei der Kreis- oder bei der Landesregierung
       <lb break="yes"/>abschließt und in welchen er bis zur zu zum den
@@ -1470,8 +1230,7 @@
       <lb break="yes"/>und in dessen Rahmen Anordnungen der Kreistage die Einrichtungen[?]
       <lb break="yes"/>der Gemeinden im Einzelnen regeln ordnen.<pb facs="#facs_30" n="30" xml:id="img_0030" break="yes"/>§ 58
       <lb break="yes"/>§ 62
-      <lb break="yes"/>§ 47 zwei[?]</p>
-            <p>Der öffentliche
+      <lb break="yes"/>§ 47 zwei[?]</p><p>Der öffentliche
       <lb break="yes"/>Dienst
       <lb break="yes"/>staats- und
       <lb break="yes"/>Die deutschen, innerhalb des deutschen Siedlungs-
@@ -1479,17 +1238,15 @@
       <lb break="yes"/>im Reichsrat vertreten
       <lb break="yes"/>Königreiche
       <lb break="yes"/>
-               <lb break="yes"/>und Länder angestellten und tätigen Beamte und Diener
+      <lb break="yes"/>und Länder angestellten und tätigen Beamte und Diener
       <lb break="yes"/>werden in den öffentlichen Dienst des Frei
 <lb break="no"/>staates übernommen, hören jedoch auf, einen
       <lb break="yes"/>Gesamtstatus Inbilden. Nur Die In den
       <lb break="yes"/>
-               <lb break="yes"/>Zentralämtern tätigen Bediensteten werden
+      <lb break="yes"/>Zentralämtern tätigen Bediensteten werden
       <lb break="yes"/>Staatsdiener, die in den Ländern Bedien
-<lb break="no"/>stet Staatsbedienstete, in der Ländern</p>
-            <p>Je nach der
-      <lb break="yes"/>Dienststufe</p>
-            <p>tätige Landes- oder Kreisbedienstete.
+<lb break="no"/>stet Staatsbedienstete, in der Ländern</p><p>Je nach der
+      <lb break="yes"/>Dienststufe</p><p>tätige Landes- oder Kreisbedienstete.
       <lb break="yes"/>Die Besoldung erfolgt demnach [durch
       <lb break="yes"/>den Staat, das Land oder den Kreis,
       <lb break="yes"/>sobald die finanzielle Auseinander
@@ -1498,7 +1255,7 @@
       <lb break="yes"/>Öffentliche Beamte müssen auf allen drei Diensststufen verwendet worden sein, bevor sie
       <lb break="yes"/>in selbständige Stellungen aufrücken können. Durch die Neuregelung dürfen das die
       <lb break="yes"/>
-               <lb break="yes"/>bestehenden Rechtsverhältnisse und Bezüge
+      <lb break="yes"/>bestehenden Rechtsverhältnisse und Bezüge
       <lb break="yes"/>der Beamten nicht verschlechtert werden.
       <lb break="yes"/>in Hinkunft.<pb facs="#facs_31" n="31" xml:id="img_0031" break="yes"/>18
       <lb break="yes"/>Dritter
@@ -1514,8 +1271,7 @@
       <lb break="yes"/>des Volkes und Gesetzes gefertigt. Die Einrichtung und
       <lb break="yes"/>Zuständigkeit der Gerichte wird durch Gesetze
       <lb break="yes"/>festgestellt und kann nur durch die gesetzgebende
-      <lb break="yes"/>Gewalt abgeändert werden.</p>
-            <p>49 §60 64
+      <lb break="yes"/>Gewalt abgeändert werden.</p><p>49 §60 64
       <lb break="yes"/>§ 51.
       <lb break="yes"/>zwey Teile
       <lb break="yes"/>Die Richter werden entweder aus dem Volke auf
@@ -1526,22 +1282,22 @@
       <lb break="yes"/>§ 52 §50 §65
       <lb break="yes"/>In den Strafrechtspflege haben bei Verbrechen, mit die mit der Strafe
       <lb break="yes"/>
-               <lb break="yes"/>des Todes oder mit Freiheitsstrafen von einem
+      <lb break="yes"/>des Todes oder mit Freiheitsstrafen von einem
       <lb break="yes"/>Jahre und mehr bedroht sind, sowie bei allen
       <lb break="yes"/>politischen[?] und durch Druckschriften verübten
       <lb break="yes"/>
-               <lb break="yes"/>Verbrechen und Vergehen haben allein aus dem
+      <lb break="yes"/>Verbrechen und Vergehen haben allein aus dem
       <lb break="yes"/>Volke bestellte Geschworene über die Schuld
 <lb break="no"/>frage zu entscheiden, bei allen Vergehen ernann
 <lb break="no"/>te Berufsrichter nicht ohne aus dem Volke
       <lb break="yes"/>
-               <lb break="yes"/>bestellte Schöffen.
+      <lb break="yes"/>bestellte Schöffen.
       <lb break="yes"/>In der Zivilrechtspflege sind bei der Urteils
 <lb break="no"/>fällung in allen Streitfragen Streitsachen von
       <lb break="yes"/>fachlicher und technischer Eigenart oder von be
 <lb break="no"/>trächtlichem Werte des Streitgegenstandes
       <lb break="yes"/>
-               <lb break="yes"/>Laienrichter mit von fachlichem u technischem
+      <lb break="yes"/>Laienrichter mit von fachlichem u technischem
       <lb break="yes"/>Wissen oder mit hoher Geschäftserfahrung
       <lb break="yes"/>beizuziehen oder berufliche Schiedsgerichte
       <lb break="yes"/>vorzusehen.
@@ -1549,7 +1305,7 @@
       <lb break="yes"/>§ 67
       <lb break="yes"/>§ 60 62
       <lb break="yes"/>
-               <lb break="yes"/>Die Bestellung der Geschworenen und Schöff
+      <lb break="yes"/>Die Bestellung der Geschworenen und Schöff
       <lb break="yes"/>und Schöffen
       <lb break="yes"/>wird, durch ein besonderes Gesetz neugeregelt werden,
       <lb break="yes"/>ohne Verzug<pb facs="#facs_32" n="32" xml:id="img_0032" break="yes"/>19
@@ -1565,8 +1321,7 @@
       <lb break="yes"/>von denen drei durch das Volkshaus
       <lb break="yes"/>vier,
       <lb break="yes"/>und drei durch den Senat berufen werden.
-      <lb break="yes"/>Die Berichterstattung über die Ernennungen</p>
-            <p>der Richter, jedoch steht ohne Stimmrecht, steht dem Staats
+      <lb break="yes"/>Die Berichterstattung über die Ernennungen</p><p>der Richter, jedoch steht ohne Stimmrecht, steht dem Staats
 <lb break="no"/>sekretär des Justizamts zu. Die Ernennung
       <lb break="yes"/>wird vom Vorsitzenden der des Justizkommision
       <lb break="yes"/>kollegium
@@ -1600,8 +1355,7 @@
       <lb break="yes"/>die Verfassung zu beeiden
       <lb break="yes"/>und geloen dem Freistaat
       <lb break="yes"/>Deutschösterreich Treue
-      <lb break="yes"/>und Gehorsam.</p>
-            <p>Vierter Abschnitt
+      <lb break="yes"/>und Gehorsam.</p><p>Vierter Abschnitt
       <lb break="yes"/>Von der richterlichen[?] Gewalt
       <lb break="yes"/>w
       <lb break="yes"/>!
@@ -1621,13 +1375,12 @@
       <lb break="yes"/>Lebensverhältnis.
       <lb break="yes"/>Das stehende Heer ist abgeschafft, die
       <lb break="yes"/>
-               <lb break="yes"/>Kazernierung bereits nach Wehrgesetz ausgebildeter Mann
+      <lb break="yes"/>Kazernierung bereits nach Wehrgesetz ausgebildeter Mann
 <lb break="no"/>schaften ist untersagt.
       <lb break="yes"/>Die wehrfähige Mannschaft wird ganz
       <lb break="yes"/>oder teilweise durch Staatsratsbeschluß
       <lb break="yes"/>aufgeboten, die Aufgebote stehen unter
-      <lb break="yes"/>der dem Befehl des Oberbefehlshabers.</p>
-            <p>§ 68 72 
+      <lb break="yes"/>der dem Befehl des Oberbefehlshabers.</p><p>§ 68 72 
       <lb break="yes"/>§ 56 
       <lb break="yes"/>§ 57
       <lb break="yes"/>Der Oberbefehlshaber wird vom Heeres
@@ -1666,14 +1419,13 @@
       <lb break="yes"/>Ausserdem besteht in jedem Lande ein Landesschützenkorps
       <lb break="yes"/>dessen Einrichtung durch ein Staatsgesetz geregelt wird. In allen
       <lb break="yes"/>Orten von tausend und mehr Einwohnern muss eine Landesschützen
-<lb break="no"/>kompagnie mindestens bestehen.</p>
-            <p>§ 73 77
+<lb break="no"/>kompagnie mindestens bestehen.</p><p>§ 73 77
       <lb break="yes"/>§ 19.
       <lb break="yes"/>jetzt 58[?] 61
       <lb break="yes"/>Die bewaffnete Macht
       <lb break="yes"/>Zur Unterdrückung innerer Unruhen und zur Erzwin
 <lb break="no"/>
-               <lb break="yes"/>gung  der Befolgung der von Gesetzen und der behördlichen Ver
+      <lb break="yes"/>gung  der Befolgung der von Gesetzen und der behördlichen Ver
 <lb break="no"/>fügungen, kann können die bewaffnete Macht nur mit Zustimmung des Voll
 <lb break="no"/>zugsausschusses, die Landesschützenkorps nur mit Zustimmung des
       <lb break="yes"/>Landesausschusses und bloss in dem vom Gesetze bestimmten Fällen
@@ -1695,8 +1447,7 @@
       <lb break="yes"/>in den Generalstab.
       <lb break="yes"/>Der Oberbefehlshaber und der Chef
       <lb break="yes"/>das Generalstabs sind der National
-<lb break="no"/>versammlung verantwortlich.</p>
-            <p>§ 59 58 früher 16 § 70 74
+<lb break="no"/>versammlung verantwortlich.</p><p>§ 59 58 früher 16 § 70 74
       <lb break="yes"/>§60 50 [?] früher 17 § 75 74
       <lb break="yes"/>60 [?] früher 18 72 76
       <lb break="yes"/>62 68 früher 19 73 77
@@ -1704,16 +1455,14 @@
       <lb break="yes"/>IV Abschnitt fünfter Titel!
       <lb break="yes"/>Vom Staatshaushalt und den
       <lb break="yes"/>Staatsschulden
-      <lb break="yes"/>§ 69. § 75 74</p>
-            <p>§ .. 78 74
+      <lb break="yes"/>§ 69. § 75 74</p><p>§ .. 78 74
       <lb break="yes"/>Das Haushaltsjahr des
       <lb break="yes"/>Freistaates beginnt am
       <lb break="yes"/>ersten Juli jeden
       <lb break="yes"/>Jahres und endet
       <lb break="yes"/>am auf den letzten Juni
       <lb break="yes"/>des darauffolgen
-<lb break="no"/>den Jahres.</p>
-            <p>Alle Steuern und Abgaben werden durch Staatsgesetz
+<lb break="no"/>den Jahres.</p><p>Alle Steuern und Abgaben werden durch Staatsgesetz
       <lb break="yes"/>geregelt. Staatsgesetze bestimmen die Quellen und die
       <lb break="yes"/>Arten der Steuern, die u Abgaben, die durch zur den
       <lb break="yes"/>Haushalt der Länder u Gemeinden die Kreise
@@ -1736,19 +1485,17 @@
       <lb break="yes"/>von der Nationalversammlung angesprochen
       <lb break="yes"/>werden. Das StaatsHaushaltgesetz ist der
       <lb break="yes"/>staatliche Geberung[?] im Verwaltungsjahre
-      <lb break="yes"/>zu Grunde zu legen.</p>
-            <p>§77 81
+      <lb break="yes"/>zu Grunde zu legen.</p><p>§77 81
       <lb break="yes"/>§ 65
       <lb break="yes"/>
-               <lb break="yes"/>Der Staatskanzler sekretär des Schatzamts ist dafür vera hat längstens
+      <lb break="yes"/>Der Staatskanzler sekretär des Schatzamts ist dafür vera hat längstens
       <lb break="yes"/>drei Monate nach Schluß des Verwaltungsjahres
       <lb break="yes"/>den Staatsrechnungsabschluß samt den nötigen Unterlagen dem Rechnungs
 <lb break="no"/>
-               <lb break="yes"/>hofe vorzulegen. Der Rechnungshof ist ein
+      <lb break="yes"/>hofe vorzulegen. Der Rechnungshof ist ein
       <lb break="yes"/>Helfsamt des Staatsrats. Nach Einsicht
 <lb break="no"/>nahme legt der Staatsrat den Staatsrech
-<lb break="no"/>nungs der Nationalversammlung, der</p>
-            <p>Praesident des Rechnungshofes ihr verant
+<lb break="no"/>nungs der Nationalversammlung, der</p><p>Praesident des Rechnungshofes ihr verant
 <lb break="no"/>wortlich. Er hat den überprüften Staatsrech
 <lb break="no"/>ningsabschluß am ersten Wochentage des Dezember
       <lb break="yes"/>einzubringen (§ 26[?])
@@ -1758,8 +1505,7 @@
       <lb break="yes"/>Finanzkomission und unter Gegenzeichung des Staats
 <lb break="no"/>sekretärs des Schatzamtes ausgefertigt.<pb facs="#facs_37" n="37" xml:id="img_0037" break="yes"/>23.
       <lb break="yes"/>§ 64
-      <lb break="yes"/>§78 72.</p>
-            <p>Die Aufnahme von Anleihen, die Konvertierung
+      <lb break="yes"/>§78 72.</p><p>Die Aufnahme von Anleihen, die Konvertierung
       <lb break="yes"/>bestehender Staatsschulden, die Veräußerung,
       <lb break="yes"/>Umwandlung u Belastung des Staatsvermögens
       <lb break="yes"/>können nur im Wege des Gesetzes erfolgen.
@@ -1774,8 +1520,6 @@
 <lb break="no"/>recht. Das Staatsschulden[?]direktorium 
       <lb break="yes"/>ist ein Hilfsamt der Nationalver
 <lb break="no"/>sammlung. Ihre Seine Gebarung wird
-      <lb break="yes"/>durch ein besonderes Gesetz geregelt.</p>
-         </div>
-      </body>
-   </text>
+      <lb break="yes"/>durch ein besonderes Gesetz geregelt.</p></div></body>
+    </text>
 </TEI>

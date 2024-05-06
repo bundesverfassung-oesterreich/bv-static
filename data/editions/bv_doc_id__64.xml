@@ -1,154 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__64">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">VfÜG Sonderdruck</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">VfÜG Sonderdruck</title>
+                <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                <principal>
+                    <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
+                </principal>
+                <funder>
+                    <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                     </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                     </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
                         Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                </publisher>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
                         Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
                             applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529236</idno>
-            <idno type="transkribus_collection">195363</idno>
-            <idno type="bv_data_set">Datenset A</idno>
-            <idno type="goobi">14620</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                  <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Konstituierende Nationalversammlung</author>
-                     <title>VfÜG Sonderdruck</title>
-                     <note type="editor">VfÜG (Titel des Dokuments: "Verfassungsgesetz vom 1. Oktober 1920, Betreffend den Übergang zur bundesstaatlichen Verfassung"), Typ: Druck, Zustand: gut, keine Anmerkungen, Originalunterschriften der Bundesregierung, 43 Paragraphen</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Druck">
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+                <idno type="transkribus_doc">1529236</idno>
+                <idno type="transkribus_collection">195363</idno>
+                <idno type="bv_data_set">Datenset A</idno>
+                <idno type="goobi">14620</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="invetory">
+                    <msIdentifier>
+                        <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
+                        <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
+                        <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author role="acdh:hasAuthor">Konstituierende Nationalversammlung</author>
+                            <title>VfÜG Sonderdruck</title>
+                            <note type="editor">VfÜG (Titel des Dokuments: "Verfassungsgesetz vom 1. Oktober 1920, Betreffend den Übergang zur bundesstaatlichen Verfassung"), Typ: Druck, Zustand: gut, keine Anmerkungen, Originalunterschriften der Bundesregierung, 43 Paragraphen</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Druck">
                         </objectDesc>
-                  <handDesc>
+                        <handDesc>
                         </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1920-10-01" notAfter-iso="1920-10-01">1. Oktober 1920</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1920-10-01" notAfter-iso="1920-10-01">
+                    </physDesc>
+                    <history>
+                        <origin notBefore-iso="1920-10-01" notAfter-iso="1920-10-01">1. Oktober 1920</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation>
+                <date notBefore-iso="1920-10-01" notAfter-iso="1920-10-01">
                     1. Oktober 1920
                 </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-05-01" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="3241" lry="5213" xml:id="facs_2">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0034/full/full/0/default.jpg"
-                  width="3241px"
-                  height="5213px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3233" lry="5213" xml:id="facs_3">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0035/full/full/0/default.jpg"
-                  width="3233px"
-                  height="5213px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3252" lry="5283" xml:id="facs_4">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0036/full/full/0/default.jpg"
-                  width="3252px"
-                  height="5283px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3257" lry="5265" xml:id="facs_5">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0037/full/full/0/default.jpg"
-                  width="3257px"
-                  height="5265px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3274" lry="5276" xml:id="facs_6">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0038/full/full/0/default.jpg"
-                  width="3274px"
-                  height="5276px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3245" lry="5211" xml:id="facs_7">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0039/full/full/0/default.jpg"
-                  width="3245px"
-                  height="5211px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3243" lry="5194" xml:id="facs_8">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0040/full/full/0/default.jpg"
-                  width="3243px"
-                  height="5194px"/>
-      </surface>
-   </facsimile>
-   <text type="Verfassungstext">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>
-               <lb break="yes"/>
-               <lb break="yes"/>102/99-St.K.-1920
+            </creation>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when="2024-05-05" who="#cfh">document automatically created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0"><surface ulx="0" uly="0" lrx="3241" lry="5213" xml:id="facs_2"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0034/full/full/0/default.jpg" width="3241px" height="5213px"/></surface><surface ulx="0" uly="0" lrx="3233" lry="5213" xml:id="facs_3"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0035/full/full/0/default.jpg" width="3233px" height="5213px"/></surface><surface ulx="0" uly="0" lrx="3252" lry="5283" xml:id="facs_4"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0036/full/full/0/default.jpg" width="3252px" height="5283px"/></surface><surface ulx="0" uly="0" lrx="3257" lry="5265" xml:id="facs_5"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0037/full/full/0/default.jpg" width="3257px" height="5265px"/></surface><surface ulx="0" uly="0" lrx="3274" lry="5276" xml:id="facs_6"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0038/full/full/0/default.jpg" width="3274px" height="5276px"/></surface><surface ulx="0" uly="0" lrx="3245" lry="5211" xml:id="facs_7"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0039/full/full/0/default.jpg" width="3245px" height="5211px"/></surface><surface ulx="0" uly="0" lrx="3243" lry="5194" xml:id="facs_8"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__64/files/images/IMG_0040/full/full/0/default.jpg" width="3243px" height="5194px"/></surface></facsimile>
+    <text type="Verfassungstext">
+        <body><div type="main"><pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/><p>
       <lb break="yes"/>
-               <lb break="yes"/>
-            </p>
-            <p>1</p>
-            <p>Verfassungsgesetz vom 1. Oktober
+      <lb break="yes"/>102/99-St.K.-1920
+      <lb break="yes"/>
+      <lb break="yes"/></p><p>1</p><p>Verfassungsgesetz vom 1. Oktober
       <lb break="yes"/>1920, betreffend den Übergang zur
       <lb break="yes"/>bundesstaatlichen Verfassung.
       <lb break="yes"/>Die Nationalversammlung hat beichlossen:
@@ -196,8 +155,7 @@
       <lb break="yes"/>Gesetze; die Landesgesetzgebungen können sodann die
       <lb break="yes"/>Angelegenheit frei regeln, solange nicht der Bund
 <lb break="no"/>von dem ihm nach Artikel 12 zustehenden Gesetz
-<lb break="no"/>gebungsrecht Gebrauch macht.</p>
-            <p>§ 4
+<lb break="no"/>gebungsrecht Gebrauch macht.</p><p>§ 4
       <lb break="yes"/>(1) Die Landesgesete in den Angelegenheiten,
       <lb break="yes"/>die nach Artitel 15, Absatz 1, des Bundes
 <lb break="no"/>Verfassungsgesetzes ausschließlich in die Gesetzgebung
@@ -249,8 +207,7 @@
       <lb break="yes"/>Unterstaatssekretäre die Staatssekretäre, an die Stelle
       <lb break="yes"/>des Staatsrechnungshofes der Rechnungshof
       <lb break="yes"/>(2) Die nach dem Gesetz vom 24. Juli 1917,
-      <lb break="yes"/>R. G. Bl. Nr. 307, mit welchem die Regierung<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>2</p>
-            <p>ermächtigt wird, aus Anlaß der durch den Kriegs
+      <lb break="yes"/>R. G. Bl. Nr. 307, mit welchem die Regierung<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>2</p><p>ermächtigt wird, aus Anlaß der durch den Kriegs
 <lb break="no"/>zustand verursachten außerordentlichen Verhältnisse
       <lb break="yes"/>die notwendigen Verfügungen auf wirtschaftlichem
       <lb break="yes"/>Gebiete zu treffen, der Regierung zustehenden Be
@@ -302,8 +259,7 @@
       <lb break="yes"/>Körperschaften gehörenden oder von ihnen ver
 <lb break="no"/>walteten Vermögenschaften, einschließlich der Fonds
       <lb break="yes"/>und Anstalten, gehen in das Vermögen oder in
-      <lb break="yes"/>die Verwaltung der Länder im Sinne des Bundes¬</p>
-            <p>Verfassungsgesetzes über; hinsichtlich der von
+      <lb break="yes"/>die Verwaltung der Länder im Sinne des Bundes¬</p><p>Verfassungsgesetzes über; hinsichtlich der von
       <lb break="yes"/>den Ländern verwalteten Schulfonds verbleibt
       <lb break="yes"/>es jedoch bis zur Erlassung des Verfassungsgesetzes
       <lb break="yes"/>des Bundes über den Wirkungsbereich des Bundes
@@ -353,8 +309,7 @@
       <lb break="yes"/>wird durch Bundesgesetz geregelt; bezüglich der
       <lb break="yes"/>Personen, die auf Grund des Staatsvertrages von
       <lb break="yes"/>Saint=Germain durch Option oder auf Grund einer
-      <lb break="yes"/>bloßen Erklärung gemäß § 2 des Gesetzes vom<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p>
-            <p>5. Dezember 1918, St. G. Bl. Nr. 91, über das
+      <lb break="yes"/>bloßen Erklärung gemäß § 2 des Gesetzes vom<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p><p>5. Dezember 1918, St. G. Bl. Nr. 91, über das
       <lb break="yes"/>Staatsbürgerrecht, die Staatsbürgerschaft ohne Er
 <lb break="no"/>langung eines Heimatrechtes erworben haben, steht
       <lb break="yes"/>auch die Vollziehung dem Bund zu.
@@ -404,8 +359,7 @@
       <lb break="yes"/>in denen die bestehenden Gesetze und Vollzugs
 <lb break="no"/>anweisungen (Verordnungen) derartige Fälle nicht
       <lb break="yes"/>regeln, tritt die Bestimmung des Artikels 15,
-      <lb break="yes"/>Absatz 3, sofort in Kraft.</p>
-            <p>§ 19.
+      <lb break="yes"/>Absatz 3, sofort in Kraft.</p><p>§ 19.
       <lb break="yes"/>Zu Artikel 23.
       <lb break="yes"/>Die Bestimmungen des Gesetzes vom 12. Juli
       <lb break="yes"/>1872, R. G. Bl. Nr. 112 (Syndikatsgesetz),
@@ -456,8 +410,7 @@
       <lb break="yes"/>Tirol 3 Mitglieder,
       <lb break="yes"/>Kärnten 3 Mitglieder,
       <lb break="yes"/>Salzburg 3 Mitglieder,
-      <lb break="yes"/>Vorarlberg 3 Mitglieder.<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>4</p>
-            <p>(2) Sobald das Burgenland einen Landtag gewählt
+      <lb break="yes"/>Vorarlberg 3 Mitglieder.<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>4</p><p>(2) Sobald das Burgenland einen Landtag gewählt
       <lb break="yes"/>hat, wird die Anzahl der vom Burgenland zu
       <lb break="yes"/>entsendenden Mitglieder vom Bundespräsidenten nach
       <lb break="yes"/>Artikel 34 ermittelt.
@@ -508,8 +461,7 @@
       <lb break="yes"/>(3) Bis zur Angelobung des Bundespräsidenten
       <lb break="yes"/>versieht der bisherige Präsident der Konstituierenden
       <lb break="yes"/>Nationalversammlung alle dem Bundespräsidenten
-      <lb break="yes"/>übertragenen Funktionen.</p>
-            <p>§ 25.
+      <lb break="yes"/>übertragenen Funktionen.</p><p>§ 25.
       <lb break="yes"/>Zu Artikel 65, Absatz 3.
       <lb break="yes"/>(1) Das Gesetz vom 26. Februar 1920, St. G. Bl.
       <lb break="yes"/>Nr. 94, womit Artikel 7 des Gesetzes vom 14. März
@@ -555,8 +507,7 @@
       <lb break="yes"/>Zu Artikel 95.
       <lb break="yes"/>Die bestehenden Volksvertretungen in den
       <lb break="yes"/>Ländern sind die ersten Landtage im Sinne des
-      <lb break="yes"/>Bundes=Verfassungsgesetzes.<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p>
-            <p>§ 30.
+      <lb break="yes"/>Bundes=Verfassungsgesetzes.<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p><p>§ 30.
       <lb break="yes"/>Zu Artikel 98.
       <lb break="yes"/>(1) Der Artikel 99 wird auch auf Landesgesetze
       <lb break="yes"/>angewendet, die vor dem Inkrafttreten des Bundes
@@ -606,8 +557,7 @@
       <lb break="yes"/>bilden die Kurie Stadt, die übrigen Landtagsabge
 <lb break="no"/>ordneten die Kurie Land.
       <lb break="yes"/>(2) Die Gesetzgebung und Vollziehung in den
-      <lb break="yes"/>Angelegenheiten der ehemals autonomen Landes¬</p>
-            <p>verwaltung sowie das sonstige bisherige Gesetz
+      <lb break="yes"/>Angelegenheiten der ehemals autonomen Landes¬</p><p>verwaltung sowie das sonstige bisherige Gesetz
 <lb break="no"/>gebungsrecht des Landtages verbleiben den bisher
       <lb break="yes"/>hiefür zuständigen Organen, bis die in der gemein
 <lb break="no"/>samen Landesverfassung vorgesehenen Organe bestellt
@@ -662,8 +612,7 @@
 <lb break="no"/>fassungsmäßigen Zuständigkeit.
       <lb break="yes"/>(2) In den Städten mit eigenem Statut über
 <lb break="no"/>nimmt die Gemeindevertretung zugleich die Aufgaben
-      <lb break="yes"/>der Bezirksvertretung. Diese Aufgaben können einem<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>6</p>
-            <p>besonderen Ausschuß der Gemeindevertretung, in
+      <lb break="yes"/>der Bezirksvertretung. Diese Aufgaben können einem<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>6</p><p>besonderen Ausschuß der Gemeindevertretung, in
       <lb break="yes"/>Wien den dort bestehenden Bezirksvertretungen oder
       <lb break="yes"/>Ausschüssen dieser Bezirksvertretungen, übertragen
       <lb break="yes"/>werden.
@@ -715,8 +664,7 @@
       <lb break="yes"/>Zu Artikel 134 und 135.
       <lb break="yes"/>(1) Der dermalige Verwaltungsgerichtshof wird
       <lb break="yes"/>zum Verwaltungsgerichtshof im Sinne des Bundes
-<lb break="no"/>Verfassungsgesetzes.</p>
-            <p>(2) Sein Präsident und die Mitglieder bleiben
+<lb break="no"/>Verfassungsgesetzes.</p><p>(2) Sein Präsident und die Mitglieder bleiben
       <lb break="yes"/>bis zu der gemäß Artikel 135 erfolgenden Neu
 <lb break="no"/>besetzung im Amt. Die Neubesetzung hat bis
       <lb break="yes"/>1. Jänner 1921 zu erfolgen.
@@ -762,8 +710,7 @@
       <lb break="yes"/>III. Schlußbestimmungen.
       <lb break="yes"/>§ 42.
       <lb break="yes"/>(1) Die Artikel 10 bis einschließlich 13 und der
-      <lb break="yes"/>Artikel 15 des Bundes=Verfassungsgesetzes werden,<pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>7</p>
-            <p>soweit es sich nicht um Angelegenheiten der ehe
+      <lb break="yes"/>Artikel 15 des Bundes=Verfassungsgesetzes werden,<pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>7</p><p>soweit es sich nicht um Angelegenheiten der ehe
 <lb break="no"/>mals autonomen Verwaltung der Länder handelt
       <lb break="yes"/>erst an dem Tag wirksam, an dem die folgenden
       <lb break="yes"/>Gesetze in Geltung getreten sind:
@@ -793,8 +740,7 @@
       <lb break="yes"/>des Bundes-Verfassungsgesetzes geführt, soweit
       <lb break="yes"/>sie nicht in den Wirkungsbereich der eigenen
       <lb break="yes"/>Bundesbehörden (Artikel 102 des Bundes
-<lb break="no"/>Verfassungsgesetzes) fallen; für die Führung</p>
-            <p>dieser mittelbaren Bundesverwaltung in Wien
+<lb break="no"/>Verfassungsgesetzes) fallen; für die Führung</p><p>dieser mittelbaren Bundesverwaltung in Wien
       <lb break="yes"/>gilt § 33 Absatz 5.
       <lb break="yes"/>d) Die im § 8, Absatz 1, ausgenommenen Be
 <lb break="no"/>hörden sind vorläufig Bundesbehörden, die
@@ -824,35 +770,6 @@
       <lb break="yes"/>(1) Dieses Gesetz tritt zugleich mit dem Bundes
 <lb break="no"/>Verfassungsgesetz in Kraft.
       <lb break="yes"/>(2) Mit seinem Vollzug ist die Staatsregierung
-      <lb break="yes"/>betraut.</p>
-            <p>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-            </p>
-         </div>
-      </body>
-   </text>
+      <lb break="yes"/>betraut.</p><p><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/><lb break="yes"/><gap reason="illegible"/></p></div></body>
+    </text>
 </TEI>

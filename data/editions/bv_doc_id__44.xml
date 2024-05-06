@@ -1,182 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__44">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920</title>
+                <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                <principal>
+                    <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
+                </principal>
+                <funder>
+                    <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                     </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                     </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
                         Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                </publisher>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
                         Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
                             applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529251</idno>
-            <idno type="transkribus_collection">196428</idno>
-            <idno type="bv_data_set">Datenset B</idno>
-            <idno type="goobi">14593</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                  <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/78 ex 1920</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
-                     <title>Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920</title>
-                     <note type="editor">Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Lithographie">
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+                <idno type="transkribus_doc">1529251</idno>
+                <idno type="transkribus_collection">196428</idno>
+                <idno type="bv_data_set">Datenset B</idno>
+                <idno type="goobi">14593</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="invetory">
+                    <msIdentifier>
+                        <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
+                        <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
+                        <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/78 ex 1920</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
+                            <title>Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920</title>
+                            <note type="editor">Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Lithographie">
                         </objectDesc>
-                  <handDesc>
+                        <handDesc>
                         </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1920-08-23" notAfter-iso="1920-08-23">23. August 1920</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1920-08-23" notAfter-iso="1920-08-23">
+                    </physDesc>
+                    <history>
+                        <origin notBefore-iso="1920-08-23" notAfter-iso="1920-08-23">23. August 1920</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation>
+                <date notBefore-iso="1920-08-23" notAfter-iso="1920-08-23">
                     23. August 1920
                 </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-05-01" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="3083" lry="4928" xml:id="facs_2">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0003/full/full/0/default.jpg"
-                  width="3083px"
-                  height="4928px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2927" lry="4787" xml:id="facs_3">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0004/full/full/0/default.jpg"
-                  width="2927px"
-                  height="4787px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2901" lry="4837" xml:id="facs_4">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0005/full/full/0/default.jpg"
-                  width="2901px"
-                  height="4837px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2955" lry="4811" xml:id="facs_5">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0006/full/full/0/default.jpg"
-                  width="2955px"
-                  height="4811px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2940" lry="4833" xml:id="facs_6">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0007/full/full/0/default.jpg"
-                  width="2940px"
-                  height="4833px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2937" lry="4788" xml:id="facs_7">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0008/full/full/0/default.jpg"
-                  width="2937px"
-                  height="4788px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2863" lry="4849" xml:id="facs_8">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0009/full/full/0/default.jpg"
-                  width="2863px"
-                  height="4849px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2736" lry="4829" xml:id="facs_9">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0010/full/full/0/default.jpg"
-                  width="2736px"
-                  height="4829px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2795" lry="4826" xml:id="facs_10">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0011/full/full/0/default.jpg"
-                  width="2795px"
-                  height="4826px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2839" lry="4821" xml:id="facs_11">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0012/full/full/0/default.jpg"
-                  width="2839px"
-                  height="4821px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2758" lry="4816" xml:id="facs_12">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0013/full/full/0/default.jpg"
-                  width="2758px"
-                  height="4816px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2751" lry="4791" xml:id="facs_13">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0014/full/full/0/default.jpg"
-                  width="2751px"
-                  height="4791px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2910" lry="4790" xml:id="facs_14">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0015/full/full/0/default.jpg"
-                  width="2910px"
-                  height="4790px"/>
-      </surface>
-   </facsimile>
-   <text type="Sitzungsprotokoll">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>Protokoll</p>
-            <p>dup S. Sitzung des Unterautscaueees des Verfausungsausscaussis
+            </creation>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when="2024-05-05" who="#cfh">document automatically created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0"><surface ulx="0" uly="0" lrx="3083" lry="4928" xml:id="facs_2"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0003/full/full/0/default.jpg" width="3083px" height="4928px"/></surface><surface ulx="0" uly="0" lrx="2927" lry="4787" xml:id="facs_3"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0004/full/full/0/default.jpg" width="2927px" height="4787px"/></surface><surface ulx="0" uly="0" lrx="2901" lry="4837" xml:id="facs_4"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0005/full/full/0/default.jpg" width="2901px" height="4837px"/></surface><surface ulx="0" uly="0" lrx="2955" lry="4811" xml:id="facs_5"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0006/full/full/0/default.jpg" width="2955px" height="4811px"/></surface><surface ulx="0" uly="0" lrx="2940" lry="4833" xml:id="facs_6"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0007/full/full/0/default.jpg" width="2940px" height="4833px"/></surface><surface ulx="0" uly="0" lrx="2937" lry="4788" xml:id="facs_7"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0008/full/full/0/default.jpg" width="2937px" height="4788px"/></surface><surface ulx="0" uly="0" lrx="2863" lry="4849" xml:id="facs_8"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0009/full/full/0/default.jpg" width="2863px" height="4849px"/></surface><surface ulx="0" uly="0" lrx="2736" lry="4829" xml:id="facs_9"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0010/full/full/0/default.jpg" width="2736px" height="4829px"/></surface><surface ulx="0" uly="0" lrx="2795" lry="4826" xml:id="facs_10"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0011/full/full/0/default.jpg" width="2795px" height="4826px"/></surface><surface ulx="0" uly="0" lrx="2839" lry="4821" xml:id="facs_11"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0012/full/full/0/default.jpg" width="2839px" height="4821px"/></surface><surface ulx="0" uly="0" lrx="2758" lry="4816" xml:id="facs_12"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0013/full/full/0/default.jpg" width="2758px" height="4816px"/></surface><surface ulx="0" uly="0" lrx="2751" lry="4791" xml:id="facs_13"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0014/full/full/0/default.jpg" width="2751px" height="4791px"/></surface><surface ulx="0" uly="0" lrx="2910" lry="4790" xml:id="facs_14"><graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__44/files/images/IMG_0015/full/full/0/default.jpg" width="2910px" height="4790px"/></surface></facsimile>
+    <text type="Sitzungsprotokoll">
+        <body><div type="main"><pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/><p>Protokoll</p><p>dup S. Sitzung des Unterautscaueees des Verfausungsausscaussis
       <lb break="yes"/>von 23. August 1520.
       <lb break="yes"/>Joeine 20 iar 30 voraittog.
       <lb break="yes"/>
-               <lb break="yes"/>pr. otto fauér alsvoreitzender
+      <lb break="yes"/>pr. otto fauér alsvoreitzender
       <lb break="yes"/>neinricn elesein
       <lb break="yes"/>nr. Botort dannabere
       <lb break="yes"/>Todok Fink
@@ -185,7 +116,7 @@
       <lb break="yes"/>2
       <lb break="yes"/>stastsestrotar Nr. 1io
       <lb break="yes"/>
-               <lb break="yes"/>von der erastermelel:
+      <lb break="yes"/>von der erastermelel:
       <lb break="yes"/>sektionerat dr. Auro Jäckl
       <lb break="yes"/>sottionerat rr. Eebert rannliche
       <lb break="yes"/>vinistoriatrizoeserotar nr. Furt erLe
@@ -226,8 +157,7 @@
       <lb break="yes"/>volke eingesetzt und in sedden Nanen ausgubt:. Dieser Antrag
       <lb break="yes"/>aira angenommmn. Abg. e lo s s in verveiet auf den grosedeut
       <lb break="yes"/>schen Antrag, der durch die Torte -jeder staateburser hat Antet
-      <lb break="yes"/>an der wirtschaftlichen und politischen Nacht der gesantheith<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p>
-            <p>sicherung und Förderung der seeankhelt und dee Einzelnen iet
+      <lb break="yes"/>an der wirtschaftlichen und politischen Nacht der gesantheith<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p><p>sicherung und Förderung der seeankhelt und dee Einzelnen iet
       <lb break="yes"/>der Zreck des staatser zur wirtschaftlichen Denokratie zu
       <lb break="yes"/>gelangen eucht, stallt aber selbet seinen Antrag, so dass die
       <lb break="yes"/>Aufnahne dieser Worts nach seiner gesenerklärung der Voreitzen
@@ -259,8 +189,7 @@
       <lb break="yes"/>purgenland bie zur Fahl nur ein Territorium sel, das von
       <lb break="yes"/>Oueterreich verwaltet wird, eret wenn se einen Landise hat,
       <lb break="yes"/>kann se sin sigense rand werden.
-      <lb break="yes"/>pls frage ob dien als selbständiger Bundesland zu bahet<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>4</p>
-            <p>dein sei und imnieferne seine Joslösung von Niederöeterreich
+      <lb break="yes"/>pls frage ob dien als selbständiger Bundesland zu bahet<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>4</p><p>dein sei und imnieferne seine Joslösung von Niederöeterreich
       <lb break="yes"/>in der Verfaszung zu srwähnen sel, wird ein Antrag dee Voreltzen
 <lb break="no"/>den angenommen, danzufolge die staatekanzlei sreucht wird.
       <lb break="yes"/>in Einvernehmen mit dem zande Fiederösterralch und mit der
@@ -293,8 +222,7 @@
       <lb break="yes"/>12) par kundserabist bildet ein einschlägiger Währunge
 <lb break="no"/>Eirtschafte- und zollgebiet.
       <lb break="yes"/>(2) Innsraalt der granten des Funder dürfen kerne Zwischen
-      <lb break="yes"/>1.<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p>
-            <p>zollinten vrrichtst werden.
+      <lb break="yes"/>1.<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p><p>zollinten vrrichtst werden.
       <lb break="yes"/>4ierauf wird folgender frelkel angenommen:
       <lb break="yes"/>Artieel 36.
       <lb break="yes"/>Hunderhauptstadt und sitz der Staateobororgand der Fundse
@@ -361,8 +289,7 @@
       <lb break="yes"/>Nenen gemderseleiten. so sel da rerotz über die Vermögeneabe
       <lb break="yes"/>eebe die stelle enthalten: weie Veraögensnbgabe wird nicht vor.
       <lb break="yes"/>geschrieben zur zroche der Sintebung von Mnlagen auf eide aesee
-      <lb break="yes"/>1.<pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>7</p>
-            <p>gtinung schlärtndie versrehet die Stantriekss für Fineniee
+      <lb break="yes"/>1.<pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>7</p><p>gtinung schlärtndie versrehet die Stantriekss für Fineniee
       <lb break="yes"/>danit, dase diess die sinder zöglichtesi eei ohne Vierterricn
       <lb break="yes"/>tät der Verfossung die Zuschlagefreiaeit auezudrücken. Dr vet
 <lb break="no"/>weise auf die Regelung in Zngland (grante in diel
@@ -395,8 +322,7 @@
       <lb break="yes"/>in solchen angelegenheiten, die zun selbständigen Wirkungekreies
       <lb break="yes"/>der fänder gehören. Flebel stchen den Funde die gleichen Rachle
       <lb break="yes"/>gegeniber den fandsefsgierungen zu, wie bei den angeleganherten de
-      <lb break="yes"/>der mittelbaren Bundesverwaltung.<pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p>
-            <p>zigrauf bsepricht abgeordneter dr. se ipel Nreikel 14
+      <lb break="yes"/>der mittelbaren Bundesverwaltung.<pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p><p>zigrauf bsepricht abgeordneter dr. se ipel Nreikel 14
       <lb break="yes"/>des vorialdenskratisclen znwuries (Sat der Zellugs) er be
 <lb break="no"/>zurrortst die Aufnahne derartiger Fretimungen, wie eie ähnlich au
       <lb break="yes"/>auch in zroeedeutschen Antwurfe anthalten selen. Ficher hat men
@@ -428,8 +354,7 @@
 <lb break="no"/>bespricht die berstende feilnehne der rerufsorgenieation bai
       <lb break="yes"/>der wirtechftlicher und sorialen sgestzretung.
       <lb break="yes"/>Unter genutzung des 1bs. l das trr. 15 (304 der zeilegen)
-      <lb break="yes"/>der übrlee reil dee frtltele, über den fr. dannebere Abstien<pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p>
-            <p>enne nunacht, wire abgleunes- eird singeschoden.
+      <lb break="yes"/>der übrlee reil dee frtltele, über den fr. dannebere Abstien<pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p><p>enne nunacht, wire abgleunes- eird singeschoden.
       <lb break="yes"/>artikel leer.
       <lb break="yes"/>11) Die organlention der gutererzeugung und der guber
 <lb break="no"/>perreitene det netgabr dee constereron. Deron slanangetern
@@ -506,24 +431,19 @@
 <lb break="no"/>lözung dures einfachse soeatz erfolge, sonst würde man sin
       <lb break="yes"/>verfaseungegreetz für nötfe halten. Auf antrag die Aög
 <lb break="no"/>so ipel erhäit der drtikel folgenden Vortlaut:
-      </p>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_1"/>
-               <head>Art. 22.
+      </p><div type="article">
+<head>Art. 22.
       </head>
-               <p type="legal_section">ver ablauf der grestzgebungsgeriode kann der Nationalrat
+<p type="legal_section">ver ablauf der grestzgebungsgeriode kann der Nationalrat
       <lb break="yes"/>durch einfachee Soestz seine Auflörung beschliessen. Auch in
       <lb break="yes"/>dissen falis dauert die Gesetzgebungsperlode des Nationalratue
       <lb break="yes"/>bie zum Zusammentritt des neugefählten Nationalratee.“
       <lb break="yes"/>Ferner wird zu Art. 38 folgender Abeatz 5 beschloesen:
-      </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_2"/>
-               <head>Art. 38.
+      </p></div>
+<div type="article">
+<head>Art. 38.
       </head>
-               <p type="legal_section">
-                  <label>15)</label> Die ruflösung des rationalratee, die Dewilligung des
+<p type="legal_section"><label>15)</label> Die ruflösung des rationalratee, die Dewilligung des
       <lb break="yes"/>Fundssrorenschlages und die Genehnigung der Rechnungsabschlüese,
       <lb break="yes"/>die Aufnahme und Konvertierung von Bundeeanlsihen und die Ver
 <lb break="no"/>fügung über dae sundervermögen sind ausschliestltahrsehhedese
@@ -532,19 +452,15 @@
       <lb break="yes"/>entfällt; abe. 3 gibt der geschäfteordnung den Charakter eines
       <lb break="yes"/>Verfassungegbestzes.
       <lb break="yes"/>Nrr. 23.
-      </p>
-               <p type="legal_section">
-                  <label>(2)</label> Dir Nationalrat rählt aus seiner Mitte einen Präsi
+      </p><p type="legal_section"><label>(2)</label> Dir Nationalrat rählt aus seiner Mitte einen Präsi
 <lb break="no"/>dentea und zusi Vizspräeldenten.
       </p>
-               <p type="legal_section">
-                  <label>12)</label> Die geschäfteführung des Nationalratse erfolgt auf
+<p type="legal_section"><label>12)</label> Die geschäfteführung des Nationalratse erfolgt auf
       <lb break="yes"/>grund sinne Seestzaebsschluress und einer im Rahaen dieses ge
 <lb break="no"/>estzes von Nationalrat zu beschliessenden autenonen besspgthe
       <lb break="yes"/>ordnung.
       </p>
-               <p type="legal_section">
-                  <label>15)</label> par asostz über die Berchäftworenune kann aur
+<p type="legal_section"><label>15)</label> par asostz über die Berchäftworenune kann aur
       <lb break="yes"/>aursernasrt der fälfte der Vitglieder und ait einer Kaarheie
       <lb break="yes"/>von mei prittele der abgegebiner stinmen beschloseen werden.<pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>12.
       <lb break="yes"/>Nrr. 28 und 25 werden ia verblabte der Einzer tatrüffee
@@ -573,38 +489,29 @@
       <lb break="yes"/>Sundesratse diesclten Vorechriften galten, die in dationalraet;
       <lb break="yes"/>der ganze Artikei wryd in folgender Lussung beschlossen:
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_3"/>
-               <head>Art. 27.
+</div>
+<div type="article">
+<head>Art. 27.
       </head>
-               <p type="legal_section">
-                  <label>11)</label> Der Voraitz in Bundserat fällt ahrschselnd auf ein en
+<p type="legal_section"><label>11)</label> Der Voraitz in Bundserat fällt ahrschselnd auf ein en
 <lb break="no"/>deres Land nach alphabstischer Reihenfolge.
-      </p>
-               <p type="legal_section">
-                  <label>12)</label> der Bundserat wird durch seinen Voreitzandan vertreten.
+      </p><p type="legal_section"><label>12)</label> der Bundserat wird durch seinen Voreitzandan vertreten.
       <lb break="yes"/>Alle Auefertigungen des Jundseratse müssen die Unterschrift eu
 <lb break="no"/>nee voreitzendn tragen.
       </p>
-               <p type="legal_section">
-                  <label>13)</label> der Bundesrat gitt sich meine geschäftsordnung durch
+<p type="legal_section"><label>13)</label> der Bundesrat gitt sich meine geschäftsordnung durch
       <lb break="yes"/>t.<pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>13
       <lb break="yes"/>Beschluss, der nur bei Anrenheit der fülfts der Uitelieter und
       <lb break="yes"/>ait Zusierittslachrheit gefaert worden kann.
       <lb break="yes"/>Bsschloesen vire ferner:
       </p>
-            </div>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_4"/>
-               <head>Art.28
+</div>
+<div type="article">
+<head>Art.28
       </head>
-               <p type="legal_section">
-                  <label>(2)</label> Der Eunesorat taest estne Beschldese mit Stinsenedherheit
+<p type="legal_section"><label>(2)</label> Der Eunesorat taest estne Beschldese mit Stinsenedherheit
       <lb break="yes"/>der denessenden.
-      </p>
-               <p type="legal_section">
-                  <label>12)</label> Die Sitzungen den Bund-erater eind öffentlich. Die Oefe
+      </p><p type="legal_section"><label>12)</label> Die Sitzungen den Bund-erater eind öffentlich. Die Oefe
       <lb break="yes"/>tentsichkeit kann jedoch gemüse den Bestimungen der Geschäfte
 <lb break="no"/>ordnung durch Beschluss aufgehoben werden. Die Destlarungen des
       <lb break="yes"/>Art.283 golten auch für öffentliche sitzungen des Zundeeratee und
@@ -615,8 +522,7 @@
       <lb break="yes"/>Die nächste sitzung wird für Manstig den 24.Auguet, 1o Var
       <lb break="yes"/>vormittage anfetanst.
       <lb break="yes"/>schluse der Sitzung s Unr 15 nachnittagr.</p>
-            </div>
-         </div>
-      </body>
-   </text>
+</div>
+</div></body>
+    </text>
 </TEI>
