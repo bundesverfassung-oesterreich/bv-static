@@ -9,11 +9,34 @@
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
+    <delete>
+        <fileset dir="./data/editions" includes="*_with_id.xml"/>
+    </delete>
+    <!-- prepare xmls for download -->
+    <copy todir="${target_xml}" flatten="true">
+        <fileset dir="./data/">
+            <include name="**/*.xml"/>
+        </fileset>
+    </copy>
+    <replaceregexp match="&lt;graphic url=&quot;https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__[0-9]*/files/images/(IMG_[0-9]*)/full/full/0/default.jpg&quot;" replace="&lt;graphic url=&quot;\1&quot;" flags="gs" byline="false">
+        <fileset dir="${target_xml}" includes="bv_doc_id__*.xml"/>
+    </replaceregexp>
+    <!-- this is a hacky workaround to get some xml ids into the files which can be read later on to create a doc internal navigation -->
+    <xslt style="./xslt/mk_docinternal_nav_ids.xsl" basedir="./data/editions" destdir="./data/editions" includes="*.xml" extension="_with_id.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <move todir="./data/editions" overwrite="true">
+        <fileset dir="./data/editions">
+            <include name="*_with_id.xml"/>
+        </fileset>
+        <mapper type="glob" from="*_with_id.xml" to="*.xml"/>
+    </move>
     <xslt style="./xslt/editions.xsl" basedir="./data/editions" destdir="${target}" includes="*.xml" extension=".html">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt style="./xslt/meta.xsl"  basedir="./data/meta" destdir="${target}" includes="*.xml">
+    <xslt style="./xslt/meta.xsl" basedir="./data/meta" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
@@ -89,19 +112,10 @@
         <include name="*.html"/>
         <replacetoken>&lt;/br&gt;</replacetoken>
     </replace>
-    <copy todir="${target_xml}" flatten="true">
-        <fileset dir="./data/">
-            <include name="**/*.xml"/>
-        </fileset>
-    </copy>
-    <replaceregexp 
-    match="&lt;graphic url=&quot;https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__[0-9]*/files/images/(IMG_[0-9]*)/full/full/0/default.jpg&quot;"
-    replace="&lt;graphic url=&quot;\1&quot;"
-    flags="gs"
-    byline="false">
-        <fileset dir="${target_xml}" includes="bv_doc_id__*.xml"/>
-    </replaceregexp>
     <delete>
         <fileset dir="${target}" includes="*.xml" />
+    </delete>
+    <delete>
+        <fileset dir="./data/editions" includes="*_with_id.xml"/>
     </delete>
 </project>
