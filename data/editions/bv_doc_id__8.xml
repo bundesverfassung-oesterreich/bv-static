@@ -1,211 +1,212 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__8">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Falser Entwurf I</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski,
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title type="main">Falser Entwurf I</title>
+                        <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                        <principal>
+                              <persName role="acdh:hasPrincipialInvestigator">Olechowski,
                                     Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+                        </principal>
+                        <funder>
+                              <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                              <address>
+                                    <street>Sensengasse 1</street>
+                                    <postCode>1090 Wien</postCode>
+                                    <placeName>
+                                          <country>A</country>
+                                          <settlement>Wien</settlement>
+                                    </placeName>
+                              </address>
+                        </funder>
+                        <respStmt>
+                              <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                              <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                              <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                              <persName role="acdh:hasContributor"
+                                    key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                        </respStmt>
+                        <respStmt>
+                              <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                              <persName role="acdh:hasContributor"
+                                    key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                               </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <publisher>
+                              <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for
                                     Digital Humanities and Cultural Heritage an der Österreichischen
                                     Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien.
+                        </publisher>
+                        <publisher>
+                              <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien.
                                     Institut für Rechts- und Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY
+                        </publisher>
+                        <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                        <date when="2023">2023</date>
+                        <availability>
+                              <licence target="https://creativecommons.org/licenses/by/4.0/">
+                                    <p>The Creative Commons Attribution 4.0 International (CC BY
                                           4.0) License applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529206</idno>
-            <idno type="transkribus_collection">195363</idno>
-            <idno type="bv_data_set">Datenset A</idno>
-            <idno type="goobi">14513</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der
+                                    <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                              </licence>
+                        </availability>
+                        <idno type="transkribus_doc">1529206</idno>
+                        <idno type="transkribus_collection">195363</idno>
+                        <idno type="bv_data_set">Datenset A</idno>
+                        <idno type="goobi">14513</idno>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <msDesc type="invetory">
+                              <msIdentifier>
+                                    <institution key="https://d-nb.info/gnd/37748-X"
+                                          >Österreichisches Staatsarchiv</institution>
+                                    <repository key="https://d-nb.info/gnd/1601181-8">Archiv der
                                           Republik (Wien)</repository>
-                  <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton
+                                    <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton
                                           250, Mappe 3</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Falser, Stephan</author>
-                     <title>Falser Entwurf I</title>
-                     <note type="editor">Falser I (Titel des Dokuments: "Die
+                              </msIdentifier>
+                              <msContents>
+                                    <msItem>
+                                          <author role="acdh:hasAuthor">Falser, Stephan</author>
+                                          <title>Falser Entwurf I</title>
+                                          <note type="editor">Falser I (Titel des Dokuments: "Die
                                                 Verfassung des Bundesstaates Österreich"), Zustand
                                                 gut, ohne Ergänzungen, 39 Artikel</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Lithographie"> </objectDesc>
-                  <handDesc> </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1919-10-07" notAfter-iso="1919-10-07">7.
+                                    </msItem>
+                              </msContents>
+                              <physDesc>
+                                    <objectDesc form="Lithographie"> </objectDesc>
+                                    <handDesc> </handDesc>
+                              </physDesc>
+                              <history>
+                                    <origin notBefore-iso="1919-10-07" notAfter-iso="1919-10-07">7.
                                           Oktober 1919</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1919-10-07" notAfter-iso="1919-10-07"> 7. Oktober 1919
+                              </history>
+                        </msDesc>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                  <abstract>
+                        <p/>
+                  </abstract>
+                  <creation>
+                        <date notBefore-iso="1919-10-07" notAfter-iso="1919-10-07"> 7. Oktober 1919
                         </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-02-27" who="#cfh">document automatically created</change>
-         <change when="2024-04-05" who="#m_huber">all div for articles and sections
+                  </creation>
+            </profileDesc>
+            <revisionDesc status="created">
+                  <change when="2024-02-27" who="#cfh">document automatically created</change>
+                  <change when="2024-04-05" who="#m_huber">all div for articles and sections
                         generated</change>
-         <change when="2024-04-19" who="#m_huber">fixed headings</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="2796" lry="4506" xml:id="facs_2">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0002/full/full/0/default.jpg"
-                  width="2796px"
-                  height="4506px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2743" lry="4428" xml:id="facs_3">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0003/full/full/0/default.jpg"
-                  width="2743px"
-                  height="4428px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2781" lry="4496" xml:id="facs_4">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0004/full/full/0/default.jpg"
-                  width="2781px"
-                  height="4496px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2709" lry="4448" xml:id="facs_5">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0005/full/full/0/default.jpg"
-                  width="2709px"
-                  height="4448px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2758" lry="4464" xml:id="facs_6">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0006/full/full/0/default.jpg"
-                  width="2758px"
-                  height="4464px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2737" lry="4450" xml:id="facs_7">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0007/full/full/0/default.jpg"
-                  width="2737px"
-                  height="4450px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2754" lry="4448" xml:id="facs_8">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0008/full/full/0/default.jpg"
-                  width="2754px"
-                  height="4448px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2747" lry="4454" xml:id="facs_9">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0009/full/full/0/default.jpg"
-                  width="2747px"
-                  height="4454px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2736" lry="4448" xml:id="facs_10">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0010/full/full/0/default.jpg"
-                  width="2736px"
-                  height="4448px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2739" lry="4447" xml:id="facs_11">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0011/full/full/0/default.jpg"
-                  width="2739px"
-                  height="4447px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2638" lry="4428" xml:id="facs_12">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0012/full/full/0/default.jpg"
-                  width="2638px"
-                  height="4428px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2722" lry="4445" xml:id="facs_13">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0013/full/full/0/default.jpg"
-                  width="2722px"
-                  height="4445px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2717" lry="4432" xml:id="facs_14">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0014/full/full/0/default.jpg"
-                  width="2717px"
-                  height="4432px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2743" lry="4428" xml:id="facs_15">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0015/full/full/0/default.jpg"
-                  width="2743px"
-                  height="4428px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2732" lry="4431" xml:id="facs_16">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0016/full/full/0/default.jpg"
-                  width="2732px"
-                  height="4431px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2748" lry="4423" xml:id="facs_17">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0017/full/full/0/default.jpg"
-                  width="2748px"
-                  height="4423px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2705" lry="4415" xml:id="facs_18">
-         <graphic url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0018/full/full/0/default.jpg"
-                  width="2705px"
-                  height="4415px"/>
-      </surface>
-   </facsimile>
-   <text type="Verfassungsentwurf">
-      <body>
-         <div type="main">
-            <a class="navigation_main" xml:id="navigation_section_"/>
-            <head>Entwurf Falser </head>
-            <head>Die Verfassung des Bundesstaates Oesterreich.</head>
-            <div type="section">
-               <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_1"/>
-                  <head>Artikel 1.</head>
-                  <p type="legal_section">Unter dem völkerrechtlichen Zwange des
+                  <change when="2024-04-19" who="#m_huber">fixed headings</change>
+            </revisionDesc>
+      </teiHeader>
+      <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+            <surface ulx="0" uly="0" lrx="2796" lry="4506" xml:id="facs_2">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0002/full/full/0/default.jpg"
+                        width="2796px" height="4506px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2743" lry="4428" xml:id="facs_3">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0003/full/full/0/default.jpg"
+                        width="2743px" height="4428px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2781" lry="4496" xml:id="facs_4">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0004/full/full/0/default.jpg"
+                        width="2781px" height="4496px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2709" lry="4448" xml:id="facs_5">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0005/full/full/0/default.jpg"
+                        width="2709px" height="4448px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2758" lry="4464" xml:id="facs_6">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0006/full/full/0/default.jpg"
+                        width="2758px" height="4464px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2737" lry="4450" xml:id="facs_7">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0007/full/full/0/default.jpg"
+                        width="2737px" height="4450px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2754" lry="4448" xml:id="facs_8">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0008/full/full/0/default.jpg"
+                        width="2754px" height="4448px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2747" lry="4454" xml:id="facs_9">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0009/full/full/0/default.jpg"
+                        width="2747px" height="4454px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2736" lry="4448" xml:id="facs_10">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0010/full/full/0/default.jpg"
+                        width="2736px" height="4448px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2739" lry="4447" xml:id="facs_11">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0011/full/full/0/default.jpg"
+                        width="2739px" height="4447px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2638" lry="4428" xml:id="facs_12">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0012/full/full/0/default.jpg"
+                        width="2638px" height="4428px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2722" lry="4445" xml:id="facs_13">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0013/full/full/0/default.jpg"
+                        width="2722px" height="4445px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2717" lry="4432" xml:id="facs_14">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0014/full/full/0/default.jpg"
+                        width="2717px" height="4432px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2743" lry="4428" xml:id="facs_15">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0015/full/full/0/default.jpg"
+                        width="2743px" height="4428px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2732" lry="4431" xml:id="facs_16">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0016/full/full/0/default.jpg"
+                        width="2732px" height="4431px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2748" lry="4423" xml:id="facs_17">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0017/full/full/0/default.jpg"
+                        width="2748px" height="4423px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2705" lry="4415" xml:id="facs_18">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__8/files/images/IMG_0018/full/full/0/default.jpg"
+                        width="2705px" height="4415px"/>
+            </surface>
+      </facsimile>
+      <text type="Verfassungsentwurf">
+            <body>
+                  <div type="main">
+                        <head>Entwurf Falser </head>
+                        <head>Die Verfassung des Bundesstaates Oesterreich.</head>
+                        <div type="section">
+                              <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
+                              <div type="article">
+                                    <head>Artikel 1.</head>
+                                    <p type="legal_section">Unter dem völkerrechtlichen Zwange des
                                           Friedensvertrages von
                                           <lb break="yes"/>St. Germain und mit feierlicher
                                           Verwahrung gegen die Verweigerung
@@ -226,11 +227,10 @@
                                           <lb break="yes"/>Republik Oesterreich
                                           <lb break="yes"/>und mit der Bundeshauptstadt Wien
                                           zusammen. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_2"/>
-                  <head>Artikel II. </head>
-                  <p type="legal_section">Die Selbständigkeit jedes Bundesgliedes
+                              </div>
+                              <div type="article">
+                                    <head>Artikel II. </head>
+                                    <p type="legal_section">Die Selbständigkeit jedes Bundesgliedes
                                           bleibt gewahrt und
                                           <lb break="yes"/>wird vom Bunde gewährleistet insoweit sie
                                           nicht durch die Bundesver
@@ -239,11 +239,10 @@
                                           <lb break="no"/>desgesetze beschränkt ist oder beschlänkt
                                           wird.
                                           <lb break="yes"/>1) </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_3"/>
-                  <head>Artikel III. </head>
-                  <p type="legal_section">Der Bund schützt sein Gebiet und das
+                              </div>
+                              <div type="article">
+                                    <head>Artikel III. </head>
+                                    <p type="legal_section">Der Bund schützt sein Gebiet und das
                                           Gebiet seiner Glieder
                                           <lb break="yes"/>vor Angriffen von außen; er ist
                                           verpflichtet, über Ersuchen der Landes
@@ -254,25 +253,23 @@
                                           Bundesgewalt gegen Störun
                                           <lb break="no"/>gen der öffentlichen Ruhe und Ordnung
                                           innerhalb des Gebietes eines </p>
-                  <p type="legal_section">
-                     <label>1)</label> Dr. Straffner
+                                    <p type="legal_section"><label>1)</label> Dr. Straffner
                                           beantragt, diesem Artikel noch den Satz anzu
                                           <lb break="no"/>schließen: Reichsrecht bricht
                                           Landrecht.</p>
-                  <p type="legal_section">10</p>
-                  <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
-                  <p type="legal_section">- 2 -</p>
-                  <p type="legal_section">oder mehrerer der Bundesglieder
+                                    <p type="legal_section">10</p>
+                                    <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
+                                    <p type="legal_section">- 2 -</p>
+                                    <p type="legal_section">oder mehrerer der Bundesglieder
                                           einschreiten, wenn die Landesregie
                                           <lb break="no"/>rung außer Stande ist, die Unruhen zu
                                           unterdrücken, oder wenn zu be
                                           <lb break="no"/>fürchten ist, daß sie auf das Gebiet
                                           anderer Bundesglieder übergreifen. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_4"/>
-                  <head>Artikel IV. </head>
-                  <p type="legal_section">Zum Zwecke der Erfüllung der im Artikel
+                              </div>
+                              <div type="article">
+                                    <head>Artikel IV. </head>
+                                    <p type="legal_section">Zum Zwecke der Erfüllung der im Artikel
                                           III enthaltenen Auf
                                           <lb break="no"/>gaben wird ein Bundesheer aufgestellt, das
                                           unter dem militärischen
@@ -281,7 +278,7 @@
                                           <lb break="no"/>stellt ist.
                                           <lb break="yes"/>Die Kriegs- und Friedensstärke des Heeres
                                           innerhalb der durch den</p>
-                  <p type="legal_section">Friedensvertrag vom . . . . . . . . .
+                                    <p type="legal_section">Friedensvertrag vom . . . . . . . . .
                                           gezogenen Grenzen, die Art der
                                           <lb break="yes"/>Ausbildung und die Gliederung des Heeres
                                           bestimmt die Bundesge
@@ -298,7 +295,7 @@
                                           <lb break="yes"/>entfallenden Mannschaften, Offiziere und
                                           Unteroffiziere obliegt
                                           <lb break="yes"/>den Bundesgliedern.</p>
-                  <p type="legal_section">Insoferne der Grenzschutz erhöhte
+                                    <p type="legal_section">Insoferne der Grenzschutz erhöhte
                                           Auslagen für das einzelne
                                           <lb break="yes"/>Bundesglied bedingt, steht diesem ein
                                           Anspruch auf Ersatz gegenüber
@@ -310,11 +307,10 @@
                                           <lb break="no"/>zen ist nur in den Fällen des Artikels III
                                           und bei militärischen
                                           <lb break="yes"/>Uebungen zulässig. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_5"/>
-                  <head>Artikel V. </head>
-                  <p type="legal_section">Jedes Bundesmitglied hat zur
+                              </div>
+                              <div type="article">
+                                    <head>Artikel V. </head>
+                                    <p type="legal_section">Jedes Bundesmitglied hat zur
                                           Aufrechthaltung der Ruhe und
                                           <lb break="yes"/>Sicherheit innerhalb seiner
                                           Gebietsgrenzen eine Landjägertruppe auf
@@ -324,9 +320,9 @@
                                           Bewohner für jedes Bundesmit
                                           <lb break="no"/>glied in der Art bemessen, dass auf je 500
                                           Einwohner (nach der</p>
-                  <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
-                  <p type="legal_section">- 3 -</p>
-                  <p type="legal_section">jeweilig letzten Volkszählung)
+                                    <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
+                                    <p type="legal_section">- 3 -</p>
+                                    <p type="legal_section">jeweilig letzten Volkszählung)
                                           wenigstens ein Mann entfällt.
                                           <lb break="yes"/>Die Festsetzung der Bedingungen der
                                           Aufnahme, die Ausbildung und
@@ -346,11 +342,10 @@
                                           (der Bundeshauptstadt) ,dem
                                           <lb break="yes"/>Bunde und dem vom Bunde bestellten
                                           Oberbefehlshaber unterstellt. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_6"/>
-                  <head>Artikel VI. </head>
-                  <p type="legal_section">Die Bundesglieder sind verpflichtet,
+                              </div>
+                              <div type="article">
+                                    <head>Artikel VI. </head>
+                                    <p type="legal_section">Die Bundesglieder sind verpflichtet,
                                           ihre Verfassungen dem
                                           <lb break="yes"/>Bundesrat mitzuteilen, und um die
                                           Uebernahme der bundesstaatlichen
@@ -360,7 +355,7 @@
                                           <lb break="yes"/>nichts den Vorschriften der
                                           Bundesverfassung zuwiderlaufendes ent
                                           <lb break="no"/>hält,</p>
-                  <p type="legal_section">wenn sie die Ausübung der politischen
+                                    <p type="legal_section">wenn sie die Ausübung der politischen
                                           Rechte nach den Grundsätzen
                                           <lb break="yes"/>der Rechtsgleichheit Aller vor dem
                                           Gesetze sichert,
@@ -371,8 +366,7 @@
                                           <lb break="yes"/>einem Drittel der stimmberechtigten
                                           Bürger vorsieht.
                                           <lb break="yes"/>1) </p>
-                  <p type="legal_section">
-                     <label>1)</label> Allgemein ist die
+                                    <p type="legal_section"><label>1)</label> Allgemein ist die
                                           Notwendigkeit anerkannt, den Artikel zu ergänzen
                                           <lb break="yes"/>um Vorsorge zu treffen für den Fall, dass
                                           der Bundesrat die Gewähr
@@ -398,14 +392,13 @@
                                           Landesverfassung (des
                                           <lb break="yes"/>Statutes der Stadt Wien) nicht in Kraft
                                           treten.</p>
-                  <p type="legal_section">11</p>
-                  <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
-                  <p type="legal_section">- 4 - </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_7"/>
-                  <head>Artikel VII. </head>
-                  <p type="legal_section">Die Glaubens- und Gewissensfreiheit ist
+                                    <p type="legal_section">11</p>
+                                    <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
+                                    <p type="legal_section">- 4 - </p>
+                              </div>
+                              <div type="article">
+                                    <head>Artikel VII. </head>
+                                    <p type="legal_section">Die Glaubens- und Gewissensfreiheit ist
                                           unverletzlich. Niemand
                                           <lb break="yes"/>darf zur Teilnahme an einer
                                           Religionsgesellschaft oder an einem re
@@ -417,7 +410,7 @@
                                           <lb break="yes"/>vollendeten 16. Lebensjahre der Inhaber
                                           der väterlichen oder vor
                                           <lb break="no"/>mundschaftlichen Gewalt.</p>
-                  <p type="legal_section">Die öffentlichen Unterrichtsanstalten
+                                    <p type="legal_section">Die öffentlichen Unterrichtsanstalten
                                           sind den Angehörigen al
                                           <lb break="no"/>ler Religionsgesellschaften ohne
                                           Beeinträchtigung der Glaubens- und
@@ -435,27 +428,24 @@
                                           <lb break="yes"/>der Schranken der Sittlichkeit und der
                                           öffentlichen Ordnung gewähr
                                           <lb break="no"/>leistet.</p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_8"/>
-                  <head>Artikel VIII. </head>
-                  <p type="legal_section">Jede Religionsgesellschaft ordnet
+                              </div>
+                              <div type="article">
+                                    <head>Artikel VIII. </head>
+                                    <p type="legal_section">Jede Religionsgesellschaft ordnet
                                           innerhalb der gesetzlichen
                                           <lb break="yes"/>Schranken ihre Angelegenheiten
                                           selbständig. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_9"/>
-                  <head>Artikel IX. </head>
-                  <p type="legal_section">Die Pressfreiheit ist gewährleistet;
+                              </div>
+                              <div type="article">
+                                    <head>Artikel IX. </head>
+                                    <p type="legal_section">Die Pressfreiheit ist gewährleistet;
                                           durch ein Bundesgesetz sind
                                           <lb break="yes"/>Bestimmungen gegen den Mißbrauch dieses
                                           Rechtes zu treffen. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_10"/>
-                  <head>Artikel X. </head>
-                  <p type="legal_section">Die Bürger haben das Recht Vereine zu
+                              </div>
+                              <div type="article">
+                                    <head>Artikel X. </head>
+                                    <p type="legal_section">Die Bürger haben das Recht Vereine zu
                                           bilden, soferne diese
                                           <lb break="yes"/>weder in ihren Zwecken noch in den
                                           Mitteln rechtswidrig oder staats
@@ -465,18 +455,16 @@
                                           Bundesgesetzgebung die notwendigen Be
                                           <lb break="no"/>stimmungen.
                                           <lb break="yes"/>----------------------------- </p>
-                  <p type="legal_section">
-                     <label>1)</label> Zu Artikel VII: Gegen
+                                    <p type="legal_section"><label>1)</label> Zu Artikel VII: Gegen
                                           den Satz: „Niemand darf......gezwungen
                                           <lb break="yes"/>werden" bestehen bei der Mehrheit des
                                           Ausschusses Bedenken.</p>
-                  <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
-                  <p type="legal_section">- 5 - </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_11"/>
-                  <head>Artikel XI. </head>
-                  <p type="legal_section">Niemand darf seinen verfassungsmässigen
+                                    <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
+                                    <p type="legal_section">- 5 - </p>
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XI. </head>
+                                    <p type="legal_section">Niemand darf seinen verfassungsmässigen
                                           Richter entzogen werden;
                                           <lb break="yes"/>es dürfen keine Ausnahmsgerichte
                                           eingeführt werden.
@@ -484,11 +472,10 @@
                                           rein militärische
                                           <lb break="yes"/>Vergehen bestehen und ist durch
                                           Bundesgesetz zu regeln. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_12"/>
-                  <head>Artikel XII. </head>
-                  <p type="legal_section">Alle Bundesglieder sind verpflichtet,
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XII. </head>
+                                    <p type="legal_section">Alle Bundesglieder sind verpflichtet,
                                           die Angehörigen des Bundes
                                           <lb break="no"/>staates sowohl in der Gesetzgebung als
                                           auch in der Verwaltung und
@@ -504,29 +491,27 @@
                                           zulässig. Niemand kann in mehr
                                           <lb break="yes"/>als einem Gebiete eines Bundesgliedes
                                           politische Rechte ausüben.</p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_13"/>
-                  <head>Artikel XIII. </head>
-                  <p type="legal_section">Die Freiheit des Handels und der Gewerbe
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XIII. </head>
+                                    <p type="legal_section">Die Freiheit des Handels und der Gewerbe
                                           ist im ganzen Umfange
                                           <lb break="yes"/>des Bundesstaates gewährleistet, soweit
                                           nicht Bundesgesetze oder
                                           <lb break="yes"/>auf Grund von Bundesgesetzen erlassene
                                           Verordnungen eine Einschrän
                                           <lb break="no"/>kung bedingen. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_14"/>
-                  <head>Artikel XIV. </head>
-                  <p type="legal_section">In die Zuständigkeit des Bundes fallen:
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XIV. </head>
+                                    <p type="legal_section">In die Zuständigkeit des Bundes fallen:
                                           <lb break="yes"/>1) die auswärtigen Angelegenheiten mit
                                           Einschluß der diplomatischen und
                                           <lb break="yes"/>kommerziellen Vertretung, dem Auslande
                                           gegenüber, die Zollgesetzgebung,
                                           <lb break="yes"/>die Prüfung und Genehmigung der
                                           Handelsverträge und jener Staatsver-</p>
-                  <p type="legal_section">träge, die den Bundesstaat oder Teile
+                                    <p type="legal_section">träge, die den Bundesstaat oder Teile
                                           des Bundesstaates belasten oder
                                           <lb break="yes"/>eine Gebietsänderung des Bundes oder
                                           seiner Bundesglieder zum Gegen
@@ -536,23 +521,20 @@
                                           Auslandsgrenzen nicht berührt werden, dem
                                           <lb break="yes"/>Bundesrate lediglich zur Kenntnis zu
                                           bringen. </p>
-                  <p type="legal_section">
-                     <label>2)</label> Die Entscheidung über
+                                    <p type="legal_section"><label>2)</label> Die Entscheidung über
                                           Krieg und Frieden. </p>
-                  <p type="legal_section">
-                     <label>3)</label> Die Gesetzgebung über
+                                    <p type="legal_section"><label>3)</label> Die Gesetzgebung über
                                           das Heerwesen in den Schranken des Artikel IV</p>
-                  <p type="legal_section">12</p>
-                  <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
-                  <p type="legal_section">- 6
+                                    <p type="legal_section">12</p>
+                                    <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
+                                    <p type="legal_section">- 6
                                           <lb break="no"/>über die militärische Befehlsgewalt, über
                                           Vorspannleistungen, Ver
                                           <lb break="no"/>pflegung und Einquartierung des Heeres,
                                           ferner die Regelung der
                                           <lb break="yes"/>Militärgerichtsbarkeit in den Schranken
                                           des Artikels XI. </p>
-                  <p type="legal_section">
-                     <label>4)</label> Das Finanzwesen,
+                                    <p type="legal_section"><label>4)</label> Das Finanzwesen,
                                           soweit es die gemeinschaftlich zu verwaltenden Ein
                                           <lb break="no"/>nahmen und Ausgaben betrifft, also die
                                           Feststellung der Voranschläge
@@ -562,7 +544,7 @@
                                           Aufnahme von Bundesanlehen, die
                                           <lb break="yes"/>Umwandlung der bestehenden
                                           Staatsschulden, die Verwaltung, Veräuße-</p>
-                  <p type="legal_section">rung oder Belastung des Bundesvermögens,
+                                    <p type="legal_section">rung oder Belastung des Bundesvermögens,
                                           die Gesetzgebung über Monopole
                                           <lb break="yes"/>ferner die Festsetzung des Geld- Münz-
                                           und Zettelbankwesens, endlich
@@ -578,14 +560,13 @@
                                           Bundesgliedern aufzuteilen
                                           <lb break="yes"/>sind, wird durch ein eigenes Bundesgesetz
                                           bestimmt. </p>
-                  <p type="legal_section">
-                     <label>5)</label> Die Zivil- und
+                                    <p type="legal_section"><label>5)</label> Die Zivil- und
                                           Strafgesetzgebung mit Einschluß des Handels-, Wechsel-,
                                           <lb break="yes"/>Berg- und Lehenrechtes, dann des Zivil-
                                           und Strafprozeßrechts und des
                                           <lb break="yes"/>Polizeistrafrechtes jedoch mit Ausnahme
                                           der Gesetzgebung über die</p>
-                  <p type="legal_section">öffentlichen Bücher und über die Bildung
+                                    <p type="legal_section">öffentlichen Bücher und über die Bildung
                                           der Gerichts- und Verwaltungs
                                           <lb break="no"/>bezirke innerhalb des Gebietes der
                                           einzelnen Glieder des Bundes. Die
@@ -603,20 +584,17 @@
                                           erfolgt in kollegialer
                                           <lb break="yes"/>Beratung. 1)
                                           <lb break="yes"/>-------------------------------- </p>
-                  <p type="legal_section">
-                     <label>1)</label> Zu Artikel XIV Z. 5:
+                                    <p type="legal_section"><label>1)</label> Zu Artikel XIV Z. 5:
                                           Dr. Straffner ist gegen die Forderung kolle
                                           <lb break="no"/>gialer Ernennung der Richter.</p>
-                  <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
-                  <p type="legal_section">- 7 </p>
-                  <p type="legal_section">
-                     <label>6)</label> Das Post-,
+                                    <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
+                                    <p type="legal_section">- 7 </p>
+                                    <p type="legal_section"><label>6)</label> Das Post-,
                                           Telegraphen-, Telephon-Eisenbahn-Schiffahrts- und Luft
                                           <lb break="no"/>schiffahrtswesen, die
                                           Elektrizitätsgesetzgebung 1) und die Verwal
                                           <lb break="no"/>tung der Bundesstraßen. </p>
-                  <p type="legal_section">
-                     <label>7)</label> Die Gesetzgebung über
+                                    <p type="legal_section"><label>7)</label> Die Gesetzgebung über
                                           das Kredit und Bankwesen mit Ausnahme des
                                           <lb break="yes"/>landwirtschaftlichen Kreditwesens
                                           (Raiffeisenkassen, landwirtschaft
@@ -624,18 +602,16 @@
                                           Privilegien- und Gewerbegesetzge
                                           <lb break="no"/>bung, die gesetzgebung über Maß und
                                           Gewicht, über Marken- und Muster-</p>
-                  <p type="legal_section">schutz, die Gesetzgebung über Fabriken,
+                                    <p type="legal_section">schutz, die Gesetzgebung über Fabriken,
                                           über Kranken-, Unfall- und
                                           <lb break="yes"/>Altersversorgung der Arbeiter und die
                                           damit zusammenhängenden Unter
                                           <lb break="no"/>stützungs- und Hilfskassen. </p>
-                  <p type="legal_section">
-                     <label>8)</label> Die
+                                    <p type="legal_section"><label>8)</label> Die
                                           Medizinalgesetzgebung, sowie die Gesetzgeburg zum Schutze
                                           gegen
                                           <lb break="yes"/>Epidemien und Viehseuchen. </p>
-                  <p type="legal_section">
-                     <label>9)</label> Die Gesetzgebung über
+                                    <p type="legal_section"><label>9)</label> Die Gesetzgebung über
                                           Staatsbürger- und Heimatsrecht, über Fremden
                                           <lb break="no"/>polizei und Paßwesen und über die
                                           Volkszählung.
@@ -644,22 +620,19 @@
                                           <lb break="yes"/>und Versammlungsrecht (Artikel X) und
                                           über den Schutz des geistigen
                                           <lb break="yes"/>Eigentums, </p>
-                  <p type="legal_section">
-                     <label>11)</label> Die Gesetzgebung über
+                                    <p type="legal_section"><label>11)</label> Die Gesetzgebung über
                                           die Universitäten. 2) </p>
-                  <p type="legal_section">
-                     <label>12)</label> Die Regelung der
+                                    <p type="legal_section"><label>12)</label> Die Regelung der
                                           Nutzbarmachung der Wasserkräfte ist eine Angelegen
                                           <lb break="no"/>heit der Bundesglieder. 3)</p>
-                  <p type="legal_section">
-                     <label>1)</label> Eine Minderheit des
+                                    <p type="legal_section"><label>1)</label> Eine Minderheit des
                                           Ausschusses wünscht die Elektrizitätsgesetz
-                                          <lb break="no"/>gebung auszuschalten. <p type="legal_section">
-                        <label>2)</label> Dr. Straffner
+                                          <lb break="no"/>gebung auszuschalten. <p
+                                                type="legal_section"><label>2)</label> Dr. Straffner
                                                 ist für die Aufnahme der Volks- und Mittelschulen,
                                                 <lb break="yes"/>Falser nur für die Aufnahme der
-                                                Mittelschulen. <p type="legal_section">
-                           <label>3)</label> Zwei Stimmen sprechen sich
+                                                Mittelschulen. <p type="legal_section"
+                                                  ><label>3)</label> Zwei Stimmen sprechen sich
                                                   dafür aus, dass vorangestellt werde der
                                                   <lb break="yes"/>Satz: die Oberaufsicht über die
                                                   Angelegenheiten der Landeskultur
@@ -668,12 +641,12 @@
                                                   <lb break="no"/>bung erläßt zu diesem Behufe die
                                                   erforderlichen allgemeinen Vor
                                                   <lb break="no"/>schriften.</p>
-                     </p>
-                     <p>13</p>
-                     <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
-                  </p>
-                  <p type="legal_section">- 8 -</p>
-                  <p type="legal_section">Wenn jedoch eine Gewässerstrecke, die
+                                          </p>
+                                          <p>13</p>
+                                          <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
+                                    </p>
+                                    <p type="legal_section">- 8 -</p>
+                                    <p type="legal_section">Wenn jedoch eine Gewässerstrecke, die
                                           für die Gewinnung einer
                                           <lb break="yes"/>Wasserkraft in Anspruch genommen wird,
                                           unter der Gebietshoheit
@@ -689,15 +662,13 @@
                                           gelegenen Bundesglieder
                                           <lb break="yes"/>sind dem Verfahren als beteiligte
                                           Parteien beizuziehen. </p>
-                  <p type="legal_section">
-                     <label>13.</label>/ Die Oberaufsicht
+                                    <p type="legal_section"><label>13.</label>/ Die Oberaufsicht
                                           über die Strassen und Brücken, deren Instandhaltung
                                           <lb break="yes"/>für den Bundesstaat Bedeutung hat. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_15"/>
-                  <head>Artikel XV. </head>
-                  <p type="legal_section">Die Angelegenheiten, welche zur
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XV. </head>
+                                    <p type="legal_section">Die Angelegenheiten, welche zur
                                           Zuständigkeit der Gesetzgebung
                                           <lb break="yes"/>der Bundesglieder gehören, kann diese die
                                           zur Regelung des Gegen
@@ -705,11 +676,10 @@
                                           auf dem Gebiete der
                                           <lb break="yes"/>Strafjustiz und Polizaistraf - sowie der
                                           Zivilgesetzgebung treffen, </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_16"/>
-                  <head>Artikel XVI.</head>
-                  <p type="legal_section">Die Landesregierungen sind verpflichtet,
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XVI.</head>
+                                    <p type="legal_section">Die Landesregierungen sind verpflichtet,
                                           alle Gesetzesbeschlüs
                                           <lb break="no"/>se der Landtage vor ihrer Kundmachung der
                                           Staatsregierung mit
@@ -734,13 +704,12 @@
                                           <lb break="no"/>se zu beharren, so hat dessen Kundmachung
                                           durch die Landesregie
                                           <lb break="no"/>rung zu erfolgen.</p>
-                  <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
-                  <p type="legal_section">- 9 - </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_17"/>
-                  <head>Artikel XVII. </head>
-                  <p type="legal_section">Gesetzesbeschlüsse der Landtage oder des
+                                    <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
+                                    <p type="legal_section">- 9 - </p>
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XVII. </head>
+                                    <p type="legal_section">Gesetzesbeschlüsse der Landtage oder des
                                           Wiener Gemeinderates
                                           <lb break="yes"/>können wegen Verfassungswidrigkeit
                                           (Artikel 6 - 14 ) von der
@@ -750,8 +719,7 @@
                                           des Artikels XVI zu
                                           <lb break="no"/>nächst eine Vorstellung erhoben worden
                                           ist, nach Ablauf weiterer </p>
-                  <p type="legal_section">
-                     <label>14</label> Tage beim
+                                    <p type="legal_section"><label>14</label> Tage beim
                                           Verfassungsgerichtshofe angefochten werden; diese
                                           <lb break="yes"/>Anfechtung ist der Landesregierung
                                           unverzüglich auf dem kürzesten
@@ -761,7 +729,7 @@
                                           dessen Verfassungsmässig
                                           <lb break="no"/>keit anerkannt hat; der
                                           Verfassungsgerichtshof hat binnen Monats-</p>
-                  <p type="legal_section">frist das Erkenntnis zu füllen,
+                                    <p type="legal_section">frist das Erkenntnis zu füllen,
                                           widrigens die Kundmachung des ange
                                           <lb break="no"/>fochtenen Gesetzesbeschlusses mit voller
                                           Rechtswirkung erfolgen
@@ -781,11 +749,10 @@
                                           gewährt, wenn das
                                           <lb break="yes"/>Schreiben vor Ablauf der Frist zur Post
                                           gegeben worden ist.</p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_18"/>
-                  <head>Artikel XVIII. </head>
-                  <p type="legal_section">Der Bund wird vertreten:
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XVIII. </head>
+                                    <p type="legal_section">Der Bund wird vertreten:
                                           <lb break="yes"/>a) durch die Bundesversammlung
                                           <lb break="yes"/>b) durch das Länderhaus,
                                           <lb break="yes"/>a) Die Bundesversammlung besteht aus dem
@@ -798,9 +765,9 @@
                                           der Gebietsgrenzen der
                                           <lb break="yes"/>einzelnen Bundesglieder und das
                                           Wahlverfahren wird durch beson-</p>
-                  <p type="legal_section">14</p>
-                  <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
-                  <p type="legal_section">-10-
+                                    <p type="legal_section">14</p>
+                                    <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
+                                    <p type="legal_section">-10-
                                           <lb break="yes"/>deres Gesetz, das einen Bestandteil der
                                           Bundesverfassung bil
                                           <lb break="no"/>det, geregelt.
@@ -816,7 +783,7 @@
                                           unberücksichtigt, Bruch
                                           <lb break="no"/>teile von 10.000 und darüber zählen für
                                           voll.</p>
-                  <p type="legal_section">b) Das Länderhaus besteht aus den von
+                                    <p type="legal_section">b) Das Länderhaus besteht aus den von
                                           den Landtagen und dem
                                           <lb break="yes"/>Gemeinderate der Bundeshauptstadt Wien
                                           nach den Grundsätzen des
@@ -833,17 +800,16 @@
                                           <lb break="yes"/>bestimmt die Landesgesetzgebung.
                                           <lb break="yes"/>Im Länderhaus hat jedes Bundesglied eine
                                           Stimme; diese</p>
-                  <p type="legal_section">Stimme wird nach der einfachen Mehrheit
+                                    <p type="legal_section">Stimme wird nach der einfachen Mehrheit
                                           seiner an der Abstim
                                           <lb break="no"/>mung teilnehmenden Vertreter ermittelt;
                                           Stimmengleichheit be
                                           <lb break="no"/>dingt Stimmenenthaltung für das
                                           betreffende Bundesglied. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_19"/>
-                  <head>Artikel XIX. </head>
-                  <p type="legal_section">Die Bundesversammlungen und das
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XIX. </head>
+                                    <p type="legal_section">Die Bundesversammlungen und das
                                           Länderhaus werden auf 6
                                           <lb break="yes"/>Jahre gewählt. Sinkt aber die Zahl der
                                           Mitglieder einer dieser
@@ -855,8 +821,7 @@
                                           beträgt wieder 6 Jahre
                                           <lb break="yes"/>Der Beginn der Amtsdauer wird in allen
                                           Fällen vom Tage des </p>
-                  <p type="legal_section">
-                     <label>1.</label> Zusammentrittes der
+                                    <p type="legal_section"><label>1.</label> Zusammentrittes der
                                           Bundesversammlung gerechnet.
                                           <lb break="yes"/>Die Neuwahlen sind so zeitig
                                           auszuschreiben, daß die Mitglie
@@ -865,13 +830,12 @@
                                           <lb break="yes"/>Ablauf der sechsjährigen Amtsdauer der
                                           abtretenden Bundesver
                                           <lb break="no"/>--------------------------- </p>
-                  <p type="legal_section">
-                     <label>1)</label> Falser möchte die
+                                    <p type="legal_section"><label>1)</label> Falser möchte die
                                           Rechte der Länder bei Auswahl ihrer Vertreter
                                           <lb break="yes"/>nicht beschränken durch die Forderung des
                                           Verhältniswahlrechtes.</p>
-                  <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
-                  <p type="legal_section">- 11
+                                    <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
+                                    <p type="legal_section">- 11
                                           <lb break="no"/>tretung gewählt sein können. Für die
                                           Einhaltung dieser Frist ist der
                                           <lb break="yes"/>Bundesrat der neuen Bundesversammlung
@@ -882,22 +846,20 @@
                                           Stimmenthaltung bis zum
                                           <lb break="yes"/>Eintritte der Vertreter (Schlußabsatz des
                                           Artikel XVIII.) </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_20"/>
-                  <head>Artikel XX. </head>
-                  <p type="legal_section">Wenn 5 Bundesglieder durch ihre
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XX. </head>
+                                    <p type="legal_section">Wenn 5 Bundesglieder durch ihre
                                           Vertretung (Landtag, Gemeinde
                                           <lb break="no"/>rat der Stadt Wien) es verlangen, hat die
                                           Bundesregierung die Bundes
                                           <lb break="no"/>Versammlung und das Länderhaus aufzulösen
                                           und Neuwahlen auszuschrei
                                           <lb break="no"/>ben. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_21"/>
-                  <head>Artikel XXI.</head>
-                  <p type="legal_section">Bundesgesetze kommen durch den
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXI.</head>
+                                    <p type="legal_section">Bundesgesetze kommen durch den
                                           übereinstimmenden Beschluß
                                           <lb break="yes"/>der Bundesversammlung und des
                                           Länderhauses zustande; die Feststel
@@ -914,11 +876,10 @@
                                           <lb break="yes"/>Schranken des Artikels XIV Z. 4) steht
                                           ausschließend der Bundesver
                                           <lb break="no"/>sammlung zu.</p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_22"/>
-                  <head>Artikel XXII. </head>
-                  <p type="legal_section">Zu einem giltigen Beschlüsse ist in
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXII. </head>
+                                    <p type="legal_section">Zu einem giltigen Beschlüsse ist in
                                           beiden Vertretungskörpern
                                           <lb break="yes"/>des Bundes die einfache Mehrheit der in
                                           beschlußfähiger Zahl an
@@ -937,14 +898,13 @@
                                           <lb break="yes"/>Abgelehnte Anträge können erst nach
                                           Durchführung allgemeiner
                                           <lb break="yes"/>Neuwahlen wieder eingebracht werden.</p>
-                  <p type="legal_section">15</p>
-                  <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
-                  <p type="legal_section">- 12 - </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_23"/>
-                  <head>Artikel XXIII. </head>
-                  <p type="legal_section">Die Bundesversammlung und das Länderhaus
+                                    <p type="legal_section">15</p>
+                                    <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
+                                    <p type="legal_section">- 12 - </p>
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXIII. </head>
+                                    <p type="legal_section">Die Bundesversammlung und das Länderhaus
                                           versammeln sich
                                           <lb break="yes"/>jährlich einmal zur ordentlichen Sitzung
                                           an einem durch die Geschäfts
@@ -955,22 +915,20 @@
                                           <lb break="no"/>den Mitglieder beschlossen werden, die
                                           aber nur mit 2/3 Mehrheit abge
                                           <lb break="no"/>ändert werden können. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_24"/>
-                  <head>Artikel XXIV. </head>
-                  <p type="legal_section">Zu ausserordentlichen Tagungen sind
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXIV. </head>
+                                    <p type="legal_section">Zu ausserordentlichen Tagungen sind
                                           Bundesversammlung und Län
                                           <lb break="no"/>derhaus durch Beschluß des Bundesrates
                                           einzuberufen; die Einberufung
                                           <lb break="yes"/>muß erfolgen, wenn ein Viertel der
                                           Mitglieder der Bundesversammlung
                                           <lb break="yes"/>oder 3 Bundesglieder es verlangen. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_25"/>
-                  <head>Artikel XXV.</head>
-                  <p type="legal_section">Bundesgesetze, sowie allgemein
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXV.</head>
+                                    <p type="legal_section">Bundesgesetze, sowie allgemein
                                           verbindliche Bundesbeschlüsse
                                           <lb break="yes"/>sind dem Volke zur Annahme oder
                                           Verwerfung vorzulegen, wenn es von
@@ -980,18 +938,16 @@
                                           die Frist zur Einbrin
                                           <lb break="no"/>gung dieses Verlangens wird durch
                                           Bundesgesetz geregelt. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_26"/>
-                  <head>Artikel XXVI. </head>
-                  <p type="legal_section">Die Sitzungen der Bundesversammlung und
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXVI. </head>
+                                    <p type="legal_section">Die Sitzungen der Bundesversammlung und
                                           des Länderhauses sind
                                           <lb break="yes"/>in der Regel öffentlich. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_27"/>
-                  <head>Artikel XXVII.</head>
-                  <p type="legal_section">Die oberste vollziehende und leitende
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXVII.</head>
+                                    <p type="legal_section">Die oberste vollziehende und leitende
                                           Verwaltungsbehörde
                                           <lb break="yes"/>des Bundesstaates ist der Bundesrat, der
                                           aus 7 Mitgliedern besteht.
@@ -1005,8 +961,8 @@
                                           Zwischenzeit freigewordenen Stel
                                           <lb break="no"/>len werden bei der nächstfolgenden Tagung
                                           der Bundesversammlung</p>
-                  <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
-                  <p type="legal_section">- 13
+                                    <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
+                                    <p type="legal_section">- 13
                                           <lb break="no"/>für den Rest der Amtsdauer wieder besetzt.
                                           <lb break="yes"/>Die Mitglieder des Bundesrates dürfen
                                           keine andere dienstliche
@@ -1032,11 +988,10 @@
                                           <lb break="yes"/>dieser es unterläßt, der Bundeskanzler
                                           die Einberufungsschreiben zu
                                           <lb break="yes"/>erlassen.</p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_28"/>
-                  <head>Artikel XXVIII. </head>
-                  <p type="legal_section">Den Vorsitz im Bundesrate führt der
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXVIII. </head>
+                                    <p type="legal_section">Den Vorsitz im Bundesrate führt der
                                           Bundespräsident, der aus
                                           <lb break="yes"/>seinen Mitgliedern von der
                                           Bundesversammlung für die Dauer von
@@ -1047,18 +1002,16 @@
                                           können, ist die An
                                           <lb break="no"/>wesenheit von wenigstens 4 Mitgliedern des
                                           Bundesrates notwendig. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_29"/>
-                  <head>Artikel XXIX. </head>
-                  <p type="legal_section">Die Mitglieder des Bundesrates beziehen
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXIX. </head>
+                                    <p type="legal_section">Die Mitglieder des Bundesrates beziehen
                                           einen jährlichen Ge
                                           <lb break="no"/>halt aus der Bundeskasse. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_30"/>
-                  <head>Artikel XXX. </head>
-                  <p type="legal_section">Die Mitglieder des Bundesrates haben bei
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXX. </head>
+                                    <p type="legal_section">Die Mitglieder des Bundesrates haben bei
                                           den Verhandlungen der
                                           <lb break="yes"/>Bundesversammlung und des Ländeshauses,
                                           insoweit sie nicht Mitglie
@@ -1067,28 +1020,24 @@
                                           <lb break="yes"/>Recht, über einen zur Beratung gestellten
                                           Gegenstand Anträge zu
                                           <lb break="yes"/>stellen.</p>
-                  <p type="legal_section">16</p>
-                  <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
-                  <p type="legal_section">- 14 - </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_31"/>
-                  <head>Artikel XXXI. </head>
-                  <p type="legal_section">Der Bundesrat hat insbesondere folgende
+                                    <p type="legal_section">16</p>
+                                    <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
+                                    <p type="legal_section">- 14 - </p>
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXI. </head>
+                                    <p type="legal_section">Der Bundesrat hat insbesondere folgende
                                           Befugnisse und
                                           <lb break="yes"/>Pflichten: </p>
-                  <p type="legal_section">
-                     <label>1.)</label> Er leitet die
+                                    <p type="legal_section"><label>1.)</label> Er leitet die
                                           bundesstaatlichen Angelegenheiten gemäß den Bundes
                                           <lb break="no"/>gesetzen und Bundesbeschlüssen, nach Mass
                                           der im Artikel XIV fest
                                           <lb break="no"/>gelegten Zuständigkeit der Bundesgewalt. </p>
-                  <p type="legal_section">
-                     <label>2.)</label> Er hat die
+                                    <p type="legal_section"><label>2.)</label> Er hat die
                                           Beobachtung der Verfassung, der Gesetze und Beschlüsse
                                           <lb break="yes"/>des Bundes zu überwachen, </p>
-                  <p type="legal_section">
-                     <label>3.)</label> er schlägt der
+                                    <p type="legal_section"><label>3.)</label> er schlägt der
                                           Bundesversammlung oder dem Länderhause oder beiden
                                           <lb break="yes"/>Vertretungskörpern gleichzeitig mit
                                           Beachtung der im Artikel XXI
@@ -1096,13 +1045,11 @@
                                           Beschlüsse vor und begut
                                           <lb break="no"/>achtet die Anträge, die von diesen
                                           Vertretungskörpern oder von den</p>
-                  <p type="legal_section">gesetzlichen Vertretungen der
+                                    <p type="legal_section">gesetzlichen Vertretungen der
                                           Bundesglieder an ihn gelangen, </p>
-                  <p type="legal_section">
-                     <label>4.)</label> er vollzieht die
+                                    <p type="legal_section"><label>4.)</label> er vollzieht die
                                           Bundesgesetze und Beschlüsse </p>
-                  <p type="legal_section">
-                     <label>5.)</label> er wahrt die
+                                    <p type="legal_section"><label>5.)</label> er wahrt die
                                           Interessen des Bundesstaates nach aussen und besorgt
                                           <lb break="yes"/>alle auswärtigen Angelegenheiten, er
                                           wacht für die äussere Sicherung
@@ -1119,19 +1066,16 @@
                                           sie abordnenden Länder, mit
                                           <lb break="yes"/>deren Landesregierungen sie unmittelbar
                                           verkehren; </p>
-                  <p type="legal_section">
-                     <label>6.)</label> er sorgt für die
+                                    <p type="legal_section"><label>6.)</label> er sorgt für die
                                           öffentliche Sicherheit im Innern des Staates und
                                           <lb break="yes"/>für die Aufrechthaltung der Ruhe und
                                           Ordnung nach Massgabe des</p>
-                  <p type="legal_section">Artikels III. </p>
-                  <p type="legal_section">
-                     <label>7.)</label> er hat die Aufsicht
+                                    <p type="legal_section">Artikels III. </p>
+                                    <p type="legal_section"><label>7.)</label> er hat die Aufsicht
                                           über die Geschäftsführung aller Beamten und
                                           <lb break="yes"/>Angestellten der bundesstaatlichen
                                           Verwaltung, </p>
-                  <p type="legal_section">
-                     <label>8.)</label> er erstattet der
+                                    <p type="legal_section"><label>8.)</label> er erstattet der
                                           Bundesversammlung bei ihrer ordentlichen Tagung
                                           <lb break="yes"/>Rechenschaft über seine Tätigkeit, sowie
                                           einen Bericht übere die
@@ -1140,24 +1084,22 @@
                                           <lb break="yes"/>besondere Berichte zu erstatten, wenn die
                                           Bundesversammlung oder
                                           <lb break="yes"/>das Länderhaus es verlangen.</p>
-                  <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
-                  <p type="legal_section">- 15
+                                    <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
+                                    <p type="legal_section">- 15
                                           <lb break="no"/>Für seine gesamte Amtsführung ist er der
                                           Bundesversammlung ver
                                           <lb break="no"/>antwortlich. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_32"/>
-                  <head>Artikel XXXII. </head>
-                  <p type="legal_section">Die Geschäfte des Bundesrates werden
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXII. </head>
+                                    <p type="legal_section">Die Geschäfte des Bundesrates werden
                                           unter die einzelnen Mit
                                           <lb break="no"/>glieder durch Beschluß des Bundesrates
                                           verteilt. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_33"/>
-                  <head>Artikel XXXIII. </head>
-                  <p type="legal_section">Zur Erledigung aller Geschäfte des
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXIII. </head>
+                                    <p type="legal_section">Zur Erledigung aller Geschäfte des
                                           Bundesrates ist ihm die
                                           <lb break="yes"/>Bundeskanzlei beigegeben, die unter
                                           Aufsicht des dem Bundesrate
@@ -1171,7 +1113,7 @@
                                           <lb break="yes"/>dem Bundesrate gewählt.
                                           <lb break="yes"/>Der Bundeskanzler bleibt auch nach Ablauf
                                           seiner Amtsdauer</p>
-                  <p type="legal_section">im Amte, bis die Uebergabe der Geschäfte
+                                    <p type="legal_section">im Amte, bis die Uebergabe der Geschäfte
                                           (Artikel XXVII) an seinen
                                           <lb break="yes"/>Nachfolger erfolgt ist. Seine, sowie der
                                           übrigen Angestellten der
@@ -1190,11 +1132,10 @@
                                           des Volkes; er ist in
                                           <lb break="yes"/>dieser Eigenschaft ausschließlich der
                                           Bundesversammlung verantwortlich. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_34"/>
-                  <head>Artikel XXXIV. </head>
-                  <p type="legal_section">Die im Kaiserstaate Oesterreich im
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXIV. </head>
+                                    <p type="legal_section">Die im Kaiserstaate Oesterreich im
                                           Zeitpunkte der Einführung
                                           <lb break="yes"/>der Republik in Geltung gestandenen
                                           Gesetze und die auf gesetzlicher
@@ -1202,9 +1143,9 @@
                                           k.k. Behörden, dann die
                                           <lb break="yes"/>seit Einführung der republikanischen
                                           Staatsform in Kraft getretenen</p>
-                  <p type="legal_section">17</p>
-                  <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
-                  <p type="legal_section">- 16
+                                    <p type="legal_section">17</p>
+                                    <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
+                                    <p type="legal_section">- 16
                                           <lb break="no"/>Gesetze und auf gesetzlicher Grundlage
                                           erlassenen Verordnungen
                                           <lb break="yes"/>der Behörden der Republik
@@ -1219,23 +1160,20 @@
                                           der Giltigkeit der vor
                                           <lb break="no"/>stehend erwähnten Gesetze und Verordnungen
                                           nicht. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_35"/>
-                  <head>Artikel XXXV.</head>
-                  <p type="legal_section">Zur Aenderung der Bestimmungen dieser
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXV.</head>
+                                    <p type="legal_section">Zur Aenderung der Bestimmungen dieser
                                           Bundesverfassung ist
                                           <lb break="yes"/>erforderlich:
                                           <lb break="yes"/>1.) Ein mit 2/3 Mehrheit der in
                                           beschlussfähiger Anzahl versammelten
                                           <lb break="yes"/>Bundesversammlung gefasster Beschluß auf
                                           Aenderung der Verfassung, </p>
-                  <p type="legal_section">
-                     <label>2.)</label> ein mit wenigstens 4
+                                    <p type="legal_section"><label>2.)</label> ein mit wenigstens 4
                                           Stimmen gefasster gleichlautender Beschluss des
                                           <lb break="yes"/>Länderhauses, </p>
-                  <p type="legal_section">
-                     <label>3.)</label> die Annahme dieses
+                                    <p type="legal_section"><label>3.)</label> die Annahme dieses
                                           Beschlusses durch das Volk in einer allgemein
                                           <lb break="yes"/>vom Bundesrate binnen 6 Monaten auf einen
                                           Sonntag auszuschreibenden
@@ -1248,11 +1186,10 @@
                                           Bestimmungen über die Durch
                                           <lb break="no"/>führung dieser Wahl und die Art der
                                           Fragestellung regeln.</p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_36"/>
-                  <head>Artikel XXXVI. </head>
-                  <p type="legal_section">Innerhalb der ersten 3 Jahre nach Beginn
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXVI. </head>
+                                    <p type="legal_section">Innerhalb der ersten 3 Jahre nach Beginn
                                           der Wirksamkeit die
                                           <lb break="no"/>ser Bundesverfassung kann ein
                                           Abänderungsantrag im Sinne des Artikels
@@ -1274,8 +1211,8 @@
                                           bestellen, der binnen Jahres
                                           <lb break="no"/>frist dem Bundeerate Bericht zu erstatten
                                           hat. Kommt im Ausschusse</p>
-                  <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
-                  <p type="legal_section">- 17
+                                    <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
+                                    <p type="legal_section">- 17
                                           <lb break="no"/>mit einfacher Stimmenmehrheit sämtlicher
                                           Mitglieder ein neuer Ent
                                           <lb break="no"/>wurf zustande, so ist dieser der
@@ -1289,11 +1226,10 @@
                                           dann so lange noch in
                                           <lb break="yes"/>Kraft, bis sie im Sinne des Artikels XXXV
                                           abgeändert wird. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_37"/>
-                  <head>Artikel XXXVII.</head>
-                  <p type="legal_section">Drei Monate nach Kundmachung dieser
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXVII.</head>
+                                    <p type="legal_section">Drei Monate nach Kundmachung dieser
                                           Bundesverfassung im Staats
                                           <lb break="no"/>gesetzblatte für die Republik Oesterreich,
                                           in welche Kundmachung auch
@@ -1307,11 +1243,10 @@
                                           Länderhaus durch die Landtage
                                           <lb break="yes"/>(den Wiener Gemeinderat) zu veranlassen.
                                     </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_38"/>
-                  <head>Artikel XXXVIII. </head>
-                  <p type="legal_section">Die Bundesverfassung und die erstmalige
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXVIII. </head>
+                                    <p type="legal_section">Die Bundesverfassung und die erstmalige
                                           Ausschreibung der Wahlen
                                           <lb break="yes"/>zur Bundesversammlung sind auch in den
                                           Landesgesetzblättern und im
@@ -1319,11 +1254,10 @@
                                           veröffentlichen, wobei ebenfalls die
                                           <lb break="yes"/>Annahme der Bundesverfassung durch die
                                           Bundesglieder festzustellen ist. </p>
-               </div>
-               <div type="article">
-                  <a class="navigation_article" xml:id="navigation_article_39"/>
-                  <head>Artikel XXXIX.</head>
-                  <p type="legal_section">Die Bundesversammlung und das Länderhaus
+                              </div>
+                              <div type="article">
+                                    <head>Artikel XXXIX.</head>
+                                    <p type="legal_section">Die Bundesversammlung und das Länderhaus
                                           sind von der Staatsre
                                           <lb break="no"/>gierung in der vierten Woche nach dem
                                           Wahltage in die Bundeshauptstadt
@@ -1342,10 +1276,10 @@
                                           Bundesrates hat die
                                           <lb break="yes"/>Staatsregierung die Regierungsgeschäfte
                                           dem Bundesrate zu übergeben.</p>
-                  <p type="legal_section">18</p>
-               </div>
-            </div>
-         </div>
-      </body>
-   </text>
+                                    <p type="legal_section">18</p>
+                              </div>
+                        </div>
+                  </div>
+            </body>
+      </text>
 </TEI>
