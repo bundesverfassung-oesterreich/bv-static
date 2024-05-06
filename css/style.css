@@ -835,10 +835,14 @@ span.pb::before {
     text-align: right;
 }
 
-span.pb_marker {
+/* span.pb_marker {
     color: grey;
 }
 
+span.pb_marker::after {
+    content: "|";
+    padding: 0 1rem;
+} */
 
 
 /* deleteme
