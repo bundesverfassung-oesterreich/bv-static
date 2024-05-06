@@ -1,259 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__51">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920</title>
+                <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                <principal>
+                    <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
+                </principal>
+                <funder>
+                    <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                     </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                     </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
                         Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                </publisher>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
                         Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
                             applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529258</idno>
-            <idno type="transkribus_collection">196428</idno>
-            <idno type="bv_data_set">Datenset B</idno>
-            <idno type="goobi">14600</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                  <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/91 ex 1920</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
-                     <title>Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920</title>
-                     <note type="editor">Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Lithographie">
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+                <idno type="transkribus_doc">1529258</idno>
+                <idno type="transkribus_collection">196428</idno>
+                <idno type="bv_data_set">Datenset B</idno>
+                <idno type="goobi">14600</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="invetory">
+                    <msIdentifier>
+                        <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
+                        <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
+                        <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/91 ex 1920</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
+                            <title>Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920</title>
+                            <note type="editor">Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Lithographie">
                         </objectDesc>
-                  <handDesc>
+                        <handDesc>
                         </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1920-09-15" notAfter-iso="1920-09-15">15. September 1920</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1920-09-15" notAfter-iso="1920-09-15">
+                    </physDesc>
+                    <history>
+                        <origin notBefore-iso="1920-09-15" notAfter-iso="1920-09-15">15. September 1920</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation>
+                <date notBefore-iso="1920-09-15" notAfter-iso="1920-09-15">
                     15. September 1920
                 </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-05-01" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="3007" lry="4788" xml:id="facs_2">
-         <graphic url="IMG_0090"
-                  width="3007px"
-                  height="4788px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3012" lry="4839" xml:id="facs_3">
-         <graphic url="IMG_0091"
-                  width="3012px"
-                  height="4839px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2990" lry="4807" xml:id="facs_4">
-         <graphic url="IMG_0092"
-                  width="2990px"
-                  height="4807px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2969" lry="4777" xml:id="facs_5">
-         <graphic url="IMG_0093"
-                  width="2969px"
-                  height="4777px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2996" lry="4811" xml:id="facs_6">
-         <graphic url="IMG_0094"
-                  width="2996px"
-                  height="4811px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2992" lry="4857" xml:id="facs_7">
-         <graphic url="IMG_0095"
-                  width="2992px"
-                  height="4857px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3001" lry="4815" xml:id="facs_8">
-         <graphic url="IMG_0096"
-                  width="3001px"
-                  height="4815px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2991" lry="4845" xml:id="facs_9">
-         <graphic url="IMG_0097"
-                  width="2991px"
-                  height="4845px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3000" lry="4829" xml:id="facs_10">
-         <graphic url="IMG_0098"
-                  width="3000px"
-                  height="4829px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3012" lry="4825" xml:id="facs_11">
-         <graphic url="IMG_0099"
-                  width="3012px"
-                  height="4825px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2995" lry="4839" xml:id="facs_12">
-         <graphic url="IMG_0100"
-                  width="2995px"
-                  height="4839px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3002" lry="4839" xml:id="facs_13">
-         <graphic url="IMG_0101"
-                  width="3002px"
-                  height="4839px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3003" lry="4874" xml:id="facs_14">
-         <graphic url="IMG_0102"
-                  width="3003px"
-                  height="4874px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2991" lry="4855" xml:id="facs_15">
-         <graphic url="IMG_0103"
-                  width="2991px"
-                  height="4855px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3008" lry="4924" xml:id="facs_16">
-         <graphic url="IMG_0104"
-                  width="3008px"
-                  height="4924px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3046" lry="4845" xml:id="facs_17">
-         <graphic url="IMG_0105"
-                  width="3046px"
-                  height="4845px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3014" lry="4844" xml:id="facs_18">
-         <graphic url="IMG_0106"
-                  width="3014px"
-                  height="4844px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3017" lry="4834" xml:id="facs_19">
-         <graphic url="IMG_0107"
-                  width="3017px"
-                  height="4834px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2985" lry="4812" xml:id="facs_20">
-         <graphic url="IMG_0108"
-                  width="2985px"
-                  height="4812px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2997" lry="4819" xml:id="facs_21">
-         <graphic url="IMG_0109"
-                  width="2997px"
-                  height="4819px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2992" lry="4807" xml:id="facs_22">
-         <graphic url="IMG_0110"
-                  width="2992px"
-                  height="4807px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3050" lry="4833" xml:id="facs_23">
-         <graphic url="IMG_0111"
-                  width="3050px"
-                  height="4833px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2997" lry="4815" xml:id="facs_24">
-         <graphic url="IMG_0112"
-                  width="2997px"
-                  height="4815px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3012" lry="4826" xml:id="facs_25">
-         <graphic url="IMG_0113"
-                  width="3012px"
-                  height="4826px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3011" lry="4820" xml:id="facs_26">
-         <graphic url="IMG_0114"
-                  width="3011px"
-                  height="4820px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3025" lry="4806" xml:id="facs_27">
-         <graphic url="IMG_0115"
-                  width="3025px"
-                  height="4806px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3006" lry="4811" xml:id="facs_28">
-         <graphic url="IMG_0116"
-                  width="3006px"
-                  height="4811px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3009" lry="4795" xml:id="facs_29">
-         <graphic url="IMG_0117"
-                  width="3009px"
-                  height="4795px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3016" lry="4798" xml:id="facs_30">
-         <graphic url="IMG_0118"
-                  width="3016px"
-                  height="4798px"/>
-      </surface>
-   </facsimile>
-   <text type="Sitzungsprotokoll">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>Protokoll
+            </creation>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when="2024-05-05" who="#cfh">document automatically created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0"><surface ulx="0" uly="0" lrx="3007" lry="4788" xml:id="facs_2"><graphic url="IMG_0090" width="3007px" height="4788px"/></surface><surface ulx="0" uly="0" lrx="3012" lry="4839" xml:id="facs_3"><graphic url="IMG_0091" width="3012px" height="4839px"/></surface><surface ulx="0" uly="0" lrx="2990" lry="4807" xml:id="facs_4"><graphic url="IMG_0092" width="2990px" height="4807px"/></surface><surface ulx="0" uly="0" lrx="2969" lry="4777" xml:id="facs_5"><graphic url="IMG_0093" width="2969px" height="4777px"/></surface><surface ulx="0" uly="0" lrx="2996" lry="4811" xml:id="facs_6"><graphic url="IMG_0094" width="2996px" height="4811px"/></surface><surface ulx="0" uly="0" lrx="2992" lry="4857" xml:id="facs_7"><graphic url="IMG_0095" width="2992px" height="4857px"/></surface><surface ulx="0" uly="0" lrx="3001" lry="4815" xml:id="facs_8"><graphic url="IMG_0096" width="3001px" height="4815px"/></surface><surface ulx="0" uly="0" lrx="2991" lry="4845" xml:id="facs_9"><graphic url="IMG_0097" width="2991px" height="4845px"/></surface><surface ulx="0" uly="0" lrx="3000" lry="4829" xml:id="facs_10"><graphic url="IMG_0098" width="3000px" height="4829px"/></surface><surface ulx="0" uly="0" lrx="3012" lry="4825" xml:id="facs_11"><graphic url="IMG_0099" width="3012px" height="4825px"/></surface><surface ulx="0" uly="0" lrx="2995" lry="4839" xml:id="facs_12"><graphic url="IMG_0100" width="2995px" height="4839px"/></surface><surface ulx="0" uly="0" lrx="3002" lry="4839" xml:id="facs_13"><graphic url="IMG_0101" width="3002px" height="4839px"/></surface><surface ulx="0" uly="0" lrx="3003" lry="4874" xml:id="facs_14"><graphic url="IMG_0102" width="3003px" height="4874px"/></surface><surface ulx="0" uly="0" lrx="2991" lry="4855" xml:id="facs_15"><graphic url="IMG_0103" width="2991px" height="4855px"/></surface><surface ulx="0" uly="0" lrx="3008" lry="4924" xml:id="facs_16"><graphic url="IMG_0104" width="3008px" height="4924px"/></surface><surface ulx="0" uly="0" lrx="3046" lry="4845" xml:id="facs_17"><graphic url="IMG_0105" width="3046px" height="4845px"/></surface><surface ulx="0" uly="0" lrx="3014" lry="4844" xml:id="facs_18"><graphic url="IMG_0106" width="3014px" height="4844px"/></surface><surface ulx="0" uly="0" lrx="3017" lry="4834" xml:id="facs_19"><graphic url="IMG_0107" width="3017px" height="4834px"/></surface><surface ulx="0" uly="0" lrx="2985" lry="4812" xml:id="facs_20"><graphic url="IMG_0108" width="2985px" height="4812px"/></surface><surface ulx="0" uly="0" lrx="2997" lry="4819" xml:id="facs_21"><graphic url="IMG_0109" width="2997px" height="4819px"/></surface><surface ulx="0" uly="0" lrx="2992" lry="4807" xml:id="facs_22"><graphic url="IMG_0110" width="2992px" height="4807px"/></surface><surface ulx="0" uly="0" lrx="3050" lry="4833" xml:id="facs_23"><graphic url="IMG_0111" width="3050px" height="4833px"/></surface><surface ulx="0" uly="0" lrx="2997" lry="4815" xml:id="facs_24"><graphic url="IMG_0112" width="2997px" height="4815px"/></surface><surface ulx="0" uly="0" lrx="3012" lry="4826" xml:id="facs_25"><graphic url="IMG_0113" width="3012px" height="4826px"/></surface><surface ulx="0" uly="0" lrx="3011" lry="4820" xml:id="facs_26"><graphic url="IMG_0114" width="3011px" height="4820px"/></surface><surface ulx="0" uly="0" lrx="3025" lry="4806" xml:id="facs_27"><graphic url="IMG_0115" width="3025px" height="4806px"/></surface><surface ulx="0" uly="0" lrx="3006" lry="4811" xml:id="facs_28"><graphic url="IMG_0116" width="3006px" height="4811px"/></surface><surface ulx="0" uly="0" lrx="3009" lry="4795" xml:id="facs_29"><graphic url="IMG_0117" width="3009px" height="4795px"/></surface><surface ulx="0" uly="0" lrx="3016" lry="4798" xml:id="facs_30"><graphic url="IMG_0118" width="3016px" height="4798px"/></surface></facsimile>
+    <text type="Sitzungsprotokoll">
+        <body><div type="main"><pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/><p>Protokoll
       <lb break="yes"/>
-               <lb break="yes"/>der 15. Sitzung des Unterausschusses des Verfassungsaus
+      <lb break="yes"/>der 15. Sitzung des Unterausschusses des Verfassungsaus
 <lb break="no"/>schusses vom 25. September 1520.
       <lb break="yes"/>Beginn 10 Uhr Vormittag.
       <lb break="yes"/>Anwesend:
@@ -268,20 +120,18 @@
       <lb break="yes"/>Prof. Dr. Ignaz Selpel
       <lb break="yes"/>Dr. RichardWeiskirchner
       <lb break="yes"/>
-               <lb break="yes"/>staatssekretär Prof. Dr. Michael Mavr
+      <lb break="yes"/>staatssekretär Prof. Dr. Michael Mavr
       <lb break="yes"/>
-               <lb break="yes"/>Von der Staatskanziel:
+      <lb break="yes"/>Von der Staatskanziel:
       <lb break="yes"/>Winisterfalrat Dr. Geors Froehlich
       <lb break="yes"/>Sektionsrat Dr. Egbert Mannlicher
       <lb break="yes"/>Kinisterialvizesekretär Dr. Kurt Frleberger
       <lb break="yes"/>als Schriftfährer
       <lb break="yes"/>
-               <lb break="yes"/>Prof. Dr Hans keisen als Experte des Verfassungsaus
+      <lb break="yes"/>Prof. Dr Hans keisen als Experte des Verfassungsaus
       <lb break="yes"/>schusses.
       <lb break="yes"/>
-               <lb break="yes"/>Ensoner</p>
-            <p>241<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>2</p>
-            <p>zu Beginn der Sitzung gibt Prof. Dr. se i pei folgende
+      <lb break="yes"/>Ensoner</p><p>241<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>2</p><p>zu Beginn der Sitzung gibt Prof. Dr. se i pei folgende
       <lb break="yes"/>Erklärung ab, Ideren vertraudiche Behandlung er ersucht, wobei
       <lb break="yes"/>Jedoch die Aufnahme in das Protokoll zugestanden ist. Der christl
       <lb break="yes"/>sexParteivorstang hat in seiner gastrigen Sitzung Beschlüsse
@@ -314,8 +164,7 @@
       <lb break="yes"/>Der Vorsitzende erklärt, dass die Partejen diese Erklärung
       <lb break="yes"/>ad referendum nehmen und ertellt Prof. Dr. Kelgen des Wort zu
       <lb break="yes"/>seinem Entwurf über die Bundeshauptstadt Wien. Dieser bemarkt
-      <lb break="yes"/>einlestend, dass noch eine technische Zesung erforder<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p>
-            <p>2ich sein wardeum namentlich alle auf Wien bezüglichen Punkte
+      <lb break="yes"/>einlestend, dass noch eine technische Zesung erforder<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p><p>2ich sein wardeum namentlich alle auf Wien bezüglichen Punkte
       <lb break="yes"/>Wiear
       <lb break="yes"/>zu überprüfen. Die shngelegenheiten sollen in einem besonderen
       <lb break="yes"/>Hauptstück geregelt werden, das nach dem Hauptstück über die
@@ -349,8 +198,7 @@
 <lb break="no"/>sien als gemeinsame Landesregierung zu erfolgen, um nicht neue
       <lb break="yes"/>Verwaltungsapperate aufkommen zu lassen. Als Versitzender und
       <lb break="yes"/>1
-      <lb break="yes"/>322<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>4</p>
-            <p>dessen Stellvertreter hätten abwechselnd der Bürgermeister und
+      <lb break="yes"/>322<pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>4</p><p>dessen Stellvertreter hätten abwechselnd der Bürgermeister und
       <lb break="yes"/>der Landeshauptmann zu fungieren, Für die endgiltige Auseinander
       <lb break="yes"/>setzung mäste ein übereinstimmendes Gesetz des Landen Niederbater
 <lb break="no"/>relck und der Gemeinde Nien genügen.
@@ -382,8 +230,7 @@
       <lb break="yes"/>auch gegen indirekte Rahlen spreche, x den tynischen Fall einer Be
 <lb break="no"/>legation in Sinne des Alten Staatsrechts. Der Versitzende mückte
       <lb break="yes"/>namentlich die Forte, aus seiner Mittestreichen und den Parteien die
-      <lb break="yes"/>Freiheit geben zu wählen, nen sie wollen. Durah das Verhältniswahl-<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p>
-            <p>recht sel üherdies die Benachtelllgung einer Partel ausgeschlonsen.
+      <lb break="yes"/>Freiheit geben zu wählen, nen sie wollen. Durah das Verhältniswahl-<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p><p>recht sel üherdies die Benachtelllgung einer Partel ausgeschlonsen.
       <lb break="yes"/>Das Verfahren wäre so zu regeln wie beim Bundesrat und bei den Landes
       <lb break="yes"/>regierungen. In der Regel werden sich die Gemeinderkte wohl selbst
       <lb break="yes"/>selegieren.
@@ -416,8 +263,7 @@
       <lb break="yes"/>die Steitmag des Lanstages.
       <lb break="yes"/>Art. De
       <lb break="yes"/>A) zu den richt gegetnennen angelegerhelten gefüre die Verenssung
-      <lb break="yes"/>173<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>6</p>
-            <p>seden det beiden Landastetle sonie die Fehl der Witglieder zum Dun
+      <lb break="yes"/>173<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>6</p><p>seden det beiden Landastetle sonie die Fehl der Witglieder zum Dun
 <lb break="no"/>desrat.
       <lb break="yes"/>21 ease steht die Gegetzgebung hinnichtlich der Abgaben. sn
 <lb break="no"/>zeit sie in den Kirkungskreie der Länder fallt, dem Gemeinderat der
@@ -449,8 +295,7 @@
       <lb break="yes"/>and„Art, F.
       <lb break="yes"/>f1) Die Verwaltung der gemeinsamen Angelegenheiten erfolgt durck
       <lb break="yes"/>eine rom gemeinsamen Landtag auß seiner Mitte nach dem Verhältniswahl
-<lb break="no"/>recht zu nählande Vermaltungekonnlasten als gemeinonne landsoreglerung.<pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>7</p>
-            <p>12) Als Voreztzender und dessen Stallverträter fungieren ab
+<lb break="no"/>recht zu nählande Vermaltungekonnlasten als gemeinonne landsoreglerung.<pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>7</p><p>12) Als Voreztzender und dessen Stallverträter fungieren ab
 <lb break="no"/>Lechseind der Bürgermelster der Fradt hien und der Landsshauptmann
       <lb break="yes"/>von Niederösterraich (Furia lunal.
       <lb break="yes"/>TrofDr-Seipei minecht Festztallung, daß diese beiden Ar
@@ -484,9 +329,7 @@
       <lb break="yes"/>wan könnte sist begnügen einen Schiraastiket in die Verfessung aufzu
 <lb break="no"/>refser, der erklärt, das die Jetergangetsstimmungen in einen etgenen
       <lb break="yes"/>Coaetz,üre dem festandzeil der Verfassung erklärt wird, enthalten sind,
-      <lb break="yes"/>
-               <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p>
-            <p>gebe? jedoch für dieser Gesetz die Bestimmungen über die Eß3 Maje
+      <lb break="yes"/><pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p><p>gebe? jedoch für dieser Gesetz die Bestimmungen über die Eß3 Maje
 <lb break="no"/>Ftat und die Volkeabstimmung nicht zu gelten hätten. Die Zeit zur
       <lb break="yes"/>Fertigstellung dieses Entwurfes saf so kufz, daß wahrecheinlich noch
       <lb break="yes"/>Erganzungen erforderlich sein dürften, e« wäre daher gefährlich, bei
@@ -518,8 +361,7 @@
 <lb break="no"/>tat Dre Froehiich begründet diese Horte mit der käglichkeit
       <lb break="yes"/>das die verschiedenen Bestimmungen des Verfassungsgesetzse zu ver
 <lb break="no"/>schjedenen Zeiten in Sfaft treten, sodaß auch die Kenderung der Ge
-<lb break="no"/>setze entsprechend zu erfolgen hätte. Abgeordneter Cie««ia<pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p>
-            <p>schlleßt sich den Streichungsantrag an und münscht auch das Hort
+<lb break="no"/>setze entsprechend zu erfolgen hätte. Abgeordneter Cie««ia<pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p><p>schlleßt sich den Streichungsantrag an und münscht auch das Hort
       <lb break="yes"/>„Lusofesn" durch, insoweit" ersetzt. Den Titel des Verfassungsge
 <lb break="no"/>setzes wünacht der Voreitzenie offen zu lassen, auch soll das
       <lb break="yes"/>wart, Oosterreich" gestrichen werden.
@@ -588,8 +430,7 @@
 <lb break="no"/>lichkeit, offene Fragen durch Geaetz zu löten aber bin dahin müeee
       <lb break="yes"/>die Verordnungsgewalt eingreifen. Der Verellzande erblickt(efahr
       <lb break="yes"/>in der Konkurenz der Bunden-und der Landeereglerungaund möchts er.
-      <lb break="yes"/>wägen, ed man solche Verordnungen nicht an besondere Voraussetzungen<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>11</p>
-            <p>binden sollte, etwa unter Beiziehung der Hauptausschasses. Prof. Dr
+      <lb break="yes"/>wägen, ed man solche Verordnungen nicht an besondere Voraussetzungen<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>11</p><p>binden sollte, etwa unter Beiziehung der Hauptausschasses. Prof. Dr
       <lb break="yes"/>Eel sen erbliakt darin eine Vereögerung, die den Bedürfnis Fa
 <lb break="no"/>schester Erledigung nicht Rechnung trägt. Besonders bedenklich Ein
 <lb break="no"/>det der Versitzende, das in Augenblick der Inksafttretene der Ver
@@ -653,8 +494,7 @@
       <lb break="yes"/>121 Die nach dem Oesetze vom 21. Shli 1927, R.G.Bi. Nr.307, ait
       <lb break="yes"/>weichen die Regierung ermächtigt wird, aus Anlaß der durch den Kriage
 <lb break="no"/>zustand verursachten anßerordentlichen Verhältnisse die notwendigen
-      <lb break="yes"/>Verfügungen auf wirtschaftlichen Oebiate zu treffen, der Regierung<pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>13</p>
-            <p>urtulrnden Befnenseee gehen sowohl auf die Sundseregierung, als weh
+      <lb break="yes"/>Verfügungen auf wirtschaftlichen Oebiate zu treffen, der Regierung<pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>13</p><p>urtulrnden Befnenseee gehen sowohl auf die Sundseregierung, als weh
       <lb break="yes"/>aut die einzeinen Burdsaninister über.
       <lb break="yes"/>zum folgenden Faragrapt denerkt der Vereitzende, er siess nicht,
       <lb break="yes"/>si setne Fertei zustinnt, das die innere Verwaltung in die Fand der
@@ -687,8 +527,7 @@
 <lb break="no"/>geeverfaewwaztgechtzon zie zu disaer Bezöshahte utdd die Brrknshs
       <lb break="yes"/>örger
       <lb break="yes"/>doch findet Eesssdterflit den Zaraesfähen austestsn)
-      <lb break="yes"/>327<pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>14</p>
-            <p>eolange man nicht genau weif, ed die laratira Aufzanlung diesen Ab
+      <lb break="yes"/>327<pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>14</p><p>eolange man nicht genau weif, ed die laratira Aufzanlung diesen Ab
 <lb break="no"/>satzen vollzählig lst. Abgeordnster Ole»»in verneist nament
 <lb break="no"/>1ich auf das Schulwesen, das nie Sektichargt Dr. Maanliaber
       <lb break="yes"/>mitteilt, nech nicht behandelt werden konnte, da der Unterausschus
@@ -753,8 +592,7 @@
 <lb break="no"/>ie und Pfrichhen zulachen Bund und Land in Verühltnis der tatsäch
       <lb break="yes"/>zichen Inansprucknehme in Zeitpunkie des Lahtartissteas des Bundes
 <lb break="no"/>verlaggungaedestred zuderdanderanbetzen. Dis duseinandersetzung,
-      <lb break="yes"/>328<pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>16</p>
-            <p>sne enar wush alt der Sirhueg gegen leitte, berergs da deder lar
+      <lb break="yes"/>328<pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>16</p><p>sne enar wush alt der Sirhueg gegen leitte, berergs da deder lar
       <lb break="yes"/>de sins Konntssiod, besichend aus einen von Ponsidenten des Ldal
       <lb break="yes"/>digen Oberlandesgerichlss aus den Richterd des landes zu Braklamet
       <lb break="yes"/>den Voreiteenden und aus se etnen von der Buldesrestenuag Nad Nat
@@ -887,8 +725,7 @@
       <lb break="yes"/>(2) Die Banmten und Btaner der Nettsnatsersammlung werden Ange
       <lb break="yes"/>stallte der Kannlas des Vationulraten, sie sind hineichtlich Eürer
       <lb break="yes"/>Melzung, drer veliehten uid kachts der Bunderangeeteilten glaichge.
-      <lb break="yes"/>malten.“</p>
-            <p>330<pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>20-
+      <lb break="yes"/>malten.“</p><p>330<pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>20-
       <lb break="yes"/>Auch in § 11 sunscht der Vorettzende den Zestpunkt des Zusan
 <lb break="no"/>mentrittes offengelaesen. Bei der Aufzählung wünscht Prof.Dr.R B1.
       <lb break="yes"/>s en aukdrückliche Festetellung, daß Dien und Hiedazöelerreich
@@ -922,8 +759,7 @@
       <lb break="yes"/>nabei § 5 dieses Gesetzen Anwendung findet.
       <lb break="yes"/>(2) ale erste Verlautbarungen des Zundesgesetzbiattee sind dan
       <lb break="yes"/>Bundesverfaseungagesetz und diesen Gesetz neu kundzukachen: die eg
-      <lb break="yes"/>neu verzautbarten Tarte werden dann die weßgebanden.<pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>21</p>
-            <p>§. 19.
+      <lb break="yes"/>neu verzautbarten Tarte werden dann die weßgebanden.<pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>21</p><p>§. 19.
       <lb break="yes"/>Zu Artikel 42e.
       <lb break="yes"/>Tar Gesetr vor 13. Apzil 2920, St. C.Bl.Nr.180, über die Mitwir
 <lb break="no"/>Xvag der Natiohal versammlung an dar Regelung von Eisenbahnkarifen,
@@ -957,8 +793,7 @@
       <lb break="yes"/>Jnag (hräaket 25 al sine devrndgen Einterusung en
       <lb break="yes"/>Iu Inr vormittage da Paslamestagssände zusannen.
       <lb break="yes"/>12) Kann dde Auzudabuar des duugerlihlnen beaoldanten aicht noch
-      <lb break="yes"/>in dergeleen sitzvur der Ernusazersaudiung erfolgen do hat der</p>
-            <p>331<pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>22
+      <lb break="yes"/>in dergeleen sitzvur der Ernusazersaudiung erfolgen do hat der</p><p>331<pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>22
       <lb break="yes"/>Aunseglanele1 dls Wuafsereraamnlung auf der müohelniglleten hill
 <lb break="no"/>punte zur Angelebeng dei Bundesprächdenten slanuberuien.
       <lb break="yes"/>(3) Big zur Angelatung den Bundesprüsidenten werden alle Ihm
@@ -1024,8 +859,7 @@
       <lb break="yes"/>gesetrst berohloesen worden sind, enferne die Btaatereglerung hzezn
       <lb break="yes"/>noch nicht in Dinne der Artikei Ie und 15 des Geretzes von 11 Were
       <lb break="yes"/>3579, Sr. 5BI.Nr.119. über die Nelksvertretung, Steliung genonman
-      <lb break="yes"/>wat oder die in den letatuezogenen Gegetzdestellen bestlapten frisder</p>
-            <p>332<pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>24
+      <lb break="yes"/>wat oder die in den letatuezogenen Gegetzdestellen bestlapten frisder</p><p>332<pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>24
       <lb break="yes"/>noch micht verstrichen sind. Für die Berechnung der Frist des Kr
 <lb break="no"/>bikols 8s, Abs. 2,glit der Tag des Einlangens des Gesetzes bei der
       <lb break="yes"/>Stasteregisrung als der Tag des Einlangens hel der Bundssreglarlwg
@@ -1118,8 +952,7 @@
 <lb break="no"/>sicht gestellt.
       <lb break="yes"/>Zu § 33 bemerkt Professor Dr. Kelsen daß zwar eine
       <lb break="yes"/>Frist gesetzt werden könnte, daß dies aber keine Sanktion wäre, weil
-      <lb break="yes"/>man den Nationalrat nicht zur Wahl des Verfassungsgerichtshofes<pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>27</p>
-            <p>zwingen könne. Der Unterausschuß entschließt sich für die
+      <lb break="yes"/>man den Nationalrat nicht zur Wahl des Verfassungsgerichtshofes<pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>27</p><p>zwingen könne. Der Unterausschuß entschließt sich für die
       <lb break="yes"/>von der Staatekanzlei vorgelegte Fasgung.
       <lb break="yes"/>"§33
       <lb break="yes"/>Zu Artikel 147
@@ -1206,8 +1039,6 @@
       <lb break="yes"/>wird und dann der endgiltige Text feptgestellt werden soll
 <lb break="no"/>Die nächsts Sitzung wird im Laufe der nächsten Woche statt
 <lb break="no"/>Einden
-<lb break="no"/>335</p>
-         </div>
-      </body>
-   </text>
+<lb break="no"/>335</p></div></body>
+    </text>
 </TEI>

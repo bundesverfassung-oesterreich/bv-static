@@ -1,162 +1,161 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__10">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Rehrl Entwurf</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski,
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title type="main">Rehrl Entwurf</title>
+                        <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                        <principal>
+                              <persName role="acdh:hasPrincipialInvestigator">Olechowski,
                                     Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+                        </principal>
+                        <funder>
+                              <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                              <address>
+                                    <street>Sensengasse 1</street>
+                                    <postCode>1090 Wien</postCode>
+                                    <placeName>
+                                          <country>A</country>
+                                          <settlement>Wien</settlement>
+                                    </placeName>
+                              </address>
+                        </funder>
+                        <respStmt>
+                              <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                              <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                              <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                              <persName role="acdh:hasContributor"
+                                    key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                        </respStmt>
+                        <respStmt>
+                              <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                              <persName role="acdh:hasContributor"
+                                    key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                               </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <publisher>
+                              <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for
                                     Digital Humanities and Cultural Heritage an der Österreichischen
                                     Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien.
+                        </publisher>
+                        <publisher>
+                              <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien.
                                     Institut für Rechts- und Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY
+                        </publisher>
+                        <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                        <date when="2023">2023</date>
+                        <availability>
+                              <licence target="https://creativecommons.org/licenses/by/4.0/">
+                                    <p>The Creative Commons Attribution 4.0 International (CC BY
                                           4.0) License applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529208</idno>
-            <idno type="transkribus_collection">195363</idno>
-            <idno type="bv_data_set">Datenset A</idno>
-            <idno type="goobi">14520</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der
+                                    <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                              </licence>
+                        </availability>
+                        <idno type="transkribus_doc">1529208</idno>
+                        <idno type="transkribus_collection">195363</idno>
+                        <idno type="bv_data_set">Datenset A</idno>
+                        <idno type="goobi">14520</idno>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <msDesc type="invetory">
+                              <msIdentifier>
+                                    <institution key="https://d-nb.info/gnd/37748-X"
+                                          >Österreichisches Staatsarchiv</institution>
+                                    <repository key="https://d-nb.info/gnd/1601181-8">Archiv der
                                           Republik (Wien)</repository>
-                  <idno type="archive">AdR, BKA Inneres, Staatskenzlei, karton
+                                    <idno type="archive">AdR, BKA Inneres, Staatskenzlei, karton
                                           250, Mappe3.</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Rehrl, Franz</author>
-                     <title>Rehrl Entwurf</title>
-                     <note type="editor">Rehrl (Titel des Dokuments: "Die
+                              </msIdentifier>
+                              <msContents>
+                                    <msItem>
+                                          <author role="acdh:hasAuthor">Rehrl, Franz</author>
+                                          <title>Rehrl Entwurf</title>
+                                          <note type="editor">Rehrl (Titel des Dokuments: "Die
                                                 Bundesverfassung Österreichs"), Zustand: mäßig,
                                                 zahlreiche Unterstreichungen, Anmerkungen in Steno,
                                                 keine formale Artikelzählung</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Druck"> </objectDesc>
-                  <handDesc> </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1919-12-01" notAfter-iso="1919-12-31">Im
+                                    </msItem>
+                              </msContents>
+                              <physDesc>
+                                    <objectDesc form="Druck"> </objectDesc>
+                                    <handDesc> </handDesc>
+                              </physDesc>
+                              <history>
+                                    <origin notBefore-iso="1919-12-01" notAfter-iso="1919-12-31">Im
                                           Dezember 1919</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1919-12-01" notAfter-iso="1919-12-31"> Im Dezember 1919
+                              </history>
+                        </msDesc>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                  <abstract>
+                        <p/>
+                  </abstract>
+                  <creation>
+                        <date notBefore-iso="1919-12-01" notAfter-iso="1919-12-31"> Im Dezember 1919
                         </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-02-27" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="3067" lry="4087" xml:id="facs_2">
-         <graphic url="IMG_0002"
-                  width="3067px"
-                  height="4087px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3000" lry="4090" xml:id="facs_3">
-         <graphic url="IMG_0003"
-                  width="3000px"
-                  height="4090px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3018" lry="4095" xml:id="facs_4">
-         <graphic url="IMG_0004"
-                  width="3018px"
-                  height="4095px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2986" lry="4107" xml:id="facs_5">
-         <graphic url="IMG_0005"
-                  width="2986px"
-                  height="4107px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2946" lry="4076" xml:id="facs_6">
-         <graphic url="IMG_0006"
-                  width="2946px"
-                  height="4076px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3065" lry="4120" xml:id="facs_7">
-         <graphic url="IMG_0007"
-                  width="3065px"
-                  height="4120px"/>
-      </surface>
-   </facsimile>
-   <text type="Verfassungsentwurf">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>
-               <emph>Die Bundesverfassung Oesterreichs </emph>
-               <lb break="yes"/>
-               <emph>von Landeshauptmannstellvertreter Dr.
-                                    Rehrl.</emph>
-            </p>
-            <p>Am 18. September 1919 fand beim Salzburger Lan
+                  </creation>
+            </profileDesc>
+            <revisionDesc status="created">
+                  <change when="2024-02-27" who="#cfh">document automatically created</change>
+            </revisionDesc>
+      </teiHeader>
+      <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+            <surface ulx="0" uly="0" lrx="3067" lry="4087" xml:id="facs_2">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__10/files/images/IMG_0002/full/full/0/default.jpg"
+                        width="3067px" height="4087px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="3000" lry="4090" xml:id="facs_3">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__10/files/images/IMG_0003/full/full/0/default.jpg"
+                        width="3000px" height="4090px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="3018" lry="4095" xml:id="facs_4">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__10/files/images/IMG_0004/full/full/0/default.jpg"
+                        width="3018px" height="4095px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2986" lry="4107" xml:id="facs_5">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__10/files/images/IMG_0005/full/full/0/default.jpg"
+                        width="2986px" height="4107px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="2946" lry="4076" xml:id="facs_6">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__10/files/images/IMG_0006/full/full/0/default.jpg"
+                        width="2946px" height="4076px"/>
+            </surface>
+            <surface ulx="0" uly="0" lrx="3065" lry="4120" xml:id="facs_7">
+                  <graphic
+                        url="https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__10/files/images/IMG_0007/full/full/0/default.jpg"
+                        width="3065px" height="4120px"/>
+            </surface>
+      </facsimile>
+      <text type="Verfassungsentwurf">
+            <body>
+                  <div type="main">
+                        <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
+                        <p><emph>Die Bundesverfassung Oesterreichs </emph>
+                              <lb break="yes"/><emph>von Landeshauptmannstellvertreter Dr.
+                                    Rehrl.</emph></p>
+                        <p>Am 18. September 1919 fand beim Salzburger Lan
                               <lb break="no"/>desrat mit dem Staatssekretär Dr. Michael Mayr
                               <lb break="yes"/>eine Beratung über die zukünftige Verfassung Oester
                               <lb break="no"/>reichs statt. Aus dem Erpose des Staatssekretärs konn
                               <lb break="no"/>ten die Leitlinien des Regierungsentwurfes entnom
                               <lb break="no"/>men werden, so daß mir die Beurteilung und die Stel
                               <lb break="no"/>lungnahme hiezu möglich ist.
-                              <lb break="yes"/>
-            </p>
-            <p>Es kann im großen und ganzen gesagt werden, daß
+                              <lb break="yes"/></p>
+                        <p>Es kann im großen und ganzen gesagt werden, daß
                               <lb break="yes"/>die Pläne der Regierung eine geeignete Grund
                               <lb break="no"/>lage zur Behandlung mit den Ländern bilden,
                               <lb break="yes"/>wenngleich in manchen Punkten eine entsprechende Er
@@ -170,12 +169,10 @@
                               <lb break="yes"/>eine vollständige Uebereinstimmung besteht und auch
                               <lb break="yes"/>die Differenzen mit der sozialdemokratischen Landtags
                               <lb break="no"/>partei nicht allzu groß sind.</p>
-            <p> Die Staatsform Oesterreichs ist die einer demokra
+                        <p> Die Staatsform Oesterreichs ist die einer demokra
                               <lb break="no"/>tischen</p>
-            <p>
-               <emph>Bundesrepublik,</emph>
-            </p>
-            <p> bestehend aus den gleichberechtigten souve
+                        <p><emph>Bundesrepublik,</emph></p>
+                        <p> bestehend aus den gleichberechtigten souve
                               <lb break="no"/>ränen Ländern mit der Bundeshauptstadt Wien,
                               <lb break="yes"/>die die Stellung eines Landes inne hat. Das Bun
                               <lb break="no"/>desgebiet ist ein einheitliches Zoll- und Handels
@@ -197,14 +194,10 @@
                               <lb break="no"/>sen, wie sie im vergangenen Jahre das Land bedroht
                               <lb break="yes"/>haben, denen es bei nicht entsprechender Vorbeugungs
                               <lb break="no"/>möglichkeit hilflos ausgeliefert wäre.
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>Kompetenz des Bundes und der Länder.
-                                    <lb break="yes"/>
-               </emph>
-            </p>
-            <p>Von einer eigentlichen Kompetenzabsteckung zwischen
+                              <lb break="yes"/></p>
+                        <p><emph>Kompetenz des Bundes und der Länder.
+                                    <lb break="yes"/></emph></p>
+                        <p>Von einer eigentlichen Kompetenzabsteckung zwischen
                               <lb break="yes"/>den Ländern und dem Bundesstaate kann bei Schaf
                               <lb break="no"/>jung des Bundesstaates ja nicht gesprochen werden, da
                               <lb break="yes"/>die volle Souveränität den Gliedstaaten gebührt. Viel
@@ -213,14 +206,10 @@
                               Bundestaat. So ist auch die Konstruktion von Seite der
                               <lb break="yes"/>Regierung gedacht. Es soll an den Bundesstaat über
                               <lb break="no"/>tragen werden die
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>Kompetenz in Gesetzgebung und Vollziehung.
-                                    <lb break="yes"/>
-               </emph>
-            </p>
-            <p>in den auswärtigen Angelegenheiten, im Milität
+                              <lb break="yes"/></p>
+                        <p><emph>Kompetenz in Gesetzgebung und Vollziehung.
+                                    <lb break="yes"/></emph></p>
+                        <p>in den auswärtigen Angelegenheiten, im Milität
                               <lb break="no"/>wesen, im Fremdenpolizei- und Paßwesen; wei
                               <lb break="no"/>ters soll übertragen werden die Sicherheits
                               <lb break="no"/>polizei in den Gemeinden, von einer bestimm
@@ -234,20 +223,17 @@
                               Hier
                               <lb break="no"/>über hätte also der Bund die ausschließliche
                               <lb break="yes"/>Kompetenz in Gesetzgebung und Vollziehung.
-                              <lb break="yes"/>
-            </p>
-            <p>Vom Standpunkt des Landes aus ist im großen und
+                              <lb break="yes"/></p>
+                        <p>Vom Standpunkt des Landes aus ist im großen und
                               <lb break="yes"/>ganzen gegen diese Kompetenzübertragung mit Aus
                               <lb break="no"/>nahme einiger anzuführender Modifikationen nichts
                               <lb break="yes"/>einzuwenden. Bei Besorgung der auswärtigen Ange
                               <lb break="no"/>legenheiten muß eine gewisse Einschränkung in der Rich
                               <lb break="no"/>tung getroffen werden, daß die Erledigung der </p>
-            <p>
-               <lb break="yes"/>
-               <emph>Anschlußfrage</emph>.
-                              <lb break="yes"/>
-            </p>
-            <p>an Deutschland nicht ohne Mitwirkung der Länder er
+                        <p>
+                              <lb break="yes"/><emph>Anschlußfrage</emph>.
+                              <lb break="yes"/></p>
+                        <p>an Deutschland nicht ohne Mitwirkung der Länder er
                               <lb break="no"/>folgen dürfe, da ja ein Anschluß an Deutschland in der
                               <lb break="yes"/>Form, daß ganz Oesterreich als ein Bundesstaat Groß
                               <lb break="no"/>deutschland sich anschließt, wodurch Oesterreich zu
@@ -259,41 +245,32 @@
                               <lb break="yes"/>zu verschwinden hätte und sich die Länder als Glied
                               <lb break="no"/>taaten Großdeutschlands, jedes einzeln für sich,
                               <lb break="yes"/>anzuschließen hätten. Das
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>Militärwesen,</emph>
-            </p>
-            <p>
-               <lb break="yes"/>das in unserem Staate nur als Sicherheitsein
+                              <lb break="yes"/></p>
+                        <p><emph>Militärwesen,</emph></p>
+                        <p>
+                              <lb break="yes"/>das in unserem Staate nur als Sicherheitsein
                               <lb break="no"/>richtung in Frage kommt, dürfte wohl zur gesetzli
                               <lb break="no"/>chen Regelung ausschließlich dem Gesamtstaate zuge
                               <lb break="no"/>sprochen werden, jedoch muß der Vorbehalt der Landes
                               <lb break="no"/>regierung zur Mitwirkung bei Aufstellung der einzel
                               <lb break="no"/>nen Landeskontingente gerade im Interesse des Si
                               <lb break="no"/>cherheitsdienstes im Lande gewahrt werden. </p>
-            <p>
-               <lb break="yes"/>Als selbstverständlich muß angenommen werden, daß
+                        <p>
+                              <lb break="yes"/>Als selbstverständlich muß angenommen werden, daß
                               <lb break="yes"/>die Durchführung des Volksgesundheitswesens,
                               <lb break="yes"/>der sozialen Fürsorge, des Kultuswesens usw. in den
                               <lb break="yes"/>Ländern durch die Landesregierung besorgt wird, da?
                               <lb break="yes"/>!
-                              <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>20<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>?
-                              <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>!
-                              <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>man sich ansonsten in den einzelnen Ländern vor lau
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/><gap reason="illegible"/>20<pb facs="#facs_3" n="3"
+                                    xml:id="img_0003" break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/>?
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/>!
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/>man sich ansonsten in den einzelnen Ländern vor lau
                               <lb break="no"/>ter bürokratisch organisierten Regierungsbehörden
                               nicht
                               <lb break="yes"/>mehr auskennen würde und schließlich für die Selbst
@@ -303,12 +280,11 @@
                               <lb break="yes"/>staatlich-bürokratisch organisierte Be
                               <lb break="no"/>hörden zu bestehen. Darüber wird näher bei der
                               <lb break="yes"/>Organisation der Behörden zu sprechen sein.</p>
-            <p>Wir kommen nunmehr zum Abschnitte der Ueber
+                        <p>Wir kommen nunmehr zum Abschnitte der Ueber
                               <lb break="no"/>tragung der</p>
-            <p>
-               <emph>Kompetenz nur in der Gesetzgebung</emph>
-            </p>
-            <p> in jenen Fällen, wo die Vollziehung durch die Länder
+                        <p><emph>Kompetenz nur in der Gesetzgebung</emph>
+                        </p>
+                        <p> in jenen Fällen, wo die Vollziehung durch die Länder
                               <lb break="yes"/>selbst erfolgt. Hier wäre zu bemerken, daß unter den
                               <lb break="yes"/>gesichtspunkte der Einheitlichkeit des Rechtes eine
                               et
@@ -341,11 +317,9 @@
                               <lb break="yes"/>über das Bevölkerungswesen schließlich über das Ver
                               <lb break="no"/>waltungs-Strafverfahren und die Grundsätze des Ver
                               <lb break="no"/>waltungsstrafrechtes. </p>
-            <p>
-               <emph>
-                  <lb break="yes"/>Die Steuerhoheit. </emph>
-            </p>
-            <p>Niemals aber können die souveränen Länder zuge
+                        <p><emph>
+                                    <lb break="yes"/>Die Steuerhoheit. </emph></p>
+                        <p>Niemals aber können die souveränen Länder zuge
                               <lb break="no"/>ben, daß ihnen die Steuerquellen einseitig vom Staate
                               <lb break="yes"/>zugewiesen werden, d. h., daß die Steuerhoheit heim
                               <lb break="yes"/>Staate allein liegt. Vielmehr muß die Steuerhoheit
@@ -367,14 +341,11 @@
                               <lb break="no"/>nicht mehr behalten werden kann. Also im Punkte der
                               <lb break="yes"/>Steuerhoheit ist die ausschließliche Uebertragung auf
                               <lb break="yes"/>den Bund undiskutierbar.</p>
-            <p>Etwas ähnliches gilt betreffend die Festlegung der
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>Grundzüge der Verwaltungsorganisation</emph>
-               <lb break="yes"/>
-            </p>
-            <p>in den Ländern. Darunter soll versteckt die Demo
+                        <p>Etwas ähnliches gilt betreffend die Festlegung der
+                              <lb break="yes"/></p>
+                        <p><emph>Grundzüge der Verwaltungsorganisation</emph>
+                              <lb break="yes"/></p>
+                        <p>in den Ländern. Darunter soll versteckt die Demo
                               <lb break="no"/>kratisierung der Bezirkshauptmann
                               <lb break="no"/>schaften eingeschoben werden, eine Idee, besser ge
                               <lb break="no"/>sagt ein Schlagwort, unter dem sich ein jeder etwas an
@@ -393,15 +364,13 @@
                               <lb break="no"/>fügung die vollständige Verwüstung und Lahmlaung
                               <lb break="yes"/>der Verwaltung und die Zertrümmerung der Länder
                               <lb break="yes"/>bedeuten würde.</p>
-            <p>
-               <lb break="yes"/>Schließlich wäre im Zusammenhange mit der Kompe
+                        <p>
+                              <lb break="yes"/>Schließlich wäre im Zusammenhange mit der Kompe
                               <lb break="no"/>tenz-Abgrenzung noch die von der Staatsregierung ge
                               <lb break="no"/>plante Bestimmung.</p>
-            <p>
-               <emph>„Bundesrecht bricht Landrecht“ </emph>
-               <lb break="yes"/>
-            </p>
-            <p>zu behandeln. Dieser Grundsatz, der in einem bürokra
+                        <p><emph>„Bundesrecht bricht Landrecht“ </emph>
+                              <lb break="yes"/></p>
+                        <p>zu behandeln. Dieser Grundsatz, der in einem bürokra
                               <lb break="no"/>tisch-zentralistischem Staat mit einer verkümmerten
                               <lb break="yes"/>Landesgesetzgebung, wie es das alte Oesterreich war,
                               <lb break="yes"/>seine Berechtigung haben mag, ist in einem Föderativ
@@ -430,17 +399,13 @@
                               <lb break="yes"/>über das Staatsgebiet und die Marktverteilung
                               zwischen
                               <lb break="yes"/>den Gliedstaaten und dem Bundesstaat.
-                              <lb break="yes"/>
-            </p>
-            <p>Es wäre nunmehr von den
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>
-                  <lb break="yes"/>Organen des Bundes </emph>
-               <lb break="yes"/>
-            </p>
-            <p> und zwar zuerst von den gesetzgebenden und dann
+                              <lb break="yes"/></p>
+                        <p>Es wäre nunmehr von den
+                              <lb break="yes"/></p>
+                        <p><emph>
+                                    <lb break="yes"/>Organen des Bundes </emph>
+                              <lb break="yes"/></p>
+                        <p> und zwar zuerst von den gesetzgebenden und dann
                               <lb break="yes"/>von den vollziehenden zu sprechen. Zur Schaffung
                               <lb break="yes"/>eines Bundesgesetzes soll in Hinkunft der Beschluß
                               des
@@ -454,13 +419,10 @@
                               <lb break="no"/>einstimmung des Bundestages mit dem Bundesrate
                               <lb break="yes"/>hat bei neuerlicher Aufrechterhaltung des Beschlusses
                               <lb break="yes"/>durch dem Bundestag eine
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>Volksabstimmung</emph>
-               <lb break="yes"/>
-            </p>
-            <p>zu erfolgen. Eine Volksabstimmung muß außer diesem
+                              <lb break="yes"/></p>
+                        <p><emph>Volksabstimmung</emph>
+                              <lb break="yes"/></p>
+                        <p>zu erfolgen. Eine Volksabstimmung muß außer diesem
                               <lb break="yes"/>Falle stattfinden bei der Totalrevision der
                               Verfassung-
                               <lb break="yes"/>und bei der teilweisen Revision über Verlangen einer
@@ -468,18 +430,16 @@
                               <lb break="yes"/>oder des Bundesrates. Die Gesetze sind kundzumachen
                               <lb break="yes"/>durch den Präsidenten unter Gegenzeichnung des Bun
                               <lb break="no"/>deskanzlers.
-                              <lb break="yes"/>
-            </p>
-            <p>Was die</p>
-            <p>
-               <emph>
-                  <lb break="yes"/>gesetzgebenden Organe </emph>
-               <lb break="yes"/>
-            </p>
-            <p> betrifft, so ist nach dem Regierungsentwürfe der Bun
+                              <lb break="yes"/></p>
+                        <p>Was die</p>
+                        <p><emph>
+                                    <lb break="yes"/>gesetzgebenden Organe </emph>
+                              <lb break="yes"/></p>
+                        <p> betrifft, so ist nach dem Regierungsentwürfe der Bun
                               <lb break="no"/>destag das, was heute die Nationalversammlung ist,
                               <lb break="yes"/>während der Bundesrat eine Länderkammer darstellt.
-                              Wir wollen in den weiteren Ausführungen an Stelle<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>des von der Regierung
+                              Wir wollen in den weiteren Ausführungen an Stelle<pb facs="#facs_4"
+                                    n="4" xml:id="img_0004" break="yes"/>des von der Regierung
                               vorgeschlagenen Namens
                               <lb break="yes"/>"Bundesrat" den Ausdruck, Länderkammer gebrau
                               <lb break="no"/>chen, da der Name Bundesrat für die Bundesregierung
@@ -548,8 +508,9 @@
                               <lb break="yes"/>Länderkammer, von der Regierung, Bundesrat"
                               <lb break="yes"/>genannt, hat, wie schon erwähnt, in der Genehmigung
                               der
-                              <lb break="yes"/>Beschlüsse des Bundestages zu stehen, die <gap reason="illegible"/>
-               <lb break="yes"/>einer bestimmten Frist zu erfolgen haben, damit Ver
+                              <lb break="yes"/>Beschlüsse des Bundestages zu stehen, die <gap
+                                    reason="illegible"/>
+                              <lb break="yes"/>einer bestimmten Frist zu erfolgen haben, damit Ver
                               <lb break="no"/>schleppungen verhindert werden, da in einem solchen
                               <lb break="yes"/>Fall die Kundmachung des Gesetzes auch ohne Genehm
                               <lb break="no"/>haltung durch den Bundesrat zu erfolgen hätte. Schließ
@@ -563,12 +524,10 @@
                               <lb break="no"/>rates in Aussicht zu nehmen wäre. Nunmehr kommen wir
                               zur Frage des Präsidenten und der Bundes
                               <lb break="no"/>behörden. </p>
-            <p>
-               <emph>Die Präsidentschaft.</emph>
-               <lb break="yes"/>
-            </p>
-            <p>
-               <lb break="yes"/>Der bisherige Zustand auf diesem Gebiete ist un
+                        <p><emph>Die Präsidentschaft.</emph>
+                              <lb break="yes"/></p>
+                        <p>
+                              <lb break="yes"/>Der bisherige Zustand auf diesem Gebiete ist un
                               <lb break="no"/>haltbar und es ist ein unbedingtes Erfordernis für
                               einer
                               <lb break="yes"/>entsprechende Repräsentation des Staates, daß die in
@@ -606,14 +565,10 @@
                               <lb break="yes"/>bisher dem Monarchen zukamen, allerdings sämtlich un
                               <lb break="no"/>ter eigener Verantwortung und verantwortlicher Mit
                               <lb break="no"/>wirkung der Regierung.
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>Die Bundesregierung.
-                                    <lb break="yes"/>
-               </emph>
-            </p>
-            <p>Dem Präsidenten zur Seite steht die Bundesregie
+                              <lb break="yes"/></p>
+                        <p><emph>Die Bundesregierung.
+                                    <lb break="yes"/></emph></p>
+                        <p>Dem Präsidenten zur Seite steht die Bundesregie
                               <lb break="no"/>rung, die wir analog der Schweizer Verfassung den
                               <lb break="yes"/>Bundesrat nennen wollen. Hier ist der Angel
                               <lb break="no"/>punkt der Föderalisierung. Ohne gründ
@@ -652,24 +607,18 @@
                               <lb break="no"/>nehmungen gleichzeitig Partei und Behörde waren, sind
                               <lb break="yes"/>!!!
                               <lb break="yes"/>21
-                              <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
-               <gap reason="illegible"/>
-            </p>
-            <p>ihres behördlichen Charakters zur Gänze zu entkleiden
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/><gap reason="illegible"/><pb facs="#facs_5" n="5"
+                                    xml:id="img_0005" break="yes"/><gap reason="illegible"/></p>
+                        <p>ihres behördlichen Charakters zur Gänze zu entkleiden
                               <lb break="yes"/>und als Verwaltungsbetriebe des Staates auf kauf
                               <lb break="no"/>männische Grundtage zu stellen. Insoweit eine Staats
                               <lb break="no"/>aussicht notwendig ist, wird dieselbe durch ein
                               eigenes
                               <lb break="yes"/>Referat in der Bundeskanzlei besorgt.</p>
-            <p>
-               <emph>Die eigentliche Bundesregierung </emph>
-               <lb break="yes"/>
-            </p>
-            <p>Bundesrat wollen wir dieselbe nennen - wird vom
+                        <p><emph>Die eigentliche Bundesregierung </emph>
+                              <lb break="yes"/></p>
+                        <p>Bundesrat wollen wir dieselbe nennen - wird vom
                               <lb break="yes"/>Bundestag und der Länderkammer ge
                               <lb break="no"/>meinsam gewählt und die Bundesräte - wir
                               <lb break="yes"/>brauchen keine Bundes-Minister - führen in einzelnen
@@ -713,23 +662,20 @@
                               <lb break="no"/>schlag gemacht wird, Bundesamtsdirektoren zu bestel
                               <lb break="no"/>len, um, wie man vorgibt, die Kontinuität der Verwal
                               <lb break="no"/>tung aufrecht zu erhalten. </p>
-            <p>
-               <lb break="yes"/>Als Durchführungsorgan wird auch das </p>
-            <p>
-               <lb break="yes"/>
-               <emph>Bundesheer</emph>
-            </p>
-            <p> von der Staatsregierung bezeichnet, worüber bereits
+                        <p>
+                              <lb break="yes"/>Als Durchführungsorgan wird auch das </p>
+                        <p>
+                              <lb break="yes"/><emph>Bundesheer</emph>
+                        </p>
+                        <p> von der Staatsregierung bezeichnet, worüber bereits
                               <lb break="yes"/>an anderer Stelle genügend gesagt wurde. Ergänzend
                               <lb break="yes"/>zum Vorschlag der Staatsregierung muss jedoch ge
                               <lb break="no"/>ordert werden, daß das Militär wie bisher in gesetz
                               <lb break="no"/>lich normierten Fällen auch in Einkunft von den Glied
                               <lb break="no"/>staaten (Landesregierung) herangezogen werden kann. </p>
-            <p>
-               <emph>Die Gerichtsbarkeit, </emph>
-               <lb break="yes"/>
-            </p>
-            <p>die gleichfalls einen Teil der Bundesvollzugsgewalt dar
+                        <p><emph>Die Gerichtsbarkeit, </emph>
+                              <lb break="yes"/></p>
+                        <p>die gleichfalls einen Teil der Bundesvollzugsgewalt dar
                               <lb break="no"/>stellt, hält die bisherigen Verfassungsgrundsätze im
                               <lb break="yes"/>großen und ganzen aufrecht, nur wird bezüglich der
                               <lb break="yes"/>Ernennungen der Richter ein Vorschlagsrecht durch be
@@ -747,21 +693,18 @@
                               <lb break="yes"/>Oberlandesgerichtssprengel für möglichst bodenstän
                               <lb break="no"/>dige Richter Vorsorge getroffen werden. Es darf
                               da-</p>
-            <p>her insbesondere nicht Salzburg zum Oberlandesge
+                        <p>her insbesondere nicht Salzburg zum Oberlandesge
                               <lb break="no"/>richtssprengel Wien gehören, während Innsbruck nur
                               <lb break="yes"/>das kleine Vorarlberg und Tirol umfaßt, sondern es
                               <lb break="yes"/>wäre vielleicht ein Oberlandesgerichtssprengel Vorarl
                               <lb break="no"/>berg, Tirol und Salzburg zu schaffen. </p>
-            <p>
-               <lb break="yes"/>Wir kommen nun zu den für uns wichtigsten Ab
+                        <p>
+                              <lb break="yes"/>Wir kommen nun zu den für uns wichtigsten Ab
                               <lb break="no"/>schnitt über
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>die Gesetzgebung und Vollziehung der Länder. </emph>
-               <lb break="yes"/>
-            </p>
-            <p>Es kann im großen und ganzen, mit Ausnahme eini
+                              <lb break="yes"/></p>
+                        <p><emph>die Gesetzgebung und Vollziehung der Länder. </emph>
+                              <lb break="yes"/></p>
+                        <p>Es kann im großen und ganzen, mit Ausnahme eini
                               <lb break="no"/>ger zentralistischer Anwandlungen, die allerdings bei
                               <lb break="yes"/>Bestimmung über die Bestellung eines Regierungs
                               <lb break="no"/>kommissärs, der allein anzuschaffen und zu befeh
@@ -776,15 +719,12 @@
                               <lb break="yes"/>des Landeshauptmannes — der der Chef der
                               <lb break="yes"/>Regierung im Lande sein wird — und ihre Uebertra
                               <lb break="no"/>gung an einen Präsidenten darstellen. </p>
-            <p>
-               <lb break="yes"/>Wenn zuerst
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>das Zustandekommen eines Landesgesetzes </emph>
-               <lb break="yes"/>
-            </p>
-            <p>besprochen werden soll, so ist der Weg folgender: Gesetz
+                        <p>
+                              <lb break="yes"/>Wenn zuerst
+                              <lb break="yes"/></p>
+                        <p><emph>das Zustandekommen eines Landesgesetzes </emph>
+                              <lb break="yes"/></p>
+                        <p>besprochen werden soll, so ist der Weg folgender: Gesetz
                               <lb break="no"/>beschlüsse, die vom Landtage gefaßt worden sind, sind
                               vor
                               <lb break="yes"/>ihrer Kundmachung der Staatsregierung zur Geneh
@@ -819,14 +759,11 @@
                               <lb break="yes"/>was in der Weise zu erfolgen hat, daß das Gesetz vom
                               <lb break="yes"/>Präsidenten des Landtages beurkundet- und vom Can
                               <lb break="no"/>deshauptmann gegengezeichnet wird.
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>
-                  <lb break="yes"/>Die gesamte Regierung im Lande </emph>
-               <lb break="yes"/>
-            </p>
-            <p>wird vom Landeshauptmann und so vielen
+                              <lb break="yes"/></p>
+                        <p><emph>
+                                    <lb break="yes"/>Die gesamte Regierung im Lande </emph>
+                              <lb break="yes"/></p>
+                        <p>wird vom Landeshauptmann und so vielen
                               <lb break="yes"/>Beisitzern geführt, als einerseits aus der vom
                               <lb break="yes"/>Bunde her ressortierenden Referate notwendig sind, zu
                               <lb break="no"/>züglich jener, die für die Besorgung der eigenen Auf
@@ -836,13 +773,10 @@
                               <lb break="no"/>tion eines Stellvertrefers des Landeshauptmannes.
                               <lb break="yes"/>Jedoch ist hiemit zum Unterschiede von jetzt nur dann
                               <lb break="yes"/>eine besondere Funktion verbunden, wenn diesselben
-                              <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <lb break="yes"/>
-               <gap reason="illegible"/>
-               <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>den Landeshauptmann im Falle von
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/><gap reason="illegible"/>
+                              <lb break="yes"/><gap reason="illegible"/><pb facs="#facs_6" n="6"
+                                    xml:id="img_0006" break="yes"/>den Landeshauptmann im Falle von
                               Krankheit, Ab
                               <lb break="no"/>wesenheit. Versetzung in den Anklagezustand oder be
                               <lb break="no"/>stimmten Auftrag im einzelnen Falle zu vertreten ha
@@ -907,10 +841,8 @@
                               <lb break="yes"/>Wahl nur Persönlichkeiten auszuwählen, die auch die
                               <lb break="yes"/>Garantie bieten, daß sie den in der Verwaltung an sie
                               <lb break="yes"/>herantretenden Fforderungen gerecht werden können. </p>
-            <p>
-               <emph>Die Landesvermaltung. </emph>
-            </p>
-            <p>Die Föderalisierung ist selbstverständlich nur dann
+                        <p><emph>Die Landesvermaltung. </emph></p>
+                        <p>Die Föderalisierung ist selbstverständlich nur dann
                               <lb break="yes"/>von Bedeutung, wenn nicht durch Abgrenzung aller mög
                               <lb break="no"/>tichen Aemter zugunsten einer zentralistischen
                               Verwaltung,
@@ -959,9 +891,8 @@
                               <lb break="yes"/>Landesregierung ohne Anhörung der Bundes
                               <lb break="no"/>regierung zu ernennen, zu versetzen und auch unter
                               <lb break="yes"/>den Ländern und mit dem Bunde auszutauschen.
-                              <lb break="yes"/>
-            </p>
-            <p>Die Organisation der Verwaltung in den
+                              <lb break="yes"/></p>
+                        <p>Die Organisation der Verwaltung in den
                               <lb break="yes"/>Ländern, ist Sache der Länder selbst. Aus den frü
                               <lb break="no"/>her angeführten Gründen hat insbesondere die Autonomie
                               <lb break="yes"/>in der Lokalverwaltung nur dort eingeführt zu werden
@@ -1010,9 +941,8 @@
                               Gegenstände
                               <lb break="yes"/>des freien Ermessens der Entscheidung des Verwaltungs
                               <lb break="no"/>Gerichtshofes zu unterwerfen
-                              <lb break="yes"/>
-            </p>
-            <p>Ein Finanzkuratel in der Meise, daß zur Aufnahme
+                              <lb break="yes"/></p>
+                        <p>Ein Finanzkuratel in der Meise, daß zur Aufnahme
                               <lb break="yes"/>von Darlehen. Konvertierung von Schulden usw. die Ge
                               <lb break="no"/>nehmigung des Bundes notwendig ist, kann nicht zuge
                               <lb break="no"/>stimmt werden, wohl aber ist ein Einvernehmen mit der
@@ -1020,9 +950,8 @@
                               die
                               <lb break="yes"/>Finanzwirtschaft irgendwie hiedurch gefährdet werden
                               <lb break="yes"/>kann.
-                              <lb break="yes"/>
-            </p>
-            <p>Ein eigener Abschnitt sieht einen obersten Rech
+                              <lb break="yes"/></p>
+                        <p>Ein eigener Abschnitt sieht einen obersten Rech
                               <lb break="no"/>nungshof vor, der die Rechnungskontrolle sowohl über
                               <lb break="yes"/>den Bund als über die Länder auszuüben hätte. Diese
                               <lb break="yes"/>Institution ist sicherlich zu begrüßen, wobei zu
@@ -1034,20 +963,15 @@
                               <lb break="yes"/>nicht zu unberechtigten Einengungen der
                               Landesregierung
                               <lb break="yes"/>führen darf.
-                              <lb break="yes"/>
-            </p>
-            <p>Schließlich sei noch auf
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>die obersten Gerichtshöfe
-                                    <lb break="yes"/>
-               </emph>
-            </p>
-            <p>hingewiesen, auf den Bundesverwaltungsge-
-                              <lb break="yes"/>22<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
-               <gap reason="illegible"/> Unleserlich</p>
-            <p>richtshof, der zuständig ist für die dem Bunde vorbe
+                              <lb break="yes"/></p>
+                        <p>Schließlich sei noch auf
+                              <lb break="yes"/></p>
+                        <p><emph>die obersten Gerichtshöfe
+                                    <lb break="yes"/></emph></p>
+                        <p>hingewiesen, auf den Bundesverwaltungsge-
+                              <lb break="yes"/>22<pb facs="#facs_7" n="7" xml:id="img_0007"
+                                    break="yes"/><gap reason="illegible"/> Unleserlich</p>
+                        <p>richtshof, der zuständig ist für die dem Bunde vorbe
                               <lb break="no"/>haltenen Angelegenheiten, auf den Bundesverfas
                               <lb break="no"/>sungsgerichtshof, der zuständig ist für alle Rechts
                               <lb break="no"/>streitigkeiten zwischen den Ländern, sowie zwischen
@@ -1065,17 +989,13 @@
                               <lb break="no"/>dem bestehen noch der Oberste Bundesgerichts
                               <lb break="no"/>hof als oberster Strafgerichtshof und
                               Zivilgerichtshof. </p>
-            <p>
-               <lb break="yes"/>Ein ziemlich großer Abschnitt des Regierungsentwur
+                        <p>
+                              <lb break="yes"/>Ein ziemlich großer Abschnitt des Regierungsentwur
                               <lb break="no"/>fes befaßt sich mit den
-                              <lb break="yes"/>
-            </p>
-            <p>
-               <emph>Grund- und Freiheitsrechten,
-                                    <lb break="yes"/>
-               </emph>
-            </p>
-            <p>die teilweise der deutschen Reichsverwaltung nachgebildet sind, teilweise
+                              <lb break="yes"/></p>
+                        <p><emph>Grund- und Freiheitsrechten,
+                                    <lb break="yes"/></emph></p>
+                        <p>die teilweise der deutschen Reichsverwaltung nachgebildet sind, teilweise
                               unsere geltenden Verfassungsbestimmungen
                               <lb break="yes"/>wieder aufgreifen. Insbesondere sind die sogenannten
                               <lb break="yes"/>Kultur- und Religionsfragen von der deutschen Reichs
@@ -1094,9 +1014,8 @@
                               über
                               <lb break="yes"/>die sogenannte wirtschaftliche und soziale Frei
                               <lb break="no"/>heit niedergelegt sind.
-                              <lb break="yes"/>
-            </p>
-            <p>Durch die vorstehenden Ausführungen soll der gegen
+                              <lb break="yes"/></p>
+                        <p>Durch die vorstehenden Ausführungen soll der gegen
                               <lb break="no"/>wärtige Stand der Verfassungsfragen der breiten
                               Oeffent
                               <lb break="no"/>lichkeit sozusagen zur öffentlichen Diskussion
@@ -1107,9 +1026,9 @@
                               aufge
                               <lb break="no"/>zwungenen Grenzen ein geordnetes Staatsleben führen
                               <lb break="yes"/>können.</p>
-            <p> 211 Mappe 3
+                        <p> 211 Mappe 3
                               <lb break="yes"/>13932/68</p>
-         </div>
-      </body>
-   </text>
+                  </div>
+            </body>
+      </text>
 </TEI>

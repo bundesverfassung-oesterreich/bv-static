@@ -1,173 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__52">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920</title>
+                <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                <principal>
+                    <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
+                </principal>
+                <funder>
+                    <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                     </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                     </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
                         Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                </publisher>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
                         Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
                             applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529260</idno>
-            <idno type="transkribus_collection">196428</idno>
-            <idno type="bv_data_set">Datenset B</idno>
-            <idno type="goobi">14601</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                  <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/101 ex 1920</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
-                     <title>Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920</title>
-                     <note type="editor">Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Lithographie">
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+                <idno type="transkribus_doc">1529260</idno>
+                <idno type="transkribus_collection">196428</idno>
+                <idno type="bv_data_set">Datenset B</idno>
+                <idno type="goobi">14601</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="invetory">
+                    <msIdentifier>
+                        <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
+                        <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
+                        <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/101 ex 1920</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
+                            <title>Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920</title>
+                            <note type="editor">Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Lithographie">
                         </objectDesc>
-                  <handDesc>
+                        <handDesc>
                         </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1920-09-22" notAfter-iso="1920-09-22">22. September 1920</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1920-09-22" notAfter-iso="1920-09-22">
+                    </physDesc>
+                    <history>
+                        <origin notBefore-iso="1920-09-22" notAfter-iso="1920-09-22">22. September 1920</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation>
+                <date notBefore-iso="1920-09-22" notAfter-iso="1920-09-22">
                     22. September 1920
                 </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-05-01" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="3036" lry="4802" xml:id="facs_2">
-         <graphic url="IMG_0121"
-                  width="3036px"
-                  height="4802px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3028" lry="4800" xml:id="facs_3">
-         <graphic url="IMG_0122"
-                  width="3028px"
-                  height="4800px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3025" lry="4811" xml:id="facs_4">
-         <graphic url="IMG_0123"
-                  width="3025px"
-                  height="4811px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3024" lry="4802" xml:id="facs_5">
-         <graphic url="IMG_0124"
-                  width="3024px"
-                  height="4802px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2982" lry="4795" xml:id="facs_6">
-         <graphic url="IMG_0125"
-                  width="2982px"
-                  height="4795px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3036" lry="4854" xml:id="facs_7">
-         <graphic url="IMG_0126"
-                  width="3036px"
-                  height="4854px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2983" lry="4878" xml:id="facs_8">
-         <graphic url="IMG_0127"
-                  width="2983px"
-                  height="4878px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2979" lry="4819" xml:id="facs_9">
-         <graphic url="IMG_0128"
-                  width="2979px"
-                  height="4819px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2990" lry="4794" xml:id="facs_10">
-         <graphic url="IMG_0129"
-                  width="2990px"
-                  height="4794px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2976" lry="4783" xml:id="facs_11">
-         <graphic url="IMG_0130"
-                  width="2976px"
-                  height="4783px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2964" lry="4804" xml:id="facs_12">
-         <graphic url="IMG_0131"
-                  width="2964px"
-                  height="4804px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="3033" lry="4798" xml:id="facs_13">
-         <graphic url="IMG_0132"
-                  width="3033px"
-                  height="4798px"/>
-      </surface>
-   </facsimile>
-   <text type="Sitzungsprotokoll">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>4277</p>
-            <p>Prorokoll
+            </creation>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when="2024-05-05" who="#cfh">document automatically created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0"><surface ulx="0" uly="0" lrx="3036" lry="4802" xml:id="facs_2"><graphic url="IMG_0121" width="3036px" height="4802px"/></surface><surface ulx="0" uly="0" lrx="3028" lry="4800" xml:id="facs_3"><graphic url="IMG_0122" width="3028px" height="4800px"/></surface><surface ulx="0" uly="0" lrx="3025" lry="4811" xml:id="facs_4"><graphic url="IMG_0123" width="3025px" height="4811px"/></surface><surface ulx="0" uly="0" lrx="3024" lry="4802" xml:id="facs_5"><graphic url="IMG_0124" width="3024px" height="4802px"/></surface><surface ulx="0" uly="0" lrx="2982" lry="4795" xml:id="facs_6"><graphic url="IMG_0125" width="2982px" height="4795px"/></surface><surface ulx="0" uly="0" lrx="3036" lry="4854" xml:id="facs_7"><graphic url="IMG_0126" width="3036px" height="4854px"/></surface><surface ulx="0" uly="0" lrx="2983" lry="4878" xml:id="facs_8"><graphic url="IMG_0127" width="2983px" height="4878px"/></surface><surface ulx="0" uly="0" lrx="2979" lry="4819" xml:id="facs_9"><graphic url="IMG_0128" width="2979px" height="4819px"/></surface><surface ulx="0" uly="0" lrx="2990" lry="4794" xml:id="facs_10"><graphic url="IMG_0129" width="2990px" height="4794px"/></surface><surface ulx="0" uly="0" lrx="2976" lry="4783" xml:id="facs_11"><graphic url="IMG_0130" width="2976px" height="4783px"/></surface><surface ulx="0" uly="0" lrx="2964" lry="4804" xml:id="facs_12"><graphic url="IMG_0131" width="2964px" height="4804px"/></surface><surface ulx="0" uly="0" lrx="3033" lry="4798" xml:id="facs_13"><graphic url="IMG_0132" width="3033px" height="4798px"/></surface></facsimile>
+    <text type="Sitzungsprotokoll">
+        <body><div type="main"><pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/><p>4277</p><p>Prorokoll
       <lb break="yes"/>der 17. Sitzung des Unterausschusses des Verfasgungsaugschusses
       <lb break="yes"/>vom 22. September 1530.
       <lb break="yes"/>Begina 3 Uhr Nachmittag.
@@ -195,8 +131,7 @@
       <lb break="yes"/>Professor Dr.Hans Kelsen als Pxperte des Verfassungsaus
 <lb break="no"/>schlesss.
       <lb break="yes"/>-000--
-<lb break="no"/>14<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>2</p>
-            <p>Der Jozsitzende erlangt die Zustimmung des Unterausschun
+<lb break="no"/>14<pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>2</p><p>Der Jozsitzende erlangt die Zustimmung des Unterausschun
 <lb break="no"/>gea,ver Eintritt in die technische Earung der Gesantentwurfes
       <lb break="yes"/>eine Bezeinigung der Kompetenzfrage bezüglich der Volksgesund
 <lb break="no"/>heit und des Flektrizitktowesene zu versuchen und erteilt zuerst
@@ -229,8 +164,7 @@
       <lb break="yes"/>und Bestaltungswosens sowie des Gemeindesanitätsdiensteg und Ha
 <lb break="no"/>zungewesene; hinsichtlich der Heil- und Eflegeangtalten, Ampule
       <lb break="yes"/>tprien und der Kurertewegeng jedoch nur die ganitäre Aufzicht.
-      <lb break="yes"/>von einer ausdrücklichen Brhnung der Kadizinalstatistik<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p>
-            <p>wird abgesehen, da zahlrgiche Stnatsämter gewisse Zueize der Sta
+      <lb break="yes"/>von einer ausdrücklichen Brhnung der Kadizinalstatistik<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p><p>wird abgesehen, da zahlrgiche Stnatsämter gewisse Zueize der Sta
 <lb break="no"/>tistik aufgenemmen wünschen, die wen aber in Art.10, Prt.13 1r
       <lb break="yes"/>der Formel: Volkszählangenssen, soale sonstiga Statistik se
       <lb break="yes"/>weit als nicht nur den Iuterongen eines einzelnen landes dientg
@@ -330,8 +264,7 @@
 <lb break="no"/>zustand mit den Kategorien der neuen Verfassung in Einklang zu
       <lb break="yes"/>bringen, die endgültige Regelung aber einer späteren Regelung
       <lb break="yes"/>vorzubehalten, wird vom Präsidenten deitz mit dem Hinweie
-      <lb break="yes"/>1.</p>
-            <p>126<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>8
+      <lb break="yes"/>1.</p><p>126<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>8
       <lb break="yes"/>abgelöhnt, daß bereite die Grund- und Freiheitsrechte in der
       <lb break="yes"/>Verfassung fehlen und nun auch noch das Schulwesen nicht ent
 <lb break="no"/>halten wäre. Seine Partei habe das gräßte Entgegenkommen ge
@@ -396,9 +329,7 @@
       <lb break="yes"/>dieess technisch unbestrittens Ziel zu erreichen, ein ziel;
       <lb break="yes"/>dae die Setweiz bereite erreicht habe als folgs dar schweizeri!
       <lb break="yes"/>echen Bundse- und Kantonal-Gesetzgebung, die dem Bunde die
-      <lb break="yes"/>Führung aller einschlägigen Angelegenneiten zugestaht.</p>
-            <p>107<pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p>
-            <p>ProfsFr. AEIF dI wbnacht die Debatts über die vor
+      <lb break="yes"/>Führung aller einschlägigen Angelegenneiten zugestaht.</p><p>107<pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p><p>ProfsFr. AEIF dI wbnacht die Debatts über die vor
 <lb break="no"/>gelegten Fasgungen in der nächsten Iitzung gemeinsan mit der
       <lb break="yes"/>über die anderen strittigen Fragen abzuführen und ertallt zur
       <lb break="yes"/>technischen legung Praf.Dr. Kisan das Hort. Dieser bit
@@ -423,22 +354,17 @@
 <lb break="no"/>lich als Organweingesetzte, aber ale Kompstenz "ausgeühte.
       <lb break="yes"/>Der Unterausschuß beschließt auf Antrag Prof. Dr. F«1-
       <lb break="yes"/>615
-      </p>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_1"/>
-               <head>Artikel l.
+      </p><div type="article">
+<head>Artikel l.
       </head>
-               <p type="legal_section">deaterreich ist eine demokratioche Republik. Ihr Recht
+<p type="legal_section">deaterreich ist eine demokratioche Republik. Ihr Recht
       <lb break="yes"/>gräb von Volke ausf.
       <lb break="yes"/>Ferner/ in Art.2 nach Wiederösterreich in Klammer einzu
 <lb break="no"/>erhalten (Nigägrystarreich- Land und Kiea), nach Analogle der
       <lb break="yes"/>Schwelzer Verfassung: Besel- Land und Bassl-Stadt.
-      </p>
-               <p type="legal_section">
-                  <label>22</label> Art.3, Abs.l schlägt Prof.Dr. Kelsen die Strei
-<lb break="no"/>
-                  <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p>
-               <p type="legal_section">chung des zweiten Satzen, Re steht unter dem Bghutz des Bundee
+      </p><p type="legal_section"><label>22</label> Art.3, Abs.l schlägt Prof.Dr. Kelsen die Strei
+<lb break="no"/><pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>9</p>
+<p type="legal_section">chung des zweiten Satzen, Re steht unter dem Bghutz des Bundee
       <lb break="yes"/>vor, da hierin kein neuer Gedanke ausgedrückt sei. Der Unter
 <lb break="no"/>ausschuß beschließt die Etrgichung und formuliert auf Antrag
       <lb break="yes"/>Eelsene den dritten Absatz folgendermaßen:
@@ -454,9 +380,7 @@
       <lb break="yes"/>Zu Art.1 bringen sowohl Prof.Dr. Falsaa als auch
       <lb break="yes"/>Dr. Danneberg mehrfache Abänderungevorschläge vor.
       <lb break="yes"/>Ereterer verweint auf eine Anfräge des Präsidenten
-      </p>
-               <p type="legal_section">
-                  <label>3</label>« itz, daß das Optionsrecht in den Fabergangabestimmungen
+      </p><p type="legal_section"><label>3</label>« itz, daß das Optionsrecht in den Fabergangabestimmungen
       <lb break="yes"/>bereits berücksichtigt sei- und findet, daß in der nunmehrigen
       <lb break="yes"/>Fasgung, in der Staatsbürgerschaft und Heimatrecht durch Art.10
       <lb break="yes"/>der Gesetzgebung und Vollziehung dem Bund überwiesen sind,
@@ -474,7 +398,7 @@
       <lb break="yes"/>Wortlaut zugestimmt hat:
       <lb break="yes"/>"42) Für jedes Land besteht eine Landesbärgerschaft. Ver
 <lb break="no"/>aussetzung der Landesburgerschaft ist das Heimatrecht in einer</p>
-               <p type="legal_section">138<pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>-10-
+<p type="legal_section">138<pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>-10-
       <lb break="yes"/>Gemeinde des Landen. Die Bedingungen für den Erwerb und den
       <lb break="yes"/>Verlust der Landesbürgerschaft sind in jedem Land gleich,
       <lb break="yes"/>wird die weitere Erärterung der Streickungefrage bis zur Be
@@ -508,8 +432,7 @@
 <lb break="no"/>gengeändert, so daß es nicht heißt „die sich auf das ganze
       <lb break="yes"/>Bundesgebiet erstrecken“, sondern, auf Grund der Bundesverfag
 <lb break="no"/>gunge.
-      <lb break="yes"/>1.<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>11</p>
-               <p type="legal_section">In Art.10, Pkt.2 wird das Wort, auswärtige" In, Äußerer
+      <lb break="yes"/>1.<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>11</p><p type="legal_section">In Art.10, Pkt.2 wird das Wort, auswärtige" In, Äußerer
       <lb break="yes"/>berichtigt und anstatteRegelung des Haren- und Vichverkahres
       <lb break="yes"/>mit dem Ausland gesetzt» Waren- und Viehverkehr mit dem Aus
 <lb break="no"/>laks.«
@@ -563,9 +486,7 @@
 <lb break="no"/>ven des Bsticnelratgetoeschlossen.
       <lb break="yes"/>Die Sitzung wird hierauf geguhlasen: dis nächehe Titzung
       <lb break="yes"/>findet Donnerstag den 23 September, 10 Uhr vormittage stati.
-      <lb break="yes"/>---009--</p>
-            </div>
-         </div>
-      </body>
-   </text>
+      <lb break="yes"/>---009--</p></div>
+</div></body>
+    </text>
 </TEI>

@@ -1,172 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__48">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920</title>
-            <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
-            <principal>
-               <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
-            </principal>
-            <funder>
-               <orgName>FWF - Der Wissenschaftsfonds</orgName>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName>
-               </address>
-            </funder>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
-               <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920</title>
+                <title type="sub">Die Entstehung des Bundes-Verfassungsgesetzes 1920</title>
+                <principal>
+                    <persName role="acdh:hasPrincipialInvestigator">Olechowski, Thomas</persName>
+                </principal>
+                <funder>
+                    <orgName>FWF - Der Wissenschaftsfonds</orgName>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Lein, Richard</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitalisierung (Fotografieren) des Archivmaterials</resp>
+                    <persName role="acdh:hasDigitisingAgent">Gassner, Miriam</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0000-0002-9575-9372">Peter Andorfer
                     </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
-               <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
+                </respStmt>
+                <respStmt>
+                    <resp>XML/TEI Datenmodellierung und Datengenerierung</resp>
+                    <persName role="acdh:hasContributor" key="https://orcid.org/0009-0006-7740-542X">Carl Friedrich Haak
                     </persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural
                         Heritage an der Österreichischen Akademie der Wissenschaften</orgName>
-            </publisher>
-            <publisher>
-               <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
+                </publisher>
+                <publisher>
+                    <orgName key="https://d-nb.info/gnd/1026192285">Universität Wien. Institut für Rechts- und
                         Verfassungsgeschichte</orgName>
-            </publisher>
-            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
                             applies to this text.</p>
-                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
-               </licence>
-            </availability>
-            <idno type="transkribus_doc">1529255</idno>
-            <idno type="transkribus_collection">196428</idno>
-            <idno type="bv_data_set">Datenset B</idno>
-            <idno type="goobi">14597</idno>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc type="invetory">
-               <msIdentifier>
-                  <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
-                  <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
-                  <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/87 ex 1920</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
-                     <title>Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920</title>
-                     <note type="editor">Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="Lithographie">
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+                <idno type="transkribus_doc">1529255</idno>
+                <idno type="transkribus_collection">196428</idno>
+                <idno type="bv_data_set">Datenset B</idno>
+                <idno type="goobi">14597</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="invetory">
+                    <msIdentifier>
+                        <institution key="https://d-nb.info/gnd/37748-X">Österreichisches Staatsarchiv</institution>
+                        <repository key="https://d-nb.info/gnd/1601181-8">Archiv der Republik (Wien)</repository>
+                        <idno type="archive">AdR, BKA Inneres, Staatskanzlei, Karton 48, Zl. 102/87 ex 1920</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author role="acdh:hasAuthor">Unterausschuss des Verfassungsausschusses</author>
+                            <title>Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920</title>
+                            <note type="editor">Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920, Lithographie, Zustand gut, ohne Anmerkungen</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Lithographie">
                         </objectDesc>
-                  <handDesc>
+                        <handDesc>
                         </handDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore-iso="1920-08-31" notAfter-iso="1920-08-31">31. August 1920</origin>
-               </history>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <creation>
-            <date notBefore-iso="1920-08-31" notAfter-iso="1920-08-31">
+                    </physDesc>
+                    <history>
+                        <origin notBefore-iso="1920-08-31" notAfter-iso="1920-08-31">31. August 1920</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <creation>
+                <date notBefore-iso="1920-08-31" notAfter-iso="1920-08-31">
                     31. August 1920
                 </date>
-         </creation>
-      </profileDesc>
-      <revisionDesc status="created">
-         <change when="2024-05-01" who="#cfh">document automatically created</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="2931" lry="4851" xml:id="facs_2">
-         <graphic url="IMG_0037"
-                  width="2931px"
-                  height="4851px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2945" lry="4834" xml:id="facs_3">
-         <graphic url="IMG_0038"
-                  width="2945px"
-                  height="4834px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2929" lry="4862" xml:id="facs_4">
-         <graphic url="IMG_0039"
-                  width="2929px"
-                  height="4862px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2929" lry="4803" xml:id="facs_5">
-         <graphic url="IMG_0040"
-                  width="2929px"
-                  height="4803px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2961" lry="4798" xml:id="facs_6">
-         <graphic url="IMG_0041"
-                  width="2961px"
-                  height="4798px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2869" lry="4776" xml:id="facs_7">
-         <graphic url="IMG_0042"
-                  width="2869px"
-                  height="4776px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2854" lry="4744" xml:id="facs_8">
-         <graphic url="IMG_0043"
-                  width="2854px"
-                  height="4744px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2858" lry="4739" xml:id="facs_9">
-         <graphic url="IMG_0044"
-                  width="2858px"
-                  height="4739px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2874" lry="4722" xml:id="facs_10">
-         <graphic url="IMG_0045"
-                  width="2874px"
-                  height="4722px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2836" lry="4801" xml:id="facs_11">
-         <graphic url="IMG_0046"
-                  width="2836px"
-                  height="4801px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2842" lry="4675" xml:id="facs_12">
-         <graphic url="IMG_0047"
-                  width="2842px"
-                  height="4675px"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="2806" lry="4692" xml:id="facs_13">
-         <graphic url="IMG_0048"
-                  width="2806px"
-                  height="4692px"/>
-      </surface>
-   </facsimile>
-   <text type="Sitzungsprotokoll">
-      <body>
-         <div type="main">
-            <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
-            <p>Protckell
+            </creation>
+        </profileDesc>
+        <revisionDesc status="created">
+            <change when="2024-05-05" who="#cfh">document automatically created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0"><surface ulx="0" uly="0" lrx="2931" lry="4851" xml:id="facs_2"><graphic url="IMG_0037" width="2931px" height="4851px"/></surface><surface ulx="0" uly="0" lrx="2945" lry="4834" xml:id="facs_3"><graphic url="IMG_0038" width="2945px" height="4834px"/></surface><surface ulx="0" uly="0" lrx="2929" lry="4862" xml:id="facs_4"><graphic url="IMG_0039" width="2929px" height="4862px"/></surface><surface ulx="0" uly="0" lrx="2929" lry="4803" xml:id="facs_5"><graphic url="IMG_0040" width="2929px" height="4803px"/></surface><surface ulx="0" uly="0" lrx="2961" lry="4798" xml:id="facs_6"><graphic url="IMG_0041" width="2961px" height="4798px"/></surface><surface ulx="0" uly="0" lrx="2869" lry="4776" xml:id="facs_7"><graphic url="IMG_0042" width="2869px" height="4776px"/></surface><surface ulx="0" uly="0" lrx="2854" lry="4744" xml:id="facs_8"><graphic url="IMG_0043" width="2854px" height="4744px"/></surface><surface ulx="0" uly="0" lrx="2858" lry="4739" xml:id="facs_9"><graphic url="IMG_0044" width="2858px" height="4739px"/></surface><surface ulx="0" uly="0" lrx="2874" lry="4722" xml:id="facs_10"><graphic url="IMG_0045" width="2874px" height="4722px"/></surface><surface ulx="0" uly="0" lrx="2836" lry="4801" xml:id="facs_11"><graphic url="IMG_0046" width="2836px" height="4801px"/></surface><surface ulx="0" uly="0" lrx="2842" lry="4675" xml:id="facs_12"><graphic url="IMG_0047" width="2842px" height="4675px"/></surface><surface ulx="0" uly="0" lrx="2806" lry="4692" xml:id="facs_13"><graphic url="IMG_0048" width="2806px" height="4692px"/></surface></facsimile>
+    <text type="Sitzungsprotokoll">
+        <body><div type="main"><pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/><p>Protckell
       <lb break="yes"/>der 15. Sitzung des Unterzusschusses des Verfassungsaus
 <lb break="no"/>schusses vom 31. August 1920.
       <lb break="yes"/>Regim 5 Unr 20 aachnittags.
@@ -220,8 +157,7 @@
 <lb break="no"/>gelegenheiten, bezüglich deren die Zuständigkeit des Ver
 <lb break="no"/>waltungsgerichtshofes ausgeschlessen ist, in der Neise ver
 <lb break="no"/>zunehmen, daß als Ekt.l Angelegenheiten udie zur Kompetenz
-      <lb break="yes"/>362<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p>
-            <p>des Verfsssungsgerichtshofes, als Hl.Z selche, über die
+      <lb break="yes"/>362<pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>3</p><p>des Verfsssungsgerichtshofes, als Hl.Z selche, über die
       <lb break="yes"/>den ordentlichen Gerichten die Entscheidung zusteht, ange
 <lb break="no"/>führt werden.
       <lb break="yes"/>auf Einlsdung des Verertzenten necht hierauf Uin.Ast
@@ -291,8 +227,7 @@
       <lb break="yes"/>Sitz der obersten Kundesorgane fien ist, zu streichen, da
       <lb break="yes"/>der Sitz bei den einzelnen Einrichtungen angegeben sei.
       <lb break="yes"/>wurde keine Folge gegeben, da diese Anerkennung der bescn
-<lb break="no"/>314<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p>
-            <p>deren Stellung für Hren von Wert ist, ebeise bleibt ein An
+<lb break="no"/>314<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>5</p><p>deren Stellung für Hren von Wert ist, ebeise bleibt ein An
 <lb break="no"/>trag auf Setzung des bestimmten Artikels vor nauswärtige
       <lb break="yes"/>Angelegenheitenn in Pkt.2 des trt.10 unberückkichtigt.
       <lb break="yes"/>Art. 3 wird gestrichen, da Art. 14f an geergneter
@@ -325,8 +260,7 @@
       <lb break="yes"/>Bei der Abstimmung wird die Aenderung des Wortes -wahrneh
 <lb break="no"/>men« in nübermachen« abgelehnt.
       <lb break="yes"/>Dei Art.146 hält es Prof.Dr. Kels en für zwei
-<lb break="no"/>telhsft, oo die Staatssckretäre nach ihrer stastsrechtli-</p>
-            <p>365<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>6
+<lb break="no"/>telhsft, oo die Staatssckretäre nach ihrer stastsrechtli-</p><p>365<pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>6
       <lb break="yes"/>chen Stellung als Velhsbeauftragte bezeichnet werden können.
       <lb break="yes"/>Der Vorsitzende stelit fest, daß die Kinisterverentwortlich
 <lb break="no"/>keit nicht zum Wesen des Volksbeauftragten gehort, wohl aber
@@ -394,9 +328,7 @@
       <lb break="yes"/>über die Auflösung des latzenalretes, die Bewilligung des
       <lb break="yes"/>Bundesveranschlages und die Genehnigung des Rechnungsan
 <lb break="no"/>schlusses, die Aufnenne und Konvertierung von Kundesanleihen
-      <lb break="yes"/>und die Verfügung uber kundesvermögen betreffen, kann der</p>
-            <p>367<pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p>
-            <p>Bundesrat keinen Einspruch erheben. Diese Gesetzesbeschlüsse
+      <lb break="yes"/>und die Verfügung uber kundesvermögen betreffen, kann der</p><p>367<pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>8</p><p>Bundesrat keinen Einspruch erheben. Diese Gesetzesbeschlüsse
       <lb break="yes"/>des Naticnalrates sind ohne weiters zu beurkunden und kundzu
 <lb break="no"/>machen..
       <lb break="yes"/>Entsprechend dieser Aenderung wird in Art.40 die Zi
@@ -429,8 +361,7 @@
 <lb break="no"/>retes und der Kundesversammlung sowie der Ausschüsse dieser
       <lb break="yes"/>Vertretungskörper teilzunehmen, an den Berotungen des llaupt
 <lb break="no"/>ausschusses des Mationalrates jedoch nur auf besondere Ein
-<lb break="no"/>ladung."</p>
-            <p>368<pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>3
+<lb break="no"/>ladung."</p><p>368<pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>3
       <lb break="yes"/>In den Nrt. 57 und 53 wird en Stelle von eRegierungs-
       <lb break="yes"/>und Vellzugsgenalte aur ven „Regierungsgewalt- des Bundes
       <lb break="yes"/>gesprochen, ebenso in Art.58, der nunnehr beginat: »(1) Mit
@@ -503,12 +434,10 @@
       <lb break="yes"/>stellt Abg. Leuthaer den Antrag auf Einschaltung ei
 <lb break="no"/>nes
       <lb break="yes"/>370<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>11
-      </p>
-            <div type="article">
-               <a class="navigation_article" xml:id="navigation_article_1"/>
-               <head>Art. 1508.
+      </p><div type="article">
+<head>Art. 1508.
       </head>
-               <p type="legal_section">ta den Aogelegenheiten der Art. 149 - 150 kann der
+<p type="legal_section">ta den Aogelegenheiten der Art. 149 - 150 kann der
       <lb break="yes"/>Verfassungsgerichtshof seine Zuständigkeit auch von amtswe
 <lb break="no"/>gen wahrnehmen-. Obwchl Prof.Dr. kels ea betent, daß
       <lb break="yes"/>der Verfassungsgerichtshof erst durch diese Bestimmng ein
@@ -522,9 +451,7 @@
 <lb break="no"/>schene in »subjektivene beschlessen.
       <lb break="yes"/>Berichtigt wird ferner der Wertlaut des Art.156:
       <lb break="yes"/>dieser lautet aunmehr:
-      </p>
-               <p type="legal_section">
-                  <label>(1)</label> Der Präsident des Verfassungsgerichtshofes
+      </p><p type="legal_section"><label>(1)</label> Der Präsident des Verfassungsgerichtshofes
       <lb break="yes"/>steht im Kange des Bundeskanzlers, der Vizepräsident im
       <lb break="yes"/>fange eines Bundesministers.“
       <lb break="yes"/>Am Schlüsse der Sitzung gibt frof.Dr. Seipe1
@@ -541,13 +468,10 @@
       <lb break="yes"/>der obligatorischen Zivilehe in der Verfassung.
       <lb break="yes"/>Das Stadtamt Rottenmann wendet sich an die Staatsre
 <lb break="no"/>gierung mit allen Mitteln den Anschluß an das Deutsche Reich</p>
-               <p type="legal_section">371<pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>12-
+<p type="legal_section">371<pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>12-
       <lb break="yes"/>anzustreben und die Geneinde Furth in Rezirk Krens begrüft
       <lb break="yes"/>den Beschluß degen Verstattlichung des Schulnesens.
-      <lb break="yes"/>Schluß der Sitzung 7 Uhr abends.</p>
-               <p type="legal_section">371</p>
-            </div>
-         </div>
-      </body>
-   </text>
+      <lb break="yes"/>Schluß der Sitzung 7 Uhr abends.</p><p type="legal_section">371</p></div>
+</div></body>
+    </text>
 </TEI>
