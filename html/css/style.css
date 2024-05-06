@@ -62,7 +62,7 @@ div.edition_container h5 {
     display: block;
     height: 100px;
     margin-top: -100px;
-    background: transparent ;
+    background: transparent;
 }
 
 div.container p {
@@ -294,7 +294,7 @@ div.offcanvas div {
 margin: -80px 0 0;
 }
 
-*/ 
+*/
 .intro .col-md-6 {
     padding: 0;
     align-items: center;
@@ -550,20 +550,6 @@ div#wrapper-footer-secondary a {
     color: var(--bv-main-bg-color);
 }
 
-span.pb {
-    visibility: hidden;
-    line-height: 0rem;
-    padding: 0;
-    margin: 0;
-}
-
-a.anchor,
-.anchor-pb {
-    position: relative;
-    top: -120px;
-    visibility: collapse;
-}
-
 
 hr {
     visibility: collapse;
@@ -803,7 +789,7 @@ div.card-body span.tei_lb::before {
 }
 
 /* line-breaks not mimetic */
-div.card-body.non_mimetic_lbs span.tei_lb.line_breaks_in_word::  {
+div.card-body.non_mimetic_lbs span.tei_lb.line_breaks_in_word:: {
     content: "";
     display: inline;
 }
@@ -827,6 +813,48 @@ div.card-body.mimetic_lbs span.tei_lb::after {
 
 /* END
     of lb handling */
+
+
+span.pb {
+    visibility: visible;
+    line-height: inherit;
+    display: block;
+    position: absolute;
+    left: -1.5rem;
+    width: 1.5rem;
+    margin-top: var(--default-line-height-negative);
+}
+
+span.pb::before {
+    display: block;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: inherit;
+    color: black;
+    content: "|" var(--beginning_page)"|";
+    text-align: right;
+}
+
+span.pb_marker {
+    color: grey;
+}
+
+
+
+/* deleteme
+span.pb {
+    visibility: hidden;
+    line-height: 0rem;
+    padding: 0;
+    margin: 0;
+}
+
+a.anchor,
+.anchor-pb {
+    position: relative;
+    top: -120px;
+    visibility: collapse;
+}*/
 
 .index-card .card-body {
     background-color: transparent;
@@ -911,9 +939,63 @@ div#tocTable div.tabulator-header-filter input {
 add whitespace to end of doc to scroll last page into view
 */
 
-
-div#text-resize>div#section:last-child  {
+div#text-resize>div#section:last-child {
     padding-bottom: 95vh;
+}
+
+
+/* experimental */
+div.card-body.non_mimetic_lbs p {
+    text-align: justify!important;
+    hyphens: auto;
+}
+
+div.card-body {
+    position: relative;
+    padding: 1rem;
+}
+
+#container-resize h2.section {
+    padding-top: 1rem;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    margin-left: -1rem;
+    font-size: large;
+}
+
+#container-resize h3.section {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+}
+
+
+#container-resize h3.section.alone {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+}
+
+#container-resize ul>li {
+    max-width: 25rem;
+}
+
+#container-resize ul {
+    list-style-type: none;
+    padding: 0 2rem;
+}
+
+#container-resize a.org {
+    background-color: lightgrey;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 0.4rem;
+    margin: none;
 }
 
 /*
