@@ -102,11 +102,12 @@ def create_record(
     else:
         title = doc_title
     record["title"] = title
-    head_id = (
-        head.xpath("preceding-sibling::tei:a/@xml:id", namespaces=tei_ns)[0]
-        if head is not None
-        else ""
+    head_id_val = (
+        head.xpath("@xml:id", namespaces=tei_ns) 
+        if head is not None 
+        else [""]
     )
+    head_id = head_id_val[0] if head_id_val else ""
     head_path = f"{file_name}#{head_id}"
     record["record_id"] = head_path
     record["anchor_link"] = f"./{head_path.replace('.xml#', '.html#', 1)}"
