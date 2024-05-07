@@ -337,6 +337,8 @@
 
             <xsl:template match="//tei:body//tei:head">
                 <!-- find level of head between 1 and 6, the level is not semantical, the hirarchy never interruptet-->
+                <xsl:variable name="is_single" select="boolean(count(parent::*/tei:head)=1)"/>
+                <xsl:variable name="is_first" select="boolean(not(preceding-sibling::tei:head))"/>
                 <xsl:variable name="head_level_number_raw" select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
                 <xsl:variable name="head_level_number">
                     <xsl:choose>
@@ -350,6 +352,19 @@
                 <xsl:element name="{$heading_element_name}">
                     <xsl:attribute name="class">
                         <xsl:value-of select="@class"/>
+                        <xsl:choose>
+                            <xsl:when test="$is_single">
+                                <xsl:value-of select="' single'"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="' multiple'"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:choose>
+                            <xsl:when test="$is_first">
+                                <xsl:value-of select="' first'"/>
+                            </xsl:when>
+                        </xsl:choose>
                     </xsl:attribute>
                     <xsl:choose>
                         <xsl:when test="@xml:id">
@@ -362,4 +377,26 @@
                 </xsl:element>
             </xsl:template>
 
+            <xsl:template match="//tei:body//*[preceding-sibling::*[1][local-name()='label']]">
+                <xsl:choose>
+                    <xsl:when test="local-name()='p'">
+                        <p class="legal_section">
+                            <span>
+                                <xsl:value-of select="./preceding-sibling::tei:label[1]/normalize-space()"/>
+                            </span>
+                            <xsl:apply-templates/>
+                        </p>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <li>
+                            <span>
+                                <xsl:value-of select="./preceding-sibling::tei:label[1]/normalize-space()"/>
+                            </span>
+                            <xsl:apply-templates/>
+                        </li>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:template>
+
+            <xsl:template match="//tei:body//tei:label"/>
         </xsl:stylesheet>
