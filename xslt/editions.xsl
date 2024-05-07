@@ -297,8 +297,69 @@
                 <span class="tei_lb"/>
             </xsl:template>
             <xsl:template match="tei:lb"/>
-            <!-- simply keep paragraphs -->
-            <xsl:template match="tei:p | tei:lg">
+            <!-- match paragraphs and listitems with labels; secure whitespaces -->
+            <xsl:template match="//tei:body//tei:item[preceding-sibling::*[1][local-name()='label']]">
+                <xsl:variable name="label_element">
+                    <xsl:value-of select="./preceding-sibling::tei:label[1]"/>
+                </xsl:variable>
+                <xsl:variable name="label_text">
+                    <xsl:choose>
+                        <xsl:when test="$label_element/following-sibling::text()[starts-with(.,' ')]">
+                            <xsl:value-of select="$label_element/normalize-space()"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat($label_element/normalize-space(), ' ')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <li>
+                    <span class="number_label">
+                        <xsl:value-of select="$label_text"/>
+                    </span>
+                    <xsl:apply-templates/>
+                </li>
+            </xsl:template>
+            <!-- paragraphs -->
+            <xsl:template match="tei:p">
+                <xsl:choose>
+                    <xsl:when test="@type='legal_section'">
+                        <xsl:choose>
+                            <xsl:when test="./tei:label">
+                                <xsl:variable name="label_element">
+                                    <xsl:value-of select="./tei:label[1]"/>
+                                </xsl:variable>
+                                <xsl:variable name="label_text">
+                                    <xsl:choose>
+                                        <xsl:when test="$label_element/following-sibling::text()[starts-with(.,' ')]">
+                                            <xsl:value-of select="$label_element/normalize-space()"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="concat($label_element/normalize-space(), ' ')"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:variable>
+                                <p class="legal_section">
+                                    <span class="number_label">
+                                        <xsl:value-of select="$label_text"/>
+                                    </span>
+                                    <xsl:apply-templates/>
+                                </p>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <p class="legal_section">
+                                    <xsl:apply-templates/>
+                                </p>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <p>
+                            <xsl:apply-templates/>
+                        </p>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:template>
+            <xsl:template match="tei:lg">
                 <p>
                     <xsl:apply-templates/>
                 </p>
@@ -376,27 +437,10 @@
                     <xsl:apply-templates/>
                 </xsl:element>
             </xsl:template>
-
-            <xsl:template match="//tei:body//*[preceding-sibling::*[1][local-name()='label']]">
-                <xsl:choose>
-                    <xsl:when test="local-name()='p'">
-                        <p class="legal_section">
-                            <span>
-                                <xsl:value-of select="./preceding-sibling::tei:label[1]/normalize-space()"/>
-                            </span>
-                            <xsl:apply-templates/>
-                        </p>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <li>
-                            <span>
-                                <xsl:value-of select="./preceding-sibling::tei:label[1]/normalize-space()"/>
-                            </span>
-                            <xsl:apply-templates/>
-                        </li>
-                    </xsl:otherwise>
-                </xsl:choose>
+            <xsl:template match="//tei:body//tei:list">
+                <ul>
+                    <xsl:apply-templates/>
+                </ul>
             </xsl:template>
-
             <xsl:template match="//tei:body//tei:label"/>
         </xsl:stylesheet>
