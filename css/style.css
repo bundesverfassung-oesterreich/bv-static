@@ -37,19 +37,6 @@ a {
 }
 
 /*left align any content text per default*/
-div.container h1,
-div.container h2,
-div.container h3,
-div.container h4,
-div.container h5,
-div.edition_container p,
-div.edition_container h1,
-div.edition_container h2,
-div.edition_container h3,
-div.edition_container h4,
-div.edition_container h5 {
-    text-align: left !important;
-}
 
 :target {
     background: var(--bv-small-highlight);
@@ -62,7 +49,11 @@ div.edition_container h5 {
     display: block;
     height: 100px;
     margin-top: -100px;
-    background: transparent;
+}
+
+:is(h2, h3, h4, h5):target + :is(h2, h3, h4, h5){
+    padding-bottom: .75rem;
+    padding-top: 1.75rem;;
 }
 
 div.container p {
@@ -343,22 +334,6 @@ body {
     overflow-x: hidden;
 }
 
-h2,
-h3,
-h4 {
-    width: fit-content;
-    font-weight: bold;
-    font-size: medium;
-    margin-bottom: .75rem;
-    margin-top: 1.75rem;
-}
-
-h2.section,
-h3.section {
-    margin-top: 2rem;
-    font-size: large;
-}
-
 p {
     display: block;
     padding: 0;
@@ -452,6 +427,10 @@ a {
 
 .edition_container div {
     background-color: inherit;
+}
+
+.edition_container p {
+    text-align: left !important;
 }
 
 .container-fluid {
@@ -950,7 +929,7 @@ div#text-resize>div#section:last-child {
 
 /* experimental */
 div.card-body.non_mimetic_lbs p {
-    text-align: justify!important;
+    text-align: justify !important;
     hyphens: auto;
 }
 
@@ -959,13 +938,73 @@ div.card-body {
     padding: 1rem;
 }
 
-#container-resize h2.section {
+
+/* ############## */
+/* headings (edition content) START */
+
+div.section :is(h2, h3, h4 , h5){
+    font-size: 1.5rem;
+}
+
+div.article :is(h2, h3, h4 , h5){
+    margin-bottom: .75rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+div.section + div.section {
+    margin-top: 1.25rem;
+}
+/* div.container :is(h1, h2, h3, h4, h5),
+div.edition_container :is(h1, h2, h3, h4, h5) {
+    text-align: left !important;
+}
+
+h1.main {
+    padding-bottom: 2rem;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    width: fit-content;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 1.25rem;
+    margin-top: 1.75rem;
+}
+
+:is(h2, h3, h4, h5).section {
+    padding-top: 0;
+    font-size: large;
+} */
+
+/* :is(h2, h3, h4, h5).section {
+    padding-bottom: 1rem;
+}
+
+:is(h2, h3, h4, h5).section.first.singe {
+    padding-bottom: 1.5rem;
+}
+
+:is(h2, h3, h4, h5).section.first.multiple {
+    padding-bottom: .5rem;
+} */
+
+/* #container-resize h2.section:first-child {
     padding-top: 1rem;
     margin-top: 3rem;
     padding-bottom: 1rem;
     line-height: 2rem;
     margin-left: -1rem;
     font-size: large;
+    background-color: blue;
+}
+
+#container-resize h2.section:first-child + h2.section {
+    margin-top: 3rem;
+    background-color: red;
 }
 
 #container-resize h3.section {
@@ -983,6 +1022,23 @@ div.card-body {
     line-height: 2rem;
     margin-left: -0.5rem;
     margin-top: 1rem;
+} */
+
+/* headings END */
+/* ############ */
+div.section {
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+div.section > div.section{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+div.article {
+    padding-left: 1rem;
+    padding-top: 1.25rem;
 }
 
 #container-resize ul>li {
