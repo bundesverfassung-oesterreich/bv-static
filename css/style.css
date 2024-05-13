@@ -62,7 +62,7 @@ div.container p {
     line-height: var(--default-line-height);
 }
 
-p.legal_section{
+p.legal_section.numbered {
     margin-left: 2rem;
 }
 
