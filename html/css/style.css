@@ -1129,3 +1129,9 @@ low resolution
 #########################################
 */
 }
+
+/* target offset for any element */
+:target {
+    background-color: gray;
+    scroll-margin-top: 100px;
+}
