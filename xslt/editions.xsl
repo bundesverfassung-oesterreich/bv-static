@@ -338,7 +338,7 @@
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:variable>
-                                <p class="legal_section">
+                                <p class="legal_section numbered">
                                     <span class="number_label">
                                         <xsl:value-of select="$label_text"/>
                                     </span>
