@@ -5,8 +5,6 @@
     --bv-big-highlight-rgb: 0, 116, 82;
     /*#007452*/
     --bv-big-highlight: rgb(var(--bv-big-highlight-rgb));
-    /*--bv-contrast:  hsl(162, 100%, 23%);*/
-    /*--bv-contrast:  #FAFF01;*/
     --bv-contrast: #eff15ef6;
     --bv-transp-red: 255, 1, 1;
     --default-line-height: 1.5rem;
@@ -37,24 +35,6 @@ a {
 }
 
 /*left align any content text per default*/
-
-:target {
-    background: var(--bv-small-highlight);
-    display: inline;
-}
-
-:target::before {
-    content: "";
-    position: relative;
-    display: block;
-    height: 100px;
-    margin-top: -100px;
-}
-
-:is(h2, h3, h4, h5):target + :is(h2, h3, h4, h5){
-    padding-bottom: .75rem;
-    padding-top: 1.75rem;;
-}
 
 div.container p {
     text-align: justify;
@@ -281,21 +261,6 @@ div.offcanvas div {
     background-color: var(--bv-main-bg-color);
 }
 
-/*rules for anchor hack
-:target+h2,
-:target+h3,
-:target+h4 {
-    background-color: lightgray;
-}
-
- :target::before {
-    content: "";
-    display: block;
-    height: 80px;
-margin: -80px 0 0;
-}
-
-*/
 .intro .col-md-6 {
     padding: 0;
     align-items: center;
@@ -823,31 +788,14 @@ span.pb::before {
     content: "|" var(--beginning_page)"|";
     text-align: right;
 }
-
-/* span.pb_marker {
+span.pb_marker {
     color: grey;
 }
 
 span.pb_marker::after {
     content: "|";
-    padding: 0 1rem;
-} */
-
-
-/* deleteme
-span.pb {
-    visibility: hidden;
-    line-height: 0rem;
-    padding: 0;
-    margin: 0;
+    padding: 0 .5rem;
 }
-
-a.anchor,
-.anchor-pb {
-    position: relative;
-    top: -120px;
-    visibility: collapse;
-}*/
 
 .index-card .card-body {
     background-color: transparent;
@@ -951,9 +899,11 @@ div.card-body {
 
 /* ############## */
 /* headings (edition content) START */
+/* spacing is solved via parent containers */
 
 div.section :is(h2, h3, h4 , h5){
     font-size: 1.5rem;
+    display: inline;
 }
 
 div.article :is(h2, h3, h4 , h5){
@@ -965,74 +915,6 @@ div.article :is(h2, h3, h4 , h5){
 div.section + div.section {
     margin-top: 1.25rem;
 }
-/* div.container :is(h1, h2, h3, h4, h5),
-div.edition_container :is(h1, h2, h3, h4, h5) {
-    text-align: left !important;
-}
-
-h1.main {
-    padding-bottom: 2rem;
-}
-
-h2,
-h3,
-h4,
-h5 {
-    width: fit-content;
-    font-weight: bold;
-    font-size: medium;
-    margin-bottom: 1.25rem;
-    margin-top: 1.75rem;
-}
-
-:is(h2, h3, h4, h5).section {
-    padding-top: 0;
-    font-size: large;
-} */
-
-/* :is(h2, h3, h4, h5).section {
-    padding-bottom: 1rem;
-}
-
-:is(h2, h3, h4, h5).section.first.singe {
-    padding-bottom: 1.5rem;
-}
-
-:is(h2, h3, h4, h5).section.first.multiple {
-    padding-bottom: .5rem;
-} */
-
-/* #container-resize h2.section:first-child {
-    padding-top: 1rem;
-    margin-top: 3rem;
-    padding-bottom: 1rem;
-    line-height: 2rem;
-    margin-left: -1rem;
-    font-size: large;
-    background-color: blue;
-}
-
-#container-resize h2.section:first-child + h2.section {
-    margin-top: 3rem;
-    background-color: red;
-}
-
-#container-resize h3.section {
-    padding-top: 0rem;
-    padding-bottom: 1rem;
-    line-height: 2rem;
-    margin-left: -0.5rem;
-    margin-top: 1rem;
-}
-
-
-#container-resize h3.section.alone {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    line-height: 2rem;
-    margin-left: -0.5rem;
-    margin-top: 1rem;
-} */
 
 /* headings END */
 /* ############ */
@@ -1246,4 +1128,10 @@ add rules for smallest smartphones
 low resolution
 #########################################
 */
+}
+
+/* target offset for any element */
+:target {
+    background-color: gray;
+    scroll-margin-top: 100px;
 }
