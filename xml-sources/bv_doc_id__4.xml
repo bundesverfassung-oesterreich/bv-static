@@ -324,137 +324,127 @@
       <text type="Verfassungsentwurf">
             <body>
                   <div type="main">
-                        <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
                         <div type="section">
+                              <pb facs="#facs_2" n="2" xml:id="img_0002" break="yes"/>
                               <head>Erster Abschnitt</head>
-                              <head>Allgemeine BEstimmungen</head>
+                              <head>Allgemeine Bestimmungen</head>
                               <div type="article">
-                                    <head>Art.I. </head>
+                                    <head>Art. I. </head>
                                     <p type="legal_section">Die Republik Oesterreich ist ein freier
-                                          <lb break="yes"/>Bund der souveränen Länder;
-                                          Niederösterreich,
-                                          <lb break="yes"/>Oberösterreich, Steiermark etc. </p>
+                                                <lb break="yes"/>Bund der souveränen Länder;
+                                          Niederösterreich, <lb break="yes"/>Oberösterreich,
+                                          Steiermark etc. </p>
                               </div>
                               <div type="article">
                                     <head>Art. II. </head>
                                     <p type="legal_section">Das Bundesgebiet umfasst die Gebiete der
-                                          <lb break="yes"/>souveränen Länder u. zw. in folgendem
-                                          Umfange:
-                                          <lb break="yes"/>Niederösterreich: . . . .
-                                          <lb break="yes"/>Oberösterreich: . . .
-                                          <lb break="yes"/>etc. </p>
+                                                <lb break="yes"/>souveränen Länder u. zw. in
+                                          folgendem Umfange: <lb break="yes"/></p>
+                                    <p type="legal_section">Niederösterreich: . . . . <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Oberösterreich: . . . <lb break="yes"
+                                          /></p>
+                                    <p type="legal_section">etc. </p>
                               </div>
                               <div type="article">
                                     <head>Art. III.</head>
                                     <p type="legal_section">Eine Aenderung des Bundesgebietes, die
-                                          zu
-                                          <lb break="no"/>gleich Aenderung eines Landesgebietes ist,
-                                          eben
-                                          <lb break="no"/>so eine Aenderung der Landesgrenze
-                                          innerhalb
-                                          <lb break="yes"/>des Bundesgebietes, kann nur durch
-                                          übereinstim
-                                          <lb break="no"/>mende Verfassungsgesetze des Bundes und
-                                          desjeni
-                                          <lb break="no"/>gen Landes erfolgen, dessen Gebiet eine
-                                          Verän
-                                          <lb break="no"/>derung erfährt.</p>
+                                          zu <lb break="no"/>gleich Aenderung eines Landesgebietes
+                                          ist, eben <lb break="no"/>so eine Aenderung der
+                                          Landesgrenze innerhalb <lb break="yes"/>des
+                                          Bundesgebietes, kann nur durch übereinstim <lb break="no"
+                                          />mende Verfassungsgesetze des Bundes und desjeni <lb
+                                                break="no"/>gen Landes erfolgen, dessen Gebiet eine
+                                          Verän <lb break="no"/>derung erfährt.</p>
                               </div>
                               <div type="article">
                                     <head>Art. IV. </head>
                                     <p type="legal_section">Jeder Landesbürger ist Bürger des
-                                          Bundes.
-                                          <lb break="yes"/>Die Landesbürgerschaft ist an die
-                                          Heimatbe
-                                          <lb break="no"/>rechtigung in der Gemeinde eines
-                                          souveränen Lan
-                                          <lb break="no"/>des gebunden.
-                                          <lb break="yes"/>Der Erwerb und Verlust der Bundesbürger
-                                          <lb break="no"/>schaft wird durch ein Bundesgesetz
+                                          Bundes. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Landesbürgerschaft ist an die
+                                          Heimatbe <lb break="no"/>rechtigung in der Gemeinde eines
+                                          souveränen Lan <lb break="no"/>des gebunden. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Der Erwerb und Verlust der Bundesbürger
+                                                <lb break="no"/>schaft wird durch ein Bundesgesetz
                                           geregelt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. V. </head>
                                     <p type="legal_section">Die souveränen Länder Niederrösterreich
-                                          etc.
-                                          <lb break="yes"/>übertragen dem Bunde ihre Staatsgewalt in
-                                          den
-                                          <lb break="yes"/>folgenden Angelegenheiten:</p>
-                                    <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
-                                    <p type="legal_section">- 2 -</p>
-                                    <p type="legal_section"><label>1.</label> / die auswärtigen
-                                          Angelegenheiten.
-                                          <lb break="yes"/>2. / das Militärwesen, </p>
-                                    <p type="legal_section"><label>3.</label> / die
-                                          Sicherheitspolizei in Gemein
-                                          <lb break="no"/>den bis zu . . . Einwohnern; die
-                                          Fremdenpoli
-                                          <lb break="no"/>zei und das Passwesen, </p>
-                                    <p type="legal_section"><label>4.</label> / die Bundesfinanzen,
-                                          das Monopolwe
-                                          <lb break="no"/>sen und die Verwaltung der Bundesbetriebe. </p>
-                                    <p type="legal_section"><label>5.</label> / das Zollwesen, Geld
-                                          - und Bánkwe
-                                          <lb break="no"/>sen; Handel, Gewerbe, Industrie und
-                                          Verkehr,
-                                          <lb break="yes"/>Bergwesen. </p>
-                                    <p type="legal_section"><label>6.</label>/ Mass- und
-                                          Gewichtswesen, Punzierungs
-                                          <lb break="no"/>wesen,</p>
-                                    <p type="legal_section"><label>7.</label> / Zivil - und
-                                          Strafjustiz. </p>
-                                    <p type="legal_section"><label>8.</label>/ Kultus - und
-                                          Hochschulwesen. </p>
-                                    <p type="legal_section"><label>9.</label> / Volksgesundheit und
-                                          soziale Für
-                                          <lb break="no"/>sorge.
-                                          <lb break="yes"/>In diesen Angelegenheiten steht dem
-                                          <lb break="yes"/>Bunde die Gesetzgebung und Vollziehung
-                                          zu. </p>
+                                          etc. <lb break="yes"/>übertragen dem Bunde ihre
+                                          Staatsgewalt in den <lb break="yes"/>folgenden
+                                                Angelegenheiten:<pb facs="#facs_3" n="3"
+                                                xml:id="img_0003" break="yes"/><fw type="pageNum">-
+                                                2 -</fw><list>
+                                                <label>1./</label>
+                                                <item>die auswärtigen Angelegenheiten. </item>
+                                                <label>2./ </label>
+                                                <item> das Militärwesen,  </item>
+                                                <label>3./</label>
+                                                <item> die Sicherheitspolizei in Gemein <lb
+                                                  break="no"/>den bis zu . . . Einwohnern; die
+                                                  Fremdenpoli <lb break="no"/>zei und das Passwesen, </item>
+                                                <label>4./</label>
+                                                <item>die Bundesfinanzen, das Monopolwe <lb
+                                                  break="no"/>sen und die Verwaltung der
+                                                  Bundesbetriebe,</item>
+                                                <label>5./ </label>
+                                                <item>  das Zollwesen, Geld - und Bánkwe sen;
+                                                  Handel, Gewerbe, Industrie und Verkehr,
+                                                  Bergwesen.</item>
+                                                <label> 6./ </label>
+                                                <item>Mass- und Gewichtswesen, Punzierungs wesen,  </item>
+                                                <label>7./  </label>
+                                                <item>Zivil - und Strafjustiz.  8./ Kultus - und
+                                                  Hochschulwesen.  </item>
+                                                <label> 9./ </label>
+                                                <item> Volksgesundheit und soziale Für sorge. In
+                                                  diesen Angelegenheiten steht dem Bunde die
+                                                  Gesetzgebung und Vollziehung zu.  </item>
+                                          </list></p>
                               </div>
                               <div type="article">
                                     <head>Art. VI. </head>
-                                    <p type="legal_section">Der Gesetzgebung des Bundes ist über
-                                          <lb break="no"/>tragen: </p>
-                                    <p type="legal_section"><label>1.</label> / die Aenderung der
-                                          Bundesverfassung</p>
-                                    <p type="legal_section">insbesondere auch hinsichtlich des
-                                          Verhält
-                                          <lb break="no"/>nisses der souveränen Länder zum Bunde, </p>
-                                    <p type="legal_section"><label>2.</label> / die Bestimmung der
-                                          Art und des Um
-                                          <lb break="no"/>fanges des den Ländern zustehenden
-                                          Rechtes,
-                                          <lb break="yes"/>öffentliche Abgaben auszuschreiben und
-                                          einzu
-                                          <lb break="no"/>heben, </p>
-                                    <p type="legal_section"><label>3.</label> / die Regelung des
-                                          Staatsbürger - und
-                                          <lb break="yes"/>Heimatsrechtes, </p>
-                                    <p type="legal_section"><label>4.</label> / die Regelung des
-                                          Bevölkerungswesens. </p>
-                                    <p type="legal_section"><label>5.</label> / die Regelung des
-                                          Administrativver
-                                          <lb break="no"/>fahrens und die Festsetzung der
-                                          allgemeinen
-                                          <lb break="yes"/>Grundsätze des
-                                          Verwaltungsstrafverfahrens.</p>
-                                    <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
-                                    <p type="legal_section">- 3 </p>
-                                    <p type="legal_section"><label>6.</label>/ die Feststellung der
-                                          Grundsätze
-                                          <lb break="yes"/>des Wasser - und Elektrizitätsrechtes.
-                                    </p>
+                                    <p type="legal_section">Der Gesetzgebung des Bundes ist über <lb
+                                                break="no"/>tragen: <list>
+                                                <label>1./</label>
+                                                <item>die Aenderung der Bundesverfassung
+                                                  insbesondere auch hinsichtlich des Verhält <lb
+                                                  break="no"/>nisses der souveränen Länder zum
+                                                  Bunde,</item>
+                                                <label>2./</label>
+                                                <item>  die Bestimmung der Art und des Um <lb
+                                                  break="no"/>fanges des den Ländern zustehenden
+                                                  Rechtes, <lb break="yes"/>öffentliche Abgaben
+                                                  auszuschreiben und einzu <lb break="no"/>heben, </item>
+                                                <label>3./</label>
+                                                <item> die Regelung des Staatsbürger - und <lb
+                                                  break="yes"/>Heimatsrechtes,</item>
+                                                <label>4./</label>
+                                                <item>die Regelung des Bevölkerungswesens.  </item>
+                                                <label>5./</label>
+                                                <item> die Regelung des Administrativver <lb
+                                                  break="no"/>fahrens und die Festsetzung der
+                                                  allgemeinen <lb break="yes"/>Grundsätze des
+                                                  Verwaltungsstrafverfahrens,</item>
+                                                <pb facs="#facs_4" n="4" xml:id="img_0004"
+                                                  break="yes"/>
+                                                <fw type="pageNum">- 3 -</fw>
+                                                <label>6./</label>
+                                                <item>  die Feststellung der Grundsätze <lb
+                                                  break="yes"/>des Wasser - und
+                                                  Elektrizitätsrechtes. </item>
+                                          </list></p>
                               </div>
                               <div type="article">
                                     <head>Art. VII. </head>
-                                    <p type="legal_section">Soferne eine Angelegenheit nicht aus
-                                          <lb break="no"/>drücklich durch die Bundesverfassung der
-                                          <lb break="yes"/>Gesetzgebung oder auch der Vollziehung
-                                          des
-                                          <lb break="yes"/>Bundes übertragen ist, verbleibt sie im
-                                          Gel
-                                          <lb break="no"/>tungsbereiche der souveränen Länder.</p>
+                                    <p type="legal_section">Soferne eine Angelegenheit nicht aus <lb
+                                                break="no"/>drücklich durch die Bundesverfassung der
+                                                <lb break="yes"/>Gesetzgebung oder auch der
+                                          Vollziehung des <lb break="yes"/>Bundes übertragen ist,
+                                          verbleibt sie im Gel <lb break="no"/>tungsbereiche der
+                                          souveränen Länder.</p>
                               </div>
                         </div>
                         <div type="section">
@@ -478,236 +468,204 @@
                               </div>
                               <div type="article">
                                     <head>Art. X. </head>
-                                    <p type="legal_section">Der Bundesversammlung obliegt im Zu
-                                          <lb break="no"/>sammenwirken mit dem Bundesrate die Gesetz
-                                          <lb break="no"/>gebung des Bundes.
-                                          <lb break="yes"/>Die Bundesversammlung allein hat das
-                                          <lb break="yes"/>Recht Krieg zu erklären und
-                                          Friedensverträge
-                                          <lb break="yes"/>zu genehmigen. Ein solcher Beschluss
-                                          bedarf
-                                          <lb break="yes"/>auch der Genehmigung des Bundesrates.
-                                          <lb break="yes"/>Staatsverträge bedürfen zu ihrer Gül
-                                          <lb break="no"/>tigkeit der Genehmigung durch die
-                                          Bundesver
-                                          <lb break="no"/>sammlung und den Bundesrat.
-                                          <lb break="yes"/>Nur Verwaltungsverträge geringerer
-                                          Be-</p>
-                                    <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
-                                    <p type="legal_section">- 4 -</p>
-                                    <p type="legal_section">deutung /Regierungsübereinkommen/ hat
-                                          ledig
-                                          <lb break="no"/>lich die Bundesregierung zu genehmigen.
-                                    </p>
+                                    <p type="legal_section">Der Bundesversammlung obliegt im Zu <lb
+                                                break="no"/>sammenwirken mit dem Bundesrate die
+                                          Gesetz <lb break="no"/>gebung des Bundes. <lb break="yes"
+                                          /></p>
+                                    <p type="legal_section">Die Bundesversammlung allein hat das <lb
+                                                break="yes"/>Recht Krieg zu erklären und
+                                          Friedensverträge <lb break="yes"/>zu genehmigen. Ein
+                                          solcher Beschluss bedarf <lb break="yes"/>auch der
+                                          Genehmigung des Bundesrates. <lb break="yes"/></p>
+                                    <p type="legal_section">Staatsverträge bedürfen zu ihrer Gül <lb
+                                                break="no"/>tigkeit der Genehmigung durch die
+                                          Bundesver <lb break="no"/>sammlung und den Bundesrat. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Nur Verwaltungsverträge geringerer
+                                                Be-<pb facs="#facs_5" n="5" xml:id="img_0005"
+                                                break="yes"/><fw type="pageNum">- 4 -</fw>deutung
+                                          /Regierungsübereinkommen/ hat ledig <lb break="no"/>lich
+                                          die Bundesregierung zu genehmigen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XI. </head>
-                                    <p type="legal_section">Der Bundesversammlung obliegt die
-                                          <lb break="yes"/>jährliche Bewilligung des Bundesbudgets,
-                                          die
-                                          <lb break="yes"/>Aufnahme und Konvertierung von
-                                          Bundesanleihen
-                                          <lb break="yes"/>und die Erteilung des Absolutoriums an
-                                          die
-                                          <lb break="yes"/>Bundesregierung auf Grund des geprüften
-                                          und
-                                          <lb break="yes"/>gebilligten Bundesrechnungsabschlusses /
-                                          Art.
-                                          <lb break="yes"/>XCIV/.
-                                          <lb break="yes"/>Diese Beschlüsse bedürfen der Genehmi
-                                          <lb break="no"/>gung des Bundesrates. </p>
+                                    <p type="legal_section">Der Bundesversammlung obliegt die <lb
+                                                break="yes"/>jährliche Bewilligung des
+                                          Bundesbudgets, die <lb break="yes"/>Aufnahme und
+                                          Konvertierung von Bundesanleihen <lb break="yes"/>und die
+                                          Erteilung des Absolutoriums an die <lb break="yes"
+                                          />Bundesregierung auf Grund des geprüften und <lb
+                                                break="yes"/>gebilligten Bundesrechnungsabschlusses
+                                          / Art. <lb break="yes"/>XCIV/. <lb break="yes"/></p>
+                                    <p type="legal_section">Diese Beschlüsse bedürfen der Genehmi
+                                                <lb break="no"/>gung des Bundesrates. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XII. </head>
                                     <p type="legal_section">Zur Bundesversammlung werden in dem ge
-                                          <lb break="no"/>samten Bundesgebiet . . . Abgeordnete auf
-                                          <lb break="yes"/>Grund des gleichen, direkten persönlichen
-                                          <lb break="yes"/>und geheimen Wahlrechtes aller
-                                          Bundesbürger
-                                          <lb break="yes"/>ohne Unterschied des Geschlechtes, die am
-                                          1.</p>
-                                    <p type="legal_section">Jänner d.J., in welchem die Wahl statt
-                                          findet
-                                          <lb break="yes"/>das 20. Lebensjahr überschritten haben,
-                                          nach
-                                          <lb break="yes"/>dem System der Verhältniswahl gewählt.
-                                          <lb break="yes"/>Wählbar ist ohne Unterschied des Ge
-                                          <lb break="no"/>schichtes jeder wahlberechtigte
-                                          Bundesbürger,
-                                          <lb break="yes"/>der vor dem 1. Jänner des Jahres, in
-                                          welchem
-                                          <lb break="yes"/>die Wahl zur Bundesversammlung
-                                          stattfindet,
-                                          <lb break="yes"/>das 29. Lebensjahr überschritten hat.
-                                          <lb break="yes"/>Vom Wahlrecht und der Wählbarkeit sind
-                                          <lb break="yes"/>geschlossen . . . . . .
-                                          <lb break="yes"/>Die Wahlordnung für die Wahl zur Bun
-                                          <lb break="no"/>desversammlung wird in einem besonderen Ge
-                                          <lb break="no"/>setze erlassen. Sie bildet einen
-                                          Bestandteil
-                                          <lb break="yes"/>der Bundesverfassung.</p>
-                                    <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
-                                    <p type="legal_section">- 5 -</p>
+                                                <lb break="no"/>samten Bundesgebiet . . .
+                                          Abgeordnete auf <lb break="yes"/>Grund des gleichen,
+                                          direkten persönlichen <lb break="yes"/>und geheimen
+                                          Wahlrechtes aller Bundesbürger <lb break="yes"/>ohne
+                                          Unterschied des Geschlechtes, die am 1. Jänner d.J., in
+                                          welchem die Wahl statt findet <lb break="yes"/>das 20.
+                                          Lebensjahr überschritten haben, nach <lb break="yes"/>dem
+                                          System der Verhältniswahl gewählt. <lb break="yes"/></p>
+                                    <p type="legal_section">Wählbar ist ohne Unterschied des Ge <lb
+                                                break="no"/>schichtes jeder wahlberechtigte
+                                          Bundesbürger, <lb break="yes"/>der vor dem 1. Jänner des
+                                          Jahres, in welchem <lb break="yes"/>die Wahl zur
+                                          Bundesversammlung stattfindet, <lb break="yes"/>das 29.
+                                          Lebensjahr überschritten hat. <lb break="yes"/></p>
+                                    <p type="legal_section">Vom Wahlrecht und der Wählbarkeit sind
+                                                <lb break="yes"/>geschlossen . . . . . . <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Wahlordnung für die Wahl zur Bun <lb
+                                                break="no"/>desversammlung wird in einem besonderen
+                                          Ge <lb break="no"/>setze erlassen. Sie bildet einen
+                                          Bestandteil <lb break="yes"/>der Bundesverfassung.</p>
                               </div>
                               <div type="article">
+                                    <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
+                                    <fw type="pageNum">- 5 -</fw>
                                     <head>Art. XIII. </head>
-                                    <p type="legal_section">Die Legislaturperiode der Bundesver
-                                          <lb break="no"/>sammlung beträgt . . . Jahre vom Tage
-                                          ihrer
-                                          <lb break="yes"/>ersten Einberufung an gerechnet.
-                                          <lb break="yes"/>Die Bundesversammlung ist alljährlich
-                                          <lb break="yes"/>vom Bundespräsidenten u.zw. im . . .
-                                          einzube
-                                          <lb break="no"/>rufen.</p>
+                                    <p type="legal_section">Die Legislaturperiode der Bundesver <lb
+                                                break="no"/>sammlung beträgt . . . Jahre vom Tage
+                                          ihrer <lb break="yes"/>ersten Einberufung an gerechnet.
+                                                <lb break="yes"/></p>
+                                    <p type="legal_section">Die Bundesversammlung ist alljährlich
+                                                <lb break="yes"/>vom Bundespräsidenten u.zw. im . .
+                                          . einzube <lb break="no"/>rufen.</p>
                                     <p type="legal_section">Eine Sitzungsperiode der Bundesver
                                           <lb break="no"/>sammlung darf nicht länger als ein Jahr
                                           <lb break="yes"/>betragen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XIV. </head>
-                                    <p type="legal_section">Während der Sitzungsperiode kann
-                                          <lb break="yes"/>Die Bundesversammlung durch einen
-                                          Beschluss
-                                          <lb break="yes"/>des Hauses oder über Vorschlag der Bundes
-                                          <lb break="no"/>regierung durch den Bundespräsidenten ver
-                                          <lb break="no"/>tagt werden.
-                                          <lb break="yes"/>Die Vertagung ist aufzuheben, wenn we
-                                          <lb break="no"/>nigstens 50 Mitglieder der
-                                          Bundesversammlung
-                                          <lb break="yes"/>einen schriftlichen Antrag beim Präsiden
-                                          <lb break="no"/>ten der Bundesversammlung gestellt haben.
-                                          <lb break="yes"/>Der Präsident der Bundesversammlung hat
-                                          von
-                                          <lb break="yes"/>dem erfolgten Antrag den
-                                          Bundespräsidenten
-                                          <lb break="yes"/>im Wege der Bundesregierung zu
+                                    <p type="legal_section">Während der Sitzungsperiode kann <lb
+                                                break="yes"/>Die Bundesversammlung durch einen
+                                          Beschluss <lb break="yes"/>des Hauses oder über Vorschlag
+                                          der Bundes <lb break="no"/>regierung durch den
+                                          Bundespräsidenten ver <lb break="no"/>tagt werden. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Vertagung ist aufzuheben, wenn we
+                                                <lb break="no"/>nigstens 50 Mitglieder der
+                                          Bundesversammlung <lb break="yes"/>einen schriftlichen
+                                          Antrag beim Präsiden <lb break="no"/>ten der
+                                          Bundesversammlung gestellt haben. <lb break="yes"/>Der
+                                          Präsident der Bundesversammlung hat von <lb break="yes"
+                                          />dem erfolgten Antrag den Bundespräsidenten <lb
+                                                break="yes"/>im Wege der Bundesregierung zu
                                           verständigen.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XV. </head>
                                     <p type="legal_section">Ueber Antrag der Bundesregierung kann
-                                          <lb break="yes"/>der Bundespräsident die Bundesversammlung
-                                          <lb break="yes"/>auflösen.
-                                          <lb break="yes"/>In diesem Falle hat der Bundespräsident
-                                          <lb break="yes"/>binnen . . . . Wochen nach erfolgter
-                                          Auflö
-                                          <lb break="no"/>sung Neuwahlen auszuschreiben und die neu
-                                          <lb break="no"/>gewählte Bundesversammlung binnen weiteren
-                                          <lb break="yes"/>. . . Wochen einzuberufen. </p>
+                                                <lb break="yes"/>der Bundespräsident die
+                                          Bundesversammlung <lb break="yes"/>auflösen. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">In diesem Falle hat der Bundespräsident
+                                                <lb break="yes"/>binnen . . . . Wochen nach
+                                          erfolgter Auflö <lb break="no"/>sung Neuwahlen
+                                          auszuschreiben und die neu <lb break="no"/>gewählte
+                                          Bundesversammlung binnen weiteren <lb break="yes"/>. . .
+                                          Wochen einzuberufen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XVI. </head>
-                                    <p type="legal_section">Die Bundesversammlung wählt aus
-                                          ihrer</p>
-                                    <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
-                                    <p type="legal_section">- 6
+                                    <p type="legal_section">Die Bundesversammlung wählt aus ihrer<pb
+                                                facs="#facs_7" n="7" xml:id="img_0007" break="yes"
+                                                /><fw type="pageNum">- 6 -</fw>
                                           <lb break="no"/>Mitte auf die Dauer der Sitzungsperiode
-                                          <lb break="yes"/>einen Präsidenten sowie einen zweiten und
-                                          <lb break="yes"/>dritten Präsidenten.
-                                          <lb break="yes"/>Die Geschäftsführung der Bundesver
-                                          <lb break="no"/>sammlung erfolgt auf Grund eines
-                                          besonderen
-                                          <lb break="yes"/>Gesetzes, das einen Bestandteil der
-                                          Bundes
-                                          <lb break="no"/>verfassung bildet und einer im Rahmen die
-                                          <lb break="no"/>ses Gesetzes von der Bundesversammlung zu
-                                          <lb break="yes"/>beschliessenden autonomen
-                                          Geschäftsordnung. </p>
+                                                <lb break="yes"/>einen Präsidenten sowie einen
+                                          zweiten und <lb break="yes"/>dritten Präsidenten. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Geschäftsführung der Bundesver <lb
+                                                break="no"/>sammlung erfolgt auf Grund eines
+                                          besonderen <lb break="yes"/>Gesetzes, das einen
+                                          Bestandteil der Bundes <lb break="no"/>verfassung bildet
+                                          und einer im Rahmen die <lb break="no"/>ses Gesetzes von
+                                          der Bundesversammlung zu <lb break="yes"/>beschliessenden
+                                          autonomen Geschäftsordnung. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XVII.</head>
-                                    <p type="legal_section">Gesetzesvorschläge gelangen an die
-                                          <lb break="yes"/>Bundesversammlung entweder als Anträge
-                                          ihrer
-                                          <lb break="yes"/>Mitglieder oder als Vorlagen der Bundesre
-                                          <lb break="no"/>gierung. Auch der Bundesrat kann im Wege
-                                          <lb break="yes"/>der Bundesregierung Gesetzesanträge in
-                                          <lb break="yes"/>der Bundesversammlung stellen.
-                                          <lb break="yes"/>Die Gesetzesbeschlüsse der Bundesver
-                                          <lb break="no"/>sammlung erlangen Gesetzeskraft dadurch,
-                                          <lb break="yes"/>dass sie vom Bundesrat genehmigt, vom Bun
-                                          <lb break="no"/>despräsidenten und über dessen Auftrag vom
-                                          <lb break="yes"/>Bundeskanzler im Bundesgesetzblatte
-                                          kundge
-                                          <lb break="no"/>macht werden.</p>
+                                    <p type="legal_section">Gesetzesvorschläge gelangen an die <lb
+                                                break="yes"/>Bundesversammlung entweder als Anträge
+                                          ihrer <lb break="yes"/>Mitglieder oder als Vorlagen der
+                                          Bundesre <lb break="no"/>gierung. Auch der Bundesrat kann
+                                          im Wege <lb break="yes"/>der Bundesregierung
+                                          Gesetzesanträge in <lb break="yes"/>der Bundesversammlung
+                                          stellen. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Gesetzesbeschlüsse der Bundesver <lb
+                                                break="no"/>sammlung erlangen Gesetzeskraft dadurch,
+                                                <lb break="yes"/>dass sie vom Bundesrat genehmigt,
+                                          vom Bun <lb break="no"/>despräsidenten und über dessen
+                                          Auftrag vom <lb break="yes"/>Bundeskanzler im
+                                          Bundesgesetzblatte kundge <lb break="no"/>macht
+                                          werden.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XVIII. </head>
                                     <p type="legal_section">Zu einem Beschluss der Bundesversammlung
-                                          <lb break="yes"/>ist die Anwesenheit von mindestens . . .
-                                          . .
-                                          <lb break="yes"/>Mitgliedern und die absolute Mehrheit der
-                                          <lb break="yes"/>abgegebenen Stimmen erforderlich.
-                                          <lb break="yes"/>Eine Abänderung der Bundesverfassung
-                                          <lb break="yes"/>kann jedoch nur bei Anwesenheit von min
-                                          <lb break="no"/>destens zwei Drittel aller Mitglieder und
-                                          <lb break="yes"/>mit einer Mehrheit von drei Viertel aller
-                                          <lb break="yes"/>abgegebenen Stimmen beschlossen
-                                          werden.</p>
-                                    <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
-                                    <p type="legal_section">- 7 -</p>
+                                                <lb break="yes"/>ist die Anwesenheit von mindestens
+                                          . . . . . <lb break="yes"/>Mitgliedern und die absolute
+                                          Mehrheit der <lb break="yes"/>abgegebenen Stimmen
+                                          erforderlich. </p>
+                                    <p type="legal_section">Eine Abänderung der Bundesverfassung <lb
+                                                break="yes"/>kann jedoch nur bei Anwesenheit von min
+                                                <lb break="no"/>destens zwei Drittel aller
+                                          Mitglieder und <lb break="yes"/>mit einer Mehrheit von
+                                          drei Viertel aller <lb break="yes"/>abgegebenen Stimmen
+                                          beschlossen werden.</p>
                               </div>
                               <div type="article">
+                                    <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
+                                    <fw type="pageNum">- 7 -</fw>
                                     <head>Art. XIX. </head>
                                     <p type="legal_section">Jede Gesamtänderung der Bundesverfassung
-                                          <lb break="yes"/>eine teilweise Aenderung aber nur, wenn
-                                          sie
-                                          <lb break="yes"/>von . . . . Mitgliedern der
-                                          Bundesversammlung
-                                          <lb break="yes"/>oder . . . Mitgliedern des Bundesrates
-                                          ver
-                                          <lb break="no"/>langt wird, ist nachdem sie von der Bundes
-                                          <lb break="no"/>versammlung beschlossen und vom Bundesrate
-                                          <lb break="yes"/>genehmigt ist - vor der Beurkundung durch
-                                          <lb break="yes"/>den Bundespräsidenten einer Abstimmung
-                                          <lb break="yes"/>des gesamten Bundesvolkes zu unterziehen.
-                                    </p>
+                                                <lb break="yes"/>eine teilweise Aenderung aber nur,
+                                          wenn sie <lb break="yes"/>von . . . . Mitgliedern der
+                                          Bundesversammlung <lb break="yes"/>oder . . . Mitgliedern
+                                          des Bundesrates ver <lb break="no"/>langt wird, ist
+                                          nachdem sie von der Bundes <lb break="no"/>versammlung
+                                          beschlossen und vom Bundesrate <lb break="yes"/>genehmigt
+                                          ist - vor der Beurkundung durch <lb break="yes"/>den
+                                          Bundespräsidenten einer Abstimmung <lb break="yes"/>des
+                                          gesamten Bundesvolkes zu unterziehen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XX. </head>
                                     <p type="legal_section">Einer solchen Volksabstimmung ist fer
-                                          <lb break="no"/>ner jedes Bundesgesetz unterworfen
-                                          hinsichtlich
-                                          <lb break="yes"/>dessen dies von wenigstens 400.000
-                                          Stimmebe-</p>
-                                    <p type="legal_section">rechtigten oder von der Mehrheit der
-                                          Stimm
-                                          <lb break="no"/>berechtigten dreier Länder innerhalb 6 Wo
-                                          <lb break="no"/>chen nach erfolgter Kundmachung des
-                                          Gesetzes
-                                          <lb break="yes"/>gefordert wird. </p>
+                                                <lb break="no"/>ner jedes Bundesgesetz unterworfen
+                                          hinsichtlich <lb break="yes"/>dessen dies von wenigstens
+                                          400.000 Stimmeberechtigten oder von der Mehrheit der Stimm
+                                                <lb break="no"/>berechtigten dreier Länder innerhalb
+                                          6 Wo <lb break="no"/>chen nach erfolgter Kundmachung des
+                                          Gesetzes <lb break="yes"/>gefordert wird. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXI. </head>
-                                    <p type="legal_section">Stimmberechtigt ist jeder zur Natio
-                                          <lb break="no"/>nalversammlung wahlberechtigter
-                                          Bundesbürger.
-                                          <lb break="yes"/>Das Bundesvolk hat die von der National
-                                          <lb break="no"/>versammlung beschlossene und vom
-                                          Bundesrat</p>
-                                    <p type="legal_section">genehmigte Verfassungsänderung
-                                          angenommen
-                                          <lb break="yes"/>und es hat das bereits kundgemachte
-                                          Bundes
-                                          <lb break="no"/>gesetz abgelehnt, wenn die absolute
-                                          Mehrheit
-                                          <lb break="yes"/>der abgegebenen Stimmen sich für die
-                                          Verfas
-                                          <lb break="no"/>sungsänderung oder gegen das Bundesgesetz.
-                                          <lb break="yes"/>ausgesprochen hat. </p>
+                                    <p type="legal_section">Stimmberechtigt ist jeder zur Natio <lb
+                                                break="no"/>nalversammlung wahlberechtigter
+                                          Bundesbürger. <lb break="yes"/>Das Bundesvolk hat die von
+                                          der National <lb break="no"/>versammlung beschlossene und
+                                          vom Bundesrat genehmigte Verfassungsänderung angenommen
+                                                <lb break="yes"/>und es hat das bereits kundgemachte
+                                          Bundes <lb break="no"/>gesetz abgelehnt, wenn die absolute
+                                          Mehrheit <lb break="yes"/>der abgegebenen Stimmen sich für
+                                          die Verfas <lb break="no"/>sungsänderung oder gegen das
+                                          Bundesgesetz. <lb break="yes"/>ausgesprochen hat. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXII. </head>
-                                    <p type="legal_section">Das Ergebnis der Volksabstimmung ist
-                                          <lb break="yes"/>im Bundesgesetzblatt zu verlautbaren. Im
-                                          Fal-</p>
-                                    <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
-                                    <p type="legal_section">- 8 -</p>
-                                    <p type="legal_section">le ein Bundesgesetz durch
-                                          Volksabstimmung
-                                          <lb break="yes"/>abgelehnt wurde, ist seine
-                                          Ausserkraftsetzung
-                                          <lb break="yes"/>kundzumachen. </p>
+                                    <p type="legal_section">Das Ergebnis der Volksabstimmung ist <lb
+                                                break="yes"/>im Bundesgesetzblatt zu verlautbaren.
+                                          Im Fal-<pb facs="#facs_9" n="9" xml:id="img_0009"
+                                                break="yes"/><fw type="pageNum">- 8 -</fw> le ein
+                                          Bundesgesetz durch Volksabstimmung <lb break="yes"
+                                          />abgelehnt wurde, ist seine Ausserkraftsetzung <lb
+                                                break="yes"/>kundzumachen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXIII. </head>
@@ -729,17 +687,14 @@
                               </div>
                               <div type="article">
                                     <head>Art. XXV. </head>
-                                    <p type="legal_section">Die Sitzungen der Bundesversammlung
-                                          <lb break="yes"/>sind öffentlich.
-                                          <lb break="yes"/>Dem Hause steht das Recht zu, aus
-                                          <lb break="no"/>nahmsweise die Oeffentlichkeit
-                                          auszuschlies
-                                          <lb break="no"/>sen, wenn es vom Präsidenten oder
-                                          wenigstens
-                                          <lb break="yes"/>. . . Mitgliedern verlangt und vom Hause
-                                          nach
-                                          <lb break="yes"/>Entfernung der Zuhörer beschlossen wird.
-                                    </p>
+                                    <p type="legal_section">Die Sitzungen der Bundesversammlung <lb
+                                                break="yes"/>sind öffentlich. <lb break="yes"/></p>
+                                    <p type="legal_section">Dem Hause steht das Recht zu, aus <lb
+                                                break="no"/>nahmsweise die Oeffentlichkeit
+                                          auszuschlies <lb break="no"/>sen, wenn es vom Präsidenten
+                                          oder wenigstens <lb break="yes"/>. . . Mitgliedern
+                                          verlangt und vom Hause nach <lb break="yes"/>Entfernung
+                                          der Zuhörer beschlossen wird. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXVI.</head>
@@ -756,240 +711,204 @@
                               </div>
                               <div type="article">
                                     <head>Art. XXVII. </head>
-                                    <p type="legal_section">Der Vorsitz im Bundesrat fällt in
-                                          <lb break="yes"/>jeder Session nach Alphabetischer
-                                          <lb break="yes"/> Reihenfolge auf ein anderes Land.</p>
-                                    <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
-                                    <p type="legal_section">- 9 -</p>
-                                    <p type="legal_section">Als Vorsitzender des Bundesrates und
-                                          <lb break="yes"/>als Stellvertreter desselben fungieren
-                                          <lb break="yes"/>die bei der Wahl aus der
-                                          Landesversammlung
-                                          <lb break="yes"/>hiezu an erster und zweiter Stelle ermäch
-                                          <lb break="no"/>tigten Vertreter des jeweils zum Vorsitz
-                                          <lb break="yes"/>berufenen Landes.
-                                          <lb break="yes"/>Der Bundesrat wird durch seinen Vorsit
-                                          <lb break="no"/>zenden nach aussen vertreten. Alle Ausfer
-                                          <lb break="no"/>tigungen des Bundesrates müssen die Unter
-                                          <lb break="no"/>schrift seines Vorsitzenden tragen.
-                                          <lb break="yes"/>Der Bundesrat gibt sich seine Ge
-                                          <lb break="no"/>schäftsordnung durch einfachen
+                                    <p type="legal_section">Der Vorsitz im Bundesrat fällt in <lb
+                                                break="yes"/>jeder Session nach Alphabetischer <lb
+                                                break="yes"/> Reihenfolge auf ein anderes Land.</p>
+                                    <p type="legal_section"><pb facs="#facs_10" n="10"
+                                                xml:id="img_0010" break="yes"/><fw type="pageNum">-
+                                                9 -</fw>Als Vorsitzender des Bundesrates und <lb
+                                                break="yes"/>als Stellvertreter desselben fungieren
+                                                <lb break="yes"/>die bei der Wahl aus der
+                                          Landesversammlung <lb break="yes"/>hiezu an erster und
+                                          zweiter Stelle ermäch <lb break="no"/>tigten Vertreter des
+                                          jeweils zum Vorsitz <lb break="yes"/>berufenen Landes. </p>
+                                    <p type="legal_section">Der Bundesrat wird durch seinen Vorsit
+                                                <lb break="no"/>zenden nach aussen vertreten. Alle
+                                          Ausfer <lb break="no"/>tigungen des Bundesrates müssen die
+                                          Unter <lb break="no"/>schrift seines Vorsitzenden tragen.
+                                                <lb break="yes"/></p>
+                                    <p type="legal_section">Der Bundesrat gibt sich seine Ge <lb
+                                                break="no"/>schäftsordnung durch einfachen
                                           Beschluss.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XXVIII. </head>
                                     <p type="legal_section">Der Bundesrat wird vom Bundespräsiden
-                                          <lb break="no"/>ten alljährlich nach Wien einberufen.
-                                          <lb break="yes"/>Er fasst seine Beschlüsse mit einfa
-                                          <lb break="no"/>cher Stimmenmehrheit der Anwesenden.
-                                          <lb break="yes"/>Die Sitzungen des Bundesrates sind
-                                          <lb break="yes"/>nicht öffentlich. </p>
+                                                <lb break="no"/>ten alljährlich nach Wien
+                                          einberufen. <lb break="yes"/></p>
+                                    <p type="legal_section">Er fasst seine Beschlüsse mit einfa <lb
+                                                break="no"/>cher Stimmenmehrheit der Anwesenden. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Sitzungen des Bundesrates sind <lb
+                                                break="yes"/>nicht öffentlich. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXIX. </head>
-                                    <p type="legal_section">Die Mitglieder des Bundesrates
-                                          bleiben</p>
-                                    <p type="legal_section">bis zum Beginn der neuen Session der
-                                          Bundes
-                                          <lb break="no"/>versammlung, darüber hinaus aber nur
-                                          solange
-                                          <lb break="yes"/>in Funktion, bis die Landesversammlungen
-                                          ihre
-                                          <lb break="yes"/>Vertreter für die neue Session der Bundes
-                                          <lb break="no"/>versammlung gewählt haben.
-                                          <lb break="yes"/>Wird eine Landesversammlung aufge
-                                          <lb break="no"/>löst, bleiben die von ihr delegierten Mit
-                                          <lb break="no"/>glieder des Bundesrates solange in
-                                          Funktion
-                                          <lb break="yes"/>bis die neue Landesversammlung die Wahl
-                                          in
-                                          <lb break="yes"/>den Bundesrat vorgenommen hat. </p>
+                                    <p type="legal_section">Die Mitglieder des Bundesrates bleiben
+                                          bis zum Beginn der neuen Session der Bundes <lb break="no"
+                                          />versammlung, darüber hinaus aber nur solange <lb
+                                                break="yes"/>in Funktion, bis die
+                                          Landesversammlungen ihre <lb break="yes"/>Vertreter für
+                                          die neue Session der Bundes <lb break="no"/>versammlung
+                                          gewählt haben. <lb break="yes"/></p>
+                                    <p type="legal_section">Wird eine Landesversammlung aufge <lb
+                                                break="no"/>löst, bleiben die von ihr delegierten
+                                          Mit <lb break="no"/>glieder des Bundesrates solange in
+                                          Funktion <lb break="yes"/>bis die neue Landesversammlung
+                                          die Wahl in <lb break="yes"/>den Bundesrat vorgenommen
+                                          hat. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXX. </head>
-                                    <p type="legal_section">Jeder Gesetzesbeschluss sowie jeder
-                                          <lb break="yes"/>andere Beschluss der Bundesversammlung
-                                          der</p>
-                                    <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
-                                    <p type="legal_section">- 10
-                                          <lb break="no"/>einer Genehmigung durch den Bundesrat
-                                          bedarf,
-                                          <lb break="yes"/>ist unverzüglich durch den Präsidenten
-                                          der
-                                          <lb break="yes"/>Bundesversammlung dem Bundeskanzler zu
-                                          über
-                                          <lb break="no"/>mitteln, der ihn sofort dem Bundesrate zur
-                                          <lb break="yes"/>Genehmigung vorzulegen hat.
-                                          <lb break="yes"/>Der Bundesrat hat den Beschlüssen der
-                                          <lb break="yes"/>Bundesversammlung bis längstens . . . .
-                                          Wochen
-                                          <lb break="yes"/>nach Schluss der Session die Genehmigung
-                                          <lb break="yes"/>zu erteilen oder mit Angabe von Gründen
-                                          zu
-                                          <lb break="yes"/>verweigern.
-                                          <lb break="yes"/>Der genehmigte Beschluss ist im Wege
-                                          <lb break="yes"/>des Bundeskanzlers dem Bundespräsidenten
-                                          zur
-                                          <lb break="yes"/>Beurkundung und Kundmachung zu
-                                          übermitteln.
-                                          <lb break="yes"/>Die begründete Verweigerung der Geneh
-                                          <lb break="no"/>migung ist in schriftlicher Ausfertigung
-                                          <lb break="yes"/>der Bundesversammlung bekanntzugeben.</p>
+                                    <p type="legal_section">Jeder Gesetzesbeschluss sowie jeder <lb
+                                                break="yes"/>andere Beschluss der Bundesversammlung
+                                                der<pb facs="#facs_11" n="11" xml:id="img_0011"
+                                                break="yes"/><fw type="pageNum">- 10 - </fw><lb
+                                                break="no"/>einer Genehmigung durch den Bundesrat
+                                          bedarf, <lb break="yes"/>ist unverzüglich durch den
+                                          Präsidenten der <lb break="yes"/>Bundesversammlung dem
+                                          Bundeskanzler zu über <lb break="no"/>mitteln, der ihn
+                                          sofort dem Bundesrate zur <lb break="yes"/>Genehmigung
+                                          vorzulegen hat. <lb break="yes"/></p>
+                                    <p type="legal_section">Der Bundesrat hat den Beschlüssen der
+                                                <lb break="yes"/>Bundesversammlung bis längstens . .
+                                          . . Wochen <lb break="yes"/>nach Schluss der Session die
+                                          Genehmigung <lb break="yes"/>zu erteilen oder mit Angabe
+                                          von Gründen zu <lb break="yes"/>verweigern. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Der genehmigte Beschluss ist im Wege <lb
+                                                break="yes"/>des Bundeskanzlers dem
+                                          Bundespräsidenten zur <lb break="yes"/>Beurkundung und
+                                          Kundmachung zu übermitteln. <lb break="yes"/></p>
+                                    <p type="legal_section">Die begründete Verweigerung der Geneh
+                                                <lb break="no"/>migung ist in schriftlicher
+                                          Ausfertigung <lb break="yes"/>der Bundesversammlung
+                                          bekanntzugeben.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXI. </head>
-                                    <p type="legal_section">Ein Gesetzesbeschluss der Bundesver
-                                          <lb break="no"/>sammlung, dem der Bundesrat die
-                                          Genehmigung
-                                          <lb break="yes"/>verweigert hat, kann von der
-                                          Bundesversamm
-                                          <lb break="no"/>lung in derselben Session unverändert
-                                          nicht
-                                          <lb break="yes"/>neuerlich gefasst werden.
-                                          <lb break="yes"/>Hat die Bundesversammlung einen Ge
-                                          <lb break="no"/>setzesbeschluss, dem der Bundesrat zweimal
-                                          <lb break="yes"/>die Sanktion verweigert hat, ein drittes
-                                          Mal</p>
-                                    <p type="legal_section">gefasst oder hat der Bundesrat einem
-                                          Gesetzes
-                                          <lb break="no"/>beschluss der Bundesversammlung in der vor
-                                          <lb break="no"/>geschriebenen Zeit die Sanktion weder
-                                          erteilt
-                                          <lb break="yes"/>noch mit Angabe von Gründen verweigert,
-                                          so
-                                          <lb break="yes"/>hat der Bundespräsident den
-                                          Gesetzesbeschluss
-                                          <lb break="yes"/>ohne die Genehmigung des Bundesrates zu
-                                          be
-                                          <lb break="no"/>urkunden und seine Kundmachung zu
-                                          veranlassen. </p>
+                                    <p type="legal_section">Ein Gesetzesbeschluss der Bundesver <lb
+                                                break="no"/>sammlung, dem der Bundesrat die
+                                          Genehmigung <lb break="yes"/>verweigert hat, kann von der
+                                          Bundesversamm <lb break="no"/>lung in derselben Session
+                                          unverändert nicht <lb break="yes"/>neuerlich gefasst
+                                          werden. <lb break="yes"/></p>
+                                    <p type="legal_section">Hat die Bundesversammlung einen Ge <lb
+                                                break="no"/>setzesbeschluss, dem der Bundesrat
+                                          zweimal <lb break="yes"/>die Sanktion verweigert hat, ein
+                                          drittes Mal gefasst oder hat der Bundesrat einem Gesetzes
+                                                <lb break="no"/>beschluss der Bundesversammlung in
+                                          der vor <lb break="no"/>geschriebenen Zeit die Sanktion
+                                          weder erteilt <lb break="yes"/>noch mit Angabe von Gründen
+                                          verweigert, so <lb break="yes"/>hat der Bundespräsident
+                                          den Gesetzesbeschluss <lb break="yes"/>ohne die
+                                          Genehmigung des Bundesrates zu be <lb break="no"/>urkunden
+                                          und seine Kundmachung zu veranlassen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXI. </head>
-                                    <p type="legal_section">Hat der Bundesrat einem Gesetzes-</p>
-                                    <p type="legal_section">Eventuell.</p>
-                                    <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
-                                    <p type="legal_section">- 11
-                                          <lb break="no"/>beschluss der Bundesversammlung die
-                                          Genehmi
-                                          <lb break="no"/>gung verweigert und beharrt die Bundesver
-                                          <lb break="no"/>sammlung auf ihrem Beschluss, so ist die
-                                          <lb break="no"/>ser Beschluss der Bundesversammlung einer
-                                          <lb break="yes"/>Volksabstimmung zu unterziehen.</p>
-                                    <p type="legal_section">Nimmt das Bundesvolk den Beschluss
-                                          <lb break="yes"/>der Bundesversammlung an, so ist dieser
-                                          ohne
-                                          <lb break="yes"/>Sanktion des Bundesrates zu beurkunden
-                                          und
-                                          <lb break="yes"/>seine Kundmachung zu veranlassen.
-                                          <lb break="yes"/>Auf diese Volksabstimmungen finden die
-                                          <lb break="yes"/>Bestimmungen des Art. XXI - XXII
-                                          Anwendung.
-                                          <lb break="yes"/>Ohne Genehmigung des Bundesrates ist
-                                          <lb break="yes"/>ein Gesetzesbeschluss der
-                                          Bundesversammlung
-                                          <lb break="yes"/>auch dann zu beurkunden und kundzumachen,
-                                          <lb break="yes"/>wenn der Bundesrat diesem
-                                          Gesetzesbeschluss
-                                          <lb break="yes"/>in der vorgeschriebenen Zeit die
-                                          Genehmigung
-                                          <lb break="yes"/>weder erteilt, noch mit Angabe von
-                                          Gründen
-                                          <lb break="yes"/>verweigert hat.</p>
+                                    <note type="comment">Eventuell.</note>
+                                    <p type="legal_section">Hat der Bundesrat einem Gesetzes-<pb
+                                                facs="#facs_12" n="12" xml:id="img_0012" break="yes"
+                                                /><fw type="pageNum">- 11 -</fw><lb break="no"
+                                          />beschluss der Bundesversammlung die Genehmi <lb
+                                                break="no"/>gung verweigert und beharrt die
+                                          Bundesver <lb break="no"/>sammlung auf ihrem Beschluss, so
+                                          ist die <lb break="no"/>ser Beschluss der
+                                          Bundesversammlung einer <lb break="yes"/>Volksabstimmung
+                                          zu unterziehen.</p>
+                                    <p type="legal_section">Nimmt das Bundesvolk den Beschluss <lb
+                                                break="yes"/>der Bundesversammlung an, so ist dieser
+                                          ohne <lb break="yes"/>Sanktion des Bundesrates zu
+                                          beurkunden und <lb break="yes"/>seine Kundmachung zu
+                                          veranlassen. <lb break="yes"/></p>
+                                    <p type="legal_section">Auf diese Volksabstimmungen finden die
+                                                <lb break="yes"/>Bestimmungen des Art. XXI - XXII
+                                          Anwendung. <lb break="yes"/></p>
+                                    <p type="legal_section">Ohne Genehmigung des Bundesrates ist <lb
+                                                break="yes"/>ein Gesetzesbeschluss der
+                                          Bundesversammlung <lb break="yes"/>auch dann zu beurkunden
+                                          und kundzumachen, <lb break="yes"/>wenn der Bundesrat
+                                          diesem Gesetzesbeschluss <lb break="yes"/>in der
+                                          vorgeschriebenen Zeit die Genehmigung <lb break="yes"
+                                          />weder erteilt, noch mit Angabe von Gründen <lb
+                                                break="yes"/>verweigert hat.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXII. </head>
                                     <p type="legal_section">Das verfassungsmässige Zustandekommen
-                                          <lb break="yes"/>der Bundesgesetze wird durch die
-                                          Unterschrift
-                                          <lb break="yes"/>des Bundespräsidenten beurkundet.
-                                          <lb break="yes"/>Diese Beurkundung ist vom Bundeskanz
-                                          <lb break="no"/>ler und dem ressortmässigen zuständigen
-                                          Staats
-                                          <lb break="no"/>sekretär zu gegenzeichnen. </p>
+                                                <lb break="yes"/>der Bundesgesetze wird durch die
+                                          Unterschrift <lb break="yes"/>des Bundespräsidenten
+                                          beurkundet. <lb break="yes"/></p>
+                                    <p type="legal_section">Diese Beurkundung ist vom Bundeskanz <lb
+                                                break="no"/>ler und dem ressortmässigen zuständigen
+                                          Staats <lb break="no"/>sekretär zu gegenzeichnen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXIII. </head>
-                                    <p type="legal_section">Die Kundmachung der Bundesgesetze er
-                                          <lb break="no"/>folgt mit Berufung auf den Beschluss der
-                                          <lb break="yes"/>Bundesversammlung. die Genehmigung des
-                                          Bun
-                                          <lb break="no"/>desrates im Falle der Art. XIX und XX der
-                                          <lb break="yes"/>Bundesverfassung auch mit Berufung auf
-                                          das
-                                          <lb break="yes"/>Ergebnis der Volksabstimmung und im Falle
-                                          <lb break="yes"/>einer Kundmachung gemäss Art. XXXI Abs.
-                                          2</p>
-                                    <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
-                                    <p type="legal_section">- 12
-                                          <lb break="no"/>der Bundesverfassung unter ausdrücklicher
-                                          <lb break="yes"/>Anführung dieser Gesetzesbestimmung im
-                                          Bun
-                                          <lb break="no"/>desgesetzblatte über Anordnung des
-                                          Bundesprä
-                                          <lb break="no"/>sidenten durch den Bundeskanzler. </p>
+                                    <p type="legal_section">Die Kundmachung der Bundesgesetze er <lb
+                                                break="no"/>folgt mit Berufung auf den Beschluss der
+                                                <lb break="yes"/>Bundesversammlung. die Genehmigung
+                                          des Bun <lb break="no"/>desrates im Falle der Art. XIX und
+                                          XX der <lb break="yes"/>Bundesverfassung auch mit Berufung
+                                          auf das <lb break="yes"/>Ergebnis der Volksabstimmung und
+                                          im Falle <lb break="yes"/>einer Kundmachung gemäss Art.
+                                          XXXI Abs. 2<pb facs="#facs_13" n="13" xml:id="img_0013"
+                                                break="yes"/><fw type="pageNum">- 12 - </fw><lb
+                                                break="no"/>der Bundesverfassung unter
+                                          ausdrücklicher <lb break="yes"/>Anführung dieser
+                                          Gesetzesbestimmung im Bun <lb break="no"/>desgesetzblatte
+                                          über Anordnung des Bundesprä <lb break="no"/>sidenten
+                                          durch den Bundeskanzler. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXIII. </head>
-                                    <p type="legal_section">Die Kundmachung der Bundesgesetze er
-                                          <lb break="no"/>folgt mit Berufung auf den Beschluss der
-                                          Bun
-                                          <lb break="no"/>desversammlung, die Genehmigung des
-                                          Bundesrates</p>
-                                    <p type="legal_section">Eventuell.</p>
-                                    <p type="legal_section">und im Falle der Art. XIX. XX und XXXI
-                                          der
-                                          <lb break="yes"/>Bundesverfassung auch mit Berufung auf
-                                          das
-                                          <lb break="yes"/>Ergebnis der Volksabstimmung, im Bundesge
-                                          <lb break="no"/>setzblatt über Anordnung des
-                                          Bundespräsiden
-                                          <lb break="no"/>ten durch den Bundeskanzler. </p>
+                                    <note type="comment">Eventuell.</note>
+                                    <p type="legal_section">Die Kundmachung der Bundesgesetze er <lb
+                                                break="no"/>folgt mit Berufung auf den Beschluss der
+                                          Bun <lb break="no"/>desversammlung, die Genehmigung des
+                                          Bundesrates und im Falle der Art. XIX. XX und XXXI der <lb
+                                                break="yes"/>Bundesverfassung auch mit Berufung auf
+                                          das <lb break="yes"/>Ergebnis der Volksabstimmung, im
+                                          Bundesge <lb break="no"/>setzblatt über Anordnung des
+                                          Bundespräsiden <lb break="no"/>ten durch den
+                                          Bundeskanzler. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXIV. </head>
-                                    <p type="legal_section">Die Mitglieder der Bundeversammlung
-                                          <lb break="yes"/>können wegen der in Ausübung ihres
-                                          Berufes
-                                          <lb break="yes"/>geschehenen Abstimmungen niemals, wegen
-                                          der
-                                          <lb break="yes"/>in diesem Berufe gemachten Aeusserungen
-                                          nur
-                                          <lb break="yes"/>von der Bundesversammlung verantwortlich
-                                          ge
-                                          <lb break="no"/>macht werden.
-                                          <lb break="yes"/>Kein Mitglied der Bundesversammlung</p>
-                                    <p type="legal_section">darf während der Dauer der Session wegen
-                                          ei
-                                          <lb break="no"/>ner strafbaren Handlung - den Fall der
-                                          Ergrei
-                                          <lb break="no"/>fung auf frischer Tat ausgenommen - ohne
-                                          Zu
-                                          <lb break="no"/>stimmung der Bundesversammlung verhaftet
-                                          <lb break="yes"/>oder behördlich verfolgt werden.
-                                          <lb break="yes"/>Selbst in dem Falle der Ergreifung
-                                          <lb break="yes"/>auf frischer Tat hat die Behörde dem
-                                          Präsi
-                                          <lb break="no"/>denten der Bundesversammlung sogleich die
-                                          ge
-                                          <lb break="no"/>schehene Verhaftung bekanntzugeben.
-                                          <lb break="yes"/>Wenn es die Bundesversammlung ver
-                                          <lb break="no"/>langt, muss der Verhaft aufgehoben oder
-                                          die
-                                          <lb break="yes"/>Verfolgung für die ganze Sitzungsperiode
-                                          auf
-                                          <lb break="no"/>geschoben werden.</p>
-                                    <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
-                                    <p type="legal_section">- 13 - </p>
+                                    <p type="legal_section">Die Mitglieder der Bundeversammlung <lb
+                                                break="yes"/>können wegen der in Ausübung ihres
+                                          Berufes <lb break="yes"/>geschehenen Abstimmungen niemals,
+                                          wegen der <lb break="yes"/>in diesem Berufe gemachten
+                                          Aeusserungen nur <lb break="yes"/>von der
+                                          Bundesversammlung verantwortlich ge <lb break="no"/>macht
+                                          werden. <lb break="yes"/></p>
+                                    <p type="legal_section">Kein Mitglied der Bundesversammlung darf
+                                          während der Dauer der Session wegen ei <lb break="no"/>ner
+                                          strafbaren Handlung - den Fall der Ergrei <lb break="no"
+                                          />fung auf frischer Tat ausgenommen - ohne Zu <lb
+                                                break="no"/>stimmung der Bundesversammlung verhaftet
+                                                <lb break="yes"/>oder behördlich verfolgt werden.
+                                                <lb break="yes"/></p>
+                                    <p type="legal_section">Selbst in dem Falle der Ergreifung <lb
+                                                break="yes"/>auf frischer Tat hat die Behörde dem
+                                          Präsi <lb break="no"/>denten der Bundesversammlung
+                                          sogleich die ge <lb break="no"/>schehene Verhaftung
+                                          bekanntzugeben. <lb break="yes"/></p>
+                                    <p type="legal_section">Wenn es die Bundesversammlung ver <lb
+                                                break="no"/>langt, muss der Verhaft aufgehoben oder
+                                          die <lb break="yes"/>Verfolgung für die ganze
+                                          Sitzungsperiode auf <lb break="no"/>geschoben werden.</p>
                               </div>
                               <div type="article">
+                                    <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
+                                    <fw type="pageNum">- 13 - </fw>
                                     <head>Art. XXXV. </head>
                                     <p type="legal_section">Die Mitglieder des Bundesrates genies
-                                          <lb break="no"/>sen die ihnen als Mitglieder der Landesver
-                                          <lb break="no"/>sammlung gewährte Immunität auch während
-                                          <lb break="yes"/>der ganzen Dauer ihrer Funktion als
-                                          Bundes
-                                          <lb break="no"/>mitglieder. </p>
+                                                <lb break="no"/>sen die ihnen als Mitglieder der
+                                          Landesver <lb break="no"/>sammlung gewährte Immunität auch
+                                          während <lb break="yes"/>der ganzen Dauer ihrer Funktion
+                                          als Bundes <lb break="no"/>mitglieder. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXVI. </head>
@@ -998,11 +917,10 @@
                               </div>
                               <div type="article">
                                     <head>Art. XXXVII. </head>
-                                    <p type="legal_section">Die der Bundesversammlung oder dem</p>
-                                    <p type="legal_section">Bundesrat angehörenden öffentlichen
-                                          Angestell
-                                          <lb break="no"/>ten und Funktionäre bedürfen zur Ausübung
-                                          <lb break="yes"/>ihres Mandates keines Urlaubes. </p>
+                                    <p type="legal_section">Die der Bundesversammlung oder dem
+                                          Bundesrat angehörenden öffentlichen Angestell <lb
+                                                break="no"/>ten und Funktionäre bedürfen zur
+                                          Ausübung <lb break="yes"/>ihres Mandates keines Urlaubes. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXVIII. </head>
@@ -1041,7 +959,7 @@
                         </div>
                         <div type="section">
                               <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
-                              <p>- 14 </p>
+                              <fw type="pageNum">- 14 -</fw>
                               <head>Dritter Abschnitt</head>
                               <head>Von der Vollziehung des Bundes. </head>
                               <div type="section">
@@ -1049,411 +967,314 @@
                                     <div type="article">
                                           <head>Art. XL. </head>
                                           <p type="legal_section">Der Bundespräsident und sein
-                                                Stellver
-                                                <lb break="no"/>treter werden unmittelbar durch das
-                                                Bundes
-                                                <lb break="no"/>volk gewählt.
-                                                <lb break="yes"/>Die Wahl erfolgt zugleich mit der
-                                                Haupt
-                                                <lb break="no"/>wahl zur Bundesversammlung und für
-                                                die Dau
-                                                <lb break="no"/>er ihrer Funktionsperiode.
-                                                <lb break="yes"/>Wird die Bundesversammlung vor
+                                                Stellver <lb break="no"/>treter werden unmittelbar
+                                                durch das Bundes <lb break="no"/>volk gewählt. <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Die Wahl erfolgt zugleich mit der
+                                                Haupt <lb break="no"/>wahl zur Bundesversammlung und
+                                                für die Dau <lb break="no"/>er ihrer
+                                                Funktionsperiode. <lb break="yes"/></p>
+                                          <p type="legal_section">Wird die Bundesversammlung vor
                                                 Ablauf der . . . . jährigen Legislativperiode aufge
-                                                <lb break="no"/>löst, hat auch eine Neuwahl des
-                                                Bundesprä
-                                                <lb break="no"/>sidenten und seines Stellvertreters
-                                                zu er
-                                                <lb break="no"/>folgen.
-                                                <lb break="yes"/>Eine Neuwahl des Bundespräsidenten
-                                                <lb break="yes"/>und seines Stellvertreters hat auch
-                                                dann zu
-                                                <lb break="yes"/>erfolgen, wenn die Stelle des
-                                                Bundespräsidenten
-                                                <lb break="yes"/>durch Tod. Amtsverzicht oder aus
-                                                anderen ge
-                                                <lb break="no"/>setzlichen Gründen erledigt wird.
-                                          </p>
+                                                  <lb break="no"/>löst, hat auch eine Neuwahl des
+                                                Bundesprä <lb break="no"/>sidenten und seines
+                                                Stellvertreters zu er <lb break="no"/>folgen. <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Eine Neuwahl des Bundespräsidenten
+                                                  <lb break="yes"/>und seines Stellvertreters hat
+                                                auch dann zu <lb break="yes"/>erfolgen, wenn die
+                                                Stelle des Bundespräsidenten <lb break="yes"/>durch
+                                                Tod. Amtsverzicht oder aus anderen ge <lb break="no"
+                                                />setzlichen Gründen erledigt wird. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. XLI.</head>
                                           <p type="legal_section">Zum Bundespräsidenten sowie zu
-                                                seinem
-                                                <lb break="yes"/>Stellvertreter kann nur derjenige
-                                                deutschöster
-                                                <lb break="no"/>reichische Bundesbürger gewählt
-                                                werden, der das
-                                                <lb break="yes"/>aktive Wahlrecht zur
-                                                Bundesversammlung hat und
-                                                <lb break="yes"/>am 1. Jänner des Jahres in welchem
-                                                die Wahl
-                                                <lb break="yes"/>stattfindet, das 40. Lebensjahr
-                                                vollendet hat. </p>
+                                                seinem <lb break="yes"/>Stellvertreter kann nur
+                                                derjenige deutschöster <lb break="no"/>reichische
+                                                Bundesbürger gewählt werden, der das <lb break="yes"
+                                                />aktive Wahlrecht zur Bundesversammlung hat und <lb
+                                                  break="yes"/>am 1. Jänner des Jahres in welchem
+                                                die Wahl <lb break="yes"/>stattfindet, das 40.
+                                                Lebensjahr vollendet hat. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. XIII. </head>
                                           <p type="legal_section">Der Stimmzettel für die
-                                                Präsidentschafts
-                                                <lb break="no"/>wahl ist im Falle des Art. XL. Abs.
-                                                2 gleichzeitig
-                                                <lb break="yes"/>jedoch gesondert von dem
-                                                Stimmzettel für die Wahl
-                                                <lb break="yes"/>zur Bundesversammlung
-                                                abzugeben.</p>
-                                          <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
-                                          <p type="legal_section">- 15
-                                                <lb break="no"/>Jeder Wähler darf nur einen
-                                                Kandidaten
-                                                <lb break="yes"/>für die Präsidentschaft bezeichnen.
-                                                <lb break="yes"/></p>
+                                                Präsidentschafts <lb break="no"/>wahl ist im Falle
+                                                des Art. XL. Abs. 2 gleichzeitig <lb break="yes"
+                                                />jedoch gesondert von dem Stimmzettel für die Wahl
+                                                  <lb break="yes"/>zur Bundesversammlung
+                                                  abzugeben.<pb facs="#facs_16" n="16"
+                                                  xml:id="img_0016" break="yes"/><fw type="pageNum"
+                                                  >- 15 - </fw></p>
+                                          <p type="legal_section">Jeder Wähler darf nur einen
+                                                Kandidaten <lb break="yes"/>für die Präsidentschaft
+                                                bezeichnen. <lb break="yes"/></p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XLIII.
-                                                <lb break="yes"/></head>
+                                          <head>Art. XLIII. <lb break="yes"/></head>
                                           <p type="legal_section">Als zum Bundespräsidenten gewählt
-                                                gilt
-                                                <lb break="yes"/>der jenige Kandidat, der die
-                                                meisten Stimmen erhal
-                                                <lb break="no"/>ten hat.
-                                                <lb break="yes"/>Derjenige Kandidat, der die
-                                                nächsthohe
-                                                <lb break="yes"/>Stimmziffer erreicht, gilt als zum
-                                                Stellvertreter
-                                                <lb break="yes"/>des Bundespräsidenten gewählt.
-                                                <lb break="yes"/></p>
+                                                gilt <lb break="yes"/>der jenige Kandidat, der die
+                                                meisten Stimmen erhal <lb break="no"/>ten hat. <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Derjenige Kandidat, der die
+                                                nächsthohe <lb break="yes"/>Stimmziffer erreicht,
+                                                gilt als zum Stellvertreter <lb break="yes"/>des
+                                                Bundespräsidenten gewählt. <lb break="yes"/></p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XLIV.
-                                                <lb break="yes"/></head>
+                                          <head>Art. XLIV. <lb break="yes"/></head>
                                           <p type="legal_section">Der Bundespräsident und sein
-                                                Stellvertre
-                                                <lb break="no"/>ter dürfen während ihrer
-                                                Amtstätigkeit keiner
-                                                <lb break="yes"/>politischen Körperschaft angehören
-                                                und keinen
-                                                <lb break="yes"/>anderen Beruf ausüben. </p>
+                                                Stellvertre <lb break="no"/>ter dürfen während ihrer
+                                                Amtstätigkeit keiner <lb break="yes"/>politischen
+                                                Körperschaft angehören und keinen <lb break="yes"
+                                                />anderen Beruf ausüben. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. XLV. </head>
                                           <p type="legal_section">Das Wahlverfahren für die
                                                 Präsidentschaftswahl ist in dem Gesetze betreffend
-                                                die
-                                                <lb break="yes"/>Wahlordnung für die Wahl zur
-                                                Bundesversammlung
-                                                <lb break="yes"/>zu regeln.
-                                                <lb break="yes"/></p>
+                                                die <lb break="yes"/>Wahlordnung für die Wahl zur
+                                                Bundesversammlung <lb break="yes"/>zu regeln. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. XLVI. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Der Bundespräsident vertritt die Re
-                                                <lb break="no"/>publik Deutschösterreich nach
-                                                aussen, empfängt
-                                                <lb break="yes"/>und beglaubigt die Gesandten und
-                                                ratifiziert
-                                                <lb break="yes"/>die Staatsverträge.</p>
+                                          <p type="legal_section"> Der Bundespräsident vertritt die
+                                                Re <lb break="no"/>publik Deutschösterreich nach
+                                                aussen, empfängt <lb break="yes"/>und beglaubigt die
+                                                Gesandten und ratifiziert <lb break="yes"/>die
+                                                Staatsverträge.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. XLVII. </head>
                                           <p type="legal_section">Dem Bundespräsident obliegt über
-                                                Vor
-                                                <lb break="no"/>schlag der Staatsregierung:
-                                                <lb break="yes"/>die Einberufung, die Vertagung, die
-                                                <lb break="yes"/>Schliessung der Session und die
-                                                Auflösung der
-                                                <lb break="yes"/>Bundesversammlung sowie die
-                                                Einberufung des Bun
-                                                <lb break="no"/>desrates.
-                                                <lb break="yes"/>Die Ausschreibung von Neuwahlen zur
-                                                <lb break="yes"/>Bundesversammlung und
-                                                Bundespräsidentschaft.
-                                                <lb break="yes"/>Die Ernennung der Bundesbeamten
-                                                von</p>
-                                          <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
-                                          <p type="legal_section">- 16
-                                                <lb break="no"/>der VI. Pangsklasse aufwärts.
-                                                <lb break="yes"/>Die Begnadigung rechtskräftig
-                                                Verurteilter,
-                                                <lb break="yes"/>die Milderung der von den Gerichten
-                                                ausgesproche
-                                                <lb break="no"/>nen Strafen, die Nachsicht von
-                                                Rechtsfolgen und
-                                                <lb break="yes"/>die Tilgung von Verurteilungen,
-                                                ferner die Abo
-                                                <lb break="no"/>lition von strafgerichtlichen
-                                                Verfahren.
-                                                <lb break="yes"/>Der Bundespräsident ernennt über
-                                                Vorschlag
-                                                <lb break="yes"/>der zuständigen Landesregierung die
-                                                Landesbeam
-                                                <lb break="no"/>ten von der VI. Rangsklasse
-                                                aufwärts.</p>
+                                                Vor <lb break="no"/>schlag der Staatsregierung: <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">die Einberufung, die Vertagung,
+                                                die <lb break="yes"/>Schliessung der Session und die
+                                                Auflösung der <lb break="yes"/>Bundesversammlung
+                                                sowie die Einberufung des Bun <lb break="no"
+                                                />desrates. <lb break="yes"/></p>
+                                          <p type="legal_section">Die Ausschreibung von Neuwahlen
+                                                zur <lb break="yes"/>Bundesversammlung und
+                                                Bundespräsidentschaft. <lb break="yes"/></p>
+                                          <p type="legal_section">Die Ernennung der Bundesbeamten
+                                                  von<pb facs="#facs_17" n="17" xml:id="img_0017"
+                                                  break="yes"/><fw type="pageNum">- 16 -</fw><lb
+                                                  break="no"/>der VI. Pangsklasse aufwärts. <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Die Begnadigung rechtskräftig
+                                                Verurteilter, <lb break="yes"/>die Milderung der von
+                                                den Gerichten ausgesproche <lb break="no"/>nen
+                                                Strafen, die Nachsicht von Rechtsfolgen und <lb
+                                                  break="yes"/>die Tilgung von Verurteilungen,
+                                                ferner die Abo <lb break="no"/>lition von
+                                                strafgerichtlichen Verfahren. <lb break="yes"/></p>
+                                          <p type="legal_section">Der Bundespräsident ernennt über
+                                                Vorschlag <lb break="yes"/>der zuständigen
+                                                Landesregierung die Landesbeam <lb break="no"/>ten
+                                                von der VI. Rangsklasse aufwärts.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. XLIX</head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Alle Akte des Bundespräsidenten
-                                                bedürfen
-                                                <lb break="yes"/>der Gegenzeichnung des
-                                                Bundeskanzlers und des
-                                                <lb break="yes"/>ressortmässig zuständigen
-                                                Staatssekretärs;
-                                                <lb break="yes"/>die im Art. XLVIII erwähnte
-                                                Ernennung von Landes
-                                                <lb break="no"/>beamten der Gegenzeichnung des
-                                                zuständigen
-                                                <lb break="yes"/>Landeshauptmannes.
-                                                <lb break="yes"/></p>
+                                          <p type="legal_section"> Alle Akte des Bundespräsidenten
+                                                bedürfen <lb break="yes"/>der Gegenzeichnung des
+                                                Bundeskanzlers und des <lb break="yes"
+                                                />ressortmässig zuständigen Staatssekretärs; <lb
+                                                  break="yes"/>die im Art. XLVIII erwähnte Ernennung
+                                                von Landes <lb break="no"/>beamten der
+                                                Gegenzeichnung des zuständigen <lb break="yes"
+                                                />Landeshauptmannes. <lb break="yes"/></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. L.</head>
                                           <p type="legal_section">Wenn der Bundespräsident
-                                                verhindert oder
-                                                <lb break="yes"/>wenn die Stelle des
-                                                Bundespräsidenten dauernd er
-                                                <lb break="no"/>ledigt ist, im letzteren Falle bis
-                                                zur Neuwahl
-                                                <lb break="yes"/>eines Nachfolgers, werden alle
-                                                Punktionen des
-                                                <lb break="yes"/>Bundespräsidenten von seinem
-                                                Stellvertreter über
-                                                <lb break="no"/>nommen.
-                                                <lb break="yes"/>Wenn sowohl die Stelle des
-                                                Präsidenten
-                                                <lb break="yes"/>als auch die seines Stellvertreters
-                                                gleichzei
-                                                <lb break="no"/>tig erledigt sind, gehen die
-                                                Funktionen
-                                                <lb break="yes"/>des Präsidenten auf die
-                                                Bundesregierung über. </p>
+                                                verhindert oder <lb break="yes"/>wenn die Stelle des
+                                                Bundespräsidenten dauernd er <lb break="no"/>ledigt
+                                                ist, im letzteren Falle bis zur Neuwahl <lb
+                                                  break="yes"/>eines Nachfolgers, werden alle
+                                                Punktionen des <lb break="yes"/>Bundespräsidenten
+                                                von seinem Stellvertreter über <lb break="no"
+                                                />nommen. <lb break="yes"/></p>
+                                          <p type="legal_section">Wenn sowohl die Stelle des
+                                                Präsidenten <lb break="yes"/>als auch die seines
+                                                Stellvertreters gleichzei <lb break="no"/>tig
+                                                erledigt sind, gehen die Funktionen <lb break="yes"
+                                                />des Präsidenten auf die Bundesregierung über. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LI. </head>
                                           <p type="legal_section">Der Bundespräsident bleibt auch
-                                                nach Ablauf
-                                                <lb break="yes"/>der Legislativperiode und nach
-                                                Auflösung der Bun
-                                                <lb break="no"/>desversammlung u.zw. solange im
-                                                Amte, bis der
-                                                <lb break="yes"/>neue Bundespräsident gezählt ist
-                                                und sein Amt an
-                                                <lb break="no"/>getreten hat.</p>
-                                          <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
-                                          <p type="legal_section">- 17
+                                                nach Ablauf <lb break="yes"/>der Legislativperiode
+                                                und nach Auflösung der Bun <lb break="no"
+                                                />desversammlung u.zw. solange im Amte, bis der <lb
+                                                  break="yes"/>neue Bundespräsident gezählt ist und
+                                                sein Amt an <lb break="no"/>getreten hat.</p>
+                                          <p type="legal_section"><pb facs="#facs_18" n="18"
+                                                  xml:id="img_0018" break="yes"/><fw type="pageNum"
+                                                  >- 17 -</fw>
                                                 <lb break="no"/>Eine wieder holte Wahl zum
-                                                Bundespräsidenten
-                                                <lb break="yes"/>oder zum Stellvertreter desselben
-                                                ist zulässig.
-                                                <lb break="yes"/></p>
+                                                Bundespräsidenten <lb break="yes"/>oder zum
+                                                Stellvertreter desselben ist zulässig. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LII.</head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Mit der Ausübung der Regierungs-
-                                                und Voll
-                                                <lb break="no"/>zugsgewalt des Bundes sind, soweit
-                                                diese nicht
-                                                <lb break="yes"/>dem Bundespräsidenten übertragen
-                                                ist, die Bundes
-                                                <lb break="no"/>regierung u.zw. der Bundeskanzler
-                                                und die Staats
-                                                <lb break="no"/>sekretäre betraut.
-                                                <lb break="yes"/>Sie bilden in ihrer Gesamtheit die
-                                                Bundes
-                                                <lb break="no"/>regierung unter dem Vorsitz des
-                                                Bundeskanzlers.
-                                                <lb break="yes"/>Die Regierungs- und Vollzugsgewalt
-                                                des
-                                                <lb break="yes"/>Bundes darf nur auf Grund der
-                                                Bundesverfassung
-                                                <lb break="yes"/>und der von der Bundesversammlung
-                                                beschlossenen
-                                                <lb break="yes"/>und vom Bundesrat genehmigten
-                                                Gesetze ausgeübt
-                                                <lb break="yes"/>werden.</p>
+                                          <p type="legal_section"> Mit der Ausübung der Regierungs-
+                                                und Voll <lb break="no"/>zugsgewalt des Bundes sind,
+                                                soweit diese nicht <lb break="yes"/>dem
+                                                Bundespräsidenten übertragen ist, die Bundes <lb
+                                                  break="no"/>regierung u.zw. der Bundeskanzler und
+                                                die Staats <lb break="no"/>sekretäre betraut. <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Sie bilden in ihrer Gesamtheit die
+                                                Bundes <lb break="no"/>regierung unter dem Vorsitz
+                                                des Bundeskanzlers. <lb break="yes"/></p>
+                                          <p type="legal_section">Die Regierungs- und Vollzugsgewalt
+                                                des <lb break="yes"/>Bundes darf nur auf Grund der
+                                                Bundesverfassung <lb break="yes"/>und der von der
+                                                Bundesversammlung beschlossenen <lb break="yes"/>und
+                                                vom Bundesrat genehmigten Gesetze ausgeübt <lb
+                                                  break="yes"/>werden.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LIII. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Die Staatsregierung wird von der
-                                                Bundes
-                                                <lb break="no"/>Versammlung über den Gesamtvorschlag
-                                                eines be
-                                                <lb break="no"/>sonderen Ausschusses, dessen
-                                                Zusammensetzung.
-                                                <lb break="yes"/>Wirkungskreis und Verfahren im
-                                                Geschäftsordnungs
-                                                <lb break="no"/>gesetze geregelt ist, in
-                                                namentlicher Abstimmung
-                                                <lb break="yes"/>gewählt.
-                                                <lb break="yes"/>Die Bestallungsurkunden des
-                                                Bundeskanzlers
-                                                <lb break="yes"/>und der Staatssekretäre sowie der
-                                                Unterstaats
-                                                <lb break="no"/>sekretäre werden vom
-                                                Bundespräsidenten mit dem Datum des Tages der
-                                                Angelobung ausgefer
-                                                <lb break="no"/>tigt und vom neu bestellten
-                                                Bundeskanzler
-                                                <lb break="yes"/>gegengezeichnet. </p>
+                                          <p type="legal_section"> Die Staatsregierung wird von der
+                                                Bundes <lb break="no"/>Versammlung über den
+                                                Gesamtvorschlag eines be <lb break="no"/>sonderen
+                                                Ausschusses, dessen Zusammensetzung. <lb break="yes"
+                                                />Wirkungskreis und Verfahren im Geschäftsordnungs
+                                                  <lb break="no"/>gesetze geregelt ist, in
+                                                namentlicher Abstimmung <lb break="yes"/>gewählt.
+                                                  <lb break="yes"/></p>
+                                          <p type="legal_section">Die Bestallungsurkunden des
+                                                Bundeskanzlers <lb break="yes"/>und der
+                                                Staatssekretäre sowie der Unterstaats <lb break="no"
+                                                />sekretäre werden vom Bundespräsidenten mit dem
+                                                Datum des Tages der Angelobung ausgefer <lb
+                                                  break="no"/>tigt und vom neu bestellten
+                                                Bundeskanzler <lb break="yes"/>gegengezeichnet. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LIV.</head>
                                           <p type="legal_section">Bid die neue Bundesregierung
-                                                gebildet ist,
-                                                <lb break="yes"/>hat der Bundespräsident entweder
-                                                die schei
-                                                <lb break="no"/>dende Regierung unter dem Vorsitz
-                                                des bisherigen
-                                                <lb break="yes"/>Bundeskanzlers oder eines
-                                                Staatssekretärs mit der</p>
-                                          <pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/>
-                                          <p type="legal_section">- 18
+                                                gebildet ist, <lb break="yes"/>hat der
+                                                Bundespräsident entweder die schei <lb break="no"
+                                                />dende Regierung unter dem Vorsitz des bisherigen
+                                                  <lb break="yes"/>Bundeskanzlers oder eines
+                                                Staatssekretärs mit der<pb facs="#facs_19" n="19"
+                                                  xml:id="img_0019" break="yes"/><fw type="pageNum"
+                                                  >- 18 -</fw>
                                                 <lb break="no"/>einstweiligen Fortführung der
-                                                Geschäfte zu be
-                                                <lb break="no"/>auftragen, oder leitende Baumte der
-                                                Staatsämter
-                                                <lb break="yes"/>unter dem Vorsitz eines dieser
-                                                leitenden Beam
-                                                <lb break="no"/>ten oder eines eigens hiezu
-                                                bestellten Beamten
-                                                <lb break="yes"/>mit der einstweiligen Leitung der
-                                                Verwaltung zu
-                                                <lb break="yes"/>betreuen. </p>
+                                                Geschäfte zu be <lb break="no"/>auftragen, oder
+                                                leitende Baumte der Staatsämter <lb break="yes"
+                                                />unter dem Vorsitz eines dieser leitenden Beam <lb
+                                                  break="no"/>ten oder eines eigens hiezu bestellten
+                                                Beamten <lb break="yes"/>mit der einstweiligen
+                                                Leitung der Verwaltung zu <lb break="yes"/>betreuen.
+                                          </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LV. </head>
                                           <p type="legal_section">Versagt die Bundesversammlung oder
                                                 der Bundesrat der Bundesregierung oder einzelnen Mit
-                                                <lb break="no"/>glieder derselben durch
-                                                ausdrückliche Entschlies
-                                                <lb break="no"/>sung das Vertrauen, so ist eine neue
-                                                Bundesregie
-                                                <lb break="no"/>rung zu bestellen, bezw. der
-                                                betreffende Staats
-                                                <lb break="no"/>sekretär seines Amtes zu entheben.
-                                                <lb break="yes"/>Zu einem Beschlusse der
-                                                Bundesversammlung,
-                                                <lb break="yes"/>mit welchem das Vertrauen versagt
-                                                wird, ist die
-                                                <lb break="yes"/>Anwesenheit der Hälfte der
-                                                Mitglieder der Bun
-                                                <lb break="no"/>desversammlung erforderlich. Doch
-                                                ist, wenn . . .
-                                                <lb break="yes"/>Mitglieder es verlangen, die
-                                                Abstimmung auf den
-                                                <lb break="yes"/>zweitnächsten Werktag zu vertagen.
-                                                Eine neuerli
-                                                <lb break="no"/>che Vertagung der Abstimmung kann
-                                                nur auf Be
-                                                <lb break="no"/>schluss der Bundesversammlung
-                                                erfolgen.
-                                                <lb break="yes"/>Zu einem Beschlusse des
+                                                  <lb break="no"/>glieder derselben durch
+                                                ausdrückliche Entschlies <lb break="no"/>sung das
+                                                Vertrauen, so ist eine neue Bundesregie <lb
+                                                  break="no"/>rung zu bestellen, bezw. der
+                                                betreffende Staats <lb break="no"/>sekretär seines
+                                                Amtes zu entheben. <lb break="yes"/></p>
+                                          <p type="legal_section">Zu einem Beschlusse der
+                                                Bundesversammlung, <lb break="yes"/>mit welchem das
+                                                Vertrauen versagt wird, ist die <lb break="yes"
+                                                />Anwesenheit der Hälfte der Mitglieder der Bun <lb
+                                                  break="no"/>desversammlung erforderlich. Doch ist,
+                                                wenn . . . <lb break="yes"/>Mitglieder es verlangen,
+                                                die Abstimmung auf den <lb break="yes"
+                                                />zweitnächsten Werktag zu vertagen. Eine neuerli
+                                                  <lb break="no"/>che Vertagung der Abstimmung kann
+                                                nur auf Be <lb break="no"/>schluss der
+                                                Bundesversammlung erfolgen. <lb break="yes"/></p>
+                                          <p type="legal_section">Zu einem Beschlusse des
                                                 Bundesrates, mit welchem das Vertrauen versagt wird,
-                                                ist die An
-                                                <lb break="no"/>wesenheit mindestens eines
-                                                Vertreters eines je
-                                                <lb break="no"/>den Landes erforderlich.
-                                                <lb break="yes"/>Die gesamte Bundesregierung und die
-                                                ein
-                                                <lb break="no"/>zelnen Mitglieder derselben werden
-                                                in den gesetz
-                                                <lb break="no"/>lich bestimmten Fällen oder über
-                                                ihren Wunsch
-                                                <lb break="yes"/>vom Bundespräsidenten ihres Amtes
-                                                entheben.
-                                                <lb break="yes"/></p>
+                                                ist die An <lb break="no"/>wesenheit mindestens
+                                                eines Vertreters eines je <lb break="no"/>den Landes
+                                                erforderlich. <lb break="yes"/></p>
+                                          <p type="legal_section">Die gesamte Bundesregierung und
+                                                die ein <lb break="no"/>zelnen Mitglieder derselben
+                                                werden in den gesetz <lb break="no"/>lich bestimmten
+                                                Fällen oder über ihren Wunsch <lb break="yes"/>vom
+                                                Bundespräsidenten ihres Amtes entheben. <lb
+                                                  break="yes"/></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LVI. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Der Bundespräsident und sein
-                                                Stellvertreter.
-                                                <lb break="yes"/>die Mitglieder der Bundesregierung
-                                                und die Un
-                                                <lb break="no"/>terstaatssekretäre sind nach
-                                                Massgabe des Art.</p>
-                                          <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
-                                          <p type="legal_section">- 19
+                                          <p type="legal_section"> Der Bundespräsident und sein
+                                                Stellvertreter. <lb break="yes"/>die Mitglieder der
+                                                Bundesregierung und die Un <lb break="no"
+                                                />terstaatssekretäre sind nach Massgabe des Art.<pb
+                                                  facs="#facs_20" n="20" xml:id="img_0020"
+                                                  break="yes"/><fw type="pageNum">- 19 -</fw>
                                                 <lb break="no"/>CXXVIII der Bundesverfassung der
-                                                Bundesver
-                                                <lb break="no"/>sammlung und dem Bundesrate
-                                                verantwortlich.
-                                                <lb break="yes"/></p>
+                                                Bundesver <lb break="no"/>sammlung und dem
+                                                Bundesrate verantwortlich. <lb break="yes"/></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LVII. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Zur Durchführung der Aufgaben der
-                                                Bundes
-                                                <lb break="no"/>verwaltung sind die folgenden
-                                                Bundesämter be
-                                                <lb break="no"/>rufen: . . .
-                                                <lb break="yes"/>Jedes Bundesamt steht unter der
-                                                Leitung
-                                                <lb break="yes"/>eines Staatssekretärs. </p>
+                                          <p type="legal_section"> Zur Durchführung der Aufgaben der
+                                                Bundes <lb break="no"/>verwaltung sind die folgenden
+                                                Bundesämter be <lb break="no"/>rufen: . . . <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Jedes Bundesamt steht unter der
+                                                Leitung <lb break="yes"/>eines Staatssekretärs. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LVIII. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Zur Vertretung des Bundeskanzlers
-                                                kann
-                                                <lb break="yes"/>ein Vizekanzler bestellt werden,
-                                                oder es kann
-                                                <lb break="yes"/>der Bundespräsident einen
-                                                Staatssekretär über
-                                                <lb break="yes"/>Vorschlag der Bundesregierung mit
-                                                der Stellver
-                                                <lb break="no"/>tretung des Bundeskanzlers
+                                          <p type="legal_section"> Zur Vertretung des Bundeskanzlers
+                                                kann <lb break="yes"/>ein Vizekanzler bestellt
+                                                werden, oder es kann <lb break="yes"/>der
+                                                Bundespräsident einen Staatssekretär über <lb
+                                                  break="yes"/>Vorschlag der Bundesregierung mit der
+                                                Stellver <lb break="no"/>tretung des Bundeskanzlers
                                                 betrauen.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LIX. </head>
                                           <p type="legal_section">Ausnahmsweise und vorübergehend
-                                                kann der
-                                                <lb break="yes"/>Bundeskanzler, der Vizekanzler oder
-                                                ein Staats
-                                                <lb break="no"/>sekretär auch mit der Führung eines
-                                                ihm nicht
-                                                <lb break="yes"/>nach Art. LXVII unterstellten
-                                                Bundesamtes be
-                                                <lb break="no"/>traut werden.
-                                                <lb break="yes"/>Andererseits können in besonderen
-                                                Fällen
-                                                <lb break="yes"/>auch Staatssekretäre mit einem
-                                                bloss persönli
-                                                <lb break="no"/>chen Aufgabenkreis ohne gleichzeitig
-                                                mit der
-                                                <lb break="yes"/>Führung eines Bundesamtes bestellt
-                                                werden.
-                                                <lb break="yes"/>In jedem Bundesamte wird in der
-                                                Regel</p>
-                                          <p type="legal_section">dem verantwortlichen Leiter zur
-                                                Wahrung der Ein
-                                                <lb break="no"/>heit und Stetigkeit des
-                                                Geschäftsganges ein Be
-                                                <lb break="no"/>amter zur Seite gestellt, der den
-                                                Amtstitel eines
-                                                <lb break="yes"/>Bundesamstdirektors führt.
-                                                <lb break="yes"/></p>
+                                                kann der <lb break="yes"/>Bundeskanzler, der
+                                                Vizekanzler oder ein Staats <lb break="no"/>sekretär
+                                                auch mit der Führung eines ihm nicht <lb break="yes"
+                                                />nach Art. LXVII unterstellten Bundesamtes be <lb
+                                                  break="no"/>traut werden. <lb break="yes"/></p>
+                                          <p type="legal_section">Andererseits können in besonderen
+                                                Fällen <lb break="yes"/>auch Staatssekretäre mit
+                                                einem bloss persönli <lb break="no"/>chen
+                                                Aufgabenkreis ohne gleichzeitig mit der <lb
+                                                  break="yes"/>Führung eines Bundesamtes bestellt
+                                                werden. <lb break="yes"/></p>
+                                          <p type="legal_section">In jedem Bundesamte wird in der
+                                                Regel dem verantwortlichen Leiter zur Wahrung der
+                                                Ein <lb break="no"/>heit und Stetigkeit des
+                                                Geschäftsganges ein Be <lb break="no"/>amter zur
+                                                Seite gestellt, der den Amtstitel eines <lb
+                                                  break="yes"/>Bundesamstdirektors führt. <lb
+                                                  break="yes"/></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LX. </head>
                                           <p type="legal_section">Dem Bundeskanzler und den
-                                                Staatssekretären
-                                                <lb break="yes"/>können zur Unterstützung in der
-                                                politischen Ge
-                                                <lb break="no"/>schäftsführung und zur
-                                                parlamentarischen Vertre-</p>
-                                          <pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/>
-                                          <p type="legal_section">- 20
-                                                <lb break="no"/>tung Unterstaatssekretäre beigegeben
-                                                werden.
-                                                <lb break="yes"/>Die Unterstaatssekretäre werden in
-                                                der
-                                                <lb break="yes"/>gleichen Weise berufen wie die
-                                                Mitglieder der
-                                                <lb break="yes"/>Bundesregierung. </p>
+                                                Staatssekretären <lb break="yes"/>können zur
+                                                Unterstützung in der politischen Ge <lb break="no"
+                                                />schäftsführung und zur parlamentarischen
+                                                  Vertre-<pb facs="#facs_21" n="21"
+                                                  xml:id="img_0021" break="yes"/><fw type="pageNum"
+                                                  >- 20 -</fw><lb break="no"/>tung
+                                                Unterstaatssekretäre beigegeben werden. <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Die Unterstaatssekretäre werden in
+                                                der <lb break="yes"/>gleichen Weise berufen wie die
+                                                Mitglieder der <lb break="yes"/>Bundesregierung.
+                                          </p>
                                     </div>
                               </div>
                               <div type="section">
@@ -1461,425 +1282,345 @@
                                     <div type="article">
                                           <head>Art.LXI. </head>
                                           <p type="legal_section">Alle Gerichtsbarkeit geht vom
-                                                Bunde aus.
-                                                <lb break="yes"/>Die Urteile und Erkenntnisse werden
-                                                im
-                                                <lb break="yes"/>Namen der Republik
-                                                Deutschösterreichs ausgefer
-                                                <lb break="no"/>tigt.
-                                                <lb break="yes"/></p>
+                                                Bunde aus. <lb break="yes"/>Die Urteile und
+                                                Erkenntnisse werden im <lb break="yes"/>Namen der
+                                                Republik Deutschösterreichs ausgefer <lb break="no"
+                                                />tigt. <lb break="yes"/></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXII.</head>
                                           <p type="legal_section">Die Verfassung und Zuständigkeit
-                                                der Ge
-                                                <lb break="no"/>richte wird durch Bundesgesetz
-                                                festgestellt.
-                                                <lb break="yes"/>Ausnahmsgerichte sind nur in dem im
-                                                Geset
-                                                <lb break="no"/>ze vorausbestimmten Fällen zulässig.
-                                                Ob ein sol
-                                                <lb break="no"/>cher Fall vorliegt, wird, abgesehen
-                                                von den in
-                                                <lb break="yes"/>der Strafprozessordnung geregelten
-                                                Fällen,
-                                                <lb break="yes"/>durch Beschluss der Bundesregierung
-                                                festgesetzt.
-                                                <lb break="yes"/>Die Bundesregierung ist
-                                                verpflichtet, jeden
-                                                <lb break="yes"/>solchen Beschluss ungesäumt der
-                                                Bundesversammlung
-                                                <lb break="yes"/>und dem Bundesrat vorzulegen und
-                                                über Beschluss
-                                                <lb break="yes"/>eines der beiden Vertretungskörper
-                                                sofort ausser
-                                                <lb break="yes"/>Kraft zu setzen.</p>
+                                                der Ge <lb break="no"/>richte wird durch
+                                                Bundesgesetz festgestellt. <lb break="yes"/></p>
+                                          <p type="legal_section">Ausnahmsgerichte sind nur in dem
+                                                im Geset <lb break="no"/>ze vorausbestimmten Fällen
+                                                zulässig. Ob ein sol <lb break="no"/>cher Fall
+                                                vorliegt, wird, abgesehen von den in <lb break="yes"
+                                                />der Strafprozessordnung geregelten Fällen, <lb
+                                                  break="yes"/>durch Beschluss der Bundesregierung
+                                                festgesetzt. <lb break="yes"/>Die Bundesregierung
+                                                ist verpflichtet, jeden <lb break="yes"/>solchen
+                                                Beschluss ungesäumt der Bundesversammlung <lb
+                                                  break="yes"/>und dem Bundesrat vorzulegen und über
+                                                Beschluss <lb break="yes"/>eines der beiden
+                                                Vertretungskörper sofort ausser <lb break="yes"
+                                                />Kraft zu setzen.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXIII. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Der Wirkungskreis der
-                                                Militärgerichte wird
-                                                <lb break="yes"/>durch Gesetz bestimmt. </p>
+                                          <p type="legal_section"> Der Wirkungskreis der
+                                                Militärgerichte wird <lb break="yes"/>durch Gesetz
+                                                bestimmt. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXIV. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Die Gerichtsbarkeit in Polizei- und
-                                                Ge
-                                                <lb break="no"/>fällsstrafsachen wird durch Gesetz
-                                                geregelt. </p>
+                                          <p type="legal_section"> Die Gerichtsbarkeit in Polizei-
+                                                und Ge <lb break="no"/>fällsstrafsachen wird durch
+                                                Gesetz geregelt. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXV. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>
-                                                <lb break="yes"/>Die Richter werden - soferne nicht
-                                                anders.
-                                                <lb break="yes"/>bestimmt ist - auf Grund von
-                                                Besetzungsvorschlä
-                                                <lb break="no"/>gen der durch die Gerichtsverfassung
-                                                dazu be-</p>
-                                          <pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/>
-                                          <p type="legal_section">- 21
-                                                <lb break="no"/>stimmten Senate über Antrag der
-                                                Bundesregierung
-                                                <lb break="yes"/>vom Bundespräsidenten oder über
-                                                dessen Ermäch
-                                                <lb break="no"/>tigung vom Staatssekretär für Justiz
-                                                ernannt.
-                                                <lb break="yes"/>Der durch den Staatssekretär für Ju
-                                                <lb break="no"/>stiz an die Bundesregierung zu
-                                                leitende oder
-                                                <lb break="yes"/>dem Staatssekretär für Justiz
-                                                vorzulegende Be
-                                                <lb break="no"/>setzungsvorschlag hat, wenn genügend
-                                                Bewerber
-                                                <lb break="yes"/>vorhanden sind, mindestens 2
-                                                Personen mehr zu
-                                                <lb break="yes"/>umfassen, als Richter zu ernennen
-                                                sind.
-                                                <lb break="yes"/>Die Richter werden in die für die
-                                                übri
-                                                <lb break="no"/>gen Staatsbeamten bestehenden
-                                                Rangsklassen
-                                                <lb break="yes"/>nicht eingeteilt, ihre dienstliche
-                                                Verwendung ist
-                                                <lb break="yes"/>von ihrer Binteilung in
-                                                Gehaltsklassen unab
-                                                <lb break="no"/>hängig.</p>
+                                          <p type="legal_section"> Die Richter werden - soferne
+                                                nicht anders. <lb break="yes"/>bestimmt ist - auf
+                                                Grund von Besetzungsvorschlä <lb break="no"/>gen der
+                                                durch die Gerichtsverfassung dazu be-<pb
+                                                  facs="#facs_22" n="22" xml:id="img_0022"
+                                                  break="yes"/><fw type="pageNum">- 21 -</fw><lb
+                                                  break="no"/>stimmten Senate über Antrag der
+                                                Bundesregierung <lb break="yes"/>vom
+                                                Bundespräsidenten oder über dessen Ermäch <lb
+                                                  break="no"/>tigung vom Staatssekretär für Justiz
+                                                ernannt. <lb break="yes"/></p>
+                                          <p type="legal_section">Der durch den Staatssekretär für
+                                                Ju <lb break="no"/>stiz an die Bundesregierung zu
+                                                leitende oder <lb break="yes"/>dem Staatssekretär
+                                                für Justiz vorzulegende Be <lb break="no"
+                                                />setzungsvorschlag hat, wenn genügend Bewerber <lb
+                                                  break="yes"/>vorhanden sind, mindestens 2 Personen
+                                                mehr zu <lb break="yes"/>umfassen, als Richter zu
+                                                ernennen sind. <lb break="yes"/></p>
+                                          <p type="legal_section">Die Richter werden in die für die
+                                                übri <lb break="no"/>gen Staatsbeamten bestehenden
+                                                Rangsklassen <lb break="yes"/>nicht eingeteilt, ihre
+                                                dienstliche Verwendung ist <lb break="yes"/>von
+                                                ihrer Binteilung in Gehaltsklassen unab <lb
+                                                  break="no"/>hängig.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXVI. </head>
                                           <p type="legal_section">Die Richter sind in Ausübung ihres
-                                                rich
-                                                <lb break="no"/>terlichen Amtes selbständig und
-                                                unabhängig.
-                                                <lb break="yes"/>In Ausübung seines richterlichen
-                                                Amtes be
-                                                <lb break="no"/>findet sich ein Richter bei
-                                                Besorgung aller ihm
-                                                <lb break="yes"/>nach dem Gesetze und der
-                                                Geschäftsordnung
-                                                <lb break="yes"/>zustehenden richterlichen
-                                                Geschäfte, einschliess
-                                                <lb break="no"/>lich jener der
-                                                Justizverwaltungssachen, die nach
-                                                <lb break="yes"/>Vorschrift des Gesetzes durch
-                                                Senate oder Kom
-                                                <lb break="no"/>missionen zu erledigen sind. </p>
+                                                rich <lb break="no"/>terlichen Amtes selbständig und
+                                                unabhängig. <lb break="yes"/></p>
+                                          <p type="legal_section">In Ausübung seines richterlichen
+                                                Amtes be <lb break="no"/>findet sich ein Richter bei
+                                                Besorgung aller ihm <lb break="yes"/>nach dem
+                                                Gesetze und der Geschäftsordnung <lb break="yes"
+                                                />zustehenden richterlichen Geschäfte, einschliess
+                                                  <lb break="no"/>lich jener der
+                                                Justizverwaltungssachen, die nach <lb break="yes"
+                                                />Vorschrift des Gesetzes durch Senate oder Kom <lb
+                                                  break="no"/>missionen zu erledigen sind. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXVII. </head>
                                           <p type="legal_section">Vor Erreichung der im
-                                                Gerichtsorganisations
-                                                <lb break="no"/>gesetz festgesetzten Altersgrenze
-                                                dürfen Richter
-                                                <lb break="yes"/>nur auf Grund eines förmlichen
-                                                richterlichen
-                                                <lb break="yes"/>Erkenntnisses ihres Amtes ersetzt
-                                                werden: ihre
-                                                <lb break="yes"/>zeitweise Enthebung des
-                                                Gerichtsvorstandes oder
-                                                <lb break="yes"/>höheren Gerichtsbehörde unter
-                                                gleichzeitiger
-                                                <lb break="yes"/>Verweisung der Sache an das
-                                                zuständige Gericht,</p>
-                                          <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
-                                          <p type="legal_section">- 22
+                                                Gerichtsorganisations <lb break="no"/>gesetz
+                                                festgesetzten Altersgrenze dürfen Richter <lb
+                                                  break="yes"/>nur auf Grund eines förmlichen
+                                                richterlichen <lb break="yes"/>Erkenntnisses ihres
+                                                Amtes ersetzt werden: ihre <lb break="yes"
+                                                />zeitweise Enthebung des Gerichtsvorstandes oder
+                                                  <lb break="yes"/>höheren Gerichtsbehörde unter
+                                                gleichzeitiger <lb break="yes"/>Verweisung der Sache
+                                                an das zuständige Gericht,<pb facs="#facs_23" n="23"
+                                                  xml:id="img_0023" break="yes"/><fw type="pageNum"
+                                                  >- 22 -</fw>
                                                 <lb break="no"/>die Versetzung an eine andere Stelle
-                                                oder in
-                                                <lb break="yes"/>den Ruhestand wider Willen nur
-                                                durch gerichtli
-                                                <lb break="no"/>chen Beschluss in den durch das
-                                                Gesetz bestimm
-                                                <lb break="no"/>ten Fällen und Formen stattfinden.
-                                                Diese Bestim
-                                                <lb break="no"/>mungen finden jedoch bei
-                                                Uebersetzung und Ver
-                                                <lb break="no"/>setzungen in den Ruhestand keine
-                                                Anwendung, die
-                                                <lb break="yes"/>durch Veränderungen in der
-                                                Verfassung der Ge
-                                                <lb break="no"/>richte nötig werden. In einem
-                                                solchen Falle wird
-                                                <lb break="yes"/>durch Gesetz festgestellt,
-                                                innerhalb welchen
-                                                <lb break="yes"/>Zeitraumes Richter, ohne die sonst
-                                                vorgeschrie
-                                                <lb break="no"/>benen Förmlichkeiten übersetzt und
-                                                in den Ruhe
-                                                <lb break="no"/>stand versetzt werden können.</p>
+                                                oder in <lb break="yes"/>den Ruhestand wider Willen
+                                                nur durch gerichtli <lb break="no"/>chen Beschluss
+                                                in den durch das Gesetz bestimm <lb break="no"/>ten
+                                                Fällen und Formen stattfinden. Diese Bestim <lb
+                                                  break="no"/>mungen finden jedoch bei Uebersetzung
+                                                und Ver <lb break="no"/>setzungen in den Ruhestand
+                                                keine Anwendung, die <lb break="yes"/>durch
+                                                Veränderungen in der Verfassung der Ge <lb
+                                                  break="no"/>richte nötig werden. In einem solchen
+                                                Falle wird <lb break="yes"/>durch Gesetz
+                                                festgestellt, innerhalb welchen <lb break="yes"
+                                                />Zeitraumes Richter, ohne die sonst vorgeschrie <lb
+                                                  break="no"/>benen Förmlichkeiten übersetzt und in
+                                                den Ruhe <lb break="no"/>stand versetzt werden
+                                                können.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXVIII. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Die Prüfung der Giltigkeit gehörig
-                                                <lb break="yes"/>kundgemachter Gesetze steht den
-                                                Gerichten nicht
-                                                <lb break="yes"/>zu.
-                                                <lb break="yes"/>Hat ein Gericht die Anwendung einer
-                                                Voll
-                                                <lb break="no"/>zugsanweisung /Vdg./ als
-                                                gesetzwidrig abgelehnt.
-                                                <lb break="yes"/>hat es gleichzeitig den Antrag auf
-                                                Kassation die
-                                                <lb break="no"/>ser Vollzugsanweisung beim
-                                                Bundesverfassungsge
-                                                <lb break="no"/>richte zu stellen / Art. CXXV/.</p>
+                                          <p type="legal_section"> Die Prüfung der Giltigkeit
+                                                gehörig <lb break="yes"/>kundgemachter Gesetze steht
+                                                den Gerichten nicht <lb break="yes"/>zu. <lb
+                                                  break="yes"/></p>
+                                          <p type="legal_section">Hat ein Gericht die Anwendung
+                                                einer Voll <lb break="no"/>zugsanweisung /Vdg./ als
+                                                gesetzwidrig abgelehnt. <lb break="yes"/>hat es
+                                                gleichzeitig den Antrag auf Kassation die <lb
+                                                  break="no"/>ser Vollzugsanweisung beim
+                                                Bundesverfassungsge <lb break="no"/>richte zu
+                                                stellen / Art. CXXV/.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXIX.</head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Wegen der von einem Richter in
-                                                Ausübung
-                                                <lb break="yes"/>seines Amtes verursachten
-                                                Rechtsverletzungen kann
-                                                <lb break="yes"/>dieser Richter sowie der Bund
-                                                ausser den im ge
-                                                <lb break="no"/>richtlichen Verfahren
-                                                vorgezeichneten Rechtsmit
-                                                <lb break="no"/>teln mit Klage belangt werden.
-                                                Dieses Kla
-                                                <lb break="no"/>gerecht wird durch ein besonderes
-                                                Bundesgestz ge
-                                                <lb break="no"/>regelt.
-                                                <lb break="yes"/>Der Bund haftet für jedes
-                                                Verschulden des
-                                                <lb break="yes"/>Richters. dieser nur, wenn ihm
-                                                Vorsatz oder gro
-                                                <lb break="no"/>be Fahrlässigkeit zur Last fällt.
-                                          </p>
+                                          <p type="legal_section"> Wegen der von einem Richter in
+                                                Ausübung <lb break="yes"/>seines Amtes verursachten
+                                                Rechtsverletzungen kann <lb break="yes"/>dieser
+                                                Richter sowie der Bund ausser den im ge <lb
+                                                  break="no"/>richtlichen Verfahren vorgezeichneten
+                                                Rechtsmit <lb break="no"/>teln mit Klage belangt
+                                                werden. Dieses Kla <lb break="no"/>gerecht wird
+                                                durch ein besonderes Bundesgestz ge <lb break="no"
+                                                />regelt. <lb break="yes"/></p>
+                                          <p type="legal_section">Der Bund haftet für jedes
+                                                Verschulden des <lb break="yes"/>Richters. dieser
+                                                nur, wenn ihm Vorsatz oder gro <lb break="no"/>be
+                                                Fahrlässigkeit zur Last fällt. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXX.</head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Die Verhandlungen vor dem
-                                                erkennenden Rich
-                                                <lb break="no"/>ter sind in Zivil- und
-                                                Strafrechtssachen münd-</p>
-                                          <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
-                                          <p type="legal_section">- 23
+                                          <p type="legal_section"> Die Verhandlungen vor dem
+                                                erkennenden Rich <lb break="no"/>ter sind in Zivil-
+                                                und Strafrechtssachen münd-<pb facs="#facs_24"
+                                                  n="24" xml:id="img_0024" break="yes"/><fw
+                                                  type="pageNum">- 23 -</fw>
                                                 <lb break="no"/>lich und öffentlich. Die Ausnahme be
-                                                <lb break="no"/>stimmt das Gesetz.
-                                                <lb break="yes"/>Im Strafverfahren gilt der Anklage
-                                                <lb break="yes"/>prozess.
-                                                <lb break="yes"/></p>
+                                                  <lb break="no"/>stimmt das Gesetz. <lb break="yes"
+                                                /></p>
+                                          <p type="legal_section">Im Strafverfahren gilt der Anklage
+                                                  <lb break="yes"/>prozess. <lb break="yes"/></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXXI. </head>
                                           <p type="legal_section">Bei den mit schweren Strafen be
-                                                <lb break="no"/>drohten Verbrechen, die das Gesetz
-                                                zu
-                                                <lb break="yes"/>bezeichnen hat, sowie bei allen
-                                                poli
-                                                <lb break="no"/>tischen oder durch den Inhalt einer
-                                                <lb break="yes"/>Druckschrift verübten Verbrechen
-                                                und
-                                                <lb break="yes"/>Vergehen entscheiden Geschworne
-                                                über
-                                                <lb break="yes"/>die Schuld des Angeklagten.</p>
+                                                  <lb break="no"/>drohten Verbrechen, die das Gesetz
+                                                zu <lb break="yes"/>bezeichnen hat, sowie bei allen
+                                                poli <lb break="no"/>tischen oder durch den Inhalt
+                                                einer <lb break="yes"/>Druckschrift verübten
+                                                Verbrechen und <lb break="yes"/>Vergehen entscheiden
+                                                Geschworne über <lb break="yes"/>die Schuld des
+                                                Angeklagten.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXXII. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Als oberste Instanz in Zivil-
-                                                <lb break="yes"/>und Strafrechtssachen besteht das
-                                                Ober
-                                                <lb break="no"/>ste Bundesgericht in Wien. </p>
+                                          <p type="legal_section"> Als oberste Instanz in Zivil- <lb
+                                                  break="yes"/>und Strafrechtssachen besteht das
+                                                Ober <lb break="no"/>ste Bundesgericht in Wien. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXXIII. </head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Die Erteilung von Amnestien erfolgt
-                                                <lb break="yes"/>durch Bundesgesetz. </p>
+                                          <p type="legal_section"> Die Erteilung von Amnestien
+                                                erfolgt <lb break="yes"/>durch Bundesgesetz. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art.LXXIV.</head>
-                                          <p type="legal_section">
-                                                <lb break="yes"/>Die Rechtspflege wird von der
-                                                Verwaltung in allen Instanzen getrennt.
-                                                <lb break="yes"/>Die Staatsanwaltschaft gilt als
-                                                Verwal
-                                                <lb break="no"/>tungsbehörde.</p>
+                                          <p type="legal_section"> Die Rechtspflege wird von der
+                                                Verwaltung in allen Instanzen getrennt. <lb
+                                                  break="yes"/>Die Staatsanwaltschaft gilt als
+                                                Verwal <lb break="no"/>tungsbehörde.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXXV. </head>
                                           <p type="legal_section"> In allen Fällen, wo eine Verwal
-                                                <lb break="no"/>tungsbehörde nach den bestehenden
-                                                oder
-                                                <lb break="yes"/>künftig zu erlassenden Gesetzen
-                                                über
-                                                <lb break="yes"/>Privatrechtsansprüche zu
-                                                entscheiden
-                                                <lb break="yes"/>hat, steht es dem durch diese Ent
-                                                <lb break="no"/>scheidung Benachteiligten frei, wenn
-                                                <lb break="yes"/>nicht im Gesetze etwas anderes
-                                                bestimmt
-                                                <lb break="yes"/>ist, Abhilfe gegen die andere
-                                                Partei
-                                                <lb break="yes"/>im Rechtswege zu suchen.</p>
-                                          <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
+                                                  <lb break="no"/>tungsbehörde nach den bestehenden
+                                                oder <lb break="yes"/>künftig zu erlassenden
+                                                Gesetzen über <lb break="yes"/>Privatrechtsansprüche
+                                                zu entscheiden <lb break="yes"/>hat, steht es dem
+                                                durch diese Ent <lb break="no"/>scheidung
+                                                Benachteiligten frei, wenn <lb break="yes"/>nicht im
+                                                Gesetze etwas anderes bestimmt <lb break="yes"/>ist,
+                                                Abhilfe gegen die andere Partei <lb break="yes"/>im
+                                                Rechtswege zu suchen.</p>
                                     </div>
                               </div>
                         </div>
                         <div type="section">
-                              <p>- 24 </p>
+                              <pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/>
+                              <fw type="pageNum">- 24 -</fw>
                               <head>Vierter Abschnitt. </head>
                               <head>Von der Gesetzgebung und Vollziehung der souveränen Länder. </head>
                               <div type="article">
                                     <head>Art. LXXVI.</head>
-                                    <p type="legal_section">Die gesetzgebende Gewalt der sou
-                                          <lb break="no"/>veränen Länder wird durch die Landes
-                                          <lb break="no"/>versammlungen ausgeübt, deren Mitglie
-                                          <lb break="no"/>der auf Grund des gleichen, geheimen
-                                          <lb break="yes"/>und direkten Verhältniswahlrechtes al
-                                          <lb break="no"/>ler Bundesbürger ohne Unterschied des
-                                          <lb break="yes"/>Geschlechtes gewählt werden.
-                                          <lb break="yes"/>Die Landeswahlordnungen dürfen die
-                                          Bedingungen des aktiven und passi
-                                          <lb break="no"/>ven Wahlrechtes nicht enger ziehen,
-                                          <lb break="yes"/>als dies in der Wahlordnung zur Bundes
-                                          <lb break="no"/>versammlung der Fall ist.
-                                          <lb break="yes"/></p>
+                                    <p type="legal_section">Die gesetzgebende Gewalt der sou <lb
+                                                break="no"/>veränen Länder wird durch die Landes <lb
+                                                break="no"/>versammlungen ausgeübt, deren Mitglie
+                                                <lb break="no"/>der auf Grund des gleichen, geheimen
+                                                <lb break="yes"/>und direkten Verhältniswahlrechtes
+                                          al <lb break="no"/>ler Bundesbürger ohne Unterschied des
+                                                <lb break="yes"/>Geschlechtes gewählt werden. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Landeswahlordnungen dürfen die
+                                          Bedingungen des aktiven und passi <lb break="no"/>ven
+                                          Wahlrechtes nicht enger ziehen, <lb break="yes"/>als dies
+                                          in der Wahlordnung zur Bundes <lb break="no"/>versammlung
+                                          der Fall ist. </p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXVII. </head>
                                     <p type="legal_section">Die Mitglieder der Landesversammlungen
-                                          geniessen die gleiche Immunität
-                                          <lb break="yes"/>wie die Mitglieder der Bundesversamm-</p>
-                                    <p type="legal_section">lung, wobei die Bestimmungen des Art.
-                                          <lb break="yes"/>XXXIV der Bundesverfassung Anwendung
-                                          <lb break="yes"/>finden. </p>
+                                          geniessen die gleiche Immunität <lb break="yes"/>wie die
+                                          Mitglieder der Bundesversammlung, wobei die Bestimmungen
+                                          des Art. <lb break="yes"/>XXXIV der Bundesverfassung
+                                          Anwendung <lb break="yes"/>finden. </p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXVIII. </head>
-                                    <p type="legal_section">
-                                          <lb break="yes"/>Zu einem Landesgesetz ist er
-                                          <lb break="no"/>forderlich der Beschluss der Landes
-                                          <lb break="no"/>versammlung, die Beurkundung durch de
-                                          <lb break="no"/>ren Präsidenten und die Kundmachung
-                                          <lb break="yes"/>durch die Landesregierung im Landesge
-                                          <lb break="no"/>setzblatt.</p>
-                                    <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
+                                    <p type="legal_section"> Zu einem Landesgesetz ist er <lb
+                                                break="no"/>forderlich der Beschluss der Landes <lb
+                                                break="no"/>versammlung, die Beurkundung durch de
+                                                <lb break="no"/>ren Präsidenten und die Kundmachung
+                                                <lb break="yes"/>durch die Landesregierung im
+                                          Landesge <lb break="no"/>setzblatt.</p>
                               </div>
                               <div type="article">
-                                    <p type="legal_section">- 25 </p>
+                                    <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
+                                    <fw type="pageNum">- 25 -</fw>
                                     <head>Art. LXXIX. </head>
-                                    <p type="legal_section">Die durch Landesgesetz zu erlassen
-                                          <lb break="no"/>de Landesverfassung kann - insoweit
-                                          <lb break="yes"/>dadurch die Bundesverfassung nicht be
-                                          <lb break="no"/>rührt wird - durch Landesgesetz abge
-                                          <lb break="no"/>ändert werden.
-                                          <lb break="yes"/>Ein Landesverfassungsgesetz kann
-                                          <lb break="yes"/>nur bei Anwesenheit der zwei Drittel
-                                          <lb break="yes"/>alber Mitglieder der Landesversammlung
-                                          <lb break="yes"/>mit einer Mehrheit von drei Viertel
-                                          <lb break="yes"/>aller abgegebenen Stimmen beschlossen
-                                          <lb break="yes"/>werden. </p>
+                                    <p type="legal_section">Die durch Landesgesetz zu erlassen <lb
+                                                break="no"/>de Landesverfassung kann - insoweit <lb
+                                                break="yes"/>dadurch die Bundesverfassung nicht be
+                                                <lb break="no"/>rührt wird - durch Landesgesetz abge
+                                                <lb break="no"/>ändert werden. <lb break="yes"/></p>
+                                    <p type="legal_section">Ein Landesverfassungsgesetz kann <lb
+                                                break="yes"/>nur bei Anwesenheit der zwei Drittel
+                                                <lb break="yes"/>alber Mitglieder der
+                                          Landesversammlung <lb break="yes"/>mit einer Mehrheit von
+                                          drei Viertel <lb break="yes"/>aller abgegebenen Stimmen
+                                          beschlossen <lb break="yes"/>werden. </p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXX. </head>
-                                    <p type="legal_section">Die Kundmachung der Landesgesetze</p>
-                                    <p type="legal_section">erfolgt mit Berufung auf den Be
-                                          <lb break="no"/>schluss der Landesversammlung durch
-                                          <lb break="yes"/>die Landesregierung im Landesgesetz
-                                          <lb break="no"/>blatt.
-                                          <lb break="yes"/>Die Beurkundung des verfassungs
-                                          <lb break="no"/>mässigen Zustandekommens geschieht durch
-                                          <lb break="yes"/>die von dem Landeshauptmann gegenzu-</p>
-                                    <p type="legal_section">zeichnende Unterschrift des Präsidenten
-                                          <lb break="yes"/>der Landesversammlung.
-                                          <lb break="yes"/>Landesgesetze treten vier Wochen
-                                          <lb break="yes"/>nach der erfolgten Verlautbarung in
-                                          <lb break="yes"/>Wirksamkeit. Eine Abkürzung dieses Ter
-                                          <lb break="no"/>mins bedarf der Zustimmung der Bundes
-                                          <lb break="no"/>regierung.
-                                          <lb break="yes"/></p>
+                                    <p type="legal_section">Die Kundmachung der Landesgesetze
+                                          erfolgt mit Berufung auf den Be <lb break="no"/>schluss
+                                          der Landesversammlung durch <lb break="yes"/>die
+                                          Landesregierung im Landesgesetz <lb break="no"/>blatt. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Beurkundung des verfassungs <lb
+                                                break="no"/>mässigen Zustandekommens geschieht durch
+                                                <lb break="yes"/>die von dem Landeshauptmann
+                                          gegenzuzeichnende Unterschrift des Präsidenten <lb
+                                                break="yes"/>der Landesversammlung. <lb break="yes"
+                                          /></p>
+                                    <p type="legal_section">Landesgesetze treten vier Wochen <lb
+                                                break="yes"/>nach der erfolgten Verlautbarung in <lb
+                                                break="yes"/>Wirksamkeit. Eine Abkürzung dieses Ter
+                                                <lb break="no"/>mins bedarf der Zustimmung der
+                                          Bundes <lb break="no"/>regierung. </p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXXI. </head>
-                                    <p type="legal_section">
-                                          <lb break="yes"/>Die vollziehende Gewalt jedes
-                                          <lb break="yes"/>souveränen Landes wird durch eine
-                                          <lb break="yes"/>von der Landesversammlung zu wählende
-                                          <lb break="yes"/>Landesregierung ausgeübt.</p>
-                                    <pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/>
-                                    <p type="legal_section">- 26
-                                          <lb break="no"/>Die Landesregierung besteht aus dem
-                                          <lb break="yes"/>Landeshauptmann, seinem Stellvertreter
-                                          und
-                                          <lb break="yes"/>. . . . bis . . . . Beisitzern. </p>
+                                    <p type="legal_section"> Die vollziehende Gewalt jedes <lb
+                                                break="yes"/>souveränen Landes wird durch eine <lb
+                                                break="yes"/>von der Landesversammlung zu wählende
+                                                <lb break="yes"/>Landesregierung ausgeübt.</p>
+                                    <p type="legal_section"><pb facs="#facs_27" n="27"
+                                                xml:id="img_0027" break="yes"/><fw type="pageNum">-
+                                                26 -</fw><lb break="no"/>Die Landesregierung besteht
+                                          aus dem <lb break="yes"/>Landeshauptmann, seinem
+                                          Stellvertreter und <lb break="yes"/>. . . . bis . . . .
+                                          Beisitzern. </p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXXII. </head>
-                                    <p type="legal_section">
-                                          <lb break="yes"/>Der Landeshauptmann bezw. sein Stell
-                                          <lb break="no"/>vertreter vertritt das Land nach aussen.
-                                          Er
-                                          <lb break="yes"/>trägt in den Angelegenheiten des der
-                                          Landes
-                                          <lb break="no"/>regierung übertragenen Wirkungskreises der
-                                          <lb break="yes"/>Bundesgewalt die Verantwortung gegenüber
-                                          <lb break="yes"/>der Bundesregierung gemäss Art. CXXVIII
-                                          der
-                                          <lb break="yes"/>Bundesverfassung.</p>
-                                    <p type="legal_section">Der Landesversammlung sind die Mit
-                                          <lb break="no"/>glieder der Landesregierung gemäss Art.
-                                          CXXVIII
-                                          <lb break="yes"/>der Bundesverfassung verantwortlich.
-                                          <lb break="yes"/></p>
+                                    <p type="legal_section"> Der Landeshauptmann bezw. sein Stell
+                                                <lb break="no"/>vertreter vertritt das Land nach
+                                          aussen. Er <lb break="yes"/>trägt in den Angelegenheiten
+                                          des der Landes <lb break="no"/>regierung übertragenen
+                                          Wirkungskreises der <lb break="yes"/>Bundesgewalt die
+                                          Verantwortung gegenüber <lb break="yes"/>der
+                                          Bundesregierung gemäss Art. CXXVIII der <lb break="yes"
+                                          />Bundesverfassung.</p>
+                                    <p type="legal_section">Der Landesversammlung sind die Mit <lb
+                                                break="no"/>glieder der Landesregierung gemäss Art.
+                                          CXXVIII <lb break="yes"/>der Bundesverfassung
+                                          verantwortlich. <lb break="yes"/></p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXVIII. </head>
-                                    <p type="legal_section">
-                                          <lb break="yes"/>Die vollziehende Gewalt des Bundes wird
-                                          <lb break="yes"/>im Bereiche der souveränen Länder von den
-                                          <lb break="yes"/>Landesregierungen und den ihnen
-                                          unterstell
-                                          <lb break="no"/>ten Landesbehörden im übertragenen
-                                          Wirkungs
-                                          <lb break="no"/>kreise ausgeübt, soweit nicht für einzelne
-                                          <lb break="yes"/>Bundesangelegenheiten eigene
-                                          Bundesbehörden
-                                          <lb break="yes"/>durch Bundesgesetz berufen sind.</p>
+                                    <p type="legal_section"> Die vollziehende Gewalt des Bundes wird
+                                                <lb break="yes"/>im Bereiche der souveränen Länder
+                                          von den <lb break="yes"/>Landesregierungen und den ihnen
+                                          unterstell <lb break="no"/>ten Landesbehörden im
+                                          übertragenen Wirkungs <lb break="no"/>kreise ausgeübt,
+                                          soweit nicht für einzelne <lb break="yes"
+                                          />Bundesangelegenheiten eigene Bundesbehörden <lb
+                                                break="yes"/>durch Bundesgesetz berufen sind.</p>
                                     <p type="legal_section">In diesem Belange ist die Landesregie
-                                          <lb break="no"/>rung samt den ihr unterstellten Behörden
-                                          <lb break="yes"/>an die Bundesgesetze, die Vollzugsanwei
-                                          <lb break="no"/>sungen und sonstigen Anordnungen der
-                                          Bundes
-                                          <lb break="no"/>regierung sowie der einzelnen Bundesämter
-                                          <lb break="yes"/>gebunden.
-                                          <lb break="yes"/>In den von den Landesbehörden als Bun
-                                          <lb break="no"/>desorgan wahrgenommenen Angelegenheiten
-                                          geht
-                                          <lb break="yes"/>der administrative Instanzenzug - wenn
-                                          nicht
-                                          <lb break="yes"/>durch Bundesgesetz ausdrücklich anderes
-                                          be-</p>
-                                    <pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>
-                                    <p type="legal_section">- 27
-                                          <lb break="no"/>stimmt ist - bis zur Bundesregierung bezw.
-                                          <lb break="yes"/>den ressortmässig zustehenden
-                                          Bundesämtern. </p>
+                                                <lb break="no"/>rung samt den ihr unterstellten
+                                          Behörden <lb break="yes"/>an die Bundesgesetze, die
+                                          Vollzugsanwei <lb break="no"/>sungen und sonstigen
+                                          Anordnungen der Bundes <lb break="no"/>regierung sowie der
+                                          einzelnen Bundesämter <lb break="yes"/>gebunden. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">In den von den Landesbehörden als Bun
+                                                <lb break="no"/>desorgan wahrgenommenen
+                                          Angelegenheiten geht <lb break="yes"/>der administrative
+                                          Instanzenzug - wenn nicht <lb break="yes"/>durch
+                                          Bundesgesetz ausdrücklich anderes be-<pb facs="#facs_28"
+                                                n="28" xml:id="img_0028" break="yes"/><fw
+                                                type="pageNum">- 27 -</fw><lb break="no"/>stimmt ist
+                                          - bis zur Bundesregierung bezw. <lb break="yes"/>den
+                                          ressortmässig zustehenden Bundesämtern. </p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXXIV. </head>
-                                    <p type="legal_section">Aus besonderen Gründen kann über Be
-                                          <lb break="no"/>schluss der Bundesregierung zur
-                                          Wahrnehmung
-                                          <lb break="yes"/>der Angelegenheiten des der
-                                          Landesregierung
-                                          <lb break="yes"/>vom Bunde übertragenen Wirkungskreises
-                                          vom
-                                          <lb break="yes"/>Bundespräsidenten ein ausserordentlicher
-                                          <lb break="yes"/>Bundeskommissär bestellt werden.
-                                          <lb break="yes"/>In diesem Falle sind alle Landesorgane
-                                          <lb break="yes"/>innerhalb des übertragenen
-                                          Wirkungskreises
-                                          <lb break="yes"/>an die Weisungen des Bundeskommissärs un
-                                          <lb break="no"/>mittelbar gebunden.
-                                          <lb break="yes"/></p>
+                                    <p type="legal_section">Aus besonderen Gründen kann über Be <lb
+                                                break="no"/>schluss der Bundesregierung zur
+                                          Wahrnehmung <lb break="yes"/>der Angelegenheiten des der
+                                          Landesregierung <lb break="yes"/>vom Bunde übertragenen
+                                          Wirkungskreises vom <lb break="yes"/>Bundespräsidenten ein
+                                          ausserordentlicher <lb break="yes"/>Bundeskommissär
+                                          bestellt werden. <lb break="yes"/></p>
+                                    <p type="legal_section">In diesem Falle sind alle Landesorgane
+                                                <lb break="yes"/>innerhalb des übertragenen
+                                          Wirkungskreises <lb break="yes"/>an die Weisungen des
+                                          Bundeskommissärs un <lb break="no"/>mittelbar gebunden.
+                                                <lb break="yes"/></p>
                               </div>
                         </div>
                         <div type="section">
