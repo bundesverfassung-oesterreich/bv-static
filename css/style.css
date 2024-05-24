@@ -797,6 +797,18 @@ span.pb_marker::after {
     padding: 0 .5rem;
 }
 
+span.historical_pagecounter{
+    color: grey;
+    display: inline-block;
+}
+
+span.historical_pagecounter::before{
+    content: "[";
+}
+span.historical_pagecounter::after{
+    content: "]";
+}
+
 .index-card .card-body {
     background-color: transparent;
     border: none;
