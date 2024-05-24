@@ -288,15 +288,23 @@
                 </p>
             </xsl:template>
             <!-- handle lb-elements / convert them to span -->
-            <xsl:template match="text()[following-sibling::tei:lb[1][@break = 'no']]">
+            <!-- <xsl:template match="text()[following-sibling::tei:lb[1][@break = 'no']]">
                 <xsl:value-of select="normalize-space(.)"/>
                 <span class="tei_lb line_breaks_in_word"/>
             </xsl:template>
             <xsl:template match="text()[following-sibling::tei:lb[1][@break = 'yes']]">
                 <xsl:value-of select="."/>
                 <span class="tei_lb"/>
+            </xsl:template> -->
+
+            <xsl:template match="text()[following-sibling::*[1][local-name()='lb' and @break='no']]">
+                <xsl:value-of select="normalize-space(replace(., '^(.+?)\s*$', '$1'))"/>
+            </xsl:template>
+            <xsl:template match="text()[preceding-sibling::*[1][local-name()='lb' and @break='no' and not(preceding-sibling::node()[self::text()])]]">
+                <xsl:value-of select="normalize-space(replace(., '^\s*(.+?)$', '$1'))"/>
             </xsl:template>
             <xsl:template match="tei:lb"/>
+            
             <!-- match paragraphs and listitems with labels; secure whitespaces -->
             <xsl:template match="//tei:body//tei:item[preceding-sibling::*[1][local-name()='label']]">
                 <xsl:variable name="label_element">
