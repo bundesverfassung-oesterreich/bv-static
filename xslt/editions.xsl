@@ -514,6 +514,11 @@
             <xsl:apply-templates/>
         </b>
     </xsl:template>
+    <xsl:template match="tei:fw">
+        <span class="historical_pagecounter">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     <!-- these are already handled above -->
     <xsl:template match="//tei:body//tei:list">
         <ul>
