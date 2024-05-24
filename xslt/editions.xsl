@@ -509,6 +509,11 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+    <xsl:template match="tei:emph">
+        <b>
+            <xsl:apply-templates/>
+        </b>
+    </xsl:template>
     <!-- these are already handled above -->
     <xsl:template match="//tei:body//tei:list">
         <ul>
