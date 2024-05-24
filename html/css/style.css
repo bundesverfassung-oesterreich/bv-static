@@ -772,15 +772,15 @@ div.card-body.mimetic_lbs span.tei_lb::after {
 span.pb {
     visibility: visible;
     line-height: inherit;
-    display: block;
+    display: inline-block;
     position: absolute;
     left: -1.5rem;
-    width: 1.5rem;
-    margin-top: var(--default-line-height-negative);
+    /* width: 1.5rem;
+    margin-top: var(--default-line-height-negative); */
 }
 
 span.pb::before {
-    display: block;
+    display: inline-block;
     opacity: 0.5;
     font-weight: bold;
     font-size: inherit;

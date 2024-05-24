@@ -91,27 +91,15 @@
                                 <div>
                                     <ul id="edition_display_options"
                                         class="list-unstyled fw-normal pb-1 small">
-                                        <!--<li >
-                                             <full-size opt="fls"></full-size>
-                                             </li>-->
-                                        <li>
-                                            <image-switch opt="es"/>
-                                        </li>
-                                        <li>
-                                            <font-size opt="fs"/>
-                                        </li>
-                                        <!--<li >
-                                             <font-family opt="ff"></font-family>
-                                             </li>-->
                                         <li>
                                             <annotation-slider opt="ef"/>
+                                        </li>
+                                        <li >
+                                            <annotation-slider opt="historical_pagecounter"></annotation-slider>
                                         </li>
                                         <li>
                                             <annotation-slider opt="prs"/>
                                         </li>
-                                        <!--<li >
-                                             <annotation-slider opt="plc"></annotation-slider>
-                                             </li>-->
                                         <li>
                                             <annotation-slider opt="wrk"/>
                                         </li>
@@ -244,7 +232,8 @@
                                                 <button class="osd_nav_element"
                                                   id="osd_zoom_reset_button">
                                                   <svg xmlns="http://www.w3.org/2000/svg"
-                                                  height="2.5rem" width="auto" viewBox="0 0 384 512">
+                                                  height="2.5rem" width="auto"
+                                                   viewBox="0 0 384 512">
                                                   <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                                   <path fill="#f8f9ec"
                                                   d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"
@@ -307,7 +296,7 @@
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
-                <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
+                <script src="https://unpkg.com/de-micro-editor@0.4.0/dist/de-editor.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"/>
                 <script type="text/javascript" src="js/osd_scroll.js"/>
                 <script type="text/javascript" src="js/run.js"/>
