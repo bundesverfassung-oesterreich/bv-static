@@ -341,6 +341,5 @@ addEventListener("resize", function (event) {
         viewer.forceResize();
         fitVertically_align_left_bottom(viewer);
     };
-    check_bottom_whitespace_of_textWrapper();
   }
 );
