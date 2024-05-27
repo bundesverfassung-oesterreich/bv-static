@@ -22,10 +22,12 @@
                         </div>
                         <div class="col-auto">
                             <a href="https://www.oeaw.ac.at/acdh/acdh-ch-home">
-                                <img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh-ch-logo-with-text-grayscale.png" 
+                                <!-- <img src="images/acdh_logo.png"  -->
+                                <img src="images/acdh-ch-logo-short-version-square.png" 
                                      class="image" 
                                      alt="ACDHCH Logo" 
-                                     title="ACDHCH Logo"/>
+                                     title="ACDHCH Logo"
+                                     style="max-height: 100px;"/>
                             </a>
                         </div>
                         <div class="col-auto">
