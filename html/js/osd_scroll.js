@@ -269,61 +269,6 @@ function isInViewport(element) {
   }
 }
 
-
-/*
-##################################################################
-test to add whitespace at end of the page to make 
-the scrolling mechanism work.
-##################################################################
-*/
-
-
-/* since not all pages in the original document contain a lot of text,
-it could happen that the image on the last page doesnt get loaded, cause 
-its impossible to scroll far enough to trigger the load image stuff   */
-// setting up eventlistener and Intersectionobserver
-
-// // create anchor as a point of reference for the end of the textblock
-// bell_anchor = document.createElement("a");
-// text_wrapper.appendChild(
-//   bell_anchor
-// );
-
-// // stuff to change / set the whitespace at bottom
-// var bottom_whitespace = 0;
-
-// function change_bottom_whitespace_of_textWrapper() {
-//   bottom_whitespace = ((window.innerHeight / 10) *8);
-//   text_wrapper.style.paddingBottom = `${bottom_whitespace}px`
-// };
-
-// function check_bottom_whitespace_of_textWrapper(check_bottom_whitespace) {
-//   if (check_bottom_whitespace === undefined) {
-//     check_bottom_whitespace = false;
-//   }
-//   if (check_bottom_whitespace === true){
-//     if (bottom_whitespace == 0) {
-//       change_bottom_whitespace_of_textWrapper();
-//     }
-//   } else {
-//       change_bottom_whitespace_of_textWrapper();
-//   }
-// }
-
-// let io_options = {
-//   root: null,
-//   rootMargin: "0px",
-//   threshold: 1.0,
-// };
-
-// let observer = new IntersectionObserver(
-//   function () {check_bottom_whitespace_of_textWrapper(check_bottom_whitespace=true)},
-//   io_options
-// );
-
-// observer.observe(bell_anchor);
-
-
 /* change size of facs container */
 function resize_facsContainer() {
   let new_container_height = calculate_facsContainer_height();
