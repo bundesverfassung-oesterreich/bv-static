@@ -110,11 +110,6 @@ div#navbarSupportedContent div#navbar_right_spacer {
     max-width: 30rem;
 }
 
-
-annotation-slider > label > input {
-    opacity: 0;
-}
-
 .dropdown-toggle::after {
     display: none;
     margin-left: .255em;
