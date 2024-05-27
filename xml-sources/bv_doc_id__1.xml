@@ -106,6 +106,7 @@
                   <change when="2024-02-27" who="#cfh">document automatically created</change>
                   <change when="2024-03-22" who="#m_huber">angefangen div zu erzeugen</change>
                   <change when="2024-04-19" who="#m_huber">fixed headings</change>
+                  <change when="2024-05-14" who="#s_kury">gegenlesen beendet</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -371,7 +372,7 @@
                                           Steier <lb break="no"/>mark etz.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. II </head>
+                                    <head>Art. II.</head>
                                     <p type="legal_section">Das Bundesgebiet umfaßt die Gebiete <lb
                                                 break="yes"/>der souveränen Länder u. zw. im
                                           folgenden <lb break="yes"/>Umfange: </p>
@@ -399,7 +400,7 @@
                                           eines <lb break="yes"/>souveränen Landes gebunden. </p>
                                     <p type="legal_section">Der Erwerb und Verlust der Bundes <lb
                                                 break="no"/>bürgerschaft wird durch ein Bundesgesetz
-                                                <lb break="yes"/>geregelt </p>
+                                                <lb break="yes"/>geregelt. </p>
                               </div>
                               <div type="article">
                                     <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
@@ -440,7 +441,7 @@
                                           zu. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. VI </head>
+                                    <head>Art. VI. </head>
                                     <p type="legal_section">Der Gesetzgebung des Bundes ist über-
                                                 <lb break="no"/>tragen: <lb break="yes"/><list>
                                                 <label>1.)</label>
@@ -569,7 +570,7 @@
                                                 break="no"/>sammlung beträgt... Jahre vom Tage <lb
                                                 break="yes"/>ihrer ersten Einberufung an gerechnet. </p>
                                     <p type="legal_section">Die Bundesversammlung ist alljähr <lb
-                                                break="no"/>lich vom Bundesprasidenten u. zw. im <lb
+                                                break="no"/>lich vom Bundespräsidenten u. zw. im <lb
                                                 break="yes"/>........einzuberufen. </p>
                                     <p type="legal_section">Eine Sitzungsperiode der Bundesver <lb
                                                 break="no"/>sammlung darf nicht länger als ein Jahr
@@ -655,7 +656,7 @@
                                           beschlossen werden. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. XIX </head>
+                                    <head>Art. XIX. </head>
                                     <p type="legal_section">Jede Gesamtänderung der Bundesver <lb
                                                 break="no"/>fassung, eine teilweise Aenderung aber
                                                 <lb break="yes"/>nur, wenn sie von . . . Mitgliedern
@@ -696,7 +697,7 @@
                                           Bundesgesetz ausgesprochen <lb break="yes"/>hat.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. XXII </head>
+                                    <head>Art. XXII. </head>
                                     <p type="legal_section">Das Ergebnis der Volksabstimmung <lb
                                                 break="yes"/>ist im Bundesgesetzblatt zu
                                           verlautbaren. <lb break="yes"/>Im Falle ein Bundesgesetz
@@ -743,7 +744,7 @@
                                           Mitglieder und <lb break="yes"/>für je . . . Einwohner
                                           ihres Gebietes je <lb break="yes"/>ein weiteres Mitglied
                                           auf die Dauer einer <lb break="yes"/>Session der
-                                          Bundesversammlung </p>
+                                          Bundesversammlung. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXVII. </head>
@@ -753,7 +754,7 @@
                                     <p type="legal_section">Als Vorsitzender des Bundesrates <lb
                                                 break="yes"/>und als Stellvertreter desselben fungie
                                                 <lb break="no"/>ren die bei der Wahl aus der
-                                                Landesver<lb break="yes"/>6<pb facs="#facs_11"
+                                                Landesver-<lb break="yes"/>6<pb facs="#facs_11"
                                                 n="11" xml:id="img_0011" break="yes"/><fw
                                                 type="pageNum">- 10 -</fw><lb break="yes"/>sammlung
                                           hiezu an erster und zweiter <lb break="yes"/>Stelle
@@ -772,7 +773,7 @@
                                     <head>Art. XXVIII. </head>
                                     <p type="legal_section">Der Bundesrat wird vom Bundespräsi <lb
                                                 break="no"/>denten alljährlich nach Wien einberufen. </p>
-                                    <p type="legal_section">Er fast seine Beschlüsse mit einfa <lb
+                                    <p type="legal_section">Er faßt seine Beschlüsse mit einfa <lb
                                                 break="no"/>cher Stimmenmehrheit der Anwesenden. </p>
                                     <p type="legal_section">Die Sitzungen des Bundesrates sind <lb
                                                 break="yes"/>nicht öffentlich. </p>
@@ -927,7 +928,7 @@
                                     <p type="legal_section"><pb facs="#facs_15" n="15"
                                                 xml:id="img_0015" break="yes"/><fw type="pageNum">-
                                                 14 -</fw><lb break="no"/>Ergreifung auf frischer Tat
-                                          ausgenommen <lb break="no"/>ohne Zustimmung der
+                                          ausgenommen -<lb break="no"/>ohne Zustimmung der
                                           Bundesversammlung ver <lb break="no"/>haftet oder
                                           behördlich verfolgt werden. </p>
                                     <p type="legal_section">Selbst in dem Falle der Ergreifung <lb
@@ -949,10 +950,10 @@
                                           Funktion <lb break="yes"/>als Bundesratsmitglieder. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. XXXVI </head>
-                                    <p type="legal_section">Niemand kann gleichzeitig der Bun <lb
-                                                break="no"/>desversammlung und dem Bundesrat ange
-                                                <lb break="no"/>hören. </p>
+                                    <head>Art. XXXVI. </head>
+                                    <p type="legal_section">Niemand kann gleichzeitig der
+                                          Bundesversammlung und dem Bundesrat ange <lb break="no"
+                                          />hören. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXXVII.</head>
@@ -1022,7 +1023,7 @@
                                                 wird.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XLI</head>
+                                          <head>Art. XLI.</head>
                                           <p type="legal_section"> Zum Bundespräsidenten sowie zu
                                                 sei <lb break="no"/>nem Stellvertreter kann nur
                                                 derjenige <lb break="yes"/>deutschösterreichische
@@ -1058,7 +1059,7 @@
                                                 ge <lb break="no"/>wählt. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XLIV <lb break="yes"/></head>
+                                          <head>Art. XLIV. <lb break="yes"/></head>
                                           <p type="legal_section">Der Bundespräsident und sein Stell
                                                   <lb break="no"/>vertreter dürfen während ihrer
                                                 Amtstätig <lb break="no"/>keit keiner politischen
@@ -1066,7 +1067,7 @@
                                                 anderen Beruf ausüben. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XLV</head>
+                                          <head>Art. XLV.</head>
                                           <p type="legal_section">Das Wahlverfahren für die
                                                 Präsident <lb break="no"/>schaftswahl ist in dem
                                                 Gesetze betref <lb break="no"/>fend die Wahlordnung
@@ -1074,7 +1075,7 @@
                                                 zu regeln. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XLVI <lb break="yes"/></head>
+                                          <head>Art. XLVI. <lb break="yes"/></head>
                                           <p type="legal_section">Der Bundespräsident vertritt die
                                                   <lb break="yes"/>Republik Deutschösterreich nach
                                                 außen, <lb break="yes"/>empfängt und beglaubigt die
@@ -1192,7 +1193,7 @@
                                                   /><fw type="pageNum">11</fw><pb facs="#facs_21"
                                                   n="21" xml:id="img_0021" break="yes"/><fw
                                                   type="pageNum">- 20 -</fw><lb break="yes"
-                                                />-despräsidenten mit dem Datum des Tages <lb
+                                                />despräsidenten mit dem Datum des Tages <lb
                                                   break="yes"/>der Abgelobung ausgefertigt und vom
                                                 neu <lb break="yes"/>bestellten Bundeskanzler
                                                 gegengezeichnet. </p>
@@ -1224,14 +1225,14 @@
                                                 Bundesregierung zu be <lb break="no"/>stellen, bezw.
                                                 der betreffende Staats <lb break="no"/>sekretär
                                                 seines Amtes zu entheben.</p>
-                                          <p type="legal_section"> Zu einem Beschluss der Bundesver
+                                          <p type="legal_section"> Zu einem Beschlusse der Bundesver
                                                   <lb break="no"/>sammlung, mit welchem das
                                                 Vertrauen ver <lb break="no"/>sagt wird, ist die
                                                 Anwesenheit der Hälfte <lb break="yes"/>der
                                                 Mitglieder der Bundesversammlung er <lb break="no"
                                                 />forderlich. Doch ist, wenn . . . Mitglie <lb
                                                   break="no"/>der es verlangen, die Abstimmung auf
-                                                den <lb break="yes"/>zweitnächster Werktag zu
+                                                den <lb break="yes"/>zweitnächsten Werktag zu
                                                 vertagen. Eine <lb break="yes"/>neuerliche Vertagung
                                                 der Abstimmung kann <lb break="yes"/>nur auf
                                                 Beschluß der Bundesversammlung <lb break="yes"
@@ -1284,7 +1285,7 @@
                                     <div type="article">
                                           <head>Art. LIX. <lb break="yes"/></head>
                                           <p type="legal_section">Ausnahmsweise und vorübergehend
-                                                kann <lb break="yes"/>der Bundeskanaler der
+                                                kann <lb break="yes"/>der Bundeskanzler der
                                                 Vizekanzler oder<lb break="yes"/><fw type="pageNum"
                                                   >12</fw><pb facs="#facs_23" n="23"
                                                   xml:id="img_0023" break="yes"/><fw type="pageNum"
@@ -1300,10 +1301,10 @@
                                                 bestellt werden. </p>
                                           <p type="legal_section">In jedem Bundesamte wird in der
                                                   <lb break="yes"/>Regel dem verantwortlichen Leiter
-                                                zur <lb break="yes"/>wahrung der Einheit und
+                                                zur <lb break="yes"/>Wahrung der Einheit und
                                                 Stetigkeit des <lb break="yes"/>Geschäftsganges ein
                                                 Beamter zur Seite ge <lb break="no"/>stellt, der den
-                                                Amtstitel eines Bundes <lb break="no"/>amtedirektors
+                                                Amtstitel eines Bundes <lb break="no"/>amtsdirektors
                                                 führt.</p>
                                     </div>
                                     <div type="article">
@@ -1368,7 +1369,7 @@
                                     </div>
                                     <div type="article">
                                           <head>Art. LXV.</head>
-                                          <p type="legal_section">Die Richter werden soferne nicht
+                                          <p type="legal_section">Die Richter werden -soferne nicht
                                                   <lb break="yes"/>anderes bestimmt ist- auf Grund
                                                 von Be <lb break="no"/>setzungsvorschlägen der durch
                                                 die Gerichts <lb break="yes"/>verfassung dazu
@@ -1389,7 +1390,7 @@
                                                   break="yes"/>als Richter zu ernennen sind. </p>
                                           <p type="legal_section">Die Richter werden in die für <lb
                                                   break="yes"/>die übrigen Staatsbeamten bestehenden
-                                                  <lb break="yes"/>Rangeklassen nicht eingeteilt;
+                                                  <lb break="yes"/>Rangsklassen nicht eingeteilt;
                                                 ihre dienst <lb break="no"/>liche Verwendung ist von
                                                 ihrer Einteilung <lb break="yes"/>in Gehaltsklassen
                                                 unabhängig.</p>
@@ -1420,7 +1421,7 @@
                                                   n="26" xml:id="img_0026" break="yes"/><fw
                                                   type="pageNum">- 25 - </fw><lb break="yes"/>ihres
                                                 Amtes ersetzt werden; ihre zeitwei <lb break="no"
-                                                />es Enthebung des Gerichtsvorstandes <lb
+                                                />se Enthebung des Gerichtsvorstandes <lb
                                                   break="yes"/>oder höheren Gerichtsbehörde unter
                                                 gleich <lb break="no"/>zeitiger Verweisung der Sache
                                                 an das zu <lb break="no"/>ständige Gericht, die
@@ -1450,7 +1451,7 @@
                                                   <lb break="no"/>ner Vollzugsanweisung (Vdg.) als
                                                 gesetz <lb break="no"/>widrig abgelehnt, hat es
                                                 gleichzeitig <lb break="yes"/>den Antrag auf
-                                                Kassation dieser vollzugs <lb break="no"/>anweisung
+                                                Kassation dieser Vollzugs <lb break="no"/>anweisung
                                                 beim Bundesverfassungsgerichte <lb break="yes"/>zu
                                                 stellen. (Art CXXV).</p>
                                     </div>
@@ -1460,7 +1461,7 @@
                                                   break="yes"/><fw type="pageNum">14</fw><pb
                                                   facs="#facs_27" n="27" xml:id="img_0027"
                                                   break="yes"/><fw type="pageNum">- 26 -</fw>
-                                                <lb break="no"/>Ausübung eeines Amtes verursachten
+                                                <lb break="no"/>Ausübung seines Amtes verursachten
                                                 Rechts <lb break="no"/>verletzungen kann dieser
                                                 Richter sowie <lb break="yes"/>der Bund ausser den
                                                 im gerichtlichen Ver <lb break="no"/>fahren
@@ -1512,7 +1513,7 @@
                                           <p type="legal_section"> Die Rechtspflege wird von der <lb
                                                   break="yes"/>Verwaltung in allen Instanzen
                                                 getrennt. <lb break="yes"/>Die Staatsanwaltschaft
-                                                gilt als verwal <lb break="no"/>tungsbehörde. </p>
+                                                gilt als Verwal <lb break="no"/>tungsbehörde. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LXXV. <lb break="yes"/></head>
@@ -1589,9 +1590,12 @@
                               <div type="article">
                                     <head>Art. LXXX. </head>
                                     <p type="legal_section">Die Kundmachung der Landesgesetze <lb
-                                                break="yes"/>erfolgt mir Berufung auf den Beschluss
-                                                <lb break="yes"/>der Landesversammlung durch die
-                                          Landes <lb break="no"/>regierung in Landesgesetzblatte. </p>
+                                                break="yes"/>erfolgt mi<choice>
+                                                <sic>r</sic>
+                                                <corr>t</corr>
+                                          </choice> Berufung auf den Beschluss <lb break="yes"/>der
+                                          Landesversammlung durch die Landes <lb break="no"
+                                          />regierung in Landesgesetzblatte. </p>
                                     <p type="legal_section">Die Beurkundung des verfassungs <lb
                                                 break="no"/>mässigen Zustandekommens geschieht durch
                                                 <lb break="yes"/>die von dem Landeshauptmann
@@ -1600,7 +1604,7 @@
                                     <p type="legal_section">Landesgesetze treten vier Wochen <lb
                                                 break="yes"/>nach der erfolgten Verlautbarung in
                                           Wirk <lb break="no"/>samkeit. Eine Abkürzung dieses
-                                          Termine <lb break="yes"/>bedarf der Zustimmung der
+                                          Termins <lb break="yes"/>bedarf der Zustimmung der
                                           Bundesregierung.</p>
                               </div>
                               <div type="article">
@@ -1627,10 +1631,10 @@
                                                 break="no"/>Verantwortung gegenüber der Bundesregie
                                                 <lb break="no"/>rung gemäss Art. CXXVIII der
                                           Bundesver <lb break="no"/>fassung. <lb break="yes"/></p>
-                                    <p type="legal_section">Der Landesversammlung sind die Mit <lb
-                                                break="yes"/>glieder der Landesregierung gemäss Art.
-                                                <lb break="yes"/>CXXVIII der Bundesverfassung verant
-                                                <lb break="no"/>wortlich. <lb break="yes"/></p>
+                                    <p type="legal_section">Der Landesversammlung sind die
+                                          Mitglieder der Landesregierung gemäss Art. <lb break="yes"
+                                          />CXXVIII der Bundesverfassung verant <lb break="no"
+                                          />wortlich. <lb break="yes"/></p>
                               </div>
                               <div type="article">
                                     <head>Art. LXXXIII. <lb break="yes"/></head>
@@ -1774,7 +1778,7 @@
                                                 break="yes"/>dauernd erledigt, kann der Stellvertre
                                                 <lb break="no"/>ter vom Bundespräsidenten, bis die
                                           Wahl <lb break="yes"/>des Präsidenten des
-                                                Bundesrechmungs-<lb break="yes"/><fw type="pageNum"
+                                                Bundesrechnungs-<lb break="yes"/><fw type="pageNum"
                                                 >18</fw><pb facs="#facs_35" n="35" xml:id="img_0035"
                                                 break="yes"/><fw type="pageNum">- 34 -</fw>
                                           <lb break="yes"/>hofes erfolgt ist, mit der Leitung des
@@ -1786,10 +1790,10 @@
                               <div type="article">
                                     <head>Art. XCI. </head>
                                     <p type="legal_section">Die Beamten des Bundesrechnungs <lb
-                                                break="no"/>hofes von der VI. Rangeklasse - diese
-                                                <lb break="yes"/>eingeschlossen- aufwärts, ernannt
-                                          über <lb break="yes"/>Vorschlag des Präsidenten der
-                                          Rundesprä <lb break="no"/>sident. </p>
+                                                break="no"/>hofes von der VI. Rangeklasse -diese <lb
+                                                break="yes"/>eingeschlossen- aufwärts, ernannt über
+                                                <lb break="yes"/>Vorschlag des Präsidenten der
+                                          Bundesprä <lb break="no"/>sident. </p>
                                     <p type="legal_section">Die übrigen Stellen besetzt der <lb
                                                 break="yes"/>Präsident das Bundesrechnungshofes nach
                                                 <lb break="yes"/>Anhörung des Gremiums.</p>
@@ -1802,13 +1806,12 @@
                                           Bun <lb break="no"/>de oder den Ländern Rechnung zu legen
                                           haben oder zum Bunde oder einem Lande in <lb break="yes"
                                           />einem Subventions- oder Vertragsverhält <lb break="no"
-                                          />misse stehen, beteiligt sein. Ausgenommen <lb
+                                          />nisse stehen, beteiligt sein. Ausgenommen <lb
                                                 break="yes"/>sind Unternehmungen, die ausschliess
                                                 <lb break="no"/>lich die Förderung humaner
                                           Bestrebungen <lb break="yes"/>oder der wirtschaftlichen
                                           Verhältnisse <lb break="yes"/>von öffentlichen Beamten
-                                          oder deren Ange <lb break="no"/>hörigen zum Zwecke haben.
-                                    </p>
+                                          oder deren Ange <lb break="no"/>hörigen zum Zwecke haben. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XCIII. </head>
@@ -1829,7 +1832,7 @@
                                                 <lb break="yes"/>der Bundesrechnungshof sein
                                           Hauptaugen <lb break="no"/>merk darauf zu richten, ob die
                                           Gebarung <lb break="yes"/>den Gesetzen und sonstigen
-                                          Vorschriften <lb break="yes"/>entepricht, dann ob sie
+                                          Vorschriften <lb break="yes"/>entspricht, dann ob sie
                                           ökonomisch und zweckmässig ist. Keinesfalls darf er sich
                                                 <lb break="yes"/>bloss auf eine ziffernmäßige
                                           Nachprüfung <lb break="yes"/>beschränken. </p>
@@ -1846,7 +1849,7 @@
                                                 <label>a) </label>
                                                 <item> die Einsendung von Rechnungs <lb break="no"
                                                   />belegen und Behelfen (Geschäftsstücke, <lb
-                                                  break="yes"/>verträge u.s.w.) zu verlangen,</item>
+                                                  break="yes"/>Verträge u.s.w.) zu verlangen,</item>
                                                 <label>b) </label>
                                                 <item> durch Beauftragte an Ort und <lb break="yes"
                                                   />Stelle in die mit der Gebarung der be <lb
@@ -1871,13 +1874,13 @@
                                           unterstehenden <lb break="yes"/>Stellen haben den
                                           Anordnungen, die der <lb break="yes"/>Bundesrechnungshof
                                           bei der ihm zustehen <lb break="no"/>den Ueberprüfung
-                                          trifft, Folge zu lai <lb break="no"/>sten. In
+                                          trifft, Folge zu lei <lb break="no"/>sten. In
                                           Angelegenheiten, die die Bundes <lb break="no"/>ämter oder
-                                          die Landesregierungen - letzte <lb break="no"/>re
-                                          innerhalb ihres selbständigen Wirkungs <lb break="no"
-                                          />kreises - selbst betreffen, hat der Bundes <lb
-                                                break="no"/>rechnungshof mit diesen Behörden das Ein
-                                                <lb break="no"/>vernehmen zu pflegen.</p>
+                                          die Landesregierungen -letzte <lb break="no"/>re innerhalb
+                                          ihres selbständigen Wirkungs <lb break="no"/>kreises-
+                                          selbst betreffen, hat der Bundes <lb break="no"
+                                          />rechnungshof mit diesen Behörden das Ein <lb break="no"
+                                          />vernehmen zu pflegen.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XCVII. </head>
@@ -1904,7 +1907,7 @@
                                     <head>Art. XCVIII. </head>
                                     <p type="legal_section">Lassen sich Meinungsverschieden <lb
                                                 break="no"/>heiten zwischen den Bundesämtern und dem
-                                                <lb break="yes"/>Bundesrechnungslofe nicht im
+                                                <lb break="yes"/>Bundesrechnungshofe nicht im
                                           Einverneh <lb break="no"/>men austragen, so entscheidet
                                           der Bundes <lb break="no"/>präsident;
                                           Meinungsverschiedenheiten <lb break="yes"/>zwischen dem
@@ -1918,7 +1921,7 @@
                                     <p type="legal_section">Die anweisenden Behörden haben <lb
                                                 break="yes"/>nach Ablauf jedes Verwaltungsjahres
                                           ihre <lb break="yes"/>Rechnungsabschlüsse dem
-                                          Bundesrechnugs <lb break="no"/>hofe nach dessen Anordnung
+                                          Bundesrechnungs <lb break="no"/>hofe nach dessen Anordnung
                                           vorzulegen. </p>
                               </div>
                               <div type="article">
@@ -1930,9 +1933,9 @@
                                           letzteren dem Bundes <lb break="no"/>rate vor. </p>
                                     <p type="legal_section">Der Bundesrat übermittelt die <lb
                                                 break="yes"/>Landesrechnungsabschlüsse den
-                                          zuständigen <lb break="yes"/>Landesvereammlungen zur
-                                          verfassungemässi <lb break="no"/>gen Behandlung. </p>
-                                    <p type="legal_section">20</p>
+                                          zuständigen <lb break="yes"/>Landesversammlungen zur
+                                          verfassungsmässi <lb break="no"/>gen Behandlung. </p>
+                                    <p type="legal_section"><fw type="pageNum">20</fw></p>
                               </div>
                               <div type="article">
                                     <head>Art. CI. </head>
@@ -2012,9 +2015,9 @@
                               <div type="article">
                                     <head>Art. CIX. </head>
                                     <p type="legal_section">Das Briefgeheimnis ist jedermann <lb
-                                                break="yes"/>gewährleistet. Auenahmen in den Fällen
+                                                break="yes"/>gewährleistet. Aufnahmen in den Fällen
                                                 <lb break="yes"/>strafgerichtlicher Untersuchung und
-                                          im <lb break="yes"/>Kriegefall bestimmt das Gesetz. </p>
+                                          im <lb break="yes"/>Kriegsfall bestimmt das Gesetz. </p>
                               </div>
                               <div type="article">
                                     <head>Art. CX. </head>
@@ -2025,7 +2028,7 @@
                                           <lb break="no"/>rung ist nur durch das Strafgesetz be <lb
                                                 break="no"/>schränkt. <lb break="yes"/></p>
                                     <p type="legal_section">Die Pressfreiheit ist gewähr <lb
-                                                break="no"/>laistet, die Beschlagnahme von Druck <lb
+                                                break="no"/>leistet, die Beschlagnahme von Druck <lb
                                                 break="no"/>schriften darf nur auf den vom Straf <lb
                                                 break="no"/>gesetz, von der Strafprozessordnung und
                                                 <lb break="yes"/>vom Pressgesetze vorgesehenen
@@ -2088,14 +2091,14 @@
                                           Presefreiheit <lb break="yes"/>mittels Vollzugsanweisung
                                           der Staatsre <lb break="no"/>gierung den durch besonderes
                                           Gesetz vor <lb break="no"/>gesehenen Beschränkungen
-                                          unterworfen wer <lb break="no"/>dene. Eine solche
-                                          Vollzugeanweisung ist der Bundesversammlung und dem
+                                          unterworfen wer <lb break="no"/>den. Eine solche
+                                          Vollzugsanweisung ist der Bundesversammlung und dem
                                           Bundesrate <lb break="yes"/>binnen 3 Tagen und falls sie
                                           nicht ver <lb break="no"/>sammelt sind, sogleich nach
                                           ihrem Wieder <lb break="no"/>zusammentritt vorzulegen und
                                           unverzüglich <lb break="yes"/>ausser Kraft zu setzen,
-                                          falle es die <lb break="yes"/>Bundeeversammlung oder der
-                                          Bundesrat be <lb break="no"/>echliesst.<lb break="yes"
+                                          falls es die <lb break="yes"/>Bundesversammlung oder der
+                                          Bundesrat be <lb break="no"/>schliesst.<lb break="yes"
                                                 /><fw type="pageNum">22</fw></p>
                               </div>
                         </div>
@@ -2108,7 +2111,7 @@
                                     <head>A) Von den Verwaltungsgerichten.</head>
                                     <div type="article">
                                           <head>Art. CXVI. </head>
-                                          <p type="legal_section">Wegen Rechteverletzung durch die
+                                          <p type="legal_section">Wegen Rechtsverletzung durch die
                                                   <lb break="yes"/>Entscheidung oder Verfügung einer
                                                 Ver <lb break="no"/>waltungsbehörde des Bundes oder
                                                 eines <lb break="yes"/>souveränen Landes entscheidet
@@ -2140,7 +2143,7 @@
                                           <p type="legal_section">Aus dem Stande der letzterwähnten
                                                   <lb break="yes"/>Beamten ernennt der
                                                 Bundespräsident über <lb break="yes"/>Vorschlag der
-                                                Rundesregierung den Präsi <lb break="no"/>denten,
+                                                Bundesregierung den Präsi <lb break="no"/>denten,
                                                 aus dem Stande der ersterwähnten <lb break="yes"
                                                 />Beamten über Vorschlag der Landesregie-<pb
                                                   facs="#facs_44" n="44" xml:id="img_0044"
@@ -2228,7 +2231,7 @@
                                           <div type="article">
                                                 <head>Art. CXXIII. </head>
                                                 <p type="legal_section">Das Bundesverfassungsgericht
-                                                  in <lb break="yes"/>wien entscheidet alle
+                                                  in <lb break="yes"/>Wien entscheidet alle
                                                   Rechtsstreitigkeiten <lb break="yes"/>zwischen den
                                                   souveränen Ländern, sowie <lb break="yes"
                                                   />zwischen einem souveränen Lande und dem <lb
@@ -2256,7 +2259,7 @@
                                                 <head>Art. CXXV. </head>
                                                 <p type="legal_section">Das Bundesverfassungsgericht
                                                   ent <lb break="no"/>scheidet über Gesetzwidrigkeit
-                                                  von Voll <lb break="no"/>zugeanweisungen
+                                                  von Voll <lb break="no"/>zugsanweisungen
                                                   (Verordnungen) einer Bun <lb break="no"/>des- oder
                                                   Landesbehörde auf Antrag eines <lb break="yes"
                                                   />Gerichtes; </p>
@@ -2359,12 +2362,12 @@
                                                   vorsätzlicher und <lb break="yes"
                                                   />grobfahrlässiger Gesetzesverletzung durch <lb
                                                   break="yes"/>seine Amtstätigkeit oder wegen Nicht
-                                                  <lb break="no"/>befolgung der Vollzugeanweisungen
+                                                  <lb break="no"/>befolgung der Vollzugsanweisungen
                                                   oder <lb break="yes"/>sonstigen Anordnungen der
                                                   Bundesregierung <lb break="yes"/>auf Antrag der
                                                   letzteren.<lb break="yes"/>Das verurteilende
                                                   Erkenntnis <lb break="yes"/>des
-                                                  Bundesverfassungegerichtes hat auf <lb break="yes"
+                                                  Bundesverfassungsgerichtes hat auf <lb break="yes"
                                                   />Verlust des Amtes eventuell auch der poli <lb
                                                   break="no"/>tischen Rechte zu lauten.<lb
                                                   break="yes"/><fw type="pageNum">25</fw></item>
@@ -2385,19 +2388,19 @@
                                                   und 4 Ersatzmitglieder vom Bundesrat für die Dauer
                                                   der Legislaturperiode gewählt. Sie können nach
                                                   Ablauf ihrer Funktionsperiode wieder gewählt
-                                                  werden und bleiben bis zur Konetituierung des
+                                                  werden und bleiben bis zur Konstituierung des
                                                   neugewählten Kollegiums im Amte.</p>
                                           </div>
                                           <div type="article">
                                                 <head>Art. CXXX.</head>
                                                 <p type="legal_section">Der Präsident des
-                                                  Bunesverfassungsgerichtes steht im Range des
+                                                  Bundesverfassungsgerichtes steht im Range des
                                                   Bundeskanzlers, der Vizepräsident im Range eines
-                                                  Staatsekretäre.</p>
+                                                  Staatssekretärs.</p>
                                                 <p type="legal_section">Das Amt der Mitglieder des
                                                   Bundesverfassungsgerichtes ist ein Ehrenamt. Nur
                                                   drei Mitglieder fungieren als ständige Referenten
-                                                  im Range eines Unterstaatesekretärs. Sie werden in
+                                                  im Range eines Unterstaatssekretärs. Sie werden in
                                                   einer Plenarversammlung des
                                                   Bundesverfassungsgerichtes aus der Mitte seiner
                                                   Mitglieder gewählt.</p>
