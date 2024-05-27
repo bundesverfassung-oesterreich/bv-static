@@ -206,3 +206,17 @@ input:checked + .i-slider:before {
 .pointer {
   cursor: pointer;
 }
+
+ul#edition_display_options li {
+    margin-bottom: .5rem;
+}
+
+ul#edition_display_options li label {
+    font-size: 1rem!important;
+    padding-left: 0.2rem;
+}
+
+font-size {
+    padding-bottom: 1rem;
+    display: inline-block;
+}

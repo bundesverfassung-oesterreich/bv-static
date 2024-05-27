@@ -52,7 +52,7 @@ var editor = new LoadEditor({
         // must match opt attribute value of custom element
         opt: "fos",
         // visible feature title
-        title: "Font size",
+        title: "Schriftgröße",
         // url parameter name
         urlparam: "fontsize",
         // custom class for citation link
