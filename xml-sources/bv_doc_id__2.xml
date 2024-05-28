@@ -108,7 +108,8 @@
                   <change when="2024-03-27" who="#m_huber">div erzeugt</change>
                   <change when="2024-05-03" who="#m_huber">created jur. paragraphs, lists and page
                         numbers</change>
-                  <change when="2024-05-14" who="#s_kury">gegenlesen- Art. 137</change>
+                  <change when="2024-05-28" who="#s_kury">gegenlesen beendet (einige
+                        handschriftliche Stellen müssen noch überarbeitet werden)</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -465,10 +466,12 @@
                               </div>
                               <div type="article">
                                     <head>Art. 8. </head>
-                                    <p type="legal_section">Die <del>souveränen</del> selbständigen
-                                          Länder Niederöster <lb break="no"/>reich etz. übertragen
-                                          dem Bunde ihre Staats <lb break="no"/>gewalt in den
-                                          folgenden Angelegenheiten:<list>
+                                    <p type="legal_section">Die <choice>
+                                                <del>souveränen</del>
+                                                <add>selbständigen</add>
+                                          </choice> Länder Niederöster <lb break="no"/>reich etz.
+                                          übertragen dem Bunde ihre Staats <lb break="no"/>gewalt in
+                                          den folgenden Angelegenheiten:<list>
                                                 <label>1./ </label>
                                                 <item>Die auswärtigen Angelegenhei <lb break="no"
                                                   />ten, </item>
@@ -579,8 +582,10 @@
                                           <p type="legal_section">Der Sitz des Bundestages sowie des
                                                   <lb break="yes"/>Bundesrates ist die
                                                 Bundeshauptstadt Wien. </p>
-                                          <p type="legal_section"><del>Auf</del>
-                                                <add>Für</add> die Dauer ausserordentlicher <lb
+                                          <p type="legal_section"><choice>
+                                                  <del>Auf</del>
+                                                  <add>Für</add>
+                                                </choice> die Dauer ausserordentlicher <lb
                                                   break="yes"/>Verhältnisse kann der Bundespräsident
                                                 auf Antrag der Bundesregierung den Bundestag und <lb
                                                   break="yes"/>Bundesrat in einen anderen Ort des
@@ -662,7 +667,7 @@
                                                 Jahr betra <lb break="no"/>gen. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.18. </head>
+                                          <head>Art. 18. </head>
                                           <p type="legal_section">Während der Sitzungsperiode kann
                                                   <lb break="yes"/>der Bundestag durch einen
                                                 Beschluss des Hau <lb break="no"/>ses oder auf
@@ -711,7 +716,10 @@
                                                 />senden autonomen Geschäftsordnung. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 2<del>1</del><add>7</add>. </head>
+                                          <head>Art. 2<choice>
+                                                  <del>1</del>
+                                                  <add>7</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Gesetzesvorschläge gelangen an den
                                                   <lb break="yes"/>Bundestag entweder als Anträge
                                                 seiner Mit <lb break="no"/>glieder oder als Vorlagen
@@ -722,17 +730,21 @@
                                                   facs="#facs_8" n="8" xml:id="img_0008" break="yes"
                                                   /><fw type="pageNum">- 8 -</fw>
                                                 <lb break="no"/>Die Gesetzesbeschlüsse des Bundes
-                                                  <lb break="no"/>tages einschliesslich der in Art.
-                                                  1<?oxy_comment_start author="kury.s" timestamp="20240514T102116+0200" comment="Nicht erkennbar"?><del>X</del><?oxy_comment_end?><add>4</add>,
-                                                Abs.2 <lb break="yes"/>und Art.
-                                                  1<?oxy_comment_start author="kury.s" timestamp="20240514T102157+0200" comment="Nicht erkennbar"?><del>X</del><?oxy_comment_end?><add>5</add>
-                                                erwähnten Beschlüsse erlangen <lb break="yes"
-                                                />Gesetzeskraft dadurch, dass sie vom Bundesrat <lb
-                                                  break="yes"/>genehmigt, vom Bundespräsidenten
-                                                durch seine <lb break="yes"/>Unterschrift beurkundet
-                                                und vom Bundeskanz <lb break="no"/>ler im
-                                                Bundesgesetzblatt kundgemacht werden. <lb
-                                                  break="yes"/></p>
+                                                  <lb break="no"/>tages einschliesslich der in Art. 1<choice>
+                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T102116+0200" comment="Nicht erkennbar"?>
+                                                  <del>X</del><?oxy_comment_end?>
+                                                  <add>4</add>
+                                                </choice>, Abs.2 <lb break="yes"/>und Art. 1<choice>
+                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T102157+0200" comment="Nicht erkennbar"?>
+                                                  <del>X</del><?oxy_comment_end?>
+                                                  <add>5</add>
+                                                </choice> erwähnten Beschlüsse erlangen <lb
+                                                  break="yes"/>Gesetzeskraft dadurch, dass sie vom
+                                                Bundesrat <lb break="yes"/>genehmigt, vom
+                                                Bundespräsidenten durch seine <lb break="yes"
+                                                />Unterschrift beurkundet und vom Bundeskanz <lb
+                                                  break="no"/>ler im Bundesgesetzblatt kundgemacht
+                                                werden. <lb break="yes"/></p>
                                           <p type="legal_section">Staatsverträge, die vom Bundestag
                                                   <lb break="yes"/>und <del>dem</del> Bundesrat
                                                 genehmigt und vom Bundes <lb break="no"/>präsidenten
@@ -744,7 +756,10 @@
                                                 35</note>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 2<del>2</del><add>8</add>. </head>
+                                          <head>Art. 2<choice>
+                                                  <del>2</del>
+                                                  <add>8</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Zu einem Beschluss des Bundestages
                                                   <lb break="yes"/>ist die Anwesenheit von
                                                 mindestens . . Mit <lb break="no"/>gliedern und die
@@ -759,7 +774,10 @@
                                                 werden. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 2<del>3</del><add>9</add>. </head>
+                                          <head>Art. 2<choice>
+                                                  <del>3</del>
+                                                  <add>9</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Jede Gesamtänderung der Bundesver
                                                   <lb break="no"/>fassung, eine teilweise Aenderung
                                                 aber nur, <lb break="yes"/>wenn dies von . . .
@@ -774,8 +792,14 @@
                                                 />terziehen. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>2</del><add>3</add><?oxy_comment_start author="kury.s" timestamp="20240514T103309+0200" comment="Nicht erkennbar"?><del>X</del><?oxy_comment_end?><add>0</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>2</del>
+                                                  <add>3</add>
+                                                </choice><choice>
+                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103309+0200" comment="Nicht erkennbar"?>
+                                                  <del>X</del><?oxy_comment_end?>
+                                                  <add>0</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Einer solchen Volksabstimmung ist
                                                   <lb break="yes"/>ferner jedes Bundesgesetz
                                                 unterworfen hin-<lb break="yes"/><fw type="pageNum"
@@ -790,8 +814,15 @@
                                                 wird.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103442+0200" comment="Nicht erkennbar"?><del>X</del><?oxy_comment_end?><add>3</add><?oxy_comment_start author="kury.s" timestamp="20240514T103452+0200" comment="Nicht erkennbar (gilt auch für alle Folgenden X)"?><del>X</del><?oxy_comment_end?><add>1</add>. </head>
+                                          <head>Art. <choice>
+                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103442+0200" comment="Nicht erkennbar"?>
+                                                  <del>X</del><?oxy_comment_end?>
+                                                  <add>3</add>
+                                                </choice><choice>
+                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103452+0200" comment="Nicht erkennbar (gilt auch für alle Folgenden X)"?>
+                                                  <del>X</del><?oxy_comment_end?>
+                                                  <add>1</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Stimmenberechtigt ist jeder zum
                                                   <lb break="yes"/>Bundestag wahlberechtigter
                                                 Bundesbürger. Das <lb break="yes"/>Bundesvolk hat
@@ -806,8 +837,13 @@
                                           </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>3</add><del>X</del><add>2</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>3</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Ergebnis der Volksabstimmung
                                                   <lb break="yes"/>ist amtlich zu verlautbaren. Im
                                                 Falle ein <lb break="yes"/>Bundesgesetz durch
@@ -816,8 +852,13 @@
                                                 />desgesetzblatt kundzumachen.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>3</add><del>X</del><add>3</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>3</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>3</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Ist eine Gesamtänderung der Bun
                                                   <lb break="no"/>desverfassung durch
                                                 Volksabstimmung abge <lb break="no"/>lehnt worden,
@@ -827,8 +868,13 @@
                                                 auszuschreiben. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>3</add><del>X</del><add>4</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>3</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>4</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Verfahren für die Volksabstim
                                                   <lb break="no"/>mung sowie für die in Art. XX
                                                 vorgesehene <lb break="yes"/>Initiative ist in dem
@@ -839,8 +885,13 @@
                                                   >- 10 - </fw></p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>2</add><del>X</del><add>1.</add>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>1.</add>
+                                                </choice>
                                           </head>
                                           <p type="legal_section">Die Sitzungen des Bundestages <lb
                                                   break="yes"/>sind öffentlich. <lb break="yes"
@@ -853,8 +904,13 @@
                                                 Entfernung der Zuhörer beschlossen wird. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>2</add><del>X</del><add>2.</add>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>2.</add>
+                                                </choice>
                                           </head>
                                           <p type="legal_section">Wahrheitsgetreue Berichte über die
                                                   <lb break="yes"/>Verhandlungen in den öffentlichen
@@ -866,8 +922,13 @@
                               <div type="section">
                                     <head>B.) der Bundesrat. </head>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>2</add><del>X</del><add>3</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>3</add>
+                                                </choice>. </head>
                                           <p type="legal_section">In den Bundesrat entsendet jeder
                                                 Landtag aus seiner Mitte nach dem Verhältnis <lb
                                                   break="no"/>wahlrecht 2 Mitglieder; hat aber das
@@ -884,8 +945,13 @@
                                                 festgesetzt. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>2</add><del>X</del><add>4</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>4</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Den Vorsitz im Bundesrat führt der
                                                 Stellvertreter des Bundespräsidenten. Der <lb
                                                   break="yes"/>stellvertretende Vorsitz fällt in
@@ -914,8 +980,13 @@
                                           </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.
-                                                  <del>X</del><add>2</add><del>X</del><add>5</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>5</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Der Bundesrat wird vom
                                                 Bundespräsidenten alljährlich an den Sitz des Bundes
                                                   <lb break="no"/>tages einberufen. <lb break="yes"
@@ -927,7 +998,13 @@
                                                   <lb break="yes"/>nicht öffentlich. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. <del>X</del>2<del>X</del><add>6</add>. </head>
+                                          <head>Art. <choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                </choice><choice>
+                                                  <del>X</del>
+                                                  <add>6</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Die Mitglieder des Bundesrates
                                                 bleiben bis zum Beginn der neuen Session des <lb
                                                   break="yes"/>Bundestages, darüber hinaus aber nur
@@ -956,11 +1033,17 @@
                                                   xml:id="img_0012" break="yes"/><fw type="pageNum"
                                                   >- 12 -</fw>
                                                 <lb break="no"/>ist unverzüglich durch den
-                                                Präsidenten de<del>r</del>s <lb break="yes"
-                                                  />Bundes<del>versammlung</del><add>tages</add> dem
-                                                Bundeskanzler zu über <lb break="no"/>mitteln, der
-                                                ihn sofort dem Bundesrate zur <lb break="yes"
-                                                />Genehmigung vorzulegen hat. <lb break="yes"/></p>
+                                                Präsidenten de<choice>
+                                                  <del>r</del>
+                                                  <add>s</add>
+                                                </choice>
+                                                <lb break="yes"/>Bundes<choice>
+                                                  <del>versammlung</del>
+                                                  <add>tages</add>
+                                                </choice> dem Bundeskanzler zu über <lb break="no"
+                                                />mitteln, der ihn sofort dem Bundesrate zur <lb
+                                                  break="yes"/>Genehmigung vorzulegen hat. <lb
+                                                  break="yes"/></p>
                                           <p type="legal_section">Der Bundesrat hat den Beschlüssen
                                                   <lb break="yes"/>des Bundestages bis längstens . .
                                                 . Wochen <lb break="yes"/>nach Schluss der Session
@@ -985,15 +1068,15 @@
                                                   break="yes"/>und beharrt der Bundestag auf seinem
                                                   ursprüng <lb break="no"/>lichen Beschluss, so hat,
                                                   falls es sich um einen Gesetzesbeschluss handelt,
-                                                  <lb break="yes"/>eine Volksabstimmung zu
+                                                  <lb break="yes"/>eine Volksabstimmung zu <choice>
                                                   <del>unterziehen</del>
-                                                  <add>erfolgen</add>. <note type="comment"
-                                                  >einschließlich der in Art 14 Abs 2 und <lb
-                                                  break="yes"/>Art 15 erwähnten Beschlüsse
-                                                  </note><note type="comment">,handelt es sich um
-                                                  einen anderen <lb break="yes"/>Entschluß, so
-                                                  entscheidet der Bundes <lb break="no"
-                                                  />präsident.</note></item>
+                                                  <add>erfolgen</add>
+                                                  </choice>. <note type="comment">einschließlich der
+                                                  in Art 14 Abs 2 und <lb break="yes"/>Art 15
+                                                  erwähnten Beschlüsse </note><note type="comment"
+                                                  >,handelt es sich um einen anderen <lb break="yes"
+                                                  />Entschluß, so entscheidet der Bundes <lb
+                                                  break="no"/>präsident.</note></item>
                                                   <label>(3) </label>
                                                   <item>Nimmt das Bundesvolk den Bechluss <lb
                                                   break="yes"/>des Bundestages an, so ist dieser
@@ -1006,20 +1089,23 @@
                                                   Bestimmungen der Art. . . . . Anwendung.</item>
                                                   <label>(4)</label>
                                                   <item> Ohne Genehmigung des Bundesrates <lb
-                                                  break="yes"/>ist <del>ein</del>
-                                                  <add>der</add> Beschluss des Bundestages auch dann
-                                                  <lb break="yes"/>zu beurkunden und kundzumachen,
-                                                  wenn der Bun <lb break="no"/>desrat <del>diesem
-                                                  Gesetzesbeschluss</del>
-                                                  <add>ihm</add> in der vor <lb break="no"
-                                                  />geschriebenen Zeit die Genehmigung weder <lb
-                                                  break="yes"/>erteilt, noch mit Angabe von Gründen
-                                                  ver <lb break="no"/>weigert hat.<note
-                                                  type="comment">Handelt es sich um andere als im
-                                                  <lb break="yes"/>Gesetzesbeschlüsse oder um die in
-                                                  Art 14 Abs. 2 <lb break="yes"/>oder Art. 15
-                                                  erwähnten Beschlüsse, so er <lb break="no"/>langt
-                                                  der Beschluß des Bundestages in <lb break="yes"
+                                                  break="yes"/>ist <choice>
+                                                  <del>ein</del>
+                                                  <add>der</add>
+                                                  </choice> Beschluss des Bundestages auch dann <lb
+                                                  break="yes"/>zu beurkunden und kundzumachen, wenn
+                                                  der Bun <lb break="no"/>desrat <choice>
+                                                  <del>diesem Gesetzesbeschluss</del>
+                                                  <add>ihm</add>
+                                                  </choice> in der vor <lb break="no"/>geschriebenen
+                                                  Zeit die Genehmigung weder <lb break="yes"
+                                                  />erteilt, noch mit Angabe von Gründen ver <lb
+                                                  break="no"/>weigert hat.<note type="comment"
+                                                  >Handelt es sich um andere als im <lb break="yes"
+                                                  />Gesetzesbeschlüsse oder um die in Art 14 Abs. 2
+                                                  <lb break="yes"/>oder Art. 15 erwähnten
+                                                  Beschlüsse, so er <lb break="no"/>langt der
+                                                  Beschluß des Bundestages in <lb break="yes"
                                                   />diesem Falle auch ohne Genmehmigung <lb
                                                   break="yes"/>des Bundesrates
                                                   Geltung.</note></item>
@@ -1243,11 +1329,16 @@
                                                 <head>Art. 49. </head>
                                                 <p type="legal_section">Der Stimmzettel für die
                                                   Präsident <lb break="no"/>schaftswahl ist im Falle
-                                                  des Art. <del>X</del><add>4</add><del>X</del>7.
-                                                  Abs. <del>X</del><add>2</add>. <lb break="yes"
-                                                  />gleichzeitig, jedoch gesondert von dem <lb
-                                                  break="yes"/>Stimmzettel für die Wahl zum
-                                                  Bundestag abzu <lb break="no"/>geben.</p>
+                                                  des Art. <choice>
+                                                  <del>X</del>
+                                                  <add>47</add>
+                                                  </choice>. Abs. <choice>
+                                                  <del>X</del>
+                                                  <add>2</add>
+                                                  </choice>. <lb break="yes"/>gleichzeitig, jedoch
+                                                  gesondert von dem <lb break="yes"/>Stimmzettel für
+                                                  die Wahl zum Bundestag abzu <lb break="no"
+                                                  />geben.</p>
                                                 <p type="legal_section">Jeder Wähler darf nur einen
                                                   Kandi <lb break="no"/>daten für die
                                                   Präsidentschaft bezeichnen. </p>
@@ -1267,12 +1358,15 @@
                                                 <head>Art. 51. </head>
                                                 <p type="legal_section">Der Bundespräsident und sein
                                                   Stell <lb break="no"/>vertreter leisten bei
-                                                  Antritt ihres Amtes <lb break="yes"/>vor
+                                                  Antritt ihres Amtes <lb break="yes"/>vor <choice>
                                                   <del>einem</del>
-                                                  <del>ein</del><add>d</add>em gemeinsam<del>en
-                                                  </del>versammelten
-                                                  <del>La</del><add>Bu</add>ndestag <lb break="yes"
-                                                  />und Bundesrat folgendes Gelöbnis :</p>
+                                                  <add>dem</add>
+                                                  </choice> gemeinsam<del>en </del>versammelten <choice>
+                                                  <del>Landestag</del>
+                                                  <add>Bundestag</add>
+                                                  </choice>
+                                                  <lb break="yes"/>und Bundesrat folgendes Gelöbnis
+                                                  :</p>
                                                 <p type="legal_section">Ich gelobe, dass ich die
                                                   Verfassung <lb break="yes"/>und alle Gesetze der
                                                   Republik Oesterreich <lb break="yes"/>getreulich
@@ -1379,10 +1473,12 @@
                                                   Bundespräsidenten <lb break="yes"/>bedürfen der
                                                   Gegenzeichnung des Bundeskanz <lb break="no"/>lers
                                                   und der ressortmässig zuständigen <lb break="yes"
-                                                  />Staatssekretäre; die im Art. <del>…</del>
-                                                  <add>57</add>. erwähnte <lb break="yes"/>Ernennung
-                                                  von Landesbeamten der Gegenzeich <lb break="no"
-                                                  />nung des zuständigen Landeshauptmannes. </p>
+                                                  />Staatssekretäre; die im Art. <choice>
+                                                  <del>…</del>
+                                                  <add>57</add>
+                                                  </choice>. erwähnte <lb break="yes"/>Ernennung von
+                                                  Landesbeamten der Gegenzeich <lb break="no"/>nung
+                                                  des zuständigen Landeshauptmannes. </p>
                                           </div>
                                           <div type="article">
                                                 <head>Art. 60. </head>
@@ -1393,9 +1489,10 @@
                                                   >- 20 -</fw>
                                                   <lb break="no"/>dert ist oder wenn er gerichtlich
                                                   ver <lb break="no"/>folgt oder wenn seine Stelle
-                                                  erledigt ist, <lb break="yes"/>im letzteren Falle
-                                                  b<del>s</del>
-                                                  <add>is</add> zur Neuwahl eines <lb break="yes"
+                                                  erledigt ist, <lb break="yes"/>im letzteren Falle <choice>
+                                                  <del>bs</del>
+                                                  <add>bis</add>
+                                                  </choice> zur Neuwahl eines <lb break="yes"
                                                   />Nachfolgers, werden alle Funktionen des <lb
                                                   break="yes"/>Bundespräsidenten von seinem
                                                   Stellvertreter <lb break="yes"/>übernommen. <lb
@@ -1533,14 +1630,17 @@
                                           <div type="article">
                                                 <head>Art. 66. </head>
                                                 <p type="legal_section">Der Bundespräsident, sein
-                                                  Stellvertre <lb break="no"/>ter und
+                                                  Stellvertre <lb break="no"/>ter und <choice>
                                                   <del>seine</del>
-                                                  <add>die</add> Mitglieder der Bundesregierung <lb
-                                                  break="yes"/>sind nach Maßgabe des Art.
-                                                  <del>CXXVIII</del><add>. . . . .</add> der Bundes
-                                                  <lb break="no"/>verfassung dem Bundestag und dem
-                                                  Bundesrate <lb break="yes"/>verantwortlich.<lb
-                                                  break="yes"/><fw type="pageNum">48</fw></p>
+                                                  <add>die</add>
+                                                  </choice> Mitglieder der Bundesregierung <lb
+                                                  break="yes"/>sind nach Maßgabe des Art. <choice>
+                                                  <del>CXXVIII</del>
+                                                  <add>. . . . .</add>
+                                                  </choice> der Bundes <lb break="no"/>verfassung
+                                                  dem Bundestag und dem Bundesrate <lb break="yes"
+                                                  />verantwortlich.<lb break="yes"/><fw
+                                                  type="pageNum">48</fw></p>
                                           </div>
                                           <div type="article">
                                                 <pb facs="#facs_23" n="23" xml:id="img_0023"
@@ -1549,13 +1649,14 @@
                                                 <head>Art. 67. </head>
                                                 <p type="legal_section">Zur Durchführung der
                                                   Bundesverwaltung sind die
-                                                  Bundeskanzlei<del>en</del><?oxy_comment_start author="kury.s" timestamp="20240521T102423+0200" comment="unleserlich"?><add/><?oxy_comment_end?>
-                                                  und folgende<del>r</del> Bun <lb break="no"
-                                                  />desämter berufen: . . . . <lb break="yes"/>Die
-                                                  Bundeskanzlei steht unter der Leitung des <lb
-                                                  break="yes"/>Bundeskanzlers, jedes andere
-                                                  Bundesamt unter <lb break="yes"/>der Leitung eines
-                                                  Staatssekretärs. <lb break="yes"/></p>
+                                                  Bundeskanzlei<del>en</del>
+                                                  <add>und</add> folgende<del>r</del> Bun <lb
+                                                  break="no"/>desämter berufen: . . . . <lb
+                                                  break="yes"/>Die Bundeskanzlei steht unter der
+                                                  Leitung des <lb break="yes"/>Bundeskanzlers, jedes
+                                                  andere Bundesamt unter <lb break="yes"/>der
+                                                  Leitung eines Staatssekretärs. <lb break="yes"
+                                                  /></p>
                                                 <p type="legal_section">Aenderungen des
                                                   Wirkungskreises und <lb break="yes"/>der Zahl der
                                                   Bundesämter erfolgen durch ein <lb break="no"
@@ -1599,9 +1700,11 @@
                                                   /><fw type="pageNum">49</fw><pb facs="#facs_24"
                                                   n="24" xml:id="img_0024" break="yes"/><fw
                                                   type="pageNum">- 24 - </fw><lb break="no"
-                                                  />bürgerliche Gewalt für nötig hält,
-                                                  <del>a</del><add>zu</add>m Schutze <lb break="yes"
-                                                  />der Grundgesetze der Republik sowie an der <lb
+                                                  />bürgerliche Gewalt für nötig hält, <choice>
+                                                  <del>am</del>
+                                                  <add>zum</add>
+                                                  </choice> Schutze <lb break="yes"/>der
+                                                  Grundgesetze der Republik sowie an der <lb
                                                   break="yes"/>Aufrechterhaltung der Ordnung und
                                                   Sicherheit <lb break="yes"/>im Innern mitzuwirken.
                                                   <lb break="yes"/></p>
@@ -2139,7 +2242,10 @@
                                           <lb break="yes"/>dem Bundesrat. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 10<del>4</del><add>5</add>. </head>
+                                    <head>Art. 10<choice>
+                                                <del>4</del>
+                                                <add>5</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Bundesrechnungshof besteht <lb
                                                 break="yes"/>aus einem Präsidenten und den
                                           erforderli <lb break="no"/>chen Beamten und Hilfskräften.
@@ -2150,7 +2256,10 @@
                                           Bundesrates.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 10<del>5</del><add>6</add>. </head>
+                                    <head>Art. 10<choice>
+                                                <del>5</del>
+                                                <add>6</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Präsident des Bundesrechnungs <lb
                                                 break="no"/>hofes ist den Staatssekretären - auch in
                                                 <lb break="yes"/>den Bezügen - gleichgestellt. <lb
@@ -2162,7 +2271,10 @@
                                           sind. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 10<del>6</del><add>7</add>. </head>
+                                    <head>Art. 10<choice>
+                                                <del>6</del>
+                                                <add>7</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Dem Präsidenten des Bundes <lb
                                                 break="no"/>rechnungshofes obliegt dessen oberste
                                           Lei <lb break="no"/>tung. Er ist hinsichtlich der
@@ -2176,9 +2288,11 @@
                                           Bundesverfassung analoge Anwendung. </p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                10<?oxy_comment_start author="kury.s" timestamp="20240521T110224+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>8</add>. </head>
+                                    <head>Art. 10<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110224+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>8</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Präsident des Bundesrech <lb
                                                 break="no"/>nungshofes verkehrt mit dem Bundestag,
                                                 <lb break="yes"/>dem Bundesrat und der
@@ -2201,9 +2315,11 @@
                                           Verlan <lb break="no"/>gen jedesmal gehört werden. </p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                10<?oxy_comment_start author="kury.s" timestamp="20240521T110424+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>9</add>. </head>
+                                    <head>Art. 10<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110424+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>9</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Bei vorübergehender Verhinderung <lb
                                                 break="yes"/>wird der Präsident durch den im Range
                                                 <lb break="yes"/>nächsten Beamten des
@@ -2226,9 +2342,11 @@
                                           . . . . . Anwendung. </p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                1<?oxy_comment_start author="kury.s" timestamp="20240521T110528+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>10</add>. </head>
+                                    <head>Art. 1<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110528+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>10</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die Beamten des Bundesrechnungshofes
                                           ernennt über Vorschlag des Präsiden <lb break="no"/>ten
                                           der Bundespräsident. Doch kann der Bun <lb break="no"
@@ -2242,9 +2360,11 @@
                                     </p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                11<?oxy_comment_start author="kury.s" timestamp="20240521T110602+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>1</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110602+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>1</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Kein Mitglied des Bundesrechnungs <lb
                                                 break="no"/>hofes darf an der Leitung und Verwaltung
                                           von <lb break="yes"/>Unternehmungen, die dem Bunde oder
@@ -2259,9 +2379,11 @@
                                           Angehörigen zum Zwecke haben. </p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                11<?oxy_comment_start author="kury.s" timestamp="20240521T110634+0200" comment="unlöeserlich"?><del
-                                                > </del><?oxy_comment_end?><add>2</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110634+0200" comment="unlöeserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>2</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Alle Urkunden über Staatsschulden <lb
                                                 break="yes"/>(Finanz- und Verwaltungsschulden) sind
                                           vom <lb break="yes"/>Präsidenten des Bundesrechnungshofes
@@ -2274,9 +2396,11 @@
                                                 break="yes"/>bekräftigt. </p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                11<?oxy_comment_start author="kury.s" timestamp="20240521T110918+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>3</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110918+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>3</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Bei der Ueberprüfung der seiner
                                           Kontrolle unterstellten Gebarung hat der <lb break="yes"
                                           />Bundesrechnungshof sein Hauptaugenmerk <lb break="yes"
@@ -2288,9 +2412,11 @@
                                           beschränken. </p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                11<?oxy_comment_start author="kury.s" timestamp="20240521T110940+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>4</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110940+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>4</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Bundesrechnungshof ist gegen <lb
                                                 break="no"/>über den anweisenden Behörden und den
                                           diesen <lb break="yes"/>unterstehenden Stellen, dann
@@ -2319,9 +2445,11 @@
                               <div type="article">
                                     <pb facs="#facs_39" n="39" xml:id="img_0039" break="yes"/>
                                     <fw type="pageNum">- 39 - </fw>
-                                    <head>Art.
-                                                11<?oxy_comment_start author="kury.s" timestamp="20240521T111025+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>5</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T111025+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>5</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die der Bundesregierung sowie <lb
                                                 break="yes"/>die den Landesregierungen
                                           unterstehenden <lb break="yes"/>Stellen haben den
@@ -2336,9 +2464,11 @@
                                                 break="yes"/>pflegen.</p>
                               </div>
                               <div type="article">
-                                    <head>Art.
-                                                11<?oxy_comment_start author="kury.s" timestamp="20240521T111048+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>6</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T111048+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>6</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Bundesrechnungshof hat für <lb
                                                 break="yes"/>ein zweckmässiges und möglichst
                                           einfaches <lb break="yes"/>Rechnungsverfahren zu sorgen
@@ -2360,7 +2490,10 @@
                               <div type="article">
                                     <pb facs="#facs_40" n="40" xml:id="img_0040" break="yes"/>
                                     <fw type="pageNum">- 40 - </fw>
-                                    <head>Art. 11<del>6</del><add>7</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <del>6</del>
+                                                <add>7</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Lassen sich Meinungsverschieden <lb
                                                 break="no"/>heiten zwischen den Bundesämtern und dem
                                           Bun <lb break="no"/>desrechnungshofe nicht in Einvernehmen
@@ -2373,7 +2506,10 @@
                                           Bundesrat. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 11<del>7</del><add>8</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <del>7</del>
+                                                <add>8</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die anweisenden Behörden haben <lb
                                                 break="yes"/>nach Ablauf jedes Verwaltungsjahres
                                           ihre <lb break="yes"/>Rechnungsabschlüsse dem
@@ -2381,7 +2517,10 @@
                                           vorzulegen.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 11<del>8</del><add>9</add>. </head>
+                                    <head>Art. 11<choice>
+                                                <del>8</del>
+                                                <add>9</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Bundesrechnungshof verfasst <lb
                                                 break="yes"/>den Bundesrechnungsabschluss und
                                           gesondert <lb break="yes"/>von diesem die
@@ -2394,7 +2533,10 @@
                                           Behandlung. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 1<del>19</del><add>20</add>. </head>
+                                    <head>Art. 1<choice>
+                                                <del>19</del>
+                                                <add>20</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die näheren Bestimmungen über die innere
                                           Einrichtung und den Geschäftsgang des <lb break="yes"
                                           />Bundesrechnungshofes regelt die Geschäfts <lb break="no"
@@ -2411,14 +2553,20 @@
                               <head>Sechster Abschnitt. </head>
                               <head>Von den Grund- und Freiheitsrechten. </head>
                               <div type="article">
-                                    <head>Art. 12<del>0</del><add>1</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>0</del>
+                                                <add>1</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Vor dem Gesetze sind alle Staats <lb
                                                 break="no"/>bürger gleich. Vorrechte der Geburt, der
                                           Na <lb break="no"/>tionalität und der Konfession sind für
                                           immer <lb break="yes"/>ausgeschlossen. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 1<del>1</del><add>2</add>. </head>
+                                    <head>Art. 1<choice>
+                                                <del>1</del>
+                                                <add>2</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Adel, seine äusseren Ehrenvor <lb
                                                 break="no"/>züge, sowie bloss zur Auszeichnung
                                           verliehene, <lb break="yes"/>mit einer amtlichen Stellung
@@ -2434,13 +2582,19 @@
                                           durch Bundesge <lb break="no"/>setz geschaffen werden.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 12<del>2</del><add>3</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>2</del>
+                                                <add>3</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die öffentlichen Aemter und Funk <lb
                                                 break="no"/>tionen sind für alle Staatsbürger ohne
                                           Unter <lb break="no"/>schied gleich zugänglich. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 12<del>3</del><add>4</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>3</del>
+                                                <add>4</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die Freizügigkeit der Personen und <lb
                                                 break="yes"/>Güter innerhalb des Bundesgebietes ist
                                           jeder <lb break="no"/>mann gewährleistet. Einschränkungen
@@ -2448,7 +2602,10 @@
                                           werden. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 12<del>4</del><add>5</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>4</del>
+                                                <add>5</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die Auswanderungsfreiheit ist nur <lb
                                                 break="yes"/>aus dem Grunde der Landesverteidigung
                                           be <lb break="no"/>schränkbar.<lb break="yes"/><fw
@@ -2460,7 +2617,10 @@
                                     </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 12<del>5</del><add>6</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>5</del>
+                                                <add>6</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Jedermann kann an jedem Orte des <lb
                                                 break="yes"/>Staatsgebietes seinen Aufenthalt und
                                           Wohnsitz <lb break="yes"/>nehmen. Ausnahmen bestimmt das
@@ -2472,7 +2632,10 @@
                                                 <lb break="no"/>schränkt. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 12<del>6</del><add>7</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>6</del>
+                                                <add>7</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Jedermann geniesst die persönli <lb
                                                 break="no"/>che Freiheit. Die zum Schutze von Staat
                                           und <lb break="yes"/>Gesellschaft erforderlichen Schranken
@@ -2489,13 +2652,19 @@
                                           Freiheits <lb break="no"/>entziehung vorzubringen. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 12<del>7</del><add>8</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>7</del>
+                                                <add>8</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Jedermann geniesst das Hausrecht. <lb
                                                 break="yes"/>Wann eine Hausdurchsuchung zulässig
                                           ist, <lb break="yes"/>bestimmt das Gesetz. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 12<del>8</del><add>9</add>. </head>
+                                    <head>Art. 12<choice>
+                                                <del>8</del>
+                                                <add>9</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Das Brief - Post, Telegraphen und <lb
                                                 break="yes"/>Fernsprechgeheimnis ist jedermann
                                           gewährlei <lb break="no"/>stet. Ausnahmen in den Fällen
@@ -2507,7 +2676,10 @@
                                           bestimmt werden. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 1<del>29</del><add>30</add>. </head>
+                                    <head>Art. 1<choice>
+                                                <del>29</del>
+                                                <add>30</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die Freiheit der Meinungsäusserung <lb
                                                 break="yes"/>ist nur durch das Strafgesetz
                                           beschränkt. <lb break="yes"/></p>
@@ -2527,7 +2699,10 @@
                                           werden. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>0</del><add>1</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>0</del>
+                                                <add>1</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Alle Staatsbürger haben das nur <lb
                                                 break="yes"/>durch <del>das</del> Strafgesetz
                                           eingeschränkte Recht, <lb break="yes"/>Vereine zu bilden.
@@ -2544,7 +2719,10 @@
                                           bür <lb break="no"/>gerlichen Rechts. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>1</del><add>2</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>1</del>
+                                                <add>2</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Alle Staatsbürger haben das Recht <lb
                                                 break="yes"/>sich ohne Anmeldung oder besondere
                                                 Erlaubnis<lb break="yes"/><fw type="pageNum"
@@ -2564,7 +2742,10 @@
                                                 break="yes"/>sind, überhaupt nicht stattfinden.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>2</del><add>3</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>2</del>
+                                                <add>3</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die volle Glaubens- und
                                           Gewissensfreiheit, insbesondere die öffentliche und <lb
                                                 break="yes"/> private Religionsübung wird jedermann
@@ -2573,7 +2754,10 @@
                                                 break="yes"/>Strafgesetz zulässig. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>3</del><add>4</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>3</del>
+                                                <add>4</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Genuss der bürgerlichen und
                                           politischen Rechte sowie die Zulassung zu <lb break="yes"
                                           />den öffentlichen Aemtern ist von dem Reli <lb break="no"
@@ -2587,27 +2771,31 @@
                                           nach der <lb break="yes"/>Zugehörigkeit zu einer
                                           Religionsgesellschaft <lb break="yes"/>zu fragen, als
                                           davon Rechte und Pflichten ab <lb break="no"
-                                                />hängen,<?oxy_comment_start author="kury.s" timestamp="20240521T114828+0200" comment="unleserlich"?><add
-                                          > </add><?oxy_comment_end?> wenn eine gesetzlich
-                                          angeordnete <lb break="yes"/>statistische Erhebung dies
-                                          erfordert. <lb break="yes"/></p>
+                                                />hängen,<?oxy_comment_start author="kury.s" timestamp="20240521T114828+0200" comment="unleserlich"?><add>X</add><?oxy_comment_end?>
+                                          wenn eine gesetzlich angeordnete <lb break="yes"
+                                          />statistische Erhebung dies erfordert. <lb break="yes"
+                                          /></p>
                                     <p type="legal_section">In diesem Sinne ist durch Bundes <lb
                                                 break="no"/>gesetz die Führung der Standesregister
                                           zu <lb break="yes"/>regeln.<lb break="yes"/><fw
                                                 type="pageNum">70</fw><pb facs="#facs_45" n="45"
                                                 xml:id="img_0045" break="yes"/><fw type="pageNum">-
-                                                45 - </fw><lb break="no"/>Niemand darf
-                                                <?oxy_comment_start author="kury.s" timestamp="20240521T114921+0200" comment="unleserlich"?><del
-                                                > </del><?oxy_comment_end?><add>zu</add> einer
-                                          kirchlichen <lb break="yes"/>Handlung, zur Teilnahme an
-                                          einer kirchlichen <lb break="yes"
+                                                45 - </fw><lb break="no"/>Niemand darf <choice>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T114921+0200" comment="unleserlich"?>
+                                                <del>X</del><?oxy_comment_end?>
+                                                <add>zu</add>
+                                          </choice> einer kirchlichen <lb break="yes"/>Handlung, zur
+                                          Teilnahme an einer kirchlichen <lb break="yes"
                                                 />Feierlichkeit<del>,</del> oder an religiösen
                                           Uebungen <lb break="yes"/>oder zur Benützung einer
                                           religiösen Eides <lb break="no"/>formel gezwungen werden.
                                     </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>4</del><add>5</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>4</del>
+                                                <add>5</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Es besteht keine Staatskirche. </p>
                                     <p type="legal_section">Die Freiheit der Vereinigung zu
                                           Religionsgesellschaften wird gewährleistet. <lb
@@ -2654,7 +2842,10 @@
                                           Weltan <lb break="no"/>schauung zur Aufgabe machen. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>5</del><add>6</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>5</del>
+                                                <add>6</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die auf Gesetz, Vertrag oder be <lb
                                                 break="no"/>sondere Rechtstiteln beruhenden Staats
                                                 <lb break="no"/>leistungen
@@ -2669,7 +2860,10 @@
                                           Vermögen werden <lb break="yes"/>gewährleistet. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>6</del><add>7</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>6</del>
+                                                <add>7</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Soweit das Bedürfnis nach Gottesdienst
                                           und Seelsorge im Heer, in Kranken <lb break="no"/>häusern,
                                           Strafanstalten oder sonstigen An <lb break="no"/>stalten
@@ -2679,7 +2873,10 @@
                                                 break="yes"/>ist. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 13<del>7</del><add>8</add>. </head>
+                                    <head>Art. 13<choice>
+                                                <del>7</del>
+                                                <add>8</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die nähere Durchführung der Be <lb
                                                 break="no"/>stimmungen der Art. . . . . erfolgt <lb
                                                 break="yes"/>durch Bundesgesetz. <lb break="yes"
@@ -2688,14 +2885,20 @@
                               <div type="article">
                                     <pb facs="#facs_47" n="47" xml:id="img_0047" break="yes"/>
                                     <fw type="pageNum">- 47 - </fw>
-                                    <head>Art. 13<del>8</del><add>9</add>
+                                    <head>Art. 13<choice>
+                                                <del>8</del>
+                                                <add>9</add>
+                                          </choice>
                                     </head>
                                     <p type="legal_section">Die Kunst, die Wissenschaft und ihre <lb
                                                 break="yes"/>Lehrer sind frei und stehen unter dem
                                           Schutz <lb break="yes"/>des Staates. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 1<del>39</del><add>40</add>. </head>
+                                    <head>Art. 1<choice>
+                                                <del>39</del>
+                                                <add>40</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Das gesamte Schulwesen steht unter der
                                                 <lb break="yes"/>Aufsicht des Staates. <lb
                                                 break="yes"/></p>
@@ -2707,7 +2910,10 @@
                                           />Volksschulen sind unentgeltlich.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 14<del>0</del><add>1</add>. </head>
+                                    <head>Art. 14<choice>
+                                                <del>0</del>
+                                                <add>1</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Religionsunterricht ist ordentliches
                                                 <lb break="yes"/>Lehrfach an den Volks- und
                                           Mittelschulen mit <lb break="yes"/>Ausnahme der fachlichen
@@ -2744,7 +2950,10 @@
                               <div type="article">
                                     <pb facs="#facs_48" n="48" xml:id="img_0048" break="yes"/>
                                     <fw type="pageNum">- 48 - </fw>
-                                    <head>Art. 14<del>1</del><add>2</add>. </head>
+                                    <head>Art. 14<choice>
+                                                <del>1</del>
+                                                <add>2</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Wo Staatsbürger, die eine andere als die
                                                 <lb break="yes"/>deutsche Sprache sprechen, einen
                                           beträchtlichen <lb break="yes"/>Teil der Bevölkerung
@@ -2757,7 +2966,10 @@
                                           stets Pflicht <lb break="no"/>gegenstand.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 14<del>2</del><add>3</add>. </head>
+                                    <head>Art. 14<choice>
+                                                <del>2</del>
+                                                <add>3</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die Denkmäler der Kunst, der Geschichte
                                                 <lb break="yes"/>und der Natur sowie die Landschaft
                                           genießen <lb break="yes"/>den Schutz und die Pflege des
@@ -2767,7 +2979,10 @@
                                     </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 14<del>3</del><add>4</add>. </head>
+                                    <head>Art. 14<choice>
+                                                <del>3</del>
+                                                <add>4</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die Staatssprache in der Republik Oester
                                                 <lb break="no"/>reich ist die deutsche. <lb
                                                 break="yes"/></p>
@@ -2811,7 +3026,10 @@
                                           auszuüben.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 14<del>5</del><add>6</add>. </head>
+                                    <head>Art. 14<choice>
+                                                <del>5</del>
+                                                <add>6</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Wo eine verhältnismäßig beträchtliche An
                                                 <lb break="no"/>zahl von Staatsbürgern wohnt, die
                                           einer Min <lb break="no"/>derheit nach Nationalität,
@@ -2831,13 +3049,19 @@
                                           </choice> zu beteilen.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 14<del>6</del><add>7</add>. </head>
+                                    <head>Art. 14<choice>
+                                                <del>6</del>
+                                                <add>7</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Das Eigentum ist gewährleistet, insoweit
                                                 <lb break="yes"/>nicht das Gesetz Beschränkungen und
                                           Enteignun <lb break="no"/>gen vorsieht. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 14<del>7</del><add>8</add>.</head>
+                                    <head>Art. 14<choice>
+                                                <del>7</del>
+                                                <add>8</add>
+                                          </choice>.</head>
                                     <p type="legal_section">Enteignung gegen den Willen des Eigen
                                                 <lb break="no"/>tümers ist - soferne durch
                                           Bundesgesetz nicht <lb break="yes"/>anders bestimmt wird -
@@ -2854,14 +3078,20 @@
                               <div type="article">
                                     <pb facs="#facs_50" n="50" xml:id="img_0050" break="yes"/>
                                     <fw type="pageNum">- 50 -</fw>
-                                    <head>Art. 14<del>8</del><add>9</add>. </head>
+                                    <head>Art. 14<choice>
+                                                <del>8</del>
+                                                <add>9</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Das Erbrecht wird gewährleistet, soweit
                                                 <lb break="yes"/>nicht durch Bundesgesetz dem Staate
                                           ein Anteil <lb break="yes"/>am Erbgute vorbehalten wird. </p>
                                     <p type="legal_section">Alle Fideikomisse sind aufzuheben. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 1<del>49</del><add>50</add>. </head>
+                                    <head>Art. 1<choice>
+                                                <del>49</del>
+                                                <add>50</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Der Bund kann durch Gesetz gegen Entschä
                                                 <lb break="no"/>digung, in sinngemäßer Anwendung der
                                           für Ent <lb break="no"/>eignung geltenden Bestimmungen,
@@ -2885,10 +3115,14 @@
                                           Erzeugung, Herstellung, Verteilung, Verwendung,
                                           Preisgestal <lb break="no"/>tung sowie Ein- und Ausfuhr
                                           der Wirtschafts <lb break="no"/>güter nach
-                                          gemeinschaftlichen Grundsätzen zu <lb break="yes"/>regeln. </p>
+                                          gemeinschaftlichen Grundsätzen zu <lb break="yes"/>regeln.
+                                    </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 15<del>0</del><add>1</add>. </head>
+                                    <head>Art. 15<choice>
+                                                <del>0</del>
+                                                <add>1</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Wer durch rechtswidrige Ausübung der <lb
                                                 break="yes"/>öffentlichen Gewalt Schaden erleidet,
                                           hat <note type="comment">- abgesehen von dem in Art. . . .
@@ -2904,7 +3138,10 @@
                                                 <lb break="no"/>gesetz. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 15<del>1</del><add>2</add>. </head>
+                                    <head>Art. 15<choice>
+                                                <del>1</del>
+                                                <add>2</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Die Arbeitskraft steht unter dem beson
                                                 <lb break="no"/>deren Schutz des Bundes. <lb
                                                 break="yes"/></p>
@@ -2919,7 +3156,10 @@
                                           />suchen, sind rechtswidrig.</p>
                               </div>
                               <div type="article">
-                                    <head>Art. 15<del>2</del><add>3</add>. </head>
+                                    <head>Art. 15<choice>
+                                                <del>2</del>
+                                                <add>3</add>
+                                          </choice>. </head>
                                     <p type="legal_section">Im Falle einer dringenden Gefahr für den
                                                 <lb break="yes"/>Staat oder seine Bürger können die
                                           Grundrechte <lb break="yes"/>der persönlichen Freiheit,
@@ -2943,7 +3183,10 @@
                               <div type="section">
                                     <head>A) Die Verwaltungsgerichte. </head>
                                     <div type="article">
-                                          <head>Art.15<del>3</del><add>4</add>. </head>
+                                          <head>Art.15<choice>
+                                                  <del>3</del>
+                                                  <add>4</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Wegen Rechtsverletzung durch die
                                                   Ent-<lb break="yes"/><fw type="pageNum">77</fw><pb
                                                   facs="#facs_52" n="52" xml:id="img_0052"
@@ -2963,7 +3206,10 @@
                                                 </list></p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 15<del>4</del><add>5</add>. </head>
+                                          <head>Art. 15<choice>
+                                                  <del>4</del>
+                                                  <add>5</add>
+                                                </choice>. </head>
                                           <p type="legal_section">In jeder Landeshauptstadt wird ein
                                                 Landes <lb break="no"/>verwaltungsgericht errichtet.
                                                 Seine Mitglieder <lb break="yes"/>sind zur Hälfte
@@ -2981,7 +3227,10 @@
                                                   break="yes"/>Landesverwaltungsgerichtes.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 15<del>5</del><add>6</add>. </head>
+                                          <head>Art. 15<choice>
+                                                  <del>5</del>
+                                                  <add>6</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Bundesverwaltungsgericht in
                                                 Wien muß <lb break="yes"/>wenigstens zur Hälfte
                                                 seiner Mitglieder aus <lb break="yes"/>richterlichen
@@ -2997,7 +3246,10 @@
                                     <div type="article">
                                           <pb facs="#facs_53" n="53" xml:id="img_0053" break="yes"/>
                                           <fw type="pageNum">- 53 -</fw>
-                                          <head>Art. 15<del>6</del><add>7</add>. </head>
+                                          <head>Art. 15<choice>
+                                                  <del>6</del>
+                                                  <add>7</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Bundesverwaltungsgericht und
                                                 die Lan <lb break="no"/>desverwaltungsgerichte haben
                                                 in der Regel nur <lb break="yes"/>über Beschwerden
@@ -3018,7 +3270,10 @@
                                                 Beschwerde erheben.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 15<del>7</del><add>8</add>. </head>
+                                          <head>Art. 15<choice>
+                                                  <del>7</del>
+                                                  <add>8</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Die Organisation der
                                                 Landesverwaltungs <lb break="no"/>gerichte und des
                                                 Bundesverwaltungsgerichtes <lb break="yes"/>sowie
@@ -3027,7 +3282,10 @@
                                           </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 15<del>8</del><add>9</add>. </head>
+                                          <head>Art. 15<choice>
+                                                  <del>8</del>
+                                                  <add>9</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Von der Zuständigkeit der
                                                 Verwaltungsge <lb break="no"/>richte sind ausgeschlossen:<list>
                                                   <label>a) </label>
@@ -3049,7 +3307,10 @@
                                           </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 1<del>59</del><add>60</add>. </head>
+                                          <head>Art. 1<choice>
+                                                  <del>59</del>
+                                                  <add>60</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Durch Landesgesetz bezw. durch
                                                 Bundesge <lb break="no"/>setz kann angeordnet
                                                 werden, daß in allen <lb break="yes"
@@ -3071,7 +3332,10 @@
                               <div type="section">
                                     <head>B) Das Bundesverfassungsgericht. </head>
                                     <div type="article">
-                                          <head>Art. 16<del>0</del><add>1</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>0</del>
+                                                  <add>1</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Bundesverfassungsgericht in
                                                 Wien ent <lb break="no"/>scheidet alle
                                                 Rechtsstreitigkeiten zwischen den <lb break="yes"
@@ -3079,7 +3343,10 @@
                                                   break="yes"/>Bund. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>1</del><add>2</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>1</del>
+                                                  <add>2</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Es entscheidet ferner: <lb
                                                   break="yes"/>Kompetenzkonflikte <list>
                                                   <label>a) </label>
@@ -3095,7 +3362,10 @@
                                                 </list></p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>2</del><add>3</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>2</del>
+                                                  <add>3</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entscheidet <lb break="yes"/>über Gesetzwidrigkeit
                                                 von Vollzugsanweisungen <lb break="yes"
@@ -3121,7 +3391,10 @@
                                                 Aufhebung. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>3</del><add>4</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>3</del>
+                                                  <add>4</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entscheidet <lb break="yes"/>über
                                                 Bundesgesetzwidrigkeit von Landesgesetzen <lb
@@ -3143,7 +3416,10 @@
                                                 />desgesetzblatte.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>4</del><add>5</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>4</del>
+                                                  <add>5</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entscheidet <lb break="yes"/>über Anfechtungen von
                                                 Wahlen zu<choice>
@@ -3172,7 +3448,10 @@
                                                 </choice> Mitglieder. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>5</del><add>6</add>.</head>
+                                          <head>Art. 16<choice>
+                                                  <del>5</del>
+                                                  <add>6</add>
+                                                </choice>.</head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entscheidet <lb break="yes"/>über die
                                                 Verantwortlichkeit: <list>
@@ -3232,13 +3511,19 @@
                                                 der politischen Rechte zu lauten.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>6</del><add>7</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>6</del>
+                                                  <add>7</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Die Exekution der Erkenntnisse des
                                                 Bun <lb break="no"/>desverfassungsgerichtes obliegt
                                                 dem Bundesprä <lb break="no"/>sidenten. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>7</del><add>8</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>7</del>
+                                                  <add>8</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Das Bundesverfassungsgericht in
                                                 Wien <lb break="yes"/>besteht aus einem Präsidenten,
                                                 einem Vizeprä <lb break="no"/>sidenten, 14
@@ -3254,7 +3539,10 @@
                                                 gewählt. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 16<del>8</del><add>9</add>. </head>
+                                          <head>Art. 16<choice>
+                                                  <del>8</del>
+                                                  <add>9</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Der Präsident des
                                                 Bundesverfassungsge <lb break="no"/>richtes steht im
                                                 Range des Bundeskanzlers, der <lb break="yes"
@@ -3270,7 +3558,10 @@
                                                 Mitglieder <lb break="yes"/>gewählt. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. 1<del>69</del><add>70</add>. </head>
+                                          <head>Art. 1<choice>
+                                                  <del>69</del>
+                                                  <add>70</add>
+                                                </choice>. </head>
                                           <p type="legal_section">Die nähere Organisation des
                                                 Bundesver <lb break="no"/>fassungsgerichtes sowie
                                                 das Verfahren vor ihm <lb break="yes"/>in den
