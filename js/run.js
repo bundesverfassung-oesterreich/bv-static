@@ -35,6 +35,22 @@ var editor = new LoadEditor({
           class: "features-1",
         },
       },
+      {
+        opt: "comment_toggler",
+        color: "grey",
+        title: "historische Metatexte",
+        html_class: "meta_text",
+        css_class: "display_comment",
+        hide: {
+          hidden: true,
+          class: "meta_text",
+        },
+        chg_citation: "citation-url",
+        features: {
+          all: false,
+          class: "features-1",
+        },
+      },
     ],
     span_element: {
       css_class: "badge-item",
