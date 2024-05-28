@@ -3001,8 +3001,8 @@
                                           <p type="legal_section">Das Bundesverwaltungsgericht und
                                                 die Lan <lb break="no"/>desverwaltungsgerichte haben
                                                 in der Regel nur <lb break="yes"/>über Beschwerden
-                                                der Parteien zu erkennen. <note type="comment">Eo.
-                                                  <lb break="yes"/>Zum Wahrung des Gesetzes genügt
+                                                der Parteien zu erkennen. <note type="comment">Ev.
+                                                  <lb break="yes"/>Zur Wahrung des Gesetzes genügt
                                                   [?] <lb break="yes"/>bei den
                                                   Bundes[Landes?]verwaltungsgerichten ein <lb
                                                   break="yes"/>Bundesanwalt <lb break="yes"/>bei dem
@@ -3146,11 +3146,30 @@
                                           <head>Art. 16<del>4</del><add>5</add>. </head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entscheidet <lb break="yes"/>über Anfechtungen von
-                                                Wahlen zum Bundestage <lb break="yes"/> oder
-                                                Präsidentschaftswahlen; ferner über den <lb
-                                                  break="yes"/>tages <lb break="yes"/>Antrag des
-                                                Bundestages auf Erklärung des <lb break="yes"
-                                                />Mandatsverlustes eines seiner Mitglieder. </p>
+                                                Wahlen zu<choice>
+                                                  <del>r</del>
+                                                  <add>m</add>
+                                                </choice> Bundes<choice>
+                                                  <del>versammlung</del>
+                                                  <add>tage</add>
+                                                </choice>
+                                                <lb break="yes"/>oder Präsidentschaftswahlen<choice>
+                                                  <del>:</del>
+                                                  <add>;</add>
+                                                </choice><choice>
+                                                  <del>und</del>
+                                                  <add>ferner</add>
+                                                </choice> über den Antrag de<choice>
+                                                  <del>r</del>
+                                                  <add>s</add>
+                                                </choice> Bundes<choice>
+                                                  <del>versammlung</del>
+                                                  <add>tages</add>
+                                                </choice> auf Erklärung des <lb break="yes"
+                                                />Mandatsverlustes eines <choice>
+                                                  <del>ihrer</del>
+                                                  <add>seiner</add>
+                                                </choice> Mitglieder. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 16<del>5</del><add>6</add>.</head>
@@ -3177,27 +3196,36 @@
                                                   <lb break="yes"/>wegen vorsätzlicher oder
                                                 grobfahrlässiger Ver <lb break="no"/>letzung der
                                                 Bundesverfassung durch den Bundes <lb break="no"
-                                                />präsidenten oder seinen Stellvertreter auf einer
-                                                  <lb break="yes"/>vom Bundesrat genehmigten Antrag
-                                                des Bundestages <lb break="yes"/>wegen vorsätzlicher
-                                                und grobfahrlässiger Gesetzes <lb break="yes"
-                                                />verletzung der sub b) genannten Personen durch <lb
-                                                  break="yes"/>ihre Amtstätigkeit auf einen vom
-                                                Bundesrat <lb break="yes"/>tages genehmigten Antrag
-                                                des Bundestages: <lb break="yes"/>wegen
-                                                vorsätzlicher oder grobfahrlässiger Ge <lb
-                                                  break="no"/>setzesverletzung seitens der sub c)
-                                                genannten <lb break="yes"/>Personen durch ihre
-                                                Amtstätigkeit auf Antrag <lb break="yes"/>des
-                                                zuständigen Landtages: <lb break="yes"/>und über die
-                                                Verantwortlichkeit des Landes <lb break="no"
-                                                />hauptmannes wegen vorsätzlicher und grobfahr <lb
-                                                  break="no"/>lässiger Gesetzesverletzung durch
-                                                seine Amts <lb break="no"/>tätigkeit oder wegen
-                                                Nichtbefolgung der Voll <lb break="no"
-                                                />zugsanweisungen oder sonstigen Anordnungen der <lb
-                                                  break="yes"/>Bundesregierung auf Antrag der
-                                                letzteren. <lb break="yes"/></p>
+                                                />präsidenten oder seinen Stellvertreter auf einen
+                                                  <lb break="yes"/>vom Bundesrat genehmigten Antrag de<choice>
+                                                  <del>r</del>
+                                                  <add>s</add>
+                                                </choice> Bundes<choice>
+                                                  <del>versammlung</del>
+                                                  <add>tages</add>
+                                                </choice>; <lb break="yes"/>wegen vorsätzlicher und
+                                                grobfahrlässiger Gesetzesverletzung der sub b)
+                                                genannten Personen durch <lb break="yes"/>ihre
+                                                Amtstätigkeit auf einen vom Bundesrat <lb
+                                                  break="yes"/>genehmigten Antrag de<choice>
+                                                  <del>r</del>
+                                                  <add>s</add>
+                                                </choice> Bundes<choice>
+                                                  <del>versammlung</del>
+                                                  <add>tages</add>
+                                                </choice>; <lb break="yes"/>wegen vorsätzlicher oder
+                                                grobfahrlässiger Ge <lb break="no"/>setzesverletzung
+                                                seitens der sub c) genannten <lb break="yes"
+                                                />Personen durch ihre Amtstätigkeit auf Antrag <lb
+                                                  break="yes"/>des zuständigen Landtages; <lb
+                                                  break="yes"/>und über die Verantwortlichkeit des
+                                                Landes <lb break="no"/>hauptmannes wegen
+                                                vorsätzlicher und grobfahr <lb break="no"/>lässiger
+                                                Gesetzesverletzung durch seine Amts <lb break="no"
+                                                />tätigkeit oder wegen Nichtbefolgung der Voll <lb
+                                                  break="no"/>zugsanweisungen oder sonstigen
+                                                Anordnungen der <lb break="yes"/>Bundesregierung auf
+                                                Antrag der letzteren. <lb break="yes"/></p>
                                           <p type="legal_section">Das verurteilende Erkenntnis des
                                                 Bundes <lb break="no"/>verfassungsgerichtes hat auf
                                                 Verlust des Amtes <lb break="yes"/>eventuell auch
@@ -3219,8 +3247,8 @@
                                                   >82</fw><pb facs="#facs_57" n="57"
                                                   xml:id="img_0057" break="yes"/><fw type="pageNum"
                                                   >- 54 -</fw><lb break="yes"/>Der Präsident, der
-                                                Vizepräsident, 7 Mit <lb break="no"/>glieder und
-                                                "Ersatzmitgliedner werden von dem <lb break="yes"
+                                                Vizepräsident, 7 Mit <lb break="no"/>glieder und 4
+                                                Ersatzmitglieder werden von dem <lb break="yes"
                                                 />Bundestag, 7 Mitglieder und 4 Ersarzmitgliedner
                                                   <lb break="yes"/>vom Bundesrat auf Lebensdauer
                                                 gewählt. </p>
