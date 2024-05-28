@@ -1147,3 +1147,40 @@ low resolution
     background-color: gray;
     scroll-margin-top: 100px;
 }
+
+div.meta_text {
+    display: None;
+}
+
+div.meta_text.display_comment {
+    display: block!important;
+	height: fit-content;
+	max-width: 25rem;
+	width: 100%;
+	font-size: small;
+	background: lightgray;
+	padding: .3rem;
+	margin-left: 2.5rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* this would have been greate, but has is not super well supported */
+/* div.meta_text.display {
+	display: block;
+	position: absolute;
+	height: fit-content;
+	max-width: 25rem;
+	width: 100%;
+	font-size: small;
+	background: lightgray;
+	padding: .3rem;
+	margin-left: 2.5rem;
+	left: 100%;
+	bottom: 0;
+}
+
+div:has(>div.meta_text.display) {
+    position: relative!important;
+    border-radius: 0 0 0.3rem 0.3rem;
+}*/
