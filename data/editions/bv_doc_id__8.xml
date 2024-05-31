@@ -107,6 +107,7 @@
                   <change when="2024-02-27" who="#cfh">document automatically created</change>
                   <change when="2024-04-05" who="#m_huber">all div for articles and sections
                         generated</change>
+                  <change when="2024-05-31" who="#m_huber">formatting completed</change>
                   <change when="2024-04-19" who="#m_huber">fixed headings</change>
             </revisionDesc>
       </teiHeader>
@@ -207,25 +208,22 @@
                               <div type="article">
                                     <head>Artikel 1.</head>
                                     <p type="legal_section">Unter dem völkerrechtlichen Zwange des
-                                          Friedensvertrages von
-                                          <lb break="yes"/>St. Germain und mit feierlicher
-                                          Verwahrung gegen die Verweigerung
-                                          <lb break="yes"/>des Selbstbestimmungsrechtes der Völker
-                                          schliessen sich die Länder
-                                          <lb break="yes"/>Kärnten, Niederösterreich, Oberöstereich,
-                                          Salzburg, Steiermark,
-                                          <lb break="yes"/>Tirol, Vorarlberg und Westungarn in ihren
-                                          durch den Friedensvertrag
-                                          <lb break="yes"/>(St. G. Bl. Nr. ex 1919) festgestellten
-                                          Grenzen und die Stadt Wien
-                                          <lb break="yes"/>auf Grund der rechtsgiltigen Beschlüsse
-                                          ihrer Landesvertretungen
-                                          <lb break="yes"/>und des Wiener Gemeinderates, sowie der
-                                          Nationalversammlung der
-                                          <lb break="yes"/>Republik Deutschösterreich zu einem Bunde
-                                          mit dem Namen
-                                          <lb break="yes"/>Republik Oesterreich
-                                          <lb break="yes"/>und mit der Bundeshauptstadt Wien
+                                          Friedensvertrages von <lb break="yes"/>St. Germain und mit
+                                          feierlicher Verwahrung gegen die Verweigerung <lb
+                                                break="yes"/>des Selbstbestimmungsrechtes der Völker
+                                          schliessen sich die Länder <lb break="yes"/>Kärnten,
+                                          Niederösterreich, Oberöstereich, Salzburg, Steiermark, <lb
+                                                break="yes"/>Tirol, Vorarlberg und Westungarn in
+                                          ihren durch den Friedensvertrag <lb break="yes"/>(St. G.
+                                          Bl. Nr. ex 1919) festgestellten Grenzen und die Stadt Wien
+                                                <lb break="yes"/>auf Grund der rechtsgiltigen
+                                          Beschlüsse ihrer Landesvertretungen <lb break="yes"/>und
+                                          des Wiener Gemeinderates, sowie der Nationalversammlung
+                                          der <lb break="yes"/>Republik Deutschösterreich zu einem
+                                          Bunde mit dem Namen <lb break="yes"/></p>
+                                    <p type="legal_section">Republik Oesterreich <lb break="yes"
+                                          /></p>
+                                    <p type="legal_section">und mit der Bundeshauptstadt Wien
                                           zusammen. </p>
                               </div>
                               <div type="article">
@@ -239,195 +237,168 @@
                                           <lb break="no"/>desgesetze beschränkt ist oder beschlänkt
                                           wird.
                                           <lb break="yes"/>1) </p>
+                                    <note type="comment">Dr. Straffner beantragt, diesem Artikel
+                                          noch den Satz anzu <lb break="no"/>schließen: Reichsrecht
+                                          bricht Landrecht.</note>
                               </div>
                               <div type="article">
                                     <head>Artikel III. </head>
                                     <p type="legal_section">Der Bund schützt sein Gebiet und das
-                                          Gebiet seiner Glieder
-                                          <lb break="yes"/>vor Angriffen von außen; er ist
-                                          verpflichtet, über Ersuchen der Landes
-                                          <lb break="no"/>regierungen zur Aufrechthaltung der Ruhe
-                                          und Ordnung im Innern Bun
-                                          <lb break="no"/>deshilfe zu gewähren.
-                                          <lb break="yes"/>Auch ohne solches Ersuchen kann die
-                                          Bundesgewalt gegen Störun
-                                          <lb break="no"/>gen der öffentlichen Ruhe und Ordnung
-                                          innerhalb des Gebietes eines </p>
-                                    <p type="legal_section"><label>1)</label> Dr. Straffner
-                                          beantragt, diesem Artikel noch den Satz anzu
-                                          <lb break="no"/>schließen: Reichsrecht bricht
-                                          Landrecht.</p>
-                                    <p type="legal_section">10</p>
+                                          Gebiet seiner Glieder <lb break="yes"/>vor Angriffen von
+                                          außen; er ist verpflichtet, über Ersuchen der Landes <lb
+                                                break="no"/>regierungen zur Aufrechthaltung der Ruhe
+                                          und Ordnung im Innern Bun <lb break="no"/>deshilfe zu
+                                          gewähren. <lb break="yes"/></p>
+                                    <p type="legal_section">Auch ohne solches Ersuchen kann die
+                                          Bundesgewalt gegen Störun <lb break="no"/>gen der
+                                          öffentlichen Ruhe und Ordnung innerhalb des Gebietes eines </p>
+                                    <fw type="pageNum">10</fw>
                                     <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
-                                    <p type="legal_section">- 2 -</p>
+                                    <fw type="pageNum">- 2 -</fw>
                                     <p type="legal_section">oder mehrerer der Bundesglieder
-                                          einschreiten, wenn die Landesregie
-                                          <lb break="no"/>rung außer Stande ist, die Unruhen zu
-                                          unterdrücken, oder wenn zu be
-                                          <lb break="no"/>fürchten ist, daß sie auf das Gebiet
+                                          einschreiten, wenn die Landesregie <lb break="no"/>rung
+                                          außer Stande ist, die Unruhen zu unterdrücken, oder wenn
+                                          zu be <lb break="no"/>fürchten ist, daß sie auf das Gebiet
                                           anderer Bundesglieder übergreifen. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel IV. </head>
                                     <p type="legal_section">Zum Zwecke der Erfüllung der im Artikel
-                                          III enthaltenen Auf
-                                          <lb break="no"/>gaben wird ein Bundesheer aufgestellt, das
-                                          unter dem militärischen
-                                          <lb break="yes"/>Befehle des Bundesfeldherrn steht, der
-                                          der Bundesregierung unter
-                                          <lb break="no"/>stellt ist.
-                                          <lb break="yes"/>Die Kriegs- und Friedensstärke des Heeres
-                                          innerhalb der durch den</p>
-                                    <p type="legal_section">Friedensvertrag vom . . . . . . . . .
-                                          gezogenen Grenzen, die Art der
-                                          <lb break="yes"/>Ausbildung und die Gliederung des Heeres
-                                          bestimmt die Bundesge
-                                          <lb break="no"/>setzgebung.
-                                          <lb break="yes"/>Dem Bunde obliegt der Schutz und die für
-                                          die Sicherung der Bun
-                                          <lb break="no"/>desgrenzen erforderliche Grenzbefestigung.
-                                          <lb break="yes"/>Die Aufteilung der Truppenmacht nach den
-                                          verschiedenen Waffen
-                                          <lb break="no"/>gattungen auf die einzelnen Bundesglieder
-                                          ist ebenfalls Sache des
-                                          <lb break="yes"/>Bundes; die Aufbringung, Ausrüstung und
-                                          Verpflegung der auf diese
-                                          <lb break="yes"/>entfallenden Mannschaften, Offiziere und
-                                          Unteroffiziere obliegt
-                                          <lb break="yes"/>den Bundesgliedern.</p>
+                                          III enthaltenen Auf <lb break="no"/>gaben wird ein
+                                          Bundesheer aufgestellt, das unter dem militärischen <lb
+                                                break="yes"/>Befehle des Bundesfeldherrn steht, der
+                                          der Bundesregierung unter <lb break="no"/>stellt ist. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Kriegs- und Friedensstärke des
+                                          Heeres innerhalb der durch den Friedensvertrag vom . . . .
+                                          . . . . . gezogenen Grenzen, die Art der <lb break="yes"
+                                          />Ausbildung und die Gliederung des Heeres bestimmt die
+                                          Bundesge <lb break="no"/>setzgebung. <lb break="yes"/></p>
+                                    <p type="legal_section">Dem Bunde obliegt der Schutz und die für
+                                          die Sicherung der Bun <lb break="no"/>desgrenzen
+                                          erforderliche Grenzbefestigung. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Aufteilung der Truppenmacht nach den
+                                          verschiedenen Waffen <lb break="no"/>gattungen auf die
+                                          einzelnen Bundesglieder ist ebenfalls Sache des <lb
+                                                break="yes"/>Bundes; die Aufbringung, Ausrüstung und
+                                          Verpflegung der auf diese <lb break="yes"/>entfallenden
+                                          Mannschaften, Offiziere und Unteroffiziere obliegt <lb
+                                                break="yes"/>den Bundesgliedern.</p>
                                     <p type="legal_section">Insoferne der Grenzschutz erhöhte
-                                          Auslagen für das einzelne
-                                          <lb break="yes"/>Bundesglied bedingt, steht diesem ein
-                                          Anspruch auf Ersatz gegenüber
-                                          <lb break="yes"/>dem Bunde zu.
-                                          <lb break="yes"/>Die Verwendung der von den einzelnen
-                                          Bundesgliedern aufge
-                                          <lb break="no"/>brachten Truppen, Offiziere und
-                                          Unteroffiziere außerhalb ihrer Gren
-                                          <lb break="no"/>zen ist nur in den Fällen des Artikels III
-                                          und bei militärischen
-                                          <lb break="yes"/>Uebungen zulässig. </p>
+                                          Auslagen für das einzelne <lb break="yes"/>Bundesglied
+                                          bedingt, steht diesem ein Anspruch auf Ersatz gegenüber
+                                                <lb break="yes"/>dem Bunde zu. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Verwendung der von den einzelnen
+                                          Bundesgliedern aufge <lb break="no"/>brachten Truppen,
+                                          Offiziere und Unteroffiziere außerhalb ihrer Gren <lb
+                                                break="no"/>zen ist nur in den Fällen des Artikels
+                                          III und bei militärischen <lb break="yes"/>Uebungen
+                                          zulässig. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel V. </head>
                                     <p type="legal_section">Jedes Bundesmitglied hat zur
-                                          Aufrechthaltung der Ruhe und
-                                          <lb break="yes"/>Sicherheit innerhalb seiner
-                                          Gebietsgrenzen eine Landjägertruppe auf
-                                          <lb break="no"/>zustellen, und auf eigene Kosten zu
-                                          erhalten. Die Größe der Land
-                                          <lb break="no"/>jägertruppe wird nach der Zahl der
-                                          Bewohner für jedes Bundesmit
-                                          <lb break="no"/>glied in der Art bemessen, dass auf je 500
-                                          Einwohner (nach der</p>
+                                          Aufrechthaltung der Ruhe und <lb break="yes"/>Sicherheit
+                                          innerhalb seiner Gebietsgrenzen eine Landjägertruppe auf
+                                                <lb break="no"/>zustellen, und auf eigene Kosten zu
+                                          erhalten. Die Größe der Land <lb break="no"/>jägertruppe
+                                          wird nach der Zahl der Bewohner für jedes Bundesmit <lb
+                                                break="no"/>glied in der Art bemessen, dass auf je
+                                          500 Einwohner (nach der</p>
                                     <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
-                                    <p type="legal_section">- 3 -</p>
+                                    <fw type="pageNum">- 3 -</fw>
                                     <p type="legal_section">jeweilig letzten Volkszählung)
-                                          wenigstens ein Mann entfällt.
-                                          <lb break="yes"/>Die Festsetzung der Bedingungen der
-                                          Aufnahme, die Ausbildung und
-                                          <lb break="yes"/>Gliederung dieser Truppe ist Sache der
-                                          Bundesglieder.
-                                          <lb break="yes"/>Im Falle der Abwehr feindlicher Angriffe
-                                          von außen, sind die
-                                          <lb break="yes"/>Landjägertruppen sämtlicher Bundesglieder
-                                          der Militärgewalt des
-                                          <lb break="yes"/>Bundes (Artikel IV) unterstellt; im Falle
-                                          des Einschreitens der Bun
-                                          <lb break="no"/>desgewalt zur Aufrechterhaltung der
-                                          öffentlichen Ruhe und Ordnung in
-                                          <lb break="no"/>nerhalb des Gebietes eines oder mehrerer
-                                          Bundesglieder ist die Land
-                                          <lb break="no"/>jägertruppe des davon betroffenen Landes
-                                          (der Bundeshauptstadt) ,dem
-                                          <lb break="yes"/>Bunde und dem vom Bunde bestellten
-                                          Oberbefehlshaber unterstellt. </p>
+                                          wenigstens ein Mann entfällt. <lb break="yes"/>Die
+                                          Festsetzung der Bedingungen der Aufnahme, die Ausbildung
+                                          und <lb break="yes"/>Gliederung dieser Truppe ist Sache
+                                          der Bundesglieder. <lb break="yes"/></p>
+                                    <p type="legal_section">Im Falle der Abwehr feindlicher Angriffe
+                                          von außen, sind die <lb break="yes"/>Landjägertruppen
+                                          sämtlicher Bundesglieder der Militärgewalt des <lb
+                                                break="yes"/>Bundes (Artikel IV) unterstellt; im
+                                          Falle des Einschreitens der Bun <lb break="no"/>desgewalt
+                                          zur Aufrechterhaltung der öffentlichen Ruhe und Ordnung in
+                                                <lb break="no"/>nerhalb des Gebietes eines oder
+                                          mehrerer Bundesglieder ist die Land <lb break="no"
+                                          />jägertruppe des davon betroffenen Landes (der
+                                          Bundeshauptstadt) ,dem <lb break="yes"/>Bunde und dem vom
+                                          Bunde bestellten Oberbefehlshaber unterstellt. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel VI. </head>
                                     <p type="legal_section">Die Bundesglieder sind verpflichtet,
-                                          ihre Verfassungen dem
-                                          <lb break="yes"/>Bundesrat mitzuteilen, und um die
-                                          Uebernahme der bundesstaatlichen
-                                          <lb break="yes"/>Gewährleistung nachzusuchen. (Artikel II)
-                                          <lb break="yes"/>Der Bund übernimmt die Gewährleistung,
-                                          wenn die Verfassung
-                                          <lb break="yes"/>nichts den Vorschriften der
-                                          Bundesverfassung zuwiderlaufendes ent
-                                          <lb break="no"/>hält,</p>
+                                          ihre Verfassungen dem <lb break="yes"/>Bundesrat
+                                          mitzuteilen, und um die Uebernahme der bundesstaatlichen
+                                                <lb break="yes"/>Gewährleistung nachzusuchen.
+                                          (Artikel II) <lb break="yes"/></p>
+                                    <p type="legal_section">Der Bund übernimmt die Gewährleistung,
+                                          wenn die Verfassung <lb break="yes"/>nichts den
+                                          Vorschriften der Bundesverfassung zuwiderlaufendes ent <lb
+                                                break="no"/>hält, </p>
                                     <p type="legal_section">wenn sie die Ausübung der politischen
-                                          Rechte nach den Grundsätzen
-                                          <lb break="yes"/>der Rechtsgleichheit Aller vor dem
-                                          Gesetze sichert,
-                                          <lb break="yes"/>wenn sie in allgemeiner Volksabstimmung
-                                          angenommen worden ist und
-                                          <lb break="yes"/>wenn sie die Möglichkeit ihrer Aenderung
-                                          über Antrag von höchstens
-                                          <lb break="yes"/>einem Drittel der stimmberechtigten
-                                          Bürger vorsieht.
-                                          <lb break="yes"/>1) </p>
-                                    <p type="legal_section"><label>1)</label> Allgemein ist die
-                                          Notwendigkeit anerkannt, den Artikel zu ergänzen
-                                          <lb break="yes"/>um Vorsorge zu treffen für den Fall, dass
-                                          der Bundesrat die Gewähr
-                                          <lb break="no"/>leistung nicht übernehme.
-                                          <lb break="yes"/>Falser schlägt daher den Zusatz vor:
-                                          <lb break="yes"/>Lehnt der Bundesrat die Uebernahme der
-                                          Gewährleistung ab, was nur
-                                          <lb break="yes"/>unter Anführung der hiefür maßgebend
-                                          gewesenen Gründe geschehen kann,
-                                          <lb break="yes"/>so kann das davon betroffene Land (die
-                                          Bundeshauptstadt Wien) über
-                                          <lb break="yes"/>Beschluß seines Landtages (des Wiener
-                                          Gemeinderates) binnen der
-                                          <lb break="yes"/>Frist eines Jahres die Entscheidung der
-                                          Bundesversammlung anrufen,
-                                          <lb break="yes"/>die binnen einer weiteren Frist von sechs
-                                          Monaten erfliessen muß,
-                                          <lb break="yes"/>widrigens die Gewährleistung als vom
-                                          Bunde übernommen gilt.
-                                          <lb break="yes"/>Lehnt die Bundesversammlung die
-                                          Uebernahme der Gewährleistung
-                                          <lb break="yes"/>ab, so kann der davon betroffene Teil der
-                                          Landesverfassung (des
-                                          <lb break="yes"/>Statutes der Stadt Wien) nicht in Kraft
-                                          treten.</p>
-                                    <p type="legal_section">11</p>
+                                          Rechte nach den Grundsätzen <lb break="yes"/>der
+                                          Rechtsgleichheit Aller vor dem Gesetze sichert, <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">wenn sie in allgemeiner Volksabstimmung
+                                          angenommen worden ist und <lb break="yes"/></p>
+                                    <p type="legal_section">wenn sie die Möglichkeit ihrer Aenderung
+                                          über Antrag von höchstens <lb break="yes"/>einem Drittel
+                                          der stimmberechtigten Bürger vorsieht. <lb break="yes"/>1) </p>
+                                    <note type="comment">1) Allgemein ist die Notwendigkeit
+                                          anerkannt, den Artikel zu ergänzen <lb break="yes"/>um
+                                          Vorsorge zu treffen für den Fall, dass der Bundesrat die
+                                          Gewähr <lb break="no"/>leistung nicht übernehme. <lb
+                                                break="yes"/>Falser schlägt daher den Zusatz vor:
+                                                <lb break="yes"/>Lehnt der Bundesrat die Uebernahme
+                                          der Gewährleistung ab, was nur <lb break="yes"/>unter
+                                          Anführung der hiefür maßgebend gewesenen Gründe geschehen
+                                          kann, <lb break="yes"/>so kann das davon betroffene Land
+                                          (die Bundeshauptstadt Wien) über <lb break="yes"/>Beschluß
+                                          seines Landtages (des Wiener Gemeinderates) binnen der <lb
+                                                break="yes"/>Frist eines Jahres die Entscheidung der
+                                          Bundesversammlung anrufen, <lb break="yes"/>die binnen
+                                          einer weiteren Frist von sechs Monaten erfliessen muß, <lb
+                                                break="yes"/>widrigens die Gewährleistung als vom
+                                          Bunde übernommen gilt. <lb break="yes"/>Lehnt die
+                                          Bundesversammlung die Uebernahme der Gewährleistung <lb
+                                                break="yes"/>ab, so kann der davon betroffene Teil
+                                          der Landesverfassung (des <lb break="yes"/>Statutes der
+                                          Stadt Wien) nicht in Kraft treten.</note>
+                                    <fw type="pageNum">11</fw>
                                     <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
-                                    <p type="legal_section">- 4 - </p>
+                                    <fw type="pageNum">- 4 -</fw>
                               </div>
                               <div type="article">
                                     <head>Artikel VII. </head>
                                     <p type="legal_section">Die Glaubens- und Gewissensfreiheit ist
-                                          unverletzlich. Niemand
-                                          <lb break="yes"/>darf zur Teilnahme an einer
-                                          Religionsgesellschaft oder an einem re
-                                          <lb break="no"/>ligiösen Unterrichte oder zur Vornahme
-                                          einer religiösen Handlung
-                                          <lb break="yes"/>gezwungen werden. 1)
-                                          <lb break="yes"/>Ueber die religiöse Erziehung der Kinder
-                                          verfügt bis zum
-                                          <lb break="yes"/>vollendeten 16. Lebensjahre der Inhaber
-                                          der väterlichen oder vor
-                                          <lb break="no"/>mundschaftlichen Gewalt.</p>
+                                          unverletzlich. Niemand <lb break="yes"/>darf zur Teilnahme
+                                          an einer Religionsgesellschaft oder an einem re <lb
+                                                break="no"/>ligiösen Unterrichte oder zur Vornahme
+                                          einer religiösen Handlung <lb break="yes"/>gezwungen
+                                          werden. 1) <lb break="yes"/></p>
+                                    <p type="legal_section">Ueber die religiöse Erziehung der Kinder
+                                          verfügt bis zum <lb break="yes"/>vollendeten 16.
+                                          Lebensjahre der Inhaber der väterlichen oder vor <lb
+                                                break="no"/>mundschaftlichen Gewalt.</p>
                                     <p type="legal_section">Die öffentlichen Unterrichtsanstalten
-                                          sind den Angehörigen al
-                                          <lb break="no"/>ler Religionsgesellschaften ohne
-                                          Beeinträchtigung der Glaubens- und
-                                          <lb break="yes"/>Gewissensfreiheit zugänglich.
-                                          <lb break="yes"/>Niemand ist gehalten, Abgaben zu leisten,
-                                          welche speziell für Kul
-                                          <lb break="no"/>tuszwecke einer Religionsgesellschaft, der
-                                          er nicht angehört, aufer
-                                          <lb break="no"/>legt werden vorbehaltlich der bereits
-                                          bestehenden rechtlichen Ver
-                                          <lb break="no"/>pflichtungen des Staates, der Länder oder
-                                          einzelner Personen.
-                                          <lb break="yes"/>Die freie Ausübung gottesdienstlicher
-                                          Handlungen ist innerhalb
-                                          <lb break="yes"/>der Schranken der Sittlichkeit und der
-                                          öffentlichen Ordnung gewähr
-                                          <lb break="no"/>leistet.</p>
+                                          sind den Angehörigen al <lb break="no"/>ler
+                                          Religionsgesellschaften ohne Beeinträchtigung der
+                                          Glaubens- und <lb break="yes"/>Gewissensfreiheit
+                                          zugänglich. <lb break="yes"/></p>
+                                    <p type="legal_section">Niemand ist gehalten, Abgaben zu
+                                          leisten, welche speziell für Kul <lb break="no"/>tuszwecke
+                                          einer Religionsgesellschaft, der er nicht angehört, aufer
+                                                <lb break="no"/>legt werden vorbehaltlich der
+                                          bereits bestehenden rechtlichen Ver <lb break="no"
+                                          />pflichtungen des Staates, der Länder oder einzelner
+                                          Personen. </p>
+                                    <p type="legal_section">Die freie Ausübung gottesdienstlicher
+                                          Handlungen ist innerhalb <lb break="yes"/>der Schranken
+                                          der Sittlichkeit und der öffentlichen Ordnung gewähr <lb
+                                                break="no"/>leistet.</p>
+                                    <note type="comment">1) Zu Artikel VII: Gegen den Satz: „Niemand
+                                          darf......gezwungen <lb break="yes"/>werden" bestehen bei
+                                          der Mehrheit des Ausschusses Bedenken.</note>
                               </div>
                               <div type="article">
                                     <head>Artikel VIII. </head>
@@ -446,31 +417,23 @@
                               <div type="article">
                                     <head>Artikel X. </head>
                                     <p type="legal_section">Die Bürger haben das Recht Vereine zu
-                                          bilden, soferne diese
-                                          <lb break="yes"/>weder in ihren Zwecken noch in den
-                                          Mitteln rechtswidrig oder staats
-                                          <lb break="no"/>gefährlich sind. Ueber den Mißbrauch
-                                          dieses Rechtes und über das
-                                          <lb break="yes"/>Versammlungsrecht trifft die
-                                          Bundesgesetzgebung die notwendigen Be
-                                          <lb break="no"/>stimmungen.
-                                          <lb break="yes"/>----------------------------- </p>
-                                    <p type="legal_section"><label>1)</label> Zu Artikel VII: Gegen
-                                          den Satz: „Niemand darf......gezwungen
-                                          <lb break="yes"/>werden" bestehen bei der Mehrheit des
-                                          Ausschusses Bedenken.</p>
+                                          bilden, soferne diese <lb break="yes"/>weder in ihren
+                                          Zwecken noch in den Mitteln rechtswidrig oder staats <lb
+                                                break="no"/>gefährlich sind. Ueber den Mißbrauch
+                                          dieses Rechtes und über das <lb break="yes"
+                                          />Versammlungsrecht trifft die Bundesgesetzgebung die
+                                          notwendigen Be <lb break="no"/>stimmungen. </p>
                                     <pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/>
-                                    <p type="legal_section">- 5 - </p>
+                                    <fw type="pageNum">- 5 - </fw>
                               </div>
                               <div type="article">
                                     <head>Artikel XI. </head>
                                     <p type="legal_section">Niemand darf seinen verfassungsmässigen
-                                          Richter entzogen werden;
-                                          <lb break="yes"/>es dürfen keine Ausnahmsgerichte
-                                          eingeführt werden.
-                                          <lb break="yes"/>Die Militärgerichtsbarkeit bleibt nur für
-                                          rein militärische
-                                          <lb break="yes"/>Vergehen bestehen und ist durch
+                                          Richter entzogen werden; <lb break="yes"/>es dürfen keine
+                                          Ausnahmsgerichte eingeführt werden. </p>
+                                    <p type="legal_section"><lb break="yes"/>Die
+                                          Militärgerichtsbarkeit bleibt nur für rein militärische
+                                                <lb break="yes"/>Vergehen bestehen und ist durch
                                           Bundesgesetz zu regeln. </p>
                               </div>
                               <div type="article">
@@ -504,167 +467,163 @@
                               </div>
                               <div type="article">
                                     <head>Artikel XIV. </head>
-                                    <p type="legal_section">In die Zuständigkeit des Bundes fallen:
-                                          <lb break="yes"/>1) die auswärtigen Angelegenheiten mit
-                                          Einschluß der diplomatischen und
-                                          <lb break="yes"/>kommerziellen Vertretung, dem Auslande
-                                          gegenüber, die Zollgesetzgebung,
-                                          <lb break="yes"/>die Prüfung und Genehmigung der
-                                          Handelsverträge und jener Staatsver-</p>
-                                    <p type="legal_section">träge, die den Bundesstaat oder Teile
-                                          des Bundesstaates belasten oder
-                                          <lb break="yes"/>eine Gebietsänderung des Bundes oder
-                                          seiner Bundesglieder zum Gegen
-                                          <lb break="no"/>stande haben; Grenzverschiebungen zwischen
-                                          den einzelnen Bundesglie
-                                          <lb break="no"/>dern sind, wenn dadurch die
-                                          Auslandsgrenzen nicht berührt werden, dem
-                                          <lb break="yes"/>Bundesrate lediglich zur Kenntnis zu
-                                          bringen. </p>
-                                    <p type="legal_section"><label>2)</label> Die Entscheidung über
-                                          Krieg und Frieden. </p>
-                                    <p type="legal_section"><label>3)</label> Die Gesetzgebung über
-                                          das Heerwesen in den Schranken des Artikel IV</p>
-                                    <p type="legal_section">12</p>
-                                    <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
-                                    <p type="legal_section">- 6
-                                          <lb break="no"/>über die militärische Befehlsgewalt, über
-                                          Vorspannleistungen, Ver
-                                          <lb break="no"/>pflegung und Einquartierung des Heeres,
-                                          ferner die Regelung der
-                                          <lb break="yes"/>Militärgerichtsbarkeit in den Schranken
-                                          des Artikels XI. </p>
-                                    <p type="legal_section"><label>4)</label> Das Finanzwesen,
-                                          soweit es die gemeinschaftlich zu verwaltenden Ein
-                                          <lb break="no"/>nahmen und Ausgaben betrifft, also die
-                                          Feststellung der Voranschläge
-                                          <lb break="yes"/>des Bundeshaushaltes, die Prüfung der
-                                          Staatsrechnungsabschlüsse und
-                                          <lb break="yes"/>die Erteilung der Entlastung, die
-                                          Aufnahme von Bundesanlehen, die
-                                          <lb break="yes"/>Umwandlung der bestehenden
-                                          Staatsschulden, die Verwaltung, Veräuße-</p>
-                                    <p type="legal_section">rung oder Belastung des Bundesvermögens,
-                                          die Gesetzgebung über Monopole
-                                          <lb break="yes"/>ferner die Festsetzung des Geld- Münz-
-                                          und Zettelbankwesens, endlich
-                                          <lb break="yes"/>die Gesetzgebung über Steuern, Abgaben,
-                                          Gefälle, diese jedoch mit der
-                                          <lb break="yes"/>Kinschränkung, dass das Recht der
-                                          Besteuerung von Grund und Boden
-                                          <lb break="yes"/>und von Hausbesitz ausschließend den
-                                          Bundesgliedern zukommt.
-                                          <lb break="yes"/>Inwieweit die übrigen öffentlichen
-                                          Steuern, Abgaben und Gefälle
-                                          <lb break="yes"/>zwischen dem Bunde und seinen einzelnen
-                                          Bundesgliedern aufzuteilen
-                                          <lb break="yes"/>sind, wird durch ein eigenes Bundesgesetz
-                                          bestimmt. </p>
-                                    <p type="legal_section"><label>5)</label> Die Zivil- und
-                                          Strafgesetzgebung mit Einschluß des Handels-, Wechsel-,
-                                          <lb break="yes"/>Berg- und Lehenrechtes, dann des Zivil-
-                                          und Strafprozeßrechts und des
-                                          <lb break="yes"/>Polizeistrafrechtes jedoch mit Ausnahme
-                                          der Gesetzgebung über die</p>
-                                    <p type="legal_section">öffentlichen Bücher und über die Bildung
-                                          der Gerichts- und Verwaltungs
-                                          <lb break="no"/>bezirke innerhalb des Gebietes der
-                                          einzelnen Glieder des Bundes. Die
-                                          <lb break="yes"/>Gesetzgebung über die Erlangung
-                                          öffentlicher Aemter, steht dem Bunde
-                                          <lb break="yes"/>nur insoweit zu, als es sich um Aemter
-                                          handelt, deren Amtsbezirk über
-                                          <lb break="yes"/>die Grenzen eines Bundesgliedes
-                                          hinausreicht. Mit der gleichen Be
-                                          <lb break="no"/>schränkung steht der Bundesgewalt das
-                                          Recht der Ernennung der Richter
-                                          <lb break="yes"/>und Verwaltungsbeamten zu. Die Ernennung
-                                          der zur selbständigen Aus
-                                          <lb break="no"/>übung des Richteramtes berufenen Personen
-                                          erfolgt in kollegialer
-                                          <lb break="yes"/>Beratung. 1)
-                                          <lb break="yes"/>-------------------------------- </p>
-                                    <p type="legal_section"><label>1)</label> Zu Artikel XIV Z. 5:
-                                          Dr. Straffner ist gegen die Forderung kolle
-                                          <lb break="no"/>gialer Ernennung der Richter.</p>
-                                    <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
-                                    <p type="legal_section">- 7 </p>
-                                    <p type="legal_section"><label>6)</label> Das Post-,
-                                          Telegraphen-, Telephon-Eisenbahn-Schiffahrts- und Luft
-                                          <lb break="no"/>schiffahrtswesen, die
-                                          Elektrizitätsgesetzgebung 1) und die Verwal
-                                          <lb break="no"/>tung der Bundesstraßen. </p>
-                                    <p type="legal_section"><label>7)</label> Die Gesetzgebung über
-                                          das Kredit und Bankwesen mit Ausnahme des
-                                          <lb break="yes"/>landwirtschaftlichen Kreditwesens
-                                          (Raiffeisenkassen, landwirtschaft
-                                          <lb break="no"/>liche Vorschußkassen etc.) dann die
-                                          Privilegien- und Gewerbegesetzge
-                                          <lb break="no"/>bung, die gesetzgebung über Maß und
-                                          Gewicht, über Marken- und Muster-</p>
-                                    <p type="legal_section">schutz, die Gesetzgebung über Fabriken,
-                                          über Kranken-, Unfall- und
-                                          <lb break="yes"/>Altersversorgung der Arbeiter und die
-                                          damit zusammenhängenden Unter
-                                          <lb break="no"/>stützungs- und Hilfskassen. </p>
-                                    <p type="legal_section"><label>8)</label> Die
-                                          Medizinalgesetzgebung, sowie die Gesetzgeburg zum Schutze
-                                          gegen
-                                          <lb break="yes"/>Epidemien und Viehseuchen. </p>
-                                    <p type="legal_section"><label>9)</label> Die Gesetzgebung über
-                                          Staatsbürger- und Heimatsrecht, über Fremden
-                                          <lb break="no"/>polizei und Paßwesen und über die
-                                          Volkszählung.
-                                          <lb break="yes"/>10) Die Gesetzgebung über die Presse
-                                          (Artikel IX), über das Vereins-
-                                          <lb break="yes"/>und Versammlungsrecht (Artikel X) und
-                                          über den Schutz des geistigen
-                                          <lb break="yes"/>Eigentums, </p>
-                                    <p type="legal_section"><label>11)</label> Die Gesetzgebung über
-                                          die Universitäten. 2) </p>
-                                    <p type="legal_section"><label>12)</label> Die Regelung der
-                                          Nutzbarmachung der Wasserkräfte ist eine Angelegen
-                                          <lb break="no"/>heit der Bundesglieder. 3)</p>
-                                    <p type="legal_section"><label>1)</label> Eine Minderheit des
-                                          Ausschusses wünscht die Elektrizitätsgesetz
-                                          <lb break="no"/>gebung auszuschalten. <p
-                                                type="legal_section"><label>2)</label> Dr. Straffner
-                                                ist für die Aufnahme der Volks- und Mittelschulen,
-                                                <lb break="yes"/>Falser nur für die Aufnahme der
-                                                Mittelschulen. <p type="legal_section"
-                                                  ><label>3)</label> Zwei Stimmen sprechen sich
-                                                  dafür aus, dass vorangestellt werde der
-                                                  <lb break="yes"/>Satz: die Oberaufsicht über die
-                                                  Angelegenheiten der Landeskultur
-                                                  <lb break="yes"/>und über die Nutzbarmachung der
-                                                  Wasserkräfte; die Bundesgesetzge
-                                                  <lb break="no"/>bung erläßt zu diesem Behufe die
-                                                  erforderlichen allgemeinen Vor
-                                                  <lb break="no"/>schriften.</p>
-                                          </p>
-                                          <p>13</p>
-                                          <pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/>
+                                    <p type="legal_section">In die Zuständigkeit des Bundes fallen: <list>
+                                                <label>1) </label>
+                                                <item>die auswärtigen Angelegenheiten mit Einschluß
+                                                  der diplomatischen und <lb break="yes"
+                                                  />kommerziellen Vertretung, dem Auslande
+                                                  gegenüber, die Zollgesetzgebung, <lb break="yes"
+                                                  />die Prüfung und Genehmigung der Handelsverträge
+                                                  und jener Staatsverträge, die den Bundesstaat oder
+                                                  Teile des Bundesstaates belasten oder <lb
+                                                  break="yes"/>eine Gebietsänderung des Bundes oder
+                                                  seiner Bundesglieder zum Gegen <lb break="no"
+                                                  />stande haben; Grenzverschiebungen zwischen den
+                                                  einzelnen Bundesglie <lb break="no"/>dern sind,
+                                                  wenn dadurch die Auslandsgrenzen nicht berührt
+                                                  werden, dem <lb break="yes"/>Bundesrate lediglich
+                                                  zur Kenntnis zu bringen.  </item>
+                                                <label>2)</label>
+                                                <item> Die Entscheidung über Krieg und Frieden.  </item>
+                                                <label>3)</label>
+                                                <item>Die Gesetzgebung über das Heerwesen in den
+                                                  Schranken des Artikel IV  <fw type="pageNum"
+                                                  >12</fw><pb facs="#facs_7" n="7" xml:id="img_0007"
+                                                  break="yes"/><fw type="pageNum">- 6</fw>
+                                                  <lb break="no"/>über die militärische
+                                                  Befehlsgewalt, über Vorspannleistungen, Ver <lb
+                                                  break="no"/>pflegung und Einquartierung des
+                                                  Heeres, ferner die Regelung der <lb break="yes"
+                                                  />Militärgerichtsbarkeit in den Schranken des
+                                                  Artikels XI.  </item>
+                                                <label>4)</label>
+                                                <item> Das Finanzwesen, soweit es die
+                                                  gemeinschaftlich zu verwaltenden Ein <lb
+                                                  break="no"/>nahmen und Ausgaben betrifft, also die
+                                                  Feststellung der Voranschläge <lb break="yes"/>des
+                                                  Bundeshaushaltes, die Prüfung der
+                                                  Staatsrechnungsabschlüsse und <lb break="yes"/>die
+                                                  Erteilung der Entlastung, die Aufnahme von
+                                                  Bundesanlehen, die <lb break="yes"/>Umwandlung der
+                                                  bestehenden Staatsschulden, die Verwaltung,
+                                                  Veräußerung oder Belastung des Bundesvermögens,
+                                                  die Gesetzgebung über Monopole <lb break="yes"
+                                                  />ferner die Festsetzung des Geld- Münz- und
+                                                  Zettelbankwesens, endlich <lb break="yes"/>die
+                                                  Gesetzgebung über Steuern, Abgaben, Gefälle, diese
+                                                  jedoch mit der <lb break="yes"/>Kinschränkung,
+                                                  dass das Recht der Besteuerung von Grund und Boden
+                                                  <lb break="yes"/>und von Hausbesitz ausschließend
+                                                  den Bundesgliedern zukommt. <lb break="yes"
+                                                  />Inwieweit die übrigen öffentlichen Steuern,
+                                                  Abgaben und Gefälle <lb break="yes"/>zwischen dem
+                                                  Bunde und seinen einzelnen Bundesgliedern
+                                                  aufzuteilen <lb break="yes"/>sind, wird durch ein
+                                                  eigenes Bundesgesetz bestimmt.  </item>
+                                                <label>5)</label>
+                                                <item> Die Zivil- und Strafgesetzgebung mit
+                                                  Einschluß des Handels-, Wechsel-, <lb break="yes"
+                                                  />Berg- und Lehenrechtes, dann des Zivil- und
+                                                  Strafprozeßrechts und des <lb break="yes"
+                                                  />Polizeistrafrechtes jedoch mit Ausnahme der
+                                                  Gesetzgebung über die öffentlichen Bücher und über
+                                                  die Bildung der Gerichts- und Verwaltungs <lb
+                                                  break="no"/>bezirke innerhalb des Gebietes der
+                                                  einzelnen Glieder des Bundes. Die <lb break="yes"
+                                                  />Gesetzgebung über die Erlangung öffentlicher
+                                                  Aemter, steht dem Bunde <lb break="yes"/>nur
+                                                  insoweit zu, als es sich um Aemter handelt, deren
+                                                  Amtsbezirk über <lb break="yes"/>die Grenzen eines
+                                                  Bundesgliedes hinausreicht. Mit der gleichen Be
+                                                  <lb break="no"/>schränkung steht der Bundesgewalt
+                                                  das Recht der Ernennung der Richter <lb
+                                                  break="yes"/>und Verwaltungsbeamten zu. Die
+                                                  Ernennung der zur selbständigen Aus <lb break="no"
+                                                  />übung des Richteramtes berufenen Personen
+                                                  erfolgt in kollegialer <lb break="yes"/>Beratung.
+                                                  1)<note type="comment">1) Zu Artikel XIV Z. 5: Dr.
+                                                  Straffner ist gegen die Forderung kolle <lb
+                                                  break="no"/>gialer Ernennung der
+                                                  Richter.</note></item>
+                                                <pb facs="#facs_8" n="8" xml:id="img_0008"
+                                                  break="yes"/>
+                                                <fw type="pageNum">- 7 </fw>
+                                                <label>6)</label>
+                                                <item>Das Post-, Telegraphen-,
+                                                  Telephon-Eisenbahn-Schiffahrts- und Luft <lb
+                                                  break="no"/>schiffahrtswesen, die
+                                                  Elektrizitätsgesetzgebung 1) und die Verwal <lb
+                                                  break="no"/>tung der Bundesstraßen.  <note
+                                                  type="comment">1) Eine Minderheit des Ausschusses
+                                                  wünscht die Elektrizitätsgesetz <lb break="no"
+                                                  />gebung auszuschalten. </note></item>
+                                                <label>7)</label>
+                                                <item>Die Gesetzgebung über das Kredit und Bankwesen
+                                                  mit Ausnahme des <lb break="yes"
+                                                  />landwirtschaftlichen Kreditwesens
+                                                  (Raiffeisenkassen, landwirtschaft <lb break="no"
+                                                  />liche Vorschußkassen etc.) dann die Privilegien-
+                                                  und Gewerbegesetzge <lb break="no"/>bung, die
+                                                  gesetzgebung über Maß und Gewicht, über Marken-
+                                                  und Musterschutz, die Gesetzgebung über Fabriken,
+                                                  über Kranken-, Unfall- und <lb break="yes"
+                                                  />Altersversorgung der Arbeiter und die damit
+                                                  zusammenhängenden Unter <lb break="no"/>stützungs-
+                                                  und Hilfskassen.  </item>
+                                                <label>8)</label>
+                                                <item>Die Medizinalgesetzgebung, sowie die
+                                                  Gesetzgeburg zum Schutze gegen <lb break="yes"
+                                                  />Epidemien und Viehseuchen.  </item>
+                                                <label>9)</label>
+                                                <item>Die Gesetzgebung über Staatsbürger- und
+                                                  Heimatsrecht, über Fremden <lb break="no"/>polizei
+                                                  und Paßwesen und über die Volkszählung. <lb
+                                                  break="yes"/></item>
+                                                <label>10)  </label>
+                                                <item>Die Gesetzgebung über die Presse (Artikel IX),
+                                                  über das Vereins- <lb break="yes"/>und
+                                                  Versammlungsrecht (Artikel X) und über den Schutz
+                                                  des geistigen <lb break="yes"/>Eigentums,   </item>
+                                                <label>11)</label>
+                                                <item> Die Gesetzgebung über die Universitäten.
+                                                  2)<note type="comment">2) Dr. Straffner ist für
+                                                  die Aufnahme der Volks- und Mittelschulen, <lb
+                                                  break="yes"/>Falser nur für die Aufnahme der
+                                                  Mittelschulen. </note></item>
+                                                <label>12)</label>
+                                                <item>Die Regelung der Nutzbarmachung der
+                                                  Wasserkräfte ist eine Angelegen <lb break="no"
+                                                  />heit der Bundesglieder. 3)<note type="comment"
+                                                  >3) Zwei Stimmen sprechen sich dafür aus, dass
+                                                  vorangestellt werde der <lb break="yes"/>Satz: die
+                                                  Oberaufsicht über die Angelegenheiten der
+                                                  Landeskultur <lb break="yes"/>und über die
+                                                  Nutzbarmachung der Wasserkräfte; die
+                                                  Bundesgesetzge <lb break="no"/>bung erläßt zu
+                                                  diesem Behufe die erforderlichen allgemeinen Vor
+                                                  <lb break="no"/>schriften.</note><fw
+                                                  type="pageNum">13 </fw><pb facs="#facs_9" n="9"
+                                                  xml:id="img_0009" break="yes"/><fw type="pageNum"
+                                                  >- 8 -</fw>Wenn jedoch eine Gewässerstrecke, die
+                                                  für die Gewinnung einer <lb break="yes"
+                                                  />Wasserkraft in Anspruch genommen wird, unter der
+                                                  Gebietshoheit <lb break="yes"/>zweier oder
+                                                  mehrerer Bundesglieder steht und sich diese über
+                                                  eine <lb break="yes"/>gemeinsame Konzession nicht
+                                                  einigen können, so ist die Erteilung <lb
+                                                  break="yes"/>der Konzession Sache des Bundes. Dem
+                                                  Bunde steht auch die Konzes <lb break="no"
+                                                  />sionserteilung an Gewässerstrecken zu, die die
+                                                  Grenze des Bundes <lb break="no"/>staates bilden;
+                                                  die an dieser Grenze gelegenen Bundesglieder <lb
+                                                  break="yes"/>sind dem Verfahren als beteiligte
+                                                  Parteien beizuziehen.  </item>
+                                                <label>13./</label>
+                                                <item>Die Oberaufsicht über die Strassen und
+                                                  Brücken, deren Instandhaltung <lb break="yes"/>für
+                                                  den Bundesstaat Bedeutung hat.  </item>
+                                          </list>
                                     </p>
-                                    <p type="legal_section">- 8 -</p>
-                                    <p type="legal_section">Wenn jedoch eine Gewässerstrecke, die
-                                          für die Gewinnung einer
-                                          <lb break="yes"/>Wasserkraft in Anspruch genommen wird,
-                                          unter der Gebietshoheit
-                                          <lb break="yes"/>zweier oder mehrerer Bundesglieder steht
-                                          und sich diese über eine
-                                          <lb break="yes"/>gemeinsame Konzession nicht einigen
-                                          können, so ist die Erteilung
-                                          <lb break="yes"/>der Konzession Sache des Bundes. Dem
-                                          Bunde steht auch die Konzes
-                                          <lb break="no"/>sionserteilung an Gewässerstrecken zu, die
-                                          die Grenze des Bundes
-                                          <lb break="no"/>staates bilden; die an dieser Grenze
-                                          gelegenen Bundesglieder
-                                          <lb break="yes"/>sind dem Verfahren als beteiligte
-                                          Parteien beizuziehen. </p>
-                                    <p type="legal_section"><label>13.</label>/ Die Oberaufsicht
-                                          über die Strassen und Brücken, deren Instandhaltung
-                                          <lb break="yes"/>für den Bundesstaat Bedeutung hat. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XV. </head>
@@ -680,172 +639,149 @@
                               <div type="article">
                                     <head>Artikel XVI.</head>
                                     <p type="legal_section">Die Landesregierungen sind verpflichtet,
-                                          alle Gesetzesbeschlüs
-                                          <lb break="no"/>se der Landtage vor ihrer Kundmachung der
-                                          Staatsregierung mit
-                                          <lb break="no"/>zuteilen, die gleiche Pflicht obliegt dem
-                                          Stadtrate der Bundeshaupt
-                                          <lb break="no"/>stadt Wien in Betreff der
-                                          Gesetzesbeschlüsse des Gemeinderates.
-                                          <lb break="yes"/>Hat die Staatsregierung gegen einen
-                                          solchen Beschluß Bedenken,
-                                          <lb break="yes"/>so kann sie gegen ihn binnen 14 Tagen
-                                          nach Einlangen der Mit
-                                          <lb break="no"/>teilung bei der gesetzgehenden
-                                          Körperschaft des Bundesgliedes im
-                                          <lb break="yes"/>Wege der Landesregierung Vorstellung
-                                          erheben.
-                                          <lb break="yes"/>Vor Ablauf dieser Frist kann das
-                                          Landesgesetz ohne Zustim
-                                          <lb break="no"/>mung der Staatsregierung nicht kundgemacht
-                                          werden.Beschließt der
-                                          <lb break="yes"/>Landtag (der Wiener Gemeinderat) auf dem
-                                          ursprünglichen Beschlus
-                                          <lb break="no"/>se zu beharren, so hat dessen Kundmachung
-                                          durch die Landesregie
-                                          <lb break="no"/>rung zu erfolgen.</p>
-                                    <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
-                                    <p type="legal_section">- 9 - </p>
+                                          alle Gesetzesbeschlüs <lb break="no"/>se der Landtage vor
+                                          ihrer Kundmachung der Staatsregierung mit <lb break="no"
+                                          />zuteilen, die gleiche Pflicht obliegt dem Stadtrate der
+                                          Bundeshaupt <lb break="no"/>stadt Wien in Betreff der
+                                          Gesetzesbeschlüsse des Gemeinderates. <lb break="yes"
+                                          /></p>
+                                    <p type="legal_section">Hat die Staatsregierung gegen einen
+                                          solchen Beschluß Bedenken, <lb break="yes"/>so kann sie
+                                          gegen ihn binnen 14 Tagen nach Einlangen der Mit <lb
+                                                break="no"/>teilung bei der gesetzgehenden
+                                          Körperschaft des Bundesgliedes im <lb break="yes"/>Wege
+                                          der Landesregierung Vorstellung erheben. <lb break="yes"
+                                          /></p>
+                                    <p type="legal_section">Vor Ablauf dieser Frist kann das
+                                          Landesgesetz ohne Zustim <lb break="no"/>mung der
+                                          Staatsregierung nicht kundgemacht werden.Beschließt der
+                                                <lb break="yes"/>Landtag (der Wiener Gemeinderat)
+                                          auf dem ursprünglichen Beschlus <lb break="no"/>se zu
+                                          beharren, so hat dessen Kundmachung durch die Landesregie
+                                                <lb break="no"/>rung zu erfolgen.</p>
                               </div>
                               <div type="article">
+                                    <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
+                                    <fw type="pageNum">- 9 -</fw>
                                     <head>Artikel XVII. </head>
                                     <p type="legal_section">Gesetzesbeschlüsse der Landtage oder des
-                                          Wiener Gemeinderates
-                                          <lb break="yes"/>können wegen Verfassungswidrigkeit
-                                          (Artikel 6 - 14 ) von der
-                                          <lb break="yes"/>Staatsregierung binnen 14 Tagen nach
-                                          Einlangen der Mitteilung
-                                          <lb break="yes"/>und wenn gegen diese Beschlüsse im Sinne
-                                          des Artikels XVI zu
-                                          <lb break="no"/>nächst eine Vorstellung erhoben worden
-                                          ist, nach Ablauf weiterer </p>
-                                    <p type="legal_section"><label>14</label> Tage beim
-                                          Verfassungsgerichtshofe angefochten werden; diese
-                                          <lb break="yes"/>Anfechtung ist der Landesregierung
-                                          unverzüglich auf dem kürzesten
-                                          <lb break="yes"/>Wege mitzuteilen. Die Kundmachung des
-                                          angefochtenen Beschlusses
-                                          <lb break="yes"/>darf erst erfolgen, wenn der Gerichtshof
-                                          dessen Verfassungsmässig
-                                          <lb break="no"/>keit anerkannt hat; der
-                                          Verfassungsgerichtshof hat binnen Monats-</p>
-                                    <p type="legal_section">frist das Erkenntnis zu füllen,
-                                          widrigens die Kundmachung des ange
-                                          <lb break="no"/>fochtenen Gesetzesbeschlusses mit voller
-                                          Rechtswirkung erfolgen
-                                          <lb break="yes"/>kann.
-                                          <lb break="yes"/>Das gleiche Anfechtungsrecht wegen
-                                          Verfassungswidrigkeit
-                                          <lb break="yes"/>der Bundesgesetze und Bundesbeschlüsse
-                                          steht auch den Landtagen
-                                          <lb break="yes"/>(dem Wiener Gemeinderate) und wenn diese
-                                          nicht versammelt sind,
-                                          <lb break="yes"/>den Landesräten (dem Wiener Stadtrat) zu.
-                                          Die Frist zur Anfech
-                                          <lb break="no"/>tung läuft von dem auf den Tag des
-                                          Einlangens des Staatsgesetzblat
-                                          <lb break="no"/>tes bei der Landesregierung folgenden Tag.
-                                          <lb break="yes"/>Die Fristen der Artikel XVI und XVII sind
-                                          gewährt, wenn das
-                                          <lb break="yes"/>Schreiben vor Ablauf der Frist zur Post
-                                          gegeben worden ist.</p>
+                                          Wiener Gemeinderates <lb break="yes"/>können wegen
+                                          Verfassungswidrigkeit (Artikel 6 - 14 ) von der <lb
+                                                break="yes"/>Staatsregierung binnen 14 Tagen nach
+                                          Einlangen der Mitteilung <lb break="yes"/>und wenn gegen
+                                          diese Beschlüsse im Sinne des Artikels XVI zu <lb
+                                                break="no"/>nächst eine Vorstellung erhoben worden
+                                          ist, nach Ablauf weiterer 14 Tage beim
+                                          Verfassungsgerichtshofe angefochten werden; diese <lb
+                                                break="yes"/>Anfechtung ist der Landesregierung
+                                          unverzüglich auf dem kürzesten <lb break="yes"/>Wege
+                                          mitzuteilen. Die Kundmachung des angefochtenen Beschlusses
+                                                <lb break="yes"/>darf erst erfolgen, wenn der
+                                          Gerichtshof dessen Verfassungsmässig <lb break="no"/>keit
+                                          anerkannt hat; der Verfassungsgerichtshof hat binnen
+                                          Monatsfrist das Erkenntnis zu füllen, widrigens die
+                                          Kundmachung des ange <lb break="no"/>fochtenen
+                                          Gesetzesbeschlusses mit voller Rechtswirkung erfolgen <lb
+                                                break="yes"/>kann. <lb break="yes"/></p>
+                                    <p type="legal_section">Das gleiche Anfechtungsrecht wegen
+                                          Verfassungswidrigkeit <lb break="yes"/>der Bundesgesetze
+                                          und Bundesbeschlüsse steht auch den Landtagen <lb
+                                                break="yes"/>(dem Wiener Gemeinderate) und wenn
+                                          diese nicht versammelt sind, <lb break="yes"/>den
+                                          Landesräten (dem Wiener Stadtrat) zu. Die Frist zur Anfech
+                                                <lb break="no"/>tung läuft von dem auf den Tag des
+                                          Einlangens des Staatsgesetzblat <lb break="no"/>tes bei
+                                          der Landesregierung folgenden Tag. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Fristen der Artikel XVI und XVII
+                                          sind gewährt, wenn das <lb break="yes"/>Schreiben vor
+                                          Ablauf der Frist zur Post gegeben worden ist.</p>
                               </div>
                               <div type="article">
                                     <head>Artikel XVIII. </head>
-                                    <p type="legal_section">Der Bund wird vertreten:
-                                          <lb break="yes"/>a) durch die Bundesversammlung
-                                          <lb break="yes"/>b) durch das Länderhaus,
-                                          <lb break="yes"/>a) Die Bundesversammlung besteht aus dem
-                                          von allen zu den Landtagen
-                                          <lb break="yes"/>und zum Gemeinderate der Bundeshauptstadt
-                                          Wien wahlberechtigten
-                                          <lb break="yes"/>nach dem Verhältniswahlverfahren
-                                          gewählten Abgeordneten. Die
-                                          <lb break="yes"/>Einteilung der Wahlkreise unter Wahrung
-                                          der Gebietsgrenzen der
-                                          <lb break="yes"/>einzelnen Bundesglieder und das
-                                          Wahlverfahren wird durch beson-</p>
-                                    <p type="legal_section">14</p>
-                                    <pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/>
-                                    <p type="legal_section">-10-
-                                          <lb break="yes"/>deres Gesetz, das einen Bestandteil der
-                                          Bundesverfassung bil
-                                          <lb break="no"/>det, geregelt.
-                                          <lb break="yes"/>Die Anzahl der aus jedem Wahlkreise zur
-                                          Bundesversammlung
-                                          <lb break="yes"/>zu wählenden Abgeordneten richtet sich
-                                          nach der Anzahl der Be
-                                          <lb break="no"/>wohner zur Zeit der jeweilig letzten
-                                          Volkszählung, wobei es auf
-                                          <lb break="yes"/>je 50.000 Einwohner 1 Abgeordneten
-                                          trifft. Bruchteile bis
-                                          <lb break="yes"/>einschließlich 10.000 Einwohner bleiben
-                                          unberücksichtigt, Bruch
-                                          <lb break="no"/>teile von 10.000 und darüber zählen für
-                                          voll.</p>
-                                    <p type="legal_section">b) Das Länderhaus besteht aus den von
-                                          den Landtagen und dem
-                                          <lb break="yes"/>Gemeinderate der Bundeshauptstadt Wien
-                                          nach den Grundsätzen des
-                                          <lb break="yes"/>Verhältniswahlrechtes gewählten
-                                          Vertretern der Bundesglieder;
-                                          <lb break="yes"/>jedes Bundesglied entsendet in das
-                                          Länderhaus 5 Vertreter; die
-                                          <lb break="yes"/>Vertretung kann nicht widerrufen werden;
-                                          für ausscheidende Ver
-                                          <lb break="no"/>treter ist so bald als möglich eine
-                                          Nachwahl durchzuführen. 1)
-                                          <lb break="yes"/>Die Art der Wahl und die Voraussetzungen
-                                          der Wählbarkeit
-                                          <lb break="yes"/>bestimmt die Landesgesetzgebung.
-                                          <lb break="yes"/>Im Länderhaus hat jedes Bundesglied eine
-                                          Stimme; diese</p>
-                                    <p type="legal_section">Stimme wird nach der einfachen Mehrheit
-                                          seiner an der Abstim
-                                          <lb break="no"/>mung teilnehmenden Vertreter ermittelt;
-                                          Stimmengleichheit be
-                                          <lb break="no"/>dingt Stimmenenthaltung für das
-                                          betreffende Bundesglied. </p>
+                                    <p type="legal_section">Der Bund wird vertreten: <lb break="yes"/><list>
+                                                <label>a) </label>
+                                                <item>durch die Bundesversammlung <lb break="yes"/>
+                                                </item>
+                                                <label>b)  </label>
+                                                <item>durch das Länderhaus, <lb break="yes"/>
+                                                </item>
+                                                <label>a)  </label>
+                                                <item>Die Bundesversammlung besteht aus dem von
+                                                  allen zu den Landtagen <lb break="yes"/>und zum
+                                                  Gemeinderate der Bundeshauptstadt Wien
+                                                  wahlberechtigten <lb break="yes"/>nach dem
+                                                  Verhältniswahlverfahren gewählten Abgeordneten.
+                                                  Die <lb break="yes"/>Einteilung der Wahlkreise
+                                                  unter Wahrung der Gebietsgrenzen der <lb
+                                                  break="yes"/>einzelnen Bundesglieder und das
+                                                  Wahlverfahren wird durch beson- <fw type="pageNum"
+                                                  >14</fw><pb facs="#facs_11" n="11"
+                                                  xml:id="img_0011" break="yes"/><fw type="pageNum"
+                                                  >-10- </fw>deres Gesetz, das einen Bestandteil der
+                                                  Bundesverfassung bil <lb break="no"/>det,
+                                                  geregelt. <lb break="yes"/>Die Anzahl der aus
+                                                  jedem Wahlkreise zur Bundesversammlung zu
+                                                  wählenden Abgeordneten richtet sich nach der
+                                                  Anzahl der Be wohner zur Zeit der jeweilig letzten
+                                                  Volkszählung, wobei es auf je 50.000 Einwohner 1
+                                                  Abgeordneten trifft. Bruchteile bis einschließlich
+                                                  10.000 Einwohner bleiben unberücksichtigt, Bruch
+                                                  teile von 10.000 und darüber zählen für
+                                                  voll.</item>
+                                                <label>b)  </label>
+                                                <item>Das Länderhaus besteht aus den von den
+                                                  Landtagen und dem <lb break="yes"/>Gemeinderate
+                                                  der Bundeshauptstadt Wien nach den Grundsätzen des
+                                                  <lb break="yes"/>Verhältniswahlrechtes gewählten
+                                                  Vertretern der Bundesglieder; <lb break="yes"
+                                                  />jedes Bundesglied entsendet in das Länderhaus 5
+                                                  Vertreter; die <lb break="yes"/>Vertretung kann
+                                                  nicht widerrufen werden; für ausscheidende Ver <lb
+                                                  break="no"/>treter ist so bald als möglich eine
+                                                  Nachwahl durchzuführen. 1) <lb break="yes"/>Die
+                                                  Art der Wahl und die Voraussetzungen der
+                                                  Wählbarkeit <lb break="yes"/>bestimmt die
+                                                  Landesgesetzgebung. <lb break="yes"/>Im Länderhaus
+                                                  hat jedes Bundesglied eine Stimme; diese Stimme
+                                                  wird nach der einfachen Mehrheit seiner an der
+                                                  Abstim <lb break="no"/>mung teilnehmenden
+                                                  Vertreter ermittelt; Stimmengleichheit be <lb
+                                                  break="no"/>dingt Stimmenenthaltung für das
+                                                  betreffende Bundesglied. <note type="comment">1)
+                                                  Falser möchte die Rechte der Länder bei Auswahl
+                                                  ihrer Vertreter <lb break="yes"/>nicht beschränken
+                                                  durch die Forderung des
+                                                  Verhältniswahlrechtes.</note></item>
+                                          </list></p>
                               </div>
                               <div type="article">
                                     <head>Artikel XIX. </head>
                                     <p type="legal_section">Die Bundesversammlungen und das
-                                          Länderhaus werden auf 6
-                                          <lb break="yes"/>Jahre gewählt. Sinkt aber die Zahl der
-                                          Mitglieder einer dieser
-                                          <lb break="yes"/>Körperschaften bis auf die Hälfte seiner
-                                          gesetzmässigen Anzahl,
-                                          <lb break="yes"/>sind in beiden Körperschaften Neuwahlen
-                                          durchzuführen; die Amts
-                                          <lb break="no"/>dauer der neugewählten Vertretungen
-                                          beträgt wieder 6 Jahre
-                                          <lb break="yes"/>Der Beginn der Amtsdauer wird in allen
-                                          Fällen vom Tage des </p>
-                                    <p type="legal_section"><label>1.</label> Zusammentrittes der
-                                          Bundesversammlung gerechnet.
-                                          <lb break="yes"/>Die Neuwahlen sind so zeitig
-                                          auszuschreiben, daß die Mitglie
-                                          <lb break="no"/>der der neuen Bundesversammlung und des
-                                          Länderhauses noch vor
-                                          <lb break="yes"/>Ablauf der sechsjährigen Amtsdauer der
-                                          abtretenden Bundesver
-                                          <lb break="no"/>--------------------------- </p>
-                                    <p type="legal_section"><label>1)</label> Falser möchte die
-                                          Rechte der Länder bei Auswahl ihrer Vertreter
-                                          <lb break="yes"/>nicht beschränken durch die Forderung des
-                                          Verhältniswahlrechtes.</p>
-                                    <pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/>
-                                    <p type="legal_section">- 11
-                                          <lb break="no"/>tretung gewählt sein können. Für die
-                                          Einhaltung dieser Frist ist der
-                                          <lb break="yes"/>Bundesrat der neuen Bundesversammlung
-                                          verantwortlich.
-                                          <lb break="yes"/>Falls einzelne Bundesglieder ihre
-                                          Vertreter im Länderhause
-                                          <lb break="yes"/>nicht rechtzeitig wählen, gilt dies als
-                                          Stimmenthaltung bis zum
-                                          <lb break="yes"/>Eintritte der Vertreter (Schlußabsatz des
-                                          Artikel XVIII.) </p>
+                                          Länderhaus werden auf 6 <lb break="yes"/>Jahre gewählt.
+                                          Sinkt aber die Zahl der Mitglieder einer dieser <lb
+                                                break="yes"/>Körperschaften bis auf die Hälfte
+                                          seiner gesetzmässigen Anzahl, <lb break="yes"/>sind in
+                                          beiden Körperschaften Neuwahlen durchzuführen; die Amts
+                                                <lb break="no"/>dauer der neugewählten Vertretungen
+                                          beträgt wieder 6 Jahre <lb break="yes"/></p>
+                                    <p type="legal_section">Der Beginn der Amtsdauer wird in allen
+                                          Fällen vom Tage des 1. Zusammentrittes der
+                                          Bundesversammlung gerechnet. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Neuwahlen sind so zeitig
+                                          auszuschreiben, daß die Mitglie <lb break="no"/>der der
+                                          neuen Bundesversammlung und des Länderhauses noch vor <lb
+                                                break="yes"/>Ablauf der sechsjährigen Amtsdauer der
+                                          abtretenden Bundesver <pb facs="#facs_12" n="12"
+                                                xml:id="img_0012" break="yes"/><fw type="pageNum">-
+                                                11 </fw><lb break="no"/>tretung gewählt sein können.
+                                          Für die Einhaltung dieser Frist ist der <lb break="yes"
+                                          />Bundesrat der neuen Bundesversammlung verantwortlich.
+                                                <lb break="yes"/></p>
+                                    <p type="legal_section">Falls einzelne Bundesglieder ihre
+                                          Vertreter im Länderhause <lb break="yes"/>nicht
+                                          rechtzeitig wählen, gilt dies als Stimmenthaltung bis zum
+                                                <lb break="yes"/>Eintritte der Vertreter
+                                          (Schlußabsatz des Artikel XVIII.) </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XX. </head>
@@ -880,27 +816,26 @@
                               <div type="article">
                                     <head>Artikel XXII. </head>
                                     <p type="legal_section">Zu einem giltigen Beschlüsse ist in
-                                          beiden Vertretungskörpern
-                                          <lb break="yes"/>des Bundes die einfache Mehrheit der in
-                                          beschlußfähiger Zahl an
-                                          <lb break="no"/>wesenden Mitglieder erfordert, insoferne
-                                          nicht die Gesetze abweichen
-                                          <lb break="no"/>de Bestimmungen treffen.
-                                          <lb break="yes"/>Die Beschlußfähigkeit der
-                                          Bundesversammlung richtet sich nach
-                                          <lb break="yes"/>dem für den Staat Deutschösterreich
-                                          beschlossenen Gesetze vom 5.
-                                          <lb break="yes"/>März 1919, St. G. Bl. Nr. 162.
-                                          <lb break="yes"/>Die Beschlußfähigkeit des Länderhauses
-                                          ist gegeben, wenn wenig
-                                          <lb break="no"/>stens 4 Bundesglieder an der Abstimmung
-                                          teilnehmen.
-                                          <lb break="yes"/>Abgelehnte Anträge können erst nach
-                                          Durchführung allgemeiner
-                                          <lb break="yes"/>Neuwahlen wieder eingebracht werden.</p>
-                                    <p type="legal_section">15</p>
+                                          beiden Vertretungskörpern <lb break="yes"/>des Bundes die
+                                          einfache Mehrheit der in beschlußfähiger Zahl an <lb
+                                                break="no"/>wesenden Mitglieder erfordert, insoferne
+                                          nicht die Gesetze abweichen <lb break="no"/>de
+                                          Bestimmungen treffen. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Beschlußfähigkeit der
+                                          Bundesversammlung richtet sich nach <lb break="yes"/>dem
+                                          für den Staat Deutschösterreich beschlossenen Gesetze vom
+                                          5. <lb break="yes"/>März 1919, St. G. Bl. Nr. 162. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Beschlußfähigkeit des Länderhauses
+                                          ist gegeben, wenn wenig <lb break="no"/>stens 4
+                                          Bundesglieder an der Abstimmung teilnehmen. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Abgelehnte Anträge können erst nach
+                                          Durchführung allgemeiner <lb break="yes"/>Neuwahlen wieder
+                                          eingebracht werden.</p>
+                                    <fw type="pageNum">15</fw>
                                     <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
-                                    <p type="legal_section">- 12 - </p>
+                                    <fw type="pageNum">- 12 - </fw>
                               </div>
                               <div type="article">
                                     <head>Artikel XXIII. </head>
@@ -929,15 +864,13 @@
                               <div type="article">
                                     <head>Artikel XXV.</head>
                                     <p type="legal_section">Bundesgesetze, sowie allgemein
-                                          verbindliche Bundesbeschlüsse
-                                          <lb break="yes"/>sind dem Volke zur Annahme oder
-                                          Verwerfung vorzulegen, wenn es von
-                                          <lb break="yes"/>50.000 Bundesbürgern oder von 3
-                                          Bundesgliedern verlangt wird.
-                                          <lb break="yes"/>Die Durchführung der Volksabstimmung und
-                                          die Frist zur Einbrin
-                                          <lb break="no"/>gung dieses Verlangens wird durch
-                                          Bundesgesetz geregelt. </p>
+                                          verbindliche Bundesbeschlüsse <lb break="yes"/>sind dem
+                                          Volke zur Annahme oder Verwerfung vorzulegen, wenn es von
+                                                <lb break="yes"/>50.000 Bundesbürgern oder von 3
+                                          Bundesgliedern verlangt wird. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Durchführung der Volksabstimmung und
+                                          die Frist zur Einbrin <lb break="no"/>gung dieses
+                                          Verlangens wird durch Bundesgesetz geregelt. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXVI. </head>
@@ -948,60 +881,52 @@
                               <div type="article">
                                     <head>Artikel XXVII.</head>
                                     <p type="legal_section">Die oberste vollziehende und leitende
-                                          Verwaltungsbehörde
-                                          <lb break="yes"/>des Bundesstaates ist der Bundesrat, der
-                                          aus 7 Mitgliedern besteht.
-                                          <lb break="yes"/>Die Mitglieder werden von der
-                                          Bundesversammlung aus allen in
-                                          <lb break="yes"/>die Bundesversammlung wählbaren Bürgern
-                                          auf die Dauer von 3 Jahren
-                                          <lb break="yes"/>ernannt. Nach jeder Gesamterneuerung der
-                                          Bundesversammlung wird auch
-                                          <lb break="yes"/>der Bundesrat erneuert; die in der
-                                          Zwischenzeit freigewordenen Stel
-                                          <lb break="no"/>len werden bei der nächstfolgenden Tagung
-                                          der Bundesversammlung</p>
-                                    <pb facs="#facs_14" n="14" xml:id="img_0014" break="yes"/>
-                                    <p type="legal_section">- 13
-                                          <lb break="no"/>für den Rest der Amtsdauer wieder besetzt.
-                                          <lb break="yes"/>Die Mitglieder des Bundesrates dürfen
-                                          keine andere dienstliche
-                                          <lb break="yes"/>Stellung, sei es im Dienste des
-                                          Bundesstaates, sei es im Dienste
-                                          <lb break="yes"/>eines Bundesgliedes bekleiden, noch
-                                          irgend einen andern Beruf
-                                          <lb break="yes"/>oder ein Gewerbe ausüben.
-                                          <lb break="yes"/>Der Bundesrat führt die Geschäfte bis zum
-                                          Zeitpunkte, in
-                                          <lb break="yes"/>welchem diese dem neugewählten Bundesrate
-                                          übergeben werden. Die
-                                          <lb break="yes"/>Uebergabe hat binnen 14 Tagen nach
-                                          erfolgter Neuwahl in einer vom
-                                          <lb break="yes"/>abtretenden Bundespräsidenten oder seinem
-                                          Stellvertreter zu diesem
-                                          <lb break="yes"/>Zwecke einzuberufenden gemeinsamen
-                                          Sitzung stattzufinden. Unter
-                                          <lb break="no"/>bleibt die fristgerechte Einberufung durch
-                                          diese Personen, so hat
-                                          <lb break="yes"/>das älteste Mitglied des neu gewählten
-                                          Bundesrates und wenn auch
-                                          <lb break="yes"/>dieser es unterläßt, der Bundeskanzler
-                                          die Einberufungsschreiben zu
-                                          <lb break="yes"/>erlassen.</p>
+                                          Verwaltungsbehörde <lb break="yes"/>des Bundesstaates ist
+                                          der Bundesrat, der aus 7 Mitgliedern besteht. <lb
+                                                break="yes"/></p>
+                                    <p type="legal_section">Die Mitglieder werden von der
+                                          Bundesversammlung aus allen in <lb break="yes"/>die
+                                          Bundesversammlung wählbaren Bürgern auf die Dauer von 3
+                                          Jahren <lb break="yes"/>ernannt. Nach jeder
+                                          Gesamterneuerung der Bundesversammlung wird auch <lb
+                                                break="yes"/>der Bundesrat erneuert; die in der
+                                          Zwischenzeit freigewordenen Stel <lb break="no"/>len
+                                          werden bei der nächstfolgenden Tagung der
+                                                Bundesversammlung<pb facs="#facs_14" n="14"
+                                                xml:id="img_0014" break="yes"/><fw type="pageNum">-
+                                                13 </fw><lb break="no"/>für den Rest der Amtsdauer
+                                          wieder besetzt. <lb break="yes"/></p>
+                                    <p type="legal_section">Die Mitglieder des Bundesrates dürfen
+                                          keine andere dienstliche <lb break="yes"/>Stellung, sei es
+                                          im Dienste des Bundesstaates, sei es im Dienste <lb
+                                                break="yes"/>eines Bundesgliedes bekleiden, noch
+                                          irgend einen andern Beruf <lb break="yes"/>oder ein
+                                          Gewerbe ausüben. <lb break="yes"/></p>
+                                    <p type="legal_section">Der Bundesrat führt die Geschäfte bis
+                                          zum Zeitpunkte, in <lb break="yes"/>welchem diese dem
+                                          neugewählten Bundesrate übergeben werden. Die <lb
+                                                break="yes"/>Uebergabe hat binnen 14 Tagen nach
+                                          erfolgter Neuwahl in einer vom <lb break="yes"
+                                          />abtretenden Bundespräsidenten oder seinem Stellvertreter
+                                          zu diesem <lb break="yes"/>Zwecke einzuberufenden
+                                          gemeinsamen Sitzung stattzufinden. Unter <lb break="no"
+                                          />bleibt die fristgerechte Einberufung durch diese
+                                          Personen, so hat <lb break="yes"/>das älteste Mitglied des
+                                          neu gewählten Bundesrates und wenn auch <lb break="yes"
+                                          />dieser es unterläßt, der Bundeskanzler die
+                                          Einberufungsschreiben zu <lb break="yes"/>erlassen.</p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXVIII. </head>
                                     <p type="legal_section">Den Vorsitz im Bundesrate führt der
-                                          Bundespräsident, der aus
-                                          <lb break="yes"/>seinen Mitgliedern von der
-                                          Bundesversammlung für die Dauer von
-                                          <lb break="yes"/>3 Jahren gewählt wird; das gleiche gilt
-                                          für die Wahl seines Stell
-                                          <lb break="no"/>vertreters im Vorsitze.
-                                          <lb break="yes"/>Um giltig verhandeln und beschliessen zu
-                                          können, ist die An
-                                          <lb break="no"/>wesenheit von wenigstens 4 Mitgliedern des
-                                          Bundesrates notwendig. </p>
+                                          Bundespräsident, der aus <lb break="yes"/>seinen
+                                          Mitgliedern von der Bundesversammlung für die Dauer von
+                                                <lb break="yes"/>3 Jahren gewählt wird; das gleiche
+                                          gilt für die Wahl seines Stell <lb break="no"/>vertreters
+                                          im Vorsitze. <lb break="yes"/></p>
+                                    <p type="legal_section">Um giltig verhandeln und beschliessen zu
+                                          können, ist die An <lb break="no"/>wesenheit von
+                                          wenigstens 4 Mitgliedern des Bundesrates notwendig. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXIX. </head>
@@ -1012,83 +937,80 @@
                               <div type="article">
                                     <head>Artikel XXX. </head>
                                     <p type="legal_section">Die Mitglieder des Bundesrates haben bei
-                                          den Verhandlungen der
-                                          <lb break="yes"/>Bundesversammlung und des Ländeshauses,
-                                          insoweit sie nicht Mitglie
-                                          <lb break="no"/>der dieser Körperschaft sind, eine
-                                          beratende Stimme und auch das
-                                          <lb break="yes"/>Recht, über einen zur Beratung gestellten
-                                          Gegenstand Anträge zu
-                                          <lb break="yes"/>stellen.</p>
-                                    <p type="legal_section">16</p>
-                                    <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
-                                    <p type="legal_section">- 14 - </p>
+                                          den Verhandlungen der <lb break="yes"/>Bundesversammlung
+                                          und des Ländeshauses, insoweit sie nicht Mitglie <lb
+                                                break="no"/>der dieser Körperschaft sind, eine
+                                          beratende Stimme und auch das <lb break="yes"/>Recht, über
+                                          einen zur Beratung gestellten Gegenstand Anträge zu <lb
+                                                break="yes"/>stellen.</p>
+                                    <fw type="pageNum">16</fw>
                               </div>
                               <div type="article">
+                                    <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
+                                    <fw type="pageNum">- 14 -</fw>
                                     <head>Artikel XXXI. </head>
                                     <p type="legal_section">Der Bundesrat hat insbesondere folgende
-                                          Befugnisse und
-                                          <lb break="yes"/>Pflichten: </p>
-                                    <p type="legal_section"><label>1.)</label> Er leitet die
-                                          bundesstaatlichen Angelegenheiten gemäß den Bundes
-                                          <lb break="no"/>gesetzen und Bundesbeschlüssen, nach Mass
-                                          der im Artikel XIV fest
-                                          <lb break="no"/>gelegten Zuständigkeit der Bundesgewalt. </p>
-                                    <p type="legal_section"><label>2.)</label> Er hat die
-                                          Beobachtung der Verfassung, der Gesetze und Beschlüsse
-                                          <lb break="yes"/>des Bundes zu überwachen, </p>
-                                    <p type="legal_section"><label>3.)</label> er schlägt der
-                                          Bundesversammlung oder dem Länderhause oder beiden
-                                          <lb break="yes"/>Vertretungskörpern gleichzeitig mit
-                                          Beachtung der im Artikel XXI
-                                          <lb break="yes"/>aufgestellten Einschränkung Gesetze und
-                                          Beschlüsse vor und begut
-                                          <lb break="no"/>achtet die Anträge, die von diesen
-                                          Vertretungskörpern oder von den</p>
-                                    <p type="legal_section">gesetzlichen Vertretungen der
-                                          Bundesglieder an ihn gelangen, </p>
-                                    <p type="legal_section"><label>4.)</label> er vollzieht die
-                                          Bundesgesetze und Beschlüsse </p>
-                                    <p type="legal_section"><label>5.)</label> er wahrt die
-                                          Interessen des Bundesstaates nach aussen und besorgt
-                                          <lb break="yes"/>alle auswärtigen Angelegenheiten, er
-                                          wacht für die äussere Sicherung
-                                          <lb break="yes"/>und für die Behauptung der Unabhängigkeit
-                                          des Bundesstaates; er
-                                          <lb break="yes"/>vertritt den Staat im Völkerbunde.
-                                          <lb break="yes"/>Die Länder können auf ihre Kosten den
-                                          auswärtigen Vertretungen
-                                          <lb break="yes"/>des Bundes wirtschaftliche Vertreter zur
-                                          Wahrung ihrer besonderen
-                                          <lb break="yes"/>Landesinteressen angliedern. Diese sind
-                                          sachverständige Beiräte der
-                                          <lb break="yes"/>Bundesvertreter und Berichterstatter der
-                                          sie abordnenden Länder, mit
-                                          <lb break="yes"/>deren Landesregierungen sie unmittelbar
-                                          verkehren; </p>
-                                    <p type="legal_section"><label>6.)</label> er sorgt für die
-                                          öffentliche Sicherheit im Innern des Staates und
-                                          <lb break="yes"/>für die Aufrechthaltung der Ruhe und
-                                          Ordnung nach Massgabe des</p>
-                                    <p type="legal_section">Artikels III. </p>
-                                    <p type="legal_section"><label>7.)</label> er hat die Aufsicht
-                                          über die Geschäftsführung aller Beamten und
-                                          <lb break="yes"/>Angestellten der bundesstaatlichen
-                                          Verwaltung, </p>
-                                    <p type="legal_section"><label>8.)</label> er erstattet der
-                                          Bundesversammlung bei ihrer ordentlichen Tagung
-                                          <lb break="yes"/>Rechenschaft über seine Tätigkeit, sowie
-                                          einen Bericht übere die
-                                          <lb break="yes"/>Gesamtlage des Bundesstaates im Innern
-                                          und nach Aussen; er hat auch
-                                          <lb break="yes"/>besondere Berichte zu erstatten, wenn die
-                                          Bundesversammlung oder
-                                          <lb break="yes"/>das Länderhaus es verlangen.</p>
-                                    <pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/>
-                                    <p type="legal_section">- 15
-                                          <lb break="no"/>Für seine gesamte Amtsführung ist er der
-                                          Bundesversammlung ver
-                                          <lb break="no"/>antwortlich. </p>
+                                          Befugnisse und <lb break="yes"/>Pflichten: <list>
+                                                <label>1.)</label>
+                                                <item>Er leitet die bundesstaatlichen
+                                                  Angelegenheiten gemäß den Bundes <lb break="no"
+                                                  />gesetzen und Bundesbeschlüssen, nach Mass der im
+                                                  Artikel XIV fest <lb break="no"/>gelegten
+                                                  Zuständigkeit der Bundesgewalt.  </item>
+                                                <label>2.)</label>
+                                                <item>Er hat die Beobachtung der Verfassung, der
+                                                  Gesetze und Beschlüsse <lb break="yes"/>des Bundes
+                                                  zu überwachen,  </item>
+                                                <label>3.)</label>
+                                                <item> er schlägt der Bundesversammlung oder dem
+                                                  Länderhause oder beiden <lb break="yes"
+                                                  />Vertretungskörpern gleichzeitig mit Beachtung
+                                                  der im Artikel XXI <lb break="yes"/>aufgestellten
+                                                  Einschränkung Gesetze und Beschlüsse vor und begut
+                                                  <lb break="no"/>achtet die Anträge, die von diesen
+                                                  Vertretungskörpern oder von den gesetzlichen
+                                                  Vertretungen der Bundesglieder an ihn gelangen, </item>
+                                                <label>4.)</label>
+                                                <item> er vollzieht die Bundesgesetze und Beschlüsse  </item>
+                                                <label>5.)</label>
+                                                <item>er wahrt die Interessen des Bundesstaates nach
+                                                  aussen und besorgt <lb break="yes"/>alle
+                                                  auswärtigen Angelegenheiten, er wacht für die
+                                                  äussere Sicherung <lb break="yes"/>und für die
+                                                  Behauptung der Unabhängigkeit des Bundesstaates;
+                                                  er <lb break="yes"/>vertritt den Staat im
+                                                  Völkerbunde. <lb break="yes"/>Die Länder können
+                                                  auf ihre Kosten den auswärtigen Vertretungen <lb
+                                                  break="yes"/>des Bundes wirtschaftliche Vertreter
+                                                  zur Wahrung ihrer besonderen <lb break="yes"
+                                                  />Landesinteressen angliedern. Diese sind
+                                                  sachverständige Beiräte der <lb break="yes"
+                                                  />Bundesvertreter und Berichterstatter der sie
+                                                  abordnenden Länder, mit <lb break="yes"/>deren
+                                                  Landesregierungen sie unmittelbar verkehren; </item>
+                                                <label>6.)</label>
+                                                <item> er sorgt für die öffentliche Sicherheit im
+                                                  Innern des Staates und <lb break="yes"/>für die
+                                                  Aufrechthaltung der Ruhe und Ordnung nach Massgabe
+                                                  des Artikels III.  </item>
+                                                <label>7.)</label>
+                                                <item> er hat die Aufsicht über die Geschäftsführung
+                                                  aller Beamten und <lb break="yes"/>Angestellten
+                                                  der bundesstaatlichen Verwaltung, </item>
+                                                <label>8.)</label>
+                                                <item> er erstattet der Bundesversammlung bei ihrer
+                                                  ordentlichen Tagung <lb break="yes"/>Rechenschaft
+                                                  über seine Tätigkeit, sowie einen Bericht übere
+                                                  die <lb break="yes"/>Gesamtlage des Bundesstaates
+                                                  im Innern und nach Aussen; er hat auch <lb
+                                                  break="yes"/>besondere Berichte zu erstatten, wenn
+                                                  die Bundesversammlung oder <lb break="yes"/>das
+                                                  Länderhaus es verlangen. </item>
+                                          </list></p>
+                                    <p type="legal_section"><pb facs="#facs_16" n="16"
+                                                xml:id="img_0016" break="yes"/><fw type="pageNum">-
+                                                15</fw>Für seine gesamte Amtsführung ist er der
+                                          Bundesversammlung ver <lb break="no"/>antwortlich. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXXII. </head>
@@ -1100,132 +1022,116 @@
                               <div type="article">
                                     <head>Artikel XXXIII. </head>
                                     <p type="legal_section">Zur Erledigung aller Geschäfte des
-                                          Bundesrates ist ihm die
-                                          <lb break="yes"/>Bundeskanzlei beigegeben, die unter
-                                          Aufsicht des dem Bundesrate
-                                          <lb break="yes"/>verantwortlichen Bundeskanzlers die ihr
-                                          übertragenen Geschäfte zu
-                                          <lb break="yes"/>erledigen hat.
-                                          <lb break="yes"/>Der Vorstand der Bundeskanzlei
-                                          (Bundeskanzler) wird von der
-                                          <lb break="yes"/>Bundesversammlung auf die Dauer von 3
-                                          Jahren gleichzeitig mit
-                                          <lb break="yes"/>dem Bundesrate gewählt.
-                                          <lb break="yes"/>Der Bundeskanzler bleibt auch nach Ablauf
-                                          seiner Amtsdauer</p>
-                                    <p type="legal_section">im Amte, bis die Uebergabe der Geschäfte
-                                          (Artikel XXVII) an seinen
-                                          <lb break="yes"/>Nachfolger erfolgt ist. Seine, sowie der
-                                          übrigen Angestellten der
-                                          <lb break="yes"/>Bundeskanzlei dienstliche Stellung und
-                                          der Inhalt des von diesen
-                                          <lb break="yes"/>Personen abzulegenden Diensteides wird
-                                          durch Bundesbeamtengesetz
-                                          <lb break="yes"/>festgestellt.
-                                          <lb break="yes"/>Falls der Bundeskanzler im Sinne des
-                                          Artikels XXVII die
-                                          <lb break="yes"/>Sitzung zur Uebergabe der
-                                          Regierungsgeschäfte vom alten an den
-                                          <lb break="yes"/>neuen Bundesrat einzuberufen in die Lage
-                                          kommt, handelt er nicht
-                                          <lb break="yes"/>als Bundesbeamter, sondern in Vertretung
-                                          des Volkes; er ist in
-                                          <lb break="yes"/>dieser Eigenschaft ausschließlich der
-                                          Bundesversammlung verantwortlich. </p>
+                                          Bundesrates ist ihm die <lb break="yes"/>Bundeskanzlei
+                                          beigegeben, die unter Aufsicht des dem Bundesrate <lb
+                                                break="yes"/>verantwortlichen Bundeskanzlers die ihr
+                                          übertragenen Geschäfte zu <lb break="yes"/>erledigen hat.
+                                                <lb break="yes"/></p>
+                                    <p type="legal_section">Der Vorstand der Bundeskanzlei
+                                          (Bundeskanzler) wird von der <lb break="yes"
+                                          />Bundesversammlung auf die Dauer von 3 Jahren
+                                          gleichzeitig mit <lb break="yes"/>dem Bundesrate gewählt.
+                                                <lb break="yes"/></p>
+                                    <p type="legal_section">Der Bundeskanzler bleibt auch nach
+                                          Ablauf seiner Amtsdauer im Amte, bis die Uebergabe der
+                                          Geschäfte (Artikel XXVII) an seinen <lb break="yes"
+                                          />Nachfolger erfolgt ist. Seine, sowie der übrigen
+                                          Angestellten der <lb break="yes"/>Bundeskanzlei
+                                          dienstliche Stellung und der Inhalt des von diesen <lb
+                                                break="yes"/>Personen abzulegenden Diensteides wird
+                                          durch Bundesbeamtengesetz <lb break="yes"/>festgestellt.
+                                                <lb break="yes"/></p>
+                                    <p type="legal_section">Falls der Bundeskanzler im Sinne des
+                                          Artikels XXVII die <lb break="yes"/>Sitzung zur Uebergabe
+                                          der Regierungsgeschäfte vom alten an den <lb break="yes"
+                                          />neuen Bundesrat einzuberufen in die Lage kommt, handelt
+                                          er nicht <lb break="yes"/>als Bundesbeamter, sondern in
+                                          Vertretung des Volkes; er ist in <lb break="yes"/>dieser
+                                          Eigenschaft ausschließlich der Bundesversammlung
+                                          verantwortlich. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXXIV. </head>
                                     <p type="legal_section">Die im Kaiserstaate Oesterreich im
-                                          Zeitpunkte der Einführung
-                                          <lb break="yes"/>der Republik in Geltung gestandenen
-                                          Gesetze und die auf gesetzlicher
-                                          <lb break="yes"/>Grundlage erlassenen Verordnungen der
-                                          k.k. Behörden, dann die
-                                          <lb break="yes"/>seit Einführung der republikanischen
-                                          Staatsform in Kraft getretenen</p>
-                                    <p type="legal_section">17</p>
-                                    <pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/>
-                                    <p type="legal_section">- 16
+                                          Zeitpunkte der Einführung <lb break="yes"/>der Republik in
+                                          Geltung gestandenen Gesetze und die auf gesetzlicher <lb
+                                                break="yes"/>Grundlage erlassenen Verordnungen der
+                                          k.k. Behörden, dann die <lb break="yes"/>seit Einführung
+                                          der republikanischen Staatsform in Kraft getretenen<fw
+                                                type="pageNum">17</fw><pb facs="#facs_17" n="17"
+                                                xml:id="img_0017" break="yes"/><fw type="pageNum">-
+                                                16</fw>
                                           <lb break="no"/>Gesetze und auf gesetzlicher Grundlage
-                                          erlassenen Verordnungen
-                                          <lb break="yes"/>der Behörden der Republik
-                                          Deutschösterreich werden als geltendes
-                                          <lb break="yes"/>Recht des Bundesstaates und seiner
-                                          Gliedstaaten übernommen, insoweit
-                                          <lb break="yes"/>diese Bundesverfassung nicht
-                                          Gegenteiliges enthält; die Aenderung
-                                          <lb break="yes"/>der verfassungsmässigen Zuständigkeit auf
-                                          dem Gebiete der Gesetzge
-                                          <lb break="no"/>bung und Verwaltung berührt die Fortdauer
-                                          der Giltigkeit der vor
-                                          <lb break="no"/>stehend erwähnten Gesetze und Verordnungen
-                                          nicht. </p>
+                                          erlassenen Verordnungen <lb break="yes"/>der Behörden der
+                                          Republik Deutschösterreich werden als geltendes <lb
+                                                break="yes"/>Recht des Bundesstaates und seiner
+                                          Gliedstaaten übernommen, insoweit <lb break="yes"/>diese
+                                          Bundesverfassung nicht Gegenteiliges enthält; die
+                                          Aenderung <lb break="yes"/>der verfassungsmässigen
+                                          Zuständigkeit auf dem Gebiete der Gesetzge <lb break="no"
+                                          />bung und Verwaltung berührt die Fortdauer der Giltigkeit
+                                          der vor <lb break="no"/>stehend erwähnten Gesetze und
+                                          Verordnungen nicht. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXXV.</head>
                                     <p type="legal_section">Zur Aenderung der Bestimmungen dieser
-                                          Bundesverfassung ist
-                                          <lb break="yes"/>erforderlich:
-                                          <lb break="yes"/>1.) Ein mit 2/3 Mehrheit der in
-                                          beschlussfähiger Anzahl versammelten
-                                          <lb break="yes"/>Bundesversammlung gefasster Beschluß auf
-                                          Aenderung der Verfassung, </p>
-                                    <p type="legal_section"><label>2.)</label> ein mit wenigstens 4
-                                          Stimmen gefasster gleichlautender Beschluss des
-                                          <lb break="yes"/>Länderhauses, </p>
-                                    <p type="legal_section"><label>3.)</label> die Annahme dieses
-                                          Beschlusses durch das Volk in einer allgemein
-                                          <lb break="yes"/>vom Bundesrate binnen 6 Monaten auf einen
-                                          Sonntag auszuschreibenden
-                                          <lb break="yes"/>Volksabstimmung durch die Mehrheit der
-                                          giltig abgegebenen Stimmen.
-                                          <lb break="yes"/>Jeder zu den Wahlen in die Landtage (dem
-                                          Wiener Gemeinderat)
-                                          <lb break="yes"/>Wahlberechtigte hat eine Stimme.
-                                          <lb break="yes"/>Ein Bundesgesetz wird die näheren
-                                          Bestimmungen über die Durch
-                                          <lb break="no"/>führung dieser Wahl und die Art der
-                                          Fragestellung regeln.</p>
+                                          Bundesverfassung ist <lb break="yes"/>erforderlich: <list>
+                                                <label>1.) </label>
+                                                <item> Ein mit 2/3 Mehrheit der in beschlussfähiger
+                                                  Anzahl versammelten <lb break="yes"
+                                                  />Bundesversammlung gefasster Beschluß auf
+                                                  Aenderung der Verfassung,  </item>
+                                                <label>2.)</label>
+                                                <item>ein mit wenigstens 4 Stimmen gefasster
+                                                  gleichlautender Beschluss des <lb break="yes"
+                                                  />Länderhauses,  </item>
+                                                <label>3.)</label>
+                                                <item> die Annahme dieses Beschlusses durch das Volk
+                                                  in einer allgemein <lb break="yes"/>vom Bundesrate
+                                                  binnen 6 Monaten auf einen Sonntag
+                                                  auszuschreibenden <lb break="yes"/>Volksabstimmung
+                                                  durch die Mehrheit der giltig abgegebenen Stimmen.
+                                                  <lb break="yes"/>Jeder zu den Wahlen in die
+                                                  Landtage (dem Wiener Gemeinderat) <lb break="yes"
+                                                  />Wahlberechtigte hat eine Stimme. <lb break="yes"
+                                                  />Ein Bundesgesetz wird die näheren Bestimmungen
+                                                  über die Durch <lb break="no"/>führung dieser Wahl
+                                                  und die Art der Fragestellung regeln. </item>
+                                          </list></p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXXVI. </head>
                                     <p type="legal_section">Innerhalb der ersten 3 Jahre nach Beginn
-                                          der Wirksamkeit die
-                                          <lb break="no"/>ser Bundesverfassung kann ein
-                                          Abänderungsantrag im Sinne des Artikels
-                                          <lb break="yes"/>XXXV nicht zum Beschlusse erhoben werden;
-                                          nach Ablauf dieser Frist
-                                          <lb break="yes"/>ist jedenfalls und ohne Rücksicht auf die
-                                          Bestimmungen des Artikels
-                                          <lb break="yes"/>XXXV der allgemeinen Volksabstimmung die
-                                          Frage vorzulegen, ob die
-                                          <lb break="yes"/>Bundesverfassung als Ganzes genehmigt
-                                          oder abgelehnt wird. Im Falle
-                                          <lb break="yes"/>der Ablehnung durch die Mehrheit der
-                                          giltig abgegebenen Stimmen hat
-                                          <lb break="yes"/>die Bundesversammlung und das Länderhaus
-                                          einen aus je 6 Mitgliedern
-                                          <lb break="yes"/>und ebensoviel Ersatzmännern bestehenden
-                                          Ausschuss behufe Ausarbei
-                                          <lb break="no"/>tung eines neuen Verfassungsentwurfes zu
-                                          bestellen, der binnen Jahres
-                                          <lb break="no"/>frist dem Bundeerate Bericht zu erstatten
-                                          hat. Kommt im Ausschusse</p>
-                                    <pb facs="#facs_18" n="18" xml:id="img_0018" break="yes"/>
-                                    <p type="legal_section">- 17
-                                          <lb break="no"/>mit einfacher Stimmenmehrheit sämtlicher
-                                          Mitglieder ein neuer Ent
-                                          <lb break="no"/>wurf zustande, so ist dieser der
-                                          Volksabstimmung im Sinne des Ar
-                                          <lb break="no"/>tikels XXXV zu unterziehen; im
-                                          gegenteiligen Falle hat der Bundesrat
-                                          <lb break="yes"/>sofort allgemeine Neuwahlen der
-                                          Bundesversammlung und des Länderhauses
-                                          <lb break="yes"/>anzuordnen.
-                                          <lb break="yes"/>Die gegenwärtige Bundesverfassung bleibt
-                                          dann so lange noch in
-                                          <lb break="yes"/>Kraft, bis sie im Sinne des Artikels XXXV
-                                          abgeändert wird. </p>
+                                          der Wirksamkeit die <lb break="no"/>ser Bundesverfassung
+                                          kann ein Abänderungsantrag im Sinne des Artikels <lb
+                                                break="yes"/>XXXV nicht zum Beschlusse erhoben
+                                          werden; nach Ablauf dieser Frist <lb break="yes"/>ist
+                                          jedenfalls und ohne Rücksicht auf die Bestimmungen des
+                                          Artikels <lb break="yes"/>XXXV der allgemeinen
+                                          Volksabstimmung die Frage vorzulegen, ob die <lb
+                                                break="yes"/>Bundesverfassung als Ganzes genehmigt
+                                          oder abgelehnt wird. Im Falle <lb break="yes"/>der
+                                          Ablehnung durch die Mehrheit der giltig abgegebenen
+                                          Stimmen hat <lb break="yes"/>die Bundesversammlung und das
+                                          Länderhaus einen aus je 6 Mitgliedern <lb break="yes"/>und
+                                          ebensoviel Ersatzmännern bestehenden Ausschuss behufe
+                                          Ausarbei <lb break="no"/>tung eines neuen
+                                          Verfassungsentwurfes zu bestellen, der binnen Jahres <lb
+                                                break="no"/>frist dem Bundeerate Bericht zu
+                                          erstatten hat. Kommt im Ausschusse<pb facs="#facs_18"
+                                                n="18" xml:id="img_0018" break="yes"/><fw
+                                                type="pageNum">- 17 </fw><lb break="no"/>mit
+                                          einfacher Stimmenmehrheit sämtlicher Mitglieder ein neuer
+                                          Ent <lb break="no"/>wurf zustande, so ist dieser der
+                                          Volksabstimmung im Sinne des Ar <lb break="no"/>tikels
+                                          XXXV zu unterziehen; im gegenteiligen Falle hat der
+                                          Bundesrat <lb break="yes"/>sofort allgemeine Neuwahlen der
+                                          Bundesversammlung und des Länderhauses <lb break="yes"
+                                          />anzuordnen. <lb break="yes"/></p>
+                                    <p type="legal_section">Die gegenwärtige Bundesverfassung bleibt
+                                          dann so lange noch in <lb break="yes"/>Kraft, bis sie im
+                                          Sinne des Artikels XXXV abgeändert wird. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XXXVII.</head>
@@ -1258,25 +1164,21 @@
                               <div type="article">
                                     <head>Artikel XXXIX.</head>
                                     <p type="legal_section">Die Bundesversammlung und das Länderhaus
-                                          sind von der Staatsre
-                                          <lb break="no"/>gierung in der vierten Woche nach dem
-                                          Wahltage in die Bundeshauptstadt
-                                          <lb break="yes"/>einzuberufen; die Staatsregierung hat die
-                                          Bundesversammlung zur Wahl
-                                          <lb break="yes"/>eines Vorsitzenden und dreier
-                                          Stellvertreter, sowie des Bundesrates
-                                          <lb break="yes"/>und des Bundeskanzlers aufzufordern,
-                                          wobei das älteste anwesende Mit
-                                          <lb break="no"/>glied der Bundesversammlung den Vorsitz
-                                          führt; ebenso ist das Länder
-                                          <lb break="no"/>haus zur Wahl des Vorsitzenden und eines
-                                          oder mehrerer Stellvertreter
-                                          <lb break="yes"/>aufzufordern.
-                                          <lb break="yes"/>Unmittelbar nach vollzogener Wahl des
-                                          Bundesrates hat die
-                                          <lb break="yes"/>Staatsregierung die Regierungsgeschäfte
-                                          dem Bundesrate zu übergeben.</p>
-                                    <p type="legal_section">18</p>
+                                          sind von der Staatsre <lb break="no"/>gierung in der
+                                          vierten Woche nach dem Wahltage in die Bundeshauptstadt
+                                                <lb break="yes"/>einzuberufen; die Staatsregierung
+                                          hat die Bundesversammlung zur Wahl <lb break="yes"/>eines
+                                          Vorsitzenden und dreier Stellvertreter, sowie des
+                                          Bundesrates <lb break="yes"/>und des Bundeskanzlers
+                                          aufzufordern, wobei das älteste anwesende Mit <lb
+                                                break="no"/>glied der Bundesversammlung den Vorsitz
+                                          führt; ebenso ist das Länder <lb break="no"/>haus zur Wahl
+                                          des Vorsitzenden und eines oder mehrerer Stellvertreter
+                                                <lb break="yes"/>aufzufordern. <lb break="yes"/></p>
+                                    <p type="legal_section">Unmittelbar nach vollzogener Wahl des
+                                          Bundesrates hat die <lb break="yes"/>Staatsregierung die
+                                          Regierungsgeschäfte dem Bundesrate zu übergeben.</p>
+                                    <fw type="pageNum">18</fw>
                               </div>
                         </div>
                   </div>
