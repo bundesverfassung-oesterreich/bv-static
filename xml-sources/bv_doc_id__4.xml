@@ -108,6 +108,7 @@
                   <change when="2024-04-03" who="#m_huber">all div for articles and sections
                         generated</change>
                   <change when="2024-05-17" who="#m_huber">formatting completed</change>
+                  <change when="2024-06-03" who="#s_kury">gegenlesen bis S. 37</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -379,7 +380,7 @@
                                                 xml:id="img_0003" break="yes"/><fw type="pageNum">-
                                                 2 -</fw><list>
                                                 <label>1./</label>
-                                                <item>die auswärtigen Angelegenheiten. </item>
+                                                <item>die auswärtigen Angelegenheiten, </item>
                                                 <label>2./ </label>
                                                 <item> das Militärwesen,  </item>
                                                 <label>3./</label>
@@ -391,14 +392,16 @@
                                                   break="no"/>sen und die Verwaltung der
                                                   Bundesbetriebe,</item>
                                                 <label>5./ </label>
-                                                <item>  das Zollwesen, Geld - und Bánkwe sen;
-                                                  Handel, Gewerbe, Industrie und Verkehr,
+                                                <item> das Zollwesen, Geld - und <choice>
+                                                  <sic>Bánkwesen</sic>
+                                                  <corr>Bankwesen</corr>
+                                                  </choice>; Handel, Gewerbe, Industrie und Verkehr,
                                                   Bergwesen.</item>
                                                 <label> 6./ </label>
                                                 <item>Mass- und Gewichtswesen, Punzierungs wesen,  </item>
                                                 <label>7./  </label>
-                                                <item>Zivil - und Strafjustiz.  8./ Kultus - und
-                                                  Hochschulwesen.  </item>
+                                                <item>Zivil - und Strafjustiz, 8./ Kultus - und
+                                                  Hochschulwesen, </item>
                                                 <label> 9./ </label>
                                                 <item> Volksgesundheit und soziale Für sorge. In
                                                   diesen Angelegenheiten steht dem Bunde die
@@ -423,7 +426,7 @@
                                                 <item> die Regelung des Staatsbürger - und <lb
                                                   break="yes"/>Heimatsrechtes,</item>
                                                 <label>4./</label>
-                                                <item>die Regelung des Bevölkerungswesens.  </item>
+                                                <item>die Regelung des Bevölkerungswesens, </item>
                                                 <label>5./</label>
                                                 <item> die Regelung des Administrativver <lb
                                                   break="no"/>fahrens und die Festsetzung der
@@ -497,7 +500,7 @@
                                           Erteilung des Absolutoriums an die <lb break="yes"
                                           />Bundesregierung auf Grund des geprüften und <lb
                                                 break="yes"/>gebilligten Bundesrechnungsabschlusses
-                                          / Art. <lb break="yes"/>XCIV/. <lb break="yes"/></p>
+                                          / Art. <lb break="yes"/>XCIX/. <lb break="yes"/></p>
                                     <p type="legal_section">Diese Beschlüsse bedürfen der Genehmi
                                                 <lb break="no"/>gung des Bundesrates. </p>
                               </div>
@@ -513,13 +516,13 @@
                                           Lebensjahr überschritten haben, nach <lb break="yes"/>dem
                                           System der Verhältniswahl gewählt. <lb break="yes"/></p>
                                     <p type="legal_section">Wählbar ist ohne Unterschied des Ge <lb
-                                                break="no"/>schichtes jeder wahlberechtigte
+                                                break="no"/>schlechtes jeder wahlberechtigte
                                           Bundesbürger, <lb break="yes"/>der vor dem 1. Jänner des
                                           Jahres, in welchem <lb break="yes"/>die Wahl zur
                                           Bundesversammlung stattfindet, <lb break="yes"/>das 29.
                                           Lebensjahr überschritten hat. <lb break="yes"/></p>
                                     <p type="legal_section">Vom Wahlrecht und der Wählbarkeit sind
-                                                <lb break="yes"/>geschlossen . . . . . . <lb
+                                                <lb break="yes"/>ausgeschlossen . . . . . . <lb
                                                 break="yes"/></p>
                                     <p type="legal_section">Die Wahlordnung für die Wahl zur Bun <lb
                                                 break="no"/>desversammlung wird in einem besonderen
@@ -544,7 +547,7 @@
                               <div type="article">
                                     <head>Art. XIV. </head>
                                     <p type="legal_section">Während der Sitzungsperiode kann <lb
-                                                break="yes"/>Die Bundesversammlung durch einen
+                                                break="yes"/>die Bundesversammlung durch einen
                                           Beschluss <lb break="yes"/>des Hauses oder über Vorschlag
                                           der Bundes <lb break="no"/>regierung durch den
                                           Bundespräsidenten ver <lb break="no"/>tagt werden. <lb
@@ -656,7 +659,7 @@
                                           Bundes <lb break="no"/>gesetz abgelehnt, wenn die absolute
                                           Mehrheit <lb break="yes"/>der abgegebenen Stimmen sich für
                                           die Verfas <lb break="no"/>sungsänderung oder gegen das
-                                          Bundesgesetz. <lb break="yes"/>ausgesprochen hat. </p>
+                                          Bundesgesetz <lb break="yes"/>ausgesprochen hat. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXII. </head>
@@ -680,11 +683,10 @@
                               <div type="article">
                                     <head>Art. XXIV. </head>
                                     <p type="legal_section">Das Verfahren für die Volksabstimmung
-                                          <lb break="yes"/>sowie für die in Art. XX vorgesehene Ini
-                                          <lb break="no"/>tiative ist in dem Gesetz über die
-                                          Wahlordnung.
-                                          <lb break="yes"/>für die Wahl zur Bundesversammlung
-                                          geregelt. </p>
+                                                <lb break="yes"/>sowie für die in Art. XX
+                                          vorgesehene Ini <lb break="no"/>tiative ist in dem Gesetz
+                                          über die Wahlordnung <lb break="yes"/>für die Wahl zur
+                                          Bundesversammlung geregelt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXV. </head>
@@ -713,8 +715,9 @@
                               <div type="article">
                                     <head>Art. XXVII. </head>
                                     <p type="legal_section">Der Vorsitz im Bundesrat fällt in <lb
-                                                break="yes"/>jeder Session nach Alphabetischer <lb
-                                                break="yes"/> Reihenfolge auf ein anderes Land.</p>
+                                                break="yes"/>jeder Session <del>nach alphabetischer
+                                                  <lb break="yes"/> Reihenfolge</del> auf ein
+                                          anderes Land.</p>
                                     <p type="legal_section"><pb facs="#facs_10" n="10"
                                                 xml:id="img_0010" break="yes"/><fw type="pageNum">-
                                                 9 -</fw>Als Vorsitzender des Bundesrates und <lb
@@ -849,7 +852,7 @@
                                     <head>Art. XXXIII. </head>
                                     <p type="legal_section">Die Kundmachung der Bundesgesetze er <lb
                                                 break="no"/>folgt mit Berufung auf den Beschluss der
-                                                <lb break="yes"/>Bundesversammlung. die Genehmigung
+                                                <lb break="yes"/>Bundesversammlung, die Genehmigung
                                           des Bun <lb break="no"/>desrates im Falle der Art. XIX und
                                           XX der <lb break="yes"/>Bundesverfassung auch mit Berufung
                                           auf das <lb break="yes"/>Ergebnis der Volksabstimmung und
@@ -877,8 +880,11 @@
                               </div>
                               <div type="article">
                                     <head>Art. XXXIV. </head>
-                                    <p type="legal_section">Die Mitglieder der Bundeversammlung <lb
-                                                break="yes"/>können wegen der in Ausübung ihres
+                                    <p type="legal_section">Die Mitglieder der <choice>
+                                                <sic>Bundeversammlung</sic>
+                                                <corr>Bundesversammlung</corr>
+                                          </choice>
+                                          <lb break="yes"/>können wegen der in Ausübung ihres
                                           Berufes <lb break="yes"/>geschehenen Abstimmungen niemals,
                                           wegen der <lb break="yes"/>in diesem Berufe gemachten
                                           Aeusserungen nur <lb break="yes"/>von der
@@ -1000,12 +1006,12 @@
                                                 Lebensjahr vollendet hat. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XIII. </head>
+                                          <head>Art. XLII. </head>
                                           <p type="legal_section">Der Stimmzettel für die
-                                                Präsidentschafts <lb break="no"/>wahl ist im Falle
-                                                des Art. XL. Abs. 2 gleichzeitig <lb break="yes"
-                                                />jedoch gesondert von dem Stimmzettel für die Wahl
-                                                  <lb break="yes"/>zur Bundesversammlung
+                                                Präsidentschafts <lb break="no"/>wahl <add>ist</add>
+                                                im Falle des Art. XL. Abs. 2 gleichzeitig <lb
+                                                  break="yes"/>jedoch gesondert von dem Stimmzettel
+                                                für die Wahl <lb break="yes"/>zur Bundesversammlung
                                                   abzugeben.<pb facs="#facs_16" n="16"
                                                   xml:id="img_0016" break="yes"/><fw type="pageNum"
                                                   >- 15 - </fw></p>
@@ -1016,7 +1022,7 @@
                                     <div type="article">
                                           <head>Art. XLIII. <lb break="yes"/></head>
                                           <p type="legal_section">Als zum Bundespräsidenten gewählt
-                                                gilt <lb break="yes"/>der jenige Kandidat, der die
+                                                gilt <lb break="yes"/>derjenige Kandidat, der die
                                                 meisten Stimmen erhal <lb break="no"/>ten hat. <lb
                                                   break="yes"/></p>
                                           <p type="legal_section">Derjenige Kandidat, der die
@@ -1063,7 +1069,7 @@
                                           <p type="legal_section">Die Ernennung der Bundesbeamten
                                                   von<pb facs="#facs_17" n="17" xml:id="img_0017"
                                                   break="yes"/><fw type="pageNum">- 16 -</fw><lb
-                                                  break="no"/>der VI. Pangsklasse aufwärts. <lb
+                                                  break="no"/>der VI. Rangsklasse aufwärts. <lb
                                                   break="yes"/></p>
                                           <p type="legal_section">Die Begnadigung rechtskräftig
                                                 Verurteilter, <lb break="yes"/>die Milderung der von
@@ -1078,7 +1084,7 @@
                                                 von der VI. Rangsklasse aufwärts.</p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. XLIX</head>
+                                          <head>Art. XLIX.</head>
                                           <p type="legal_section"> Alle Akte des Bundespräsidenten
                                                 bedürfen <lb break="yes"/>der Gegenzeichnung des
                                                 Bundeskanzlers und des <lb break="yes"
@@ -1115,7 +1121,7 @@
                                           <p type="legal_section"><pb facs="#facs_18" n="18"
                                                   xml:id="img_0018" break="yes"/><fw type="pageNum"
                                                   >- 17 -</fw>
-                                                <lb break="no"/>Eine wieder holte Wahl zum
+                                                <lb break="no"/>Eine wiederholte Wahl zum
                                                 Bundespräsidenten <lb break="yes"/>oder zum
                                                 Stellvertreter desselben ist zulässig. </p>
                                     </div>
@@ -1141,9 +1147,9 @@
                                     <div type="article">
                                           <head>Art. LIII. </head>
                                           <p type="legal_section"> Die Staatsregierung wird von der
-                                                Bundes <lb break="no"/>Versammlung über den
+                                                Bundes <lb break="no"/>versammlung über den
                                                 Gesamtvorschlag eines be <lb break="no"/>sonderen
-                                                Ausschusses, dessen Zusammensetzung. <lb break="yes"
+                                                Ausschusses, dessen Zusammensetzung, <lb break="yes"
                                                 />Wirkungskreis und Verfahren im Geschäftsordnungs
                                                   <lb break="no"/>gesetze geregelt ist, in
                                                 namentlicher Abstimmung <lb break="yes"/>gewählt.
@@ -1158,33 +1164,36 @@
                                     </div>
                                     <div type="article">
                                           <head>Art. LIV.</head>
-                                          <p type="legal_section">Bid die neue Bundesregierung
-                                                gebildet ist, <lb break="yes"/>hat der
-                                                Bundespräsident entweder die schei <lb break="no"
-                                                />dende Regierung unter dem Vorsitz des bisherigen
-                                                  <lb break="yes"/>Bundeskanzlers oder eines
-                                                Staatssekretärs mit der<pb facs="#facs_19" n="19"
-                                                  xml:id="img_0019" break="yes"/><fw type="pageNum"
-                                                  >- 18 -</fw>
+                                          <p type="legal_section"><choice>
+                                                  <sic>Bid</sic>
+                                                  <corr>Bis</corr>
+                                                </choice> die neue Bundesregierung gebildet ist, <lb
+                                                  break="yes"/>hat der Bundespräsident entweder die
+                                                schei <lb break="no"/>dende Regierung unter dem
+                                                Vorsitz des bisherigen <lb break="yes"
+                                                />Bundeskanzlers oder eines Staatssekretärs mit
+                                                  der<pb facs="#facs_19" n="19" xml:id="img_0019"
+                                                  break="yes"/><fw type="pageNum">- 18 -</fw>
                                                 <lb break="no"/>einstweiligen Fortführung der
                                                 Geschäfte zu be <lb break="no"/>auftragen, oder
-                                                leitende Baumte der Staatsämter <lb break="yes"
+                                                leitende Beamte der Staatsämter <lb break="yes"
                                                 />unter dem Vorsitz eines dieser leitenden Beam <lb
                                                   break="no"/>ten oder eines eigens hiezu bestellten
                                                 Beamten <lb break="yes"/>mit der einstweiligen
-                                                Leitung der Verwaltung zu <lb break="yes"/>betreuen.
-                                          </p>
+                                                Leitung der Verwaltung zu <lb break="yes"/>betreuen. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LV. </head>
                                           <p type="legal_section">Versagt die Bundesversammlung oder
-                                                der Bundesrat der Bundesregierung oder einzelnen Mit
-                                                  <lb break="no"/>glieder derselben durch
-                                                ausdrückliche Entschlies <lb break="no"/>sung das
-                                                Vertrauen, so ist eine neue Bundesregie <lb
-                                                  break="no"/>rung zu bestellen, bezw. der
-                                                betreffende Staats <lb break="no"/>sekretär seines
-                                                Amtes zu entheben. <lb break="yes"/></p>
+                                                der Bundesrat der Bundesregierung oder einzelnen <choice>
+                                                  <sic>Mitglieder</sic>
+                                                  <corr>Mitgliedern</corr>
+                                                </choice> derselben durch ausdrückliche Entschlies
+                                                  <lb break="no"/>sung das Vertrauen, so ist eine
+                                                neue Bundesregie <lb break="no"/>rung zu bestellen,
+                                                bezw. der betreffende Staats <lb break="no"
+                                                />sekretär seines Amtes zu entheben. <lb break="yes"
+                                                /></p>
                                           <p type="legal_section">Zu einem Beschlusse der
                                                 Bundesversammlung, <lb break="yes"/>mit welchem das
                                                 Vertrauen versagt wird, ist die <lb break="yes"
@@ -1205,13 +1214,13 @@
                                                 die ein <lb break="no"/>zelnen Mitglieder derselben
                                                 werden in den gesetz <lb break="no"/>lich bestimmten
                                                 Fällen oder über ihren Wunsch <lb break="yes"/>vom
-                                                Bundespräsidenten ihres Amtes entheben. <lb
+                                                Bundespräsidenten ihres Amtes enthoben. <lb
                                                   break="yes"/></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. LVI. </head>
                                           <p type="legal_section"> Der Bundespräsident und sein
-                                                Stellvertreter. <lb break="yes"/>die Mitglieder der
+                                                Stellvertreter, <lb break="yes"/>die Mitglieder der
                                                 Bundesregierung und die Un <lb break="no"
                                                 />terstaatssekretäre sind nach Massgabe des Art.<pb
                                                   facs="#facs_20" n="20" xml:id="img_0020"
@@ -1322,7 +1331,7 @@
                                     <div type="article">
                                           <head>Art. LXV. </head>
                                           <p type="legal_section"> Die Richter werden - soferne
-                                                nicht anders. <lb break="yes"/>bestimmt ist - auf
+                                                nicht anders <lb break="yes"/>bestimmt ist - auf
                                                 Grund von Besetzungsvorschlä <lb break="no"/>gen der
                                                 durch die Gerichtsverfassung dazu be-<pb
                                                   facs="#facs_22" n="22" xml:id="img_0022"
@@ -1344,7 +1353,7 @@
                                                 übri <lb break="no"/>gen Staatsbeamten bestehenden
                                                 Rangsklassen <lb break="yes"/>nicht eingeteilt, ihre
                                                 dienstliche Verwendung ist <lb break="yes"/>von
-                                                ihrer Binteilung in Gehaltsklassen unab <lb
+                                                ihrer Einteilung in Gehaltsklassen unab <lb
                                                   break="no"/>hängig.</p>
                                     </div>
                                     <div type="article">
@@ -1401,7 +1410,7 @@
                                                   break="yes"/></p>
                                           <p type="legal_section">Hat ein Gericht die Anwendung
                                                 einer Voll <lb break="no"/>zugsanweisung /Vdg./ als
-                                                gesetzwidrig abgelehnt. <lb break="yes"/>hat es
+                                                gesetzwidrig abgelehnt, <lb break="yes"/>hat es
                                                 gleichzeitig den Antrag auf Kassation die <lb
                                                   break="no"/>ser Vollzugsanweisung beim
                                                 Bundesverfassungsge <lb break="no"/>richte zu
@@ -1414,12 +1423,12 @@
                                                 Rechtsverletzungen kann <lb break="yes"/>dieser
                                                 Richter sowie der Bund ausser den im ge <lb
                                                   break="no"/>richtlichen Verfahren vorgezeichneten
-                                                Rechtsmit <lb break="no"/>teln mit Klage belangt
-                                                werden. Dieses Kla <lb break="no"/>gerecht wird
-                                                durch ein besonderes Bundesgestz ge <lb break="no"
-                                                />regelt. <lb break="yes"/></p>
+                                                Rechtsmit <lb break="no"/>teln <del>nicht</del> mit
+                                                Klage belangt werden. Dieses Kla <lb break="no"
+                                                />gerecht wird durch ein besonderes Bundesgesetz ge
+                                                  <lb break="no"/>regelt. <lb break="yes"/></p>
                                           <p type="legal_section">Der Bund haftet für jedes
-                                                Verschulden des <lb break="yes"/>Richters. dieser
+                                                Verschulden des <lb break="yes"/>Richters, dieser
                                                 nur, wenn ihm Vorsatz oder gro <lb break="no"/>be
                                                 Fahrlässigkeit zur Last fällt. </p>
                                     </div>
@@ -1459,7 +1468,7 @@
                                                 erfolgt <lb break="yes"/>durch Bundesgesetz. </p>
                                     </div>
                                     <div type="article">
-                                          <head>Art.LXXIV.</head>
+                                          <head>Art. LXXIV.</head>
                                           <p type="legal_section"> Die Rechtspflege wird von der
                                                 Verwaltung in allen Instanzen getrennt. <lb
                                                   break="yes"/>Die Staatsanwaltschaft gilt als
@@ -1529,7 +1538,7 @@
                                                 <lb break="no"/>ändert werden. <lb break="yes"/></p>
                                     <p type="legal_section">Ein Landesverfassungsgesetz kann <lb
                                                 break="yes"/>nur bei Anwesenheit der zwei Drittel
-                                                <lb break="yes"/>alber Mitglieder der
+                                                <lb break="yes"/>aller Mitglieder der
                                           Landesversammlung <lb break="yes"/>mit einer Mehrheit von
                                           drei Viertel <lb break="yes"/>aller abgegebenen Stimmen
                                           beschlossen <lb break="yes"/>werden. </p>
@@ -1651,7 +1660,7 @@
                                                 <lb break="no"/>nem Präsidenten und den
                                           erforderlichen Beam-<pb facs="#facs_29" n="29"
                                                 xml:id="img_0029" break="yes"/><fw type="pageNum">-
-                                                26 -</fw><lb break="no"/>ten und Hilfskräften. <lb
+                                                28 -</fw><lb break="no"/>ten und Hilfskräften. <lb
                                                 break="yes"/></p>
                                     <p type="legal_section">Der Präsident des Bundesrechnungshofes
                                                 <lb break="yes"/>wird von der Bundesversammlung
@@ -1684,7 +1693,7 @@
                                           der Bundesversammlung <lb break="yes"/>oder des
                                           Bundesrates abberufen werden. Auf <lb break="yes"/>diese
                                           Beschlüsse finden die Bestimmungen <lb break="yes"/>des
-                                          Art. IV der Bundesverfassung analege An <lb break="no"
+                                          Art. IV der Bundesverfassung analoge An <lb break="no"
                                           />wendung. </p>
                               </div>
                               <div type="article">
@@ -1704,8 +1713,9 @@
                                                 break="no"/>gierung beigezogen werden, falls
                                           Gegenstände <lb break="yes"/>verhandelt werden, die den
                                           Wirkungskreis <lb break="yes"/>des Bundesrechnungshofes
-                                          betreffen/ oder über <lb break="yes"/>dessen Anregung zur
-                                          Verhandlung gelangen. <lb break="yes"/></p>
+                                                betreffen<del>d</del> oder über <lb break="yes"
+                                          />dessen Anregung zur Verhandlung gelangen. <lb
+                                                break="yes"/></p>
                                     <p type="legal_section">Ueber alle Gegenstände seines Wir <lb
                                                 break="no"/>kungskreises muss der Präsident auf
                                           Verlangen <lb break="yes"/>jedesmal gehört werden.</p>
@@ -1721,7 +1731,7 @@
                                                 break="yes"/></p>
                                     <p type="legal_section">Ist die Stelle des Präsidenten dauernd
                                           erledigt, kann der Stellvertreter vom Bun <lb break="no"
-                                          />despräsidenten, his die Wahl des Präsistenten <lb
+                                          />despräsidenten, bis die Wahl des Präsistenten <lb
                                                 break="yes"/>des Bundesrechnungshofes erfolgt ist,
                                           mit <lb break="yes"/>der Leitung des Bundesrechnungshofes
                                           betraut <lb break="yes"/>werden. In diesem Falle finden
@@ -1730,7 +1740,7 @@
                                           Anwendung. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. CXI. </head>
+                                    <head>Art. XCI. </head>
                                     <p type="legal_section">Die Beamten des Bundesrechnungshofes <lb
                                                 break="yes"/>von der VI. Rangsklasse - diese
                                           eingeschlos <lb break="no"/>sen - aufwärts, ernennt über
@@ -1772,28 +1782,24 @@
                               </div>
                               <div type="article">
                                     <head>Art. XCIV. </head>
-                                    <p type="legal_section">Bei der Ueberprüfung der seiner Kon
-                                          <lb break="no"/>trolle unterstellten Gebarung hat der Bun
-                                          <lb break="no"/>desrechnungshof sein Hauptaugenmerk darauf
-                                          <lb break="yes"/>zu richten, ob die Gebarung den Gesetzen
-                                          <lb break="yes"/>und sonstigen Vorschrifften entspricht,
-                                          dann
-                                          <lb break="yes"/>ob sie ökonomisch und zweckmässig ist.
-                                          Kei
-                                          <lb break="no"/>nesfalls darf er sich bloss auf eine
-                                          zifferne
-                                          <lb break="yes"/>mässige Nachprüfung beschränken. </p>
+                                    <p type="legal_section">Bei der Ueberprüfung der seiner Kon <lb
+                                                break="no"/>trolle unterstellten Gebarung hat der
+                                          Bun <lb break="no"/>desrechnungshof sein Hauptaugenmerk
+                                          darauf <lb break="yes"/>zu richten, ob die Gebarung den
+                                          Gesetzen <lb break="yes"/>und sonstigen Vorschrifften
+                                          entspricht, dann <lb break="yes"/>ob sie ökonomisch und
+                                          zweckmässig ist. Kei <lb break="no"/>nesfalls darf er sich
+                                          bloss auf eine ziffernmässige Nachprüfung beschränken. </p>
                               </div>
                               <div type="article">
-                                    <head>Art.XCV. </head>
+                                    <head>Art. XCV. </head>
                                     <p type="legal_section">Der Bundesrechnungshof ist gegenüber <lb
                                                 break="yes"/>den anweisenden Behörden und den diesen
-                                          unten <lb break="yes"/>stehenden Stellen, dann gegenüber
-                                          den im Art.<pb facs="#facs_32" n="32" xml:id="img_0032"
-                                                break="yes"/><fw type="pageNum">- 31 -</fw>LXXXV
-                                          bezeichneten Vermögens- und Körper <lb break="no"
-                                          />schaften berechtigt, zur Ueberprüfung der <lb
-                                                break="yes"/>Gebarung <list>
+                                          unterstehenden Stellen, dann gegenüber den im Art.<pb
+                                                facs="#facs_32" n="32" xml:id="img_0032" break="yes"
+                                                /><fw type="pageNum">- 31 -</fw>LXXXV bezeichneten
+                                          Vermögens- und Körper <lb break="no"/>schaften berechtigt,
+                                          zur Ueberprüfung der <lb break="yes"/>Gebarung <list>
                                                 <label> a/</label>
                                                 <item>die Einsendung von Rechnungsbele <lb
                                                   break="no"/>gen und Behelfen/Geschäftsstücke,
@@ -1805,7 +1811,7 @@
                                                   break="yes"/>Einschau zu nehmen. <lb break="yes"/>
                                                 </item>
                                                 <label>c/ </label>
-                                                <item>  die Vornahme von Lokalsrhebungen <lb
+                                                <item> die Vornahme von Lokalerhebungen <lb
                                                   break="yes"/>durch die Verwaltungsbehörden
                                                   anzuordnen <lb break="yes"/>und an diesen
                                                   Amtshandlungen durch Beauf <lb break="no"/>tragte
@@ -1813,7 +1819,7 @@
                                           </list></p>
                               </div>
                               <div type="article">
-                                    <head>Art.XCVI. </head>
+                                    <head>Art. XCVI. </head>
                                     <p type="legal_section">Die der Bundesregierung sowie die den
                                                 <lb break="yes"/>Landesregierungen unterstehenden
                                           Stellen <lb break="yes"/>haben den Anordnungen, die der
@@ -1824,7 +1830,8 @@
                                           innerhalb <lb break="yes"/>ihres selbständigen
                                           Wirkungskreises - selbst <lb break="yes"/>betreffen, hat
                                           der Bundesrechnungshof mit <lb break="yes"/>diesen
-                                          Behörden das Finvernehmen zu pfle <lb break="no"/>gen. </p>
+                                          Behörden das Einvernehmen zu pfle <lb break="no"/>gen.
+                                    </p>
                               </div>
                               <div type="article">
                                     <head>Art. XCVII. </head>
@@ -1981,7 +1988,7 @@
                                           gegen <lb break="yes"/>ausländische Druckschriften in den
                                           durch be-<pb facs="#facs_36" n="36" xml:id="img_0036"
                                                 break="yes"/><fw type="pageNum">- 35 -</fw>
-                                          <lb break="no"/>sonderes Gesetz vorgeschenen Fällen erlas
+                                          <lb break="no"/>sonderes Gesetz vorgesehenen Fällen erlas
                                                 <lb break="no"/>sen werden. </p>
                               </div>
                               <div type="article">
@@ -2002,19 +2009,19 @@
                                           geschehen. Zu einer kirchlichen Hand <lb break="no"/>lung
                                           oder zur Teilnahme an einer kirchli <lb break="no"/>chen
                                           Feier kann niemand gezwungen werden. <lb break="yes"/></p>
-                                    <p type="legal_section">Die Stellung der Religionsgesellschaf
-                                                <lb break="yes"/>ten im Staate und die Rechte ihrer
-                                          Angehö <lb break="no"/>rigen werden durch besondere
-                                          Gesetze gere <lb break="no"/>gelt.</p>
+                                    <p type="legal_section">Die Stellung der Religionsgesellschaften
+                                          im Staate und die Rechte ihrer Angehö <lb break="no"
+                                          />rigen werden durch besondere Gesetze gere <lb break="no"
+                                          />gelt.</p>
                               </div>
                               <div type="article">
                                     <head>Art. CXIII. </head>
-                                    <p type="legal_section">Alle Staatsbürger haben ein gleiches
-                                          <lb break="yes"/>Recht auf Wahrung ihrer Nationalstät und
-                                          <lb break="yes"/>Sprache. / Die zur Durchführung dieser Be
-                                          <lb break="no"/>stimmung erforderlichen Vorkehrungen
-                                          trifft
-                                          <lb break="yes"/>ein besonderes Gesetz /. </p>
+                                    <p type="legal_section">Alle Staatsbürger haben ein gleiches <lb
+                                                break="yes"/>Recht auf Wahrung ihrer Nationalität
+                                          und <lb break="yes"/>Sprache. / Die zur Durchführung
+                                          dieser Be <lb break="no"/>stimmung erforderlichen
+                                          Vorkehrungen trifft <lb break="yes"/>ein besonderes Gesetz
+                                          /. </p>
                               </div>
                               <div type="article">
                                     <head>Art. CXIV. </head>
@@ -2049,34 +2056,36 @@
                               <head>Siebenter Abschnitt. </head>
                               <head>Von den Garantien des öffentlichen Rechtes. </head>
                               <div type="section">
-                                    <head>1.) Von den Verwaltungsgerichten. </head>
+                                    <head>A/ Von den Verwaltungsgerichten. </head>
                                     <div type="article">
                                           <head>Art. CXVI. </head>
                                           <p type="legal_section">Wegen Rechtsverletzung durch die
                                                 Ent <lb break="no"/>scheidung oder Verfügung einer
                                                 Verwaltungs <lb break="no"/>behörde des Bundes oder
                                                 eines souveränen Landes entscheidet nach Erschöpfung
-                                                des <lb break="yes"/>administrativen Instanzenzuges. <list>
+                                                des <lb break="yes"/>administrativen Instanzenzuges: <list>
                                                   <label> a/</label>
                                                   <item> in Angelegenheiten des selbständi <lb
                                                   break="no"/>gen Wirkungskreises der souveränen
-                                                  Länder. <lb break="yes"/>die
+                                                  Länder, <lb break="yes"/>die
                                                   Landesverwaltungsgerichte; </item>
                                                   <label>b/ </label>
-                                                  <item>  in Angelegenheiten der Bundesver <lb
-                                                  break="no"/> waltung, das
-                                                  Bundesverwaltungsgericht. </item>
+                                                  <item> in Angelegenheiten der Bundesverwaltung,
+                                                  das Bundesverwaltungsgericht. </item>
                                                 </list></p>
                                     </div>
                                     <div type="article">
-                                          <head>Art. CXVII. </head>
+                                          <head>Art. <choice>
+                                                  <sic>CXII</sic>
+                                                  <corr>CXVII</corr>
+                                                </choice>. </head>
                                           <p type="legal_section">In jeder Landeshauptstadt wird ein
                                                 Lan <lb break="no"/>desverwaltungsgericht errichtet.
                                                 Seine Mit <lb break="no"/>glieder sind nur zur
                                                 Hälfte aus dem Stande <lb break="yes"/>der
                                                 Landesverwaltungsbeamten über Vorschlag<pb
                                                   facs="#facs_38" n="38" xml:id="img_0038"
-                                                  break="yes"/><fw type="pageNum">- 37  -</fw><lb
+                                                  break="yes"/><fw type="pageNum">- 37 -</fw><lb
                                                   break="no"/>der Landesregierung, zur Hälfte aus
                                                 dem <lb break="yes"/>Stande der richterlichen
                                                 Beamten über Ver <lb break="no"/>schlag der
@@ -2104,31 +2113,23 @@
                                     <div type="article">
                                           <head>Art. CXIX. </head>
                                           <p type="legal_section">Das Bundesverwaltungsgericht und
-                                                die
-                                                <lb break="yes"/>Landesverwaltungsgerichte haben in
-                                                der
-                                                <lb break="yes"/>Regel nur über Beschwerden der
-                                                Parteien
-                                                <lb break="yes"/>zu erkennen.</p>
+                                                die <lb break="yes"/>Landesverwaltungsgerichte haben
+                                                in der <lb break="yes"/>Regel nur über Beschwerden
+                                                der Parteien <lb break="yes"/>zu erkennen.</p>
                                           <p type="legal_section">Doch kann, wenn durch eine
-                                                rechtswidri
-                                                <lb break="no"/>ge Entscheidung oder Verfügung einer
-                                                Landes
-                                                <lb break="no"/>behörde die Interessen der
-                                                Bundesverwal
-                                                <lb break="no"/>tung verletzt werden, auch die
-                                                Bundesre
-                                                <lb break="no"/>gierung vor einem
-                                                Landesverwaltungsgerichts
-                                                <lb break="yes"/>Beschwerde erheben. </p>
+                                                rechtswidri <lb break="no"/>ge Entscheidung oder
+                                                Verfügung einer Landes <lb break="no"/>behörde die
+                                                Interessen der Bundesverwal <lb break="no"/>tung
+                                                verletzt werden, auch die Bundesre <lb break="no"
+                                                />gierung vor einem Landesverwaltungsgerichts <lb
+                                                  break="yes"/>Beschwerde erheben. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. CXX. </head>
                                           <p type="legal_section">Die Organisation der Landesverwal
-                                                <lb break="no"/>tungsgerichte und des
-                                                Bundesverwaltungs
-                                                <lb break="no"/>gerichtes sowie das Verfahren vor
-                                                ihnen</p>
+                                                  <lb break="no"/>tungsgerichte und des
+                                                Bundesverwaltungs <lb break="no"/>gerichtes sowie
+                                                das Verfahren vor ihnen</p>
                                           <p type="legal_section"><pb facs="#facs_39" n="39"
                                                   xml:id="img_0039" break="yes"/><fw type="pageNum"
                                                   >- 38 -</fw>
@@ -2156,7 +2157,7 @@
                                                   freiem <lb break="yes"/>Ermessen vorzugehen haben.
                                                   <lb break="yes"/>
                                                   </item>
-                                                  <label>d/  </label>
+                                                  <label>d/ </label>
                                                   <item>Disziplinarangelegenheiten. </item>
                                                 </list></p>
                                     </div>
