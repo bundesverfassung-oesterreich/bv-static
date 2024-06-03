@@ -1171,83 +1171,25 @@ div.meta_text.display_comment {
     hyphens: auto;
 }
 
-
-span.corr {
-    /* span.corr { */
+span.corr.sic{
     display: inline;
-    position: inherit;
+}
+span.corr.sic.correction_view{
+    display: none;
 }
 
-/* span.corr:hover::after, 
-span.corr:active::after { */
-/* span.corr.correction_view::after {
-    position: relative;
-    content: "korrigiert aus: " attr(sic);
-    width: fit-content;
-    display: block;
-    bottom: -100%;
-} */
-
-span.corr.correction_view {
-    border: solid 1px grey;
+span.corr.conjectur{
+    display: none;
 }
-
-span.corr.correction_view::after {
-    content: " [korrigiert aus: " attr(sic) "]";
-    background-color: var(--bv-small-highlight);
-    color: var(--bv-main-bg-color);
-}
-
-span.choice.genetic_view {
+span.corr.conjectur.correction_view{
     display: inline;
-    border: solid 1px;
 }
 
-span.del,
-span.choice_del {
-    display: None;
+span.del.text_genetic {
+    display: none;
 }
 
-span.choice_del.genetic_view,
-span.del.genetic_view {
+span.del.text_genetic.genetic_view{
     display: inline;
     text-decoration: line-through solid black;
 }
-
-span.add,
-span.choice_add {
-    display: inline;
-}
-
-span.choice_add.genetic_view::before,
-span.add.genetic_view::before {
-    content: "[";
-    font-weight: bold;
-}
-
-span.choice_add.genetic_view::after,
-span.add.genetic_view::after {
-    content: "]";
-    font-weight: bold;
-}
-
-
-/* this would have been great, but has is not super well supported */
-/* div.meta_text.display {
-	display: block;
-	position: absolute;
-	height: fit-content;
-	max-width: 25rem;
-	width: 100%;
-	font-size: small;
-	background: lightgray;
-	padding: .3rem;
-	margin-left: 2.5rem;
-	left: 100%;
-	bottom: 0;
-}
-
-div:has(>div.meta_text.display) {
-    position: relative!important;
-    border-radius: 0 0 0.3rem 0.3rem;
-}*/
