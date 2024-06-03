@@ -279,10 +279,10 @@
                 </p>
             </xsl:template>
             <xsl:template match="text()[following-sibling::*[1][local-name() = 'lb' and @break = 'no']]">
-                <xsl:value-of select="normalize-space(replace(., '^(.+?)\s*$', '$1'))"/>
+                <xsl:value-of select="replace(., '^(.+?)\s*$', '$1')"/>
             </xsl:template>
             <xsl:template match="text()[preceding-sibling::*[1][local-name() = 'lb' and @break = 'no' and not(preceding-sibling::node()[self::text()])]]">
-                <xsl:value-of select="normalize-space(replace(., '^\s*(.+?)$', '$1'))"/>
+                <xsl:value-of select="replace(., '^\s*(.+?)$', '$1')"/>
             </xsl:template>
             <xsl:template match="tei:lb"/>
             <!-- match paragraphs and listitems with labels; secure whitespaces -->
