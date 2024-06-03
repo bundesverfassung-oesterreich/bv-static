@@ -24,7 +24,7 @@ var editor = new LoadEditor({
         color: "grey",
         title: "historische Paginierung/Foliierung",
         html_class: "historical_pagecounter",
-        css_class: "test_class",
+        css_class: "hpc_visible",
         hide: {
           hidden: true,
           class: "historical_pagecounter",
@@ -44,6 +44,38 @@ var editor = new LoadEditor({
         hide: {
           hidden: true,
           class: "meta_text",
+        },
+        chg_citation: "citation-url",
+        features: {
+          all: false,
+          class: "features-1",
+        },
+      },
+      {
+        opt: "genetic_toggler",
+        color: "blue",
+        title: "Änderungen",
+        html_class: "text_genetic",
+        css_class: "genetic_view",
+        hide: {
+          hidden: true,
+          class: "text_genetic",
+        },
+        chg_citation: "citation-url",
+        features: {
+          all: false,
+          class: "features-1",
+        },
+      },
+      {
+        opt: "correction_toggler",
+        color: "pink",
+        title: "editorische Korrekturen",
+        html_class: "corr",
+        css_class: "correction_view",
+        hide: {
+          hidden: true,
+          class: "correction_view",
         },
         chg_citation: "citation-url",
         features: {

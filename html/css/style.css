@@ -788,6 +788,7 @@ span.pb::before {
     content: "|" var(--beginning_page)"|";
     text-align: right;
 }
+
 span.pb_marker {
     color: grey;
 }
@@ -797,16 +798,21 @@ span.pb_marker::after {
     padding: 0 .5rem;
 }
 
-span.historical_pagecounter{
-    color: grey;
-    display: inline-block;
+span.historical_pagecounter {
+    display: none;
 }
 
-span.historical_pagecounter::before{
-    content: "[";
+span.historical_pagecounter.hpc_visible {
+    color: grey;
+    display: inline;
 }
-span.historical_pagecounter::after{
-    content: "]";
+
+span.historical_pagecounter.hpc_visible::before {
+    content: "//";
+}
+
+span.historical_pagecounter.hpc_visible::after {
+    content: "//";
 }
 
 .index-card .card-body {
@@ -913,18 +919,18 @@ div.card-body {
 /* headings (edition content) START */
 /* spacing is solved via parent containers */
 
-div.section :is(h2, h3, h4 , h5){
+div.section :is(h2, h3, h4, h5) {
     font-size: 1.5rem;
     display: inline;
 }
 
-div.article :is(h2, h3, h4 , h5){
+div.article :is(h2, h3, h4, h5) {
     margin-bottom: .75rem;
     font-size: medium;
     font-weight: bold;
 }
 
-div.section + div.section {
+div.section+div.section {
     margin-top: 1.25rem;
 }
 
@@ -935,7 +941,7 @@ div.section {
     padding-left: 1rem;
 }
 
-div.section > div.section{
+div.section>div.section {
     padding-top: 1.5rem;
     padding-left: 1rem;
 }
@@ -1153,19 +1159,80 @@ div.meta_text {
 }
 
 div.meta_text.display_comment {
-    display: block!important;
-	height: fit-content;
-	max-width: 25rem;
-	width: 100%;
-	font-size: small;
-	background: lightgray;
-	padding: .3rem;
-	margin-left: 2.5rem;
+    display: block !important;
+    height: fit-content;
+    max-width: 25rem;
+    width: 100%;
+    font-size: small;
+    background: lightgray;
+    padding: .3rem;
+    margin-left: 2.5rem;
     text-align: justify;
     hyphens: auto;
 }
 
-/* this would have been greate, but has is not super well supported */
+
+span.corr {
+    /* span.corr { */
+    display: inline;
+    position: inherit;
+}
+
+/* span.corr:hover::after, 
+span.corr:active::after { */
+/* span.corr.correction_view::after {
+    position: relative;
+    content: "korrigiert aus: " attr(sic);
+    width: fit-content;
+    display: block;
+    bottom: -100%;
+} */
+
+span.corr.correction_view {
+    border: solid 1px grey;
+}
+
+span.corr.correction_view::after {
+    content: " [korrigiert aus: " attr(sic) "]";
+    background-color: var(--bv-small-highlight);
+    color: var(--bv-main-bg-color);
+}
+
+span.choice.genetic_view {
+    display: inline;
+    border: solid 1px;
+}
+
+span.del,
+span.choice_del {
+    display: None;
+}
+
+span.choice_del.genetic_view,
+span.del.genetic_view {
+    display: inline;
+    text-decoration: line-through solid black;
+}
+
+span.add,
+span.choice_add {
+    display: inline;
+}
+
+span.choice_add.genetic_view::before,
+span.add.genetic_view::before {
+    content: "[";
+    font-weight: bold;
+}
+
+span.choice_add.genetic_view::after,
+span.add.genetic_view::after {
+    content: "]";
+    font-weight: bold;
+}
+
+
+/* this would have been great, but has is not super well supported */
 /* div.meta_text.display {
 	display: block;
 	position: absolute;
