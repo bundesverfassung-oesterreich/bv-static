@@ -108,6 +108,7 @@
                         Abschnitte</change>
                   <change when="2024-05-16" who="#m_huber">Formatierung inkl. seitenzahlen, listen,
                         absätzen</change>
+                  <change when="2024-06-03" who="#s_kury">Gegenlesen beendet</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -415,8 +416,8 @@
                               </div>
                               <div type="article">
                                     <head>Art. 2. </head>
-                                    <p type="legal_section">Oesterreich ist eine demokrati <lb
-                                                break="no"/>sche Republik. <lb break="yes"/></p>
+                                    <p type="legal_section">Oesterreich ist eine demokratische
+                                          Republik. <lb break="yes"/></p>
                                     <p type="legal_section">Alle öffentlichen Gewalten werden <lb
                                                 break="yes"/>vom Volke eingesetzt. </p>
                               </div>
@@ -444,12 +445,16 @@
                                     <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
                                     <fw type="pageNum">- 2 -</fw>
                                     <p type="legal_section">die zugleich eine Aenderung eines Lan
-                                          <lb break="no"/>desgebietes ist, ebenso eine Aenderung d
-                                          <lb break="yes"/>der Landesgrenze innerhalb des Bundes
-                                          <lb break="no"/>gebietes, kann nur durch übereinstimmen
-                                          <lb break="no"/>de Verfassungsgesetze des Bundes und
-                                          <lb break="yes"/>desjenigen Landes erfolgen, dessen
-                                          <lb break="yes"/>Gebiet eine Veränderung erfährt. </p>
+                                                <lb break="no"/>desgebietes ist, ebenso eine
+                                          Aenderung <choice>
+                                                <sic>d</sic>
+                                                <corr/>
+                                          </choice>
+                                          <lb break="yes"/>der Landesgrenze innerhalb des Bundes <lb
+                                                break="no"/>gebietes, kann nur durch übereinstimmen
+                                                <lb break="no"/>de Verfassungsgesetze des Bundes und
+                                                <lb break="yes"/>desjenigen Landes erfolgen, dessen
+                                                <lb break="yes"/>Gebiet eine Veränderung erfährt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 6. </head>
@@ -473,7 +478,7 @@
                                                 break="yes"/>ihre Staatsgewalt in den folgenden <lb
                                                 break="yes"/>Angelegenheiten:<list>
                                                 <label>1) </label>
-                                                <item> Die auswärtigen Angelegenheiten </item>
+                                                <item> Die auswärtigen Angelegenheiten, </item>
                                                 <label>2)</label>
                                                 <item>das Militärwesen,  </item>
                                                 <label>3)</label>
@@ -620,22 +625,18 @@
                                     <div type="article">
                                           <head>Art. 16. </head>
                                           <p type="legal_section">Zum Bundestag werden in dem
-                                                gesamten
-                                                <lb break="yes"/>Bundesgebiet . . . Abgeordnete auf
-                                                <lb break="yes"/>Bundesgebiet.
-                                                <lb break="yes"/>Grund des gleichen, direkten,
-                                                persönli
-                                                <lb break="no"/>chen und geheimen Wahlrechtes aller
-                                                Bun
-                                                <lb break="no"/>desbürger ohne Unterschied des
-                                                Geschlechts
-                                                <lb break="yes"/>die vor dem 1. Jänner d.J., in
-                                                welchem die
-                                                <lb break="yes"/>Wahl stattfindet, das 20.Lebensjahr
-                                                über
-                                                <lb break="yes"/>schritten haben, nach dem System
-                                                der Ver
-                                                <lb break="no"/>hältniswahl gewählt.</p>
+                                                gesamten <lb break="yes"/>Bundesgebiet . . .
+                                                Abgeordnete auf <lb break="yes"/>Bundesgebiet. <lb
+                                                  break="yes"/>Grund des gleichen, direkten,
+                                                persönli <lb break="no"/>chen und geheimen
+                                                Wahlrechtes aller Bun <lb break="no"/>desbürger ohne
+                                                Unterschied des Geschlechts <lb break="yes"/>die vor
+                                                dem 1. Jänner d.J., in welchem die <lb break="yes"
+                                                />Wahl stattfindet, das 20. Lebensjahr <choice>
+                                                  <sic>über <lb break="yes"/>schritten</sic>
+                                                  <corr>überschritten</corr>
+                                                </choice> haben, nach dem System der Ver <lb
+                                                  break="no"/>hältniswahl gewählt.</p>
                                           <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                                           <fw type="pageNum">- 6 -</fw>
                                           <p type="legal_section">Wählbar ist ohne Unterschied des
@@ -750,10 +751,9 @@
                                                   <lb break="yes"/>während der Dauer der Session
                                                 wegen einer <lb break="yes"/>strafbaren Handlung -
                                                 den Fall der Er <lb break="no"/>greifung auf
-                                                frischer Tat ausgenommen <lb break="no"/>ohne
-                                                Zustimmung des Bundestages verhaf <lb break="no"
-                                                />tet oder behördlich verfolgt werden. <lb
-                                                  break="yes"/></p>
+                                                frischer Tat ausgenommen - ohne Zustimmung des
+                                                Bundestages verhaf <lb break="no"/>tet oder
+                                                behördlich verfolgt werden. <lb break="yes"/></p>
                                           <p type="legal_section">Selbst in dem Falle der Ergreifung
                                                   <lb break="yes"/>auf frischer Tat hat die Behörde
                                                 den Prä <lb break="no"/>sidenten des Bundestages
@@ -852,7 +852,10 @@
                                                 Bundestag, jedoch <lb break="yes"/>vor der
                                                 Beurkundung durch den Bundesprä <lb break="no"
                                                 />sidenten einer Abstimmung des gesamten <lb
-                                                  break="yes"/>Bundesvolkeszu unterziehen.</p>
+                                                  break="yes"/><choice>
+                                                  <sic>Bundesvolkeszu</sic>
+                                                  <corr>Bundesvolkes zu</corr>
+                                                </choice> unterziehen.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 29. </head>
@@ -1027,7 +1030,7 @@
                                                   xml:id="img_0015" break="yes"/><fw type="pageNum"
                                                   >- 14 -</fw><lb break="no"/>Das Verfahren der
                                                 Untersuchungsaus <lb break="no"/>schüsse wird durch
-                                                Geschäftsordnungsge <lb break="yes"/>setz geregelt. </p>
+                                                Geschäftsordnungsgesetz geregelt. </p>
                                     </div>
                               </div>
                         </div>
@@ -1089,9 +1092,9 @@
                                                 <p type="legal_section">Eine strafgerichtliche
                                                   Verfolgung des <lb break="yes"/>Bundespräsidenten
                                                   - ausgenommen das Ver <lb break="no"/>fahren vor
-                                                  dem Bundesverfassungsgericht <lb break="yes"/>darf
-                                                  nur mit Zustimmung des Bundestages <lb break="yes"
-                                                  />erfolgen. <lb break="yes"/></p>
+                                                  dem Bundesverfassungsgericht - <lb break="yes"
+                                                  />darf nur mit Zustimmung des Bundestages <lb
+                                                  break="yes"/>erfolgen. <lb break="yes"/></p>
                                                 <p type="legal_section">Zu einem solchen Beschluß
                                                   ist die An <lb break="no"/>wesenheit von zwei
                                                   Drittel aller Mitglie <lb break="no"/>der und eine
@@ -1148,18 +1151,14 @@
                                           <div type="article">
                                                 <head>Art. 46. </head>
                                                 <p type="legal_section">Der Bundespräsident kann das
-                                                  ihm zu
-                                                  <lb break="no"/>stehende Ernennungsrecht von
-                                                  Beamten, Of
-                                                  <lb break="no"/>fizieren oder sonstigen
-                                                  Bundesfunktionären
-                                                  <lb break="yes"/>bestimmter Kategorie oder
-                                                  Rangsklasse den
-                                                  <lb break="yes"/>ressortmäßig zustehenden
-                                                  Mitgliedern der
-                                                  <lb break="yes"/>Bundesregierung (bezw. den
-                                                  Landerregierun
-                                                  <lb break="no"/>gen) delegieren.</p>
+                                                  ihm zu <lb break="no"/>stehende Ernennungsrecht
+                                                  von Beamten, Of <lb break="no"/>fizieren oder
+                                                  sonstigen Bundesfunktionären <lb break="yes"
+                                                  />bestimmter Kategorie oder Rangsklasse den <lb
+                                                  break="yes"/>ressortmäßig zustehenden Mitgliedern
+                                                  der <lb break="yes"/>Bundesregierung (bezw. den
+                                                  Landesregierun <lb break="no"/>gen)
+                                                  delegieren.</p>
                                           </div>
                                           <div type="article">
                                                 <head>Art. 47. </head>
@@ -1269,7 +1268,7 @@
                                                   bestellen, bezw. der be <lb break="no"/>treffende
                                                   Staatssekretär seines Amtes <lb break="yes"/>zu
                                                   entheben. <lb break="yes"/></p>
-                                                <p type="legal_section">Zu einem Beschlüsse des
+                                                <p type="legal_section">Zu einem Beschlusse des
                                                   Bundestages <lb break="yes"/>mit welchem das
                                                   Vertrauen versagt wird, <lb break="yes"/>ist die
                                                   Anwesenheit der Hälfte der Mit <lb break="no"
@@ -1340,22 +1339,24 @@
                                                   bestellt werden. <lb break="yes"/></p>
                                                 <p type="legal_section">In jedem Bundesamte wird dem
                                                   verantwortlichen Leiter zur Wahrung der <lb
-                                                  break="yes"/>Winheit und Stetigkeit des Geschäfts
-                                                  <lb break="no"/>ganges ein Beamter zur Seite
-                                                  gestellt, <lb break="yes"/>der den Amtstitel eines
+                                                  break="yes"/><choice>
+                                                  <sic>Winheit</sic>
+                                                  <corr>Einheit</corr>
+                                                  </choice> und Stetigkeit des Geschäfts <lb
+                                                  break="no"/>ganges ein Beamter zur Seite gestellt,
+                                                  <lb break="yes"/>der den Amtstitel eines
                                                   Bundesamtsdi <lb break="no"/>rektors führt. </p>
                                           </div>
                                           <div type="article">
                                                 <head>Art. 57. </head>
                                                 <p type="legal_section">Ueber das Bundesheer verfügt
-                                                  die
-                                                  <lb break="yes"/>Bundesregierung. Sie übt die
-                                                  Befehlsge
-                                                  <lb break="no"/>walt ausschlieälich durch die
-                                                  Befehls
-                                                  <lb break="no"/>haber aus, welche ihr
-                                                  verantwortlich
-                                                  <lb break="yes"/>sind.</p>
+                                                  die <lb break="yes"/>Bundesregierung. Sie übt die
+                                                  Befehlsge <lb break="no"/>walt <choice>
+                                                  <sic>ausschlieälich</sic>
+                                                  <corr>ausschließlich</corr>
+                                                  </choice> durch die Befehls <lb break="no"/>haber
+                                                  aus, welche ihr verantwortlich <lb break="yes"
+                                                  />sind.</p>
                                           </div>
                                     </div>
                                     <div type="section">
@@ -1397,15 +1398,15 @@
                                                 <head>Art. 61.</head>
                                                 <p type="legal_section">Jedes Land ist im Bundesrat
                                                   durch sei <lb break="no"/>nen Landeshauptmann oder
-                                                  - in dessen Stell <lb break="yes"/>vertretung -
-                                                  durch ein anderes Mitglied <lb break="yes"/>der
-                                                  Landesregierung vertreten. Neben dem <lb
-                                                  break="yes"/>Landeshauptmanne oder seinem
-                                                  Stellvertre <lb break="no"/>ter können auch andere
-                                                  Mitglieder der Lan <lb break="no"/>desregierung
-                                                  zum Bundesrate bevollmächtigt <lb break="yes"
-                                                  />werden, jedoch nicht mehr als das Land <lb
-                                                  break="yes"/>Stimmen hat. <lb break="yes"/></p>
+                                                  - in dessen Stellvertretung - durch ein anderes
+                                                  Mitglied <lb break="yes"/>der Landesregierung
+                                                  vertreten. Neben dem <lb break="yes"
+                                                  />Landeshauptmanne oder seinem Stellvertre <lb
+                                                  break="no"/>ter können auch andere Mitglieder der
+                                                  Lan <lb break="no"/>desregierung zum Bundesrate
+                                                  bevollmächtigt <lb break="yes"/>werden, jedoch
+                                                  nicht mehr als das Land <lb break="yes"/>Stimmen
+                                                  hat. <lb break="yes"/></p>
                                                 <p type="legal_section">Die Abstimmung kann für
                                                   jedes Land nur <lb break="yes"/>einheitlich
                                                   erfolgen.</p>
@@ -1758,9 +1759,9 @@
                                                 break="yes"/>Landesverfassung kann - insoweit
                                                 dadurch<pb facs="#facs_30" n="30" xml:id="img_0030"
                                                 break="yes"/><fw type="pageNum">- 29 -</fw>
-                                          <lb break="no"/>die Bundesverfassung nicht berührt wird
-                                                <lb break="no"/>durch Landesgesetz abgeändert
-                                          werden. <lb break="yes"/></p>
+                                          <lb break="no"/>die Bundesverfassung nicht berührt wird -
+                                          durch Landesgesetz abgeändert werden. <lb break="yes"
+                                          /></p>
                                     <p type="legal_section">Ein Landesverfassungsgesetz kann nur <lb
                                                 break="yes"/>bei Anwesenheit von Zweidrittel aller
                                           Mit <lb break="no"/>glieder des Landtages mit einer
@@ -1835,10 +1836,10 @@
                               </div>
                               <div type="article">
                                     <head>Art. 90. </head>
-                                    <p type="legal_section">Zur Leitung des gesamten inneren Dienst
-                                                <lb break="yes"/>betriebes der Landesregierung ist
-                                          ein Lan <lb break="no"/>desamtsdirektor zu bestellen; er
-                                          ist der <lb break="yes"/>unmittelbare Vorgesetzte aller
+                                    <p type="legal_section">Zur Leitung des gesamten inneren
+                                          Dienstbetriebes der Landesregierung ist ein Lan <lb
+                                                break="no"/>desamtsdirektor zu bestellen; er ist der
+                                                <lb break="yes"/>unmittelbare Vorgesetzte aller
                                           Landesange <lb break="no"/>stellten und hat für einen
                                           einheitlichen <lb break="yes"/>und geregelten
                                           Geschäftsgang in sämtlichen <lb break="yes"/>Zweigen der
@@ -1898,11 +1899,14 @@
                                                 break="yes"/></p>
                                     <p type="legal_section">In den von den Landesbehörden als
                                           Bundesorganen wahrgenommenen Angelegen <lb break="no"
-                                          />heiten geht der Jnmatrative Instanzen <lb break="no"
-                                          />zug - wenn nicht durch Bundesgesetz aus <lb break="no"
-                                          />drücklich anderes bestimmt ist - bis zur <lb break="yes"
-                                          />Bundesregierung bezw. den ressortmäßig <lb break="yes"
-                                          />zustehenden Bundesämtern. </p>
+                                          />heiten geht der <choice>
+                                                <sic>Jnmatrative</sic>
+                                                <corr>administrative</corr>
+                                          </choice> Instanzen <lb break="no"/>zug - wenn nicht durch
+                                          Bundesgesetz aus <lb break="no"/>drücklich anderes
+                                          bestimmt ist - bis zur <lb break="yes"/>Bundesregierung
+                                          bezw. den ressortmäßig <lb break="yes"/>zustehenden
+                                          Bundesämtern. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 94. </head>
@@ -1961,7 +1965,7 @@
                                     <p type="legal_section">Er darf keiner politischen Körper <lb
                                                 break="no"/>schaft angehören und in den letzten 5
                                                 <lb break="yes"/>Jahren weder Mitglied der
-                                          Bundesregierung. <lb break="yes"/>noch einer
+                                          Bundesregierung, <lb break="yes"/>noch einer
                                           Landesregierung gewesen sein. </p>
                               </div>
                               <div type="article">
@@ -2025,7 +2029,7 @@
                                                 <lb break="no"/>rechnungshofes betraut werden. In
                                           diesem <lb break="yes"/>Falle finden auch auf den
                                           Stellvertreter <lb break="yes"/>die Bestimmungen des Art.
-                                          . . .Anwendung.</p>
+                                          . . . Anwendung.</p>
                               </div>
                               <div type="article">
                                     <head>Art. 101. </head>
@@ -2059,13 +2063,16 @@
                               </div>
                               <div type="article">
                                     <head>Art. 103. </head>
-                                    <p type="legal_section">Alle Urkunden über Staatsschulden
-                                          <lb break="yes"/>(Finanz- und Verwaltungsschulden) sind
-                                          <lb break="yes"/>vom Präsidenten des Bundesrechnungshofes
-                                          <lb break="yes"/>geganzuzeichnen; durch diese Gegenzeich
-                                          <lb break="no"/>nung wird lediglich die Gesetzmäßigkeit
-                                          <lb break="yes"/>und rechnungsmäßige Richtigkeit der Ge
-                                          <lb break="no"/>barung bekräftigt. </p>
+                                    <p type="legal_section">Alle Urkunden über Staatsschulden <lb
+                                                break="yes"/>(Finanz- und Verwaltungsschulden) sind
+                                                <lb break="yes"/>vom Präsidenten des
+                                          Bundesrechnungshofes <lb break="yes"/><choice>
+                                                <sic>geganzuzeichnen</sic>
+                                                <corr>gegenzuzeichnen</corr>
+                                          </choice>; durch diese Gegenzeich <lb break="no"/>nung
+                                          wird lediglich die Gesetzmäßigkeit <lb break="yes"/>und
+                                          rechnungsmäßige Richtigkeit der Ge <lb break="no"/>barung
+                                          bekräftigt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 104.</head>
@@ -2115,9 +2122,9 @@
                                           leisten. In Angelegenheiten, die die Bundesämter oder <lb
                                                 break="yes"/>die Landesregierungen - letztere inner
                                                 <lb break="no"/>halb ihres selbständigen
-                                          Wirkungskreises <lb break="yes"/>selbst betreffen, hat der
-                                          Bundesrechnungs <lb break="no"/>hof mit diesen Behörden
-                                          das Einvernehmen <lb break="yes"/>zu pflegen. </p>
+                                          Wirkungskreises <lb break="yes"/>- selbst betreffen, hat
+                                          der Bundesrechnungs <lb break="no"/>hof mit diesen
+                                          Behörden das Einvernehmen <lb break="yes"/>zu pflegen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 107. </head>
@@ -2251,7 +2258,7 @@
                               <div type="article">
                                     <head>Art. 118.</head>
                                     <p type="legal_section">Jedermann genießt die persönliche <lb
-                                                break="yes"/>Freineit. Die zum Schutze von Staat und
+                                                break="yes"/>Freiheit. Die zum Schutze von Staat und
                                                 <lb break="yes"/>Gesellschaft erforderlichen
                                           Schranken <lb break="yes"/>der persönlichen Freiheit
                                           können nur <lb break="yes"/>durch Bundesgesetz errichtet
@@ -2325,7 +2332,7 @@
                                                 break="yes"/>sich ohne Anmeldung oder besondere Er
                                                 <lb break="no"/>laubnis friedlich und unbewaffnet zu
                                                 <lb break="yes"/>versammeln. <lb break="yes"/></p>
-                                    <p type="legal_section">Versammlungen unter freien Himmel <lb
+                                    <p type="legal_section">Versammlungen unter freiem Himmel <lb
                                                 break="yes"/>können durch Bundesgesetz anmeldepflich
                                                 <lb break="no"/>tig gemacht und bei unmittelbarer
                                           Gefahr <lb break="yes"/>für die öffentliche Sicherheit
@@ -2389,7 +2396,7 @@
                                     <p type="legal_section"><pb facs="#facs_45" n="45"
                                                 xml:id="img_0045" break="yes"/><fw type="pageNum">-
                                                 44 -</fw><lb break="no"/>dig innerhalb der
-                                          gesetzlichen Schranken. <lb break="yes"/>Sie verleint ihre
+                                          gesetzlichen Schranken. <lb break="yes"/>Sie verleiht ihre
                                           Aemter ohne Mitwirkung <lb break="yes"/>des Staates. <lb
                                                 break="yes"/></p>
                                     <p type="legal_section">Die Rechtsfähigkeit der Religionsge <lb
@@ -2477,10 +2484,12 @@
                                                 <lb break="no"/>schulen mit Ausnahme der fachlichen
                                           Mit <lb break="no"/>telschulen. Seine Erteilung wird im
                                           Rah <lb break="no"/>men der Schulgesetzgebung geregelt.
-                                          Der <lb break="yes"/>Religionsunterrichtmwird in
-                                          Uebereinstim <lb break="no"/>mung mit den Grundsätzen der
-                                          betreffenden Religionsgesellschaft erteilt. <lb
-                                                break="yes"/></p>
+                                          Der <lb break="yes"/><choice>
+                                                <sic>Religionsunterrichtmwird</sic>
+                                                <corr>Religionsunterricht wird</corr>
+                                          </choice> in Uebereinstim <lb break="no"/>mung mit den
+                                          Grundsätzen der betreffenden Religionsgesellschaft
+                                          erteilt. <lb break="yes"/></p>
                                     <p type="legal_section">Die Erteilung des religiösen Unter <lb
                                                 break="no"/>richtes bleibt der Willenserklärung der
                                                 <lb break="yes"/>Lehrer überlassen. Den
@@ -2527,8 +2536,10 @@
                               <div type="article">
                                     <head>Art. 135. </head>
                                     <p type="legal_section">Die Staatssprache in der Republik <lb
-                                                break="yes"/>Oesterreich ist diedeutsche. <lb
-                                                break="yes"/></p>
+                                                break="yes"/>Oesterreich ist <choice>
+                                                <sic>diedeutsche</sic>
+                                                <corr>die deutsche</corr>
+                                          </choice>. <lb break="yes"/></p>
                                     <p type="legal_section">Alle Staatsbürger haben ein gleiches
                                           Recht auf Wahrung ihrer Nationalität und <lb break="yes"
                                           />Sprache. <lb break="yes"/></p>
@@ -2554,23 +2565,23 @@
                                                 break="yes"/><fw type="pageNum">- 48 -</fw> einer
                                           Minderheit angehören, haben das <lb break="yes"/>Recht, in
                                           den auf ihre eigenen Kosten <lb break="yes"/>errichteten
-                                          Wohltätigkeits- Religions <lb break="no"/>Unterrichts-
-                                          Erziehungs- und sonstigen <lb break="yes"/>Anstalten ihre
-                                          eigene Sprache nach Be <lb break="no"/>lieben zu
-                                          gebrauchen und ihre Religion <lb break="yes"/>frei
-                                          auszuüben.</p>
+                                          Wohltätigkeits- Religions- Unterrichts- Erziehungs- und
+                                          sonstigen <lb break="yes"/>Anstalten ihre eigene Sprache
+                                          nach Be <lb break="no"/>lieben zu gebrauchen und ihre
+                                          Religion <lb break="yes"/>frei auszuüben.</p>
                               </div>
                               <div type="article">
                                     <head>Art. 137. </head>
-                                    <p type="legal_section">Wo eine verhältnismäßig beträchtli
-                                          <lb break="no"/>che Anzahö von Staatsbürgern wohnt, die
-                                          <lb break="yes"/>einer Minderheit nach Nationalität, Spra
-                                          <lb break="no"/>che oder Religion angehört, sind von al
-                                          <lb break="no"/>len Beträgen, die etwa für Erziehungs-,
-                                          <lb break="yes"/>Religions- oder Wohltätigkeitszwecke aus
-                                          <lb break="yes"/>öffentlichen Mitteln zugewendet werden,
-                                          <lb break="yes"/>diese Minderheiten mit einem angemessenen
-                                          <lb break="yes"/>Teil zu beteilen.</p>
+                                    <p type="legal_section">Wo eine verhältnismäßig beträchtli <lb
+                                                break="no"/>che Anzahl von Staatsbürgern wohnt, die
+                                                <lb break="yes"/>einer Minderheit nach Nationalität,
+                                          Spra <lb break="no"/>che oder Religion angehört, sind von
+                                          al <lb break="no"/>len Beträgen, die etwa für Erziehungs-,
+                                                <lb break="yes"/>Religions- oder
+                                          Wohltätigkeitszwecke aus <lb break="yes"/>öffentlichen
+                                          Mitteln zugewendet werden, <lb break="yes"/>diese
+                                          Minderheiten mit einem angemessenen <lb break="yes"/>Teil
+                                          zu beteilen.</p>
                               </div>
                               <div type="article">
                                     <head>Art. 138. </head>
@@ -2585,7 +2596,7 @@
                                                 <lb break="no"/>gesetz nicht anderes bestimmt wird -
                                           nur <lb break="yes"/>gegen angemessene Entschädigung
                                           zulässig. <lb break="yes"/>Ueber die Höhe der
-                                          Entschädigung entschei <lb break="no"/>den im Streitfälle
+                                          Entschädigung entschei <lb break="no"/>den im Streitfalle
                                           die ordentlichen Ge <lb break="no"/>richte. <lb
                                                 break="yes"/></p>
                                     <p type="legal_section">Die Zwecke, zu denen enteignet werden
@@ -2619,7 +2630,7 @@
                                                 break="yes"/></p>
                                     <p type="legal_section">Der Bund kann ferner im Falle dringen
                                                 <lb break="no"/>den Bedürfnisses zum Zwecke der
-                                          Gemein <lb break="no"/>wirtshaft durch Gesetz
+                                          Gemein <lb break="no"/>wirtschaft durch Gesetz
                                           wirtschaftliche <lb break="yes"/>Unternehmungen und
                                           Verbände auf der Grund <lb break="no"/>lage der
                                           Selbstverwaltung zusammenschlies <lb break="no"/>sen mit
@@ -2627,7 +2638,7 @@
                                           />schaffenden Volksstellen zu sichern, Arbeitgeber und
                                           Arbeitnehmer an der Verwal <lb break="no"/>tung zu
                                           beteiligen, und Erzeugung, Her <lb break="no"/>stellung,
-                                          Verteilung Verwendung, Preis <lb break="no"/>gestaltung
+                                          Verteilung, Verwendung, Preis <lb break="no"/>gestaltung
                                           sowie Ein- und Ausfuhr der <lb break="yes"
                                           />Wirtschaftsgüter nach gemeinschaftlichen <lb break="yes"
                                           />Grundsätzen zu regeln. </p>
@@ -2767,8 +2778,8 @@
                                     <div type="article">
                                           <head>Art. 150. </head>
                                           <p type="legal_section">Von der Zuständigkeit der
-                                                Verwaltungs <lb break="yes"/>gerichte sind
-                                                ausgeschlossen: <lb break="yes"/></p>
+                                                Verwaltungsgerichte sind ausgeschlossen: <lb
+                                                  break="yes"/></p>
                                           <p type="legal_section">a) Angelegenheiten, über welche
                                                   den<pb facs="#facs_54" n="54" xml:id="img_0054"
                                                   break="yes"/><fw type="pageNum">- 53 -</fw><lb
@@ -2818,14 +2829,14 @@
                                                   break="yes"/>Kompetenzkonflikte <lb break="yes"
                                                 /></p>
                                           <p type="legal_section">a) zwischen Gerichten und
-                                                  Verwaltung-<pb facs="#facs_55" n="55"
+                                                  Verwaltungs-<pb facs="#facs_55" n="55"
                                                   xml:id="img_0055" break="yes"/><fw type="pageNum"
                                                   >- 54 -</fw><lb break="no"/>behörden des Bundes
                                                 oder der Länder; <lb break="yes"/></p>
                                           <p type="legal_section">b) zwischen Landesregierungen un
                                                   <lb break="no"/>tereinander, sowie zwischen einer
                                                 Lan <lb break="no"/>desregierung und der
-                                                Bundesregieruug. </p>
+                                                Bundesregierung. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 154. </head>
@@ -2853,7 +2864,7 @@
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entschei <lb break="no"/>det über
                                                 Bundesgesetzwidrigkeit von Lan <lb break="no"
-                                                />desgesetzen - außer dem im Art.73 erwähn <lb
+                                                />desgesetzen - außer dem im Art. 73 erwähn <lb
                                                   break="no"/>ten Fall - auf Antrag der
                                                 Bundesregierung. <lb break="yes"/></p>
                                           <p type="legal_section">Der Antrag der Bundesregierung
@@ -2891,7 +2902,7 @@
                                                 seiner <lb break="yes"/>Stellvertreter; <lb
                                                   break="yes"/></p>
                                           <p type="legal_section">b) der Mitglieder der
-                                                Bundesregierung und der innen hinsichtlich der
+                                                Bundesregierung und der ihnen hinsichtlich der
                                                 Verantwort <lb break="no"/>lichkeit gleichgestellten
                                                 Organe; <lb break="yes"/></p>
                                           <p type="legal_section">c) der Mitglieder der
