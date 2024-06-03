@@ -57,10 +57,6 @@ var editor = new LoadEditor({
         title: "Änderungen",
         html_class: "text_genetic",
         css_class: "genetic_view",
-        hide: {
-          hidden: true,
-          class: "text_genetic",
-        },
         chg_citation: "citation-url",
         features: {
           all: false,
@@ -69,14 +65,10 @@ var editor = new LoadEditor({
       },
       {
         opt: "correction_toggler",
-        color: "pink",
+        color: "",
         title: "editorische Korrekturen",
         html_class: "corr",
         css_class: "correction_view",
-        hide: {
-          hidden: true,
-          class: "correction_view",
-        },
         chg_citation: "citation-url",
         features: {
           all: false,

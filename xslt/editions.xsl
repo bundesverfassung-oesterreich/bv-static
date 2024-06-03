@@ -449,13 +449,12 @@
             <xsl:template match="tei:corr"></xsl:template>
             <xsl:template match="tei:sic"></xsl:template>
             <xsl:template match="tei:choice[tei:corr]">
-                <span class="corr">
-                    <xsl:attribute name="sic">
+                    <span class="corr sic">
                         <xsl:value-of select="./tei:sic/text()"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="./tei:corr/text()"/>
+                    </span><span class="corr conjectur">
+                        <xsl:value-of select="concat('[', ./tei:corr/text(), ']')"/>
+                    </span>
                     <xsl:apply-templates/>
-                </span>
             </xsl:template>
             <xsl:template match="//tei:choice[not(tei:corr)]">
                 <span class="choice text_genetic">
@@ -463,33 +462,26 @@
                 </span>
             </xsl:template>
             <xsl:template match="tei:del">
-                <span>
-                    <xsl:attribute name="class">
-                        <xsl:choose>
-                            <xsl:when test="parent::tei:choice">
-                                <xsl:value-of select="'choice_del text_genetic'"/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="'del text_genetic'"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:attribute>
+                <span class="del text_genetic">
                     <xsl:apply-templates/>
                 </span>
             </xsl:template>
             <xsl:template match="tei:add">
-                <span>
+                <span class="add text_genetic">
+                    <xsl:apply-templates/>
+                </span>
+                <!-- <span>
                     <xsl:attribute name="class">
                         <xsl:choose>
                             <xsl:when test="parent::tei:choice">
-                                <xsl:value-of select="'choice_add text_genetic'"/>
+                                <xsl:value-of select="'choice_add'"/>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:value-of select="' add text_genetic'"/>
+                                <xsl:value-of select="'add text_genetic'"/>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:attribute>
                     <xsl:apply-templates/>
-                </span>
+                </span> -->
             </xsl:template>
         </xsl:stylesheet>
