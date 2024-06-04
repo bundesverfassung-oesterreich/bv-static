@@ -1154,6 +1154,10 @@ low resolution
     scroll-margin-top: 100px;
 }
 
+span.anchor-pb {
+    scroll-margin-top: 100px;
+}
+
 div.meta_text {
     display: None;
 }
