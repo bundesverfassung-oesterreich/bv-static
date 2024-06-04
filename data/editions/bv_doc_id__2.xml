@@ -551,10 +551,13 @@
                                                 break="yes"/>Gesetzgebung oder auch der Vollziehung
                                           des <lb break="yes"/>Bundes übertragen ist, verbleibt sie
                                           im Wir <lb break="no"/>kungsbereiche der Länder. </p>
-                                    <note type="comment">Wo der Bundesgesetzgebung lediglich die
-                                          Regelung von Grundzügen vorbehalten ist, obliegt die
-                                          nähere Durchführung innerhalb des bundesgesetzlich
-                                          festgelegten Rahmens der Landesgesetzgebung.</note>
+                                    <add>
+                                          <p type="legal_section">Wo der Bundesgesetzgebung
+                                                lediglich die Regelung von Grundzügen vorbehalten
+                                                ist, obliegt die nähere Durchführung innerhalb des
+                                                bundesgesetzlich festgelegten Rahmens der
+                                                Landesgesetzgebung.</p>
+                                    </add>
                               </div>
                         </div>
                         <div type="section">
@@ -573,9 +576,9 @@
                                                 gewählten Bundes <lb break="no"/>rate das höchste
                                                 Organ des Bundes. </p>
                                           <note type="comment">Eventuell: Art. 12. <lb break="yes"
-                                                />Die gesetzgebende Gewalt [Streichung] übt der vom
-                                                ganzen Bundesvolke Österreichs gewählte Bundestag
-                                                unter Mitwirkung des Bundesrates aus.</note>
+                                                />Die gesetzgebende Gewalt übt der vom ganzen
+                                                Bundesvolke Österreichs gewählte Bundestag unter
+                                                Mitwirkung des Bundesrates aus.</note>
                                     </div>
                                     <div type="article">
                                           <head>Art. 13. </head>
@@ -896,12 +899,15 @@
                                           <p type="legal_section">Die Sitzungen des Bundestages <lb
                                                   break="yes"/>sind öffentlich. <lb break="yes"
                                                 /></p>
-                                          <p type="legal_section">Dem Hause steht das Recht zu, <lb
-                                                  break="yes"/>ausnahmsweise die Oeffentlichkeit
-                                                auszuschliesen, wenn es vom Präsidenten oder
-                                                wenigstens <lb break="yes"/>. . . Mitgliedern
-                                                verlangt und vom Hause <lb break="yes"/>nach
-                                                Entfernung der Zuhörer beschlossen wird. </p>
+                                          <p type="legal_section">Dem Hause st<choice>
+                                                  <sic>a</sic>
+                                                  <corr>e</corr>
+                                                </choice>ht das Recht zu, <lb break="yes"
+                                                />ausnahmsweise die Oeffentlichkeit auszuschliesen,
+                                                wenn es vom Präsidenten oder wenigstens <lb
+                                                  break="yes"/>. . . Mitgliedern verlangt und vom
+                                                Hause <lb break="yes"/>nach Entfernung der Zuhörer
+                                                beschlossen wird. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -1062,32 +1068,38 @@
                                     <div type="article">
                                           <head>Art. 36 . </head>
                                           <p type="legal_section"><list>
-                                                  <label>(1)</label>
+                                                  <label><add>(1)</add></label>
                                                   <item>Hat der Bundesrat einem Beschluss des
                                                   Bundestages die Genehmigung verweigert <lb
                                                   break="yes"/>und beharrt der Bundestag auf seinem
-                                                  ursprüng <lb break="no"/>lichen Beschluss, so hat,
-                                                  falls es sich um einen Gesetzesbeschluss handelt,
-                                                  <lb break="yes"/>eine Volksabstimmung zu <choice>
-                                                  <del>unterziehen</del>
-                                                  <add>erfolgen</add>
-                                                  </choice>. <note type="comment">einschließlich der
-                                                  in Art 14 Abs 2 und <lb break="yes"/>Art 15
-                                                  erwähnten Beschlüsse </note><note type="comment"
-                                                  >,handelt es sich um einen anderen <lb break="yes"
-                                                  />Entschluß, so entscheidet der Bundes <lb
-                                                  break="no"/>präsident.</note></item>
-                                                  <label>(3) </label>
+                                                  ursprüng <lb break="no"/>lichen Beschluss, so <choice>
+                                                  <del>ist dieser Beschluss</del>
+                                                  <add>hat, falls es sich um einen Gesetzesbeschluss
+                                                  einschließlich der in 14 Abs 2 und Art 15
+                                                  erwähnten Beschlüsse handelt<choice>
+                                                  <sic/>
+                                                  <corr>,</corr>
+                                                  </choice></add>
+                                                  </choice> eine<del>r</del> Volksabstimmung zu <choice>
+                                                  <del>unterziehen.</del>
+                                                  <add>erfolgen, handelt es sich um einen anderen
+                                                  Entschluß, so entscheidet der
+                                                  Bundespräsident.</add>
+                                                  </choice>. </item>
+                                                  <label><add>(2)</add></label>
+                                                  <item> Auf die<del>se</del>
+                                                  <add>in Abt. A erwähnten</add> Volksabstimmungen
+                                                  finden <lb break="yes"/>die Bestimmungen de<choice>
+                                                  <del>s</del>
+                                                  <add>r</add>
+                                                  </choice> Art. . . . . Anwendung.</item>
+                                                  <label><add>(3)</add></label>
                                                   <item>Nimmt das Bundesvolk den Bechluss <lb
                                                   break="yes"/>des Bundestages an, so ist dieser
                                                   ohne Ge <lb break="no"/>nehmigung des Bundesrates
                                                   zu beurkunden. <lb break="yes"/>in Abt. d.
-                                                  erwähnte.  </item>
-                                                  <label>(2)</label>
-                                                  <item>  Auf diese in Abt. A erwähnte
-                                                  Volksabstimmungen finden <lb break="yes"/>die
-                                                  Bestimmungen der Art. . . . . Anwendung.</item>
-                                                  <label>(4)</label>
+                                                  erwähnte. </item>
+                                                  <label><add>(4)</add></label>
                                                   <item> Ohne Genehmigung des Bundesrates <lb
                                                   break="yes"/>ist <choice>
                                                   <del>ein</del>
@@ -1100,15 +1112,13 @@
                                                   </choice> in der vor <lb break="no"/>geschriebenen
                                                   Zeit die Genehmigung weder <lb break="yes"
                                                   />erteilt, noch mit Angabe von Gründen ver <lb
-                                                  break="no"/>weigert hat.<note type="comment"
-                                                  >Handelt es sich um andere als im <lb break="yes"
-                                                  />Gesetzesbeschlüsse oder um die in Art 14 Abs. 2
-                                                  <lb break="yes"/>oder Art. 15 erwähnten
-                                                  Beschlüsse, so er <lb break="no"/>langt der
-                                                  Beschluß des Bundestages in <lb break="yes"
-                                                  />diesem Falle auch ohne Genmehmigung <lb
-                                                  break="yes"/>des Bundesrates
-                                                  Geltung.</note></item>
+                                                  break="no"/>weigert hat.<add>Handelt es sich um
+                                                  andere als im Gesetzesbeschlüsse oder um die in
+                                                  Art 14 Abs. 2 oder Art. 15 erwähnten Beschlüsse,
+                                                  so erlangt der Beschluß des Bundestages in <lb
+                                                  break="yes"/>diesem Falle auch ohne Genmehmigung
+                                                  <lb break="yes"/>des Bundesrates
+                                                  Geltung.</add></item>
                                                 </list>
                                                 <fw type="pageNum">38</fw>
                                           </p>
@@ -1809,11 +1819,11 @@
                                                 Richter zu ernennen sind. <lb break="yes"/></p>
                                           <p type="legal_section">Die Richter werden in die für die
                                                 übrigen Staatsbeamten bestehenden Rangsklassen <lb
-                                                  break="yes"/>nicht eingeteilt; ihre <choice>
-                                                  <sic>diechstliche</sic>
-                                                  <corr>dienstliche</corr>
-                                                </choice> Verwen <lb break="no"/>dung ist von ihrer
-                                                Einteilung in Gehaltsklassen unabhängig. </p>
+                                                  break="yes"/>nicht eingeteilt; ihre die<choice>
+                                                  <sic>ch</sic>
+                                                  <corr>n</corr>
+                                                </choice>stliche Verwen <lb break="no"/>dung ist von
+                                                ihrer Einteilung in Gehaltsklassen unabhängig. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 79. </head>
@@ -2267,8 +2277,10 @@
                                     <p type="legal_section">Er darf keiner politi schen <lb
                                                 break="yes"/>Körperschaft angehören, und in den
                                           letzten 5 Jahren weder Mitglied der Bundesregierung <lb
-                                                break="yes"/>noch einer Landesregierung gewesen
-                                          sind. </p>
+                                                break="yes"/>noch einer Landesregierung gewesen <choice>
+                                                <sic>sind</sic>
+                                                <corr>sein</corr>
+                                          </choice>. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 10<choice>
@@ -2563,7 +2575,7 @@
                                           immer <lb break="yes"/>ausgeschlossen. </p>
                               </div>
                               <div type="article">
-                                    <head>Art. 1<choice>
+                                    <head>Art. 12<choice>
                                                 <del>1</del>
                                                 <add>2</add>
                                           </choice>. </head>
@@ -3254,8 +3266,11 @@
                                                 die Lan <lb break="no"/>desverwaltungsgerichte haben
                                                 in der Regel nur <lb break="yes"/>über Beschwerden
                                                 der Parteien zu erkennen. <note type="comment">Ev.
-                                                  <lb break="yes"/>Zur Wahrung des Gesetzes genügt
-                                                  [?] <lb break="yes"/>bei den
+                                                  <lb break="yes"/>Zu<choice>
+                                                  <sic>m</sic>
+                                                  <corr>r</corr>
+                                                  </choice> Wahrung des Gesetzes genügt [?] <lb
+                                                  break="yes"/>bei den
                                                   Bundes[Landes?]verwaltungsgerichten ein <lb
                                                   break="yes"/>Bundesanwalt <lb break="yes"/>bei dem
                                                   Landes[Bundes?]verw. Gerichten ein <lb break="yes"

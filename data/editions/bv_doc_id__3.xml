@@ -1340,9 +1340,9 @@
                                                 <p type="legal_section">In jedem Bundesamte wird dem
                                                   verantwortlichen Leiter zur Wahrung der <lb
                                                   break="yes"/><choice>
-                                                  <sic>Winheit</sic>
-                                                  <corr>Einheit</corr>
-                                                  </choice> und Stetigkeit des Geschäfts <lb
+                                                  <sic>W</sic>
+                                                  <corr>E</corr>
+                                                  </choice>inheit und Stetigkeit des Geschäfts <lb
                                                   break="no"/>ganges ein Beamter zur Seite gestellt,
                                                   <lb break="yes"/>der den Amtstitel eines
                                                   Bundesamtsdi <lb break="no"/>rektors führt. </p>
@@ -1351,12 +1351,12 @@
                                                 <head>Art. 57. </head>
                                                 <p type="legal_section">Ueber das Bundesheer verfügt
                                                   die <lb break="yes"/>Bundesregierung. Sie übt die
-                                                  Befehlsge <lb break="no"/>walt <choice>
-                                                  <sic>ausschlieälich</sic>
-                                                  <corr>ausschließlich</corr>
-                                                  </choice> durch die Befehls <lb break="no"/>haber
-                                                  aus, welche ihr verantwortlich <lb break="yes"
-                                                  />sind.</p>
+                                                  Befehlsge <lb break="no"/>walt ausschlie<choice>
+                                                  <sic>ä</sic>
+                                                  <corr>ß</corr>
+                                                  </choice>lich durch die Befehls <lb break="no"
+                                                  />haber aus, welche ihr verantwortlich <lb
+                                                  break="yes"/>sind.</p>
                                           </div>
                                     </div>
                                     <div type="section">
@@ -2332,14 +2332,17 @@
                                                 break="yes"/>sich ohne Anmeldung oder besondere Er
                                                 <lb break="no"/>laubnis friedlich und unbewaffnet zu
                                                 <lb break="yes"/>versammeln. <lb break="yes"/></p>
-                                    <p type="legal_section">Versammlungen unter freiem Himmel <lb
-                                                break="yes"/>können durch Bundesgesetz anmeldepflich
-                                                <lb break="no"/>tig gemacht und bei unmittelbarer
-                                          Gefahr <lb break="yes"/>für die öffentliche Sicherheit
-                                          verboten <lb break="yes"/>werden. Sie dürfen am Sitze des
-                                          Bundes <lb break="no"/>tages, des Bundesrates oder der
-                                          Landtage, <lb break="yes"/>wenn diese versammelt sind,
-                                          überhaupt <lb break="yes"/>nicht stattfinden.</p>
+                                    <p type="legal_section">Versammlungen unter freie<choice>
+                                                <sic>n</sic>
+                                                <corr>m</corr>
+                                          </choice> Himmel <lb break="yes"/>können durch
+                                          Bundesgesetz anmeldepflich <lb break="no"/>tig gemacht und
+                                          bei unmittelbarer Gefahr <lb break="yes"/>für die
+                                          öffentliche Sicherheit verboten <lb break="yes"/>werden.
+                                          Sie dürfen am Sitze des Bundes <lb break="no"/>tages, des
+                                          Bundesrates oder der Landtage, <lb break="yes"/>wenn diese
+                                          versammelt sind, überhaupt <lb break="yes"/>nicht
+                                          stattfinden.</p>
                               </div>
                               <div type="article">
                                     <head>Art. 124. </head>
@@ -2573,15 +2576,17 @@
                               <div type="article">
                                     <head>Art. 137. </head>
                                     <p type="legal_section">Wo eine verhältnismäßig beträchtli <lb
-                                                break="no"/>che Anzahl von Staatsbürgern wohnt, die
-                                                <lb break="yes"/>einer Minderheit nach Nationalität,
-                                          Spra <lb break="no"/>che oder Religion angehört, sind von
-                                          al <lb break="no"/>len Beträgen, die etwa für Erziehungs-,
-                                                <lb break="yes"/>Religions- oder
-                                          Wohltätigkeitszwecke aus <lb break="yes"/>öffentlichen
-                                          Mitteln zugewendet werden, <lb break="yes"/>diese
-                                          Minderheiten mit einem angemessenen <lb break="yes"/>Teil
-                                          zu beteilen.</p>
+                                                break="no"/>che Anzah<choice>
+                                                <sic>ö</sic>
+                                                <corr>l</corr>
+                                          </choice> von Staatsbürgern wohnt, die <lb break="yes"
+                                          />einer Minderheit nach Nationalität, Spra <lb break="no"
+                                          />che oder Religion angehört, sind von al <lb break="no"
+                                          />len Beträgen, die etwa für Erziehungs-, <lb break="yes"
+                                          />Religions- oder Wohltätigkeitszwecke aus <lb break="yes"
+                                          />öffentlichen Mitteln zugewendet werden, <lb break="yes"
+                                          />diese Minderheiten mit einem angemessenen <lb
+                                                break="yes"/>Teil zu beteilen.</p>
                               </div>
                               <div type="article">
                                     <head>Art. 138. </head>
