@@ -50,6 +50,7 @@ var editor = new LoadEditor({
           all: false,
           class: "features-1",
         },
+        default: true,
       },
       {
         opt: "genetic_toggler",
@@ -74,6 +75,7 @@ var editor = new LoadEditor({
           all: false,
           class: "features-1",
         },
+        default: true,
       },
     ],
     span_element: {
@@ -114,4 +116,5 @@ var editor = new LoadEditor({
       },
     ],
   },
+  up: true,
 });
