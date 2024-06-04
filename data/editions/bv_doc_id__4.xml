@@ -392,11 +392,11 @@
                                                   break="no"/>sen und die Verwaltung der
                                                   Bundesbetriebe,</item>
                                                 <label>5./ </label>
-                                                <item> das Zollwesen, Geld - und <choice>
-                                                  <sic>Bánkwesen</sic>
-                                                  <corr>Bankwesen</corr>
-                                                  </choice>; Handel, Gewerbe, Industrie und Verkehr,
-                                                  Bergwesen.</item>
+                                                <item> das Zollwesen, Geld - und B<choice>
+                                                  <del>á</del>
+                                                  <add>a</add>
+                                                  </choice>nkwesen; Handel, Gewerbe, Industrie und
+                                                  Verkehr, Bergwesen.</item>
                                                 <label> 6./ </label>
                                                 <item>Mass- und Gewichtswesen, Punzierungs wesen,  </item>
                                                 <label>7./  </label>
@@ -880,11 +880,10 @@
                               </div>
                               <div type="article">
                                     <head>Art. XXXIV. </head>
-                                    <p type="legal_section">Die Mitglieder der <choice>
-                                                <sic>Bundeversammlung</sic>
-                                                <corr>Bundesversammlung</corr>
-                                          </choice>
-                                          <lb break="yes"/>können wegen der in Ausübung ihres
+                                    <p type="legal_section">Die Mitglieder der Bunde<choice>
+                                                <sic/>
+                                                <corr>s</corr>
+                                          </choice>versammlung können wegen der in Ausübung ihres
                                           Berufes <lb break="yes"/>geschehenen Abstimmungen niemals,
                                           wegen der <lb break="yes"/>in diesem Berufe gemachten
                                           Aeusserungen nur <lb break="yes"/>von der
@@ -1164,9 +1163,9 @@
                                     </div>
                                     <div type="article">
                                           <head>Art. LIV.</head>
-                                          <p type="legal_section"><choice>
-                                                  <sic>Bid</sic>
-                                                  <corr>Bis</corr>
+                                          <p type="legal_section">Bi<choice>
+                                                  <sic>d</sic>
+                                                  <corr>s</corr>
                                                 </choice> die neue Bundesregierung gebildet ist, <lb
                                                   break="yes"/>hat der Bundespräsident entweder die
                                                 schei <lb break="no"/>dende Regierung unter dem
@@ -1185,9 +1184,9 @@
                                     <div type="article">
                                           <head>Art. LV. </head>
                                           <p type="legal_section">Versagt die Bundesversammlung oder
-                                                der Bundesrat der Bundesregierung oder einzelnen <choice>
-                                                  <sic>Mitglieder</sic>
-                                                  <corr>Mitgliedern</corr>
+                                                der Bundesrat der Bundesregierung oder einzelnen Mitgieder<choice>
+                                                  <sic/>
+                                                  <corr>n</corr>
                                                 </choice> derselben durch ausdrückliche Entschlies
                                                   <lb break="no"/>sung das Vertrauen, so ist eine
                                                 neue Bundesregie <lb break="no"/>rung zu bestellen,
@@ -2128,8 +2127,10 @@
                                           <head>Art. CXX. </head>
                                           <p type="legal_section">Die Organisation der Landesverwal
                                                   <lb break="no"/>tungsgerichte und des
-                                                Bundesverwaltungs <lb break="no"/>gerichtes sowie
-                                                das Verfahren vor ihnen</p>
+                                                Bundesverwaltungs <lb break="no"/>gericht<choice>
+                                                  <sic>s</sic>
+                                                  <corr>e</corr>
+                                                </choice> sowie das Verfahren vor ihnen</p>
                                           <p type="legal_section"><pb facs="#facs_39" n="39"
                                                   xml:id="img_0039" break="yes"/><fw type="pageNum"
                                                   >- 38 -</fw>
@@ -2255,16 +2256,15 @@
                                     <div type="article">
                                           <head>Art. CXXVII. </head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
-                                                entschei
-                                                <lb break="no"/>det über Anfechtungen von Wahlen zur
-                                                Bun
-                                                <lb break="no"/>desversammlung oder
-                                                Präsidentschaftswahlen
-                                                <lb break="yes"/>und über den Antrag der
-                                                Bundesversammlung
-                                                <lb break="yes"/>auf Erklärung des Mandatsverkustes
-                                                eines
-                                                <lb break="yes"/>ihrer Mitglieder.</p>
+                                                entschei <lb break="no"/>det über Anfechtungen von
+                                                Wahlen zur Bun <lb break="no"/>desversammlung oder
+                                                Präsidentschaftswahlen <lb break="yes"/>und über den
+                                                Antrag der Bundesversammlung <lb break="yes"/>auf
+                                                Erklärung des Mandatsver<choice>
+                                                  <del>k</del>
+                                                  <add>l</add>
+                                                </choice>ustes eines <lb break="yes"/>ihrer
+                                                Mitglieder.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. CXXVIII. </head>
@@ -2340,8 +2340,10 @@
                                     </div>
                                     <div type="article">
                                           <head>Art. CXXX. </head>
-                                          <p type="legal_section">Der Präsident des
-                                                Bundesverfasungsge <lb break="no"/>richtes steht im
+                                          <p type="legal_section">Der Präsident des Bundesverfas<choice>
+                                                  <sic/>
+                                                  <corr>s</corr>
+                                                </choice>ungsge <lb break="no"/>richtes steht im
                                                 Range des Bundeskanzlers. <lb break="yes"/>der
                                                 Vizepräsident im Range eines Staats <lb break="yes"
                                                 />sekretärs. <lb break="yes"/></p>
