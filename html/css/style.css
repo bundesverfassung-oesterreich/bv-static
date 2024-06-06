@@ -34,18 +34,32 @@ a {
     color: var(--bv-big-highlight);
 }
 
-/*left align any content text per default*/
+
+
+
+/* START page with xml documentation */
 div.container.xmldocumentation {
     margin: 2rem auto;
     max-width: 60rem;
     display: flex;
+    flex-direction: row;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    resize: none;
 }
 
-/* START page with xml documentation */
+div.container.xmldocumentation *{
+    overflow-wrap: break-word;
+    overflow: hidden;
+    resize: none;
+}
 
 div.container.xmldocumentation ul.toc.toc_body {
     margin-bottom: 2rem;
+    margin-left: 2rem;
     padding-right: 2rem;
+    min-width: 20rem;
+    max-width: 25rem;
 }
 
 div.container.xmldocumentation :target {
@@ -54,6 +68,7 @@ div.container.xmldocumentation :target {
 
 /* END page with xml documentation */
 
+/*left align any content text per default*/
 div.container p {
     text-align: justify;
     hyphens: auto;
@@ -1044,6 +1059,23 @@ add rules for smallest tablet high
 resolution or low resolution screens
 #########################################
 */
+
+/* START media defs for page with xml documentation */
+@media (max-width: 50rem) {
+    div.container.xmldocumentation {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    div.container.xmldocumentation ul.toc.toc_body {
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* END page with xml documentation */
 
 @media (max-width: 810px) {
     .facsimiles {
