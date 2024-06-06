@@ -103,6 +103,7 @@
                   <change when="2024-03-22" who="#m_huber">angefangen div zu erzeugen</change>
                   <change when="2024-04-19" who="#m_huber">fixed headings</change>
                   <change when="2024-05-14" who="#s_kury">gegenlesen beendet</change>
+                  <change when="2024-06-06" who="#m_huber">fixed lb-elements</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -277,7 +278,7 @@
                                     <head>Art. III. </head>
                                     <p type="legal_section">Eine Aenderung des Bundesgebietes, die zugleich Aenderung eines
                                           Landesgebietes ist, ebenso eine Aenderung
-                                          der Landes-grenze innerhalb des
+                                          der Landesgrenze innerhalb des
                                           Bundesgebietes, kann nur durch
                                           übereinstimmende Verfassungsgesetze des
                                           Bundes und desjenigen Landes erfolgen,
@@ -295,33 +296,33 @@
                                     <fw type="pageNum">- 2 - </fw>
                                     <head>Art. V. </head>
                                     <p type="legal_section">Die souveränen Länder Niederösterreich etz. übertragen dem Bunde ihre
-                                          Staatsge-walt in den folgenden
+                                          Staatsgewalt in den folgenden
                                           Angelegenheiten: <list>
                                                 <label> 1.)</label>
                                                 <item> die auswärtigen Angelegenheiten, </item>
                                                 <label>2.)</label>
                                                 <item>das Militärwesen, </item>
                                                 <label>3.)</label>
-                                                <item> die Sicherheitspolizei in Gemein-den bis zu....Einwohnern; die Fremdenpolizei und das Paßwesen, </item>
+                                                <item> die Sicherheitspolizei in Gemeinden bis zu....Einwohnern; die Fremdenpolizei und das Paßwesen, </item>
                                                 <label>4.)</label>
-                                                <item> die Bundesfinanzen, das Monopol-wesen und die Verwaltung der
-                                                  Bundesbetrie-be, </item>
+                                                <item> die Bundesfinanzen, das Monopolwesen und die Verwaltung der
+                                                  Bundesbetriebe, </item>
                                                 <label>5.)</label>
                                                 <item>das Zollwesen, Geld- und Bankwesen; Handel, Gewerbe, Industrie und Verkehr, Bergwesen, </item>
                                                 <label>6.)</label>
-                                                <item>Maß- und Gewichtwesen, Punzie-rungswesen, </item>
+                                                <item>Maß- und Gewichtwesen, Punzierungswesen, </item>
                                                 <label>7.) </label>
                                                 <item>Zivil- und Strafjustiz, </item>
                                                 <label>8.)</label>
                                                 <item>Kultus- und Hochschulwesen, </item>
                                                 <label>9.)</label>
-                                                <item> Volksgesundheit und soziale Für-sorge. </item>
+                                                <item> Volksgesundheit und soziale Fürsorge. </item>
                                           </list> In diesen Angelegenheiten steht dem Bunde die Gesetzgebung und Vollziehung
                                           zu. </p>
                               </div>
                               <div type="article">
                                     <head>Art. VI. </head>
-                                    <p type="legal_section">Der Gesetzgebung des Bundes ist über-tragen: <list>
+                                    <p type="legal_section">Der Gesetzgebung des Bundes ist übertragen: <list>
                                                 <label>1.)</label>
                                                 <item>die Aenderung der Bundesverfassung
                                                   insbesondere auch hinsichtlich des Verhältnisses der souveränen Länder zum Bunde, </item>
@@ -673,10 +674,10 @@
                                     <p type="legal_section">Kein Mitglied der Bundesversammlung darf während der Dauer der Session
                                           wegen einer strafbaren Handlung - den
                                           Fall der <fw type="pageNum">8</fw></p>
-                                    <p type="legal_section"><pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/><fw type="pageNum">-
-                                                14 -</fw>Ergreifung auf frischer Tat
-                                          ausgenommen -ohne Zustimmung der
-                                          Bundesversammlung verhaftet oder
+                                    <p type="legal_section"><pb facs="#facs_15" n="15"
+                                                xml:id="img_0015" break="yes"/><fw type="pageNum">-
+                                                14 -</fw>Ergreifung auf frischer Tat ausgenommen -
+                                          ohne Zustimmung der Bundesversammlung verhaftet oder
                                           behördlich verfolgt werden. </p>
                                     <p type="legal_section">Selbst in dem Falle der Ergreifung auf frischer Tat hat die Behörde dem Präsidenten der Bundesversammlung
                                           sogleich die geschehene Verhaftung
@@ -705,7 +706,7 @@
                                     <head>Art. XXXVIII. </head>
                                     <p type="legal_section">Die Mitglieder der Bundesregierung sowie die von ihnen entsendeten Vertreter sind berechtigt, an allen
                                           Beratungen der Bundesversammlung und des
-                                                Bun-<pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/><fw type="pageNum">- 15 - </fw>desrates sowie deren Ausschüsse teilzunehmen. Sie müssen auf ihr Verlangen
+                                                Bun<pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/><fw type="pageNum">- 15 - </fw>desrates sowie deren Ausschüsse teilzunehmen. Sie müssen auf ihr Verlangen
                                           jedesmal gehört werden. Die Bundesversammlung sowie der Bundesrat kann die
                                           Anwesenheit der Mitglieder der
                                           Bundesregierung verlangen. </p>
@@ -1275,7 +1276,7 @@
                                           der Bundesversammlung oder des
                                           Bundesrates abberufen werden. Auf diese
                                           Beschlüsse finden die Bestimmungen des
-                                          Art. IV der Bundesver-<pb facs="#facs_34" n="34" xml:id="img_0034" break="yes"/><fw type="pageNum">-
+                                          Art. IV der Bundesver<pb facs="#facs_34" n="34" xml:id="img_0034" break="yes"/><fw type="pageNum">-
                                                 33 -</fw> fassung analoge
                                           Anwendung. </p>
                               </div>
@@ -1439,7 +1440,7 @@
                               <div type="article">
                                     <head>Art. CV. </head>
                                     <p type="legal_section">Die Auswanderungsfreiheit ist nur aus dem Grunde der Landesverteidigung beschränkbar. </p>
-                                    <p type="legal_section">Der Verlust der Staatsbürger-<pb facs="#facs_40" n="40" xml:id="img_0040" break="yes"/><fw type="pageNum">- 39 -</fw>schaft infolge Auswanderung wird durch besondere Gesetze geregelt. </p>
+                                    <p type="legal_section">Der Verlust der Staatsbürger<pb facs="#facs_40" n="40" xml:id="img_0040" break="yes"/><fw type="pageNum">- 39 -</fw>schaft infolge Auswanderung wird durch besondere Gesetze geregelt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. CVI. </head>
@@ -1478,7 +1479,7 @@
                               </div>
                               <div type="article">
                                     <head>Art. CXI. </head>
-                                    <p type="legal_section">Die Vereins- und Versammlungs-freiheit wird durch besondere Gesetze geregelt. </p>
+                                    <p type="legal_section">Die Vereins- und Versammlungsfreiheit wird durch besondere Gesetze geregelt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. CXII. </head>
@@ -1492,7 +1493,7 @@
                                           kirchlichen Feierlichkeit kann niemand
                                           gezwungen werden. </p>
                                     <p type="legal_section">Die Stellung der Religionsgesellschaften im Staate und die Rechte ihrer Angehörigen werden durch besondere
-                                                Ge-<pb facs="#facs_42" n="42" xml:id="img_0042" break="yes"/><fw type="pageNum">- 41 -</fw>setze geregelt. </p>
+                                                Ge<pb facs="#facs_42" n="42" xml:id="img_0042" break="yes"/><fw type="pageNum">- 41 -</fw>setze geregelt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. CXIII. </head>
@@ -1558,7 +1559,7 @@
                                           <p type="legal_section">Aus dem Stande der letzterwähnten Beamten ernennt der
                                                 Bundespräsident über Vorschlag der
                                                 Bundesregierung den Präsidenten,
-                                                aus dem Stande der ersterwähnten Beamten über Vorschlag der Landesregie-<pb facs="#facs_44" n="44" xml:id="img_0044" break="yes"/><fw type="pageNum">- 43 - </fw>rung den Vizepräsidenten des Landesverwaltungsgerichtes. </p>
+                                                aus dem Stande der ersterwähnten Beamten über Vorschlag der Landesregie<pb facs="#facs_44" n="44" xml:id="img_0044" break="yes"/><fw type="pageNum">- 43 - </fw>rung den Vizepräsidenten des Landesverwaltungsgerichtes. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. CXVIII. </head>
@@ -1647,7 +1648,7 @@
                                                   (Verordnungen) einer Bundes- oder
                                                   Landesbehörde auf Antrag eines Gerichtes; </p>
                                                 <p type="legal_section">über Gesetzwidrigkeit von
-                                                  Vollzugsanwei-sungen
+                                                  Vollzugsanweisungen
                                                   (Verordnungen) einer Landesbehörde auch auf Antrag der Bundesregierung; über Gesetzwidrigkeit von
                                                   Vollzugsanweisungen der
                                                   Bundesbehörden auch auf Antrag einer Landesregierung. </p>
