@@ -35,6 +35,24 @@ a {
 }
 
 /*left align any content text per default*/
+div.container.xmldocumentation {
+    margin: 2rem auto;
+    max-width: 60rem;
+    display: flex;
+}
+
+/* START page with xml documentation */
+
+div.container.xmldocumentation ul.toc.toc_body {
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+div.container.xmldocumentation :target {
+    background-color: var(--bv-main-bg-color);
+}
+
+/* END page with xml documentation */
 
 div.container p {
     text-align: justify;
