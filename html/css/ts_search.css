@@ -196,3 +196,11 @@ input.ais-SearchBox-input:focus {
     overflow: hidden;
     text-align: right;
 }
+
+.facet-list-scroll {
+    overflow: hidden;
+    overflow-y: scroll;
+    min-height: fit-content;
+    max-height: 15rem;
+    border: none;
+}
