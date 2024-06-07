@@ -87,16 +87,16 @@
                                                 </td>
                                                 <td>
                                                     <xsl:choose>
-                                                        <xsl:when test=".//tei:revisionDesc/@status!='created'">
+                                                        <xsl:when test=".//tei:revisionDesc/@status='created'">
                                                             <xsl:value-of select="'maschinell erfasst'"/>
                                                         </xsl:when>
-                                                        <xsl:when test=".//tei:revisionDesc/@status!='structured'">
+                                                        <xsl:when test=".//tei:revisionDesc/@status='structured'">
                                                             <xsl:value-of select="'strukturell erschlossen'"/>
                                                         </xsl:when>
-                                                        <xsl:when test=".//tei:revisionDesc/@status!='text_correct'">
+                                                        <xsl:when test=".//tei:revisionDesc/@status='text_correct'">
                                                             <xsl:value-of select="'Dokument vollständig ediert'"/>
                                                         </xsl:when>
-                                                        <xsl:when test=".//tei:revisionDesc/@status!='done'">
+                                                        <xsl:when test=".//tei:revisionDesc/@status='done'">
                                                             <xsl:value-of select="'Dokument vollständig ediert'"/>
                                                         </xsl:when>
                                                     </xsl:choose>
