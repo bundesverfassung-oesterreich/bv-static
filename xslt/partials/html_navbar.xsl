@@ -38,6 +38,9 @@
                                     <li>
                                         <a class="dropdown-item" href="about_bvg.html">Das Bundes-Verfassungsgesetz</a>
                                     </li>
+                                    <li>
+                                        <a class="dropdown-item" href="xml_docu.html">XML-Dokumentation</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item">

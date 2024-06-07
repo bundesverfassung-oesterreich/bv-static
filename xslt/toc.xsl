@@ -46,6 +46,7 @@
                                             <th scope="col">beteiligte Personen</th>
                                             <th scope="col">Dokumententyp</th>
                                             <th scope="col">Materialtyp</th>
+                                            <th scope="col">Erschließungsgrad</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -83,6 +84,22 @@
                                                 </td>
                                                 <td>                                        
                                                     <xsl:value-of select="//tei:text/@type"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:choose>
+                                                        <xsl:when test=".//tei:revisionDesc/@status!='created'">
+                                                            <xsl:value-of select="'maschinell erfasst'"/>
+                                                        </xsl:when>
+                                                        <xsl:when test=".//tei:revisionDesc/@status!='structured'">
+                                                            <xsl:value-of select="'strukturell erschlossen'"/>
+                                                        </xsl:when>
+                                                        <xsl:when test=".//tei:revisionDesc/@status!='text_correct'">
+                                                            <xsl:value-of select="'Dokument vollständig ediert'"/>
+                                                        </xsl:when>
+                                                        <xsl:when test=".//tei:revisionDesc/@status!='done'">
+                                                            <xsl:value-of select="'Dokument vollständig ediert'"/>
+                                                        </xsl:when>
+                                                    </xsl:choose>
                                                 </td>
                                             </tr>
                                         </xsl:for-each>
