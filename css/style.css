@@ -5,7 +5,8 @@
     --bv-big-highlight-rgb: 0, 116, 82;
     /*#007452*/
     --bv-big-highlight: rgb(var(--bv-big-highlight-rgb));
-    --bv-contrast: #eff15ef6;
+    --bv-contrast-rgb: 239, 241, 94;
+    --bv-contrast: rgba(var(--bv-contrast-rgb), 0.965);
     --bv-transp-red: 255, 1, 1;
     --default-line-height: 1.5rem;
     --default-line-height-negative: -1.5rem;
@@ -260,6 +261,22 @@ div.revision_desc.created {
     color: var(--bv-main-bg-color);
     /*background-color: gray !important;*/
     background-color: rgba(var(--bv-transp-red), 0.6) !important;
+}
+
+
+div.revision_desc.structured {
+    color: gray;
+    /* color: var(--bv-main-bg-color); */
+    /*background-color: gray !important;*/
+    background-color: rgba(var(--bv-contrast-rgb), 0.8) !important;
+}
+
+
+div.revision_desc.text_correct,
+div.revision_desc.done {
+    color: var(--bv-main-bg-color);
+    /*background-color: gray !important;*/
+    background-color: rgba(var(--bv-big-highlight-rgb), 0.6) !important;
 }
 
 .docinfo .document_info {
