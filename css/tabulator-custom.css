@@ -1,4 +1,13 @@
 /* custom tabulator toc start */
+#tocTable {
+	width: 100%;
+}
+
+div#tocTable div.tabulator-header-filter input {
+    background-color: var(--bv-main-bg-color);
+    border: solid grey 1px;
+    border-radius: 0.2rem;
+}
 
 #tocTable .tabulator-col {
 	border-right: 0px;
