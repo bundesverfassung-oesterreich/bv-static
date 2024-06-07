@@ -94,10 +94,10 @@
                                                             <xsl:value-of select="'strukturell erschlossen'"/>
                                                         </xsl:when>
                                                         <xsl:when test=".//tei:revisionDesc/@status='text_correct'">
-                                                            <xsl:value-of select="'Dokument vollständig ediert'"/>
+                                                            <xsl:value-of select="'vollständig ediert'"/>
                                                         </xsl:when>
                                                         <xsl:when test=".//tei:revisionDesc/@status='done'">
-                                                            <xsl:value-of select="'Dokument vollständig ediert'"/>
+                                                            <xsl:value-of select="'vollständig ediert'"/>
                                                         </xsl:when>
                                                     </xsl:choose>
                                                 </td>
