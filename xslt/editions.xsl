@@ -69,7 +69,6 @@
                                 aria-label="Close"/>
                         </div>
                         <div class="offcanvas-body">
-                            <xsl:value-of select="$revision_state"/>
                             <p>Die vorliegende Transkription wurde maschinell erstellt, um das Dokument
                                 grundlegend durchsuchbar zu machen. Sie sollte – ob ihres rein
                                 provisorischen Charakters – keinesfalls als Zitationsquelle verwendet
