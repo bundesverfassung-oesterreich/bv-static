@@ -104,7 +104,7 @@
                         Abschnitte</change>
                   <change when="2024-05-16" who="#m_huber">Formatierung inkl. seitenzahlen, listen,
                         absätzen</change>
-                  <change when="2024-06-03" who="#s_kury">Gegenlesen beendet</change>
+                  <change when="2024-06-03" who="#s_kury">gegenlesen beendet</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">

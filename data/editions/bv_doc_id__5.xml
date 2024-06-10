@@ -337,7 +337,12 @@
                               </div>
                               <div type="article">
                                     <head>Art. 4.</head>
-                                    <p type="legal_section">Eine Aenderung des Bundesgebietes, die zugleich Aenderung eines Landesgebietes ist, ebenso eine Aenderung der Landesgrenze innerhalb des Bundesgebietes, kann nur durch übereinstimmende Verfassungsgesetze des Bundes und des jenigen Landes erfolgen, dessen Gebiet eine Veränderung erfährt.</p>
+                                    <p type="legal_section">Eine Aenderung des Bundesgebietes, die
+                                          zugleich Aenderung eines Landesgebietes ist, ebenso eine
+                                          Aenderung der Landesgrenze innerhalb des Bundesgebietes,
+                                          kann nur durch übereinstimmende Verfassungsgesetze des
+                                          Bundes und desjenigen Landes erfolgen, dessen Gebiet eine
+                                          Veränderung erfährt.</p>
                               </div>
                               <div type="article">
                                     <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
@@ -452,24 +457,24 @@
                                     <div type="article">
                                           <head>Art. 15. </head>
                                           <p type="legal_section">Zum Bundestag werden in dem
-                                                gesamten Bundesgebiet . . . . . . .
-                                                Abgeordnete auf Grund des gleichen,
-                                                direkten persönlichen und geheimen
-                                                Wahlrechtes aller Bundesbürger ohne
-                                                Unterschied des Geschlechtes, die
-                                                vor dem 1. Jänner d.J., in welchem die Wahl stattfindet das 20. Lebensjahr
-                                                überschritten haben, nach dem
-                                                System der Verhältniswahl gewählt. </p>
+                                                gesamten Bundesgebiet . . . . . . . Abgeordnete auf
+                                                Grund des gleichen, direkten persönlichen und
+                                                geheimen Wahlrechtes aller Bundesbürger ohne
+                                                Unterschied des Geschlechtes, die vor dem 1. Jänner
+                                                d.J., in welchem die Wahl stattfindet das 20.
+                                                Lebensjahr überschritten haben, nach dem System der
+                                                Verhältniswahl gewählt. </p>
                                           <p type="legal_section">Wählbar ist ohne Unterschied des
                                                 Geschlechtes jeder wahlberechtigte Bundesbürger, der vor dem 1. Jänner des
                                                 Jahres, in welchem die Wahl zur
                                                 Bundesversammlung stattfindet, das
                                                 29. Lebensjahr überschritten hat. </p>
-                                          <p type="legal_section">Vom Wahlrecht und der Wählbarkeit sind ausgeschlossen: </p>
+                                          <p type="legal_section">Vom Wahlrecht und der Wählbarkeit
+                                                sind ausgeschlossen: . . . . . . . </p>
                                           <p type="legal_section">Die Wahlordnung für die Wahl zum
-                                                Bundes tag wird in einem besonderen
-                                                Gesetze erlassen. Sie bildet einen
-                                                Bestandteil der Bundesverfassung.</p>
+                                                Bundestag wird in einem besonderen Gesetze erlassen.
+                                                Sie bildet einen Bestandteil der
+                                                Bundesverfassung.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 16. </head>
@@ -485,12 +490,13 @@
                                           <pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/>
                                           <fw type="pageNum">- 6 -</fw>
                                           <head>Art. 17. </head>
-                                          <p type="legal_section">Während der Sitzungsperiode kann der Bundestag durch einen
-                                                Bundesschluß des Hauses oder auf
-                                                Vorschlag der Bundesregierung durch
-                                                den Bundespräsidenten jedoch nur
-                                                einmal aus denselben Anlaß vertagt
-                                                werden. </p>
+                                          <p type="legal_section">Während der Sitzungsperiode kann
+                                                der Bundestag durch einen Bundesschluß des Hauses
+                                                oder auf Vorschlag der Bundesregierung durch den
+                                                Bundespräsidenten jedoch nur einmal aus de<choice>
+                                                  <sic>n</sic>
+                                                  <corr>m</corr>
+                                                </choice>selben Anlaß vertagt werden. </p>
                                           <p type="legal_section">Die Vertagung ist aufzuheben, wenn wenigstens 50 Mitglieder des
                                                 Bundestages einen schriftlichen
                                                 Antrag beim Präsidenten des
@@ -542,11 +548,11 @@
                                                 niemals wegen der in diesem Berufe
                                                 gemachten Aeusserungen nur von der Bundesversammlung
                                                 verantwortlich gemacht werden. </p>
-                                          <p type="legal_section">Kein Mitglied des Bundestages darf während der Dauer der Session
-                                                wegen einer strafbaren Handlung -
-                                                den Fall der Ergreifung auf
-                                                frischer Tat ausgenommenohne
-                                                Zustimmung der Bundesverdammlung verhaftet oder behördlich verfolgt werden. </p>
+                                          <p type="legal_section">Kein Mitglied des Bundestages darf
+                                                während der Dauer der Session wegen einer strafbaren
+                                                Handlung - den Fall der Ergreifung auf frischer Tat
+                                                ausgenommen - ohne Zustimmung der Bundesversammlung
+                                                verhaftet oder behördlich verfolgt werden. </p>
                                           <p type="legal_section">Selbst in dem Falle der Ergreifung auf frischer Tat hat die Behörde
                                                 den Präsidenten des Bundestages
                                                 sogleich die geschehene Verhaftung
@@ -646,13 +652,12 @@
                                     <div type="article">
                                           <head>Art. 31. </head>
                                           <p type="legal_section">Eine strafgerichtliche Verfolgung
-                                                des Bundespräsidenten - ausgenommen
-                                                das Verfahren vor dem Bundesverfassungsgerichtdarf nur mit Zustimmung des
-                                                Bundestages erfolgen. </p>
-                                          <p type="legal_section">Zu einem solchen Beschlüsse ist
-                                                die Anwesenheit von zwei Drittel
-                                                aller Mitglieder und eine Mehrheit
-                                                von drei Viertel der Abstimmenden
+                                                des Bundespräsidenten - ausgenommen das Verfahren
+                                                vor dem Bundesverfassungsgericht darf nur mit
+                                                Zustimmung des Bundestages erfolgen. </p>
+                                          <p type="legal_section">Zu einem solchen Beschlusse ist
+                                                die Anwesenheit von zwei Drittel aller Mitglieder
+                                                und eine Mehrheit von drei Viertel der Abstimmenden
                                                 erforderlich.</p>
                                     </div>
                                     <div type="article">
@@ -685,10 +690,10 @@
                                                 Bundesfunktionäre, sowie
                                                 Verleihungen von Titeln; </p>
                                           <p type="legal_section">die Begnadigung rechtskräftig
-                                                Verurteilter, die Milderung der von
-                                                den Gerichten ausgesprochenen Strafen, die Nachsicht von Rechtsfolgen und die Tilgung
-                                                von Verurteilungen, ferner die
-                                                Abolution von strafgerichtlichen
+                                                Verurteilter, die Milderung der von den Gerichten
+                                                ausgesprochenen Strafen, die Nachsicht von
+                                                Rechtsfolgen und die Tilgung von Verurteilungen,
+                                                ferner die Abolition von strafgerichtlichen
                                                 Verfahren. </p>
                                           <p type="legal_section">Diese Akte des Bundespräsidenten
                                                 erfolgen auf Vorschlag der
@@ -714,11 +719,15 @@
                                           <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                                           <fw type="pageNum">- 12 - </fw>
                                           <head>Art. 37. </head>
-                                          <p type="legal_section">Alle Akte des Bundespräsidenten bedürfen der Gegenseichnung des
-                                                Bundeskanzlers und des ressortmäßig
-                                                zuständigen Staatssekretärs; die im
-                                                Art. . . . . . . erwähnte Ernennung
-                                                von Landesbeamten der Gegenzeichnung des zuständigen Landeshauptmannes.</p>
+                                          <p type="legal_section">Alle Akte des Bundespräsidenten
+                                                bedürfen der Gegen<choice>
+                                                  <sic>s</sic>
+                                                  <corr>z</corr>
+                                                </choice>eichnung des Bundeskanzlers und des
+                                                ressortmäßig zuständigen Staatssekretärs; die im
+                                                Art. . . . . . . erwähnte Ernennung von
+                                                Landesbeamten der Gegenzeichnung des zuständigen
+                                                Landeshauptmannes.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 38. </head>
@@ -793,13 +802,14 @@
                                                 Entschliessung das Vertrauen, so
                                                 ist eine neue Bundesregierung zu
                                                 bestellen, bezw. der betreffende Staatssekretär seines Amtes zu entheben. </p>
-                                          <p type="legal_section">Zu einem Beschlüsse des
-                                                Bundestages, mit welchem das
-                                                Vertrauen versagt wird, ist die
-                                                Anwesenheit der Hälfte der Mitglieder des
-                                                Bundestages erforderlich. Doch ist,
-                                                wenn . . . Mitglieder es verlangen,
-                                                die Abstimmung auf den zweitnächsten Werktag zu vertagen. Eine neuerliche Vertagung der Abstimmung kann nur auf Beschluß des Bundestages erfolgen. </p>
+                                          <p type="legal_section">Zu einem Beschlusse des
+                                                Bundestages, mit welchem das Vertrauen versagt wird,
+                                                ist die Anwesenheit der Hälfte der Mitglieder des
+                                                Bundestages erforderlich. Doch ist, wenn . . .
+                                                Mitglieder es verlangen, die Abstimmung auf den
+                                                zweitnächsten Werktag zu vertagen. Eine neuerliche
+                                                Vertagung der Abstimmung kann nur auf Beschluß des
+                                                Bundestages erfolgen. </p>
                                           <p type="legal_section">Die gesamte Bundesregierung und
                                                 einzelnen Mitglieder derselben
                                                 werden in den gesetzlich bestimmten
