@@ -99,7 +99,7 @@
                               November 1919 </date>
                   </creation>
             </profileDesc>
-            <revisionDesc status="created">
+            <revisionDesc status="text_correct">
                   <change when="2024-02-27" who="#cfh">document automatically created</change>
                   <change when="2024-04-03" who="#m_huber">all div for articles and sections
                         generated</change>
@@ -294,8 +294,8 @@
                                                   Bundesbetriebe,</item>
                                                 <label>5./ </label>
                                                 <item> das Zollwesen, Geld - und B<choice>
-                                                  <del>á</del>
-                                                  <add>a</add>
+                                                  <sic>á</sic>
+                                                  <corr>a</corr>
                                                   </choice>nkwesen; Handel, Gewerbe, Industrie und
                                                   Verkehr, Bergwesen.</item>
                                                 <label> 6./ </label>
