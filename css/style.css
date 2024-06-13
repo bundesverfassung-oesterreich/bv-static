@@ -1248,9 +1248,13 @@ div.meta_text.display_comment {
     hyphens: auto;
 }
 
+
+/* handle corr */
+
 span.corr.sic{
     display: inline;
 }
+
 span.corr.sic.correction_view{
     display: none;
 }
@@ -1258,15 +1262,39 @@ span.corr.sic.correction_view{
 span.corr.conjectur{
     display: none;
 }
+
 span.corr.conjectur.correction_view{
     display: inline;
 }
 
+
+/* handle dels */
+
+div.del.text_genetic,
 span.del.text_genetic {
     display: none;
+}
+
+div.del.text_genetic.genetic_view {
+    display: block;
+    margin: 1rem;
+    text-decoration: line-through solid black;
+}
+
+div.del.text_genetic.genetic_view *{
+    text-decoration: line-through solid black!important;
 }
 
 span.del.text_genetic.genetic_view{
     display: inline;
     text-decoration: line-through solid black;
+}
+
+/* handle adds */
+div.add.text_genetic.genetic_view p {
+    margin  -bottom: 0;
+}
+div.add.text_genetic.genetic_view {
+    padding: .5rem;
+    margin-bottom: 1rem;
 }
