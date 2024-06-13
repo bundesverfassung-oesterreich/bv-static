@@ -1,5 +1,6 @@
 # project specific
 *.html
+data/editions
 !search.html
 /saxon
 data/imprint.xml
