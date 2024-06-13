@@ -254,7 +254,7 @@ div.revision_desc {
     color: var(--bv-main-bg-color);
     font-weight: 600;
     font-size: 0.8rem;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
 }
 
 div.revision_desc.created {
@@ -777,9 +777,9 @@ h3 a i.fas {
 
 }
 
-.card-body img {
+/*.card-body img {
     border-radius: .35rem .35rem 0 0;
-}
+}*/
 
 .index-card .card-header {
     background-color: transparent;
@@ -1019,7 +1019,7 @@ div.article {
 #container-resize a.org {
     background-color: lightgrey;
     display: inline-block;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     padding: 0 0.4rem;
     margin: none;
 }
