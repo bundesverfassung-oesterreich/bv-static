@@ -100,7 +100,7 @@ input:checked + .i-slider:before {
 }
 
 .blue {
-  background-color: #e1d4ff;
+  background-color: #e1d4ff!important;
 }
 
 .white {
