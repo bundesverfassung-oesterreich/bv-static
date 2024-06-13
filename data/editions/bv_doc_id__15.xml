@@ -98,7 +98,7 @@
         <date notBefore-iso="1920-07-07" notAfter-iso="1920-07-07"> 7. Juli 1920 </date>
       </creation>
     </profileDesc>
-    <revisionDesc status="created">
+    <revisionDesc status="structured">
       <change when="2024-02-27" who="#cfh">document automatically created</change>
       <change when="2024-04-12" who="#m_huber">all div for articles and sections generated</change>
       <change when="2024-04-25" who="#m_huber">change of structure: changed into two div being one
