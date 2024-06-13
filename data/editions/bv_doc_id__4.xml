@@ -99,12 +99,12 @@
                               November 1919 </date>
                   </creation>
             </profileDesc>
-            <revisionDesc status="created">
+            <revisionDesc status="text_correct">
                   <change when="2024-02-27" who="#cfh">document automatically created</change>
                   <change when="2024-04-03" who="#m_huber">all div for articles and sections
                         generated</change>
                   <change when="2024-05-17" who="#m_huber">formatting completed</change>
-                  <change when="2024-06-03" who="#s_kury">gegenlesen bis S. 37</change>
+                  <change when="2024-06-10" who="#s_kury">gegenlesen beendet</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -294,8 +294,8 @@
                                                   Bundesbetriebe,</item>
                                                 <label>5./ </label>
                                                 <item> das Zollwesen, Geld - und B<choice>
-                                                  <del>á</del>
-                                                  <add>a</add>
+                                                  <sic>á</sic>
+                                                  <corr>a</corr>
                                                   </choice>nkwesen; Handel, Gewerbe, Industrie und
                                                   Verkehr, Bergwesen.</item>
                                                 <label> 6./ </label>
@@ -1591,18 +1591,19 @@
                                                 in der Regel nur über Beschwerden
                                                 der Parteien zu erkennen.</p>
                                           <p type="legal_section">Doch kann, wenn durch eine
-                                                rechtswidrige Entscheidung oder
-                                                Verfügung einer Landesbehörde die
-                                                Interessen der Bundesverwaltung
-                                                verletzt werden, auch die Bundesregierung vor einem Landesverwaltungsgerichts Beschwerde erheben. </p>
+                                                rechtswidrige Entscheidung oder Verfügung einer
+                                                Landesbehörde die Interessen der Bundesverwaltung
+                                                verletzt werden, auch die Bundesregierung vor einem Landesverwaltungsgericht<choice>
+                                                  <sic>s</sic>
+                                                  <corr>e</corr>
+                                                </choice> Beschwerde erheben. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. CXX. </head>
-                                          <p type="legal_section">Die Organisation der Landesverwaltungsgerichte und des
-                                                Bundesverwaltungsgericht<choice>
-                                                  <sic>s</sic>
-                                                  <corr>e</corr>
-                                                </choice> sowie das Verfahren vor ihnen</p>
+                                          <p type="legal_section">Die Organisation der
+                                                Landesverwaltungsgerichte und des
+                                                Bundesverwaltungsgerichtes sowie das Verfahren vor
+                                                ihnen</p>
                                           <p type="legal_section"><pb facs="#facs_39" n="39" xml:id="img_0039" break="yes"/><fw type="pageNum">- 38 -</fw>wird durch ein besonderes
                                                 Bundesgesetz geregelt. </p>
                                     </div>
@@ -1615,9 +1616,9 @@
                                                   <item> Angelegenheiten über welche den
                                                   ordentlichen Gerichten die Entscheidung zusteht. </item>
                                                   <label>b/ </label>
-                                                  <item>Angelegenheiten, welche nach der Bundesverfassung zur Kompetenz des
-                                                  Bundesver fassungsgerichtes
-                                                  gehören. </item>
+                                                  <item>Angelegenheiten, welche nach der
+                                                  Bundesverfassung zur Kompetenz des
+                                                  Bundesverfassungsgerichtes gehören. </item>
                                                   <label>c/ </label>
                                                   <item>Angelegenheiten, in denen und insoweit die Verwaltungsbehörden nach
                                                   freiem Ermessen vorzugehen haben. </item>
@@ -1653,11 +1654,11 @@
                                           <p type="legal_section">Es entscheidet ferner:
                                                 Kompetenzkonflikte <list>
                                                   <label>a/  </label>
-                                                  <item> zwischen Gerichten und Verwaltungsbehörden des Bundes oder der souveränen
-                                                  Länder. </item>
+                                                  <item> zwischen Gerichten und Verwaltungsbehörden
+                                                  des Bundes oder der souveränen Länder, </item>
                                                   <label>b/ </label>
-                                                  <item> zwischen Landesregierungen untereinander. sowie zwischen einer
-                                                  Landesregierung und der
+                                                  <item> zwischen Landesregierungen untereinander,
+                                                  sowie zwischen einer Landesregierung und der
                                                   Bundesregierung. </item>
                                                 </list></p>
                                     </div>
@@ -1672,10 +1673,11 @@
                                                 Antrag der Bundesregierung; über
                                                 Gesetzwidrigkeit von Vollzugsanweisungen der Bundesbehörden auch auf Antrag einer Landesregierung. </p>
                                           <p type="legal_section">Das stattgebende Erkenntnis des
-                                                Bundesverfassungsgerichtes bewirkt
-                                                die Kassasition der gesetzwidrigen
-                                                Vollzugsanweisung und verpflichtet
-                                                die erlassende Behörde zur
+                                                Bundesverfassungsgerichtes bewirkt die Kassa<choice>
+                                                  <sic>s</sic>
+                                                  <corr/>
+                                                </choice>ition der gesetzwidrigen Vollzugsanweisung
+                                                und verpflichtet die erlassende Behörde zur
                                                 Kundmachung der erfolgten Aufhebung.</p>
                                     </div>
                                     <div type="article">
@@ -1688,11 +1690,13 @@
                                                 erfolgter Kundmachung des
                                                 Landesgesetzes der Landesregierung bekanntgegeben und binnen weiteren vier Wochen bei dem Bundesverfassungsgerichte
                                                 gestellt werden.</p>
-                                          <p type="legal_section"><pb facs="#facs_41" n="41" xml:id="img_0041" break="yes"/><fw type="pageNum">- 40 -</fw>Das stattgebende
-                                                Frkenntnis des Bundesverfassungsgerichtes bewirkt die Kassation des bundesgesetzwidrigen
-                                                Landesgesetzes und verpflichtet die
-                                                zuständige Landesregierung zur
-                                                Verlautbarung der erfolgten Aufhebung im Landesgesetzblatte. </p>
+                                          <p type="legal_section"><pb facs="#facs_41" n="41"
+                                                  xml:id="img_0041" break="yes"/><fw type="pageNum"
+                                                  >- 40 -</fw>Das stattgebende Erkenntnis des
+                                                Bundesverfassungsgerichtes bewirkt die Kassation des
+                                                bundesgesetzwidrigen Landesgesetzes und verpflichtet
+                                                die zuständige Landesregierung zur Verlautbarung der
+                                                erfolgten Aufhebung im Landesgesetzblatte. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. CXXVII. </head>
@@ -1713,32 +1717,39 @@
                                                 entscheidet über die
                                                 Verantwortlichkeit: <list>
                                                   <label> a/</label>
-                                                  <item> des Bundespräsidenten und seiner Stellvertreter. </item>
+                                                  <item> des Bundespräsidenten und seiner
+                                                  Stellvertreter; </item>
                                                   <label>b/ </label>
                                                   <item> der Mitglieder der Bundesregierung und der ihnen hinsichtlich der
                                                   Verantwortlichkeit
                                                   gleichgestellten Organe,</item>
                                                   <label>c/  </label>
-                                                  <item>der Mitglieder der Landesregierunfen und der ihnen hinsichtlich der
-                                                  Verantwortlichkeit
-                                                  gleichgestellten Organe u.zw. wegen vorsätzlicher oder grobfahrlässiger Verletzung der Bundesverfassung durch
-                                                  den Bundespräsidenten oder seinen Stellvertreter auf einen vom Pundesrat
-                                                  genehmigten Antrag der
-                                                  Bundesversammlung: wegen
-                                                  vorsätzlicher und grobfahrlässiger Gesetzesverletzung der sub b/ genannten Personen durch ihre Amtstätigkeit auf
-                                                  einen vom Bundesrat genehmigten
-                                                  Antrag der Bundesversammlung wegen vorsätzlicher und
-                                                  groöfahrlässiger Gesetzesverletzung seitens der sub c/ ge-<pb facs="#facs_42" n="42" xml:id="img_0042" break="yes"/><fw type="pageNum">- 41</fw>nannten Personen durch ihre
-                                                  Amtstätigkeit auf Antrag der
-                                                  zuständigen Landesversammlung: und über die Verantwortlichkeit
-                                                  des Landeshauptmannes wegen
-                                                  vorsätzlicher und grobfahrlässiger Gesetzesverletzung durch seine Amtstätigkeit oder wegen
-                                                  Nichtbefolgung der
-                                                  Vollzugsanweisungen oder sonstigen Anordnungen der
-                                                  Bundesregierung, auf Antrag der
-                                                  letzteren. Das veruteilende
-                                                  Erkenntnis des Bundesverfassungsgerichtes hat auf Verlust des Amtes eventuell auch der politischen
-                                                  Rechte zu lauten. </item>
+                                                  <item>der Mitglieder der Landesregierungen und der
+                                                  ihnen hinsichtlich der Verantwortlichkeit
+                                                  gleichgestellten Organe u.zw. wegen vorsätzlicher
+                                                  oder grobfahrlässiger Verletzung der
+                                                  Bundesverfassung durch den Bundespräsidenten oder
+                                                  seinen Stellvertreter auf einen vom Bundesrat
+                                                  genehmigten Antrag der Bundesversammlung: wegen
+                                                  vorsätzlicher und grobfahrlässiger
+                                                  Gesetzesverletzung der sub b/ genannten Personen
+                                                  durch ihre Amtstätigkeit auf einen vom Bundesrat
+                                                  genehmigten Antrag der Bundesversammlung; wegen
+                                                  vorsätzlicher und grobfahrlässiger
+                                                  Gesetzesverletzung seitens der sub c/ ge-<pb
+                                                  facs="#facs_42" n="42" xml:id="img_0042"
+                                                  break="yes"/><fw type="pageNum">- 41</fw>nannten
+                                                  Personen durch ihre Amtstätigkeit auf Antrag der
+                                                  zuständigen Landesversammlung; und über die
+                                                  Verantwortlichkeit des Landeshauptmannes wegen
+                                                  vorsätzlicher und grobfahrlässiger
+                                                  Gesetzesverletzung durch seine Amtstätigkeit oder
+                                                  wegen Nichtbefolgung der Vollzugsanweisungen oder
+                                                  sonstigen Anordnungen der Bundesregierung, auf
+                                                  Antrag der letzteren. Das veruteilende Erkenntnis
+                                                  des Bundesverfassungsgerichtes hat auf Verlust des
+                                                  Amtes eventuell auch der politischen Rechte zu
+                                                  lauten. </item>
                                                 </list></p>
                                     </div>
                                     <div type="article">
@@ -1765,20 +1776,22 @@
                                                 Vizepräsident im Range eines Staats sekretärs. </p>
                                           <p type="legal_section">Das Amt der Mitglieder des
                                                 Bundesver¬</p>
-                                          <p type="legal_section"><pb facs="#facs_43" n="43" xml:id="img_0043" break="yes"/><fw type="pageNum">- 42 </fw>fassungsgerichtes ist
-                                                ein Ehrenamt. Nur drei Mitglieder
-                                                fungieren als selbständige Referenten im Range eines Unterstaatssekretärs. Sie werden in einer
-                                                Plenarversammlung des
-                                                Bundesverfassungsgerichtes aus der Mitter seiner Mitglieder gewählt. </p>
+                                          <p type="legal_section"><pb facs="#facs_43" n="43"
+                                                  xml:id="img_0043" break="yes"/><fw type="pageNum"
+                                                  >- 42 </fw>fassungsgerichtes ist ein Ehrenamt. Nur
+                                                drei Mitglieder fungieren als selbständige
+                                                Referenten im Range eines Unterstaatssekretärs. Sie
+                                                werden in einer Plenarversammlung des
+                                                Bundesverfassungsgerichtes aus der Mitte seiner
+                                                Mitglieder gewählt. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. CXXXI. </head>
                                           <p type="legal_section">Die nähere Organisation des
-                                                Bundesverfassungsgerichtes sowie das
-                                                Verfahren ver ihm in den verschiedenen in den
-                                                Art. CXXIII - CXXVIII angeführten
-                                                Fällen, wird in gesonderten Bundesgesetzen
-                                                geregelt.</p>
+                                                Bundesverfassungsgerichtes sowie das Verfahren vor
+                                                ihm in den verschiedenen in den Art. CXXIII -
+                                                CXXVIII angeführten Fällen, wird in gesonderten
+                                                Bundesgesetzen geregelt.</p>
                                     </div>
                               </div>
                         </div>
