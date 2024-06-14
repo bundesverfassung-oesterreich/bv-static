@@ -1313,13 +1313,14 @@ div#short_title.display_title {
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
     display: block;
-    max-width: 5rem;
     height: 35rem;
+    max-height: 33vh;
     padding-bottom: 2rem;
     margin-right: 1rem;
     background-color: var(--bv-big-highlight);
     border-bottom: 0.4rem solid var(--bv-main-bg-color);
     padding: 1rem;
+    hyphens: auto;
 }
 
 div#short_title h4 {
@@ -1333,6 +1334,8 @@ div#short_title h4 {
     font-size: 1rem;
     padding: 0;
     margin: 0;
+    line-height: 1.4rem;
+
 }
 
 div#short_title.display_title:hover {
