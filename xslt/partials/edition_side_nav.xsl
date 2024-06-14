@@ -69,7 +69,6 @@
                 <xsl:for-each select="$subsection_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head/@xml:id)[1])"/>
-                        <!-- <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false"> -->
                         <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
@@ -95,7 +94,6 @@
                 <xsl:for-each select="$toplevel_section_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head[1]/@xml:id)[1])"/>
-                        <!-- <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false"> -->
                         <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
                             <xsl:value-of select="./tei:head[1]/normalize-space()"/>
                         </button>
@@ -148,7 +146,7 @@
                 </li>
                 <li class="mb-1">
                     <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
-                        <xsl:value-of select="$doc_title" />
+                        <p><xsl:value-of select="$doc_title" /></p>
                     </button>
                     <div class="collapse" id="current-doc-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
