@@ -70,6 +70,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar">
                         <xsl:with-param name="edition_buttons" as="xs:boolean" select="true()"/>
+                        <xsl:with-param name="doc_title" as="xs:string" select="$doc_title"/>
                     </xsl:call-template>
                     <div class="edition_container ">
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel" data-bs-scroll="true" data-bs-backdrop="false">
@@ -87,7 +88,7 @@
                         </div>
                         <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>
+                                <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>   
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"/>
                             </div>
                             <div class="offcanvas-body">
@@ -135,13 +136,13 @@
                                     <p class="document_info archival_small">
                                         <xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'
                                         />
-</p>
-<div>
-<xsl:attribute name="class">
-                                            <xsl:value-of select="concat('revision_desc ', $revision_state)"/>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="$revision_label"/>
-                                    </div>
+                                    </p>
+                            <div>
+                            <xsl:attribute name="class">
+                                <xsl:value-of select="concat('revision_desc ', $revision_state)"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="$revision_label"/>
+                            </div>
                                 </div>
                                 <div class="row align-items-start justify-content-start">
                                     <div class="edition_metadata_button" role="button">
@@ -170,6 +171,11 @@
                 </div>
                 <div id="container-resize" class="row transcript active">
                     <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
+                        <div id="short_title">
+                            <h3>
+                                <xsl:value-of select="$doc_title"/>
+                            </h3>
+                        </div>
                         <div id="viewer">
                             <div id="container_facs_1">
                                 <!-- container and facs handling in js -->
@@ -252,6 +258,7 @@
                     <script type="text/javascript" src="js/osd_scroll.js"/>
                     <script type="text/javascript" src="js/run.js"/>
                     <script type="text/javascript" src="js/offcanvastoggler.js"/>
+                    <script type="text/javascript" src="js/toggle_shortTitle.js"/>
                 </body>
             </html>
         </xsl:template>

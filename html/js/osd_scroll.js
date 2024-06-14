@@ -22,7 +22,7 @@ function calculate_facsContainer_height() {
 };
 
 // initially resizing the facs container to max
-// needs to be done before calling the viewer construtor, 
+// needs to be done before calling the viewer constructor, 
 // since it doesnt update size
 resize_facsContainer();
 
