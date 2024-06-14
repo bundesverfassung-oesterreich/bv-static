@@ -501,13 +501,118 @@ div#main_navbar_flex_container {
     letter-spacing: .5em;
 }
 
-.nounderline {
-    text-decoration: none;
+div.meta_text {
+    display: None;
 }
 
-s,
-del {
-    text-decoration: none;
+div.meta_text.display_comment {
+    display: block !important;
+    height: fit-content;
+    max-width: 25rem;
+    width: 100%;
+    font-size: small;
+    background: lightgray;
+    padding: .3rem;
+    margin-left: 2.5rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+
+/* handle corr */
+
+span.corr.sic {
+    display: inline;
+}
+
+span.corr.sic.correction_view {
+    display: none;
+}
+
+span.corr.conjectur {
+    display: none;
+}
+
+span.corr.conjectur.correction_view {
+    display: inline;
+}
+
+
+/* handle dels */
+
+div.del.text_genetic,
+span.del.text_genetic {
+    display: none;
+}
+
+div.del.text_genetic.genetic_view {
+    display: block;
+    margin: 1rem;
+    text-decoration: line-through solid black;
+}
+
+div.del.text_genetic.genetic_view * {
+    text-decoration: line-through solid black !important;
+}
+
+span.del.text_genetic.genetic_view {
+    display: inline;
+    text-decoration: line-through solid black;
+}
+
+/* handle adds */
+div.add.text_genetic.genetic_view p {
+    margin-bottom: 0;
+}
+
+div.add.text_genetic.genetic_view {
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+/* css */
+div#short_title {
+    display: none;
+}
+
+div#short_title.display_title {
+    overflow: hidden;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    display: block;
+    height: 35rem;
+    max-height: 33vh;
+    margin-right: 1rem;
+    background-color: var(--bv-big-highlight);
+    border-bottom: 0.3rem solid var(--bv-main-bg-color);
+    padding: 1rem;
+    hyphens: auto;
+}
+
+div#short_title h4 {
+    color: var(--bv-main-bg-color);
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4rem;
+
+}
+
+div#short_title.display_title:hover,
+div#short_title.display_title:active {
+    width: fit-content;
+}
+
+div#short_title h4:hover {
+    width: fit-content;
+    height: fit-content;
+    white-space: unset;
 }
 
 #viewer {
@@ -800,40 +905,6 @@ div#text-resize div.card-body.non_mimetic_lbs {
     max-width: 40rem;
 }
 
-/* START
-    of lb handling */
-
-div.card-body span.tei_lb::before {
-    content: " ";
-    display: inline;
-}
-
-/* line-breaks not mimetic */
-div.card-body.non_mimetic_lbs span.tei_lb.line_breaks_in_word:: {
-    content: "";
-    display: inline;
-}
-
-div.card-body.non_mimetic_lbs span.tei_lb::after {
-    content: "";
-    white-space: pre;
-}
-
-/* line-breaks mimetic */
-div.card-body.mimetic_lbs span.tei_lb.line_breaks_in_word::before {
-    content: "-" !important;
-    display: inline;
-}
-
-/* div.card-body span.tei_lb.line_breaks_in_word::after { */
-div.card-body.mimetic_lbs span.tei_lb::after {
-    content: "\a";
-    white-space: pre;
-}
-
-/* END
-    of lb handling */
-
 
 span.pb {
     visibility: visible;
@@ -881,77 +952,17 @@ span.historical_pagecounter.hpc_visible::after {
     content: "//";
 }
 
-.index-card .card-body {
+.card-body {
     background-color: transparent;
     border: none;
     padding: 0;
 
 }
 
-.index-card:hover {
-    transform: scale(1.05);
-}
-
-.index-link:hover {
-    text-decoration: none !important;
-}
-
-.btn-round {
-    border: 1px solid white;
-}
-
-.btn-round:hover {
-    background-color: #fff;
-}
-
-.btn-round a {
-    color: white;
-}
-
 p {
     display: block;
 }
 
-.carousel-indicators {
-    cursor: pointer;
-}
-
-span.ssQueryAndButton {
-    margin: 2em auto 0.25em auto !important;
-    max-width: 50% !important;
-    width: 50% !important;
-}
-
-input#ssQuery {
-    font-size: .9rem !important;
-    border-radius: 30px !important;
-    padding: .3rem 1.75rem .3rem .75rem !important;
-    border: 1px solid rgba(0, 0, 0, .075) !important;
-    background-color: #fff !important;
-    color: rgba(0, 0, 0, .9) !important;
-}
-
-button#ssDoSearch {
-    border: 0 !important;
-    padding: 0 !important;
-    background: 0 0 !important;
-    cursor: pointer !important;
-    color: rgba(0, 0, 0, .6) !important;
-    margin-left: -4.1em !important;
-    margin-top: .1em !important;
-}
-
-#github-logo {
-    width: 10%;
-    height: auto;
-    padding: 10px 0 10px 0;
-    transition: transform .2s;
-    margin-left: 1em;
-}
-
-#github-logo:hover {
-    transform: scale(1.05);
-}
 
 /*
 add whitespace to end of doc to scroll last page into view
@@ -1107,13 +1118,20 @@ resolution or low resolution screens
     .facsimiles {
         display: none;
     }
-
-    .text {
-        padding-left: 0;
+    #text-resize {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        margin-right: .5rem;
+    }
+    div#short_title.display_title {
+        display: none;
+        /* padding: 0.3rem;
+        position: absolute;
+        top: 50vh; */
     }
 
     .wp-transcript {
-        padding: 0 2rem 2rem 2rem;
+        padding: 0 2rem 0 2rem;
     }
 
     #edition_metadata {
@@ -1232,117 +1250,4 @@ low resolution
 
 span.anchor-pb {
     scroll-margin-top: 100px;
-}
-
-div.meta_text {
-    display: None;
-}
-
-div.meta_text.display_comment {
-    display: block !important;
-    height: fit-content;
-    max-width: 25rem;
-    width: 100%;
-    font-size: small;
-    background: lightgray;
-    padding: .3rem;
-    margin-left: 2.5rem;
-    text-align: justify;
-    hyphens: auto;
-}
-
-
-/* handle corr */
-
-span.corr.sic {
-    display: inline;
-}
-
-span.corr.sic.correction_view {
-    display: none;
-}
-
-span.corr.conjectur {
-    display: none;
-}
-
-span.corr.conjectur.correction_view {
-    display: inline;
-}
-
-
-/* handle dels */
-
-div.del.text_genetic,
-span.del.text_genetic {
-    display: none;
-}
-
-div.del.text_genetic.genetic_view {
-    display: block;
-    margin: 1rem;
-    text-decoration: line-through solid black;
-}
-
-div.del.text_genetic.genetic_view * {
-    text-decoration: line-through solid black !important;
-}
-
-span.del.text_genetic.genetic_view {
-    display: inline;
-    text-decoration: line-through solid black;
-}
-
-/* handle adds */
-div.add.text_genetic.genetic_view p {
-    margin-bottom: 0;
-}
-
-div.add.text_genetic.genetic_view {
-    padding: .5rem;
-    margin-bottom: 1rem;
-}
-
-/* css */
-div#short_title {
-    display: none;
-}
-
-div#short_title.display_title {
-    overflow: hidden;
-    writing-mode: vertical-rl;
-    transform: rotate(-180deg);
-    display: block;
-    height: 35rem;
-    max-height: 33vh;
-    padding-bottom: 2rem;
-    margin-right: 1rem;
-    background-color: var(--bv-big-highlight);
-    border-bottom: 0.4rem solid var(--bv-main-bg-color);
-    padding: 1rem;
-    hyphens: auto;
-}
-
-div#short_title h4 {
-    color: var(--bv-main-bg-color);
-    width: 100%;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 1rem;
-    padding: 0;
-    margin: 0;
-    line-height: 1.4rem;
-
-}
-
-div#short_title.display_title:hover {
-    width: fit-content;
-}
-div#short_title h4:hover {
-    width: fit-content;
-    height: fit-content;
-    white-space: unset;
 }
