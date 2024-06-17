@@ -103,6 +103,7 @@
       <change when="2024-02-27" who="#cfh">document automatically created</change>
       <change when="2024-04-12" who="#m_huber">all div for articles and sections generated</change>
       <change when="2024-06-13" who="#m_huber">formatting completed</change>
+      <change when="2024-06-17" who="#s_kury">Gegenlesen</change>
     </revisionDesc>
   </teiHeader>
   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -208,7 +209,8 @@
           <div type="article">
             <head>Artikel 2. </head>
             <p type="legal_section"><label>(1)</label> Die Republik Oesterreich ist ein freier
-              Bundesstaat und wird gebildet von den Ländern: Kärnten, Niederösterreich. Oberösterreich, Salzburg, Steiermark, Tirol, Vorarlberg und Wien. </p>
+              Bundesstaat und wird gebildet von den Ländern: Kärnten, Niederösterreich,
+              Oberösterreich, Salzburg, Steiermark, Tirol, Vorarlberg und Wien. </p>
             <p type="legal_section"><label>(2)</label> Das Burgenland wird als Land dem Bund angegliedert, sobald seine Bevölkerung durch freie Volksabstimmung darüber entschieden hat.</p>
           </div>
           <div type="article">
@@ -221,24 +223,24 @@
             <head>Artikel 4. </head>
             <p type="legal_section"><label>(1)</label> Wenn Gemeinden, deren Einwohner die Mehrheit
               in einem zusammenhängenden Landesgebiete bilden, es verlangen, hat in diesem Gebiete
-              eine Volksabstimmung dar über stattzufinden, ob dieses Gebiet einem anderen
-              angrenzenden Lande angegliedert werden oder ein neues Land bilden soll.  </p>
+              eine Volksabstimmung darüber stattzufinden, ob dieses Gebiet einem anderen
+              angrenzenden Lande angegliedert werden oder ein neues Land bilden soll. </p>
             <p type="legal_section"><label>(2)</label> Entscheidet die Volksabstimmung mit absoluter
               Mehrheit der gültig abgegebenen Stimmen für die Angliederung an das andere Land, dann
               erfolgt die Gebietsänderung, durch einfaches Gesetz dieses Landes.  </p>
             <p type="legal_section"><label>(3)</label> Entscheidet die Volksabstimmung für die
               Bildung eines neuen Landes, dann ist, wenn das Gebiet wenigstens 140.000 Einwohner
-              zählt, durch den Präsidenten des Bundes <fw type="pageNum">573 </fw><pb facs="#facs_3"
-                n="3" xml:id="img_0003" break="yes"/>tages nach dem Bundestagswahlrecht ein
-              verfassunggebender Landtag zur Konstituierung des neuen Landes einzuberufen. Das
-              Nähere regelt ein Bundesgesetz. </p>
+              zählt, durch den Präsidenten des Bundes- <fw type="pageNum">573 </fw><pb
+                facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>tages nach dem
+              Bundestagswahlrecht ein verfassunggebender Landtag zur Konstituierung des neuen Landes
+              einzuberufen. Das Nähere regelt ein Bundesgesetz. </p>
             <p type="legal_section"><label>(4)</label> Ueber Streitigkeiten, die aus der
               vermögensrechtlichen Auseinandersetzung zwischen den Ländern in den in Abs. 1 bis 3 erwähnten Fällen entstehen, entscheidet der Verfassungsgerichtshof. </p>
           </div>
           <div type="article">
             <head>Artikel 5. </head>
             <p type="legal_section"><label>(1)</label> Das Bundesgebiet bildet ein einheitliches
-              WährungsWirtschafts= und Zollgebiet. </p>
+              Währungs- Wirtschafts- und Zollgebiet. </p>
             <p type="legal_section"><label>(2)</label> Innerhalb der Grenzen des Bundes dürfen
               keinerlei Zwischenzollinien oder sonstige Verkehrsbeschränkungen errichtet werden. </p>
           </div>
@@ -262,71 +264,73 @@
                 <label>1.</label>
                 <item>die auswärtigen Angelegenheiten mit Einschluß der politischen und
                   wirtschaftlichen Vertretung gegenüber dem Auslande; die Grenzvermarkung; die
-                  Regelung des Waren- und Viehverkehres mit dem Auslande; das Zollwesen;  </item>
+                  Regelung des Waren- und Viehverkehres mit dem Auslande; das Zollwesen; </item>
                 <label>2.</label>
                 <item> die Regelung und Ueberwachung des Eintrittes in das Bundesgebiet und des
                   Austrittes aus diesem; das Ein- und Auswanderungswesen; die Abschiebung,
                   Abschaffung Ausweisung und Auslieferung aus dem Bundesgebiet sowie die
-                  Durchlieferung;  </item>
+                  Durchlieferung; </item>
                 <label>3.</label>
                 <item>die Wahlen zum Bundestag, die Durchführung von Volksabstimmungen im ganzen
-                  Bundesgebiete; 4. die Bundesfinanzen, insbesondere die öffentlichen Abgaben, die
-                  ausschließlich oder teilweise für den Bund einzuheben sind; das Monopolwesen; die
-                  Regelung, welche Abgaben dem Bunde und den Ländern zustehen; die Regelung der
-                  Anteilnahme der Länder an den Einnahmen des Bundes und die Regelung der Beiträge
-                  und Zuschüsse aus Bundesmitteln zu den Ausgaben der Länder; </item>
+                  Bundesgebiete; </item>
+                <label>4.</label>
+                <item> die Bundesfinanzen, insbesondere die öffentlichen Abgaben, die ausschließlich
+                  oder teilweise für den Bund einzuheben sind; das Monopolwesen; die Regelung,
+                  welche Abgaben dem Bunde und den Ländern zustehen; die Regelung der Anteilnahme
+                  der Länder an den Einnahmen des Bundes und die Regelung der Beiträge und Zuschüsse
+                  aus Bundesmitteln zu den Ausgaben der Länder; </item>
                 <label>5.</label>
-                <item>das Geld=, Kredit=, Börse= und Bankwesen; das Maß=, Gewichts=, Normen= und
+                <item>das Geld-, Kredit-, Börse- und Bankwesen; das Maß-, Gewichts-, Normen- und
                   Punzierungswesen; </item>
                 <label>6.</label>
-                <item> das Zivil= und Strafrechtswesen einschließlich des wirtschaftlichen
+                <item> das Zivil- und Strafrechtswesen einschließlich des wirtschaftlichen
                   Assoziationswesens; die Justizpflege; das Verwaltungsstrafrecht in
                   Angelegenheiten, deren Vollziehung dem Bunde zusteht; die
                   Verwaltungsgerichtsbarkeit; das Urheberrecht; die Bekämpfung des unlauteren
-                  Wettbewerbes; das Patentwesen sowie der Marken= und Musterschutz; die Enteignung,
+                  Wettbewerbes; das Patentwesen sowie der Marken- und Musterschutz; die Enteignung,
                   soweit sie nicht Angelegenheiten betrifft, die in den Wirkungskreis der Länder
                   fallen; die Angelegenheiten der Notare, der Rechtsanwälte und verwandter Berufe;
-                  der Handels= und Gewerbe= sowie der Arbeiterkammern; des Ingenieur= und
+                  der Handels- und Gewerbe- sowie der Arbeiterkammern; des Ingenieur- und
                   Ziviltechnikerwesens; <fw type="pageNum">- 2 -</fw><pb facs="#facs_4" n="4"
                     xml:id="img_0004" break="yes"/></item>
                 <label>7.</label>
                 <item>das Verkehrswesen bezüglich der Eisenbahnen, der Schiffahrt und
                   Luftschifffahrt; die Angelegenheiten der wegen ihrer Bedeutung für den
                   Durchzugsverkehr durch Bundesgesetz als Bundesstraßen erklärten Straßenzüge; die
-                  Strom und Schiffahrtspolizei; das Post-, Telegraphen- und Fernsprechwesen;  </item>
+                  Strom und Schiffahrtspolizei; das Post-, Telegraphen- und Fernsprechwesen; </item>
                 <label>8.</label>
-                <item> das Bergwesen; die Angelegenheiten der Wohlfahrtswälder (Schutz= und
-                  Bannwälder) sowie das Aufforstungswesen; das gesamte Wasserrecht= und
-                  Elektrizitätswesens; dass Dampfkessel= und Kraftmaschinenwesen; das
-                  Vermessungswesen;  </item>
+                <item> das Bergwesen; die Angelegenheiten der Wohlfahrtswälder (Schutz- und
+                  Bannwälder) sowie das Aufforstungswesen; das gesamte Wasserrecht- und
+                  Elektrizitätswesen; das Dampfkessel- und Kraftmaschinenwesen; das
+                  Vermessungswesen; </item>
                 <label>9.</label>
-                <item> das gesamte Aroeiterrecht und der Arbeiter= und Angestelltenschutz,
-                  einschließlich des Rechtes und Schutzes der land= und forstwirtschaftlichen
-                  Arbeiter und Angestellten, sowie der Hausgehilfen; das Sozial= und
-                  Vertragsversicherungswesen;  </item>
+                <item> das gesamte Arbeiterrecht und der Arbeiter- und Angestelltenschutz,
+                  einschließlich des Rechtes und Schutzes der land- und forstwirtschaftlichen
+                  Arbeiter und Angestellten, sowie der Hausgehilfen; das Sozial- und
+                  Vertragsversicherungswesen; </item>
                 <label>10.</label>
-                <item>das Schul= und Erziehungswesen; die Ausbildung, Fortbildung und Berufsausübung
+                <item>das Schul- und Erziehungswesen; die Ausbildung, Fortbildung und Berufsausübung
                   von Heilpersonen; das Heilmittelwesen; die Bekämpfung übertragbarer Krankheiten
                   von Menschen und Tieren; das Archiv- und Bibliothekswesen; die Angelegenheiten der
                   künstlerischen und wissenschaftlichen Sammlungen und Einrichtungen; der
-                  Denkmalschutz; die Angelegenheiten des Kultus; das Volks zählungswesen sowie die
+                  Denkmalschutz; die Angelegenheiten des Kultus; das Volkszählungswesen sowie die
                   sonstige Statistik, soweit sie nicht nur den Interessen eines einzelnen Landes
-                  dient; das Stiftungs= und Fondswesen, soweit es sich um Stiftungen und Fonds
+                  dient; das Stiftungs- und Fondswesen, soweit es sich um Stiftungen und Fonds
                   handelt, die nach ihren Zwecken über den Interessenbereich eines Landes
-                  hinausgehen;  </item>
-                <label>11</label>
-                <item>das Vereins= und Versammlungsrecht; die Angelegenheiten der Presse; </item>
+                  hinausgehen; </item>
+                <label>11.</label>
+                <item>das Vereins- und Versammlungsrecht; die Angelegenheiten der Presse; </item>
                 <label>12.</label>
                 <item> die militärischen Angelegenheiten; die Angelegenheiten der Gendarmerie; die
                   Kriegsschädenangelegenheiten und die Fürsorge für Kriegsteilnehmer und deren
                   Hinterbliebene; das Kriegsgräberwesen; die aus Anlaß eines Krieges oder im Gefolge
                   eines solchen zur Sicherung der einheitlichen Führung der Wirtschaft notwendig
-                  erscheinen. den Maßnahmen, insbesondere auch hinsichtlich der Versorgung der
+                  erscheinenden Maßnahmen, insbesondere auch hinsichtlich der Versorgung der
                   Bevölkerung mit Bedarfsgegenständen; </item>
                 <label>13.</label>
                 <item>die Organisation der Bundesbehörden und das Dienstrecht der
                   Bundesangestellten, einschließlich der Regelung des im Einvernehmen mit dem in
-                  Betracht kommenden Land zu vollziehenden Wechsels zwischen Bundes= und
+                  Betracht kommenden Land zu vollziehenden Wechsels zwischen Bundes- und
                   Landesdienst. </item>
               </list></p>
           </div>
@@ -341,7 +345,7 @@
                 <item>Personenstandesangelegenheiten, einschließlich des Matrikenwesens und der
                   Namensänderung;  </item>
                 <label>4.</label>
-                <item>das Passwesen und die Fremdenpolizei;  </item>
+                <item>das Paßwesen und die Fremdenpolizei; </item>
                 <label>5.</label>
                 <item>das Gewerbewesen, die öffentlichen Agentien und die
                   Privatgeschäftsvermittlung;  </item>
@@ -356,20 +360,19 @@
                   der Bundesfinanzen; die Bestimmungen über die Besteuerung der
                   Bundesunternehmungen;  </item>
                 <label>7.</label>
-                <item>das Munitions=, Schieß= und Sprengmittelwesen, soweit es nicht dem Monopol
+                <item>das Munitions-, Schieß- und Sprengmittelwesen, soweit es nicht dem Monopol
                   unterliegt, sowie das Waffenwesen, das Kraftfahrwesen; <fw type="pageNum">- 3
                     -</fw><fw type="pageNum">574</fw></item>
                 <pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/>
                 <label>8.</label>
-                <item> das Gesundheitswesen mit Ausnahme der Heil= und Pflegeanstalten und
+                <item> das Gesundheitswesen mit Ausnahme der Heil- und Pflegeanstalten und
                   Ambularien, des Kurorte-, Leichen- und Begräbniswesens, sowie des
                   Gemeindesanitätsdienstes und Rettungswesens; das Volkswohnungs- und
-                  Volkspflegestättenwesen; das Beterinärwesen:  </item>
+                  Volkspflegestättenwesen; das Veterinärwesen: </item>
                 <label>9.</label>
-                <item>das Verwaltungs= und das Berwaltnugsstrafverfahren, einschließlich der
+                <item>das Verwaltungs- und das Verwaltnugsstrafverfahren, einschließlich der
                   Zwangsvollstreckung, sowie die allgemeinen Bestimmungen des
-                  Verwaltungsstrafrechtes in Angelegenheiten, deren Vollziehung den Ländern zusteht.
-                </item>
+                  Verwaltungsstrafrechtes in Angelegenheiten, deren Vollziehung den Ländern zusteht. </item>
               </list></p>
           </div>
           <div type="article">
@@ -383,9 +386,9 @@
                 <label>1.</label>
                 <item>die Organisation der Verwaltung in den Ländern;  </item>
                 <label>2.</label>
-                <item> das Armenwesen; die Bevölkerungspolitik; Mutterschafts=, Säuglings= und
+                <item> das Armenwesen; die Bevölkerungspolitik; Mutterschafts-, Säuglings- und
                   Jugendfürsorge; das Heil- und Pflegeanstaltenwesen, einschließlich der
-                  Ambulatorien die Ausgrabung und Ueberführung von Leichen;  </item>
+                  Ambulatorien; die Ausgrabung und Ueberführung von Leichen; </item>
                 <label>3.</label>
                 <item>die Einrichtungen zum Schutze der Gesellschaft gegen verbrecherische,
                   verwahrloste oder sonst gefährliche Personen, wie Zwangsarbeits- und ähnliche
@@ -396,8 +399,8 @@
                 <label>5.</label>
                 <item>die Bodenreform (agrarische Operationen, Wiederbesiedlung usw.) und die
                   Bodenentschuldung; das Forstwesen, einschließlich des Triftwesens, jedoch mit
-                  Ausnahme der Forst= und Weideservituten; den Schutz der Pflanzen gegen Krankheiten
-                  und Schädlinge;  </item>
+                  Ausnahme der Forst- und Weideservituten; den Schutz der Pflanzen gegen Krankheiten
+                  und Schädlinge; </item>
                 <label>6.</label>
                 <item> das Dienstrecht der Angestellten jener Landesbehörden die auch
                   Bundesangelegenheiten zu besorgen haben, einschließlich der Regelung des im
@@ -422,7 +425,7 @@
               Durchführungsgesetzes auf den Bund über.  </p>
             <p type="legal_section"><label>(3)</label> Die Länder sind im Bereiche ihres
               Gesetzgebungsrechtes befugt, die zur Regelung des Gegenstandes erforderlichen
-              Bestimmungen auch aus dem Gebiete des Straf= und Zivilrechtes zu treffen. <fw
+              Bestimmungen auch auf dem Gebiete des Straf- und Zivilrechtes zu treffen. <fw
                 type="pageNum">- 4 -</fw></p>
           </div>
           <div type="article">
@@ -431,19 +434,21 @@
             <p type="legal_section"><label>(1)</label> Durch die Bestimmungen der Artikel 9 bis 12
               über die Zuständigkeit in Gesetzgebung und Vollziehung wird die Stellung des Bundes als Träger von Privatrechten in keiner Weise berührt. </p>
             <p type="legal_section"><label>(2)</label> Ebenso bleibt es dem Bunde auch unbenommen,
-              zu Förderung des wirtschaftlichen und kulturellen Lebens auf allen Gebieten Unternehmungen und Einrichtungen zu schaffen und zu erhalten, Veranstaltungen zu treffen und sinanzielle Mittel zur Verfügung zu stellen. </p>
+              zu Förderung des wirtschaftlichen und kulturellen Lebens auf allen Gebieten
+              Unternehmungen und Einrichtungen zu schaffen und zu erhalten, Veranstaltungen zu
+              treffen und finanzielle Mittel zur Verfügung zu stellen. </p>
             <p type="legal_section"><label>(3)</label> Der Bund kann in allen diesen
               Rechtsbeziehungen durch die Landesgesetzgebung niemals ungünstiger gestellt werden als das betreffende Land selbst.</p>
           </div>
           <div type="article">
             <head>Artikel 15. </head>
-            <p type="legal_section">Die Organisation der Gütererzeugung und der Gûterverteilung ist
+            <p type="legal_section">Die Organisation der Gütererzeugung und der Güterverteilung ist
               Aufgabe des Bundes. Durch planmäßigen Aufbau dieser Organisation ist die politische
               Demokratie zur wirtschaftlichen Demokratie auszubauen. </p>
             <p type="legal_section">Der Bund hat das Recht, zu diesem Zwecke einzelne
               Wirtschaftsbetriebe und ganze Zweige der Volkswirtschaft in das Gemeineigentum zu
               überführen und ihre Verwaltung unter der Mitwirkung der Arbeiter und Angestellten die
-              in diesen Wirthschaftsbetrieben und Wirtschaftszweigen tätig sind, sowie der
+              in diesen Wirtschaftsbetrieben und Wirtschaftszweigen tätig sind, sowie der
               Verbraucher, die die Erzeugnisse oder die Dienste dieser Wirtschaftszweige benötigen,
               zu organisieren. Der Bund kann dieses Recht auch den Ländern oder den Gemeinden
               übertragen oder es unter der Mitwirkung der Länder oder Gemeinden ausüben.</p>
@@ -501,7 +506,10 @@
             </div>
             <div type="article">
               <head>Artikel 21. </head>
-              <p type="legal_section">Dem Bundestag obliegt die jährliche Bewilligung des Bundesbudgets, die Aufnahme und Konvertierung von Bundesanleihen, die Erteilung der Entlastung an die Bundesregierung auf Grund des geprüften und bewilligten) Bundesrechnungsabschlusses und die Verfügung über das Bundesvermögen. </p>
+              <p type="legal_section">Dem Bundestag obliegt die jährliche Bewilligung des
+                Bundesbudgets, die Aufnahme und Konvertierung von Bundesanleihen, die Erteilung der
+                Entlastung an die Bundesregierung auf Grund des geprüften und bewilligten
+                Bundesrechnungsabschlusses und die Verfügung über das Bundesvermögen. </p>
             </div>
             <div type="article">
               <head>Artikel 22.</head>
@@ -531,7 +539,7 @@
               <p type="legal_section"><label>(2)</label> Die Vertagung ist vor Ablauf der
                 Hertagungszeit aufzuheben, wenn wenigstens ein Viertel der Mitglieder des
                 Bundestages einen schriftlichen Antrag beim Präsidenten gestellt hat. Dieser hat die
-                Bundesregierung von dem er<fw type="pageNum">- 6 - </fw><pb facs="#facs_8" n="8"
+                Bundesregierung von dem er-<fw type="pageNum">- 6 - </fw><pb facs="#facs_8" n="8"
                   xml:id="img_0008" break="yes"/>folgten Antrag zu verständigen und den Bundestag
                 wieder einzuberufen. </p>
             </div>
@@ -568,13 +576,16 @@
                 Mitglieder des Bundesrates an keinen Auftrag gebunden. </p>
               <p type="legal_section"><label>(4)</label> Die Zahl der Mitglieder wird durch den
                 Bundesrat nach jeder allgemeinen Volkszählung festgesetzt. </p>
-              <p type="legal_section"><label>5)</label> Für jedes Mitglied des Bundesrates ist
-                zugleich ein Ersatzmann zu wählen. </p>
+              <p type="legal_section"><label><choice>
+                    <sic/>
+                    <corr>(</corr>
+                  </choice>5)</label> Für jedes Mitglied des Bundesrates ist zugleich ein Ersatzmann
+                zu wählen. </p>
             </div>
             <div type="article">
               <head>Artikel 29.</head>
               <p type="legal_section"><label>(1)</label> Der Vorsitz im Bundesrate fällt in jeder
-                Sitzungsperiode abwechselnd auf ein anderes Land nach Alphabetischer Reihenfolge. </p>
+                Sitzungsperiode abwechselnd auf ein anderes Land nach alphabetischer Reihenfolge. </p>
               <p type="legal_section"><label>(2)</label> Als Vorsitzender des Bundesrates fungiert
                 der bei der Wahl aus dem Landtage an erster Stelle entsendete Vertreter des jeweils zum Vorsitz berufenen Landes. Als Stellvertreter des Vorsitzenden fungiert der an erster Stelle entsendete Vertreter desjenigen Landes, dem in der nächstfolgenden Sitzungsperiode der Vorsitz zufällt. </p>
               <p type="legal_section"><label>(3)</label> Der Bundesrat wird durch seinen
@@ -588,7 +599,7 @@
                 alljährlich an den Sitz des Bundestages einberufen.<fw type="pageNum">- 7 - </fw>
               </p>
               <p type="legal_section"><pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"
-                  /><label>(2)</label> Er faßt seine Beschlüsse mit einfacher Stimmenmehrhe: der
+                  /><label>(2)</label> Er faßt seine Beschlüsse mit einfacher Stimmenmehrheit: der
                 Anwesenden. </p>
               <p type="legal_section"><label>(3)</label> Die Sitzungen des Bundesrates sind nicht
                 öffentlich. </p>
@@ -623,7 +634,11 @@
             </div>
             <div type="article">
               <head>Artikel 34. </head>
-              <p type="legal_section">Jede Gesamtänderung der Bundesversassung, eine teilweise Aenderung aber nur, wenn dies von einem Drittel der Mitglieder des Bundestages oder des Bundesrates verlangt wird, ist nach erfolgter Beschlußfassung durch den Bundestag, jedoch vor der Beurkundung durch den Präsidenten des Bundestages einer Abstimmung des gesamten Bundesvolkes zu unterziehen.</p>
+              <p type="legal_section">Jede Gesamtänderung der Bundesverfassung, eine teilweise
+                Aenderung aber nur, wenn dies von einem Drittel der Mitglieder des Bundestages oder
+                des Bundesrates verlangt wird, ist nach erfolgter Beschlußfassung durch den
+                Bundestag, jedoch vor der Beurkundung durch den Präsidenten des Bundestages einer
+                Abstimmung des gesamten Bundesvolkes zu unterziehen.</p>
             </div>
             <div type="article">
               <head>Artikel 35. </head>
@@ -780,7 +795,9 @@
                   <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/> diesem der gleiche Fall
                   eintritt, auf den dritten Präsidenten über. </p>
                 <p type="legal_section"><label>(2)</label> Ebenso gehen die Funktionen der
-                  Regierungs= und Vollzugsgewalt im Falle dauernder Erledigung der Stelle jedoch nur bis zur Neuwahl — auf den des Präsidentenzweiten und bei dessen Verhinderung auf den dritten Präsidenten über. </p>
+                  Regierungs= und Vollzugsgewalt im Falle dauernder Erledigung der Stelle des
+                  Präsidenten — jedoch nur bis zur Neuwahl — auf den zweiten und bei dessen
+                  Verhinderung auf den dritten Präsidenten über. </p>
               </div>
               <div type="article">
                 <head>Artikel 54. </head>

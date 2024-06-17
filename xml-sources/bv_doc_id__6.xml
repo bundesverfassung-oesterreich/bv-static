@@ -98,12 +98,13 @@
                               November 1919 </date>
                   </creation>
             </profileDesc>
-            <revisionDesc status="created">
+            <revisionDesc status="text_correct">
                   <change when="2024-04-05" who="#cfh">document automatically created</change>
                   <change when="2024-04-05" who="#m_huber">all div for articles and sections
                         generated</change>
                   <change when="2024-05-23" who="#m_huber">formatting completed</change>
                   <change when="2024-06-11" who="#s_kury">Artikelnummerierung hinzugefügt</change>
+                  <change when="2024-06-17" who="#s_kury">Gegenlesen beendet</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -326,9 +327,11 @@
                                           kann nur durch übereinstimmende</p>
                                     <p type="legal_section"><pb facs="#facs_3" n="3"
                                                 xml:id="img_0003" break="yes"/><fw type="pageNum">-
-                                                2 -</fw>Verfassungsgesetze des Bundes und desjenigen
-                                          Labdes erfolgen, dessen Gebiet eine Veränderung erfährt.
-                                    </p>
+                                                2 -</fw>Verfassungsgesetze des Bundes und desjenigen La<choice>
+                                                <sic>b</sic>
+                                                <corr>n</corr>
+                                          </choice>des erfolgen, dessen Gebiet eine Veränderung
+                                          erfährt. </p>
                               </div>
                               <div type="article">
                                     <head>Art. <choice>
@@ -378,7 +381,7 @@
                                                 <item> Zivil- und Strafjustiz, </item>
                                                 <pb facs="#facs_4" n="4" xml:id="img_0004"
                                                   break="yes"/>
-                                                <fw type="pageNum">- 3 </fw>
+                                                <fw type="pageNum">- 3 -</fw>
                                                 <label>8)</label>
                                                 <item> Kultus- und Hochschulwesen, </item>
                                                 <label>9)</label>
@@ -539,8 +542,8 @@
                                                 seiner ersten Einberufung an gerechnet.</p>
                                           <p type="legal_section">Der Bundestag ist alljährlich vom
                                                 Bundespräsidenten u.zw. im. . . einzuberufen. </p>
-                                          <p type="legal_section">Eine Sitzungsperiode des Rundes
-                                                tages darf nicht länger als ein Jahr betragen. </p>
+                                          <p type="legal_section">Eine Sitzungsperiode des
+                                                Bundestages darf nicht länger als ein Jahr betragen. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -549,14 +552,17 @@
                                                 </choice></head>
                                           <p type="legal_section">Während der Sitzungsperiode kann
                                                 der Bundestag durch einen Beschluss des Hauses oder
-                                                auf Vorschlag der gundesregierung durch den
+                                                auf Vorschlag der Bundesregierung durch den
                                                 Bundespräsidenten vertagt werden. </p>
                                           <p type="legal_section">Die Vertagung ist aufzuheben, wenn
-                                                wenigstens 50 Mitglieder des Bundes tages einen
+                                                wenigstens 50 Mitglieder des Bundestages einen
                                                 schriftlichen Antrag beim Präsidenten des
-                                                Bundestages gestellt. haben. Der Präsident des
-                                                Bundestages hat von dem erfolgten Antrag die
-                                                Bundesregierung zu verständigen. </p>
+                                                Bundestages gestellt<choice>
+                                                  <sic>.</sic>
+                                                  <corr/>
+                                                </choice> haben. Der Präsident des Bundestages hat
+                                                von dem erfolgten Antrag die Bundesregierung zu
+                                                verständigen. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -570,7 +576,7 @@
                                                   facs="#facs_8" n="8" xml:id="img_0008" break="yes"
                                                   /><fw type="pageNum">- 7 -</fw>präsident binnen .
                                                 . . . Wochen nach erfolgter Auflösung Neuwahlen
-                                                auszuschreiben und den neugewählten Bundestag hinnen
+                                                auszuschreiben und den neugewählten Bundestag binnen
                                                 . . . Wochen nach durchgeführter Wahl
                                                 einzuberufen.</p>
                                     </div>
@@ -581,7 +587,7 @@
                                                 </choice></head>
                                           <p type="legal_section">Der Bundestag wählt aus seiner
                                                 Mitte auf die Dauer der Sitzungsperiode einen
-                                                Präsidenten sowie einen zwei ten und dritten
+                                                Präsidenten sowie einen zweiten und dritten
                                                 Präsidenten. </p>
                                           <p type="legal_section">Diese bleiben auch nach Ablauf der
                                                 Legislaturperiode und nach Auflösung des Bundestages
@@ -621,7 +627,7 @@
                                                 Bundestag verantwortlich gemacht werden. </p>
                                           <p type="legal_section">Kein Mitglied des Bundestages darf
                                                 während der Dauer der Session wegen einer strafbaren
-                                                Handlung- den Fall der Ergreifung auf Pfrischer Tat
+                                                Handlung- den Fall der Ergreifung auf frischer Tat
                                                 ausgenommen- ohne Zustimmung des Bundestages
                                                 verhaftet oder behördlich verfolgt werden. </p>
                                           <p type="legal_section">Selbst in dem Falle der Ergreifung
@@ -658,8 +664,8 @@
                                                   <sic/>
                                                   <corr>25</corr>
                                                 </choice></head>
-                                          <p type="legal_section">Die Mitgliederder Bundesregierung
-                                                sowie die von ihnen entsendeten vertreter sind
+                                          <p type="legal_section">Die Mitglieder der Bundesregierung
+                                                sowie die von ihnen entsendeten Vertreter sind
                                                 berechtigt, an allen Beratungen des Bundestages
                                                 teilzunehmen, Sie müssen auf ihr Verlangen jedesmal
                                                 gehört werden. Der Bundestag kann die Anwesenheit
@@ -684,12 +690,12 @@
                                                 Vorlage dennoch einbringen, hat aber hiebei die
                                                 abweichende Auffassung des Bundesrates darzulegen. </p>
                                           <p type="legal_section">Auch der Bundesrat kann im Wege
-                                                der Bundesregierung Gesetzesanträge im kundestage
+                                                der Bundesregierung Gesetzesanträge im Bundestage
                                                 stellen. Stimmt die Bundesregierung einem solchen
                                                 Antrage nicht zu, so hat sie ihren abweichenden
                                                   Stand-<pb facs="#facs_11" n="11" xml:id="img_0011"
-                                                  break="yes"/><fw type="pageNum">- 10</fw>punkt bei
-                                                Einbringung der Vorlage darzulegen. </p>
+                                                  break="yes"/><fw type="pageNum">- 10 -</fw>punkt
+                                                bei Einbringung der Vorlage darzulegen. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -714,7 +720,7 @@
                                           <p type="legal_section">Jede Gesamtänderung der
                                                 Bundesverfassung, eine teilweise Aenderung aber nur,
                                                 wenn es von . . . Mitgliedern des Bundestages oder .
-                                                . . Stimmen des undesrates verlangt wird, ist nach
+                                                . . Stimmen des Bundesrates verlangt wird, ist nach
                                                 erfolgter Beschlussfassung durch den Bundestag,
                                                 jedoch vor der Beurkundung durch den
                                                 Bundespräsidenten einer Abstimmung des gesamten
@@ -727,7 +733,7 @@
                                                 </choice></head>
                                           <p type="legal_section">Einer solchen Volksabstimmung ist
                                                 ferner hinsichtlich dessen dies von wenigstens
-                                                400.000 Stimmbe rechtigten oder von der Mehrheit der
+                                                400.000 Stimmberechtigten oder von der Mehrheit der
                                                 Stimmberechtigten dreier Länder innerhalb 6 Wochen
                                                 nach erfolgter Kundmachung des Gesetzes gefordert
                                                 wird. </p>
@@ -756,7 +762,7 @@
                                           <p type="legal_section">Das Ergebnis der Volksabstimmung
                                                 ist amtlich zu verlautbaren. Im Falle eine
                                                 Bundesgesetz durch Volksabstimmung abgelehnt wurde,
-                                                istseine Ausserkraftsetzung im Bundesgesetzblatt
+                                                ist seine Ausserkraftsetzung im Bundesgesetzblatt
                                                 kundzumachen.</p>
                                     </div>
                                     <div type="article">
@@ -766,7 +772,7 @@
                                                 </choice></head>
                                           <p type="legal_section">Ist eine Gesamtänderung der
                                                 Bundesverfassung durch Volksabstimmung abgelehnt
-                                                worden, hat der sundespräsident den Bundestag
+                                                worden, hat der Bundespräsident den Bundestag
                                                 aufzulösen und gemäss Art. . . . der
                                                 Bundesverfassung Neuwahlen auszuschreiben. </p>
                                     </div>
@@ -790,7 +796,8 @@
                                                 Bundestage sind durch diesen Präsidenten im Wege des
                                                 Bundeskanzlers dem<pb facs="#facs_13" n="13"
                                                   xml:id="img_0013" break="yes"/><fw type="pageNum"
-                                                  >- 12</fw>Bundesrate unverzüglich zu übermitteln. </p>
+                                                  >- 12 -</fw>Bundesrate unverzüglich zu
+                                                übermitteln. </p>
                                           <p type="legal_section">Gegen Gesetzesbeschlüsse des
                                                 Bundestages kann der Bundesrat Einspruch erheben. </p>
                                           <p type="legal_section">Der Einspruch muss innerhalb
@@ -819,16 +826,20 @@
                                                 Kundmachung im Bundesgesetzblatte durch den
                                                 Bundeskanzler binnen Monatsfrist zu veranlassen. </p>
                                           <p type="legal_section">Die Kundmachung der
-                                                Gesetzesbeschlüssessowie der im Art. 14 Abs. 2 Art.
+                                                Gesetzesbeschlüsse sowie der im Art. 14 Abs. 2 Art.
                                                 15 erwähnten Beschlüsse des Bundestages erfolgt mit
                                                 Berufung auf den Be-<pb facs="#facs_14" n="14"
                                                   xml:id="img_0014" break="yes"/><fw type="pageNum"
-                                                  >- 13 </fw>schluss des Bundestages oder das
+                                                  >- 13 -</fw>schluss des Bundestages oder das
                                                 Ergebnis der Volksabstimmung. </p>
                                           <p type="legal_section">Diese Beschlüsse erlangen ebenso
                                                 Staatsverträge die vom Bundestag genehmigt und vom
                                                 Bundespräsidenten ratifiziert sind, erst durch die
-                                                Kundmachung im Bundesgesetzblatte verbindliche Kraft </p>
+                                                Kundmachung im Bundesgesetzblatte verbindliche Kraft<choice>
+                                                  <sic/>
+                                                  <corr>.</corr>
+                                                </choice>
+                                          </p>
                                           <p type="legal_section">Die verbindende Kraft dieser
                                                 Kundmachungen beginnt, soweit sie selbst nichts
                                                 anderes bestimmen, mit dem Anfange des 45. Tages
@@ -844,7 +855,7 @@
                                                 </choice></head>
                                           <p type="legal_section">Der Bundestag ist befugt, die
                                                 Geschäftsführung der Bundesregierung zu überprüfen,
-                                                deren Mitglieder üner alle Gegenstände der
+                                                deren Mitglieder über alle Gegenstände der
                                                 Vollziehung zu befragen und alle einschlägigen
                                                 Auskünfte zu verlangen sowie ihren Wünschen über die
                                                 Ausübung der Regierungs- und Vollzugsgewalt in
@@ -859,7 +870,7 @@
                                     <head>a) Von der Regierungsgewalt des Bundes.</head>
                                     <div type="section">
                                           <pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/>
-                                          <fw type="pageNum">- 14 </fw>
+                                          <fw type="pageNum">- 14 -</fw>
                                           <head>1) Der Bundespräsident. </head>
                                           <div type="article">
                                                 <head>Art. <choice>
@@ -893,7 +904,7 @@
                                                 <p type="legal_section">Dem Bundespräsidenten
                                                   obliegt: </p>
                                                 <p type="legal_section">Die Einberufung, die
-                                                  vertagung, die Schliessung der Session und die
+                                                  Vertagung, die Schliessung der Session und die
                                                   Auflösung der Bundestage; </p>
                                                 <p type="legal_section">die Ausschreibung von
                                                   Neuwahlen zum Bundestage und zur
@@ -902,14 +913,14 @@
                                                   Bundesbeamten und Offiziere und sonstiger
                                                   Bundesfunktionäre, sowie Verleihungen von Titeln; </p>
                                                 <p type="legal_section">die Begnadigung
-                                                  rechtskräftig Verurteilter, die wilderung der von
+                                                  rechtskräftig Verurteilter, die Milderung der von
                                                   den Gerichten ausgesprochenen Strafen, die
-                                                  Machsicht von Rechtsfolgen und die Tilgung von
+                                                  Nachsicht von Rechtsfolgen und die Tilgung von
                                                   Verurteilungen, ferner die Abolution von
                                                   strafgerichtlichen Verfahren.</p>
                                                 <p type="legal_section"><pb facs="#facs_16" n="16"
                                                   xml:id="img_0016" break="yes"/><fw type="pageNum"
-                                                  >- 15</fw>Diese Akte der Bundespräsidenten
+                                                  >- 15 -</fw>Diese Akte der Bundespräsidenten
                                                   erfolgen auf Vorschlag der Bundesregierung. </p>
                                           </div>
                                           <div type="article">
@@ -920,7 +931,7 @@
                                                 <p type="legal_section">Der Bundespräsident kann das
                                                   ihm zustehende Ernennungsrecht von Beamten,
                                                   Offizieren oder sonstigen Bundesfunktionären
-                                                  bestimmter Kategorie oder Rangeklasse den
+                                                  bestimmter Kategorie oder Rangsklasse den
                                                   ressortmässig zustehenden Mitgliedern der
                                                   Bundesregierung delegieren. </p>
                                           </div>
@@ -962,9 +973,9 @@
                                                   Gesamtheit die Bundesregierung unter dem
                                                   Vorsitz<pb facs="#facs_17" n="17"
                                                   xml:id="img_0017" break="yes"/><fw type="pageNum"
-                                                  >- 16</fw>des Bundeskanzlers. </p>
+                                                  >- 16 -</fw>des Bundeskanzlers. </p>
                                                 <p type="legal_section">Die Regierungs- und
-                                                  Vollzugsgewalt des pundes darf nur auf Grund der
+                                                  Vollzugsgewalt des Bundes darf nur auf Grund der
                                                   Bundesverfassung und der von dem Bundestage
                                                   beschlossenen Gesetze ausgeübt werden.</p>
                                                 <p type="legal_section">Jede Behörde kann im Rahmen
@@ -979,9 +990,11 @@
                                                 <p type="legal_section">Die Bundesregierung wird von
                                                   der Bundesversammlung über den Gesamtvorschlag
                                                   eines besonderen Ausschusses, dessen
-                                                  Zusammensetzung, Wirkungskreis ud Verfahren im
-                                                  Geschäftsordnungsgesetze geregelt ist, in
-                                                  namentlicher Abstimmung gewählt. </p>
+                                                  Zusammensetzung, Wirkungskreis u<choice>
+                                                  <sic/>
+                                                  <corr>n</corr>
+                                                  </choice>d Verfahren im Geschäftsordnungsgesetze
+                                                  geregelt ist, in namentlicher Abstimmung gewählt. </p>
                                                 <p type="legal_section">Die Bestellungsurkunden des
                                                   Bundeskanzlers und der Staatssekretäre werden vom
                                                   Bundespräsidenten mit dem Datum des Tages der
@@ -1003,8 +1016,8 @@
                                                   leitenden Beamten oder eines eigens hiezu
                                                   bestellten Beamten mit der<pb facs="#facs_18"
                                                   n="18" xml:id="img_0018" break="yes"/><fw
-                                                  type="pageNum">- 17</fw>einstweiligen Leitung der
-                                                  Verwaltung zu betrauen. </p>
+                                                  type="pageNum">- 17 -</fw>einstweiligen Leitung
+                                                  der Verwaltung zu betrauen. </p>
                                           </div>
                                           <div type="article">
                                                 <head>Art. <choice>
@@ -1052,8 +1065,8 @@
                                                 <p type="legal_section">Die Bundeskanzlei steht
                                                   unter der<pb facs="#facs_19" n="19"
                                                   xml:id="img_0019" break="yes"/><fw type="pageNum"
-                                                  >- 18 </fw>Leitung des Bundeskanzlers, jedes
-                                                  Bundesamt unter der Leitung eines staatssekretärs. </p>
+                                                  >- 18 -</fw>Leitung des Bundeskanzlers, jedes
+                                                  Bundesamt unter der Leitung eines Staatssekretärs. </p>
                                                 <p type="legal_section">Aenderung des
                                                   Wirkungskreises und der Zahl der Bundesämter
                                                   erfolgt durch einfaches Gesetz. </p>
@@ -1072,7 +1085,7 @@
                                                   <corr>50</corr>
                                                   </choice></head>
                                                 <p type="legal_section">Der Bundeskanzler, der
-                                                  Vizekanzler oder ein staatssekretär kann auch mit
+                                                  Vizekanzler oder ein Staatssekretär kann auch mit
                                                   der Führung eines ihm nicht nach Art.
                                                   unterstellten Bundesamtes betraut werden. </p>
                                                 <p type="legal_section">Auch können Staatssekretäre
@@ -1105,9 +1118,8 @@
                                                 <p type="legal_section">Im Bundesrat üben die Länder
                                                   ihren verfassungsmässigen Einfluss auf die<pb
                                                   facs="#facs_20" n="20" xml:id="img_0020"
-                                                  break="yes"/><fw type="pageNum">-
-                                                  19</fw>Gesetzgebung und Verwaltung des Bundes aus.
-                                                </p>
+                                                  break="yes"/><fw type="pageNum">- 19
+                                                  -</fw>Gesetzgebung und Verwaltung des Bundes aus. </p>
                                           </div>
                                           <div type="article">
                                                 <head>Art. <choice>
@@ -1117,7 +1129,7 @@
                                                 <p type="legal_section">Im Bundesrat hat jedes Land
                                                   mindestens 1 Stimme. Mit mehr als 200.000
                                                   Einwohner hat ein Land 2, mit mehr als einer 1/2
-                                                  Million 3, mit mehr als 1 Million Minwohner 4, mit
+                                                  Million 3, mit mehr als 1 Million Einwohner 4, mit
                                                   mehr als 2 Millionen Einwohnern 5, Stimmen. </p>
                                                 <p type="legal_section">Die Stimmzahl wird durch den
                                                   Bundesrat nach jeder allgemeinen Volkszählung neu
@@ -1160,7 +1172,7 @@
                                                   einzuberufen.</p>
                                                 <p type="legal_section"><pb facs="#facs_21" n="21"
                                                   xml:id="img_0021" break="yes"/><fw type="pageNum"
-                                                  >- 20 </fw>Die Mitglieder der Bundesregierung
+                                                  >- 20 -</fw>Die Mitglieder der Bundesregierung
                                                   haben das Recht und auf Verlangen die Pflicht, an
                                                   den Verhandlungen des Bundesrates und seiner
                                                   Ausschüsse teilzunehmen. Sie müssen während der
@@ -1190,7 +1202,7 @@
                                                   Bundesregierung über die Führung der
                                                   Bundesgeschäfte auf dem laufenden zu halten. In
                                                   allen wichtigeren Bundesangelegenheiten hat die
-                                                  bundesregierung den Bundesrat zu hören.</p>
+                                                  Bundesregierung den Bundesrat zu hören.</p>
                                           </div>
                                     </div>
                               </div>
@@ -1215,7 +1227,7 @@
                                           <p type="legal_section">Die Verfassung und
                                                   Zuständigkeit<pb facs="#facs_22" n="22"
                                                   xml:id="img_0022" break="yes"/><fw type="pageNum"
-                                                  >- 21</fw>der Gerichte wird durch Bundesgesetz
+                                                  >- 21 -</fw>der Gerichte wird durch Bundesgesetz
                                                 festgestellt. </p>
                                           <p type="legal_section">Niemand darf seinem ordentlichen
                                                 Richter entzogen werden. </p>
@@ -1236,7 +1248,7 @@
                                                   <corr>61</corr>
                                                 </choice></head>
                                           <p type="legal_section">Die Militärgerichtsbarkeit ist -
-                                                äusser für Kriegszeiten - aufzuheben. Das nähere
+                                                ausser für Kriegszeiten - aufzuheben. Das nähere
                                                 regelt ein Bundesgesetz. </p>
                                     </div>
                                     <div type="article">
@@ -1245,8 +1257,7 @@
                                                   <corr>62</corr>
                                                 </choice></head>
                                           <p type="legal_section">Die Gerichtsbarkeit in Polizei-
-                                                und Gefälls strafsachen wird durch Gesetz geregelt.
-                                          </p>
+                                                und Gefällsstrafsachen wird durch Gesetz geregelt. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -1268,12 +1279,14 @@
                                                 Antrag der Bundesregierung vom Bundespräsidenten
                                                 oder über dessen Ermächtigung vom Staatssekretär für
                                                 Justiz an die Bundesregierung zu leitende oder dem
-                                                Staatssekretär für Justiz vorzulegende
-                                                Besetzungsvorschlähat, wenn genügend Bewerber
-                                                vorhanden sind,<pb facs="#facs_23" n="23"
-                                                  xml:id="img_0023" break="yes"/><fw type="pageNum"
-                                                  >- 22 </fw>mindestens 2 Personen mehr zu umfassen,
-                                                als Richter zu ernennen sind. </p>
+                                                Staatssekretär für Justiz vorzulegende Besetzungsvorschlä<choice>
+                                                  <sic>hat</sic>
+                                                  <corr>g hat</corr>
+                                                </choice>, wenn genügend Bewerber vorhanden sind,<pb
+                                                  facs="#facs_23" n="23" xml:id="img_0023"
+                                                  break="yes"/><fw type="pageNum">- 22
+                                                -</fw>mindestens 2 Personen mehr zu umfassen, als
+                                                Richter zu ernennen sind. </p>
                                           <p type="legal_section">Die Richter werden in die für die
                                                 übrigen Staatsbeamten bestehenden Rangsklassen nicht
                                                 eingeteilt; ihre dienstliche Verwendung ist von
@@ -1312,14 +1325,14 @@
                                                 Beschluss in den durch das Gesetz bestimmten Fällen
                                                 und Formen stattfinden. Diese Bestimmungen finden
                                                   je-<pb facs="#facs_24" n="24" xml:id="img_0024"
-                                                  break="yes"/><fw type="pageNum">- 23</fw>doch bei
-                                                Uebersetzung und Versetzungen in den Ruhestand keine
-                                                Anwendung, die durch Veränderungen in der Verfassung
-                                                der Gerichte nötig werden. In einem solchen Falle
-                                                wird durch Gesetz festgestellt, innerhalb welchen
-                                                Zeitraumes Richter, ohne die sonst vorgeschriebenen
-                                                Förmlichkeiten übersetzt und in den Ruhestand
-                                                versetzt werden können.</p>
+                                                  break="yes"/><fw type="pageNum">- 23 -</fw>doch
+                                                bei Uebersetzung und Versetzungen in den Ruhestand
+                                                keine Anwendung, die durch Veränderungen in der
+                                                Verfassung der Gerichte nötig werden. In einem
+                                                solchen Falle wird durch Gesetz festgestellt,
+                                                innerhalb welchen Zeitraumes Richter, ohne die sonst
+                                                vorgeschriebenen Förmlichkeiten übersetzt und in den
+                                                Ruhestand versetzt werden können.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -1361,8 +1374,8 @@
                                                 erkennenden Richter sind in Zivil- und
                                                 Strafrechtssachen mündlich und öffentlich. Die<pb
                                                   facs="#facs_25" n="25" xml:id="img_0025"
-                                                  break="yes"/><fw type="pageNum">- 24</fw>Ausnahme
-                                                bestimmt das Gesetz. </p>
+                                                  break="yes"/><fw type="pageNum">- 24
+                                                -</fw>Ausnahme bestimmt das Gesetz. </p>
                                           <p type="legal_section">Im Strafverfahren gilt der
                                                 Anklageprozess. </p>
                                     </div>
@@ -1421,7 +1434,7 @@
                         </div>
                         <div type="section">
                               <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
-                              <fw type="pageNum">- 25 </fw>
+                              <fw type="pageNum">- 25 -</fw>
                               <head>IV. Aschnitt. </head>
                               <head>Von der Gesetzgebung und Vollziehung der Länder.</head>
                               <div type="article">
@@ -1496,7 +1509,7 @@
                                     <p type="legal_section">Ein Landesverfassungsgesetz kann nur bei
                                           Anwesenheit von Zweidrittel aller Mitglieder des Landtages
                                           mit einer Mehrheit von Zweidrittel aller abgegebenen
-                                          Stimnen beschlossen werden. </p>
+                                          Stimmen beschlossen werden. </p>
                               </div>
                               <div type="article">
                                     <head>Art. <choice>
@@ -1508,7 +1521,7 @@
                                           die Landesregierung im Landesgesetzblatte.</p>
                                     <p type="legal_section"><pb facs="#facs_28" n="28"
                                                 xml:id="img_0028" break="yes"/><fw type="pageNum">-
-                                                27 </fw>Die Beurkundung des verfassungsmässigen
+                                                27 -</fw>Die Beurkundung des verfassungsmässigen
                                           Zustandekommens geschieht durch die von dem
                                           Landeshauptmann gegenzuzeichnende Unterschrift des
                                           Präsidenten des Landtages. </p>
@@ -1553,13 +1566,13 @@
                                           </choice></head>
                                     <p type="legal_section">Der Landeshauptmann bezw. sein<pb
                                                 facs="#facs_29" n="29" xml:id="img_0029" break="yes"
-                                                /><fw type="pageNum">- 28</fw>Stellvertreter
+                                                /><fw type="pageNum">- 28 -</fw>Stellvertreter
                                           vertritt das Land. Er trägt in den Angelegenheiten des der
                                           Landesregierung übertragenen Wirkungskreises der
                                           Bundesgewalt die Verantwortung gegenüber der
                                           Bundesregierung gemäss Art. . . . der
                                           Bundesverfassung.</p>
-                                    <p type="legal_section">Der Gedtendmachung dieser
+                                    <p type="legal_section">Der Geltendmachung dieser
                                           Verantwortlichkeit steht die Immunität nicht im Wege. </p>
                                     <p type="legal_section">Dem Landtage sind die Mitglieder der
                                           Landesregierung gemäss Art. . . . der Bundesverfassung
@@ -1593,7 +1606,7 @@
                                           persönlichen Verantwortung zu führen; für diese
                                           Verantwortung gelten dieselben Bestimmungen<pb
                                                 facs="#facs_30" n="30" xml:id="img_0030" break="yes"
-                                                /><fw type="pageNum">- 29</fw>wie für jene des
+                                                /><fw type="pageNum">- 29 -</fw>wie für jene des
                                           Landeshauptmannes. </p>
                               </div>
                               <div type="article">
@@ -1661,8 +1674,10 @@
                                           einschliesslich der Staatsschulden, ferner der Gebarung
                                           der von Organen des Bundes oder der Länder verwalteten
                                           Stiftungen, Fonds und Anstalten sowie zur Ueberprüfung von
-                                          Gebarung jener Institute und Gesellschaften, an welchen
-                                          det Bund oder die Länder beteiligt sind, ist der
+                                          Gebarung jener Institute und Gesellschaften, an welchen de<choice>
+                                                <sic>t</sic>
+                                                <corr>r</corr>
+                                          </choice> Bund oder die Länder beteiligt sind, ist der
                                           Bundesrechnungshof berufen.</p>
                                     <p type="legal_section">Der Bundesrechnungshof untersteht
                                           unmittelbar der Bundesversammlung und dem Bundesrat. </p>
@@ -1672,9 +1687,11 @@
                                                 <sic/>
                                                 <corr>90</corr>
                                           </choice></head>
-                                    <p type="legal_section">Der Bundesrechnungshof besteh aus einem
-                                          Präsidenten und den erforderlichen Beamten und
-                                          Hilfskräften. </p>
+                                    <p type="legal_section">Der Bundesrechnungshof besteh<choice>
+                                                <sic/>
+                                                <corr>t</corr>
+                                          </choice> aus einem Präsidenten und den erforderlichen
+                                          Beamten und Hilfskräften. </p>
                                     <p type="legal_section">Der Präsident des Bundesrechnungshofes
                                           wird vom Bundestag gewählt. Die Wahl bedarf der
                                           Genehmigung des Bundesrates.</p>
@@ -1700,9 +1717,11 @@
                                                 <corr>92</corr>
                                           </choice></head>
                                     <p type="legal_section">Dem Präsidenten des Bundesrechnungshofes
-                                          obliegt dessen oberste Leitung, Er ist hinsichtlich der
-                                          Verantwortlichkeit den Mitgliedern der Bundesregierung
-                                          gleichgestellt. </p>
+                                          obliegt dessen oberste Leitung, <choice>
+                                                <sic>E</sic>
+                                                <corr>e</corr>
+                                          </choice>r ist hinsichtlich der Verantwortlichkeit den
+                                          Mitgliedern der Bundesregierung gleichgestellt. </p>
                                     <p type="legal_section">Abgesehen von dem im Art. . . . der
                                           Bundesverfassung geregelten Fall kann der Präsident des
                                           Bundesrechnungshofes nur durch Beschluss des Bundestages
@@ -1724,7 +1743,7 @@
                                           Auskunft zu erteilen.</p>
                                     <p type="legal_section"><pb facs="#facs_33" n="33"
                                                 xml:id="img_0033" break="yes"/><fw type="pageNum">-
-                                                32</fw>Er kann den Beratungen der Bundesregierung
+                                                32 -</fw>Er kann den Beratungen der Bundesregierung
                                           beigezogen werden, falls Gegenstände verhandelt werden,
                                           die den Wirkungskreis des Bundesrechnungshofes betreffen
                                           oder über dessen Anregung zur Verhandlung gelangen. </p>
@@ -1755,9 +1774,11 @@
                                                 <sic/>
                                                 <corr>95</corr>
                                           </choice></head>
-                                    <p type="legal_section">Die Beamten des Bundesrechnungshofes
-                                          ernannt über Vorschlag des Präsidenten der
-                                          Bundespräsident. Doch kann der Bundesprasident den
+                                    <p type="legal_section">Die Beamten des Bundesrechnungshofes ern<choice>
+                                                <sic>a</sic>
+                                                <corr>e</corr>
+                                          </choice>nnt über Vorschlag des Präsidenten der
+                                          Bundespräsident. Doch kann der Bundespräsident den
                                           Präsidenten des Bundesrechnungshofes ermächtigen, Beamte
                                           bestimmter Rangsklassen nach Anhören des Gremiums zu
                                           ernennen. </p>
@@ -1765,7 +1786,7 @@
                                           übrigen Stellen zu besetzen.</p>
                                     <p type="legal_section"><pb facs="#facs_34" n="34"
                                                 xml:id="img_0034" break="yes"/><fw type="pageNum">-
-                                                33 </fw>Kein Mitglied des Bundesrechnungshofes darf
+                                                33 -</fw>Kein Mitglied des Bundesrechnungshofes darf
                                           an der Leitung und Verwaltung von Unternehmungen, die dem
                                           Bunde oder den Ländern Rechnung zu legen haben oder zum
                                           Bunde oder einem Lande in einem Subventions- oder
@@ -1809,12 +1830,12 @@
                                           anweisenden Behörden und den diesen unterstehenden
                                           Stellen, dann gegenüber<pb facs="#facs_35" n="35"
                                                 xml:id="img_0035" break="yes"/><fw type="pageNum">-
-                                                34 </fw>den im Art. . . . bezeichneten Vermögens-
+                                                34 -</fw>den im Art. . . . bezeichneten Vermögens-
                                           und Körperschaften berechtigt, zur Ueberprüfung der
                                           Gebarung. <list>
                                                 <label>a/ </label>
                                                 <item> die Einsendung von Rechnungsbelegen und
-                                                  Behelfen / Geschäftsstücke, Verträge usw. zu
+                                                  Behelfen / Geschäftsstücke, Verträge usw./ zu
                                                   verlangen. </item>
                                                 <label>b/ </label>
                                                 <item>durch Beauftragte an Ort und Stellein die mit
@@ -1855,7 +1876,7 @@
                                           pflegen. Falls eine Anordnung dieser Art die innere
                                           Einrichtung einer Verwaltungsstelle<pb facs="#facs_36"
                                                 n="36" xml:id="img_0036" break="yes"/><fw
-                                                type="pageNum">- 35 </fw>berührt, hat der
+                                                type="pageNum">- 35 -</fw>berührt, hat der
                                           Bundesrechnungshof auch das Einvernehmen mit dem
                                           zuständigen Bundesamte bezw. der zuständigen
                                           Landesregierung zu pflegen. </p>
@@ -1907,10 +1928,10 @@
                                     <p type="legal_section">Die näheren Bestimmungen über die innere
                                           Einrichtung und den Geschäftsgang des Bundes-<pb
                                                 facs="#facs_37" n="37" xml:id="img_0037" break="yes"
-                                                /><fw type="pageNum">- 36 </fw>rechnungshofes regelt
-                                          die Geschäftsordnung. Sie ist vom Bundesrechnungshofe dem
-                                          Bundespräsidenten im Wege der Bundesregierung zur
-                                          Genehmigung vorzulegen. </p>
+                                                /><fw type="pageNum">- 36 -</fw>rechnungshofes
+                                          regelt die Geschäftsordnung. Sie ist vom
+                                          Bundesrechnungshofe dem Bundespräsidenten im Wege der
+                                          Bundesregierung zur Genehmigung vorzulegen. </p>
                               </div>
                         </div>
                         <div type="section">
@@ -1960,7 +1981,7 @@
                                           innerhalb des Bundesgebietes ist gewährleistet.
                                           Einschränkungen können nur durch<pb facs="#facs_38" n="38"
                                                 xml:id="img_0038" break="yes"/><fw type="pageNum">-
-                                                37</fw>Bundesgesetz bestimmt werden. </p>
+                                                37 -</fw>Bundesgesetz bestimmt werden. </p>
                               </div>
                               <div type="article">
                                     <head>Art. <choice>
@@ -1995,13 +2016,15 @@
                                           Freiheit. Die zum Schutze von Staat und Gesellschaft
                                           erforderlichen Schranken der persönlichen Freiheit können
                                           nur durch Bundesgesetz errichtet werden.</p>
-                                    <p type="legal_section">Personen, denen die Feriheit entzogen
-                                          wird, sind spätestens am darauffolgenden Tage in Kenntnis
-                                          zu setzen von welcher Behörde und aus welchen Gründen die
-                                          Entziehung der Freiheit angefordert worden ist;
-                                          unverzüglich soll ihnen Gelegenheit gegeben werden,
-                                          Einwendungen gegen ihre Freiheitsentziehung vorzubringen.
-                                    </p>
+                                    <p type="legal_section">Personen, denen die F<choice>
+                                                <sic>er</sic>
+                                                <corr>re</corr>
+                                          </choice>iheit entzogen wird, sind spätestens am
+                                          darauffolgenden Tage in Kenntnis zu setzen von welcher
+                                          Behörde und aus welchen Gründen die Entziehung der
+                                          Freiheit angefordert worden ist; unverzüglich soll ihnen
+                                          Gelegenheit gegeben werden, Einwendungen gegen ihre
+                                          Freiheitsentziehung vorzubringen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. <choice>
@@ -2041,8 +2064,7 @@
                                           in den durch besonderes Gesetz vorgesehenen Fällen
                                           erlassen werden. </p>
                                     <p type="legal_section">Jede Zensur ist aufgehoben, doch können
-                                          für Lichtspiele abweichende Bestimmungen getreffen werden.
-                                    </p>
+                                          für Lichtspiele abweichende Bestimmungen getroffen werden. </p>
                               </div>
                               <div type="article">
                                     <head>Art. <choice>
@@ -2067,8 +2089,8 @@
                                     <p type="legal_section">Alle Staatsbürger haben das Recht sich
                                           ohne Anmeldung oder besondere Erlaubnis<pb facs="#facs_40"
                                                 n="40" xml:id="img_0040" break="yes"/><fw
-                                                type="pageNum">- 39</fw>friedlich und unbewaffnet zu
-                                          versammeln. </p>
+                                                type="pageNum">- 39 -</fw>friedlich und unbewaffnet
+                                          zu versammeln. </p>
                                     <p type="legal_section">Versammlungen unter freiem Himmel können
                                           durch Bundesgesetz anmeldepflichtig gemacht und bei
                                           unmittelbarer Gefahr für die öffentliche Sicherheit
@@ -2093,10 +2115,17 @@
                                                 <corr>118</corr>
                                           </choice></head>
                                     <p type="legal_section">Der Genuss der bürgerlichen und
-                                          politischen Rechte sowie die Zulassung zu dem öffentlichen
-                                          Aemtern ist von dem Religionsbekenntnis unabhängig; doch
-                                          darf dem staatsbürgerlichen Pflichten durch das
-                                          Religionsbekanntnis kein Abbruch geschehen. </p>
+                                          politischen Rechte sowie die Zulassung zu de<choice>
+                                                <sic>m</sic>
+                                                <corr>n</corr>
+                                          </choice> öffentlichen Aemtern ist von dem
+                                          Religionsbekenntnis unabhängig; doch darf de<choice>
+                                                <sic>m</sic>
+                                                <corr>n</corr>
+                                          </choice> staatsbürgerlichen Pflichten durch das Religionsbek<choice>
+                                                <del>a</del>
+                                                <add>e</add>
+                                          </choice>nntnis kein Abbruch geschehen. </p>
                                     <p type="legal_section">Niemand ist verpflichtet, seine
                                           religiöse Ueberzeugung zu offenbaren. Die Behörden haben
                                           nur insoweit das Recht, nach der Zugehörigkeit zu einer
@@ -2125,7 +2154,10 @@
                                     <p type="legal_section">Jede Religionsgesellschaft ordnet und
                                           verwaltet ihre Angelegenheiten selbständig innerhalb der
                                           gesetzlichen Schranken. Sie verleiht ihre Aemter ohne
-                                          Mitwirkung des</p>
+                                          Mitwirkung des <choice>
+                                                <sic/>
+                                                <corr>Staates.</corr>
+                                          </choice></p>
                                     <p type="legal_section">Die Rechtskräftigkeit der
                                           Religionsgesellschaften richtet sich nach den Vorschriften
                                           des bürgerlichen Rechtes über die Rechtsfähigkeit der
@@ -2206,10 +2238,10 @@
                                                 <corr>125</corr>
                                           </choice></head>
                                     <p type="legal_section">Das gesamte Schulwesen steht unter der
-                                          Aufsicht des Staates.</p>
+                                                <del>Schu</del> Aufsicht des Staates.</p>
                                     <p type="legal_section"><pb facs="#facs_43" n="43"
-                                                xml:id="img_0043" break="yes"/><fw type="pageNum">
-                                                42 </fw>Es besteht eine allgemeine Schulpflicht. </p>
+                                                xml:id="img_0043" break="yes"/><fw type="pageNum">-
+                                                42 -</fw>Es besteht eine allgemeine Schulpflicht. </p>
                                     <p type="legal_section">Ihrer Erfüllung dient grundsätzlich die
                                           Volksschule mit mindestens . . . Schuljahren. Der
                                           Unterricht und die Lehrmittel in den Volksschulen sind
@@ -2227,11 +2259,13 @@
                                           wird in Uebereinstimmung mit den Grundsätzen der
                                           betreffenden Religionsgesellschaft erteilt.</p>
                                     <p type="legal_section">Die Erteilung des religiösen
-                                          Unterrichtes bleibt der Willenserklärung der Lehrer
-                                          üerlassen. Den Religionsgesellschaften bleibt das Recht
-                                          gewährt, für den Unterricht ihrer Religion in den Schulen
-                                          Sorge zu tragen. Dem Aufsichtsrecht des Staates kann
-                                          dadurch kein Abbruch geschehen. </p>
+                                          Unterrichtes bleibt der Willenserklärung der Lehrer ü<choice>
+                                                <sic/>
+                                                <corr>b</corr>
+                                          </choice>erlassen. Den Religionsgesellschaften bleibt das
+                                          Recht gewährt, für den Unterricht ihrer Religion in den
+                                          Schulen Sorge zu tragen. Dem Aufsichtsrecht des Staates
+                                          kann dadurch kein Abbruch geschehen. </p>
                                     <p type="legal_section">Die Teilnahme der Schüler an religiösen
                                           Unterrichtsfächern und an kirchlichen Feiern und
                                           Handlungen bleibt der Willenserklärung desjenigen
@@ -2250,7 +2284,7 @@
                                           Bevölkerung bilden, ist Vorsorge zu treffen, dass in den
                                                 Volksschulen<pb facs="#facs_44" n="44"
                                                 xml:id="img_0044" break="yes"/><fw type="pageNum">-
-                                                43</fw>den Kindern dieser Staatsbürger der
+                                                43 -</fw>den Kindern dieser Staatsbürger der
                                           Unterricht in ihrer Muttersprache erteilt werde. </p>
                                     <p type="legal_section">Der Unterricht in der deutschen Sprache
                                           ist jedoch auch in solchen Schulen stets
@@ -2276,9 +2310,12 @@
                                           Oesterreich ist die deutsche. </p>
                                     <p type="legal_section">Alle Staatsbürger haben ein gleiches
                                           Recht auf Wahrung ihrer Nationalität und Sprache. </p>
-                                    <p type="legal_section">Keinen österreichischen Staatsbürger
-                                          werden im freien Gebrauch irgendeiner Sprache im Privat-
-                                          oder Geschäftsverkehr, bei Betätigung der religiösen
+                                    <p type="legal_section">Keine<choice>
+                                                <sic>n</sic>
+                                                <corr>m</corr>
+                                          </choice> österreichischen Staatsbürger werden im freien
+                                          Gebrauch irgendeiner Sprache im Privat- oder
+                                          Geschäftsverkehr, bei Betätigung der religiösen
                                           Ueberzeugung, in der Presse oder in sonstigen
                                           Veröffentlichungen oder in allgemein zugänglichen
                                           Versammlungen Beschränkungen auferlegt. </p>
@@ -2298,8 +2335,8 @@
                                           errichteten Wohltätigkeits- Religions- Unterrichts-
                                                 Erziehungs-<pb facs="#facs_45" n="45"
                                                 xml:id="img_0045" break="yes"/><fw type="pageNum">-
-                                                44 - </fw>und sonstigen Anstalten ihre eigene
-                                          Sprache nach Belieben zu gebrauchen und ihre Religion frei
+                                                44 -</fw>und sonstigen Anstalten ihre eigene Sprache
+                                          nach Belieben zu gebrauchen und ihre Religion frei
                                           auszuüben. </p>
                               </div>
                               <div type="article">
@@ -2333,7 +2370,7 @@
                                           Eigentümers ist - soferne durch Bundesgesetz nicht anders
                                           bestimmt wird - nur gegen die angemessene Entschädigung
                                           zulässig. Ueber die Höhe der Entschädigung entscheiden im
-                                          Streitfälle die ordentlichen Gerichte. </p>
+                                          Streitfalle die ordentlichen Gerichte. </p>
                                     <p type="legal_section">Die Zwecke, zu denen enteignet werden
                                           kann, sowie das Enteignungsverfahren werden in besonderen
                                           Gesetzen geregelt. </p>
@@ -2355,21 +2392,25 @@
                                           </choice></head>
                                     <p type="legal_section">Der Bund kann durch Gesetz gegen Ent-<pb
                                                 facs="#facs_46" n="46" xml:id="img_0046" break="yes"
-                                                /><fw type="pageNum">- 45 </fw>schädigung, in
+                                                /><fw type="pageNum">- 45 -</fw>schädigung, in
                                           sinngemässer Anwendung der für Enteignung geltenden
                                           Bestimmungen, für die Vergesellschaftung geeignete
-                                          private, wirtschaftliche Unternehmungen in Gemeineigentum
-                                          üerführen. Er kann sich selbst, die Länder oder Gemeinden
-                                          an der Verwaltung wirtschaftlicher Unternehmungen und
-                                          Verbände beteiligen oder sich daran in anderer Weise einen
-                                          bestimmten Einfluss sichern. </p>
-                                    <p type="legal_section">Der Bund kann ferner im Falle dringenden
-                                          Bedürfnissen zum Zwecke der Gemeinwirtschaft durch Gesetz
+                                          private, wirtschaftliche Unternehmungen in Gemeineigentum ü<choice>
+                                                <sic/>
+                                                <corr>b</corr>
+                                          </choice>erführen. Er kann sich selbst, die Länder oder
+                                          Gemeinden an der Verwaltung wirtschaftlicher
+                                          Unternehmungen und Verbände beteiligen oder sich daran in
+                                          anderer Weise einen bestimmten Einfluss sichern. </p>
+                                    <p type="legal_section">Der Bund kann ferner im Falle dringenden Bedürfnisse<choice>
+                                                <del>n</del>
+                                                <add>s</add>
+                                          </choice> zum Zwecke der Gemeinwirtschaft durch Gesetz
                                           wirtschaftliche Unternehmungen und Verbände auf der
                                           Grundlage der Selbstverwaltung zusammenschliessen mit dem
                                           Ziele, die Mitwirkung aller schaffenden Volksstellen zu
                                           sichern. Arbeitgeber und Arbeitnehmer an der Verwaltung zu
-                                          beteiligen, und Erzeugung, Herstellung, Verteilung.
+                                          beteiligen, und Erzeugung, Herstellung, Verteilung,
                                           Verwendung, Preisgestaltung sowie Ein- und Ausfuhr der
                                           Wirtschaftsgüter nach gemeinschaftlichen Grundsätzen zu
                                           regeln. </p>
@@ -2397,7 +2438,7 @@
                                           besonderen Schutz des Bundes.</p>
                                     <p type="legal_section"><pb facs="#facs_47" n="47"
                                                 xml:id="img_0047" break="yes"/><fw type="pageNum">-
-                                                46</fw>Der Bund schafft ein einheitliches
+                                                46 -</fw>Der Bund schafft ein einheitliches
                                           Arbeitsrecht. </p>
                                     <p type="legal_section">Die Vereinigungsfreiheit zur Wahrung und
                                           Förderung der Arbeits- und Wirtschaftsbedingungen ist für
@@ -2410,18 +2451,20 @@
                                                 <sic/>
                                                 <corr>138</corr>
                                           </choice></head>
-                                    <p type="legal_section">Im Falle einer dringen Gefahr für den
-                                          Staat oder seine Bürger können die Grundrechte der
-                                          persönlichen Freiheit, des Hausrechtes, der Vereins- und
-                                          Versammlungsfreiheit und der Pressefreiheit mittels
-                                          Vollaugsanweisung der Bundesregierung den durch besonderes
-                                          Gesetz vorgesehenen Beschränkungen unterworfen werden.
-                                          Eine solche Vollzugsanweisung ist der Bundesversammlung
-                                          und dem Bundesrate binnen 3 Tagen und falls sie nicht
-                                          versammelt sind, sogleich nach ihrem Wiederzusammentritt
-                                          vorzulegen und unverzüglich ausser Kraft zu setzen, falls
-                                          es die Bundesversammlung oder der Bundesrat
-                                          beschliesst.</p>
+                                    <p type="legal_section">Im Falle einer dringen<choice>
+                                                <sic/>
+                                                <corr>den</corr>
+                                          </choice> Gefahr für den Staat oder seine Bürger können
+                                          die Grundrechte der persönlichen Freiheit, des
+                                          Hausrechtes, der Vereins- und Versammlungsfreiheit und der
+                                          Pressefreiheit mittels Vollzugsanweisung der
+                                          Bundesregierung den durch besonderes Gesetz vorgesehenen
+                                          Beschränkungen unterworfen werden. Eine solche
+                                          Vollzugsanweisung ist der Bundesversammlung und dem
+                                          Bundesrate binnen 3 Tagen und falls sie nicht versammelt
+                                          sind, sogleich nach ihrem Wiederzusammentritt vorzulegen
+                                          und unverzüglich ausser Kraft zu setzen, falls es die
+                                          Bundesversammlung oder der Bundesrat beschliesst.</p>
                               </div>
                         </div>
                         <div type="section">
@@ -2439,7 +2482,7 @@
                                                 des Bundes oder eines Landes entscheiden nach
                                                 Erschöpfung des administrativen<pb facs="#facs_48"
                                                   n="48" xml:id="img_0048" break="yes"/><fw
-                                                  type="pageNum">- 47</fw>Instanzenzuges : <list>
+                                                  type="pageNum">- 47 -</fw>Instanzenzuges : <list>
                                                   <label>a/ </label>
                                                   <item> in Angelegenheiten des selbständigen
                                                   Wirkungskreises der Länder, die
@@ -2493,7 +2536,7 @@
                                                 rechtswidrige Entscheidung oder Verfügung einer
                                                   Landesbehörde<pb facs="#facs_49" n="49"
                                                   xml:id="img_0049" break="yes"/><fw type="pageNum"
-                                                  >- 48</fw>die Interessen der Bundesverwaltung
+                                                  >- 48 -</fw>die Interessen der Bundesverwaltung
                                                 verletzt werden, auch die Bundesregierung vor einem
                                                 Landesverwaltungsgerichte Beschwerde erheben. </p>
                                     </div>
@@ -2517,13 +2560,13 @@
                                                 Verwaltungsgerichte sind ausgeschlossen: <list>
                                                   <label>a/ </label>
                                                   <item>Angelegenheiten, über welche den
-                                                  erdentlichen Gerichten die Entscheidung zusteht. </item>
+                                                  ordentlichen Gerichten die Entscheidung zusteht. </item>
                                                   <label> </label>
                                                   <item> Angelegenheiten, welche nach der
                                                   Bundesverfassung zur Kompetenz des
                                                   Bundesverfassungsgerichtes gehören.</item>
                                                   <label>c/ </label>
-                                                  <item> Angelegenheiten, in denen und inseweit die
+                                                  <item> Angelegenheiten, in denen und insoweit die
                                                   Verwaltungsbehörden nach freiem Ermessen
                                                   vorzugehen haben. </item>
                                                   <label>d/ </label>
@@ -2539,11 +2582,14 @@
                                                 Bundesgesetz kann angeordnet werden, dass in allen
                                                 Angelegenheiten, in denen ein Verwaltungsgericht
                                                 angerufen werden kann, der administrative
-                                                Instanzenzug bei Angelegenheiten des Wirkungdkreises
-                                                der Länder noch vor der Entscheidung der
-                                                Landesregierung, bei den übrigen Angelegenheiten
-                                                noch vor der Entscheidung der Bundesregierung bezw.
-                                                des zuständigen Bundesamtes beendet sei. </p>
+                                                Instanzenzug bei Angelegenheiten des Wirkung<choice>
+                                                  <sic>d</sic>
+                                                  <corr>s</corr>
+                                                </choice>kreises der Länder noch vor der
+                                                Entscheidung der Landesregierung, bei den übrigen
+                                                Angelegenheiten noch vor der Entscheidung der
+                                                Bundesregierung bezw. des zuständigen Bundesamtes
+                                                beendet sei. </p>
                                     </div>
                               </div>
                               <div type="section">
@@ -2557,8 +2603,8 @@
                                                 Wien entscheidet alle Rechtsstreitigkeiten
                                                   zwischen<pb facs="#facs_50" n="50"
                                                   xml:id="img_0050" break="yes"/><fw type="pageNum"
-                                                  >- 49</fw>den Ländern, sowie zwischen einem Lande
-                                                und dem Bund. </p>
+                                                  >- 49 -</fw>den Ländern, sowie zwischen einem
+                                                Lande und dem Bund. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -2604,15 +2650,18 @@
                                                 </choice></head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entscheidet über Bundesgesetzwidrigkeit von
-                                                Landesgesetzen - ausse dem im Art. . . . erwähnten
-                                                Fallauf Antrag der Bundesregierung. </p>
+                                                Landesgesetzen - ausse<choice>
+                                                  <sic/>
+                                                  <corr>r</corr>
+                                                </choice> dem im Art. . . . erwähnten Fallauf Antrag
+                                                der Bundesregierung. </p>
                                           <p type="legal_section">Der Antrag der Bundesregierung
                                                 kann jederzeit gestellt werden; er ist jedoch vier
                                                 Wochen vorher der zuständigen Landesregierung
                                                 bekanntzugeben.</p>
                                           <p type="legal_section"><pb facs="#facs_51" n="51"
                                                   xml:id="img_0051" break="yes"/><fw type="pageNum"
-                                                  >- 50</fw>Das stattgebende Erkenntnis des
+                                                  >- 50 -</fw>Das stattgebende Erkenntnis des
                                                 Bundesverfassungsgerichtes bewirkt die Kassation des
                                                 bundesgesetzwidrigen Landesgesetzes und verpflichtet
                                                 die zuständige Landesregierung zur Verlautbarung der
@@ -2655,17 +2704,19 @@
                                                   genannten Personen durch ihre Amtstätigkeit auf
                                                   einen vom Bundesrat genehmigten Antrag des
                                                   Bundestages; wegen vorsätzlicher oder
-                                                  grobfahrlässiger Gesetzeserletzung seitens der sub
-                                                  c/ genannten Personen durch ihre Amtstätigkeit auf
-                                                  Antrag des zuständigen Landtages;<pb
-                                                  facs="#facs_52" n="52" xml:id="img_0052"
-                                                  break="yes"/><fw type="pageNum">- 51 - </fw>und
-                                                  über die Verantwortlichkeit des Landeshauptmannes
-                                                  wegen vorsätzlicher und grobfahrlässiger
-                                                  Gesetzesverletzung durch seine Amtstätigkeit oder
-                                                  wegen Nichtbefolgung der Vollzugsanweisungen oder
-                                                  sonstigen Anordnungen der Bundesregierung auf
-                                                  Antrag der letzteren. </item>
+                                                  grobfahrlässiger Gesetzes<choice>
+                                                  <sic/>
+                                                  <corr>v</corr>
+                                                  </choice>erletzung seitens der sub c/ genannten
+                                                  Personen durch ihre Amtstätigkeit auf Antrag des
+                                                  zuständigen Landtages;<pb facs="#facs_52" n="52"
+                                                  xml:id="img_0052" break="yes"/><fw type="pageNum"
+                                                  >- 51 - </fw>und über die Verantwortlichkeit des
+                                                  Landeshauptmannes wegen vorsätzlicher und
+                                                  grobfahrlässiger Gesetzesverletzung durch seine
+                                                  Amtstätigkeit oder wegen Nichtbefolgung der
+                                                  Vollzugsanweisungen oder sonstigen Anordnungen der
+                                                  Bundesregierung auf Antrag der letzteren. </item>
                                                 </list></p>
                                           <p type="legal_section">Das verurteilende Erkenntnis des
                                                 Bundesgerichtes hat auf Verlust des Amtes, eventuell
@@ -2690,9 +2741,12 @@
                                                 Vizepräsidenten, 14 Mitgliedern und 8 Ersatz
                                                 mitgliedern. </p>
                                           <p type="legal_section">Der Präsident, der Vizepräsident,
-                                                7 Mitglieder und 4 Ersatzmitglieder werden vom
-                                                Bundestag, 7 Mitglieder und 4 Ersatzmitglieder vom
-                                                Bundesrat auf Lebensdauer gewählt.</p>
+                                                7 Mitglieder und 4 Ersatz<choice>
+                                                  <del>männer</del>
+                                                  <add>mitgliedern</add>
+                                                </choice> werden vom Bundestag, 7 Mitglieder und 4
+                                                Ersatzmitglieder vom Bundesrat auf Lebensdauer
+                                                gewählt.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
