@@ -155,12 +155,6 @@
                     </div>
                 </li>
             </ul>
-            <h3>
-                <a href="{$target_xml}/{$doc_id}.xml">
-                    <i class="fas fa-download" title="show TEI source"/>
- Download
-                </a>
-            </h3>
         </div>
 
     </xsl:template>
