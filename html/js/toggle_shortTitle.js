@@ -11,10 +11,8 @@ if (shortTitle && documentMetadata) {
             if (!entries[0].isIntersecting) {
                 // if not toggle shortTitle
                 shortTitle.classList.add("display_title");
-                console.log("chiao");
             } else {
                 shortTitle.classList.remove("display_title");
-                console.log("hello");
             }
         },
         options = {
