@@ -19,22 +19,23 @@
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@type = 'main'][1]/text()"/>
     </xsl:variable>
+    <xsl:strip-space elements="choice"/>
     <xsl:template match="/">
         <xsl:variable name="revision_state">
             <xsl:value-of select="//tei:revisionDesc/@status"/>
         </xsl:variable>
         <xsl:variable name="revision_label">
             <xsl:choose>
-                <xsl:when test="$revision_state='created'">
+                <xsl:when test="$revision_state = 'created'">
                     <xsl:value-of select="'maschinell erfasst'"/>
                 </xsl:when>
-                <xsl:when test="$revision_state='structured'">
+                <xsl:when test="$revision_state = 'structured'">
                     <xsl:value-of select="'strukturell erschlossen'"/>
                 </xsl:when>
-                <xsl:when test="$revision_state='text_correct'">
+                <xsl:when test="$revision_state = 'text_correct'">
                     <xsl:value-of select="'Dokument vollständig ediert'"/>
                 </xsl:when>
-                <xsl:when test="$revision_state='done'">
+                <xsl:when test="$revision_state = 'done'">
                     <xsl:value-of select="'Dokument vollständig ediert'"/>
                 </xsl:when>
             </xsl:choose>
@@ -52,18 +53,18 @@
                 </xsl:call-template>
             </head>
             <body class="page" lang="de">
-                <xsl:if test="$revision_state='created' or $revision_state='structured'">
+                <xsl:if test="$revision_state = 'created' or $revision_state = 'structured'">
                     <div id="text_quality_disclaimer" class="offcanvas offcanvas-start show" tabindex="-1" aria-labelledby="tqd_label" data-bs-scroll="false" data-bs-backdrop="false">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasNavigationLabel">Achtung!</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"/>
                         </div>
                         <div class="offcanvas-body">
-                            <p>Die vorliegende Transkription wurde maschinell erstellt, um das Dokument
-                                grundlegend durchsuchbar zu machen. Sie sollte – ob ihres rein
-                                provisorischen Charakters – keinesfalls als Zitationsquelle verwendet
-                                werden. Dieses Dokument wird in nächster Zeit kollationiert, annotiert
-                                und erschlossen werden.</p>
+                            <p>Die vorliegende Transkription wurde maschinell erstellt, um das
+                                Dokument grundlegend durchsuchbar zu machen. Sie sollte – ob ihres
+                                rein provisorischen Charakters – keinesfalls als Zitationsquelle
+                                verwendet werden. Dieses Dokument wird in nächster Zeit
+                                kollationiert, annotiert und erschlossen werden.</p>
                         </div>
                     </div>
                 </xsl:if>
@@ -88,7 +89,7 @@
                         </div>
                         <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>   
+                                <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"/>
                             </div>
                             <div class="offcanvas-body">
@@ -136,13 +137,13 @@
                                     <p class="document_info archival_small">
                                         <xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'
                                         />
-                                    </p>
-                            <div>
-                            <xsl:attribute name="class">
-                                <xsl:value-of select="concat('revision_desc ', $revision_state)"/>
-                            </xsl:attribute>
-                            <xsl:value-of select="$revision_label"/>
-                            </div>
+</p>
+<div>
+<xsl:attribute name="class">
+                                            <xsl:value-of select="concat('revision_desc ', $revision_state)"/>
+                                        </xsl:attribute>
+                                        <xsl:value-of select="$revision_label"/>
+                                    </div>
                                 </div>
                                 <div class="row align-items-start justify-content-start">
                                     <div class="edition_metadata_button" role="button">
@@ -467,44 +468,61 @@
         <!-- deal with text features-->
         <xsl:template match="tei:corr"/>
         <xsl:template match="tei:sic"/>
+        <!-- prevent whitespaces after choice -->
+        <xsl:template match="text()[preceding-sibling::tei:choice[tei:corr]]">
+            <xsl:value-of select="normalize-space()"/>
+        </xsl:template>
         <xsl:template match="tei:choice[tei:corr]">
             <span class="corr sic">
-                <xsl:value-of select="./tei:sic/text()"/>
+                <xsl:value-of select="normalize-space(./tei:sic)"/>
             </span>
             <span class="corr conjectur">
-                <xsl:value-of select="concat('[', ./tei:corr/text(), ']')"/>
+                <xsl:value-of select="concat('[', normalize-space(./tei:corr), ']')"/>
             </span>
-            <xsl:apply-templates/>
+
+            <!-- <xsl:apply-templates/> -->
         </xsl:template>
         <xsl:template match="//tei:choice[not(tei:corr)]">
             <xsl:variable name="element_name">
-                <xsl:value-of select="if (./*[local-name()='p' or local-name()='div' or local-name()='ab']) then 'div' else 'span'"/>
+                <xsl:value-of select="
+                    if (./*[local-name() = 'p' or local-name() = 'div' or local-name() = 'ab']) then
+                        'div'
+                    else
+                        'span'"/>
             </xsl:variable>
             <xsl:element name="{$element_name}">
                 <xsl:attribute name="class">
-                    <xsl:value-of select="'choice text_genetic'" />
+                    <xsl:value-of select="'choice text_genetic'"/>
                 </xsl:attribute>
                 <xsl:apply-templates/>
             </xsl:element>
         </xsl:template>
         <xsl:template match="tei:del">
             <xsl:variable name="element_name">
-                <xsl:value-of select="if (./*[local-name()='p' or local-name()='div' or local-name()='ab']) then 'div' else 'span'"/>
+                <xsl:value-of select="
+                    if (./*[local-name() = 'p' or local-name() = 'div' or local-name() = 'ab']) then
+                        'div'
+                    else
+                        'span'"/>
             </xsl:variable>
             <xsl:element name="{$element_name}">
                 <xsl:attribute name="class">
-                    <xsl:value-of select="'del text_genetic'" />
+                    <xsl:value-of select="'del text_genetic'"/>
                 </xsl:attribute>
                 <xsl:apply-templates/>
             </xsl:element>
         </xsl:template>
         <xsl:template match="tei:add">
             <xsl:variable name="element_name">
-                <xsl:value-of select="if (./*[local-name()='p' or local-name()='div' or local-name()='ab']) then 'div' else 'span'"/>
+                <xsl:value-of select="
+                    if (./*[local-name() = 'p' or local-name() = 'div' or local-name() = 'ab']) then
+                        'div'
+                    else
+                        'span'"/>
             </xsl:variable>
             <xsl:element name="{$element_name}">
                 <xsl:attribute name="class">
-                    <xsl:value-of select="'add text_genetic'" />
+                    <xsl:value-of select="'add text_genetic'"/>
                 </xsl:attribute>
                 <xsl:apply-templates/>
             </xsl:element>
