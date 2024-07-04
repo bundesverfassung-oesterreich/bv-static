@@ -106,6 +106,8 @@
                         numbers</change>
                   <change when="2024-05-28" who="#s_kury">gegenlesen beendet (einige
                         handschriftliche Stellen müssen noch überarbeitet werden)</change>
+                  <change when="2024-07-04" who="#m_huber">kleine formatierunsfehler
+                        behoben</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -764,38 +766,43 @@
                                     </div>
                               </div>
                               <div type="section">
-                                    <head>C. der Weg der Bundesgesetzgebung.</head>
+                                    <head>C. Der Weg der Bundesgesetzgebung.</head>
                                     <note type="comment">Art. 21-28, jetzt: 27-34</note>
                                     <div type="article">
                                           <head>Art. 35. </head>
-                                          <p type="legal_section">Jeder Gesetzesbeschluss sowie jeder andere Beschluss des
-                                                Bundestages, der einer Genehmigung
-                                                durch den Bundesrat bedarf, <fw type="pageNum">37</fw><pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/><fw type="pageNum">- 12 -</fw>ist unverzüglich durch den
-                                                Präsidenten de<choice>
+                                          <p type="legal_section">Jeder Gesetzesbeschluss sowie
+                                                jeder andere Beschluss des Bundestages, der einer
+                                                Genehmigung durch den Bundesrat bedarf, <fw
+                                                  type="pageNum">37</fw><pb facs="#facs_12" n="12"
+                                                  xml:id="img_0012" break="yes"/><fw type="pageNum"
+                                                  >- 12 -</fw>ist unverzüglich durch den Präsidenten de<choice>
                                                   <del>r</del>
                                                   <add>s</add>
                                                 </choice> Bundes<choice>
                                                   <del>versammlung</del>
                                                   <add>tages</add>
-                                                </choice> dem Bundeskanzler zu übermitteln, der ihn sofort dem Bundesrate zur Genehmigung vorzulegen hat. </p>
-                                          <p type="legal_section">Der Bundesrat hat den Beschlüssen des Bundestages bis längstens . .
-                                                . Wochen nach Schluss der Session
-                                                die Genehmigung zu erteilen oder
+                                                </choice> dem Bundeskanzler zu übermitteln, der ihn
+                                                sofort dem Bundesrate zur Genehmigung vorzulegen
+                                                hat. </p>
+                                          <p type="legal_section">Der Bundesrat hat den Beschlüssen
+                                                des Bundestages bis längstens . . . Wochen nach
+                                                Schluss der Session die Genehmigung zu erteilen oder
                                                 mit Angabe von Gründen zu verweigern.</p>
-                                          <p type="legal_section">Der genehmigte Beschluss ist im Wege des Bundeskanzlers dem
-                                                Bundespräsidenten zur Beurkundung
-                                                zu übermitteln. </p>
-                                          <p type="legal_section">Die begründete Verweigerung der Genehmigung ist in schriftlicher
-                                                Ausfertigung dem Bundestag
-                                                bekanntzugeben. </p>
+                                          <p type="legal_section">Der genehmigte Beschluss ist im
+                                                Wege des Bundeskanzlers dem Bundespräsidenten zur
+                                                Beurkundung zu übermitteln. </p>
+                                          <p type="legal_section">Die begründete Verweigerung der
+                                                Genehmigung ist in schriftlicher Ausfertigung dem
+                                                Bundestag bekanntzugeben. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 36 . </head>
                                           <p type="legal_section"><list>
                                                   <label><add>(1)</add></label>
                                                   <item>Hat der Bundesrat einem Beschluss des
-                                                  Bundestages die Genehmigung verweigert und beharrt der Bundestag auf seinem
-                                                  ursprünglichen Beschluss, so <choice>
+                                                  Bundestages die Genehmigung verweigert und beharrt
+                                                  der Bundestag auf seinem ursprünglichen Beschluss,
+                                                  so <choice>
                                                   <del>ist dieser Beschluss</del>
                                                   <add>hat, falls es sich um einen Gesetzesbeschluss
                                                   einschließlich der in 14 Abs 2 und Art 15
@@ -817,10 +824,9 @@
                                                   <add>r</add>
                                                   </choice> Art. . . . . Anwendung.</item>
                                                   <label><add>(3)</add></label>
-                                                  <item>Nimmt das Bundesvolk den Bechluss des Bundestages an, so ist dieser
-                                                  ohne Genehmigung des Bundesrates
-                                                  zu beurkunden. in Abt. d.
-                                                  erwähnte. </item>
+                                                  <item>Nimmt das Bundesvolk den Bechluss des
+                                                  Bundestages an, so ist dieser ohne Genehmigung des
+                                                  Bundesrates zu beurkunden. in Abt. d. erwähnte. </item>
                                                   <label><add>(4)</add></label>
                                                   <item> Ohne Genehmigung des Bundesrates ist <choice>
                                                   <del>ein</del>
@@ -845,35 +851,39 @@
                                           <pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/>
                                           <fw type="pageNum">- 13 - </fw>
                                           <head>Art. 37. </head>
-                                          <p type="legal_section">Das verfassungsmässige Zustandekommen der Bundesgesetze wird
-                                                durch die Unterschrift des
-                                                Bundespräsidenten beurkundet. </p>
-                                          <p type="legal_section">Diese Beurkundung ist vom Bundeskanzler und den ressortmässig
-                                                zuständigen Staatssekretären zu
-                                                gegenzeichnen. </p>
+                                          <p type="legal_section">Das verfassungsmässige
+                                                Zustandekommen der Bundesgesetze wird durch die
+                                                Unterschrift des Bundespräsidenten beurkundet. </p>
+                                          <p type="legal_section">Diese Beurkundung ist vom
+                                                Bundeskanzler und den ressortmässig zuständigen
+                                                Staatssekretären zu gegenzeichnen. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 38. </head>
                                           <p type="legal_section">Die Kundmachung der Bundesgesetze
-                                                erfolgt mit Berufung auf den Beschluss des Bundestages und die Genehmigung des
-                                                Bundesrates, im Falle einer
-                                                Volksabstimmung aber lediglich mit
+                                                erfolgt mit Berufung auf den Beschluss des
+                                                Bundestages und die Genehmigung des Bundesrates, im
+                                                Falle einer Volksabstimmung aber lediglich mit
                                                 Berufung auf deren Ergebnis, <note type="comment">im
-                                                  Falle der Art 36., Abs. 4, lediglich mit Berufung auf den Beschluß des Bundestages und unter ausdrücklicher Anführung dieser
-                                                  Gesetzesbestimmung,</note>im
-                                                Bundesgesetzblatt durch den Bundeskanzler. </p>
+                                                  Falle der Art 36., Abs. 4, lediglich mit Berufung
+                                                  auf den Beschluß des Bundestages und unter
+                                                  ausdrücklicher Anführung dieser
+                                                  Gesetzesbestimmung,</note>im Bundesgesetzblatt
+                                                durch den Bundeskanzler. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 39. </head>
-                                          <p type="legal_section">Die verbindende Kraft der im Bundesgesetzblatt kundgemachten
-                                                Bundesgesetze beginnt, wenn in
-                                                denselben selbst nicht ausdrücklicherweise andere Bestimmung getroffen wird, mit dem Anfang des 45.
-                                                Tages nach Ablauf des Tages, an
-                                                welchem das Stück des
-                                                Bundesgesetzblattes, das die Kundmachung enthält, herausgegeben und versendet wird. </p>
+                                          <p type="legal_section">Die verbindende Kraft der im
+                                                Bundesgesetzblatt kundgemachten Bundesgesetze
+                                                beginnt, wenn in denselben selbst nicht
+                                                ausdrücklicherweise andere Bestimmung getroffen
+                                                wird, mit dem Anfang des 45. Tages nach Ablauf des
+                                                Tages, an welchem das Stück des Bundesgesetzblattes,
+                                                das die Kundmachung enthält, herausgegeben und
+                                                versendet wird. </p>
                                           <p type="legal_section">Ueber das Bundesgesetzblatt
-                                                  <add>ergeht</add> ein besonderes
-                                                Bundesgesetz. </p>
+                                                  <add>ergeht</add> ein besonderes Bundesgesetz.
+                                          </p>
                                     </div>
                               </div>
                               <div type="section">

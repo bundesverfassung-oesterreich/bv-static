@@ -284,10 +284,10 @@
                                     <p type="legal_section">Die Glaubens- und Gewissensfreiheit ist
                                           unverletzlich. Niemand darf zur Teilnahme
                                           an einer Religionsgesellschaft oder an einem <fw type="pageNum">25</fw></p>
-                                    <p type="legal_section"><pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/><fw type="pageNum">-
-                                                4</fw>religiösen Unterrichte oder zur Vornahme
-                                          einer religiösen Handlung gezwungen
-                                          werden. </p>
+                                    <p type="legal_section"><pb facs="#facs_5" n="5"
+                                                xml:id="img_0005" break="yes"/><fw type="pageNum">-
+                                                4 -</fw>religiösen Unterrichte oder zur Vornahme
+                                          einer religiösen Handlung gezwungen werden. </p>
                                     <p type="legal_section">Ueber die religiöse Erziehung der Kinder
                                           verfügt bis zum vollendeten 16.
                                           Lebensjahre der Inhaber der väterlichen oder vormundschaftlichen Gewalt. </p>
@@ -396,16 +396,19 @@
                                                   eigenes Bundesgesetz bestimmt.  </item>
                                                 <label>5.)</label>
                                                 <item>Die Zivil- und Strafgesetzgebung mit Einschluß
-                                                  des Handels-, Wechsel-, Berg- und
-                                                  Lehenrechtes, dann des Zivil- und Strafprozeßrechtes und des Polizeirechtes, jedoch
-                                                  mit Ausnahme der Gesetzgebung über die öffentlichen Bücher und über die Bildung
-                                                  der Gerichts- und Verwaltungsbezirke innerhalb des Gebietes der
-                                                  einzelnen Glieder des Bundes. Die
-                                                  Gesetzgebung über die Erlangung öffentlicher Aemter steht dem Bunde nur insoweit
-                                                  zu, als es sich um Aemter
-                                                  handelt, deren Amtsbezirk über die Grenzen eines Bundesgliedes hinausreicht. Mit
-                                                  der gleichen Beschränkung steht
-                                                  der Bundesgewalt das Recht der Ernennung der Richter und Verwaltungsbeamten zu.  </item>
+                                                  des Handels-, Wechsel-, Berg- und Lehenrechtes,
+                                                  dann des Zivil- und Strafprozeßrechtes <add>und
+                                                  des Polizeistrafrechtes, </add>jedoch mit Ausnahme
+                                                  der Gesetzgebung über die öffentlichen Bücher und
+                                                  über die Bildung der Gerichts- und
+                                                  Verwaltungsbezirke innerhalb des Gebietes der
+                                                  einzelnen Glieder des Bundes. Die Gesetzgebung
+                                                  über die Erlangung öffentlicher Aemter steht dem
+                                                  Bunde nur insoweit zu, als es sich um Aemter
+                                                  handelt, deren Amtsbezirk über die Grenzen eines
+                                                  Bundesgliedes hinausreicht. Mit der gleichen
+                                                  Beschränkung steht der Bundesgewalt das Recht der
+                                                  Ernennung der Richter und Verwaltungsbeamten zu. </item>
                                                 <label>6.)</label>
                                                 <item>Das Post-, Telegraphen-, Telephon-,
                                                   Eisenbahn-, Schiffahrts- und
@@ -638,21 +641,23 @@
                                           öffentlich. Artikelfehler </p>
                               </div>
                               <div type="article">
-                                    <head>Art. XXVIII.</head>
+                                    <head>Art.
+                                          <?oxy_comment_start author="kury.s" timestamp="20240701T154947+0200" comment="Ab hier Zählfehler - wie damit umgehen? (1) sic; (2) Editorennotiz als EdFN wie in Ermacora IV, S. 517"?>XXVIII<?oxy_comment_end?>.</head>
                                     <p type="legal_section">Die oberste vollziehende und leitende
-                                          Verwaltungsbehörde des Bundesstaates ist
-                                          der Bundesrat, der aus Mitgliedern besteht. Die Mitglieder werden von der Bundesversammlung
-                                          aus allen in die Bundesversammlung
-                                          wählbaren Bürgern, auf die Dauer von 3 Jahren ernannt. Nach jeder Gesamterneuerung der
-                                          Bundesversammlung wird auch der Bundesrat
-                                          erneuert; die in der Zwischenzeit frei gewordenen Stellen werden bei der nächstfolgenden Tagung
-                                          der Bundesversammlung für den Rest der
-                                          Amtsdauer wieder besetzt. </p>
+                                          Verwaltungsbehörde des Bundesstaates ist der Bundesrat,
+                                          der aus Mitgliedern besteht. Die Mitglieder werden von der
+                                          Bundesversammlung aus allen in die Bundesversammlung
+                                          wählbaren Bürgern, auf die Dauer von 3 Jahren ernannt.
+                                          Nach jeder Gesamterneuerung der Bundesversammlung wird
+                                          auch der Bundesrat erneuert; die in der Zwischenzeit frei
+                                          gewordenen Stellen werden bei der nächstfolgenden Tagung
+                                          der Bundesversammlung für den Rest der Amtsdauer wieder
+                                          besetzt. </p>
                                     <p type="legal_section">Die Mitglieder des Bundesrates dürfen
-                                          keine andere dienstliche Stellung, sei es
-                                          im Dienste des Bundesstaates, sein es im Dienste eines der Bundesglieder bekleiden, noch irgend
-                                          einen anderen Beruf oder ein Gewerbe
-                                          ausüben.</p>
+                                          keine andere dienstliche Stellung, sei es im Dienste des
+                                          Bundesstaates, sein es im Dienste eines der Bundesglieder
+                                          bekleiden, noch irgend einen anderen Beruf oder ein
+                                          Gewerbe ausüben.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XXIX. </head>

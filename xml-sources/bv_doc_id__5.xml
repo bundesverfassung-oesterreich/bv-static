@@ -104,6 +104,8 @@
                         generated</change>
                   <change when="2024-05-17" who="#m_huber">formatting completed</change>
                   <change when="2024-06-11" who="#s_kury">gegenlesen beendet</change>
+                  <change when="2024-07-04" who="#m_huber">kleine formatierungsfehler
+                        behoben</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -949,167 +951,203 @@
                         </div>
                         <div type="section">
                               <head>III. Abschnitt. </head>
-                              <head>A) Die Gesetzgebung des Bundes. </head>
-                              <div type="article">
-                                    <head>Art. 56. </head>
-                                    <p type="legal_section">Gesetzesvorschläge gelangen an den Bundestag entweder als Anträge seiner
-                                          Mitglieder oder als Vorlage der
-                                          Bundesregierung. </p>
-                                    <p type="legal_section">Die Vorlagen der Bundesregierung bedürfen der Zustimmung des Bundesrates. </p>
-                                    <p type="legal_section">Kommt eine Uebereinstimmung zwischen der
-                                          Bundesregierung und dem Bundesrate nicht
-                                          zusammen, so kann die Bundesregierung die
-                                          Vorlage dennoch einbringen, hat aber
-                                          hiebei die abweichende Auffassung des Bundesrates darzulegen. </p>
-                                    <p type="legal_section">Auch der Bundesrat kann im Wege der Bundesregierung Gesetzesanträge im
-                                          Bundestage stellen. Stimmt die
-                                          Bundesregierung einem solchen Antrage
-                                          nicht zu, so hat sie ihren abweichenden
-                                          Standpunkt bei Einbringung der Vorlage
-                                          darzulegen.</p>
-                              </div>
-                              <div type="article">
-                                    <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
-                                    <fw type="pageNum">- 19 - </fw>
-                                    <head>Art. 57. </head>
-                                    <p type="legal_section">Zu einem Beschluß des Bundestages ist die Anwesenheit von mindestens. . .
-                                          . Mitgliedern und die absolute Mehrheit der abgegebenen Stimmen
-                                          erforderlich. </p>
-                                    <p type="legal_section">Eine Abänderung der Bundesverfassung kann jedoch nur bei Anwesenheit von mindestens 2/3 aller Mitglieder und
-                                          mit einer Mehrheit von 3/4 aller
-                                          abgegebenen Stimmen beschlossen
-                                          werden.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 58. </head>
-                                    <p type="legal_section">Jede Gesamtänderung der Bundesverfassung, eine teilweise Aenderung aber
-                                          nur, wenn es von . . . . Mitgliedern des
-                                          Bundestages oder . . . . Stimmen des Bundesrates verlangt wird, ist nach erfolgter Beschlußfassung durch den Bundestag jedoch vor der Beurkundung durch den Bundespräsidenten einer Abstimmung des gesamten Bundesvolkes zu unterziehen. </p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 59. </head>
-                                    <p type="legal_section">Einer solchen Volksabstimmung ist ferner
-                                          jedes Bundesgesetz unterworfen hinsichtlich dessen dies
-                                          von wenigstens 400.000 Stimmberechtigten oder von der
-                                          Mehrheit der Stimmberechtigten dreier Länder innerhalb 6
-                                          Wochen nach erfolgter Kundmachung des Gesetzes gefordert
-                                          wird. </p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 60. </head>
-                                    <p type="legal_section">Stimmberechtigt ist jeder zum Bundestag
-                                          wahlberechtigter Bundesbürger. Das<pb facs="#facs_21"
-                                                n="21" xml:id="img_0021" break="yes"/><fw
-                                                type="pageNum">- 20 -</fw>Bundesvolk hat die vom
-                                          Bundestag beschlossene Verfassungsänderung angenommen und
-                                          es hat das bereits kundgemachte Bundesgesetz abgelehnt,
-                                          wenn die (relative) Mehrheit der abgegebenen Stimmen sich
-                                          für die Verfassungsänderung oder gegen das Bundesgesetz
-                                          ausgesprochen hat.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 61. </head>
-                                    <p type="legal_section">Das Ergebnis der Volksabstimmung ist amtlich zu verlautbaren. Im Falle ein Bundesgesetz durch Volksabstimmung abgelehnt wurde, ist seine Ausserkraftsetzung im Bundesgesetzblatt kundzumachen. </p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 62. </head>
-                                    <p type="legal_section">Ist eine Gesamtänderung der Bundesverfassung durch Volksabstimmung abgelehnt worden, hat der Bundespräsident den Bundestag aufzulösen und gemäß Art. . . . . . der Bundesverfassung Neuwahlen auszuschreiben.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 63. </head>
-                                    <p type="legal_section">Das Verfahren für die Volksabstimmung sowie für die im Art. . . . vorgeschriebene Initiative ist in dem Gesetz für die Wahlordnung für die Wahl zum Bundestag geregelt. </p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 64. </head>
-                                    <p type="legal_section">Gegen Gesetzesbeschlüsse des Bundestages kann der Bundesrat Einspruch
-                                          erheben. </p>
-                                    <p type="legal_section">Der Einspruch muß innerhalb zweier Wochen nach der Schlußabstimmung im Bundestage bei der Bundesregierung
-                                                einge-<pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/><fw type="pageNum">- 21 -</fw>bracht,
-                                          und spätestens in zwei weiteren Wochen
-                                          mit Gründen versehen werden. </p>
-                                    <p type="legal_section">Im Falle des Einspruchs wird das Gesetz dem Bundestage zur nochmaligen Beschlußfassung vorgelegt, kommt
-                                          jedoch keine Uebereinstimmung zwischen
-                                          Bundestag und Bundesrat zustande, so ist
-                                          der Gesetzesbeschluß einer
-                                          Volksabstimmung zu unterzeichnen. Auf
-                                          diese Volksabstimmung finden die
-                                          Vorschriften der Art. . . . Anwendung.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 65. </head>
-                                    <p type="legal_section">Der Bundespräsident hat die verfassungsmäßig zustandegekommenen Gesetzesbeschlüsse des Bundestages durch
-                                          seine Unterschrift zu beurkunden und ihre
-                                          Kundmachung im Bundesgesetzblatte durch
-                                          den Bundeskanzler binnen Monatsfrist zu
-                                          veranlassen. </p>
-                                    <p type="legal_section">Die Kundmachung der Bundesgesetze erfolgt mit Berufung auf den Beschluß des Bundestages oder das Ergebnis der
-                                          Volksabstimmung. </p>
-                                    <p type="legal_section">Bundesgesetze treten, soweit sieselbst
-                                          nichts anderes bestimmen, mit dem 45.
-                                          Tage nach Ablauf des Tages in Kraft, an
-                                          dem das Bundesgesetzblatt in der Bundeshauptstadt ausgegeben worden ist. </p>
-                                    <p type="legal_section">Ueber das Bundesgesetzblatt ergeht ein besonderes Bundesgesetz.</p>
-                              </div>
-                              <div type="article">
-                                    <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
-                                    <fw type="pageNum">- 22 - </fw>
-                                    <head>Art. 66. </head>
-                                    <p type="legal_section">Der Bundestag ist befugt, die Geschäftsführung der Bundesregierung zu
-                                          überprüfen, deren Mitglieder über alle
-                                          Gegenstände der Vollziehung zu befragen
-                                          und alle einschlägigen Auskünfte zu
-                                          verlangen sowie ihren Wünschen über die
-                                          Ausübung der Regierungs- und
-                                          Vollzugsgewalt in Entschliessungen
-                                          Ausdruck zu geben.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 67. </head>
-                                    <p type="legal_section">Auf Antrag von mindestens . . . Mitgliedern hat der Bundestag Untersuchungsausschüsse einzusetzen. </p>
-                                    <p type="legal_section">Alle Gerichte und Behörden sind verpflichtet, dem Ersuchen dieser Ausschüsse um Beweiserhebungen Folge zu
-                                          leisten; alle Aemter haben auf Verlangen
-                                          ihre Akten vorzulegen. Die Vorschläge der
-                                          Strafprozessordnung finden auf die Erhebungen der Untersuchungsausschüsse sinngemässe Anwendung. </p>
-                                    <p type="legal_section">Das Verfahren der Untersuchungsausschüsse wird durch Geschäftsordnungsgesetz geregelt. </p>
+                              <div type="section">
+                                    <head>A) Die Gesetzgebung des Bundes. </head>
+                                    <div type="article">
+                                          <head>Art. 56. </head>
+                                          <p type="legal_section">Gesetzesvorschläge gelangen an den
+                                                Bundestag entweder als Anträge seiner Mitglieder
+                                                oder als Vorlage der Bundesregierung. </p>
+                                          <p type="legal_section">Die Vorlagen der Bundesregierung
+                                                bedürfen der Zustimmung des Bundesrates. </p>
+                                          <p type="legal_section">Kommt eine Uebereinstimmung
+                                                zwischen der Bundesregierung und dem Bundesrate
+                                                nicht zusammen, so kann die Bundesregierung die
+                                                Vorlage dennoch einbringen, hat aber hiebei die
+                                                abweichende Auffassung des Bundesrates darzulegen. </p>
+                                          <p type="legal_section">Auch der Bundesrat kann im Wege
+                                                der Bundesregierung Gesetzesanträge im Bundestage
+                                                stellen. Stimmt die Bundesregierung einem solchen
+                                                Antrage nicht zu, so hat sie ihren abweichenden
+                                                Standpunkt bei Einbringung der Vorlage
+                                                darzulegen.</p>
+                                    </div>
+                                    <div type="article">
+                                          <pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/>
+                                          <fw type="pageNum">- 19 - </fw>
+                                          <head>Art. 57. </head>
+                                          <p type="legal_section">Zu einem Beschluß des Bundestages
+                                                ist die Anwesenheit von mindestens. . . .
+                                                Mitgliedern und die absolute Mehrheit der
+                                                abgegebenen Stimmen erforderlich. </p>
+                                          <p type="legal_section">Eine Abänderung der
+                                                Bundesverfassung kann jedoch nur bei Anwesenheit von
+                                                mindestens 2/3 aller Mitglieder und mit einer
+                                                Mehrheit von 3/4 aller abgegebenen Stimmen
+                                                beschlossen werden.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 58. </head>
+                                          <p type="legal_section">Jede Gesamtänderung der
+                                                Bundesverfassung, eine teilweise Aenderung aber nur,
+                                                wenn es von . . . . Mitgliedern des Bundestages oder
+                                                . . . . Stimmen des Bundesrates verlangt wird, ist
+                                                nach erfolgter Beschlußfassung durch den Bundestag
+                                                jedoch vor der Beurkundung durch den
+                                                Bundespräsidenten einer Abstimmung des gesamten
+                                                Bundesvolkes zu unterziehen. </p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 59. </head>
+                                          <p type="legal_section">Einer solchen Volksabstimmung ist
+                                                ferner jedes Bundesgesetz unterworfen hinsichtlich
+                                                dessen dies von wenigstens 400.000 Stimmberechtigten
+                                                oder von der Mehrheit der Stimmberechtigten dreier
+                                                Länder innerhalb 6 Wochen nach erfolgter Kundmachung
+                                                des Gesetzes gefordert wird. </p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 60. </head>
+                                          <p type="legal_section">Stimmberechtigt ist jeder zum
+                                                Bundestag wahlberechtigter Bundesbürger. Das<pb
+                                                  facs="#facs_21" n="21" xml:id="img_0021"
+                                                  break="yes"/><fw type="pageNum">- 20
+                                                -</fw>Bundesvolk hat die vom Bundestag beschlossene
+                                                Verfassungsänderung angenommen und es hat das
+                                                bereits kundgemachte Bundesgesetz abgelehnt, wenn
+                                                die (relative) Mehrheit der abgegebenen Stimmen sich
+                                                für die Verfassungsänderung oder gegen das
+                                                Bundesgesetz ausgesprochen hat.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 61. </head>
+                                          <p type="legal_section">Das Ergebnis der Volksabstimmung
+                                                ist amtlich zu verlautbaren. Im Falle ein
+                                                Bundesgesetz durch Volksabstimmung abgelehnt wurde,
+                                                ist seine Ausserkraftsetzung im Bundesgesetzblatt
+                                                kundzumachen. </p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 62. </head>
+                                          <p type="legal_section">Ist eine Gesamtänderung der
+                                                Bundesverfassung durch Volksabstimmung abgelehnt
+                                                worden, hat der Bundespräsident den Bundestag
+                                                aufzulösen und gemäß Art. . . . . . der
+                                                Bundesverfassung Neuwahlen auszuschreiben.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 63. </head>
+                                          <p type="legal_section">Das Verfahren für die
+                                                Volksabstimmung sowie für die im Art. . . .
+                                                vorgeschriebene Initiative ist in dem Gesetz für die
+                                                Wahlordnung für die Wahl zum Bundestag geregelt.
+                                          </p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 64. </head>
+                                          <p type="legal_section">Gegen Gesetzesbeschlüsse des
+                                                Bundestages kann der Bundesrat Einspruch erheben. </p>
+                                          <p type="legal_section">Der Einspruch muß innerhalb zweier
+                                                Wochen nach der Schlußabstimmung im Bundestage bei
+                                                der Bundesregierung einge-<pb facs="#facs_22" n="22"
+                                                  xml:id="img_0022" break="yes"/><fw type="pageNum"
+                                                  >- 21 -</fw>bracht, und spätestens in zwei
+                                                weiteren Wochen mit Gründen versehen werden. </p>
+                                          <p type="legal_section">Im Falle des Einspruchs wird das
+                                                Gesetz dem Bundestage zur nochmaligen
+                                                Beschlußfassung vorgelegt, kommt jedoch keine
+                                                Uebereinstimmung zwischen Bundestag und Bundesrat
+                                                zustande, so ist der Gesetzesbeschluß einer
+                                                Volksabstimmung zu unterzeichnen. Auf diese
+                                                Volksabstimmung finden die Vorschriften der Art. . .
+                                                . Anwendung.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 65. </head>
+                                          <p type="legal_section">Der Bundespräsident hat die
+                                                verfassungsmäßig zustandegekommenen
+                                                Gesetzesbeschlüsse des Bundestages durch seine
+                                                Unterschrift zu beurkunden und ihre Kundmachung im
+                                                Bundesgesetzblatte durch den Bundeskanzler binnen
+                                                Monatsfrist zu veranlassen. </p>
+                                          <p type="legal_section">Die Kundmachung der Bundesgesetze
+                                                erfolgt mit Berufung auf den Beschluß des
+                                                Bundestages oder das Ergebnis der Volksabstimmung. </p>
+                                          <p type="legal_section">Bundesgesetze treten, soweit
+                                                sieselbst nichts anderes bestimmen, mit dem 45. Tage
+                                                nach Ablauf des Tages in Kraft, an dem das
+                                                Bundesgesetzblatt in der Bundeshauptstadt ausgegeben
+                                                worden ist. </p>
+                                          <p type="legal_section">Ueber das Bundesgesetzblatt ergeht
+                                                ein besonderes Bundesgesetz.</p>
+                                    </div>
+                                    <div type="article">
+                                          <pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/>
+                                          <fw type="pageNum">- 22 - </fw>
+                                          <head>Art. 66. </head>
+                                          <p type="legal_section">Der Bundestag ist befugt, die
+                                                Geschäftsführung der Bundesregierung zu überprüfen,
+                                                deren Mitglieder über alle Gegenstände der
+                                                Vollziehung zu befragen und alle einschlägigen
+                                                Auskünfte zu verlangen sowie ihren Wünschen über die
+                                                Ausübung der Regierungs- und Vollzugsgewalt in
+                                                Entschliessungen Ausdruck zu geben.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 67. </head>
+                                          <p type="legal_section">Auf Antrag von mindestens . . .
+                                                Mitgliedern hat der Bundestag
+                                                Untersuchungsausschüsse einzusetzen. </p>
+                                          <p type="legal_section">Alle Gerichte und Behörden sind
+                                                verpflichtet, dem Ersuchen dieser Ausschüsse um
+                                                Beweiserhebungen Folge zu leisten; alle Aemter haben
+                                                auf Verlangen ihre Akten vorzulegen. Die Vorschläge
+                                                der Strafprozessordnung finden auf die Erhebungen
+                                                der Untersuchungsausschüsse sinngemässe Anwendung. </p>
+                                          <p type="legal_section">Das Verfahren der
+                                                Untersuchungsausschüsse wird durch
+                                                Geschäftsordnungsgesetz geregelt. </p>
+                                    </div>
                               </div>
                               <div type="section">
                                     <head>B) Die Verwaltung des Bundes.</head>
                                     <div type="article">
                                           <head>Art. 68. </head>
-                                          <p type="legal_section">Pflege der Beziehungen zu den auswärtigen Staaten ist
-                                                ausschließlich Sache des Bundes. </p>
+                                          <p type="legal_section">Pflege der Beziehungen zu den
+                                                auswärtigen Staaten ist ausschließlich Sache des
+                                                Bundes. </p>
                                           <p type="legal_section">Den Ländern ist es untersagt, mit
-                                                  aus-<pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/><fw type="pageNum"> 23 </fw>wärtigen Staaten in Verhandlung zu
-                                                treten oder Staatsverträge
-                                                abzuschliessen, Vereinbarungen über
-                                                Gegenstände ihres selbstständigen
-                                                Wirkungskreises können mehrere Landesregierungen untereinander nur durch Vermittlung der Bundesregierung
-                                                eingehen.</p>
+                                                  aus-<pb facs="#facs_24" n="24" xml:id="img_0024"
+                                                  break="yes"/><fw type="pageNum"> 23 </fw>wärtigen
+                                                Staaten in Verhandlung zu treten oder Staatsverträge
+                                                abzuschliessen, Vereinbarungen über Gegenstände
+                                                ihres selbstständigen Wirkungskreises können mehrere
+                                                Landesregierungen untereinander nur durch
+                                                Vermittlung der Bundesregierung eingehen.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 69. </head>
                                           <p type="legal_section">Das Bundesheer ist bestimmt, die
-                                                Republik gegen äussere Angriffe zu
-                                                verteidigen und, soweit es die
-                                                gesetzmässige bürgerliche Gewalt
-                                                für nötig findet, zum Schutze der
-                                                Grundgesetze der Republik sowie an der Aufrechterhaltung der Ordnung und Sicherheit mitzuwirken. </p>
+                                                Republik gegen äussere Angriffe zu verteidigen und,
+                                                soweit es die gesetzmässige bürgerliche Gewalt für
+                                                nötig findet, zum Schutze der Grundgesetze der
+                                                Republik sowie an der Aufrechterhaltung der Ordnung
+                                                und Sicherheit mitzuwirken. </p>
                                           <p type="legal_section">Das Bundesheer kann auch zum
-                                                Schutze gegen Naturgewalten
-                                                verwendet werden, die das Leben
-                                                oder das Eigentum der Bürger bedrohen.</p>
+                                                Schutze gegen Naturgewalten verwendet werden, die
+                                                das Leben oder das Eigentum der Bürger bedrohen.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 70. </head>
-                                          <p type="legal_section">Das gesamte Heereswesen ist Bundessache und wird durch eigene
-                                                Bundesorgane besorgt; ausgenommen sind die
-                                                Angelegenheiten der Einquartierung des
-                                                Vorspannes. </p>
+                                          <p type="legal_section">Das gesamte Heereswesen ist
+                                                Bundessache und wird durch eigene Bundesorgane
+                                                besorgt; ausgenommen sind die Angelegenheiten der
+                                                Einquartierung des Vorspannes. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 71. </head>
-                                          <p type="legal_section">Das Bundesmilitärgesetz gilt einheitlich für die ganze Republik.
-                                          </p>
+                                          <p type="legal_section">Das Bundesmilitärgesetz gilt
+                                                einheitlich für die ganze Republik. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 72. </head>
@@ -1123,78 +1161,76 @@
                                           <fw type="pageNum">- 24 - </fw>
                                           <head>Art. 73. </head>
                                           <p type="legal_section">Die Republik bildet ein
-                                                einheitliches Zoll- und Handelsgebiet, umgeben
-                                                von einer gemeinschaftlichen Zollgrenze.
-                                                Innerhalb des Bundesgebietes dürfen keine
-                                                Zwischenzollinien errichtet werden.</p>
+                                                einheitliches Zoll- und Handelsgebiet, umgeben von
+                                                einer gemeinschaftlichen Zollgrenze. Innerhalb des
+                                                Bundesgebietes dürfen keine Zwischenzollinien
+                                                errichtet werden.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 74. </head>
                                           <p type="legal_section">Die Zoll- und die . . . . .
-                                                Abgaben werden durch Bundesbehörden verwaltet.
-                                          </p>
+                                                Abgaben werden durch Bundesbehörden verwaltet. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 75. </head>
                                           <p type="legal_section">Alle Einnahmen und Ausgaben des
-                                                Bundes müssen für jedes
-                                                Rechnungsjahr veranschlagt und in
-                                                den Haushaltsplan eingestellt
-                                                werden. </p>
+                                                Bundes müssen für jedes Rechnungsjahr veranschlagt
+                                                und in den Haushaltsplan eingestellt werden. </p>
                                           <p type="legal_section">Der Haushaltsplan wird vor Beginn
-                                                des Rechnungsjahres durch ein Bundesgesetz festgestellt. </p>
+                                                des Rechnungsjahres durch ein Bundesgesetz
+                                                festgestellt. </p>
                                           <p type="legal_section">Die Ausgaben werden in der Regel
-                                                für ein Jahr bewilligt; sie können
-                                                in besonderen Fällen auch für eine
-                                                längere Dauer bewilligt werden. Im
-                                                übrigen sind Vorschriften im
-                                                Bundeshaushaltsgesetz unzulässig,
-                                                die über das Rechnungsjahr hinaus reichen oder sich auf die Einnahmen und Ausgaben
-                                                des Bundes oder ihre Verwaltung beziehen. </p>
+                                                für ein Jahr bewilligt; sie können in besonderen
+                                                Fällen auch für eine längere Dauer bewilligt werden.
+                                                Im übrigen sind Vorschriften im
+                                                Bundeshaushaltsgesetz unzulässig, die über das
+                                                Rechnungsjahr hinaus reichen oder sich auf die
+                                                Einnahmen und Ausgaben des Bundes oder ihre
+                                                Verwaltung beziehen. </p>
                                           <p type="legal_section">Der Bundestag kann im Entwurf des
                                                 Haushaltsplans ohne Zustimmung des Bundesrates
                                                 Ausgaben nicht erhöhen oder neue einsetzen. </p>
-                                          <p type="legal_section">Verweigert der Bundesrat seine Zustimmung, so finden die
-                                                Bestimmungen des Art. . . . . . . .
-                                                . Anwendung,</p>
+                                          <p type="legal_section">Verweigert der Bundesrat seine
+                                                Zustimmung, so finden die Bestimmungen des Art. . .
+                                                . . . . . . Anwendung,</p>
                                     </div>
                                     <div type="article">
                                           <pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/>
                                           <fw type="pageNum">- 25 - </fw>
                                           <head>Art. 76. </head>
-                                          <p type="legal_section">Ueber die Verwendung aller Bundeseinnahmen legt der Staatssekretär
-                                                für Finanzen mit dem folgenden
-                                                Rechnungsjahr zur Entlastung der
-                                                Bundesregierung dem Bundesrat und
-                                                dem Bundestag Rechnung vor. </p>
+                                          <p type="legal_section">Ueber die Verwendung aller
+                                                Bundeseinnahmen legt der Staatssekretär für Finanzen
+                                                mit dem folgenden Rechnungsjahr zur Entlastung der
+                                                Bundesregierung dem Bundesrat und dem Bundestag
+                                                Rechnung vor. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 77. </head>
                                           <p type="legal_section">Im Wege des Kredites dürfen
-                                                Geldmittel nur bei
-                                                außerordentlichem Bedarf und in der
-                                                Regel nur für Ausgaben zu werbenden
-                                                Zwecken beschafft werden. Eine solche Beschaffung
-                                                sowie die Uebernahme einer Sicherungsleistung zu
-                                                Lasten des Bundes dürfen nur auf
-                                                Grund eines Bundesgesetzes erfolgen. </p>
+                                                Geldmittel nur bei außerordentlichem Bedarf und in
+                                                der Regel nur für Ausgaben zu werbenden Zwecken
+                                                beschafft werden. Eine solche Beschaffung sowie die
+                                                Uebernahme einer Sicherungsleistung zu Lasten des
+                                                Bundes dürfen nur auf Grund eines Bundesgesetzes
+                                                erfolgen. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 78. </head>
-                                          <p type="legal_section">Die Verwaltung des Post- und Telegrafenwesens samt des
-                                                Fernsprechwesens erfolgt durch eigene Bundesorgane.
-                                          </p>
+                                          <p type="legal_section">Die Verwaltung des Post- und
+                                                Telegrafenwesens samt des Fernsprechwesens erfolgt
+                                                durch eigene Bundesorgane. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 79. </head>
                                           <p type="legal_section">Eisenbahnenverwaltung (im
-                                                Einvernehmen mit dem Staatsamt für
-                                                Verkehrswesen). </p>
+                                                Einvernehmen mit dem Staatsamt für Verkehrswesen).
+                                          </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 80.</head>
                                           <p type="legal_section">Wasserstrassenverwaltung (im
-                                                Einvernehmen mit dem Staatsamt für Verkehrswesen). </p>
+                                                Einvernehmen mit dem Staatsamt für Verkehrswesen).
+                                          </p>
                                     </div>
                               </div>
                               <div type="section">
@@ -1203,15 +1239,17 @@
                                           <head>Art. 81. </head>
                                           <p type="legal_section">Alle Gerichtsbarkeit geht vom
                                                 Bunde aus.</p>
-                                          <p type="legal_section"><pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/><fw type="pageNum">- 26 </fw>Die Urteile und
-                                                Erkenntnisse werden im Namen der
-                                                Republik Oesterreich ausgefertigt. </p>
+                                          <p type="legal_section"><pb facs="#facs_27" n="27"
+                                                  xml:id="img_0027" break="yes"/><fw type="pageNum"
+                                                  >- 26 </fw>Die Urteile und Erkenntnisse werden im
+                                                Namen der Republik Oesterreich ausgefertigt. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 82. </head>
-                                          <p type="legal_section">Die Verfassung und Zuständigkeit der Gerichte wird durch
-                                                Bundesgesetz festgestellt. </p>
-                                          <p type="legal_section">Niemand darf seinem ordentlichen Richter entzogen werden. </p>
+                                          <p type="legal_section">Die Verfassung und Zuständigkeit
+                                                der Gerichte wird durch Bundesgesetz festgestellt. </p>
+                                          <p type="legal_section">Niemand darf seinem ordentlichen
+                                                Richter entzogen werden. </p>
                                           <p type="legal_section">Ausnahmsgerichte sind nur in den
                                                 im Gesetze vorausbestimmten Fällen zulässig. Ob ein
                                                 solcher Fall vorliegt, wird, abgesehen von den in
@@ -1244,22 +1282,23 @@
                                           <pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/>
                                           <fw type="pageNum">- 27 - </fw>
                                           <head>Art. 86. </head>
-                                          <p type="legal_section">Die Richter werden - soferne nicht anderes bestimmt ist - auf Grund
-                                                von Besetzungsvorschlägen der durch
-                                                die Gerichtsverfassung dazu
-                                                bestimmten Senate über Antrag der
-                                                Bundesregierung vom Bundespräsidenten oder über dessen Ermächtigung vom Staatssekretär für
+                                          <p type="legal_section">Die Richter werden - soferne nicht
+                                                anderes bestimmt ist - auf Grund von
+                                                Besetzungsvorschlägen der durch die
+                                                Gerichtsverfassung dazu bestimmten Senate über
+                                                Antrag der Bundesregierung vom Bundespräsidenten
+                                                oder über dessen Ermächtigung vom Staatssekretär für
                                                 Justiz ernannt. </p>
-                                          <p type="legal_section">Der durch den Staatssekretär für Justiz an die Bundesregierung zu
-                                                leitende oder dem Staatssekretär
-                                                für Justiz vorzulegende
-                                                Besetzungsvorschlag hat, wenn genügend Bewerber vorhanden sind, mindestens 2
-                                                Personen mehr zu umfassen, als Richter zu ernennen sind. </p>
-                                          <p type="legal_section">Die Richter werden in die für die übrigen Staatsbeamten bestehenden
-                                                Rangsklassen nicht eingeteilt; ihre
-                                                dienstliche Verwendung ist von
-                                                ihrer Einteilung in Gehaltsklassen
-                                                unabhängig.</p>
+                                          <p type="legal_section">Der durch den Staatssekretär für
+                                                Justiz an die Bundesregierung zu leitende oder dem
+                                                Staatssekretär für Justiz vorzulegende
+                                                Besetzungsvorschlag hat, wenn genügend Bewerber
+                                                vorhanden sind, mindestens 2 Personen mehr zu
+                                                umfassen, als Richter zu ernennen sind. </p>
+                                          <p type="legal_section">Die Richter werden in die für die
+                                                übrigen Staatsbeamten bestehenden Rangsklassen nicht
+                                                eingeteilt; ihre dienstliche Verwendung ist von
+                                                ihrer Einteilung in Gehaltsklassen unabhängig.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 87. </head>
@@ -1269,84 +1308,89 @@
                                                   <corr>.</corr>
                                                 </choice></p>
                                           <p type="legal_section">In Ausübung seines richterlichen
-                                                Amtes befindet sich ein Richter bei
-                                                Besorgung aller ihm nach dem
-                                                Gesetze und der Geschäftsverteilung
-                                                zustehenden richterlichen
-                                                Geschäfte, einschließlich jener der
-                                                Justizverwaltungssachen, die nach Vorschrift des Gesetzes durch Senate oder Kommissionen zu erledigen sind.</p>
+                                                Amtes befindet sich ein Richter bei Besorgung aller
+                                                ihm nach dem Gesetze und der Geschäftsverteilung
+                                                zustehenden richterlichen Geschäfte, einschließlich
+                                                jener der Justizverwaltungssachen, die nach
+                                                Vorschrift des Gesetzes durch Senate oder
+                                                Kommissionen zu erledigen sind.</p>
                                     </div>
                                     <div type="article">
                                           <pb facs="#facs_29" n="29" xml:id="img_0029" break="yes"/>
                                           <fw type="pageNum"> 28 -</fw>
                                           <head>Art. 88. </head>
-                                          <p type="legal_section">Vor Erreichung der im Gerichtsorganisationsgesetz festgesetzten
-                                                Altersgrenze dürfen Richter nur auf
-                                                Grund eines förmlichen
-                                                richterlichen Erkenntnisses ihres
-                                                Amtes ersetzt werden; ihre zeitweise Enthebung vom Amte darf nur durch Verfügung des Gerichtsvorstandes oder höheren Gerichtsbehörde unter
-                                                gleichzeitiger Verweisung der Sache
-                                                an das zuständige Gericht, die
-                                                Versetzungen eine andere Stelle
-                                                oder in den Ruhestand wider Willen
-                                                nur durch gerichtlichen Beschluß in den durch das
-                                                Gesetz bestimmten Fällen und Formen
-                                                stattfinden. Diese Bestimmungen
-                                                finden jedoch bei Uebersetzung und Versetzungen in den Ruhestand keine Anwendung, die durch Veränderungen in
-                                                der Verfassung der Gerichte nötig
-                                                werden. In einem solchen Falle wird
-                                                durch Gesetz festgestellt, innerhalb welchen Zeitraumes Richter, ohne die sonst
-                                                vorgeschriebenen Förmlichkeiten
-                                                übersetzt und in den Ruhestand
-                                                versetzt werden können. </p>
+                                          <p type="legal_section">Vor Erreichung der im
+                                                Gerichtsorganisationsgesetz festgesetzten
+                                                Altersgrenze dürfen Richter nur auf Grund eines
+                                                förmlichen richterlichen Erkenntnisses ihres Amtes
+                                                ersetzt werden; ihre zeitweise Enthebung vom Amte
+                                                darf nur durch Verfügung des Gerichtsvorstandes oder
+                                                höheren Gerichtsbehörde unter gleichzeitiger
+                                                Verweisung der Sache an das zuständige Gericht, die
+                                                Versetzungen eine andere Stelle oder in den
+                                                Ruhestand wider Willen nur durch gerichtlichen
+                                                Beschluß in den durch das Gesetz bestimmten Fällen
+                                                und Formen stattfinden. Diese Bestimmungen finden
+                                                jedoch bei Uebersetzung und Versetzungen in den
+                                                Ruhestand keine Anwendung, die durch Veränderungen
+                                                in der Verfassung der Gerichte nötig werden. In
+                                                einem solchen Falle wird durch Gesetz festgestellt,
+                                                innerhalb welchen Zeitraumes Richter, ohne die sonst
+                                                vorgeschriebenen Förmlichkeiten übersetzt und in den
+                                                Ruhestand versetzt werden können. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 89. </head>
-                                          <p type="legal_section">Die Prüfung der Giltigkeit gehörig kundgemachter Gesetze steht den
-                                                Gerichten nicht zu. </p>
+                                          <p type="legal_section">Die Prüfung der Giltigkeit gehörig
+                                                kundgemachter Gesetze steht den Gerichten nicht zu. </p>
                                           <p type="legal_section">Hat ein Gericht die Anwendung
-                                                einer Vollzugsanweisung (Vdg.) als
-                                                gesetzwidrig abgelehnt, hat es
-                                                gleichzeitig den Antrag<pb facs="#facs_30" n="30" xml:id="img_0030" break="yes"/><fw type="pageNum">- 29 </fw>auf Kassation dieser
-                                                Vollzugsanweisung beim
-                                                Bundesverfassungsgerichte zu stellen. (Art. CXXV.) </p>
+                                                einer Vollzugsanweisung (Vdg.) als gesetzwidrig
+                                                abgelehnt, hat es gleichzeitig den Antrag<pb
+                                                  facs="#facs_30" n="30" xml:id="img_0030"
+                                                  break="yes"/><fw type="pageNum">- 29 </fw>auf
+                                                Kassation dieser Vollzugsanweisung beim
+                                                Bundesverfassungsgerichte zu stellen. (Art. CXXV.)
+                                          </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 90. </head>
-                                          <p type="legal_section">Wegen der von einem Richter in Ausübung seines Amtes verursachten
-                                                Rechtsverletzungen kann dieser Richter
-                                                sowie der Bund außer den im gerichtlichen
-                                                Verfahren vorgezeichneten Rechtsmitteln
-                                                mit Klage belangt werden. Dieses
-                                                Klagerecht wird durch ein besonderes
+                                          <p type="legal_section">Wegen der von einem Richter in
+                                                Ausübung seines Amtes verursachten
+                                                Rechtsverletzungen kann dieser Richter sowie der
+                                                Bund außer den im gerichtlichen Verfahren
+                                                vorgezeichneten Rechtsmitteln mit Klage belangt
+                                                werden. Dieses Klagerecht wird durch ein besonderes
                                                 Bundesgesetz geregelt.</p>
-                                          <p type="legal_section">Der Bund haftet für jedes Verschulden des Richters, dieser nur, wenn
-                                                ihm Vorsatz oder grobe Fahrlässigkeit
-                                                zur Last fällt. </p>
+                                          <p type="legal_section">Der Bund haftet für jedes
+                                                Verschulden des Richters, dieser nur, wenn ihm
+                                                Vorsatz oder grobe Fahrlässigkeit zur Last fällt.
+                                          </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 91. </head>
-                                          <p type="legal_section">Die Verhandlungen vor dem erkennenden Richter sind in Zivil- und
-                                                Strafrechtssachen mündlich und
-                                                öffentlich. Die Ausnahme bestimmt
-                                                das Gesetz. </p>
-                                          <p type="legal_section">Im Strafverfahren gilt der Anklagsprozess.</p>
+                                          <p type="legal_section">Die Verhandlungen vor dem
+                                                erkennenden Richter sind in Zivil- und
+                                                Strafrechtssachen mündlich und öffentlich. Die
+                                                Ausnahme bestimmt das Gesetz. </p>
+                                          <p type="legal_section">Im Strafverfahren gilt der
+                                                Anklagsprozess.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 92. </head>
-                                          <p type="legal_section">Bei den mit schweren Strafen bedrohten Verbrechen, die das Gesetz
-                                                zu bezeichnen hat, sowie bei allen
-                                                politischen oder durch den Inhalt einer
-                                                Druckschrift verübten Verbrechen und
-                                                Vergehen entscheiden Geschworene über die
-                                                Schuld des Angeklagten.</p>
+                                          <p type="legal_section">Bei den mit schweren Strafen
+                                                bedrohten Verbrechen, die das Gesetz zu bezeichnen
+                                                hat, sowie bei allen politischen oder durch den
+                                                Inhalt einer Druckschrift verübten Verbrechen und
+                                                Vergehen entscheiden Geschworene über die Schuld des
+                                                Angeklagten.</p>
                                     </div>
                                     <div type="article">
                                           <pb facs="#facs_31" n="31" xml:id="img_0031" break="yes"/>
                                           <fw type="pageNum">- 30 - </fw>
                                           <head>Art. 93. </head>
-                                          <p type="legal_section">Als oberste Instanz in Zivil- und Strafrechtssachen besteht das
-                                                Oberste Bundesgericht in Wien. </p>
+                                          <p type="legal_section">Als oberste Instanz in Zivil- und
+                                                Strafrechtssachen besteht das Oberste Bundesgericht
+                                                in Wien. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 94. </head>
@@ -1356,19 +1400,18 @@
                                     <div type="article">
                                           <head>Art. 95. </head>
                                           <p type="legal_section">Die Rechtspflege wird von der
-                                                Verwaltung in allen Instanzen getrennt. Die Staatsanwaltschaft gilt als
-                                                Verwaltungsbehörde. </p>
+                                                Verwaltung in allen Instanzen getrennt. Die
+                                                Staatsanwaltschaft gilt als Verwaltungsbehörde. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 96. </head>
                                           <p type="legal_section">In allen Fällen, wo eine
-                                                Verwaltungsbehörde nach den bestehenden oder
-                                                künftig zu erlassenden Gesetzen über Privatrechtsansprüche zu entscheiden hat,
-                                                steht es dem durch diese Entscheidung
-                                                Benachteiligten frei, wenn nicht im
-                                                Gesetze etwas anderes bestimmt ist, Abhilfe
-                                                gegen die andere Partei im Rechtswege
-                                                zu suchen.</p>
+                                                Verwaltungsbehörde nach den bestehenden oder künftig
+                                                zu erlassenden Gesetzen über Privatrechtsansprüche
+                                                zu entscheiden hat, steht es dem durch diese
+                                                Entscheidung Benachteiligten frei, wenn nicht im
+                                                Gesetze etwas anderes bestimmt ist, Abhilfe gegen
+                                                die andere Partei im Rechtswege zu suchen.</p>
                                     </div>
                               </div>
                         </div>
@@ -2567,92 +2610,113 @@
                                                 die erlassende Behörde zur
                                                 Kundmachung der erfolgten Aufhebung. </p>
                                     </div>
-                              </div>
-                              <div type="article">
-                                    <pb facs="#facs_67" n="67" xml:id="img_0067" break="yes"/>
-                                    <fw type="pageNum">- 66 - </fw>
-                                    <head>Art. 192. </head>
-                                    <p type="legal_section">Das Bundesverfassungsgericht entscheidet über Bundesgesetzwidrigkeit von Landesgesetzen auf Antrag der
-                                          Bundesregierung. </p>
-                                    <p type="legal_section">Der Antrag der Bundesregierung muß
-                                          binnen vier Wochen nach erfolgter Kundmachung des Landesgesetzes der Landesregierung bekanntgegeben und binnen weiteren vier Wochen bei dem Bundesverfassungsgerichte gestellt werden. </p>
-                                    <p type="legal_section">Das stattgebende Erkenntnis des Bundesverfassungsgerichtes bewirkt die
-                                          Kassation des bundesgesetzwidrigen
-                                          Landesgesetzes und verpflichtet die
-                                          zuständige Landesregierung zur
-                                          Verlautbarung der erfolgten Aufgebung im
-                                          Landesgesetzblatte.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 193. </head>
-                                    <p type="legal_section">Das Bundesverfassungsgericht entscheidet über Anfechtungen von Wahlen
-                                          zum Bundestag oder Präsidentschaftswahlen
-                                          und über den Antrag der Bundesversammlung
-                                          auf Erklärung des Mandatsverlustes eines
-                                          ihrer Mitglieder. </p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 194. </head>
-                                    <p type="legal_section">Das Bundesverfassungsgericht entscheidet über die Verantwortlichkeit: <list>
-                                                <label>a) </label>
-                                                <item> des Bundespräsidenten und seiner Stellvertreter, </item>
-                                                <label>b)  </label>
-                                                <item>der Mitglieder der Bundesregierung und der
+                                    <div type="article">
+                                          <pb facs="#facs_67" n="67" xml:id="img_0067" break="yes"/>
+                                          <fw type="pageNum">- 66 - </fw>
+                                          <head>Art. 192. </head>
+                                          <p type="legal_section">Das Bundesverfassungsgericht
+                                                entscheidet über Bundesgesetzwidrigkeit von
+                                                Landesgesetzen auf Antrag der Bundesregierung. </p>
+                                          <p type="legal_section">Der Antrag der Bundesregierung muß
+                                                binnen vier Wochen nach erfolgter Kundmachung des
+                                                Landesgesetzes der Landesregierung bekanntgegeben
+                                                und binnen weiteren vier Wochen bei dem
+                                                Bundesverfassungsgerichte gestellt werden. </p>
+                                          <p type="legal_section">Das stattgebende Erkenntnis des
+                                                Bundesverfassungsgerichtes bewirkt die Kassation des
+                                                bundesgesetzwidrigen Landesgesetzes und verpflichtet
+                                                die zuständige Landesregierung zur Verlautbarung der
+                                                erfolgten Aufgebung im Landesgesetzblatte.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 193. </head>
+                                          <p type="legal_section">Das Bundesverfassungsgericht
+                                                entscheidet über Anfechtungen von Wahlen zum
+                                                Bundestag oder Präsidentschaftswahlen und über den
+                                                Antrag der Bundesversammlung auf Erklärung des
+                                                Mandatsverlustes eines ihrer Mitglieder. </p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 194. </head>
+                                          <p type="legal_section">Das Bundesverfassungsgericht
+                                                entscheidet über die Verantwortlichkeit: <list>
+                                                  <label>a) </label>
+                                                  <item> des Bundespräsidenten und seiner
+                                                  Stellvertreter, </item>
+                                                  <label>b) </label>
+                                                  <item>der Mitglieder der Bundesregierung und der
                                                   ihnen hinsichtlich der Verantwortlichkeit
                                                   gleichgestellten Organe, </item>
-                                                <pb facs="#facs_68" n="68" xml:id="img_0068" break="yes"/>
-                                                <fw type="pageNum">- 67 -</fw>
-                                                <label>c) </label>
-                                                <item>der Mitglieder der Landesregierungen und der ihnen hinsichtlich der Verantwortlichkeit gleichgestellten
-                                                  Organe, u. zw. wegen vorsätzlicher oder grobfahrlässiger Verletzung der Bundesverfassung durch
-                                                  den Bundespräsidenten oder seinen
-                                                  Stellvertreter auf Antrag des
-                                                  Bundestages; wegen vorsätzlicher und
-                                                  grobfahrlässiger Gesetzesverletzung der sub b) genannten Personen durch ihre Amtstätigkeit auf
-                                                  Antrag des Bundestages; wegen vorsätzlicher oder
-                                                  grobfahrlässiger Gesetzesverletzung seitens der sub c) genannten Personen durch ihre
-                                                  Amtstätigkeit auf Antrag des
-                                                  zuständigen Landtages; und über
-                                                  die Verantwortlichkeit des Landeshauptmannes wegen vorsätzlicher und
-                                                  grobfahrlässiger Gesetzesverletzung durch seine Amtstätigkeit oder wegen
-                                                  Nichtbefolgung der
-                                                  Vollzugsanweisungen oder sonstigen Anordnungen der Bundesregierung auf Antrag der letzteren.  </item>
-                                          </list></p>
-                                    <p type="legal_section">Das verurteilende Erkenntnis des Bundesverfassungsgerichtes hat auf Verlust des Amtes eventuell auch der
-                                          politischen Rechte zu lauten.  </p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 195. </head>
-                                    <p type="legal_section">Die Exekution der Erkenntnisse des Bundesverfassungsgerichtes obliegt dem Bundespräsidenten.</p>
-                              </div>
-                              <div type="article">
-                                    <pb facs="#facs_69" n="69" xml:id="img_0069" break="yes"/>
-                                    <fw type="pageNum">- 68 -</fw>
-                                    <head>Art. 196. </head>
-                                    <p type="legal_section">Das Bundesverfassungsgericht in Wien besteht aus einem Präsidenten, einem Vizepräsidenten, 14 Mitgliedern und 8
-                                          Ersatzmitgliedern. </p>
-                                    <p type="legal_section">Der Präsident, der Vizepräsdent, 7
-                                          Mitglieder und 4 Ersatzmitgliedert werden von dem Bundestag, 7 Mitglieder und 4 Ersatzmitglieder vom Bundesrat auf Lebensdauer gewählt.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 197. </head>
-                                    <p type="legal_section">Der Präsident des
-                                          Bundesverfassungsgerichtes steht im Range des
-                                          Bundeskanzlers, der Vizepräsident im Range eines
-                                          Staatssekretärs. </p>
-                                    <p type="legal_section">Das Amt der Mitglieder des Bundesverfassungsgerichtes ist ein Ehrenamt. Nur drei Mitglieder fungieren als
-                                          ständige Referenten im Range eines
-                                          Unterstaatssekretärs. Sie werden in einer
-                                          Plenarversammlung des
-                                          Bundesverfassungsgerichtes aus der Mitte
-                                          seiner Mitglieder gewählt.</p>
-                              </div>
-                              <div type="article">
-                                    <head>Art. 198. </head>
-                                    <p type="legal_section">Die nähere Organisation des Bundesverfassungsgerichtes sowie das Verfahren vor ihm in den verschiedenen in den
-                                          Art. . . . . . . . . angeführten Fällen,
-                                          wird in gesonderten Bundesgesetzen
-                                          geregelt. ---o0o---</p>
+                                                  <pb facs="#facs_68" n="68" xml:id="img_0068"
+                                                  break="yes"/>
+                                                  <fw type="pageNum">- 67 -</fw>
+                                                  <label>c) </label>
+                                                  <item>der Mitglieder der Landesregierungen und der
+                                                  ihnen hinsichtlich der Verantwortlichkeit
+                                                  gleichgestellten Organe, u. zw. wegen
+                                                  vorsätzlicher oder grobfahrlässiger Verletzung der
+                                                  Bundesverfassung durch den Bundespräsidenten oder
+                                                  seinen Stellvertreter auf Antrag des Bundestages;
+                                                  wegen vorsätzlicher und grobfahrlässiger
+                                                  Gesetzesverletzung der sub b) genannten Personen
+                                                  durch ihre Amtstätigkeit auf Antrag des
+                                                  Bundestages; wegen vorsätzlicher oder
+                                                  grobfahrlässiger Gesetzesverletzung seitens der
+                                                  sub c) genannten Personen durch ihre Amtstätigkeit
+                                                  auf Antrag des zuständigen Landtages; und über die
+                                                  Verantwortlichkeit des Landeshauptmannes wegen
+                                                  vorsätzlicher und grobfahrlässiger
+                                                  Gesetzesverletzung durch seine Amtstätigkeit oder
+                                                  wegen Nichtbefolgung der Vollzugsanweisungen oder
+                                                  sonstigen Anordnungen der Bundesregierung auf
+                                                  Antrag der letzteren. </item>
+                                                </list></p>
+                                          <p type="legal_section">Das verurteilende Erkenntnis des
+                                                Bundesverfassungsgerichtes hat auf Verlust des Amtes
+                                                eventuell auch der politischen Rechte zu lauten.
+                                          </p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 195. </head>
+                                          <p type="legal_section">Die Exekution der Erkenntnisse des
+                                                Bundesverfassungsgerichtes obliegt dem
+                                                Bundespräsidenten.</p>
+                                    </div>
+                                    <div type="article">
+                                          <pb facs="#facs_69" n="69" xml:id="img_0069" break="yes"/>
+                                          <fw type="pageNum">- 68 -</fw>
+                                          <head>Art. 196. </head>
+                                          <p type="legal_section">Das Bundesverfassungsgericht in
+                                                Wien besteht aus einem Präsidenten, einem
+                                                Vizepräsidenten, 14 Mitgliedern und 8
+                                                Ersatzmitgliedern. </p>
+                                          <p type="legal_section">Der Präsident, der Vizepräsdent, 7
+                                                Mitglieder und 4 Ersatzmitgliedert werden von dem
+                                                Bundestag, 7 Mitglieder und 4 Ersatzmitglieder vom
+                                                Bundesrat auf Lebensdauer gewählt.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 197. </head>
+                                          <p type="legal_section">Der Präsident des
+                                                Bundesverfassungsgerichtes steht im Range des
+                                                Bundeskanzlers, der Vizepräsident im Range eines
+                                                Staatssekretärs. </p>
+                                          <p type="legal_section">Das Amt der Mitglieder des
+                                                Bundesverfassungsgerichtes ist ein Ehrenamt. Nur
+                                                drei Mitglieder fungieren als ständige Referenten im
+                                                Range eines Unterstaatssekretärs. Sie werden in
+                                                einer Plenarversammlung des
+                                                Bundesverfassungsgerichtes aus der Mitte seiner
+                                                Mitglieder gewählt.</p>
+                                    </div>
+                                    <div type="article">
+                                          <head>Art. 198. </head>
+                                          <p type="legal_section">Die nähere Organisation des
+                                                Bundesverfassungsgerichtes sowie das Verfahren vor
+                                                ihm in den verschiedenen in den Art. . . . . . . . .
+                                                angeführten Fällen, wird in gesonderten
+                                                Bundesgesetzen geregelt. ---o0o---</p>
+                                    </div>
                               </div>
                         </div>
                   </div>

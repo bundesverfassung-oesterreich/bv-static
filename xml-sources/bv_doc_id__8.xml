@@ -106,6 +106,7 @@
                         generated</change>
                   <change when="2024-05-31" who="#m_huber">formatting completed</change>
                   <change when="2024-04-19" who="#m_huber">fixed headings</change>
+                  <change when="2024-07-02" who="#s_kury">gegengelesen bis Artikel XVIII</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -171,16 +172,16 @@
                               <div type="article">
                                     <head>Artikel 1.</head>
                                     <p type="legal_section">Unter dem völkerrechtlichen Zwange des
-                                          Friedensvertrages von St. Germain und mit
-                                          feierlicher Verwahrung gegen die Verweigerung des Selbstbestimmungsrechtes der Völker
-                                          schliessen sich die Länder Kärnten,
-                                          Niederösterreich, Oberöstereich, Salzburg, Steiermark, Tirol, Vorarlberg und Westungarn in
-                                          ihren durch den Friedensvertrag (St. G.
-                                          Bl. Nr. ex 1919) festgestellten Grenzen und die Stadt Wien auf Grund der rechtsgiltigen
-                                          Beschlüsse ihrer Landesvertretungen und
-                                          des Wiener Gemeinderates, sowie der Nationalversammlung
-                                          der Republik Deutschösterreich zu einem
-                                          Bunde mit dem Namen </p>
+                                          Friedensvertrages von St. Germain und mit feierlicher
+                                          Verwahrung gegen die Verweigerung des
+                                          Selbstbestimmungsrechtes der Völker schliessen sich die
+                                          Länder Kärnten, Niederösterreich, Oberösterreich,
+                                          Salzburg, Steiermark, Tirol, Vorarlberg und Westungarn in
+                                          ihren durch den Friedensvertrag (St. G. Bl. Nr. ex 1919)
+                                          festgestellten Grenzen und die Stadt Wien auf Grund der
+                                          rechtsgiltigen Beschlüsse ihrer Landesvertretungen und des
+                                          Wiener Gemeinderates, sowie der Nationalversammlung der
+                                          Republik Deutschösterreich zu einem Bunde mit dem Namen </p>
                                     <p type="legal_section">Republik Oesterreich </p>
                                     <p type="legal_section">und mit der Bundeshauptstadt Wien
                                           zusammen. </p>
@@ -188,10 +189,10 @@
                               <div type="article">
                                     <head>Artikel II. </head>
                                     <p type="legal_section">Die Selbständigkeit jedes Bundesgliedes
-                                          bleibt gewahrt und wird vom Bunde gewährleistet insoweit sie
-                                          nicht durch die Bundesverfassung oder durch auf Grund dieser
-                                          Verfasung zu erlassende Bundesgesetze beschränkt ist oder beschlänkt
-                                          wird. 1) </p>
+                                          bleibt gewahrt und wird vom Bunde gewährleistet insoweit
+                                          sie nicht durch die Bundesverfassung oder durch auf Grund
+                                          dieser Verfasung zu erlassende Bundesgesetze beschränkt
+                                          ist oder beschränkt wird. 1) </p>
                                     <note type="comment">Dr. Straffner beantragt, diesem Artikel
                                           noch den Satz anzuschließen: Reichsrecht
                                           bricht Landrecht.</note>
@@ -258,13 +259,17 @@
                                           und Gliederung dieser Truppe ist Sache
                                           der Bundesglieder. </p>
                                     <p type="legal_section">Im Falle der Abwehr feindlicher Angriffe
-                                          von außen, sind die Landjägertruppen
-                                          sämtlicher Bundesglieder der Militärgewalt des Bundes (Artikel IV) unterstellt; im
-                                          Falle des Einschreitens der Bundesgewalt
-                                          zur Aufrechterhaltung der öffentlichen Ruhe und Ordnung innerhalb des Gebietes eines oder
-                                          mehrerer Bundesglieder ist die Landjägertruppe des davon betroffenen Landes (der
-                                          Bundeshauptstadt) ,dem Bunde und dem vom
-                                          Bunde bestellten Oberbefehlshaber unterstellt. </p>
+                                          von außen, sind die Landjägertruppen sämtlicher
+                                          Bundesglieder der Militärgewalt des Bundes (Artikel IV)
+                                          unterstellt; im Falle des Einschreitens der Bundesgewalt
+                                          zur Aufrechterhaltung der öffentlichen Ruhe und Ordnung
+                                          innerhalb des Gebietes eines oder mehrerer Bundesglieder
+                                          ist die Landjägertruppe des davon betroffenen Landes (der
+                                          Bundeshauptstadt) <choice>
+                                                <sic>,</sic>
+                                                <corr/>
+                                          </choice>dem Bunde und dem vom Bunde bestellten
+                                          Oberbefehlshaber unterstellt. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel VI. </head>
@@ -326,8 +331,8 @@
                                           Handlungen ist innerhalb der Schranken
                                           der Sittlichkeit und der öffentlichen Ordnung gewährleistet.</p>
                                     <note type="comment">1) Zu Artikel VII: Gegen den Satz: „Niemand
-                                          darf......gezwungen werden" bestehen bei
-                                          der Mehrheit des Ausschusses Bedenken.</note>
+                                          darf ....... gezwungen werden" bestehen bei der Mehrheit des
+                                          Ausschusses Bedenken.</note>
                               </div>
                               <div type="article">
                                     <head>Artikel VIII. </head>
@@ -353,9 +358,9 @@
                               </div>
                               <div type="article">
                                     <head>Artikel XI. </head>
-                                    <p type="legal_section">Niemand darf seinen verfassungsmässigen
-                                          Richter entzogen werden; es dürfen keine
-                                          Ausnahmsgerichte eingeführt werden. </p>
+                                    <p type="legal_section">Niemand darf seinem verfassungsmässigen
+                                          Richter entzogen werden; es dürfen keine Ausnahmsgerichte
+                                          eingeführt werden. </p>
                                     <p type="legal_section">Die
                                           Militärgerichtsbarkeit bleibt nur für rein militärische Vergehen bestehen und ist durch
                                           Bundesgesetz zu regeln. </p>
@@ -384,126 +389,155 @@
                                     <p type="legal_section">In die Zuständigkeit des Bundes fallen: <list>
                                                 <label>1) </label>
                                                 <item>die auswärtigen Angelegenheiten mit Einschluß
-                                                  der diplomatischen und kommerziellen Vertretung, dem Auslande
-                                                  gegenüber, die Zollgesetzgebung, die Prüfung und Genehmigung der Handelsverträge
-                                                  und jener Staatsverträge, die den Bundesstaat oder
-                                                  Teile des Bundesstaates belasten oder eine Gebietsänderung des Bundes oder
-                                                  seiner Bundesglieder zum Gegenstande haben; Grenzverschiebungen zwischen den
-                                                  einzelnen Bundesgliedern sind,
-                                                  wenn dadurch die Auslandsgrenzen nicht berührt
-                                                  werden, dem Bundesrate lediglich
-                                                  zur Kenntnis zu bringen.  </item>
+                                                  der diplomatischen und kommerziellen Vertretung,
+                                                  dem Auslande gegenüber, die Zollgesetzgebung, die
+                                                  Prüfung und Genehmigung der Handelsverträge und
+                                                  jener Staatsverträge, die den Bundesstaat oder
+                                                  Teile des Bundesstaates belasten oder eine
+                                                  Gebietsänderung des Bundes oder seiner
+                                                  Bundesglieder zum Gegenstande haben;
+                                                  Grenzverschiebungen zwischen den einzelnen
+                                                  Bundesgliedern sind, wenn dadurch die
+                                                  Auslandsgrenzen nicht berührt werden, dem
+                                                  Bundesrate lediglich zur Kenntnis zu bringen. </item>
                                                 <label>2)</label>
-                                                <item> Die Entscheidung über Krieg und Frieden.  </item>
+                                                <item> Die Entscheidung über Krieg und Frieden. </item>
                                                 <label>3)</label>
                                                 <item>Die Gesetzgebung über das Heerwesen in den
-                                                  Schranken des Artikel IV  <fw type="pageNum">12</fw><pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/><fw type="pageNum">- 6</fw>über die militärische
-                                                  Befehlsgewalt, über Vorspannleistungen, Verpflegung und Einquartierung des
-                                                  Heeres, ferner die Regelung der Militärgerichtsbarkeit in den Schranken des
-                                                  Artikels XI.  </item>
+                                                  Schranken des Artikel IV <fw type="pageNum"
+                                                  >12</fw><pb facs="#facs_7" n="7" xml:id="img_0007"
+                                                  break="yes"/><fw type="pageNum">- 6 -</fw>über die
+                                                  militärische Befehlsgewalt, über
+                                                  Vorspannleistungen, Verpflegung und Einquartierung
+                                                  des Heeres, ferner die Regelung der
+                                                  Militärgerichtsbarkeit in den Schranken des
+                                                  Artikels XI. </item>
                                                 <label>4)</label>
                                                 <item> Das Finanzwesen, soweit es die
-                                                  gemeinschaftlich zu verwaltenden Einnahmen und Ausgaben betrifft, also die
-                                                  Feststellung der Voranschläge des
-                                                  Bundeshaushaltes, die Prüfung der
-                                                  Staatsrechnungsabschlüsse und die
-                                                  Erteilung der Entlastung, die Aufnahme von
-                                                  Bundesanlehen, die Umwandlung der
-                                                  bestehenden Staatsschulden, die Verwaltung,
-                                                  Veräußerung oder Belastung des Bundesvermögens,
-                                                  die Gesetzgebung über Monopole ferner die Festsetzung des Geld- Münz- und
-                                                  Zettelbankwesens, endlich die
-                                                  Gesetzgebung über Steuern, Abgaben, Gefälle, diese
-                                                  jedoch mit der Kinschränkung,
-                                                  dass das Recht der Besteuerung von Grund und Boden und von Hausbesitz ausschließend
-                                                  den Bundesgliedern zukommt. Inwieweit die übrigen öffentlichen Steuern,
-                                                  Abgaben und Gefälle zwischen dem
-                                                  Bunde und seinen einzelnen Bundesgliedern
-                                                  aufzuteilen sind, wird durch ein
-                                                  eigenes Bundesgesetz bestimmt.  </item>
+                                                  gemeinschaftlich zu verwaltenden Einnahmen und
+                                                  Ausgaben betrifft, also die Feststellung der
+                                                  Voranschläge des Bundeshaushaltes, die Prüfung der
+                                                  Staatsrechnungsabschlüsse und die Erteilung der
+                                                  Entlastung, die Aufnahme von Bundesanlehen, die
+                                                  Umwandlung der bestehenden Staatsschulden, die
+                                                  Verwaltung, Veräußerung oder Belastung des
+                                                  Bundesvermögens, die Gesetzgebung über Monopole
+                                                  ferner die Festsetzung des Geld- Münz- und
+                                                  Zettelbankwesens, endlich die Gesetzgebung über
+                                                  Steuern, Abgaben, Gefälle, diese jedoch mit der
+                                                  Einschränkung, dass das Recht der Besteuerung von
+                                                  Grund und Boden und von Hausbesitz ausschließend
+                                                  den Bundesgliedern zukommt. Inwieweit die übrigen
+                                                  öffentlichen Steuern, Abgaben und Gefälle zwischen
+                                                  dem Bunde und seinen einzelnen Bundesgliedern
+                                                  aufzuteilen sind, wird durch ein eigenes
+                                                  Bundesgesetz bestimmt. </item>
                                                 <label>5)</label>
                                                 <item> Die Zivil- und Strafgesetzgebung mit
-                                                  Einschluß des Handels-, Wechsel-, Berg- und Lehenrechtes, dann des Zivil- und
-                                                  Strafprozeßrechts und des Polizeistrafrechtes jedoch mit Ausnahme der
-                                                  Gesetzgebung über die öffentlichen Bücher und über
-                                                  die Bildung der Gerichts- und Verwaltungsbezirke innerhalb des Gebietes der
-                                                  einzelnen Glieder des Bundes. Die Gesetzgebung über die Erlangung öffentlicher
-                                                  Aemter, steht dem Bunde nur
-                                                  insoweit zu, als es sich um Aemter handelt, deren
-                                                  Amtsbezirk über die Grenzen eines
-                                                  Bundesgliedes hinausreicht. Mit der gleichen Beschränkung steht der Bundesgewalt
-                                                  das Recht der Ernennung der Richter und Verwaltungsbeamten zu. Die
-                                                  Ernennung der zur selbständigen Ausübung des Richteramtes berufenen Personen
-                                                  erfolgt in kollegialer Beratung.
-                                                  1)<note type="comment">1) Zu Artikel XIV Z. 5: Dr.
-                                                  Straffner ist gegen die Forderung kollegialer Ernennung der
-                                                  Richter.</note></item>
-                                                <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/>
-                                                <fw type="pageNum">- 7 </fw>
+                                                  Einschluß des Handels-, Wechsel-, Berg- und
+                                                  Lehenrechtes, dann des Zivil- und
+                                                  Strafprozeßrechtes und des Polizeistrafrechtes
+                                                  jedoch mit Ausnahme der Gesetzgebung über die
+                                                  öffentlichen Bücher und über die Bildung der
+                                                  Gerichts- und Verwaltungsbezirke innerhalb des
+                                                  Gebietes der einzelnen Glieder des Bundes. Die
+                                                  Gesetzgebung über die Erlangung öffentlicher
+                                                  Aemter, steht dem Bunde nur insoweit zu, als es
+                                                  sich um Aemter handelt, deren Amtsbezirk über die
+                                                  Grenzen eines Bundesgliedes hinausreicht. Mit der
+                                                  gleichen Beschränkung steht der Bundesgewalt das
+                                                  Recht der Ernennung der Richter und
+                                                  Verwaltungsbeamten zu. Die Ernennung der zur
+                                                  selbständigen Ausübung des Richteramtes berufenen
+                                                  Personen erfolgt in kollegialer Beratung. 1)<note
+                                                  type="comment">1) Zu Artikel XIV Z. 5: Dr.
+                                                  Straffner ist gegen die Forderung kollegialer
+                                                  Ernennung der Richter.</note></item>
+                                                <pb facs="#facs_8" n="8" xml:id="img_0008"
+                                                  break="yes"/>
+                                                <fw type="pageNum">- 7 -</fw>
                                                 <label>6)</label>
-                                                <item>Das Post-, Telegraphen-,
-                                                  Telephon-Eisenbahn-Schiffahrts- und Luftschiffahrtswesen, die
-                                                  Elektrizitätsgesetzgebung 1) und die Verwaltung der Bundesstraßen.  <note type="comment">1) Eine Minderheit des Ausschusses
-                                                  wünscht die Elektrizitätsgesetzgebung auszuschalten. </note></item>
+                                                <item>Das Post-, Telegraphen-, Telephon-<choice>
+                                                  <sic/>
+                                                  <corr>, </corr>
+                                                  </choice>Eisenbahn-<choice>
+                                                  <sic/>
+                                                  <corr>, </corr>
+                                                  </choice>Schiffahrts- und Luftschiffahrtswesen,
+                                                  die Elektrizitätsgesetzgebung 1) und die
+                                                  Verwaltung der Bundesstraßen. <note type="comment"
+                                                  >1) Eine Minderheit des Ausschusses wünscht die
+                                                  Elektrizitätsgesetzgebung auszuschalten.
+                                                  </note></item>
                                                 <label>7)</label>
-                                                <item>Die Gesetzgebung über das Kredit und Bankwesen
-                                                  mit Ausnahme des landwirtschaftlichen Kreditwesens
-                                                  (Raiffeisenkassen, landwirtschaftliche Vorschußkassen etc.) dann die Privilegien-
-                                                  und Gewerbegesetzgebung, die
-                                                  gesetzgebung über Maß und Gewicht, über Marken-
-                                                  und Musterschutz, die Gesetzgebung über Fabriken,
-                                                  über Kranken-, Unfall- und Altersversorgung der Arbeiter und die damit
-                                                  zusammenhängenden Unterstützungs-
-                                                  und Hilfskassen.  </item>
+                                                <item>Die Gesetzgebung über das Kredit<choice>
+                                                  <sic/>
+                                                  <corr>-</corr>
+                                                  </choice> und Bankwesen mit Ausnahme des
+                                                  landwirtschaftlichen Kreditwesens
+                                                  (Raiffeisenkassen, landwirtschaftliche
+                                                  Vorschußkassen etc.) dann die Privilegien- und
+                                                  Gewerbegesetzgebung, die gesetzgebung über Maß und
+                                                  Gewicht, über Marken- und Musterschutz, die
+                                                  Gesetzgebung über Fabriken, über Kranken-, Unfall-
+                                                  und Altersversorgung der Arbeiter und die damit
+                                                  zusammenhängenden Unterstützungs- und Hilfskassen. </item>
                                                 <label>8)</label>
                                                 <item>Die Medizinalgesetzgebung, sowie die
-                                                  Gesetzgeburg zum Schutze gegen Epidemien und Viehseuchen.  </item>
+                                                  Gesetzgeburg zum Schutze gegen Epidemien und
+                                                  Viehseuchen. </item>
                                                 <label>9)</label>
                                                 <item>Die Gesetzgebung über Staatsbürger- und
-                                                  Heimatsrecht, über Fremdenpolizei
-                                                  und Paßwesen und über die Volkszählung. </item>
-                                                <label>10)  </label>
+                                                  Heimatsrecht, über Fremdenpolizei und Paßwesen und
+                                                  über die Volkszählung. </item>
+                                                <label>10) </label>
                                                 <item>Die Gesetzgebung über die Presse (Artikel IX),
-                                                  über das Vereins- und
-                                                  Versammlungsrecht (Artikel X) und über den Schutz
-                                                  des geistigen Eigentums,   </item>
+                                                  über das Vereins- und Versammlungsrecht (Artikel
+                                                  X) und über den Schutz des geistigen Eigentums, </item>
                                                 <label>11)</label>
                                                 <item> Die Gesetzgebung über die Universitäten.
                                                   2)<note type="comment">2) Dr. Straffner ist für
-                                                  die Aufnahme der Volks- und Mittelschulen, Falser nur für die Aufnahme der
-                                                  Mittelschulen. </note></item>
+                                                  die Aufnahme der Volks- und Mittelschulen, Falser
+                                                  nur für die Aufnahme der Mittelschulen.
+                                                  </note></item>
                                                 <label>12)</label>
                                                 <item>Die Regelung der Nutzbarmachung der
-                                                  Wasserkräfte ist eine Angelegenheit der Bundesglieder. 3)<note type="comment">3) Zwei Stimmen sprechen sich dafür aus, dass
-                                                  vorangestellt werde der Satz: die
-                                                  Oberaufsicht über die Angelegenheiten der
-                                                  Landeskultur und über die
-                                                  Nutzbarmachung der Wasserkräfte; die
-                                                  Bundesgesetzgebung erläßt zu
-                                                  diesem Behufe die erforderlichen allgemeinen Vorschriften.</note><fw type="pageNum">13 </fw><pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/><fw type="pageNum">- 8 -</fw>Wenn jedoch eine Gewässerstrecke, die
-                                                  für die Gewinnung einer Wasserkraft in Anspruch genommen wird, unter der
-                                                  Gebietshoheit zweier oder
+                                                  Wasserkräfte ist eine Angelegenheit der
+                                                  Bundesglieder. 3)<note type="comment">3) Zwei
+                                                  Stimmen sprechen sich dafür aus, dass
+                                                  vorangestellt werde der Satz: die Oberaufsicht
+                                                  über die Angelegenheiten der Landeskultur und über
+                                                  die Nutzbarmachung der Wasserkräfte; die
+                                                  Bundesgesetzgebung erläßt zu diesem Behufe die
+                                                  erforderlichen allgemeinen Vorschriften.</note><fw
+                                                  type="pageNum">13 </fw><pb facs="#facs_9" n="9"
+                                                  xml:id="img_0009" break="yes"/><fw type="pageNum"
+                                                  >- 8 -</fw>Wenn jedoch eine Gewässerstrecke, die
+                                                  für die Gewinnung einer Wasserkraft in Anspruch
+                                                  genommen wird, unter der Gebietshoheit zweier oder
                                                   mehrerer Bundesglieder steht und sich diese über
-                                                  eine gemeinsame Konzession nicht
-                                                  einigen können, so ist die Erteilung der Konzession Sache des Bundes. Dem
-                                                  Bunde steht auch die Konzessionserteilung an Gewässerstrecken zu, die die
-                                                  Grenze des Bundesstaates bilden;
-                                                  die an dieser Grenze gelegenen Bundesglieder sind dem Verfahren als beteiligte
-                                                  Parteien beizuziehen.  </item>
+                                                  eine gemeinsame Konzession nicht einigen können,
+                                                  so ist die Erteilung der Konzession Sache des
+                                                  Bundes. Dem Bunde steht auch die
+                                                  Konzessionserteilung an Gewässerstrecken zu, die
+                                                  die Grenze des Bundesstaates bilden; die an dieser
+                                                  Grenze gelegenen Bundesglieder sind dem Verfahren
+                                                  als beteiligte Parteien beizuziehen. </item>
                                                 <label>13./</label>
                                                 <item>Die Oberaufsicht über die Strassen und
-                                                  Brücken, deren Instandhaltung für
-                                                  den Bundesstaat Bedeutung hat.  </item>
+                                                  Brücken, deren Instandhaltung für den Bundesstaat
+                                                  Bedeutung hat. </item>
                                           </list>
                                     </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XV. </head>
                                     <p type="legal_section">Die Angelegenheiten, welche zur
-                                          Zuständigkeit der Gesetzgebung der Bundesglieder gehören, kann diese die
-                                          zur Regelung des Gegenstandes erforderlichen Bestimmungen auch
-                                          auf dem Gebiete der Strafjustiz und Polizaistraf - sowie der
-                                          Zivilgesetzgebung treffen, </p>
+                                          Zuständigkeit der Gesetzgebung der Bundesglieder gehören,
+                                          kann diese die zur Regelung des Gegenstandes
+                                          erforderlichen Bestimmungen auch auf dem Gebiete der
+                                          Strafjustiz und Polizeistraf- sowie der Zivilgesetzgebung
+                                          treffen. </p>
                               </div>
                               <div type="article">
                                     <head>Artikel XVI.</head>
@@ -513,15 +547,16 @@
                                           Bundeshauptstadt Wien in Betreff der
                                           Gesetzesbeschlüsse des Gemeinderates. </p>
                                     <p type="legal_section">Hat die Staatsregierung gegen einen
-                                          solchen Beschluß Bedenken, so kann sie
-                                          gegen ihn binnen 14 Tagen nach Einlangen der Mitteilung bei der gesetzgehenden
-                                          Körperschaft des Bundesgliedes im Wege
-                                          der Landesregierung Vorstellung erheben. </p>
+                                          solchen Beschluß Bedenken, so kann sie gegen ihn binnen 14
+                                          Tagen nach Einlangen der Mitteilung bei der gesetzgebenden
+                                          Körperschaft des Bundesgliedes im Wege der Landesregierung
+                                          Vorstellung erheben. </p>
                                     <p type="legal_section">Vor Ablauf dieser Frist kann das
-                                          Landesgesetz ohne Zustimmung der
-                                          Staatsregierung nicht kundgemacht werden.Beschließt der Landtag (der Wiener Gemeinderat)
-                                          auf dem ursprünglichen Beschlusse zu
-                                          beharren, so hat dessen Kundmachung durch die Landesregierung zu erfolgen.</p>
+                                          Landesgesetz ohne Zustimmung der Staatsregierung nicht
+                                          kundgemacht werden. Beschließt der Landtag (der Wiener
+                                          Gemeinderat) auf dem ursprünglichen Beschlusse zu
+                                          beharren, so hat dessen Kundmachung durch die
+                                          Landesregierung zu erfolgen.</p>
                               </div>
                               <div type="article">
                                     <pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/>
