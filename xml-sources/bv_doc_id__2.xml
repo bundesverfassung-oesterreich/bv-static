@@ -398,7 +398,7 @@
                                           im Wirkungsbereiche der Länder. </p>
                                     <add>
                                           <p type="legal_section">Wo der Bundesgesetzgebung
-                                                lediglich die Regelung von Grundzügen vorbehalten
+                                                lediglich die Regelung der Grundzüge vorbehalten
                                                 ist, obliegt die nähere Durchführung innerhalb des
                                                 bundesgesetzlich festgelegten Rahmens der
                                                 Landesgesetzgebung.</p>
@@ -545,8 +545,7 @@
                                                 ratifiziert sind erlangen durch die
                                                 Kundmachung im Bundesgesetzblatt Gesetzeskraft. </p>
                                           <note type="comment">Art. 21-28 jetzt: 27-34 gehört
-                                                  zwischen Art. 33 ü 35, jetzt 26 ü
-                                                35</note>
+                                                zwischen Art. 33 u 35, jetzt 26 u 35</note>
                                     </div>
                                     <div type="article">
                                           <head>Art. 2<choice>
@@ -813,20 +812,27 @@
                                                   </choice> eine<del>r</del> Volksabstimmung zu <choice>
                                                   <del>unterziehen.</del>
                                                   <add>erfolgen, handelt es sich um einen anderen
-                                                  Entschluß, so entscheidet der
+                                                  Beschluß, so entscheidet der
                                                   Bundespräsident.</add>
-                                                  </choice>. </item>
+                                                  </choice>
+                                                  </item>
                                                   <label><add>(2)</add></label>
                                                   <item> Auf die<del>se</del>
-                                                  <add>in Abt. A erwähnten</add> Volksabstimmungen
-                                                  finden die Bestimmungen de<choice>
+                                                  <add>in Abt. A erwähnte<choice>
+                                                  <sic>n</sic>
+                                                  <corr/>
+                                                  </choice></add> Volksabstimmungen finden die
+                                                  Bestimmungen de<choice>
                                                   <del>s</del>
                                                   <add>r</add>
                                                   </choice> Art. . . . . Anwendung.</item>
                                                   <label><add>(3)</add></label>
-                                                  <item>Nimmt das Bundesvolk den Bechluss des
-                                                  Bundestages an, so ist dieser ohne Genehmigung des
-                                                  Bundesrates zu beurkunden. in Abt. d. erwähnte. </item>
+                                                  <item>Nimmt das Bundesvolk den Be<choice>
+                                                  <sic>s</sic>
+                                                  <corr/>
+                                                  </choice>chluss des Bundestages an, so ist dieser
+                                                  ohne Genehmigung des Bundesrates zu
+                                                  beurkunden.</item>
                                                   <label><add>(4)</add></label>
                                                   <item> Ohne Genehmigung des Bundesrates ist <choice>
                                                   <del>ein</del>
@@ -838,10 +844,10 @@
                                                   </choice> in der vorgeschriebenen Zeit die
                                                   Genehmigung weder erteilt, noch mit Angabe von
                                                   Gründen verweigert hat. <add>Handelt es sich um
-                                                  andere als im Gesetzesbeschlüsse oder um die in
-                                                  Art 14 Abs. 2 oder Art. 15 erwähnten Beschlüsse,
-                                                  so erlangt der Beschluß des Bundestages in diesem
-                                                  Falle auch ohne Genmehmigung des Bundesrates
+                                                  andere als um Gesetzesbeschlüsse oder um die in
+                                                  Art 14 Abs. 2 oder Art 15 erwähnten Beschlüsse, so
+                                                  erlangt der Beschluß des Bundestages in diesem
+                                                  Falle auch ohne Genehmigung des Bundesrates
                                                   Geltung.</add></item>
                                                 </list>
                                                 <fw type="pageNum">38</fw>
@@ -865,7 +871,7 @@
                                                 Bundestages und die Genehmigung des Bundesrates, im
                                                 Falle einer Volksabstimmung aber lediglich mit
                                                 Berufung auf deren Ergebnis, <note type="comment">im
-                                                  Falle der Art 36., Abs. 4, lediglich mit Berufung
+                                                  Falle der Art 36, Abs. 4, lediglich mit Berufung
                                                   auf den Beschluß des Bundestages und unter
                                                   ausdrücklicher Anführung dieser
                                                   Gesetzesbestimmung,</note>im Bundesgesetzblatt
@@ -1703,7 +1709,13 @@
                                           Bundeskommissärs unmittelbar
                                           gebunden.</p>
                                     <note type="comment">Art. 103: Den
-                                                Ländern<?oxy_comment_start author="kury.s" timestamp="20240521T105811+0200" comment="unleserlich"?><del> </del><?oxy_comment_end?> ist es untersagt, mit auswärtigen Staaten in Verhandlungen zu treten oder Staatsverträge abzuschließen. Vereinbarungen über Gegenstände ihres selbständigen Wirkungskreises können mehrere Landesregierungen untereinander nur durch Vermittlung der Bundesregierung eingehen.</note>
+                                                Ländern<?oxy_comment_start author="kury.s" timestamp="20240521T105811+0200" comment="unleserlich"?><del
+                                          > </del><?oxy_comment_end?> ist es untersagt, mit
+                                          auswärtigen Staaten in Verhandlung zu treten oder
+                                          Staatsverträge abzuschließen. Vereinbarungen über
+                                          Gegenstände ihres selbständigen Wirkungskreises können
+                                          mehrere Landesregierungen untereinander nur durch
+                                          Vermittlung der Bundesregierung eingehen.</note>
                               </div>
                         </div>
                         <div type="section">
@@ -2250,17 +2262,18 @@
                                           Der Religionsunterricht wird in Uebereinstimmung mit den Grundsätzen der betreffenden Religionsgesellschaft
                                           erteilt. </p>
                                     <p type="legal_section">Die Erteilung des religiösen
-                                          Unterrichtes bleibt der Willenserklärung
-                                          der Lehrer überlassen. Den
-                                          Religionsgesellschaften bleibt das Recht gewahrt, <choice>
+                                          Unterrichtes bleibt der Willenserklärung der Lehrer
+                                          überlassen. Den Religionsgesellschaften bleibt das Recht
+                                          gewahrt, <choice>
                                                 <del>sich</del>
                                                 <add>für</add>
                                           </choice>
                                           <choice>
                                                 <del>vom</del>
-                                                <add>dem</add>
-                                          </choice> Unterricht ihrer Religion in
-                                          den Schulen Sorge zu tragen. Dem Aufsichtsrecht des <add>Staates</add> kann dadurch kein Abbruch geschehen. </p>
+                                                <add>den</add>
+                                          </choice> Unterricht ihrer Religion in den Schulen Sorge
+                                          zu tragen. Dem Aufsichtsrecht des <add>Staates</add> kann
+                                          dadurch kein Abbruch geschehen. </p>
                                     <p type="legal_section">Die Teilnahme der Schüler an religiösen Unterrichtsfächern und an
                                           kirchlichen Feiern und Handlungen bleibt
                                           der Willenserklärung desjenigen
@@ -2307,7 +2320,8 @@
                                                 <add>bei</add>
                                           </choice> Betätigung der religiösen
                                           Ueberzeugung, in der Presse oder in
-                                          sonstigen Veröffentlichungen oder in allgemein zugänglichen Versammlungen Beschränkungen auferlegt. <choice>
+                                          sonstigen Veröffentlichungen oder in allgemein zugänglichen Versammlungen Beschränkungen auferlegt. </p>
+                                          <p type="legal_section"><choice>
                                                 <del>Auch Schutz</del>
                                                 <add>Durch Gesetz</add>
                                           </choice> wird vorgesorgt, daß den nicht
@@ -2410,10 +2424,15 @@
                                                 <del>0</del>
                                                 <add>1</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Wer durch rechtswidrige Ausübung der öffentlichen Gewalt Schaden erleidet,
-                                          hat <note type="comment">- abgesehen von dem in Art. . . . geregeltem Fall -</note>einen im
-                                          Wege der ordentlichen Gerichte geltend zu machenden Anspruch auf Entschädigung gegen den Bund oder das Land, durch dessen
-                                          Organ der <fw type="pageNum">76</fw><pb facs="#facs_51" n="51" xml:id="img_0051" break="yes"/><fw type="pageNum">- 51 -</fw>Schade zugefügt wurde. </p>
+                                    <p type="legal_section">Wer durch rechtswidrige Ausübung der
+                                          öffentlichen Gewalt Schaden erleidet, hat <note
+                                                type="comment">- abgesehen von dem in Art. . . .
+                                                geregelten Fall -</note>einen im Wege der
+                                          ordentlichen Gerichte geltend zu machenden Anspruch auf
+                                          Entschädigung gegen den Bund oder das Land, durch dessen
+                                          Organ der <fw type="pageNum">76</fw><pb facs="#facs_51"
+                                                n="51" xml:id="img_0051" break="yes"/><fw
+                                                type="pageNum">- 51 -</fw>Schade zugefügt wurde. </p>
                                     <p type="legal_section">Die nähere Regelung erfolgt durch Bundesgesetz. </p>
                               </div>
                               <div type="article">
@@ -2511,14 +2530,17 @@
                                                   <add>7</add>
                                                 </choice>. </head>
                                           <p type="legal_section">Das Bundesverwaltungsgericht und
-                                                die Landesverwaltungsgerichte haben
-                                                in der Regel nur über Beschwerden
-                                                der Parteien zu erkennen. <note type="comment">Ev. Zu<choice>
+                                                die Landesverwaltungsgerichte haben in der Regel nur
+                                                über Beschwerden der Parteien zu erkennen. <note
+                                                  type="comment">Ev. Zu<choice>
                                                   <sic>m</sic>
                                                   <corr>r</corr>
-                                                  </choice> Wahrung des Gesetzes genügt [?] bei den
-                                                  Bundes[Landes?]verwaltungsgerichten ein Bundesanwalt bei dem
-                                                  Landes[Bundes?]verw. Gerichten ein Bundesgeneralanwalt bestellt.</note></p>
+                                                  </choice> Wahrung des Gesetzes wird bei den
+                                                  Landesverwaltungsgerichten ein Bundesanwalt<choice>
+                                                  <sic>,</sic>
+                                                  <corr/>
+                                                  </choice> bei dem Bundesverw. Gericht ein
+                                                  Bundesgeneralanwalt bestellt.</note></p>
                                           <p type="legal_section">Doch kann, wenn durch eine
                                                 rechtswidrige Entscheidung oder
                                                 Verfügung einer Landesbehörde die
