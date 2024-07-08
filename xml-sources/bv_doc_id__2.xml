@@ -581,75 +581,85 @@
                                                   <del>2</del>
                                                   <add>3</add>
                                                 </choice><choice>
-                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103309+0200" comment="Nicht erkennbar"?>
-                                                  <del>X</del><?oxy_comment_end?>
+                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103309+0200" comment="Nicht erkennbar" id="ykw_dxl_zbc"?>
+                                                  <?oxy_comment_start author="zuegel.n" timestamp="20240708T143507+0200" parentID="ykw_dxl_zbc" comment="erschließbar durch Fortzählen ab Art. 20" mid="3"?>
+                                                  <del>4</del><?oxy_comment_end?><?oxy_comment_end mid="3"?>
                                                   <add>0</add>
                                                 </choice>. </head>
-                                          <p type="legal_section">Einer solchen Volksabstimmung ist ferner jedes Bundesgesetz
-                                                unterworfen hin- <fw type="pageNum">34</fw><pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/><fw type="pageNum">- 9 -</fw>sichtlich dessen dies von wenigstens
-                                                400000 Stimmenberechtigten oder von
-                                                der Mehrheit der
-                                                Stimmenberechtigten dreier Länder innerhalb 6 Wochen nach erfolgter
-                                                Kundmachung des Gesetzes gefordert
+                                          <p type="legal_section">Einer solchen Volksabstimmung ist
+                                                ferner jedes Bundesgesetz unterworfen hin- <fw
+                                                  type="pageNum">34</fw><pb facs="#facs_9" n="9"
+                                                  xml:id="img_0009" break="yes"/><fw type="pageNum"
+                                                  >- 9 -</fw>sichtlich dessen dies von wenigstens
+                                                400000 Stimmenberechtigten oder von der Mehrheit der
+                                                Stimmenberechtigten dreier Länder innerhalb 6 Wochen
+                                                nach erfolgter Kundmachung des Gesetzes gefordert
                                                 wird.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
                                                   <?oxy_comment_start author="kury.s" timestamp="20240514T103442+0200" comment="Nicht erkennbar"?>
-                                                  <del>X</del><?oxy_comment_end?>
+                                                  <del>2</del><?oxy_comment_end?>
                                                   <add>3</add>
                                                 </choice><choice>
-                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103452+0200" comment="Nicht erkennbar (gilt auch für alle Folgenden X)"?>
-                                                  <del>X</del><?oxy_comment_end?>
+                                                  <?oxy_comment_start author="kury.s" timestamp="20240514T103452+0200" comment="Nicht erkennbar (gilt auch für alle Folgenden X)" id="wjz_fxl_zbc"?>
+                                                  <?oxy_comment_start author="zuegel.n" timestamp="20240708T143544+0200" parentID="wjz_fxl_zbc" comment="erschließbar durch Fortzählung von Art. 20" mid="6"?>
+                                                  <del>5</del><?oxy_comment_end?><?oxy_comment_end mid="6"?>
                                                   <add>1</add>
                                                 </choice>. </head>
-                                          <p type="legal_section">Stimmenberechtigt ist jeder zum Bundestag wahlberechtigter
-                                                Bundesbürger. Das Bundesvolk hat
-                                                die vom Bundestag beschlossene und
-                                                vom Bundesrat genehmigte Verfassungsänderung angenommen und es hat das
-                                                bereits kundgemachte Bundesgesetz
-                                                abgelehnt, wenn die relative
-                                                Mehrheit der abgegebenen Stimmen sich für die Verfassungsänderung oder gegen das Bundesgesetz ausgesprochen hat.
-                                          </p>
+                                          <p type="legal_section">Stimmenberechtigt ist jeder zum
+                                                Bundestag wahlberechtigter Bundesbürger. Das
+                                                Bundesvolk hat die vom Bundestag beschlossene und
+                                                vom Bundesrat genehmigte Verfassungsänderung
+                                                angenommen und es hat das bereits kundgemachte
+                                                Bundesgesetz abgelehnt, wenn die relative Mehrheit
+                                                der abgegebenen Stimmen sich für die
+                                                Verfassungsänderung oder gegen das Bundesgesetz
+                                                ausgesprochen hat. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
-                                                  <del>X</del>
+                                                  <del>2</del>
                                                   <add>3</add>
                                                 </choice><choice>
-                                                  <del>X</del>
+                                                  <del>6</del>
                                                   <add>2</add>
                                                 </choice>. </head>
-                                          <p type="legal_section">Das Ergebnis der Volksabstimmung ist amtlich zu verlautbaren. Im
-                                                Falle ein Bundesgesetz durch
-                                                Volksabstimmung abgelehnt wurde,
-                                                ist seine Ausserkraftsetzung im Bundesgesetzblatt kundzumachen.</p>
+                                          <p type="legal_section">Das Ergebnis der Volksabstimmung
+                                                ist amtlich zu verlautbaren. Im Falle ein
+                                                Bundesgesetz durch Volksabstimmung abgelehnt wurde,
+                                                ist seine Ausserkraftsetzung im Bundesgesetzblatt
+                                                kundzumachen.</p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
-                                                  <del>X</del>
+                                                  <del>2</del>
                                                   <add>3</add>
                                                 </choice><choice>
-                                                  <del>X</del>
+                                                  <del>7</del>
                                                   <add>3</add>
                                                 </choice>. </head>
-                                          <p type="legal_section">Ist eine Gesamtänderung der Bundesverfassung durch
-                                                Volksabstimmung abgelehnt worden,
-                                                hat der Bundespräsident den Bundestag aufzulösen und gemäss Art. IV der Bundesverfassung Neuwahlen
-                                                auszuschreiben. </p>
+                                          <p type="legal_section">Ist eine Gesamtänderung der
+                                                Bundesverfassung durch Volksabstimmung abgelehnt
+                                                worden, hat der Bundespräsident den Bundestag
+                                                aufzulösen und gemäss Art. IV der Bundesverfassung
+                                                Neuwahlen auszuschreiben. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
-                                                  <del>X</del>
+                                                  <del>2</del>
                                                   <add>3</add>
                                                 </choice><choice>
-                                                  <del>X</del>
+                                                  <del>8</del>
                                                   <add>4</add>
                                                 </choice>. </head>
-                                          <p type="legal_section">Das Verfahren für die Volksabstimmung sowie für die in Art. XX
-                                                vorgesehene Initiative ist in dem
-                                                Gesetz über die Wahlordnung für die
-                                                Wahl zum Bundestag geregelt. <fw type="pageNum">35</fw><pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/><fw type="pageNum">- 10 - </fw></p>
+                                          <p type="legal_section">Das Verfahren für die
+                                                Volksabstimmung sowie für die in Art. XX vorgesehene
+                                                Initiative ist in dem Gesetz über die Wahlordnung
+                                                für die Wahl zum Bundestag geregelt. <fw
+                                                  type="pageNum">35</fw><pb facs="#facs_10" n="10"
+                                                  xml:id="img_0010" break="yes"/><fw type="pageNum"
+                                                  >- 10 - </fw></p>
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
@@ -746,22 +756,22 @@
                                     </div>
                                     <div type="article">
                                           <head>Art. <choice>
-                                                  <del>X</del>
+                                                  <del>3</del>
                                                   <add>2</add>
                                                 </choice><choice>
-                                                  <del>X</del>
+                                                  <del>3</del>
                                                   <add>6</add>
                                                 </choice>. </head>
                                           <p type="legal_section">Die Mitglieder des Bundesrates
-                                                bleiben bis zum Beginn der neuen Session des Bundestages, darüber hinaus aber nur
-                                                solange in Funktion, bis die
-                                                Landtage ihre Vertreter für die
+                                                bleiben bis zum Beginn der neuen Session des
+                                                Bundestages, darüber hinaus aber nur solange in
+                                                Funktion, bis die Landtage ihre Vertreter für die
                                                 neue Session des Bundestages gewählt haben. </p>
                                           <p type="legal_section">Wird ein Landtag aufgelöst,
-                                                bleiben die von ihm delegierten
-                                                Mitglieder des Bundesrates solange
-                                                in Funktion, bis der neue Landtag
-                                                die Wahl in den Bundesrat vorgenommen hat. </p>
+                                                bleiben die von ihm delegierten Mitglieder des
+                                                Bundesrates solange in Funktion, bis der neue
+                                                Landtag die Wahl in den Bundesrat vorgenommen hat.
+                                          </p>
                                     </div>
                               </div>
                               <div type="section">
@@ -870,12 +880,11 @@
                                                 erfolgt mit Berufung auf den Beschluss des
                                                 Bundestages und die Genehmigung des Bundesrates, im
                                                 Falle einer Volksabstimmung aber lediglich mit
-                                                Berufung auf deren Ergebnis, <note type="comment">im
-                                                  Falle der Art 36, Abs. 4, lediglich mit Berufung
-                                                  auf den Beschluß des Bundestages und unter
-                                                  ausdrücklicher Anführung dieser
-                                                  Gesetzesbestimmung,</note>im Bundesgesetzblatt
-                                                durch den Bundeskanzler. </p>
+                                                Berufung auf deren Ergebnis, <add>im Falle der Art
+                                                  36, Abs. 4, lediglich mit Berufung auf den
+                                                  Beschluß des Bundestages und unter ausdrücklicher
+                                                  Anführung dieser Gesetzesbestimmung,</add> im
+                                                Bundesgesetzblatt durch den Bundeskanzler. </p>
                                     </div>
                                     <div type="article">
                                           <head>Art. 39. </head>
@@ -1774,114 +1783,133 @@
                               </div>
                               <div type="article">
                                     <head>Art. 10<choice>
-                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110224+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <?oxy_comment_start author="kury.s" timestamp="20240521T110224+0200" comment="unleserlich" id="dcl_ncm_zbc"?>
+                                                <?oxy_comment_start author="zuegel.n" timestamp="20240708T151600+0200" parentID="dcl_ncm_zbc" comment="hier und im Fogenden: Durch Fortzählung erschlossen" mid="11"?>
+                                                <del>7</del><?oxy_comment_end?><?oxy_comment_end mid="11"?>
                                                 <add>8</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Der Präsident des Bundesrechnungshofes verkehrt mit dem Bundestag, dem Bundesrat und der
+                                    <p type="legal_section">Der Präsident des Bundesrechnungshofes
+                                          verkehrt mit dem Bundestag, dem Bundesrat und der
                                           Bundesregierung unmittelbar. </p>
-                                    <p type="legal_section">Er ist verpflichtet über Gegenstände seines Wirkungskreises der
-                                          Bundesversammlung und dem Bundesrate persönlich oder durch Beauftragte jederzeit
+                                    <p type="legal_section">Er ist verpflichtet über Gegenstände
+                                          seines Wirkungskreises der Bundesversammlung und dem
+                                          Bundesrate persönlich oder durch Beauftragte jederzeit
                                           Auskunft zu erteilen. </p>
-                                    <p type="legal_section">Er kann den Beratungen der Bundesregierung beigezogen werden, falls Gegenstände verhandelt werden, die den
-                                          Wirkungskreis des Bundesrechnungshofes
-                                          betreffen oder über dessen Anregung zur Verhandlung gelangen. </p>
-                                    <p type="legal_section">Ueber alle Gegenstände seines Wirk kungskreises muss der Präsident auf
-                                          Verlangen jedesmal gehört werden. </p>
+                                    <p type="legal_section">Er kann den Beratungen der
+                                          Bundesregierung beigezogen werden, falls Gegenstände
+                                          verhandelt werden, die den Wirkungskreis des
+                                          Bundesrechnungshofes betreffen oder über dessen Anregung
+                                          zur Verhandlung gelangen. </p>
+                                    <p type="legal_section">Ueber alle Gegenstände seines Wirk
+                                          kungskreises muss der Präsident auf Verlangen jedesmal
+                                          gehört werden. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 10<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T110424+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>8</del><?oxy_comment_end?>
                                                 <add>9</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Bei vorübergehender Verhinderung wird der Präsident durch den im Range nächsten Beamten des
+                                    <p type="legal_section">Bei vorübergehender Verhinderung wird
+                                          der Präsident durch den im Range nächsten Beamten des
                                           Bundesrechnungshofes vertreten. </p>
-                                    <p type="legal_section">Für den Stellvertreter gelten die Bestimmungen des Art. . . . </p>
-                                    <p type="legal_section">Ist die Stelle des Präsidenten dauernd erledigt, kann der
-                                          Stellvertreter vom Bundespräsidenten, bis
-                                          die Wahl des Präsidenten des
-                                          Bundesrechnungshofes erfolgt <fw type="pageNum">62</fw><pb facs="#facs_37" n="37" xml:id="img_0037" break="yes"/><fw type="pageNum">-
-                                                37 -</fw>ist, mit der Leitung des
-                                          Bundesrechnungshofes betraut werden. In
-                                          diesem Falle finden auch auf den
-                                          Stellvertreter die Bestimmungen des Art.
-                                          . . . . . Anwendung. </p>
+                                    <p type="legal_section">Für den Stellvertreter gelten die
+                                          Bestimmungen des Art. . . . </p>
+                                    <p type="legal_section">Ist die Stelle des Präsidenten dauernd
+                                          erledigt, kann der Stellvertreter vom Bundespräsidenten,
+                                          bis die Wahl des Präsidenten des Bundesrechnungshofes
+                                          erfolgt <fw type="pageNum">62</fw><pb facs="#facs_37"
+                                                n="37" xml:id="img_0037" break="yes"/><fw
+                                                type="pageNum">- 37 -</fw>ist, mit der Leitung des
+                                          Bundesrechnungshofes betraut werden. In diesem Falle
+                                          finden auch auf den Stellvertreter die Bestimmungen des
+                                          Art. . . . . . Anwendung. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 1<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T110528+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>09</del><?oxy_comment_end?>
                                                 <add>10</add>
                                           </choice>. </head>
                                     <p type="legal_section">Die Beamten des Bundesrechnungshofes
-                                          ernennt über Vorschlag des Präsidenten
-                                          der Bundespräsident. Doch kann der Bundespräsident den Prasidenten des Bundesrechnungshofes ermächtigen, Beamte
-                                          bestimmter Rangsklassen nach Anhören des
-                                          Gremiums zu ernennen. </p>
-                                    <p type="legal_section">Auf die letzterwähnte Weise sind alle übrigen Stellen zu besetzen.
-                                    </p>
+                                          ernennt über Vorschlag des Präsidenten der
+                                          Bundespräsident. Doch kann der Bundespräsident den
+                                          Prasidenten des Bundesrechnungshofes ermächtigen, Beamte
+                                          bestimmter Rangsklassen nach Anhören des Gremiums zu
+                                          ernennen. </p>
+                                    <p type="legal_section">Auf die letzterwähnte Weise sind alle
+                                          übrigen Stellen zu besetzen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 11<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T110602+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>0</del><?oxy_comment_end?>
                                                 <add>1</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Kein Mitglied des Bundesrechnungshofes darf an der Leitung und Verwaltung
-                                          von Unternehmungen, die dem Bunde oder
-                                          den Ländern Rechnung zu legen haben oder
-                                          zum Bunde oder einem Lande in einem
-                                          Subventions- oder Vertragsverhältnisse stehen, beteiligt sein. Ausgenommen sind
-                                          Unternehmungen, die ausschliesslich die
-                                          Förderung humaner Bestrebungen oder der
-                                          wirtschaftlichen Verhältnisse von
-                                          öffentlichen Beamten oder deren
+                                    <p type="legal_section">Kein Mitglied des Bundesrechnungshofes
+                                          darf an der Leitung und Verwaltung von Unternehmungen, die
+                                          dem Bunde oder den Ländern Rechnung zu legen haben oder
+                                          zum Bunde oder einem Lande in einem Subventions- oder
+                                          Vertragsverhältnisse stehen, beteiligt sein. Ausgenommen
+                                          sind Unternehmungen, die ausschliesslich die Förderung
+                                          humaner Bestrebungen oder der wirtschaftlichen
+                                          Verhältnisse von öffentlichen Beamten oder deren
                                           Angehörigen zum Zwecke haben. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 11<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T110634+0200" comment="unlöeserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>1</del><?oxy_comment_end?>
                                                 <add>2</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Alle Urkunden über Staatsschulden (Finanz- und Verwaltungsschulden) sind
-                                          vom Präsidenten des Bundesrechnungshofes
-                                                gegen- <fw type="pageNum">63</fw><pb facs="#facs_38" n="38" xml:id="img_0038" break="yes"/><fw type="pageNum">- 38 - </fw>zuzeichnen; durch diese Gegenzeichnung wird lediglich die Gesetzmässigkeit und rechnungsmässige Richtigkeit der Gebarung bekräftigt. </p>
+                                    <p type="legal_section">Alle Urkunden über Staatsschulden
+                                          (Finanz- und Verwaltungsschulden) sind vom Präsidenten des
+                                          Bundesrechnungshofes gegen- <fw type="pageNum">63</fw><pb
+                                                facs="#facs_38" n="38" xml:id="img_0038" break="yes"
+                                                /><fw type="pageNum">- 38 - </fw>zuzeichnen; durch
+                                          diese Gegenzeichnung wird lediglich die Gesetzmässigkeit
+                                          und rechnungsmässige Richtigkeit der Gebarung bekräftigt.
+                                    </p>
                               </div>
                               <div type="article">
                                     <head>Art. 11<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T110918+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>2</del><?oxy_comment_end?>
                                                 <add>3</add>
                                           </choice>. </head>
                                     <p type="legal_section">Bei der Ueberprüfung der seiner
-                                          Kontrolle unterstellten Gebarung hat der Bundesrechnungshof sein Hauptaugenmerk darauf zu richten, ob die Gebarung den Gesetzen und sonstigen Vorschriften entspricht dann ob sie ökonomisch und zweckmässig ist. Keinesfalls darf er sich bloss
-                                          auf eine ziffernmässige Nachprüfung
-                                          beschränken. </p>
+                                          Kontrolle unterstellten Gebarung hat der
+                                          Bundesrechnungshof sein Hauptaugenmerk darauf zu richten,
+                                          ob die Gebarung den Gesetzen und sonstigen Vorschriften
+                                          entspricht dann ob sie ökonomisch und zweckmässig ist.
+                                          Keinesfalls darf er sich bloss auf eine ziffernmässige
+                                          Nachprüfung beschränken. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 11<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T110940+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>3</del><?oxy_comment_end?>
                                                 <add>4</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Der Bundesrechnungshof ist gegenüber den anweisenden Behörden und den
-                                          diesen unterstehenden Stellen, dann
-                                          gegenüber den im Art. . . . bezeichneten
-                                          Vermögens- und Körperschaften berechtigt,
-                                          zur Ueberprüfung der Gebarung.<list>
+                                    <p type="legal_section">Der Bundesrechnungshof ist gegenüber den
+                                          anweisenden Behörden und den diesen unterstehenden
+                                          Stellen, dann gegenüber den im Art. . . . bezeichneten
+                                          Vermögens- und Körperschaften berechtigt, zur Ueberprüfung
+                                          der Gebarung.<list>
                                                 <label>a) </label>
-                                                <item> die Einsendung von Rechnungsbelegen und Behelfen (Geschäftsstücke,
-                                                  Verträge u. s. w.) zu verlangen, </item>
+                                                <item> die Einsendung von Rechnungsbelegen und
+                                                  Behelfen (Geschäftsstücke, Verträge u. s. w.) zu
+                                                  verlangen, </item>
                                                 <label>b) </label>
-                                                <item>durch Beauftragte an Ort und Stelle in die mit der Gebarung der
-                                                  betreffenden Stelle im
-                                                  Zusammenhange stehenden Behelfe Einschau zu nehmen. </item>
+                                                <item>durch Beauftragte an Ort und Stelle in die mit
+                                                  der Gebarung der betreffenden Stelle im
+                                                  Zusammenhange stehenden Behelfe Einschau zu
+                                                  nehmen. </item>
                                                 <label>c) </label>
-                                                <item>die Vornahme von Lokalerhebungen durch die Verwaltungsbehörden
-                                                  anzuordnen und an diesen
-                                                  Amtshandlungen durch Beauftragte teilzunehmen. </item>
+                                                <item>die Vornahme von Lokalerhebungen durch die
+                                                  Verwaltungsbehörden anzuordnen und an diesen
+                                                  Amtshandlungen durch Beauftragte teilzunehmen.
+                                                </item>
                                           </list><fw type="pageNum">64</fw></p>
                               </div>
                               <div type="article">
@@ -1889,37 +1917,38 @@
                                     <fw type="pageNum">- 39 - </fw>
                                     <head>Art. 11<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T111025+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>4</del><?oxy_comment_end?>
                                                 <add>5</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Die der Bundesregierung sowie die den Landesregierungen
-                                          unterstehenden Stellen haben den
-                                          Anordnungen, die der Bundesrechnungshof
-                                          bei der ihm zustehenden Ueberprüfung
-                                          trifft, Folge zu leisten. In
-                                          Angelegenheiten, die die Bundesämter oder
-                                          die Landesregierungen - letztere innerhalb ihres selbständigen Wirkungskreisesselbst betreffen, hat der Bundesrechnungshof mit diesen Behörden das Einvernehmen zu pflegen.</p>
+                                    <p type="legal_section">Die der Bundesregierung sowie die den
+                                          Landesregierungen unterstehenden Stellen haben den
+                                          Anordnungen, die der Bundesrechnungshof bei der ihm
+                                          zustehenden Ueberprüfung trifft, Folge zu leisten. In
+                                          Angelegenheiten, die die Bundesämter oder die
+                                          Landesregierungen - letztere innerhalb ihres selbständigen
+                                          Wirkungskreisesselbst betreffen, hat der
+                                          Bundesrechnungshof mit diesen Behörden das Einvernehmen zu
+                                          pflegen.</p>
                               </div>
                               <div type="article">
                                     <head>Art. 11<choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T111048+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>5</del><?oxy_comment_end?>
                                                 <add>6</add>
                                           </choice>. </head>
-                                    <p type="legal_section">Der Bundesrechnungshof hat für ein zweckmässiges und möglichst
-                                          einfaches Rechnungsverfahren zu sorgen
-                                          und dabei stets das Einvernehmen mit dem
-                                          Bundesamte der Finanzen bezw. mit den
-                                          Landesregierungen zu pflegen. Falls eine
-                                          Anordnung dieser Art die innere
-                                          Einrichtung einer Verwaltungsstelle
-                                          berührt, hat der Bundesrechnungshof auch
-                                          das Einvernehmen mit dem zuständigen
-                                          Bundesamte bezw. der zuständigen
+                                    <p type="legal_section">Der Bundesrechnungshof hat für ein
+                                          zweckmässiges und möglichst einfaches Rechnungsverfahren
+                                          zu sorgen und dabei stets das Einvernehmen mit dem
+                                          Bundesamte der Finanzen bezw. mit den Landesregierungen zu
+                                          pflegen. Falls eine Anordnung dieser Art die innere
+                                          Einrichtung einer Verwaltungsstelle berührt, hat der
+                                          Bundesrechnungshof auch das Einvernehmen mit dem
+                                          zuständigen Bundesamte bezw. der zuständigen
                                           Landesregierung zu pflegen. </p>
-                                    <p type="legal_section">Grundsätzliche Aenderungen im Rechnungs- und Kassenwesen dürfen nur
-                                          im Einvernehmen mit dem
-                                          Bundesrechnungshofe getroffen werden. <fw type="pageNum">65</fw></p>
+                                    <p type="legal_section">Grundsätzliche Aenderungen im Rechnungs-
+                                          und Kassenwesen dürfen nur im Einvernehmen mit dem
+                                          Bundesrechnungshofe getroffen werden. <fw type="pageNum"
+                                                >65</fw></p>
                               </div>
                               <div type="article">
                                     <pb facs="#facs_40" n="40" xml:id="img_0040" break="yes"/>
@@ -2150,17 +2179,18 @@
                                           Religionsgesellschaft zu fragen, als
                                           davon Rechte und Pflichten abhängen,<?oxy_comment_start author="kury.s" timestamp="20240521T114828+0200" comment="unleserlich"?><add>X</add><?oxy_comment_end?>
                                           wenn eine gesetzlich angeordnete statistische Erhebung dies erfordert. </p>
-                                    <p type="legal_section">In diesem Sinne ist durch Bundesgesetz die Führung der Standesregister
-                                          zu regeln. <fw type="pageNum">70</fw><pb facs="#facs_45" n="45" xml:id="img_0045" break="yes"/><fw type="pageNum">-
+                                    <p type="legal_section">In diesem Sinne ist durch Bundesgesetz
+                                          die Führung der Standesregister zu regeln. <fw
+                                                type="pageNum">70</fw><pb facs="#facs_45" n="45"
+                                                xml:id="img_0045" break="yes"/><fw type="pageNum">-
                                                 45 - </fw>Niemand darf <choice>
                                                 <?oxy_comment_start author="kury.s" timestamp="20240521T114921+0200" comment="unleserlich"?>
-                                                <del>X</del><?oxy_comment_end?>
+                                                <del>[unleserlich]</del><?oxy_comment_end?>
                                                 <add>zu</add>
-                                          </choice> einer kirchlichen Handlung, zur
-                                          Teilnahme an einer kirchlichen Feierlichkeit<del>,</del> oder an religiösen
-                                          Uebungen oder zur Benützung einer
-                                          religiösen Eidesformel gezwungen werden.
-                                    </p>
+                                          </choice> einer kirchlichen Handlung, zur Teilnahme an
+                                          einer kirchlichen Feierlichkeit<del>,</del> oder an
+                                          religiösen Uebungen oder zur Benützung einer religiösen
+                                          Eidesformel gezwungen werden. </p>
                               </div>
                               <div type="article">
                                     <head>Art. 13<choice>
