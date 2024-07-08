@@ -100,13 +100,13 @@
                         </date>
                   </creation>
             </profileDesc>
-            <revisionDesc status="created">
+            <revisionDesc status="text_correct">
                   <change when="2024-02-27" who="#cfh">document automatically created</change>
                   <change when="2024-04-05" who="#m_huber">all div for articles and sections
                         generated</change>
                   <change when="2024-05-31" who="#m_huber">formatting completed</change>
                   <change when="2024-04-19" who="#m_huber">fixed headings</change>
-                  <change when="2024-07-02" who="#s_kury">gegengelesen bis Artikel XVIII</change>
+                  <change when="2024-07-08" who="#s_kury">gegengelesen beendet</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
