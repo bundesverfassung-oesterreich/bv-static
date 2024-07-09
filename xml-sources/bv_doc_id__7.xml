@@ -107,6 +107,7 @@
                   <change when="2024-04-05" who="#m_huber">all div for articles and sections
                         generated</change>
                   <change when="2024-05-23" who="#m_huber">formatting completed</change>
+                  <change when="2024-07-09" who="#s_kury">Gegengelesen bis Art. XXVI</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -298,8 +299,8 @@
                                           Glaubens- und Gewissensfreiheit
                                           zugänglich. </p>
                                     <p type="legal_section">Niemand ist gehalten Abgaben zu leisten,
-                                          welche für Kultuszwekke einer
-                                          Religionsgesellschaft, der er nicht angehört, auferlegt werden. </p>
+                                          welche für Kultuszwecke einer Religionsgesellschaft, der
+                                          er nicht angehört, auferlegt werden. </p>
                                     <p type="legal_section">Die freie Ausübung gottesdienstlicher
                                           Handlungen ist innerhalb der Schranken
                                           der Sittlichkeit und der öffentlichen Ordnung gewährleistet.</p>
@@ -338,36 +339,43 @@
                                     <fw type="pageNum">- 5 -</fw>
                                     <head>Art. XII. </head>
                                     <p type="legal_section">Alle Bundesglieder sind verpflichtet,
-                                          die Angehörigen des Bundesstaates sowohl
-                                          in der Gesetzgebung als auch in der Verwaltung und vor den Gerichten ohne Rücksicht auf ihre
-                                          Landes- und Gemeindezuständigkeit den
-                                          eigenen Angehörigen gleichzustellen. Die Freizügigkeit ist allen Angehörigen des Bundestaates
-                                          innerhalb seiner Grenzen gewährleistet.
-                                          Niemand kann in mehr als einem Gebiete eines Bundesgliedes politische Rechte ausüben. </p>
+                                          die Angehörigen des Bundesstaates sowohl in der
+                                          Gesetzgebung als auch in der Verwaltung und vor den
+                                          Gerichten ohne Rücksicht auf ihre Landes- und
+                                          Gemeindezuständigkeit den eigenen Angehörigen
+                                          gleichzustellen. Die Freizügigkeit ist allen Angehörigen
+                                          des Bundes<choice>
+                                                <sic/>
+                                                <corr>s</corr>
+                                          </choice>taates innerhalb seiner Grenzen gewährleistet.
+                                          Niemand kann in mehr als einem Gebiete eines Bundesgliedes
+                                          politische Rechte ausüben. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XIII. </head>
                                     <p type="legal_section">Die Freiheit des Handels und der Gewerbe
-                                          ist im ganzen Umfange des Bundestaates
-                                          gewährleistet, soweit nicht Bundesgesetze oder auf Grund von Bundesgesetzen erlassene
-                                          Verordnungen eine Einschränkung bedingen.
-                                    </p>
+                                          ist im ganzen Umfange des Bundesstaates gewährleistet,
+                                          soweit nicht Bundesgesetze oder auf Grund von
+                                          Bundesgesetzen erlassene Verordnungen eine Einschränkung
+                                          bedingen. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XIV.</head>
                                     <p type="legal_section">In die Zuständigkeit des Bundes fallen: <list>
                                                 <label>1.) </label>
                                                 <item> Die auswärtigen Angelegenheiten mit Einschluß
-                                                  der diplomatischen und
-                                                  kommerziellen Vertretung dem Auslande gegen über, die Zollgesetzgebung, die
-                                                  Prüfung und Genehmigung der
-                                                  Handelsverträge und jener Staatsverträge, die den
-                                                  Bundesstaat oder Teile des
-                                                  Bundesstaates belasten oder eine Gebietsänderung des Bundes oder seiner
-                                                  Bundesglieder zum Gegenstande
-                                                  haben; Grenzverschiebungen zwischen den einzelnen Bundesgliedern sind, wenn dadurch
-                                                  die Auslandsgrenzen nicht berührt
-                                                  werden, der Bundesgewalt lediglich zur Kenntnis zu bringen. </item>
+                                                  der diplomatischen und kommerziellen Vertretung
+                                                  dem Auslande gegenüber, die Zollgesetzgebung, die
+                                                  Prüfung und Genehmigung der Handelsverträge und
+                                                  jener Staatsverträge, die den Bundesstaat oder
+                                                  Teile des Bundesstaates belasten oder eine
+                                                  Gebietsänderung des Bundes oder seiner
+                                                  Bundesglieder zum Gegenstande haben;
+                                                  Grenzverschiebungen zwischen den einzelnen
+                                                  Bundesgliedern sind, wenn dadurch die
+                                                  Ausland<del>s</del>grenzen nicht berührt werden,
+                                                  der Bundesgewalt lediglich zur Kenntnis zu
+                                                  bringen. </item>
                                                 <label>2.) </label>
                                                 <item>  Die Entscheidung über Krieg und Frieden. </item>
                                                 <label>3.) </label>
@@ -399,9 +407,9 @@
                                                 <item>Die Zivil- und Strafgesetzgebung mit Einschluß
                                                   des Handels-, Wechsel-, Berg- und Lehenrechtes,
                                                   dann des Zivil- und Strafprozeßrechtes <add>und
-                                                  des Polizeistrafrechtes, </add>jedoch mit Ausnahme
-                                                  der Gesetzgebung über die öffentlichen Bücher und
-                                                  über die Bildung der Gerichts- und
+                                                  des Polizeistrafrechtes, </add> jedoch mit
+                                                  Ausnahme der Gesetzgebung über die öffentlichen
+                                                  Bücher und über die Bildung der Gerichts- und
                                                   Verwaltungsbezirke innerhalb des Gebietes der
                                                   einzelnen Glieder des Bundes. Die Gesetzgebung
                                                   über die Erlangung öffentlicher Aemter steht dem
@@ -419,14 +427,15 @@
                                                   <pb facs="#facs_8" n="8" xml:id="img_0008" break="yes"/><fw type="pageNum">- 7 -</fw></item>
                                                 <label>7.)</label>
                                                 <item>Die Gesetzgebung über das Kredit- und
-                                                  Bankwesen mit Ausnahme des
-                                                  landwirtschaftlichen Kreditwesens
-                                                  (Raiffeisenkassen, landwirtschaftliche Vorschußkassen u.A.) dann die
-                                                  Privilegien- und
-                                                  Gewerbegesetzgebung, die Gesetzhebung über Maß und Gewicht, über Marken- und
-                                                  Musterschutz, die Gesetzgebung über Fabriken, über Kranken-, Unfall- und
-                                                  Altersversorgung der Arbeiter und
-                                                  die damit zusammenhängenden Unterstützungs und Hilfskassen.  </item>
+                                                  Bankwesen mit Ausnahme des landwirtschaftlichen
+                                                  Kreditwesens (Raiffeisenkassen,
+                                                  landwirtschaftliche Vorschußkassen u.A.) dann die
+                                                  Privilegien- und Gewerbegesetzgebung, die
+                                                  Gesetzgebung über Maß und Gewicht, über Marken-
+                                                  und Musterschutz, die Gesetzgebung über Fabriken,
+                                                  über Kranken-, Unfall- und Altersversorgung der
+                                                  Arbeiter und die damit zusammenhängenden
+                                                  Unterstützungs und Hilfskassen. </item>
                                                 <label>8.)</label>
                                                 <item>Die Gesetzgebung über die Sozialisierung der
                                                   Gütererzeugung. </item>
@@ -497,21 +506,26 @@
                               </div>
                               <div type="article">
                                     <head>Art. XVII. </head>
-                                    <p type="legal_section">Gesetzbeschlüsse der Landtage oder des
-                                          Wiener Gemeinderates können wegen
-                                          Verfassungswidrigkeit (Art. VI bis XIV) von der Staatsregierung binnen 14 Tagen nach Einlangen
-                                          der Mitteilung, und wenn gegen diese
-                                          Beschlüsse im Sinne des Art. XVI zunächst eine Vorstellung erhoben worden ist, nach Ablauf
-                                          weiterer 14 Tage beim Verfassungsgerichtshofe angefochten werden; diese Anfechtung
-                                          ist der Landesregierung unverzüglich auf
-                                          dem kürzesten Wege mitzuteilen. Die Kundmachung des angefochtenen Beschlusses darf erst
-                                          erfolgen, wenn der Gerichtshof dessen
-                                          Verfassungsmässigkeit anerkannt hat; der <fw type="pageNum">30</fw><pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/><fw type="pageNum">-
+                                    <p type="legal_section">Gesetz<choice>
+                                                <sic/>
+                                                <corr>es</corr>
+                                          </choice>beschlüsse der Landtage oder des Wiener
+                                          Gemeinderates können wegen Verfassungswidrigkeit (Art. VI
+                                          bis XIV) von der Staatsregierung binnen 14 Tagen nach
+                                          Einlangen der Mitteilung, und wenn gegen diese Beschlüsse
+                                          im Sinne des Art. XVI zunächst eine Vorstellung erhoben
+                                          worden ist, nach Ablauf weiterer 14 Tage beim
+                                          Verfassungsgerichtshofe angefochten werden; diese
+                                          Anfechtung ist der Landesregierung unverzüglich auf dem
+                                          kürzesten Wege mitzuteilen. Die Kundmachung des
+                                          angefochtenen Beschlusses darf erst erfolgen, wenn der
+                                          Gerichtshof dessen Verfassungsmässigkeit anerkannt hat;
+                                          der <fw type="pageNum">30</fw><pb facs="#facs_10" n="10"
+                                                xml:id="img_0010" break="yes"/><fw type="pageNum">-
                                                 9 -</fw>Verfassungsgerichtshof hat binnen
-                                          Monatsfrist das Erkenntnis zu fällen,
-                                          widrigens die Kundmachung des angefochtenen
-                                          Gesetzesbeschlusses mit einstweiliger
-                                          voller Rechtswirkung erfolgen kann. </p>
+                                          Monatsfrist das Erkenntnis zu fällen, widrigens die
+                                          Kundmachung des angefochtenen Gesetzesbeschlusses mit
+                                          einstweiliger voller Rechtswirkung erfolgen kann. </p>
                                     <p type="legal_section">Das gleiche Anfechtungsrecht wegen
                                           Verfassungswidrigkeit der Bundesgesetze
                                           und Bundesbeschlüsse steht auch den Landtagen (dem Wiener Gemeinderat) und wenn diese
@@ -527,13 +541,13 @@
                                                 <item> durch das Ständehaus.</item>
                                           </list></p>
                                     <p type="legal_section">a). Die Bundesversammlung besteht aus
-                                          den von allen zu den Landtagen und zum
-                                          Gemeinderate der Bundeshauptstadt Wien Wahlberechtigten nach dem Verhältniswahlverfahren
-                                          gewählten Abgeordneten. Die Einteilung
-                                          der Wahlkreise unter Wahrung der Gebietsgrenzen der
-                                          inzelnen Bundesglieder und das Wahlverfahren wird durch
-                                          besonderes Gesetz, das einen Bestandteil
-                                          der Bundesverfassung bildet, geregelt. </p>
+                                          den von allen zu den Landtagen und zum Gemeinderate der
+                                          Bundeshauptstadt Wien Wahlberechtigten nach dem
+                                          Verhältniswahlverfahren gewählten Abgeordneten. Die
+                                          Einteilung der Wahlkreise unter Wahrung der Gebietsgrenzen
+                                          der einzelnen Bundesglieder und das Wahlverfahren wird
+                                          durch besonderes Gesetz, das einen Bestandteil der
+                                          Bundesverfassung bildet, geregelt. </p>
                                     <p type="legal_section">Die Anzahl der aus jedem Wahlkreise zur
                                           Bundesversammlung zu wählenden
                                           Abgeordneten richtet sich nach der Anzahl der Bewohner zur Zeit der jeweilig letzten
@@ -576,24 +590,26 @@
                               <div type="article">
                                     <head>Art. XXI.</head>
                                     <p type="legal_section">Bundesgesetze kommen durch den
-                                          übereinstimmenden Beschluß der
-                                          Bundesversammlung und des Ständehauses zusammen; die Feststellung der Voranschläge des
-                                          Bundeshaushaltes, die Prüfung der
+                                          übereinstimmenden Beschluß der Bundesversammlung und des
+                                          Ständehauses zusammen; die Feststellung der Voranschläge
+                                          des Bundeshaushaltes, die Prüfung der
                                           Staatsrechnungsabschlüsse und die Erteilung der
-                                          Entlastung, die Aufnahme von
-                                          Bundesanlehen, die Umwandlung der bestehenden Staatsschulden, die Verwaltung,
-                                          Veräußerung oder Belastung des Bundesvermögens und die Gesetzgebung über Steuern,
-                                          Abgaben und Gefälle (diese in den
-                                          Schranken des Art. XIV,Z.4) steht ausschliessend der Bundesversammlung zu. <fw type="pageNum">32</fw><pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/><fw type="pageNum">-
-                                                11 -</fw>
+                                          Entlastung, die Aufnahme von Bundesanlehen, die Umwandlung
+                                          der bestehenden Staatsschulden, die Verwaltung,
+                                          Veräußerung oder Belastung des Bundesvermögens und die
+                                          Gesetzgebung über Steuern, Abgaben und Gefälle (diese in
+                                          den Schranken des Art. XIV, Z.4) steht ausschliessend der
+                                          Bundesversammlung zu. <fw type="pageNum">32</fw><pb
+                                                facs="#facs_12" n="12" xml:id="img_0012" break="yes"
+                                                /><fw type="pageNum">- 11 -</fw>
                                     </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXII. </head>
-                                    <p type="legal_section">Zu einem giltigen Beschlüsse ist in
-                                          beiden Vertretungskörpern des Bundes die
-                                          einfache Mehrheit der in beschlußfähiger Anzahl anwesenden Mitglieder erfordert,
-                                          insoferne nicht die Gesetze abweichende
+                                    <p type="legal_section">Zu einem giltigen Beschlusse ist in
+                                          beiden Vertretungskörpern des Bundes die einfache Mehrheit
+                                          der in beschlußfähiger Anzahl anwesenden Mitglieder
+                                          erfordert, insoferne nicht die Gesetze abweichende
                                           Bestimmungen treffen. </p>
                                     <p type="legal_section">Die Beschlußfähigkeit der
                                           Bundesversammlung richtet sich nach dem
@@ -627,9 +643,10 @@
                               <div type="article">
                                     <head>Art. XXV. </head>
                                     <p type="legal_section">Bundesgesetze, sowie allgemein
-                                          verbindliche Bundesbeschlüsse sind dem
-                                          Volke zur Annahme oder Verwerfung vorzulegen, wenn es von fünfzigtausend Rundesbürgern oder
-                                          von drei Bundesgliedern verlangt wird.<fw type="pageNum">33</fw></p>
+                                          verbindliche Bundesbeschlüsse sind dem Volke zur Annahme
+                                          oder Verwerfung vorzulegen, wenn es von fünfzigtausend
+                                          Bundesbürgern oder von drei Bundesgliedern verlangt
+                                                wird.<fw type="pageNum">33</fw></p>
                                     <p type="legal_section"><pb facs="#facs_13" n="13" xml:id="img_0013" break="yes"/><fw type="pageNum">-
                                                 12</fw>Die Durchführung der Volksabstimmung und
                                           die Frist zur Einbringung dieses
@@ -638,8 +655,8 @@
                               <div type="article">
                                     <head>Art. XXVI. </head>
                                     <p type="legal_section">Die Sitzungen der Bundesversammlung und
-                                          des Ständehauses sind in der Regel
-                                          öffentlich. Artikelfehler </p>
+                                          des Ständehauses sind in der Regel öffentlich.
+                                                <add>Artikelfehler </add></p>
                               </div>
                               <div type="article">
                                     <head>Art.
