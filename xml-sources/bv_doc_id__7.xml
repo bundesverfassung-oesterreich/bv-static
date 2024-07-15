@@ -655,12 +655,12 @@
                               <div type="article">
                                     <head>Art. XXVI. </head>
                                     <p type="legal_section">Die Sitzungen der Bundesversammlung und
-                                          des Ständehauses sind in der Regel öffentlich.
-                                                <add>Artikelfehler </add></p>
+                                          des Ständehauses sind in der Regel öffentlich.</p>
+                                    <note type="comment">1 Artikel fehlt</note>
                               </div>
                               <div type="article">
                                     <head>Art.
-                                          <?oxy_comment_start author="kury.s" timestamp="20240701T154947+0200" comment="Ab hier Zählfehler - wie damit umgehen? (1) sic; (2) Editorennotiz als EdFN wie in Ermacora IV, S. 517"?>XXVIII<?oxy_comment_end?>.</head>
+                                          <?oxy_comment_start author="kury.s" timestamp="20240701T154947+0200" comment="Ab hier Zählfehler - wie damit umgehen? (1) sic; (2) Editorennotiz als EdFN wie in Ermacora IV, S. 517 (vorläufig entschieden Nummerierung so beizubehalten)"?>XXVIII<?oxy_comment_end?>.</head>
                                     <p type="legal_section">Die oberste vollziehende und leitende
                                           Verwaltungsbehörde des Bundesstaates ist der Bundesrat,
                                           der aus Mitgliedern besteht. Die Mitglieder werden von der
@@ -673,19 +673,19 @@
                                           besetzt. </p>
                                     <p type="legal_section">Die Mitglieder des Bundesrates dürfen
                                           keine andere dienstliche Stellung, sei es im Dienste des
-                                          Bundesstaates, sein es im Dienste eines der Bundesglieder
+                                          Bundesstaates, sei es im Dienste eines der Bundesglieder
                                           bekleiden, noch irgend einen anderen Beruf oder ein
                                           Gewerbe ausüben.</p>
                               </div>
                               <div type="article">
                                     <head>Art. XXIX. </head>
                                     <p type="legal_section">Den Vorsitz im Bundesrate führt der
-                                          Bundespräsident, der aus seinen
-                                          Mitgliedern von der Bundesversammlung für die Dauer von 3 Jahren gewählt wird; das gleiche
-                                          gilt für die Wahl seines Stellvertreters
-                                          im Vorsitze. Um giltig verhandeln und beschliessen zu können, ist die Anwesenheit von
-                                          wenigstens Mitgliedern des Bundesrates
-                                          notwendig. </p>
+                                          Bundespräsident, der aus seinen Mitgliedern von der
+                                          Bundesversammlung für die Dauer von 3 Jahren gewählt wird;
+                                          das gleiche gilt für die Wahl seines Stellvertreters im
+                                          Vorsitze. Um giltig verhandeln und beschliessen zu können,
+                                          ist die Anwesenheit von wenigstens      Mitgliedern des
+                                          Bundesrates notwendig. </p>
                               </div>
                               <div type="article">
                                     <head>Art. XXX. </head>
@@ -713,8 +713,7 @@
                                                   Zuständigkeit der Bundesgewalt;  </item>
                                                 <label>2. </label>
                                                 <item> er hat die Beobachtung der Verfassung, der
-                                                  Gesetze und Beschlüsse des Bundes
-                                                  zu überwachen: </item>
+                                                  Gesetze und Beschlüsse des Bundes zu überwachen; </item>
                                                 <label> 3.</label>
                                                 <item>er schlägt der Bundesversammlung oder dem
                                                   Ständehause oder beiden
@@ -728,11 +727,11 @@
                                                   Beschlüsse; </item>
                                                 <label>5. </label>
                                                 <item> er wahrt die Interessen des Bundesstaates
-                                                  nach Aussen und besorgt alle
-                                                  auswärtigen Angelegenheiten, er wacht für die
-                                                  äussere Sicherheit und für die
-                                                  Behauptung der Unabhängigkeit des Bundesstaates; er vertritt den Staat im
-                                                  Völkerbunde, </item>
+                                                  nach Aussen und besorgt alle auswärtigen
+                                                  Angelegenheiten, er wacht für die äussere
+                                                  Sicherheit und für die Behauptung der
+                                                  Unabhängigkeit des Bundesstaates; er vertritt den
+                                                  Staat im Völkerbunde. </item>
                                                 <label>6. </label>
                                                 <item> er sorgt für die öffentliche Sicherheit im
                                                   Innern des Staates und für die
@@ -742,11 +741,18 @@
                                                   aller Beamten und Angestellten
                                                   der bundesstaatlichen Verwaltung;  </item>
                                                 <label>8.</label>
-                                                <item>er erstattet der Bundesversamllung bei ihrer
-                                                  ordentlichen Tagung Rechenschaft
-                                                  über seine Tätigkeit, sowie einen Bericht über <fw type="pageNum">35</fw><pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/><fw type="pageNum">- 14 </fw>die Gesamtlage des
-                                                  Bundesstaates im Innern und nach Aussen; er hat auch besondere Berichte zu
-                                                  erstatten, wenn die Bundesversammlung oder das Ständehaus es verlangen. </item>
+                                                <item>er erstattet der Bundesversam<choice>
+                                                  <sic>l</sic>
+                                                  <corr>m</corr>
+                                                  </choice>lung bei ihrer ordentlichen Tagung
+                                                  Rechenschaft über seine Tätigkeit, sowie einen
+                                                  Bericht über <fw type="pageNum">35</fw><pb
+                                                  facs="#facs_15" n="15" xml:id="img_0015"
+                                                  break="yes"/><fw type="pageNum">- 14 -</fw>die
+                                                  Gesamtlage des Bundesstaates im Innern und nach
+                                                  Aussen; er hat auch besondere Berichte zu
+                                                  erstatten, wenn die Bundesversammlung oder das
+                                                  Ständehaus es verlangen. </item>
                                           </list></p>
                                     <p type="legal_section">Für seine gesamte Amtsführung ist er der
                                           Bundesversammlung verantwortlich. </p>
@@ -792,19 +798,18 @@
                                           Bundesverfassung ist erforderlich <list>
                                                 <label>1./ </label>
                                                 <item> ein mit zwei Drittel Mehrheit der in
-                                                  beschlußfähiger Anzahl versammelten Bundesversammlung gefasster
-                                                  Beschluß auf Aenderung der
-                                                  Verfassung:  </item>
-                                                <label>2.</label>
+                                                  beschlußfähiger Anzahl versammelten
+                                                  Bundesversammlung gefasster Beschluß auf Aenderung
+                                                  der Verfassung; </item>
+                                                <label>2./</label>
                                                 <item> ein mit wenigstens vier Stimmen gefasster
-                                                  gleichlautender Beschluß des
-                                                  Ständehauses:  </item>
-                                                <label>3.</label>
+                                                  gleichlautender Beschluß des Ständehauses; </item>
+                                                <label>3./</label>
                                                 <item>die Annahme dieses Beschlusses durch das Volk
                                                   in einer allgemeinen, vom Bundesrate binnen sechs
-                                                  Monaten auf einen Sonntag auszuschreibenden Volksabstimmung durch die
-                                                  Mehrheit der giltig abgegebenen
-                                                  Stimmen.  </item>
+                                                  Monaten auf einen Sonntag auszuschreibenden
+                                                  Volksabstimmung durch die Mehrheit der giltig
+                                                  abgegebenen Stimmen. </item>
                                           </list></p>
                                     <p type="legal_section">Jeder zu den Wahlen in die Landtage (den
                                           Wiener Gemeinderat) Wahlberechtigte hat
