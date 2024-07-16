@@ -1,6 +1,6 @@
-from lxml import etree
-from lxml import html
+from lxml import etree, html
 import requests as req
+
 template_path = "html/index.html"
 docu_path = "html/xml_docu.html"
 
@@ -26,4 +26,11 @@ if template_container is not None and docu_nav_html is not None and docu_html is
 
 
 with open(docu_path, 'wb') as output_file:
-    output_file.write(etree.tostring(template_html, pretty_print=True, method="html"))
+    print(f"creating {docu_path}")
+    output_file.write(
+        etree.tostring(
+            template_html,
+            pretty_print=True,
+            method="html"
+        )
+    )
