@@ -102,12 +102,12 @@
                               1919 </date>
                   </creation>
             </profileDesc>
-            <revisionDesc status="created">
+            <revisionDesc status="text_correct">
                   <change when="2024-02-27" who="#cfh">document automatically created</change>
                   <change when="2024-04-05" who="#m_huber">all div for articles and sections
                         generated</change>
                   <change when="2024-05-23" who="#m_huber">formatting completed</change>
-                  <change when="2024-07-09" who="#s_kury">Gegengelesen bis Art. XXVI</change>
+                  <change when="2024-07-16" who="#s_kury">Gegengelesen beendet</change>
             </revisionDesc>
       </teiHeader>
       <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -829,18 +829,20 @@
                                           Volksabstimmung die Frage vorzulegen, ob die Bundesverfassung als Ganzes genehmigt
                                           oder abgelehnt wird. </p>
                                     <p type="legal_section">Im Falle der Ablehnung durch die
-                                          Mehrheit der giltig abgegebenen Stimmen
-                                          hat die Bundesverfassung und das Ständehaus einen aus je Mitgliedern und ebensoviel
-                                          Ersatzmännern bestehenden <fw type="pageNum">37</fw><pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/><fw type="pageNum">-
-                                                16 </fw>Ausschuss behufs
-                                          Ausarbeitung eines neuen Verfassungsentwurfes zu bestellen, der binnen Jahresfrist
-                                          dem Bundesrate Bericht zu erstatten hat.
-                                          Kommt im Ausschusse mit einfacher Stimmenmehrheit sämtlicher Mitglieder ein neuer Entwurf
-                                          zu Stande, so ist dieser der
+                                          Mehrheit der giltig abgegebenen Stimmen hat die
+                                          Bundesverfassung und das Ständehaus einen aus je
+                                          Mitgliedern und ebensoviel Ersatzmännern bestehenden <fw
+                                                type="pageNum">37</fw><pb facs="#facs_17" n="17"
+                                                xml:id="img_0017" break="yes"/><fw type="pageNum">-
+                                                16 -</fw>Ausschuss behufs Ausarbeitung eines neuen
+                                          Verfassungsentwurfes zu bestellen, der binnen Jahresfrist
+                                          dem Bundesrate Bericht zu erstatten hat. Kommt im
+                                          Ausschusse mit einfacher Stimmenmehrheit sämtlicher
+                                          Mitglieder ein neuer Entwurf zu Stande, so ist dieser der
                                           Volksabstimmung im Sinne des Art. XXXVI zu unterziehen; im
-                                          gegenteiligen Falle hat der Bundesrat
-                                          sofort allgemeine Neuwahlen der
-                                          Bundesversammlung und des Ständehauses anzuordnen. </p>
+                                          gegenteiligen Falle hat der Bundesrat sofort allgemeine
+                                          Neuwahlen der Bundesversammlung und des Ständehauses
+                                          anzuordnen. </p>
                                     <p type="legal_section">Die gegenwärtige Bundesverfassung bleibt
                                           dann so lange noch in Kraft, bis sie im
                                           Sinne des Art. XXXVI geändert wird.</p>
@@ -866,13 +868,15 @@
                                     Landesverband gelösten Bundeshauptstadt Wien) geteilt werden, so zwar, daß jede dieser 2
                                     verfassunggebenden Gruppen für ihren Zuständigkeitskreis die
                                     höchste Gewalt darstellt. </p>
-                              <p>Der Vertretung des Bundesstaates, also dem Bunde, sollen einzeln aufgezählte Angelegenheiten zur
-                                    ausschließlichen Behandlung in Gesetzgebung und
-                                    Verwaltung zugewiesen werden (Art. XIV). Die Bundesglieder sind für alles das verfassungs- und
-                                    verwaltungsrechtlich zuständig, was nicht in
-                                    die namentlich aufgezählte Zuständigkeit des Bundes fällt, wobei auch vorgesorgt ist, daß
-                                    Zuständigkeitsstreite auf dem Gebiete der
-                                    Verfasung durch den Verfassungsgerichtshof ausgetragen werden (Art. XVI und XVII). </p>
+                              <p>Der Vertretung des Bundesstaates, also dem Bunde, sollen einzeln
+                                    aufgezählte Angelegenheiten zur ausschließlichen Behandlung in
+                                    Gesetzgebung und Verwaltung zugewiesen werden (Art. XIV). Die
+                                    Bundesglieder sind für alles das verfassungs- und
+                                    verwaltungsrechtlich zuständig, was nicht in die namentlich
+                                    aufgezählte Zuständigkeit des Bundes fällt, wobei auch
+                                    vorgesorgt ist, daß Zuständigkeitsstreite auf dem Gebiete der
+                                    Verfassung durch den Verfassungsgerichtshof ausgetragen werden
+                                    (Art. XVI und XVII). </p>
                               <p>Es ist aber wünschenswert, ja zum Gedeihen des Staatswesens notwendig, daß die Verfassung geändert werden
                                     kann, wenn das Volk <fw type="pageNum">39</fw><pb facs="#facs_19" n="19" xml:id="img_0019" break="yes"/><fw type="pageNum">2.</fw>als oberster Richter über sein
                                     eigenes Schicksal, übe sein Wohl und Wehe
@@ -882,14 +886,15 @@
                                     überlassen sein, sondern es sollen für diesen
                                     Fall besondere Vorsichtsmaßregeln in Kraft
                                     treten, um so weit als möglich den wahren Willen des Volkes zu erforschen (Art. XXXVI, XXXVII). </p>
-                              <p>Es empfiehlt sich nicht, den Bundesgliedern das Recht des Austrittes aus dem Staatsverbande für den
-                                    Fall einer VerfassungsÄnderung vorzubehalten;
-                                    ein so loser Verband, in Wahrheit nur ein Staatenbund, würde die vereinigten Länder im völkerrechtlichen
-                                    und wirtschaftlichen Verkehr schwächen. Finden sich die 7 Länder
-                                    zu einem Bundesstaate zusammen, so muß jedes
-                                    Land einen Teil seiner Selbständigkeit dem
-                                    Ganzen opfern, wofür es wieder als Glied des Bundesstantes größere Bedeutung im Weltverkehr und gröbere
-                                    Sicherheit eintauscht. </p>
+                              <p>Es empfiehlt sich nicht, den Bundesgliedern das Recht des
+                                    Austrittes aus dem Staatsverbande für den Fall einer
+                                    Verfassungsänderung vorzubehalten; ein so loser Verband, in
+                                    Wahrheit nur ein Staatenbund, würde die vereinigten Länder im
+                                    völkerrechtlichen und wirtschaftlichen Verkehr schwächen. Finden
+                                    sich die 7 Länder zu einem Bundesstaate zusammen, so muß jedes
+                                    Land einen Teil seiner Selbständigkeit dem Ganzen opfern, wofür
+                                    es wieder als Glied des Bundesstaates größere Bedeutung im
+                                    Weltverkehr und größere Sicherheit eintauscht. </p>
                               <p>Diese Stärke des Bundesstaates würde aber unheilbar geschwächt, wenn jedes Bundesglied im Falle einer
                                     Ueberstimmung in Verfassungsfragen (wie viele
                                     abseits der Verfassung liegende Angelegenheiten lassen sich optima fide in Verfassungsfragen umdeuten!)

@@ -101,6 +101,7 @@
       <change when="2024-02-27" who="#cfh">document automatically created</change>
       <change when="2024-04-12" who="#m_huber">all div for articles and sections generated</change>
       <change when="2024-06-06" who="#m_huber">formatting completed</change>
+      <change when="2024-07-16" who="#s_kury">Gegengelesen bis Art. 9</change>
     </revisionDesc>
   </teiHeader>
   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
@@ -158,10 +159,35 @@
           <p>Die Gefertigten stellen den Antrag: „Das Haus wolle den
             beigeschlossenen Gesetzentwurf zum Beschlusse erheben." In formaler
             Beziehung wolle dieser Antrag dem Verfassungsausschusse zugewiesen werden.</p>
-          <p>Wien, 25. Juni 1920. Dr. Mayr. Jutz. L. Kunschak. Parrer. Schönsteiner. Hollersbacher. Buchinger Lieschnegg Schoepfer. Dr. Gürtler, Hosch. Hans
-            Steinegger. Fr. Kocher Dr. Anton Maier Miklas. Dr. Gimpl. Dr. Wagner Niedrist. Födermayr. Dr. Seipel. S.
-            Geisler Dr. Waiß. Dr. Buresch. R.
-            Weigl. Partik. </p>
+          <p>Wien, 25. Juni 1920.</p>
+          <p><list>
+              <item>Dr. Mayr. </item>
+              <item> L. Kunschak. </item>
+              <item> Schönsteiner. </item>
+              <item>Buchinger. </item>
+              <item>Schoepfer. </item>
+              <item>Hosch. </item>
+              <item> Fr. Kocher. </item>
+              <item>Miklas. </item>
+              <item> Dr. Wagner. </item>
+              <item>Födermayr. </item>
+              <item> S. Geisler. </item>
+              <item> Dr. Buresch. </item>
+              <item>Partik. </item>
+              <item> Jutz. </item>
+              <item> Parrer. </item>
+              <item> Hollersbacher. </item>
+              <item>Lieschnegg. </item>
+              <item>Dr. Gürtler. </item>
+              <item>Hans Steinegger. </item>
+              <item>Dr. Anton Maier.</item>
+              <item> Dr. Gimpl. </item>
+              <item> Niedrist. </item>
+              <item>Dr. Seipel. </item>
+              <item> Dr. Waiß. </item>
+              <item> R. Weigl. </item>
+            </list>
+          </p>
         </div>
         <div type="section">
           <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/>
@@ -172,45 +198,54 @@
           <head>die Bundesverfassung der Republik Österreich.</head>
           <div type="section">
             <head>I. Abschnitt. </head>
-            <head>Der Bund, die Bundesländer, das Bundesgebiet und das Bundesvolk</head>
+            <head>Der Bund, die Bundesländer, das Bundesgebiet und das Bundesvolk.</head>
             <div type="article">
               <head>Artikel 1. </head>
               <p type="legal_section"><label>(1)</label> Österreich ist eine demokratische Republik. </p>
-              <p type="legal_section"><label>(2)</label> Alle öffentlichen Gewalten werden vom Volk eingesetzt und in seinem Namen ausgeübt. </p>
+              <p type="legal_section"><label>(2)</label> Alle öffentlichen Gewalten werden vom Volk
+                eingesetzt und in seinem Namen ausgeübt. </p>
             </div>
             <div type="article">
               <head>Artikel 2. </head>
-              <p type="legal_section"><label>(1)</label> Die Republik Österreich ist ein freier Bundesstaat. </p>
-              <p type="legal_section"><label>(2)</label> Der Bund wird gebildet durch die selbständigen Länder: Burgenland, Kärnten, Niederösterreich, OberösterReich, Salzburg, Steiermark, Tirol,
-                Vorarlberg und Wien. </p>
-              <p type="legal_section"><label>(3)</label> Bundeshauptstadt und Sitz der obersten Organe des Bundes ist Wien.</p>
+              <p type="legal_section"><label>(1)</label> Die Republik Österreich ist ein freier
+                Bundesstaat. </p>
+              <p type="legal_section"><label>(2)</label> Der Bund wird gebildet durch die
+                selbständigen Länder: Burgenland, Kärnten, Niederösterreich, Oberösterreich,
+                Salzburg, Steiermark, Tirol, Vorarlberg und Wien. </p>
+              <p type="legal_section"><label>(3)</label> Bundeshauptstadt und Sitz der obersten
+                Organe des Bundes ist Wien.</p>
             </div>
             <div type="article">
               <head>Artikel 3. </head>
-              <p type="legal_section">Das Bundesgebiet bildet ein einheitliches Währungs-, Wirtschafts= und Zollgebiet. </p>
+              <p type="legal_section">Das Bundesgebiet bildet ein einheitliches Währungs-,
+                Wirtschafts- und Zollgebiet. </p>
             </div>
             <div type="article">
               <head>Artikel 4. </head>
-              <p type="legal_section"><label>(1)</label> Jeder Landesbürger ist Angehöriger des Bundes. </p>
-              <p type="legal_section"><label>(2)</label> Die Landesbürgerschaft ist an die Heimatsberechtigung in der Gemeinde eines Landes gebunden.  </p>
+              <p type="legal_section"><label>(1)</label> Jeder Landesbürger ist Angehöriger des
+                Bundes. </p>
+              <p type="legal_section"><label>(2)</label> Die Landesbürgerschaft ist an die
+                Heimatsberechtigung in der Gemeinde eines Landes gebunden. </p>
             </div>
             <div type="article">
               <pb facs="#facs_4" n="4" xml:id="img_0004" break="yes"/>
               <fw type="pageNum">4</fw>
               <head>Artikel 5. </head>
-              <p type="legal_section">Jeder Bundesangehörige hat in jedem Lande des
-                Bundes die gleichen Rechte und Pflichten wie die Bürger des Landes
-                selbst. </p>
+              <p type="legal_section">Jeder Bundesangehörige hat in jedem Lande des Bundes die
+                gleichen Rechte und Pflichten wie die Bürger des Landes selbst. </p>
             </div>
             <div type="article">
               <head>Artikel 6. </head>
-              <p type="legal_section"><label>(1)</label> Alle Bundesangehörigen sind vor dem Gesetze gleich. Vorrechte der Geburt, des Standes und des Bekenntnisses sind für immer ausgeschlossen. </p>
-              <p type="legal_section"><label>(2)</label> Die politischen Rechte und Freiheiten des Volkes werden durch die Bundesverfassung gewährleistet. </p>
+              <p type="legal_section"><label>(1)</label> Alle Bundesangehörigen sind vor dem Gesetze
+                gleich. Vorrechte der Geburt, des Standes und des Bekenntnisses sind für immer
+                ausgeschlossen. </p>
+              <p type="legal_section"><label>(2)</label> Die politischen Rechte und Freiheiten des
+                Volkes werden durch die Bundesverfassung gewährleistet. </p>
             </div>
             <div type="article">
               <head>Artikel 7. </head>
-              <p type="legal_section">Die deutsche Sprache ist, unbeschadet der den sprachlichen Minderheiten gesetzlich eingeräumten Rechte, die
-                Staatssprache der Republik. </p>
+              <p type="legal_section">Die deutsche Sprache ist, unbeschadet der den sprachlichen
+                Minderheiten gesetzlich eingeräumten Rechte, die Staatssprache der Republik. </p>
             </div>
           </div>
           <div type="section">
