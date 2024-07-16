@@ -115,6 +115,14 @@ button#media-menu-toggler:hover {
     box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) var(--bv-main-bg-color);
 }
 
+div#wrapper-navbar {
+    pointer-events: none;
+}
+
+#wrapper-navbar * {
+    pointer-events: initial;
+}
+
 .navbar {
     background-color: var(--bv-big-highlight);
     max-height: 15vh;
@@ -1119,11 +1127,13 @@ resolution or low resolution screens
     .facsimiles {
         display: none;
     }
+
     #text-resize {
         padding-left: .5rem;
         padding-right: .5rem;
         margin-right: .5rem;
     }
+
     div#short_title.display_title {
         display: none;
     }
