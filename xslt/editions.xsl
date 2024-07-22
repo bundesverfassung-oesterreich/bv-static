@@ -205,9 +205,8 @@
                                     <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
                                 </div>
                                 <p>Das Original befindet sich im Eigentum des
-                                                Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „
-                                    <xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'
-                                                  /> “.</span> Die Verwendung des Digitalisats durch
+                                                Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'
+                                                  />“.</span> Die Verwendung des Digitalisats durch
                                                 Dritte bedarf einer schriftlichen Bewilligung des
                                                 ÖStA entsprechend der geltenden
                                                 Benutzungsordnung.</p>
