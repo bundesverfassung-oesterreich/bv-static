@@ -274,7 +274,7 @@
         </xsl:template>
         <xsl:template match="tei:pb">
             <!-- needed for scrolling / numbering -->
-            <span class="anchor-pb"/>
+            <!-- <span class="anchor-pb"/> -->
             <!-- determine img src -->
             <xsl:variable name="pbId">
                 <xsl:value-of select="replace(data(@facs), '#', '')"/>

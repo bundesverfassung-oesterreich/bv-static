@@ -88,7 +88,8 @@ locate index of anchor element
 */
 var next_pb_index = 0;
 var previous_pb_index = -1;
-const a_elements = document.getElementsByClassName("anchor-pb");
+const a_elements = document.getElementsByClassName("pb");
+//const a_elements = document.getElementsByClassName("anchor-pb");
 const max_index = (a_elements.length - 1);
 const prev = document.getElementById("osd_prev_button");
 const next = document.getElementById("osd_next_button");
