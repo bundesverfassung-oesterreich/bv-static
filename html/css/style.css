@@ -941,7 +941,6 @@ span.pb_marker {
 
 span.pb_marker::after {
     content: "|";
-    padding: 0 .5rem;
 }
 
 span.historical_pagecounter {
