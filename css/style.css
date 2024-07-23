@@ -921,6 +921,7 @@ span.pb {
     display: inline-block;
     position: absolute;
     left: -1.5rem;
+    scroll-margin-top: 100px;
     /* width: 1.5rem;
     margin-top: var(--default-line-height-negative); */
 }
@@ -1252,9 +1253,5 @@ low resolution
 /* target offset for any element */
 :target {
     background-color: gray;
-    scroll-margin-top: 100px;
-}
-
-span.anchor-pb {
     scroll-margin-top: 100px;
 }
