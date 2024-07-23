@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__1">
       <teiHeader>
             <fileDesc>
@@ -482,7 +483,7 @@
                                           wird, ist - nachdem sie von der
                                           Bundesversammlung beschlossen und vom
                                           Bundesrat genehmigt ist - vor der
-                                          Beurkundung durch den Bundespräsiden- <fw type="pageNum">5</fw><pb facs="#facs_9" n="9" xml:id="img_0009" break="yes"/><fw type="pageNum">-
+                                          Beurkundung durch den Bundespräsiden-<fw type="pageNum">5</fw><pb facs="#facs_9" n="9" xml:id="img_0009" break="no"/><fw type="pageNum">-
                                                 8 -</fw>ten einer Abstimmung des
                                           gesamten Bundesvolkes zu unterziehen.
                                     </p>
@@ -665,8 +666,7 @@
                                     <p type="legal_section">Kein Mitglied der Bundesversammlung darf während der Dauer der Session
                                           wegen einer strafbaren Handlung - den
                                           Fall der <fw type="pageNum">8</fw></p>
-                                    <p type="legal_section"><pb facs="#facs_15" n="15"
-                                                xml:id="img_0015" break="yes"/><fw type="pageNum">-
+                                    <p type="legal_section"><pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/><fw type="pageNum">-
                                                 14 -</fw>Ergreifung auf frischer Tat ausgenommen -
                                           ohne Zustimmung der Bundesversammlung verhaftet oder
                                           behördlich verfolgt werden. </p>
@@ -870,7 +870,7 @@
                                           <p type="legal_section"> Die Bestallungsurkunden des
                                                 Bundeskanzlers und der
                                                 Staatssekretäre sowie der
-                                                Unterstaatsekretäre werden vom Bun- <fw type="pageNum">11</fw><pb facs="#facs_21" n="21" xml:id="img_0021" break="yes"/><fw type="pageNum">- 20 -</fw>despräsidenten mit dem Datum des Tages der Abgelobung ausgefertigt und vom
+                                                Unterstaatsekretäre werden vom Bun-<fw type="pageNum">11</fw><pb facs="#facs_21" n="21" xml:id="img_0021" break="no"/><fw type="pageNum">- 20 -</fw>despräsidenten mit dem Datum des Tages der Abgelobung ausgefertigt und vom
                                                 neu bestellten Bundeskanzler
                                                 gegengezeichnet. </p>
                                     </div>
@@ -1014,10 +1014,7 @@
                                                 Besetzungsvorschlägen der durch die Gerichts
                                                 verfassung dazu bestimmten Senate über Antrag der
                                                 Bunderegierung vom Bundespräsidenten oder über
-                                                dessen Ermächtigung vom <fw type="pageNum"
-                                                  >13</fw><pb facs="#facs_25" n="25"
-                                                  xml:id="img_0025" break="yes"/><fw type="pageNum"
-                                                  >- 24 -</fw> Staatssekretär für Justiz ernannt. </p>
+                                                dessen Ermächtigung vom <fw type="pageNum">13</fw><pb facs="#facs_25" n="25" xml:id="img_0025" break="yes"/><fw type="pageNum">- 24 -</fw> Staatssekretär für Justiz ernannt. </p>
                                           <p type="legal_section">Der durch den Staatesekretär für
                                                 Justiz an die Bundesregierung zu leitende oder dem
                                                 Staatssekretär für Justiz vorzulegende
@@ -1046,9 +1043,7 @@
                                           <p type="legal_section">Vor Erreichung der im
                                                 Gerichtsorganisationsgesetz festgesetzten
                                                 Altersgrenze dürfen Richter nur auf Grund eines
-                                                förmlichen richterlichen Erkenntnisses<pb
-                                                  facs="#facs_26" n="26" xml:id="img_0026"
-                                                  break="yes"/><fw type="pageNum">- 25 - </fw>ihres
+                                                förmlichen richterlichen Erkenntnisses<pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/><fw type="pageNum">- 25 - </fw>ihres
                                                 Amtes ersetzt werden; ihre zeitweise Enthebung des
                                                 Gerichtsvorstandes oder höheren Gerichtsbehörde
                                                 unter gleichzeitiger Verweisung der Sache an das
@@ -1079,10 +1074,7 @@
                                     </div>
                                     <div type="article">
                                           <head> Art. LXIX. </head>
-                                          <p type="legal_section">Wegen der von einem Richter in <fw
-                                                  type="pageNum">14</fw><pb facs="#facs_27" n="27"
-                                                  xml:id="img_0027" break="yes"/><fw type="pageNum"
-                                                  >- 26 -</fw>Ausübung seines Amtes verursachten
+                                          <p type="legal_section">Wegen der von einem Richter in <fw type="pageNum">14</fw><pb facs="#facs_27" n="27" xml:id="img_0027" break="yes"/><fw type="pageNum">- 26 -</fw>Ausübung seines Amtes verursachten
                                                 Rechtsverletzungen kann dieser Richter sowie der
                                                 Bund ausser den im gerichtlichen Verfahren
                                                 vorgezeichneten Rechtsmitteln mit Klage belangt
@@ -1291,8 +1283,7 @@
                                           Bundesrechnungshofes nur durch Beschluss der
                                           Bundesversammlung oder des Bundesrates abberufen werden.
                                           Auf diese Beschlüsse finden die Bestimmungen des Art. IV
-                                          der Bundesver<pb facs="#facs_34" n="34" xml:id="img_0034"
-                                                break="yes"/><fw type="pageNum">- 33 -</fw> fassung
+                                          der Bundesver<pb facs="#facs_34" n="34" xml:id="img_0034" break="yes"/><fw type="pageNum">- 33 -</fw> fassung
                                           analoge Anwendung. </p>
                               </div>
                               <div type="article">
@@ -1322,9 +1313,7 @@
                                           Bestimmungen des Art. LXXXVII Abs. 2. </p>
                                     <p type="legal_section">Ist die Stelle des Präsidenten dauernd
                                           erledigt, kann der Stellvertreter vom Bundespräsidenten,
-                                          bis die Wahl des Präsidenten des Bundesrechnungs- <fw
-                                                type="pageNum">18</fw><pb facs="#facs_35" n="35"
-                                                xml:id="img_0035" break="yes"/><fw type="pageNum">-
+                                          bis die Wahl des Präsidenten des Bundesrechnungs-<fw type="pageNum">18</fw><pb facs="#facs_35" n="35" xml:id="img_0035" break="no"/><fw type="pageNum">-
                                                 34 -</fw> hofes erfolgt ist, mit der Leitung des
                                           Bundesrechnungshofes betraut werden. In diesem Falle
                                           finden auch auf den Stellvertreter die Bestimmungen des
@@ -1355,9 +1344,7 @@
                               <div type="article">
                                     <head>Art. XCIII. </head>
                                     <p type="legal_section">Alle Urkunden über Staatsschulden
-                                          (Finanz- und Verwaltungsschulden) sind<pb facs="#facs_36"
-                                                n="36" xml:id="img_0036" break="yes"/><fw
-                                                type="pageNum">- 35 -</fw>vom Präsidenten des
+                                          (Finanz- und Verwaltungsschulden) sind<pb facs="#facs_36" n="36" xml:id="img_0036" break="yes"/><fw type="pageNum">- 35 -</fw>vom Präsidenten des
                                           Bundesrechnungshofes gegenzuzeichnen; durch diese
                                           Gegenzeichnung wird lediglich die Gesetzmässigkeit und
                                           rechnungsmässige Richtigkeit der Gebarung bekräftigt. </p>
@@ -1390,10 +1377,7 @@
                                                   nehmen. </item>
                                                 <label>c) </label>
                                                 <item>die Vornahme von Lokalerhebungen durch die
-                                                  Verwaltungsbehörden anzu- <fw type="pageNum"
-                                                  >19</fw><pb facs="#facs_37" n="37"
-                                                  xml:id="img_0037" break="yes"/><fw type="pageNum"
-                                                  >- 36 -</fw>ordnen und an diesen Amtshandlungen
+                                                  Verwaltungsbehörden anzu-<fw type="pageNum">19</fw><pb facs="#facs_37" n="37" xml:id="img_0037" break="no"/><fw type="pageNum">- 36 -</fw>ordnen und an diesen Amtshandlungen
                                                   durch Beauftragte teilzunehmen. </item>
                                           </list></p>
                               </div>
@@ -1457,9 +1441,7 @@
                               <div type="article">
                                     <head>Art. CI. </head>
                                     <p type="legal_section">Die näheren Bestimmungen über die innere
-                                          Einrichtung und den Geschäftsgang <fw type="pageNum"
-                                                >20</fw><pb facs="#facs_39" n="39" xml:id="img_0039"
-                                                break="yes"/><fw type="pageNum">- 38 -</fw>des
+                                          Einrichtung und den Geschäftsgang <fw type="pageNum">20</fw><pb facs="#facs_39" n="39" xml:id="img_0039" break="yes"/><fw type="pageNum">- 38 -</fw>des
                                           Bundesrechnungshofes regelt die Geschäftsordnung. Sie ist
                                           vom Bundesrechnungshofe dem Bundespräsidenten im Wege der
                                           Bundesregierung zur Genehmigung vorzulegen.</p>
@@ -1513,7 +1495,7 @@
                               </div>
                               <div type="article">
                                     <head>Art. CX. </head>
-                                    <p type="legal_section">Die Freiheit der Meinungsäusse- <fw type="pageNum">21</fw><pb facs="#facs_41" n="41" xml:id="img_0041" break="yes"/><fw type="pageNum">- 40 -</fw>rung ist nur durch das Strafgesetz beschränkt. </p>
+                                    <p type="legal_section">Die Freiheit der Meinungsäusse-<fw type="pageNum">21</fw><pb facs="#facs_41" n="41" xml:id="img_0041" break="no"/><fw type="pageNum">- 40 -</fw>rung ist nur durch das Strafgesetz beschränkt. </p>
                                     <p type="legal_section">Die Pressfreiheit ist gewährleistet, die Beschlagnahme von Druckschriften darf nur auf den vom Strafgesetz, von der Strafprozessordnung und vom Pressgesetze vorgesehenen
                                           Gründen erfolgen. (Sie ist ohne
                                           gleichzeitige Verfolgung des Täters
@@ -1634,7 +1616,7 @@
                                     <div type="article">
                                           <head>Art. CXXI. </head>
                                           <p type="legal_section">Von der Zuständigkeit der
-                                                  Verwal- <fw type="pageNum">23</fw><pb facs="#facs_45" n="45" xml:id="img_0045" break="yes"/><fw type="pageNum">- 44 -</fw>tungsgerichte sind
+                                                  Verwal-<fw type="pageNum">23</fw><pb facs="#facs_45" n="45" xml:id="img_0045" break="no"/><fw type="pageNum">- 44 -</fw>tungsgerichte sind
                                                 ausgeschlossen: <list>
                                                   <label>a) </label>
                                                   <item> Angelegenheiten, über welche den ordentlichen Gerichten die
@@ -1709,10 +1691,7 @@
                                           <head>Art.CXXVI.</head>
                                           <p type="legal_section">Das Bundesverfassungsgericht
                                                 entscheidet über Bundesgesetzwidrigkeit von
-                                                Landesgesetzen auf Antrag der Bun- <fw
-                                                  type="pageNum">24</fw><pb facs="#facs_47" n="47"
-                                                  xml:id="img_0047" break="yes"/><fw type="pageNum"
-                                                  >-46-</fw>desregierung, </p>
+                                                Landesgesetzen auf Antrag der Bun-<fw type="pageNum">24</fw><pb facs="#facs_47" n="47" xml:id="img_0047" break="no"/><fw type="pageNum">-46-</fw>desregierung, </p>
                                           <p type="legal_section">Der Antrag der Bundesregierung
                                                 muss binnen vier Wochen nach erfolgter Kundmachung
                                                 des Landesgesetzes der Lan- desregierung
@@ -1745,8 +1724,7 @@
                                                   ihnen hinsichtlich der Verant- wortlichkeit
                                                   gleichstellten Organe, </item>
                                                   <fw type="pageNum">24</fw>
-                                                  <pb facs="#facs_48" n="48" xml:id="img_0048"
-                                                  break="yes"/>
+                                                  <pb facs="#facs_48" n="48" xml:id="img_0048" break="yes"/>
                                                   <fw type="pageNum">- 47 -</fw>
                                                   <label> c)</label>
                                                   <item> der Mitglieder der Landesregierun gen und
@@ -1811,11 +1789,8 @@
                                           <p type="legal_section">Die nähere Organisation des
                                                 Bundesverfassungsgerichtes sowie das Verfahren vor
                                                 ihm in den verschiedenen in den Art. CXXIII -
-                                                CXXVIII angeführten Fällen,<pb facs="#facs_50"
-                                                  n="50" xml:id="img_0050" break="yes"/><fw
-                                                  type="pageNum">- 49 -</fw>wird in gesonderen
-                                                Bundesgesetzen geregelt. <fw type="pageNum"
-                                                >26</fw></p>
+                                                CXXVIII angeführten Fällen,<pb facs="#facs_50" n="50" xml:id="img_0050" break="yes"/><fw type="pageNum">- 49 -</fw>wird in gesonderen
+                                                Bundesgesetzen geregelt. <fw type="pageNum">26</fw></p>
                                     </div>
                               </div>
                         </div>

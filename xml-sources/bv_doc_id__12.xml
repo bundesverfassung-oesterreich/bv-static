@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__12">
     <teiHeader>
         <fileDesc>
@@ -132,8 +133,8 @@
             <p type="legal_section"><label>(1)</label> Das Bundesgebiet umfaßt die Gebiete der Bundesländer.</p>
             <p type="legal_section"><label>(2)</label> Eine Änderung des Bundesgebietes, die zugleich Änderung eines Landesgebietes ist, ebenso die
               Änderung einer Landesgrenze innerhalb des Bundesgebietes kann -
-              abgesehen von Friedens- <fw type="pageNum">1</fw>
-              <pb facs="#facs_3" n="3" xml:id="img_0003" break="yes"/><fw type="pageNum">2</fw> verträgen - nur durch übereinstimmende Verfassungsgesetze des Bundes und jenes Landes erfolgen, dessen Gebiet
+              abgesehen von Friedens-<fw type="pageNum">1</fw>
+              <pb facs="#facs_3" n="3" xml:id="img_0003" break="no"/><fw type="pageNum">2</fw> verträgen - nur durch übereinstimmende Verfassungsgesetze des Bundes und jenes Landes erfolgen, dessen Gebiet
               eine Änderung erfährt. </p>
             <p type="legal_section"><label>(3)</label> Die für Niederösterreich=Land und Wien geltenden Sonderbestimmungen enthält das vierte Hauptstück. </p>
           </div>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__3">
       <teiHeader>
             <fileDesc>
@@ -401,7 +402,7 @@
                                           <p type="legal_section">Der Sitz des Bundestages ist die Bundeshauptstadt Wien. </p>
                                           <p type="legal_section">Für die Dauer ausserordentlicher Verhältnisse kann der
                                                 Bundespräsident (Art. . . . . der
-                                                Bundesverfassung) auf An-<pb facs="#facs_6" n="6" xml:id="img_0006" break="yes"/><fw type="pageNum">- 5 -</fw>trag der
+                                                Bundesverfassung) auf An-<pb facs="#facs_6" n="6" xml:id="img_0006" break="no"/><fw type="pageNum">- 5 -</fw>trag der
                                                 Bundesregierung den Bundestag in
                                                 einen anderen Ort des Bundesgebietes berufen. </p>
                                     </div>
@@ -635,7 +636,7 @@
                                           <p type="legal_section">Stimmberechtigt ist jeder zum
                                                 Bundestag wahlberechtigter
                                                 Bundesbürger. Das Bundesvolk hat
-                                                die vom Bundestag beschlos-<pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/><fw type="pageNum">- 11 -</fw>sene
+                                                die vom Bundestag beschlos-<pb facs="#facs_12" n="12" xml:id="img_0012" break="no"/><fw type="pageNum">- 11 -</fw>sene
                                                 Verfassungsänderung angenommen und es hat das bereits kundgemachte Bundesgesetz abgelehnt, wenn die relative
                                                 Mehrheit der abgegebenen Stimmen
                                                 sich für die Verfassungsänderung
@@ -820,7 +821,7 @@
                                                   sonstiger Bundesfunktionäre sowie
                                                   Verleihungen von Titeln; </p>
                                                 <p type="legal_section">die Begnadigung
-                                                  rechtskräftig Verur-<pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/><fw type="pageNum">- 16 -</fw>teilter, die Milderung
+                                                  rechtskräftig Verur-<pb facs="#facs_17" n="17" xml:id="img_0017" break="no"/><fw type="pageNum">- 16 -</fw>teilter, die Milderung
                                                   der von den Gerichten
                                                   ausgesprochenen Strafen, die Nachsicht von Rechtsfolgen und die Tilgung von
                                                   Verurteilungen, ferner die
@@ -929,7 +930,7 @@
                                                   Bundestages mit welchem das
                                                   Vertrauen versagt wird, ist die
                                                   Anwesenheit der Hälfte der Mitglieder des Bundestages erforderlich. Doch ist, wenn . . . Mitglieder es
-                                                  ver-<pb facs="#facs_20" n="20" xml:id="img_0020" break="yes"/><fw type="pageNum">- 19 -</fw>langen, die Abstimmung auf den zweitnächsten Werktag zu vertagen. Eine
+                                                  ver-<pb facs="#facs_20" n="20" xml:id="img_0020" break="no"/><fw type="pageNum">- 19 -</fw>langen, die Abstimmung auf den zweitnächsten Werktag zu vertagen. Eine
                                                   neuerliche Vertagung der
                                                   Abstimmung kann nur auf Beschluß
                                                   des Bundestages erfolgen. </p>
@@ -1007,9 +1008,7 @@
                                                   Einwohner hat ein Land zwei, mit mehr als einer
                                                   halben Million drei, mit mehr als einer Million
                                                   Einwohner vier, mit mehr als zwei Millionen
-                                                  Einwohner fünf Stimmen.<pb facs="#facs_22" n="22"
-                                                  xml:id="img_0022" break="yes"/><fw type="pageNum"
-                                                  >- 21 -</fw>Die Stimmzahl wird durch den Bundesrat
+                                                  Einwohner fünf Stimmen.<pb facs="#facs_22" n="22" xml:id="img_0022" break="yes"/><fw type="pageNum">- 21 -</fw>Die Stimmzahl wird durch den Bundesrat
                                                   nach jeder allgemeinen Volkszählung neu
                                                   festgesetzt. </p>
                                           </div>
@@ -1050,7 +1049,7 @@
                                           <div type="article">
                                                 <head>Art. 63. </head>
                                                 <p type="legal_section">Die Bundesregierung sowie
-                                                  jedes Mit-<pb facs="#facs_23" n="23" xml:id="img_0023" break="yes"/><fw type="pageNum">- 22 -</fw>glied des Bundesrates sind befugt,
+                                                  jedes Mit-<pb facs="#facs_23" n="23" xml:id="img_0023" break="no"/><fw type="pageNum">- 22 -</fw>glied des Bundesrates sind befugt,
                                                   im Bundesrate Anträge zu stellen.
                                                   Die Geschäftsordnung des
                                                   Bundesrates wird von diesen
@@ -1092,7 +1091,7 @@
                                                 zulässig. Ob ein solcher Fall
                                                 vorliegt, wird, abgesehen von den
                                                 in der Strafprozeßordnung geregelten Fällen, durch Beschluß der Bundesregierung festgesetzt. Die
-                                                  Bundes-<pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/><fw type="pageNum">- 23 -</fw>regierung ist verpflichtet, jeden
+                                                  Bundes-<pb facs="#facs_24" n="24" xml:id="img_0024" break="no"/><fw type="pageNum">- 23 -</fw>regierung ist verpflichtet, jeden
                                                 solchen Beschluß ungesäumt der
                                                 Bundesversammlung und dem Bundesrat
                                                 vorzulegen und über Beschluß eines
@@ -1163,7 +1162,7 @@
                                                 oder in den Ruhestand wider Willen nur durch gerichtlichen Beschluß in den durch das Gesetz bestimmten Fällen
                                                 und Formen stattfinden. Diese
                                                 Bestimmungen finden jedoch bei
-                                                Uebersetzung und Ver-<pb facs="#facs_26" n="26" xml:id="img_0026" break="yes"/><fw type="pageNum">- 25 -</fw>setzungen in den Ruhestand keine Anwendung, die durch Veränderungen in
+                                                Uebersetzung und Ver-<pb facs="#facs_26" n="26" xml:id="img_0026" break="no"/><fw type="pageNum">- 25 -</fw>setzungen in den Ruhestand keine Anwendung, die durch Veränderungen in
                                                 der Verfassung der Gerichte nötig
                                                 werden. In einem solchen Falle wird
                                                 durch Gesetz festgestellt,
@@ -1233,7 +1232,7 @@
                                     <div type="article">
                                           <head>Art. 80. </head>
                                           <p type="legal_section">In allen Fällen, wo eine
-                                                  Verwaltungs-<pb facs="#facs_28" n="28" xml:id="img_0028" break="yes"/><fw type="pageNum">- 27 -</fw>behörde nach den
+                                                  Verwaltungs-<pb facs="#facs_28" n="28" xml:id="img_0028" break="no"/><fw type="pageNum">- 27 -</fw>behörde nach den
                                                 bestehenden oder künftig zu
                                                 erlassenden Gesetzen über Privatrechtsansprüche zu entscheiden hat, steht es dem durch diese Entscheidung
                                                 Benachteiligten frei, wenn nicht im
@@ -1505,7 +1504,7 @@
                                           Ueberprüfung der Gebarung. </p>
                                     <p type="legal_section">a) die Einsendung von Rechnungsbelegen und Behelfen (Geschäftsstücke, Verträge u.s.w.) zu verlangen. </p>
                                     <p type="legal_section">b) Durch Beauftragte an Ort und Stelle in die mit der Gebarung der
-                                                betreffen-<pb facs="#facs_38" n="38" xml:id="img_0038" break="yes"/><fw type="pageNum">-
+                                                betreffen-<pb facs="#facs_38" n="38" xml:id="img_0038" break="no"/><fw type="pageNum">-
                                                 37 -</fw>den Stelle im Zusammenhange stehenden Behelfe Einschau zu nehmen. </p>
                                     <p type="legal_section">c) Die Vornahme von Lokalerhebungen durch die Verwaltungsbehörden anzuordnen und an diesen Amtshandlungen
                                           durch Beauftragte teilzunehmen. </p>
@@ -1613,7 +1612,7 @@
                                           von welcher Behörde und aus welchen
                                           Gründen die Entziehung der Freiheit
                                           angeordnet worden ist; unverzüglich soll
-                                          ihnen Ge-<pb facs="#facs_42" n="42" xml:id="img_0042" break="yes"/><fw type="pageNum">- 41 -</fw>legenheit gegeben werden, Einwendungen gegen ihre Freiheitsentzienung
+                                          ihnen Ge-<pb facs="#facs_42" n="42" xml:id="img_0042" break="no"/><fw type="pageNum">- 41 -</fw>legenheit gegeben werden, Einwendungen gegen ihre Freiheitsentzienung
                                           vorzubringen. </p>
                               </div>
                               <div type="article">
@@ -1868,7 +1867,7 @@
                                     <p type="legal_section">Wer durch rechtswidrige Ausübung der öffentlichen Gewalt Schaden erleidet,
                                           hat abgesehen von dem im Art. 74
                                           geregelten Fall - einen im Wege der
-                                          ordentlichen Ge-<pb facs="#facs_51" n="51" xml:id="img_0051" break="yes"/><fw type="pageNum">-
+                                          ordentlichen Ge-<pb facs="#facs_51" n="51" xml:id="img_0051" break="no"/><fw type="pageNum">-
                                                 50 -</fw>richte geltend zu machenden
                                           Anspruch auf Entschädigung gegen den Bund
                                           oder das Land, durch dessen Organ der
@@ -2007,7 +2006,7 @@
                                           <head>Art. 153. </head>
                                           <p type="legal_section">Es entscheidet ferner: Kompetenzkonflikte </p>
                                           <p type="legal_section">a) zwischen Gerichten und
-                                                  Verwaltungs-<pb facs="#facs_55" n="55" xml:id="img_0055" break="yes"/><fw type="pageNum">- 54 -</fw>behörden des Bundes
+                                                  Verwaltungs-<pb facs="#facs_55" n="55" xml:id="img_0055" break="no"/><fw type="pageNum">- 54 -</fw>behörden des Bundes
                                                 oder der Länder; </p>
                                           <p type="legal_section">b) zwischen Landesregierungen untereinander, sowie zwischen einer
                                                 Landesregierung und der

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__10">
       <teiHeader>
             <fileDesc>
@@ -668,7 +669,7 @@
                               Einengungen der Landesregierung führen darf. </p>
                         <p type="legal_section">Schließlich sei noch auf </p>
                         <p type="legal_section"><emph>die obersten Gerichtshöfe </emph></p>
-                        <p type="legal_section">hingewiesen, auf den Bundesverwaltungsge- <fw type="pageNum">22</fw><pb facs="#facs_7" n="7" xml:id="img_0007" break="yes"/><fw type="pageNum">6</fw>
+                        <p type="legal_section">hingewiesen, auf den Bundesverwaltungsge-<fw type="pageNum">22</fw><pb facs="#facs_7" n="7" xml:id="img_0007" break="no"/><fw type="pageNum">6</fw>
                         </p>
                         <p type="legal_section">richtshof, der zuständig ist für die dem Bunde vorbehaltenen Angelegenheiten, auf den Bundesverfassungsgerichtshof, der zuständig ist für alle
                               Rechtsstreitigkeiten zwischen den Ländern, sowie

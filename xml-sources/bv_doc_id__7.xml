@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__7">
       <teiHeader>
             <fileDesc>
@@ -286,8 +287,7 @@
                                     <p type="legal_section">Die Glaubens- und Gewissensfreiheit ist
                                           unverletzlich. Niemand darf zur Teilnahme
                                           an einer Religionsgesellschaft oder an einem <fw type="pageNum">25</fw></p>
-                                    <p type="legal_section"><pb facs="#facs_5" n="5"
-                                                xml:id="img_0005" break="yes"/><fw type="pageNum">-
+                                    <p type="legal_section"><pb facs="#facs_5" n="5" xml:id="img_0005" break="yes"/><fw type="pageNum">-
                                                 4 -</fw>religiösen Unterrichte oder zur Vornahme
                                           einer religiösen Handlung gezwungen werden. </p>
                                     <p type="legal_section">Ueber die religiöse Erziehung der Kinder
@@ -520,8 +520,7 @@
                                           kürzesten Wege mitzuteilen. Die Kundmachung des
                                           angefochtenen Beschlusses darf erst erfolgen, wenn der
                                           Gerichtshof dessen Verfassungsmässigkeit anerkannt hat;
-                                          der <fw type="pageNum">30</fw><pb facs="#facs_10" n="10"
-                                                xml:id="img_0010" break="yes"/><fw type="pageNum">-
+                                          der <fw type="pageNum">30</fw><pb facs="#facs_10" n="10" xml:id="img_0010" break="yes"/><fw type="pageNum">-
                                                 9 -</fw>Verfassungsgerichtshof hat binnen
                                           Monatsfrist das Erkenntnis zu fällen, widrigens die
                                           Kundmachung des angefochtenen Gesetzesbeschlusses mit
@@ -560,7 +559,7 @@
                                           Bundeshauptstadt Wien gewählten Vertretern der Bundesglieder; jedes Bundesglied entsendet in
                                           das Ständehaus zehn Vertreter; die
                                           Vertretung kann nicht widerrufen werden; für ausscheidende Vertreter ist sobald als möglich
-                                          eine Nachwahl durchzufüh- <fw type="pageNum">31</fw><pb facs="#facs_11" n="11" xml:id="img_0011" break="yes"/><fw type="pageNum">- 10 -</fw>ren. Die Art der
+                                          eine Nachwahl durchzufüh-<fw type="pageNum">31</fw><pb facs="#facs_11" n="11" xml:id="img_0011" break="no"/><fw type="pageNum">- 10 -</fw>ren. Die Art der
                                           Wahl und die Voraussetzungen der Wählbarkeit bestimmt die Landesgesetzgebung. </p>
                                     <p type="legal_section">Im Ständehause hat jedes Bundesglied
                                           eine Stimme; diese Stimme wird nach der
@@ -599,9 +598,7 @@
                                           Veräußerung oder Belastung des Bundesvermögens und die
                                           Gesetzgebung über Steuern, Abgaben und Gefälle (diese in
                                           den Schranken des Art. XIV, Z.4) steht ausschliessend der
-                                          Bundesversammlung zu. <fw type="pageNum">32</fw><pb
-                                                facs="#facs_12" n="12" xml:id="img_0012" break="yes"
-                                                /><fw type="pageNum">- 11 -</fw>
+                                          Bundesversammlung zu. <fw type="pageNum">32</fw><pb facs="#facs_12" n="12" xml:id="img_0012" break="yes"/><fw type="pageNum">- 11 -</fw>
                                     </p>
                               </div>
                               <div type="article">
@@ -746,9 +743,7 @@
                                                   <corr>m</corr>
                                                   </choice>lung bei ihrer ordentlichen Tagung
                                                   Rechenschaft über seine Tätigkeit, sowie einen
-                                                  Bericht über <fw type="pageNum">35</fw><pb
-                                                  facs="#facs_15" n="15" xml:id="img_0015"
-                                                  break="yes"/><fw type="pageNum">- 14 -</fw>die
+                                                  Bericht über <fw type="pageNum">35</fw><pb facs="#facs_15" n="15" xml:id="img_0015" break="yes"/><fw type="pageNum">- 14 -</fw>die
                                                   Gesamtlage des Bundesstaates im Innern und nach
                                                   Aussen; er hat auch besondere Berichte zu
                                                   erstatten, wenn die Bundesversammlung oder das
@@ -787,7 +782,7 @@
                                           Gliedstaaten übernommen, insoweit diese
                                           Bundesverfassung nichts gegenteiliges enthält; die
                                           Aenderung der verfassungsmäßigen
-                                          Zuständigkeit auf dem Gebiete der Gesetz- <fw type="pageNum">36</fw><pb facs="#facs_16" n="16" xml:id="img_0016" break="yes"/><fw type="pageNum">-
+                                          Zuständigkeit auf dem Gebiete der Gesetz-<fw type="pageNum">36</fw><pb facs="#facs_16" n="16" xml:id="img_0016" break="no"/><fw type="pageNum">-
                                                 15 -</fw>gebung und Verwaltung, berührt die
                                           Fortdauer der Giltigkeit der vorstehend
                                           erwähnten Gesetze und Verordnungen nicht. </p>
@@ -831,9 +826,7 @@
                                     <p type="legal_section">Im Falle der Ablehnung durch die
                                           Mehrheit der giltig abgegebenen Stimmen hat die
                                           Bundesverfassung und das Ständehaus einen aus je
-                                          Mitgliedern und ebensoviel Ersatzmännern bestehenden <fw
-                                                type="pageNum">37</fw><pb facs="#facs_17" n="17"
-                                                xml:id="img_0017" break="yes"/><fw type="pageNum">-
+                                          Mitgliedern und ebensoviel Ersatzmännern bestehenden <fw type="pageNum">37</fw><pb facs="#facs_17" n="17" xml:id="img_0017" break="yes"/><fw type="pageNum">-
                                                 16 -</fw>Ausschuss behufs Ausarbeitung eines neuen
                                           Verfassungsentwurfes zu bestellen, der binnen Jahresfrist
                                           dem Bundesrate Bericht zu erstatten hat. Kommt im

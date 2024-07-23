@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bv_doc_id__15">
   <teiHeader>
     <fileDesc>
@@ -1080,8 +1081,8 @@
                 der erfolgten Bekanntmachung an gegen einen Gesetzesbeschluß des
                 Landtages Einspruch erheben. </p>
               <p type="legal_section"><label>(3)</label> Wiederholt der Landtag seinen Gesetzesbeschluß, so ist dieser kundzumachen. Hat jedoch der Einspruch der Bundesregierung die Zustimmung des Bundesrates
-                erhalten, so kann ein solcher Gesetzes-  <fw type="pageNum">391</fw>
-                <pb facs="#facs_24" n="24" xml:id="img_0024" break="yes"/>
+                erhalten, so kann ein solcher Gesetzes-<fw type="pageNum">391</fw>
+                <pb facs="#facs_24" n="24" xml:id="img_0024" break="no"/>
                 <fw type="pageNum">24</fw> beschluß nur kundgemacht werden, wenn er bei Anwesenheit der Hälfte aller Mitglieder des Landtages mit einer
                 Mehrheit von zwei Dritteln aller abgegebenen Stimmen wiederholt
                 wird. </p>
