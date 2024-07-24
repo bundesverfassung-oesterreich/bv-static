@@ -42,15 +42,20 @@ jobs:
     - name: xml documentation page
       run: |
         python pyscripts/build_xml_docupage.py
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
-        publish_dir: ./html
-    - name: Setup Typesense
-      run: |
-        python ./pyscripts/setup_typesense.py
+    # - name: Deploy
+    #   uses: peaceiris/actions-gh-pages@v4
+    #   with:
+    #     github_token: ${{secrets.GITHUB_TOKEN}}
+    #     publish_dir: ./html
     - name: Upload Pages Artifact
       uses: actions/upload-pages-artifact@v3
       with:
         path: "./html"
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+    - name: Setup Typesense
+      run: |
+        python ./pyscripts/setup_typesense.py
