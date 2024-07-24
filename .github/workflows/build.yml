@@ -16,6 +16,10 @@ jobs:
       TYPESENSE_HOST: ${{secrets.TYPESENSE_HOST}}
       TYPESENSE_PORT: ${{vars.TYPESENSE_PORT}}
       TYPESENSE_PROTOCOL: ${{vars.TYPESENSE_PROTOCOL}}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
