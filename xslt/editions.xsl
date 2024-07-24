@@ -291,6 +291,9 @@
             <span class="pb" source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';"/>
             <span n="{$page_number}" class="pb_marker"/>
         </xsl:template>
+        <!-- <xsl:template match="//node()[self::text() and preceding-sibling::*[1][local-name()='pb']]">
+            
+        </xsl:template> -->
         <xsl:template match="tei:ab">
             <p>
                 <xsl:apply-templates/>
@@ -303,51 +306,22 @@
             <xsl:value-of select="replace(., '^\s*(.+?)$', '$1')"/>
         </xsl:template>
         <xsl:template match="tei:lb"/>
-        <!-- match paragraphs and listitems with labels; secure whitespaces -->
+
         <xsl:template match="//tei:body//tei:item[preceding-sibling::*[1][local-name() = 'label']]">
-            <xsl:variable name="label_element">
-                <xsl:value-of select="./preceding-sibling::tei:label[1]"/>
-            </xsl:variable>
-            <xsl:variable name="label_text">
-                <xsl:choose>
-                    <xsl:when test="$label_element/following-sibling::text()[starts-with(., ' ')]">
-                        <xsl:value-of select="$label_element/normalize-space()"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="concat($label_element/normalize-space(), ' ')"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:variable>
             <li>
-                <span class="number_label">
-                    <xsl:value-of select="$label_text"/>
-                </span>
+                <xsl:call-template name="label">
+                    <xsl:with-param name="labelelement" select="./preceding-sibling::tei:label[1]"/>
+                </xsl:call-template>
                 <xsl:apply-templates/>
             </li>
         </xsl:template>
-        <!-- paragraphs -->
+
         <xsl:template match="tei:p">
             <xsl:choose>
                 <xsl:when test="@type = 'legal_section'">
                     <xsl:choose>
                         <xsl:when test="./tei:label">
-                            <xsl:variable name="label_element">
-                                <xsl:value-of select="./tei:label[1]"/>
-                            </xsl:variable>
-                            <xsl:variable name="label_text">
-                                <xsl:choose>
-                                    <xsl:when test="$label_element/following-sibling::text()[starts-with(., ' ')]">
-                                        <xsl:value-of select="$label_element/normalize-space()"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="concat($label_element/normalize-space(), ' ')"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:variable>
                             <p class="legal_section numbered">
-                                <span class="number_label">
-                                    <xsl:value-of select="$label_text"/>
-                                </span>
                                 <xsl:apply-templates/>
                             </p>
                         </xsl:when>
@@ -365,11 +339,13 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:template>
+
         <xsl:template match="tei:lg">
             <p>
                 <xsl:apply-templates/>
             </p>
         </xsl:template>
+
         <xsl:template match="tei:note">
             <xsl:choose>
                 <xsl:when test="@place = 'foot'">
@@ -458,7 +434,22 @@
                 <xsl:apply-templates/>
             </ul>
         </xsl:template>
-        <xsl:template match="//tei:body//tei:label"/>
+
+        <xsl:template match="tei:label[following-sibling::*[1][local-name()!='item']]">
+            <span class="number_label">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:template>
+        
+        <xsl:template match="tei:label[following-sibling::*[1][local-name()='item']]"/>
+
+        <xsl:template name="label">
+            <xsl:param name="labelelement"/>
+            <span class="number_label">
+                <xsl:apply-templates select="$labelelement/node()"/>
+            </span>
+        </xsl:template>
+
         <xsl:template match="//tei:note[@type = 'comment']">
             <div class="meta_text">
                 <xsl:apply-templates/>
