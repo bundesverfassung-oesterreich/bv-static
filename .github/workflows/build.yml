@@ -50,3 +50,7 @@ jobs:
     - name: Setup Typesense
       run: |
         python ./pyscripts/setup_typesense.py
+    - name: Upload Pages Artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: "/html"
