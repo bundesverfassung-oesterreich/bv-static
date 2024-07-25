@@ -938,10 +938,12 @@ span.pb::before {
 
 span.pb_marker {
     color: grey;
+    font-size: inherit;
 }
 
 span.pb_marker::after {
     content: "|";
+    font-size: inherit;
 }
 
 span.historical_pagecounter {
