@@ -24,13 +24,8 @@
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@type = 'main'][1]/text()"/>
     </xsl:variable>
-    <xsl:strip-space
-        elements = "div p table list note item" 
-    />
-    <xsl:preserve-space
-        elements="choice"
-    />
-    
+    <xsl:strip-space elements="div p table list note item choice del add"/>
+    <xsl:preserve-space elements=""/>
     <xsl:template match="/">
         <xsl:variable name="revision_state">
             <xsl:value-of select="//tei:revisionDesc/@status"/>
@@ -329,7 +324,6 @@
             </body>
         </html>
     </xsl:template>
-    
     <xsl:template match="tei:div[parent::tei:div]">
         <!-- this is for sections, subsections and articles-->
         <xsl:variable name="type_attrib" select="@type"/>
@@ -354,13 +348,13 @@
         <xsl:variable name="page_number">
             <xsl:number level="any"/>
         </xsl:variable>
-        <xsl:if test="@break='yes'">
+        <xsl:if test="@break = 'yes'">
             <xsl:text> </xsl:text>
         </xsl:if>
         <span class="pb" source="{$facsUrl}" n="{$page_number}"
             style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';"/>
         <span n="{$page_number}" class="pb_marker"/>
-        <xsl:if test="@break='yes'">
+        <xsl:if test="@break = 'yes'">
             <xsl:text> </xsl:text>
         </xsl:if>
     </xsl:template>
@@ -513,25 +507,21 @@
         </div>
     </xsl:template>
     <!-- deal with text features-->
-    <xsl:template match="tei:corr"/>
-    <xsl:template match="tei:sic"/>
-    <!-- prevent whitespaces after choice -->
-    <!-- <xsl:template match="text()[preceding-sibling::tei:choice[tei:corr]]">
-        <xsl:value-of select="normalize-space()"/>
-    </xsl:template> -->
-    <xsl:template match="tei:choice[tei:corr]">
-        <span class="corr sic">
-            <xsl:value-of select="normalize-space(./tei:sic)"/>
-        </span>
+    <xsl:template match="tei:corr">
+        <span class="corr sic"><xsl:value-of select="normalize-space(./tei:sic)"/></span>
+    </xsl:template>
+    <xsl:template match="tei:sic">
         <span class="corr conjectur">
             <xsl:value-of select="concat('[', normalize-space(./tei:corr), ']')"/>
         </span>
-        <!-- <xsl:apply-templates/> -->
+    </xsl:template>
+    <xsl:template match="tei:choice[tei:corr]">
+        <xsl:apply-templates select="tei:sic|tei:corr"/>
     </xsl:template>
     <xsl:template match="//tei:choice[not(tei:corr)]">
         <xsl:variable name="element_name">
             <xsl:value-of select="
-                    if (./*[local-name() = 'p' or local-name() = 'div' or local-name() = 'ab']) then
+                    if (./*[local-name() = ('p', 'div', 'ab')]) then
                         'div'
                     else
                         'span'"/>
@@ -540,8 +530,9 @@
             <xsl:attribute name="class">
                 <xsl:value-of select="'choice text_genetic'"/>
             </xsl:attribute>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="tei:del|tei:add" />
         </xsl:element>
+
     </xsl:template>
     <xsl:template match="tei:del">
         <xsl:variable name="element_name">
@@ -551,6 +542,12 @@
                     else
                         'span'"/>
         </xsl:variable>
+        <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(. , '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
+            <xsl:text> </xsl:text>
+        </xsl:if>
+        <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space()='']]">
+            <xsl:text> </xsl:text>
+        </xsl:if>
         <xsl:element name="{$element_name}">
             <xsl:attribute name="class">
                 <xsl:value-of select="'del text_genetic'"/>
@@ -559,6 +556,12 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:add">
+        <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(. , '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]  ">
+            <xsl:text> </xsl:text>
+        </xsl:if>
+        <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space()='']]">
+            <xsl:text> </xsl:text>
+        </xsl:if>
         <xsl:variable name="element_name">
             <xsl:value-of select="
                     if (./*[local-name() = 'p' or local-name() = 'div' or local-name() = 'ab']) then

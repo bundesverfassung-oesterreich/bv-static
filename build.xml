@@ -14,7 +14,7 @@
     </delete>
     <!-- prepare xmls for download -->
     <copy todir="${target_xml}" flatten="true">
-        <fileset dir="./data/">
+        <fileset dir="./data/editions">
             <include name="**/*.xml"/>
         </fileset>
     </copy>
