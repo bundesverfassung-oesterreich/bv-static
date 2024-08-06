@@ -508,15 +508,17 @@
     </xsl:template>
     <!-- deal with text features-->
     <xsl:template match="tei:corr">
-        <span class="corr sic"><xsl:value-of select="normalize-space(./tei:sic)"/></span>
+        <span class="corr conjectur">
+            <xsl:value-of select="concat('[', normalize-space(), ']')"/>
+        </span>
     </xsl:template>
     <xsl:template match="tei:sic">
-        <span class="corr conjectur">
-            <xsl:value-of select="concat('[', normalize-space(./tei:corr), ']')"/>
+        <span class="corr sic">
+            <xsl:value-of select="normalize-space()"/>
         </span>
     </xsl:template>
     <xsl:template match="tei:choice[tei:corr]">
-        <xsl:apply-templates select="tei:sic|tei:corr"/>
+        <xsl:apply-templates select="tei:sic | tei:corr"/>
     </xsl:template>
     <xsl:template match="//tei:choice[not(tei:corr)]">
         <xsl:variable name="element_name">
@@ -530,9 +532,8 @@
             <xsl:attribute name="class">
                 <xsl:value-of select="'choice text_genetic'"/>
             </xsl:attribute>
-            <xsl:apply-templates select="tei:del|tei:add" />
+            <xsl:apply-templates select="tei:del | tei:add"/>
         </xsl:element>
-
     </xsl:template>
     <xsl:template match="tei:del">
         <xsl:variable name="element_name">
@@ -542,10 +543,12 @@
                     else
                         'span'"/>
         </xsl:variable>
-        <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(. , '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
+        <xsl:if
+            test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(., '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
             <xsl:text> </xsl:text>
         </xsl:if>
-        <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space()='']]">
+        <xsl:if
+            test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space() = '']]">
             <xsl:text> </xsl:text>
         </xsl:if>
         <xsl:element name="{$element_name}">
@@ -556,10 +559,12 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:add">
-        <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(. , '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]  ">
+        <xsl:if
+            test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(., '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
             <xsl:text> </xsl:text>
         </xsl:if>
-        <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space()='']]">
+        <xsl:if
+            test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space() = '']]">
             <xsl:text> </xsl:text>
         </xsl:if>
         <xsl:variable name="element_name">
