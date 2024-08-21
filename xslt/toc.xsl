@@ -110,7 +110,7 @@
                     </div>
                     
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
+                    <script type="text/javascript" src="js/tabulator.min.js"></script>
                     <script type="text/javascript" src="js/tabulatorInit.js"></script>
                 </div>
             </body>
