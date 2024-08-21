@@ -68,7 +68,7 @@
             © Copyright OEAW | <a href="imprint.html">Impressum/Imprint</a> | <a href="https://github.com/bundesverfassung-oesterreich">GitHub</a>
         </div>
         <script src="js/jquery-3.6.3.min.js"></script>
-        <script src="js/popper.min.js"></script>
+        <!-- <script src="js/popper.min.js"></script> -->
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/listStopProp.js"></script>
     </xsl:template>
