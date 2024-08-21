@@ -489,7 +489,7 @@
             <xsl:apply-templates/>
         </ul>
     </xsl:template>
-    <xsl:template match="tei:label[following-sibling::*[1][local-name() != 'item']]">
+    <xsl:template match="tei:label[following-sibling::*[1][local-name() != 'item'] or not(following-sibling::*)]">
         <span class="number_label">
             <xsl:apply-templates/>
         </span>
