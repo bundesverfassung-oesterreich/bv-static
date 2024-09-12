@@ -17,7 +17,7 @@ jobs:
       TYPESENSE_PORT: ${{vars.TYPESENSE_PORT}}
       TYPESENSE_PROTOCOL: ${{vars.TYPESENSE_PROTOCOL}}
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     environment:
