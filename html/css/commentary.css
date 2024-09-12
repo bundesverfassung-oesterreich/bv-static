@@ -1,7 +1,56 @@
 div.commentary_container{
     margin: auto;
+    padding-top: 1rem
 }
 
 div.commentary_container div{
     padding-left: 1rem;
 }
+
+div.commentary_container p{
+    line-height: 1.6rem;
+}
+
+div.commentary_container *{
+    max-width: 40rem;
+}
+
+div.footnote_container {
+    margin-top: 6rem;
+    padding-top: 2rem;
+    width: 100%;
+    column-count: 2;
+    padding: 1rem 0 1rem 0;
+    border-top: 0.3rem solid var(--bv-big-highlight);
+    border-radius: 0.1rem;
+}
+
+div.footnote_container div {
+    padding: 0;
+    margin: 0;
+}
+
+div.footnote {
+    display: flex;
+    flex-direction: row;
+}
+
+div.footnote_container div.footnote_number {
+    min-width: 2rem;
+    padding-right: .5rem;
+}
+
+div.footnote_number a{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+/* 
+bs!
+.footnote_number {
+    position: relative;
+    display: block;
+    left: -1.5rem;
+    top: 1rem;
+} */
