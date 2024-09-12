@@ -202,7 +202,7 @@
                                         </a>
                                     </div>
                                     <div class="edition_metadata_button" role="button">
-                                        <!--<a href="{$target_xml}/comment_{$doc_id}.xml">-->
+                                        <!--<a href="{$target_xml}/{$doc_id}_commentary.xml">-->
                                         <a href="no_data.html"> Editorischer Bericht <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="16"
                                                 height="16" fill="currentColor"
