@@ -45,14 +45,34 @@
         </html>
     </xsl:template>
     <xsl:template match="tei:div">
-        <div id="{generate-id()}">
+        <div>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@type">
+                <xsl:attribute name="class">
+                    <xsl:value-of select="@type"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:div//tei:head">
+    <xsl:template match="tei:div//tei:head[not(@type) or @type='editorialHead']">
         <h2 id="{generate-id()}">
             <xsl:apply-templates/>
         </h2>
+    </xsl:template>
+    <xsl:template match="tei:div//tei:head[@type='main']">
+        <h1 id="{generate-id()}" class="main_heading">
+            <xsl:apply-templates/>
+        </h1>
+    </xsl:template>
+    <xsl:template match="tei:div//tei:head[@type='sub']">
+        <h1 id="{generate-id()}" class="sub_heading">
+            <xsl:apply-templates/>
+        </h1>
     </xsl:template>
     <xsl:template match="tei:body/tei:p[1]">
         <h1 id="{generate-id()}">
