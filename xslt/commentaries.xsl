@@ -43,6 +43,9 @@
             </body>
         </html>
     </xsl:template>
+    <xsl:template match="tei:div">
+        <div id="{generate-id()}"><xsl:apply-templates/></div>
+    </xsl:template>
     <xsl:template match="tei:div//tei:head">
         <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
     </xsl:template>
@@ -62,7 +65,25 @@
     <xsl:template match="tei:item">
         <li id="{generate-id()}"><xsl:apply-templates/></li>
     </xsl:template>
-    
+
+    <xsl:template match="tei:table">
+        <dl id="{generate-id()}"><xsl:apply-templates/></dl>
+    </xsl:template>
+    <xsl:template match="tei:cell">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:row[not(previous-sibling::tei:row)]">
+        <!-- match first row, containing the lable -->
+        <dt>
+            <xsl:apply-templates/>
+        </dt>
+    </xsl:template>
+    <xsl:template match="tei:row[previous-sibling::tei:row]">
+        <!-- match second row containing the data -->
+         <dd>
+            <xsl:apply-templates/>
+         </dd>
+    </xsl:template>
     <xsl:template match="tei:hi[contains(@rend, 'bold') or contains(@rendition, 'bold')]">
         <b>
             <xsl:apply-templates></xsl:apply-templates>

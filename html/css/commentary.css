@@ -1,3 +1,7 @@
 div.commentary_container{
     margin: auto;
 }
+
+div.commentary_container div{
+    padding-left: 1rem;
+}
