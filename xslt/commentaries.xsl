@@ -72,13 +72,13 @@
     <xsl:template match="tei:cell">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:row[not(previous-sibling::tei:row)]">
+    <xsl:template match="tei:row[not(preceding-sibling::tei:row)]">
         <!-- match first row, containing the lable -->
         <dt>
             <xsl:apply-templates/>
         </dt>
     </xsl:template>
-    <xsl:template match="tei:row[previous-sibling::tei:row]">
+    <xsl:template match="tei:row[preceding-sibling::tei:row]">
         <!-- match second row containing the data -->
          <dd>
             <xsl:apply-templates/>
