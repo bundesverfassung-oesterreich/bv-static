@@ -8,8 +8,9 @@
     --bv-contrast-rgb: 239, 241, 94;
     --bv-contrast: rgba(var(--bv-contrast-rgb), 0.965);
     --bv-transp-red: 255, 1, 1;
-    --default-line-height: 1.5rem;
-    --default-line-height-negative: -1.5rem;
+    --default-line-height: 1.6rem;
+    --default-line-height-negative: -1.6rem;
+    --footnote-line-height: 1.3rem;
     /*
         --top-offset: 1rem;
         could be set via 
