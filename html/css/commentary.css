@@ -51,7 +51,12 @@ div.footnote_container div.footnote {
 div.footnote_container div.footnote_text p {
     font-size: .8rem;
     line-height: var(--footnote-line-height);
+    text-indent: var(--footnote-line-height);
+}
 
+
+div.footnote_container div.footnote_text p:first-of-type {
+    text-indent: 0;
 }
 
 div.footnote_container div.footnote_number {
