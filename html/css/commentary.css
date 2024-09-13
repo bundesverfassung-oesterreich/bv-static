@@ -14,14 +14,25 @@ div.commentary_container>div {
     margin-right: auto;
 }
 
+/* headings spacings between sections */
 
+h1 {
+    text-indent: var(--default-line-height-negative);
+}
+
+h2 {
+    padding-bottom: var(--footnote-line-height);
+}
+
+div.editorialChapter {
+    padding-top: 2rem;
+}
 
 /* commentary text */
 
-h2 {
-    padding-bottom: 1.5rem;
+div.commentary_container div.editorialChapter:first-of-type{
+    margin-bottom: 2rem;
 }
-
 
 div.commentary_container div.editorialChapter > p {
     text-indent: var(--default-line-height);
@@ -33,9 +44,19 @@ div.commentary_container div > p:first-of-type {
     margin: 0;
 }
 
-div.editorialChapter {
-    border: red solid 2px;
-    padding-top: 2rem;
+/* overview */
+
+dl {
+    margin-left: var(--default-line-height);
+}
+
+dl p {
+    padding: 0;
+    margin: 0;
+}
+
+dd {
+    margin-left: var(--default-line-height);
 }
 
 /* footnotes */
