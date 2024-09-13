@@ -203,7 +203,18 @@
                                     </div>
                                     <div class="edition_metadata_button" role="button">
                                         <!--<a href="{$target_xml}/{$doc_id}_commentary.xml">-->
-                                        <a href="no_data.html"> Editorischer Bericht <svg
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:choose>
+                                                    <xsl:when test="//*[@ana='has_commentary']">
+                                                        <xsl:value-of select="concat('./', $doc_id, '_commentary.html')"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select="'no_data.html'"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </xsl:attribute>
+                                            Editorischer Bericht <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="16"
                                                 height="16" fill="currentColor"
                                                 class="bi bi-file-earmark-text-fill"
