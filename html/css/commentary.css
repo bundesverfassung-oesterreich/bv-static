@@ -8,25 +8,37 @@ div.commentary_container * {
     max-width: 45rem;
 }
 
+
 div.commentary_container>div {
     margin-left: auto;
     margin-right: auto;
 }
 
-div.commentary_container div.editorialChapter p {
+
+
+/* commentary text */
+
+h2 {
+    padding-bottom: 1.5rem;
+}
+
+
+div.commentary_container div.editorialChapter > p {
     text-indent: var(--default-line-height);
     margin: 0;
 }
 
-div.commentary_container div p:first-of-type {
+div.commentary_container div > p:first-of-type {
     text-indent: 0;
     margin: 0;
 }
 
 div.editorialChapter {
-    border: red;
+    border: red solid 2px;
     padding-top: 2rem;
 }
+
+/* footnotes */
 
 div.footnote_container {
     width: 100%;
@@ -77,9 +89,8 @@ div.footnote p {
     max-width: 30rem;
 }
 
-h2 {
-    padding-bottom: 1.5rem;
-}
+
+/* general stuff */
 
 :target {
     background-color: rgba(var(--bv-big-highlight-rgb), .1);
