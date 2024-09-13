@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
-        omit-xml-declaration="yes"/>
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
+    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
@@ -21,10 +18,8 @@
                 </xsl:call-template>
                 <xsl:call-template name="meta-tags">
                     <xsl:with-param name="title" select="$doc_title"/>
-                    <xsl:with-param name="source_authors"
-                        select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"/>
-                    <xsl:with-param name="description"
-                        select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"/>
+                    <xsl:with-param name="source_authors" select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"/>
+                    <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"/>
                 </xsl:call-template>
                 <link rel="stylesheet" href="css/commentary.css" type="text/css"/>
             </head>
@@ -59,8 +54,16 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:div//tei:head[not(@type) or @type='editorialHead']">
+    <!-- <xsl:template match="tei:div//tei:head[not(@type) or @type='editorialHead']">
         <h2 id="{generate-id()}">
+            <xsl:if test="./following-sibling::*[1][@type='editorialChapter']">
+                <xsl:attribute name="class">
+                    <xsl:value-of select="'no_padding'"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:attribute name="level">
+                <xsl:value-of select="count(ancestor::tei:div[@type='editorialChapter'])"/>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
@@ -73,6 +76,46 @@
         <h1 id="{generate-id()}" class="sub_heading">
             <xsl:apply-templates/>
         </h1>
+    </xsl:template> -->
+    <xsl:template match="tei:div//tei:head">
+        <xsl:variable name="level">
+            <xsl:value-of select="string(count(ancestor::tei:div[@type='editorialChapter']))"/>
+        </xsl:variable>
+        <xsl:variable name="heading_name">
+            <xsl:choose>
+                <xsl:when test="@type=('main', 'sub')">
+                    <xsl:value-of select="'h1'"/>
+                </xsl:when>
+                <xsl:when test="$level='1'">
+                    <xsl:value-of select="'h2'"/>
+                </xsl:when>
+                <xsl:when test="$level='2'">
+                    <xsl:value-of select="'h3'"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="'h4'"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:element name="{$heading_name}">
+            <xsl:attribute name="class">
+                <xsl:choose>
+                    <xsl:when test="@type='main'">
+                        <xsl:value-of select="'main_heading'"/>
+                    </xsl:when>
+                    <xsl:when test="@type='sub'">
+                        <xsl:value-of select="'sub_heading'"/>
+                    </xsl:when>
+                    <xsl:when test="./following-sibling::*[1][@type='editorialChapter']">
+                        <xsl:value-of select="'no_padding'"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="' '"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:body/tei:p[1]">
         <h1 id="{generate-id()}">
@@ -124,7 +167,7 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:note[@type='footnote']">
-    <!-- footnote anchor gets builded here, footnotes get generated at end of page-->
+        <!-- footnote anchor gets builded here, footnotes get generated at end of page-->
         <sup>
             <a class="footnote_anchor">
                 <xsl:attribute name="href">
@@ -172,8 +215,7 @@
             <xsl:when test="starts-with(data(@target), $wrong_link_prefix)">
                 <a>
                     <xsl:attribute name="href">
-                        <xsl:value-of select="substring(@target, string-length($wrong_link_prefix))"
-                        />
+                        <xsl:value-of select="substring(@target, string-length($wrong_link_prefix))" />
                     </xsl:attribute>
                     <xsl:value-of select="."/>
                 </a>
