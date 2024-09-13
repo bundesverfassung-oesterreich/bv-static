@@ -21,10 +21,21 @@ h1 {
 }
 
 h2 {
-    padding-bottom: var(--footnote-line-height);
+    padding: var(--footnote-line-height) 0;
 }
 
-h2.no_padding {
+h3 {
+    padding: var(--footnote-line-height) 0;
+}
+
+h4 {
+    padding: var(--footnote-line-height) 0;
+    font-weight: normal;
+}
+
+h2.no_padding,
+h3.no_padding,
+h4.no_padding {
     padding-bottom: 0;
     margin-bottom: 0;
 }
