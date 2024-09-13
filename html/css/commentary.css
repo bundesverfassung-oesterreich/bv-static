@@ -1,16 +1,26 @@
-div.commentary_container{
+div.commentary_container {
     margin: auto;
     padding-top: 1rem;
 }
 
 
-div.commentary_container *{
+div.commentary_container * {
     max-width: 43rem;
 }
 
-div.commentary_container > div {
+div.commentary_container>div {
     margin-left: auto;
     margin-right: auto;
+}
+
+div.commentary_container div.editorialChapter p {
+    text-indent: var(--default-line-height);
+    margin: 0;
+}
+
+div.commentary_container div p:first-of-type {
+    text-indent: 0;
+    margin: 0;
 }
 
 div.editorialChapter {
@@ -31,7 +41,11 @@ div.footnote_container {
 
 div.footnote_container div.footnote {
     padding-right: .5rem;
-    padding-top: .2rem;
+    /* padding-top: .2rem; */
+    padding-top: var(--footnote-top-padding);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: var(--footnote-bottom-padding);
 }
 
 div.footnote_container div.footnote_text p {
@@ -40,18 +54,13 @@ div.footnote_container div.footnote_text p {
 
 }
 
-div.footnote {
-    display: flex;
-    flex-direction: row;
-}
-
 div.footnote_container div.footnote_number {
     min-width: 2rem;
     padding-right: .5rem;
     text-align: end;
 }
 
-div.footnote_number a{
+div.footnote_number a {
     font-size: .8rem;
     line-height: var(--footnote-line-height);
     text-align: end;

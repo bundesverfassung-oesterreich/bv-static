@@ -11,6 +11,8 @@
     --default-line-height: 1.6rem;
     --default-line-height-negative: -1.6rem;
     --footnote-line-height: 1.3rem;
+    --footnote-top-padding: .3rem;
+    --footnote-bottom-padding: 1rem;
     /*
         --top-offset: 1rem;
         could be set via 
