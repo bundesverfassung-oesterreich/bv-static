@@ -54,29 +54,6 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <!-- <xsl:template match="tei:div//tei:head[not(@type) or @type='editorialHead']">
-        <h2 id="{generate-id()}">
-            <xsl:if test="./following-sibling::*[1][@type='editorialChapter']">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="'no_padding'"/>
-                </xsl:attribute>
-            </xsl:if>
-            <xsl:attribute name="level">
-                <xsl:value-of select="count(ancestor::tei:div[@type='editorialChapter'])"/>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-        </h2>
-    </xsl:template>
-    <xsl:template match="tei:div//tei:head[@type='main']">
-        <h1 id="{generate-id()}" class="main_heading">
-            <xsl:apply-templates/>
-        </h1>
-    </xsl:template>
-    <xsl:template match="tei:div//tei:head[@type='sub']">
-        <h1 id="{generate-id()}" class="sub_heading">
-            <xsl:apply-templates/>
-        </h1>
-    </xsl:template> -->
     <xsl:template match="tei:div//tei:head">
         <xsl:variable name="level">
             <xsl:value-of select="string(count(ancestor::tei:div[@type='editorialChapter']))"/>
