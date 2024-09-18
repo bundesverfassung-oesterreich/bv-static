@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-    padding: var(--footnote-line-height) 0;
+    padding: 3rem 0 var(--footnote-line-height);
 }
 
 h3 {
@@ -47,9 +47,9 @@ div.editorialChapter {
 
 /* commentary text */
 
-div.commentary_container div.editorialChapter:first-of-type{
+/* div.commentary_container div.editorialChapter:first-of-type{
     margin-bottom: 2rem;
-}
+} */
 
 div.commentary_container div.editorialChapter > p {
     text-indent: var(--default-line-height);
