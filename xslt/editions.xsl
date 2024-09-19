@@ -207,7 +207,7 @@
                                             <xsl:attribute name="href">
                                                 <xsl:choose>
                                                     <!-- <xsl:when test="//*[@ana='has_commentary']"> -->
-                                                    <xsl:when test="$doc_id='bv_doc_id__2'">
+                                                    <xsl:when test="boolean(False)">
                                                         <xsl:value-of select="concat('./', $doc_id, '_commentary.html')"/>
                                                     </xsl:when>
                                                     <xsl:otherwise>
