@@ -486,9 +486,9 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:emph">
-        <b>
+        <i>
             <xsl:apply-templates/>
-        </b>
+        </i>
     </xsl:template>
     <xsl:template match="tei:fw">
         <span class="historical_pagecounter">
