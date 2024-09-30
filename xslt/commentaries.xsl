@@ -153,7 +153,6 @@
                 <xsl:attribute name="id">
                     <xsl:value-of select="concat('footnote_anchor_', @xml:id)"/>
                 </xsl:attribute>
-                <!--            <xsl:value-of select="concat(@n, ' ')"/>-->
                 <xsl:number level="any"/>
             </a>
         </sup>
