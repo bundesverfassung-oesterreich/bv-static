@@ -55,7 +55,7 @@
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
-                                            <xsl:if test="not(contains($full_path,'bv_doc_id__78') or contains($full_path,'bv_doc_id__79') or contains($full_path,'bv_doc_id__83') or contains($full_path,'bv_doc_id__84'))">
+                                            <xsl:if test="not(.//tei:relatedItem[@type='based_on'])">
                                                 <tr>
                                                     <td>
                                                         <a>
