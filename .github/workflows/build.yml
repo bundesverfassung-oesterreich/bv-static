@@ -50,7 +50,7 @@ jobs:
       run: |
         python pyscripts/build_xml_docupage.py
     - name: Grant execute permission
-      run: chmod +x ./shellscript/build_pdf.sh
+      run: chmod +x ./shellscripts/build_pdf.sh
     - name: Convert .tex to .pdf
       run: ./shellscripts/build_pdf.sh
     - name: Upload Pages Artifact
