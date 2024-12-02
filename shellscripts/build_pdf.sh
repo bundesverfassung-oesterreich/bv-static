@@ -1,5 +1,14 @@
 #!/bin/bash
 
+DIR="../tex/"
+
+if [ ! -d "$DIR" ]; then
+  echo "Directory $DIR does not exist. Creating it now."
+  mkdir -p "$DIR"
+else
+  echo "Directory $DIR already exists."
+fi
+
 cd ../tex/
 
 FILES="."
