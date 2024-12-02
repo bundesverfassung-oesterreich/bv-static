@@ -34,7 +34,7 @@ jobs:
     - name: copy basic texts for pages
       run: |
         ./shellscripts/fetch_docx_texts.sh
-    - name: Install Saxon, Ant and Python
+    - name: Install Saxon, LaTeX Environment, Ant, Python
       run: |
         apt-get update && apt-get install texlive-xetex texlive-humanities texlive-lang-german fonts-freefont-ttf texlive-fonts-recommended openjdk-11-jre-headless ant -y --no-install-recommend
         ./shellscripts/script.sh
@@ -49,6 +49,8 @@ jobs:
     - name: xml documentation page
       run: |
         python pyscripts/build_xml_docupage.py
+    - name: Convert .tex to .pdf
+      run: ./shellscripts/build_pdf.sh
     - name: Upload Pages Artifact
       uses: actions/upload-pages-artifact@v3
       with:

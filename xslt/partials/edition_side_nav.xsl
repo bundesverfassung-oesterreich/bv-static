@@ -5,6 +5,9 @@
     <xsl:variable name="target_xml">
         <xsl:value-of select="'./xml-sources'"/>
     </xsl:variable>
+    <xsl:variable name="target_pdf">
+        <xsl:value-of select="'./pdf-sources'"/>
+    </xsl:variable>
     <xsl:variable name="doc_id">
         <xsl:value-of select="data(tei:TEI/@xml:id)"/>
     </xsl:variable>

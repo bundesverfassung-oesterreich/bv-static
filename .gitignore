@@ -147,4 +147,7 @@ desktop.ini
 .DS_Store
 html/beacon.txt
 
+# PDF stuff
 *.tex
+*.pdf
+*.aux
