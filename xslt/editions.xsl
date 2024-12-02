@@ -189,7 +189,7 @@
                                     </div>
                                     <div class="edition_metadata_button" role="button">
                                         <!--<a href="{$target_xml}/{$doc_title}.pdf">-->
-                                        <a href="no_data.html"> PDF <svg
+                                        <a href="{$target_pdf}/{$doc_id}.pdf"> PDF <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="16"
                                                 height="16" fill="currentColor"
                                                 class="bi bi-download" viewBox="0 0 16 16">

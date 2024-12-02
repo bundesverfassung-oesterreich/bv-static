@@ -10,6 +10,9 @@
         <fileset dir="${target}" includes="*.html"/>
     </delete>
     <delete>
+        <fileset dir="./tex" includes="*.tex"/>
+    </delete>
+    <delete>
         <fileset dir="./data/editions" includes="*_with_id.xml"/>
     </delete>
     <!-- prepare xmls for download -->
@@ -37,6 +40,10 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt style="./xslt/editions.xsl" basedir="./data/editions" destdir="${target}" includes="*.xml" extension=".html">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+        <xslt style="./xslt/tex.xsl" basedir="./data/editions" destdir="./tex" includes="*.xml" extension=".tex">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
