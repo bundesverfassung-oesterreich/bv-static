@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="../tex/"
+DIR="./tex/"
 
 if [ ! -d "$DIR" ]; then
   echo "Directory $DIR does not exist. Creating it now."
@@ -9,7 +9,7 @@ else
   echo "Directory $DIR already exists."
 fi
 
-cd ../tex/
+cd $DIR
 
 FILES="."
 for texfile in "$FILES"/*.tex

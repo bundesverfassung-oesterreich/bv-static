@@ -43,7 +43,7 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-        <xslt style="./xslt/tex.xsl" basedir="./data/editions" destdir="./tex" includes="*.xml" extension=".tex">
+    <xslt style="./xslt/tex.xsl" basedir="./data/editions" destdir="./tex" includes="*.xml" extension=".tex">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
