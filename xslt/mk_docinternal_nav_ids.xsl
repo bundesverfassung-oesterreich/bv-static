@@ -34,13 +34,13 @@
             <xsl:choose>
                 <xsl:when test="$heading_class = 'article'">
                     <xsl:value-of select="concat($heading_id_prefix, 'article_')"/>
-                    <xsl:number count="tei:div[@type = 'article']" format="1" level="any"/>
-                    <!-- <xsl:number count="tei:head" format="1" level="any"/> -->
+                    <!-- <xsl:number count="tei:div[@type = 'article']" format="1" level="any"/> -->
+                    <xsl:number count="tei:head" format="1" level="any"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="concat($heading_id_prefix, 'section_')"/>
-                    <xsl:number count="tei:div[@type = 'section']" level="any"/>
-                    <!-- <xsl:number count="tei:head" format="1" level="any"/> -->
+                    <!-- <xsl:number count="tei:div[@type = 'section']" level="any"/> -->
+                    <xsl:number count="tei:head" format="1" level="any"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
