@@ -40,6 +40,7 @@ jobs:
         ./shellscripts/script.sh
         python -m pip config set global.break-system-packages true
         pip install -r ./pyscripts/requirements.txt
+        xelatex --version
     - name: imprint
       run: |
         ./shellscripts/dl_imprint.sh
