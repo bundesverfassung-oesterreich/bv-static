@@ -9,7 +9,7 @@
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
-    <delete>
+    <delete failonerror="false">
         <fileset dir="./tex" includes="*.tex"/>
     </delete>
     <delete>
