@@ -8,7 +8,7 @@
     </xsl:template>
     <xsl:template match="//tei:body//tei:head">
         <xsl:variable name="heading_id_prefix">heading_</xsl:variable>
-        <!-- find level of head between 1 and 6, the level is not semantical, the hirarchy never interruptet-->
+        <!-- find level of head between 1 and 6, the level is not semantical, the hierarchy never interrupted-->
         <xsl:variable name="head_level_number_raw" select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
         <xsl:variable name="head_level_number">
             <xsl:choose>
