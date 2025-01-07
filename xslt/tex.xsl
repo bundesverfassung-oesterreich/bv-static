@@ -11,6 +11,18 @@
         \usepackage[ngerman]{babel}
         \usepackage{microtype}
         \usepackage{enumitem}
+        \usepackage{tcolorbox}
+
+        \setlength\parindent{0pt}
+
+        \newtcolorbox{mynote}[1][]{%
+            sharp corners,
+            colback=grey,
+            boxrule=0pt,
+            grow to left by=-1cm,
+            grow to right by=-1cm,
+            #1
+        }
 
         \begin{document}
 
@@ -21,25 +33,47 @@
 
         \maketitle
 
-        <xsl:for-each select=".//tei:div[@type='section']">
-            <xsl:for-each select="tei:head">
-                \section*{<xsl:value-of select="normalize-space(.)"/>}
-            </xsl:for-each>
-            <xsl:for-each select="tei:p[not(@type)]">
-                <xsl:apply-templates select="./text()"/>
-            </xsl:for-each>
+        <xsl:choose>
+            <xsl:when test="exists(.//tei:text[@type='Verfassungsentwurf' or @type='Verfassungstext'])">
+                <xsl:for-each select=".//tei:div[@type='main']/tei:head[@class='main']">
+                    \section*{<xsl:value-of select="normalize-space(.)"/>}
+                </xsl:for-each>
 
-            <xsl:for-each select="tei:div[@type='article']">
-                <xsl:for-each select="tei:head">
-                    \subsection*{<xsl:value-of select="normalize-space(.)"/>}
+                <xsl:for-each select=".//tei:div[@type='main']/tei:p | .//tei:div[@type='main']/tei:div[@type='preamble']/tei:p">
+                    <xsl:apply-templates/>\\\\
                 </xsl:for-each>
-                <xsl:for-each select="tei:p[@type='legal_section']">
-                    <xsl:apply-templates select="tei:list | ./text()"/>
-                    \\\\
+
+                <xsl:for-each select=".//tei:div[@type='section']">
+                    <xsl:for-each select="tei:head[@class='section']">
+                        \subsection*{<xsl:value-of select="normalize-space(.)"/>}
+                    </xsl:for-each>
+                    <xsl:for-each select="tei:p[not(@type)]">
+                        <xsl:apply-templates select="./text()"/>
+                    </xsl:for-each>
+                    <xsl:for-each select="tei:note[@type='comment']">
+                        <xsl:apply-templates select="tei:note[@type='comment']"/>
+                    </xsl:for-each>
+
+                    <xsl:for-each select="tei:div[@type='article']">
+                        <xsl:for-each select="tei:head[@class='article']">
+                            \subsubsection*{<xsl:apply-templates/>}
+                        </xsl:for-each>
+                        <xsl:for-each select="tei:p[@type='legal_section']">
+                            <xsl:apply-templates select="tei:list | ./text() | tei:note[@type='comment'] | tei:emph"/>
+                            \\\\
+                        </xsl:for-each>
+                    </xsl:for-each>
                 </xsl:for-each>
-                <xsl:apply-templates select="tei:note[@type='comment']"/>
-            </xsl:for-each>
-        </xsl:for-each>
+            </xsl:when>
+            <xsl:when test="exists(.//tei:text[@type='Sitzungsprotokoll' or @type='Stellungnahme zum Verfassungsentwurf'])">
+                <xsl:for-each select=".//tei:div[@type='main']/tei:p">
+                    <xsl:apply-templates select="tei:list | ./text() | tei:note[@type='comment'] | tei:emph"/>\\\\
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                \section(Überprüfe den Texttyp: Verfassungsentwurf, Verfassungstext, Sitzungsprotokoll, Stellungnahme zum Verfassungsentwurf
+            </xsl:otherwise>
+        </xsl:choose>
 
         <xsl:apply-templates/>
 
@@ -47,8 +81,27 @@
 
     </xsl:template>
 
+    <xsl:template match="tei:corr">[<xsl:value-of select="."/>]</xsl:template>
+
+    <xsl:template match="tei:emph">\textit{<xsl:value-of select="."/>}</xsl:template>
+
+    <xsl:template match="tei:p"><xsl:value-of select="."/><xsl:apply-templates/>\\\\</xsl:template>
+
+    <xsl:template match="text()">
+        <xsl:choose>
+            <xsl:when test="exists(parent::*/tei:choice|parent::*/tei:fw)">
+                <xsl:value-of select="."/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="normalize-space(.)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
     <xsl:template match="tei:note[@type='comment']">
-        \paragraph*{<xsl:value-of select="."/>}
+        \begin{mynote}
+            <xsl:apply-templates/>
+        \end{mynote}
     </xsl:template>
 
     <xsl:template match="tei:list">
@@ -65,5 +118,7 @@
         </xsl:for-each>
         \end{enumerate}
     </xsl:template>
+
+
 
 </xsl:stylesheet>
