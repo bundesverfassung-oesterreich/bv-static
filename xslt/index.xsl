@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet 
-    xmlns="http://www.w3.org/1999/xhtml"
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                                        version="2.0" exclude-result-prefixes="#all">
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -14,7 +13,7 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select='"B-VG 1920"'/>
         </xsl:variable>
-        
+
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
@@ -26,7 +25,7 @@
                     <xsl:with-param name="source_authors" select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"></xsl:with-param>
                     <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
                 </xsl:call-template>
-            </head>            
+            </head>
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
@@ -34,7 +33,7 @@
                         <div class="row intro">
                             <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                 <div class="landing_text">
-                                    <xsl:apply-templates select="//tei:body"/>
+                                    <h1><b>Die Entstehung des Bundes-Verfassungsgesetzes 1920</b></h1>
                                 </div>
                             </div>
                         </div>
@@ -45,6 +44,14 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row intro">
+                            <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
+                                <div class="landing_text">
+                                    <!-- <xsl:apply-templates select="//tei:body"/> -->
+                                    <xsl:apply-templates select="//tei:body/tei:*[not(self::tei:p[parent::tei:body and count(preceding-sibling::*)=0])]"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
@@ -52,25 +59,35 @@
         </html>
     </xsl:template>
     <xsl:template match="tei:div//tei:head">
-        <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
+        <h2 id="{generate-id()}">
+            <xsl:apply-templates/>
+        </h2>
     </xsl:template>
-    
+
     <xsl:template match="tei:body/tei:p[1]">
-        <h1 id="{generate-id()}"><xsl:apply-templates/></h1>
+        <h1 id="{generate-id()}">
+            <xsl:apply-templates/>
+        </h1>
     </xsl:template>
-    
+
     <xsl:template match="tei:p">
-        <p id="{generate-id()}"><xsl:apply-templates/></p>
+        <p id="{generate-id()}">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
-    
+
     <xsl:template match="tei:list">
-        <ul id="{generate-id()}"><xsl:apply-templates/></ul>
+        <ul id="{generate-id()}">
+            <xsl:apply-templates/>
+        </ul>
     </xsl:template>
-    
+
     <xsl:template match="tei:item">
-        <li id="{generate-id()}"><xsl:apply-templates/></li>
+        <li id="{generate-id()}">
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
-    
+
     <xsl:template match="tei:hi[contains(@rend, 'bold') or contains(@rendition, 'bold')]">
         <b>
             <xsl:apply-templates></xsl:apply-templates>
@@ -89,7 +106,9 @@
             </xsl:when>
             <xsl:when test="starts-with(data(@target), 'http')">
                 <a>
-                    <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="@target"/>
+                    </xsl:attribute>
                     <xsl:value-of select="."/>
                 </a>
             </xsl:when>
@@ -98,5 +117,5 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
+
 </xsl:stylesheet>
