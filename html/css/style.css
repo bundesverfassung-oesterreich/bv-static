@@ -635,6 +635,31 @@ div#short_title h4:hover {
     margin-left: auto;
 }
 
+/* quotes */
+
+blockquote {
+    display: block;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+blockquote p,
+blockquote h5.quote{
+    font-size: .89rem;
+}
+
+blockquote h5.quote {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* quotes end */
+
+
 /* entities */
 .entity {
     cursor: pointer;
@@ -971,10 +996,6 @@ span.historical_pagecounter.hpc_visible::after {
     border: none;
     padding: 0;
 
-}
-
-p {
-    display: block;
 }
 
 
