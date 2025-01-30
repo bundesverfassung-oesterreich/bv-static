@@ -443,7 +443,17 @@
             and
             not(@* | * | comment() | processing-instruction())
             and normalize-space() = '']"/>
-    <xsl:template match="//tei:body//tei:head">
+    <xsl:template match="//tei:quote">
+        <blockquote>
+            <xsl:apply-templates/>
+        </blockquote>
+    </xsl:template>
+    <xsl:template match="//tei:quote//tei:head">
+        <h5 class="quote">
+            <xsl:apply-templates/>
+        </h5>
+    </xsl:template>
+    <xsl:template match="//tei:body//tei:head[not(ancestor::tei:quote)]">
         <!-- find level of head between 1 and 6, the level is not semantical, the hirarchy never interruptet-->
         <xsl:variable name="is_single" select="boolean(count(parent::*/tei:head) = 1)"/>
         <xsl:variable name="is_first" select="boolean(not(preceding-sibling::tei:head))"/>
