@@ -160,7 +160,7 @@ def create_records():
         doc_title = xml_doc.any_xpath(
             "//tei:msDesc/tei:msContents/tei:msItem/tei:title"
         )[0].text
-        heads = xml_doc.any_xpath("//tei:body//tei:head")
+        heads = xml_doc.any_xpath("//tei:body//tei:head[not(ancestor::tei:quote)]")
         head_index = 0
         doc_record = create_record(
             head_index,
