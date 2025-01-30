@@ -38,11 +38,11 @@
 
     <xsl:template name="get_article_nav">
         <xsl:for-each select=".//tei:div[@type='article']">
-            <xsl:variable name="article_title" select="./tei:head[1]/normalize-space()"/>
+            <xsl:variable name="article_title" select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
             <li>
                 <a class="dropdown-item" title="{$article_title}">
                     <xsl:attribute name="href">
-                        <xsl:value-of select="concat('#', (.//tei:head[1]/@xml:id)[1])"/>
+                        <xsl:value-of select="concat('#', (.//tei:head[not(ancestor::tei:quote)][1]/@xml:id)[1])"/>
                     </xsl:attribute>
                     <xsl:value-of select="$article_title"/>
                 </a>
@@ -52,11 +52,11 @@
 
     <xsl:template name="get_strict_article_nav">
         <xsl:for-each select="./tei:div[@type='article']">
-            <xsl:variable name="article_title" select="./tei:head[1]/normalize-space()"/>
+            <xsl:variable name="article_title" select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
             <li>
                 <a class="dropdown-item" title="{$article_title}">
                     <xsl:attribute name="href">
-                        <xsl:value-of select="concat('#', (.//tei:head[1]/@xml:id)[1])"/>
+                        <xsl:value-of select="concat('#', (.//tei:head[not(ancestor::tei:quote)][1]/@xml:id)[1])"/>
                     </xsl:attribute>
                     <xsl:value-of select="$article_title"/>
                 </a>
@@ -71,9 +71,9 @@
             <xsl:when test="$subsection_divs_exist = 'true'">
                 <xsl:for-each select="$subsection_divs">
                     <li>
-                        <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head/@xml:id)[1])"/>
+                        <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head[not(ancestor::tei:quote)]/@xml:id)[1])"/>
                         <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
-                            <xsl:value-of select="./tei:head[1]/normalize-space()"/>
+                            <xsl:value-of select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -96,9 +96,9 @@
             <xsl:when test="$toplevel_section_divs_exist = 'true'">
                 <xsl:for-each select="$toplevel_section_divs">
                     <li>
-                        <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head[1]/@xml:id)[1])"/>
+                        <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head[not(ancestor::tei:quote)][1]/@xml:id)[1])"/>
                         <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
-                            <xsl:value-of select="./tei:head[1]/normalize-space()"/>
+                            <xsl:value-of select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">

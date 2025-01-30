@@ -18,7 +18,7 @@
                     <xsl:attribute name="href">
                         <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
                     </xsl:attribute>
-                    <xsl:value-of select="./tei:head[1]/normalize-space()"/>
+                    <xsl:value-of select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
                 </a>
             </li>
         </xsl:for-each>
@@ -44,7 +44,7 @@
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="concat('#', (.//tei:a[contains(@class, 'navigation')]/@xml:id)[1])"/>
                                     </xsl:attribute>
-                                    <xsl:value-of select="./tei:head[1]/normalize-space()"/>
+                                    <xsl:value-of select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
                                 </a>
                                 <ul class="dropown-menu dropdown-submenu">
                                     <xsl:call-template name="get_article_nav"/>

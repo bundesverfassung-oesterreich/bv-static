@@ -6,7 +6,7 @@
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="//tei:body//tei:head">
+    <xsl:template match="//tei:body//tei:head[not(ancestor::tei:quote)]">
         <xsl:variable name="heading_id_prefix">heading_</xsl:variable>
         <!-- find level of head between 1 and 6, the level is not semantical, the hierarchy never interrupted-->
         <xsl:variable name="head_level_number_raw" select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
@@ -35,12 +35,12 @@
                 <xsl:when test="$heading_class = 'article'">
                     <xsl:value-of select="concat($heading_id_prefix, 'article_')"/>
                     <!-- <xsl:number count="tei:div[@type = 'article']" format="1" level="any"/> -->
-                    <xsl:number count="tei:head" format="1" level="any"/>
+                    <xsl:number count="tei:head[not(ancestor::tei:quote)]" format="1" level="any"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="concat($heading_id_prefix, 'section_')"/>
                     <!-- <xsl:number count="tei:div[@type = 'section']" level="any"/> -->
-                    <xsl:number count="tei:head" format="1" level="any"/>
+                    <xsl:number count="tei:head[not(ancestor::tei:quote)]" format="1" level="any"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -50,7 +50,7 @@
                 <xsl:value-of select="$heading_class"/>
             </xsl:attribute>
             <xsl:choose>
-                <xsl:when test="not(preceding-sibling::tei:head) and not($heading_class = 'main')">
+                <xsl:when test="not(preceding-sibling::tei:head[not(ancestor::tei:quote)]) and not($heading_class = 'main')">
                     <xsl:attribute name="xml:id">
                         <xsl:value-of select="$heading_id"/>
                     </xsl:attribute>
