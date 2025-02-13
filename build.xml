@@ -21,7 +21,7 @@
             <include name="**/*.xml"/>
         </fileset>
     </copy>
-    <replaceregexp match="&lt;graphic url=&quot;https://viewer.acdh.oeaw.ac.at/viewer/api/v1/records/bv_doc_id__[0-9]*/files/images/(IMG_[0-9]*)/full/full/0/default.jpg&quot;" replace="&lt;graphic url=&quot;\1&quot;" flags="gs" byline="false">
+    <replaceregexp match="&lt;graphic url=&quot;.*?(IMG_[0-9]*).*?\.jpg&quot;" replace="&lt;graphic url=&quot;\1&quot;" flags="gs" byline="false">
         <fileset dir="${target_xml}" includes="bv_doc_id__*.xml"/>
     </replaceregexp>
     <!-- this is a hacky workaround to get some xml ids into the files which can be read later on to create a doc internal navigation -->
