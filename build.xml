@@ -5,7 +5,7 @@
     <property name="about_project" value="./data/externally_sourced_texts/about_project.xml"/>
     <property name="index_text" value="./data/externally_sourced_texts/index.xml"/>
     <property name="target" value="./html"/>
-    <property name="target_xml" value="./html/xml-sources"/>
+    
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
@@ -16,13 +16,13 @@
         <fileset dir="./data/editions" includes="*_with_id.xml"/>
     </delete>
     <!-- prepare xmls for download -->
-    <copy todir="${target_xml}" flatten="true">
+    <copy todir="${target}" flatten="true">
         <fileset dir="./data/editions">
             <include name="**/*.xml"/>
         </fileset>
     </copy>
     <replaceregexp match="&lt;graphic url=&quot;.*?(IMG_[0-9]*).*?\.jpg&quot;" replace="&lt;graphic url=&quot;\1&quot;" flags="gs" byline="false">
-        <fileset dir="${target_xml}" includes="bv_doc_id__*.xml"/>
+        <fileset dir="${target}" includes="bv_doc_id__*.xml"/>
     </replaceregexp>
     <!-- this is a hacky workaround to get some xml ids into the files which can be read later on to create a doc internal navigation -->
     <xslt style="./xslt/mk_docinternal_nav_ids.xsl" basedir="./data/editions" destdir="./data/editions" includes="*.xml" extension="_with_id.xml">
@@ -123,9 +123,6 @@
         <include name="*.html"/>
         <replacetoken>&lt;/br&gt;</replacetoken>
     </replace>
-    <delete>
-        <fileset dir="${target}" includes="*.xml" />
-    </delete>
     <delete>
         <fileset dir="./data/editions" includes="*_with_id.xml"/>
     </delete>

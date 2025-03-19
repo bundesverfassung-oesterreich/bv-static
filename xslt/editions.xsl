@@ -175,7 +175,7 @@
                                 </div>
                                 <div class="row align-items-start justify-content-start">
                                     <div class="edition_metadata_button" role="button">
-                                        <a href="{$target_xml}/{$doc_id}.xml"> XML <svg
+                                        <a href="{$doc_id}.xml"> XML <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="16"
                                                 height="16" fill="currentColor"
                                                 class="bi bi-download" viewBox="0 0 16 16">

@@ -1,5 +1,7 @@
 # project specific
 *.html
+html/*.xml
+html/*.rdf
 data/editions
 !search.html
 /saxon
