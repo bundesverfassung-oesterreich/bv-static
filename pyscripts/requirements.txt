@@ -1,5 +1,5 @@
-lxml
 acdh_cfts_pyutils
 acdh_tei_pyutils
 tqdm
 typesense
+jinja2

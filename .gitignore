@@ -2,6 +2,7 @@
 *.html
 html/*.xml
 html/*.rdf
+/html/oai-pmh
 data/editions
 !search.html
 /saxon

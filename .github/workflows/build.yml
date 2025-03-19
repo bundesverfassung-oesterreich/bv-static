@@ -50,6 +50,9 @@ jobs:
     - name: xml documentation page
       run: |
         python pyscripts/build_xml_docupage.py
+    - name: set up OAI-PMH endpoints
+      run: |
+        python oai-pmh/make_files.py
     - name: Convert .tex to .pdf
       run: ./shellscripts/build_pdf.sh
     - name: Upload Pages Artifact
