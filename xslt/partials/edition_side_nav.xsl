@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs xsl tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs xsl tei" version="2.0">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:variable name="target_xml">
         <xsl:value-of select="'./xml-sources'"/>
@@ -12,6 +15,7 @@
         <xsl:value-of select="data(tei:TEI/@xml:id)"/>
     </xsl:variable>
     <xsl:template name="build_doc_sub_list">
+        <!-- This build the list to navigate through documents -->
         <xsl:param name="id_name_for_toggle"></xsl:param>
         <xsl:param name="data_set_id_transkribus"></xsl:param>
         <xsl:param name="heading"></xsl:param>
@@ -114,9 +118,25 @@
         </xsl:choose>
     </xsl:template>
 
+    <xsl:template name="get_chapter_and_article_nav_B">
+        <xsl:variable name="section_divs" select=".//tei:body//tei:div[contains(@type, 'section')]"/>
+        <xsl:for-each select="$section_divs">
+            <xsl:variable name="section_title" select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
+            <li>
+                <a class="dropdown-item" title="{$section_title}">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat('#', (.//tei:head[not(ancestor::tei:quote)][1]/@xml:id)[1])"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="$section_title"/>
+                </a>
+            </li>
+        </xsl:for-each>
+    </xsl:template>
+
 
     <xsl:template name="edition_side_nav">
         <xsl:param name="doc_title"/>
+        <xsl:variable name="data_set" select="//tei:idno[@type='bv_data_set']/text()"/>
         <div id="edtion-navBarNavDropdown" class="dropstart navBarNavDropdown">
             <xsl:variable name="data_set_A_id" as="xs:string" select="string(195363)"/>
             <xsl:variable name="data_set_B_id" as="xs:string" select="string(196428)"/>
@@ -147,16 +167,50 @@
                         </ul>
                     </div>
                 </li>
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
-                        <p><xsl:value-of select="$doc_title" /></p>
-                    </button>
-                    <div class="collapse" id="current-doc-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <xsl:call-template name="get_chapter_and_article_nav"/>
-                        </ul>
-                    </div>
-                </li>
+                <xsl:choose>
+                    <xsl:when test="$data_set = 'Datenset A'">
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
+                                <p>
+                                    <xsl:value-of select="$doc_title" />
+                                </p>
+                            </button>
+                            <div class="collapse" id="current-doc-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <xsl:call-template name="get_chapter_and_article_nav"/>
+                                </ul>
+                            </div>
+                        </li>
+                    </xsl:when>
+                    <xsl:when test="$data_set = 'Datenset B'">
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
+                                <p>
+                                    <xsl:value-of select="$doc_title" />
+                                </p>
+                            </button>
+                            <div class="collapse" id="current-doc-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <xsl:call-template name="get_chapter_and_article_nav_B"/>
+                                </ul>
+                            </div>
+                        </li>
+                    </xsl:when>
+                    <xsl:when test="$data_set = 'Datenset C'">
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
+                                <p>
+                                    <xsl:value-of select="$doc_title" />
+                                </p>
+                            </button>
+                            <div class="collapse" id="current-doc-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <xsl:call-template name="get_chapter_and_article_nav"/>
+                                </ul>
+                            </div>
+                        </li>
+                    </xsl:when>
+                </xsl:choose>
             </ul>
         </div>
 
