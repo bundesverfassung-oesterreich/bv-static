@@ -554,6 +554,7 @@ span.gap {
     background-color: var(--bv-violet);
     display: inline-block;
     padding: 0rem 0.2rem;
+    font-size: inherit;
 }
 
 span.gap::after {
