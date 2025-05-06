@@ -551,7 +551,7 @@ span.corr.conjectur.correction_view {
 
 /* handle gaps */
 span.gap {
-    background-color: var(--bv-violet);
+    /* background-color: var(--bv-violet); */
     display: inline-block;
     padding: 0rem 0.2rem;
     font-size: inherit;
