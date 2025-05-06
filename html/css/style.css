@@ -13,6 +13,7 @@
     --footnote-line-height: 1.3rem;
     --footnote-top-padding: .3rem;
     --footnote-bottom-padding: 1rem;
+    --bv-violet: #e1d4ff;
     /*
         --top-offset: 1rem;
         could be set via 
@@ -546,6 +547,17 @@ span.corr.conjectur {
 
 span.corr.conjectur.correction_view {
     display: inline;
+}
+
+/* handle gaps */
+span.gap {
+    background-color: var(--bv-violet);
+    display: inline-block;
+    padding: 0rem 0.2rem;
+}
+
+span.gap::after {
+    content: "■";
 }
 
 

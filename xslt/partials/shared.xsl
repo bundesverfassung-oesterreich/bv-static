@@ -131,6 +131,12 @@
         
         <xsl:call-template name="pb_lstripper"/>
     </xsl:template>-->
+
+    <xsl:template match="tei:gap[@reason='illegible']">
+        <span class="gap">
+        </span>
+    </xsl:template>
+
     <xsl:template match="tei:cit">
         <cite>
             <xsl:apply-templates/>
