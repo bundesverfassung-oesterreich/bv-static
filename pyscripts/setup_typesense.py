@@ -126,6 +126,11 @@ def create_record(
     return record
 
 
+def is_secondary_witness(xml_doc:TeiReader):
+    if xml_doc.any_xpath("//tei:sourceDesc//tei:msDesc[@subtype='secondary']"):
+        return True
+    return False
+
 def create_records():
     print("creating records")
     xml_files = glob.glob(xml_path)
@@ -135,50 +140,37 @@ def create_records():
         print("processing", xml_filepath)
         file_name = os.path.split(xml_filepath)[-1]
         xml_doc = TeiReader(xml_filepath)
-        global tei_ns
-        tei_ns = xml_doc.ns_tei
-        xml_doc_root = xml_doc.tree.getroot()
-        bv_doc_id = xml_doc_root.attrib[f'{{{xml_doc.ns_xml.get("xml")}}}id'].replace(
-            ".xml", ""
-        )
-        authors = xml_doc.any_xpath(
-            "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
-        )
-        creation_date = xml_doc.any_xpath(
-            "normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"
-        )
-        try:
-            material_doc_type = xml_doc.any_xpath(
-                "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form"
-            )[0]
-        except IndexError:
-            material_doc_type = "unbekannt"
-        try:
-            doc_content_type = xml_doc.any_xpath("//tei:text/@type")[0]
-        except IndexError:
-            doc_content_type = ""
-        doc_title = xml_doc.any_xpath(
-            "//tei:msDesc/tei:msContents/tei:msItem/tei:title"
-        )[0].text
-        heads = xml_doc.any_xpath("//tei:body//tei:head[not(ancestor::tei:quote)]")
-        head_index = 0
-        doc_record = create_record(
-            head_index,
-            None,
-            creation_date,
-            doc_title,
-            bv_doc_id,
-            authors,
-            file_name,
-            material_doc_type,
-            doc_content_type,
-        )
-        records.append(doc_record)
-        for head in heads:
-            head_index += 1
-            record = create_record(
+        if not is_secondary_witness(xml_doc):
+            global tei_ns
+            tei_ns = xml_doc.ns_tei
+            xml_doc_root = xml_doc.tree.getroot()
+            bv_doc_id = xml_doc_root.attrib[f'{{{xml_doc.ns_xml.get("xml")}}}id'].replace(
+                ".xml", ""
+            )
+            authors = xml_doc.any_xpath(
+                "//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"
+            )
+            creation_date = xml_doc.any_xpath(
+                "normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"
+            )
+            try:
+                material_doc_type = xml_doc.any_xpath(
+                    "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form"
+                )[0]
+            except IndexError:
+                material_doc_type = "unbekannt"
+            try:
+                doc_content_type = xml_doc.any_xpath("//tei:text/@type")[0]
+            except IndexError:
+                doc_content_type = ""
+            doc_title = xml_doc.any_xpath(
+                "//tei:msDesc/tei:msContents/tei:msItem/tei:title"
+            )[0].text
+            heads = xml_doc.any_xpath("//tei:body//tei:head[not(ancestor::tei:quote)]")
+            head_index = 0
+            doc_record = create_record(
                 head_index,
-                head,
+                None,
                 creation_date,
                 doc_title,
                 bv_doc_id,
@@ -187,7 +179,21 @@ def create_records():
                 material_doc_type,
                 doc_content_type,
             )
-            records.append(record)
+            records.append(doc_record)
+            for head in heads:
+                head_index += 1
+                record = create_record(
+                    head_index,
+                    head,
+                    creation_date,
+                    doc_title,
+                    bv_doc_id,
+                    authors,
+                    file_name,
+                    material_doc_type,
+                    doc_content_type,
+                )
+                records.append(record)
     return records
 
 
