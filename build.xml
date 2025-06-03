@@ -5,7 +5,7 @@
     <property name="about_project" value="./data/externally_sourced_texts/about_project.xml"/>
     <property name="index_text" value="./data/externally_sourced_texts/index.xml"/>
     <property name="target" value="./html"/>
-    
+
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>

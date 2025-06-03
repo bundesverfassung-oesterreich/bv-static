@@ -44,6 +44,9 @@ jobs:
     - name: imprint
       run: |
         ./shellscripts/dl_imprint.sh
+    - name: make json for tabulator toc
+      run: |
+        python pyscripts/make_toc_json.py
     - name: Build
       run: |
         ant

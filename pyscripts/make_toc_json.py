@@ -3,7 +3,7 @@ import glob
 import json
 from acdh_tei_pyutils.tei import TeiReader
 
-json_path = "./data/toc.json"
+json_path = "./html/js/toc.json"
 editions_path = "./data/editions/*.xml"
 doc_id_2_data = {}
 toc = []
@@ -54,7 +54,6 @@ for edition_file in glob.glob(editions_path):
     doc_id_2_data[bv_doc_id] = data
     if data["witness_status"] == "primary":
         toc.append(data)
-print(doc_id_2_data)
 
 for data in toc:
     if data["other_witnesses"]:
@@ -64,8 +63,10 @@ for data in toc:
                 data["_children"].append(doc_id_2_data[witness_id])
             else:
                 print(f"Warning: Witness ID {witness_id} not found in doc_id_2_data.")
-            
-        
+        if len(data["_children"]) == 0:
+            # we have to remove this, otherwise tabulator will show a non working dropdown
+            data.pop("_children")
+            data.pop("other_witnesses")
 with open(json_path, "w") as f:
     print(f"Writing toc to {json_path}")
     json.dump(toc, f, indent=2)
