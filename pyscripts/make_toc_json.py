@@ -20,8 +20,9 @@ for edition_file in glob.glob(editions_path):
         doc_id.strip("#")
         for doc_id in doc.any_xpath("//tei:sourceDesc/tei:listWit/tei:witness/@sameAs")
     ]
+    title_prefix = "Alternativzeuge: " if data["witness_status"] != "primary" else ""
     title_html = f"""
-        <a href="{edition_file.split("/")[-1].replace('.xml', '.html')}">
+        {title_prefix}<a href="{edition_file.split("/")[-1].replace('.xml', '.html')}">
             {doc.any_xpath(".//tei:title[@type='main'][1]/text()")[0]}
         </a>
     """
