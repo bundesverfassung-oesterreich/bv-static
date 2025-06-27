@@ -22,7 +22,7 @@
         </fileset>
     </copy>
     <replaceregexp match="&lt;graphic url=&quot;http.*?(IMG_[0-9]+).*?\.jpg&quot;" replace="&lt;graphic url=&quot;\1&quot;" flags="gs" byline="false">
-        <fileset dir="${target}" includes="bv_doc_id__*.xml"/>
+        <fileset dir="${target}" includes="*.xml"/>
     </replaceregexp>
     <!-- this is a hacky workaround to get some xml ids into the files which can be read later on to create a doc internal navigation -->
     <xslt style="./xslt/mk_docinternal_nav_ids.xsl" basedir="./data/editions" destdir="./data/editions" includes="*.xml" extension="_with_id.xml">
