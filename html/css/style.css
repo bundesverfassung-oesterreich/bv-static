@@ -973,7 +973,8 @@ span.pb::before {
     font-weight: bold;
     font-size: inherit;
     color: black;
-    content: "|" var(--beginning_page)"|";
+    /* content: "|" var(--beginning_page)"|"; */
+    content: "|" var(--beginning_page);
     text-align: right;
 }
 
