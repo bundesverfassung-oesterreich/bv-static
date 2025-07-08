@@ -955,6 +955,9 @@ div#text-resize div.card-body.non_mimetic_lbs {
     max-width: 40rem;
 }
 
+span.pb, span.pb::before, span.pb::marker, span.pb_marker::after {
+    font-size: 1rem;
+}
 
 span.pb {
     visibility: visible;
@@ -971,7 +974,6 @@ span.pb::before {
     display: inline-block;
     opacity: 0.5;
     font-weight: bold;
-    font-size: inherit;
     color: black;
     /* content: "|" var(--beginning_page)"|"; */
     content: "|" var(--beginning_page);
@@ -980,12 +982,11 @@ span.pb::before {
 
 span.pb_marker {
     color: grey;
-    font-size: inherit;
 }
 
 span.pb_marker::after {
+    font-weight: bold;
     content: "|";
-    font-size: inherit;
 }
 
 span.historical_pagecounter {
