@@ -62,7 +62,7 @@
                                                             <xsl:attribute name="href">
                                                                 <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                             </xsl:attribute>
-                                                            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                                            <xsl:value-of select="normalize-space(.//tei:title[@type='main'][1]/text()[1])"/>
                                                         </a>
                                                     </td>
                                                     <!--
@@ -79,13 +79,13 @@
                                                         <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"/>
                                                     </td>
                                                     <td>
-                                                        <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/>
+                                                        <xsl:value-of select="normalize-space(string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / '))"/>
                                                     </td>
                                                     <td>
-                                                        <xsl:value-of select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
+                                                        <xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1])"/>
                                                     </td>
                                                     <td>
-                                                        <xsl:value-of select="//tei:text/@type"/>
+                                                        <xsl:value-of select="normalize-space(//tei:text/@type)"/>
                                                     </td>
                                                     <td>
                                                         <xsl:choose>
