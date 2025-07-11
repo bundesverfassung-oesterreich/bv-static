@@ -4,7 +4,7 @@ import requests as req
 template_path = "html/index.html"
 docu_path = "html/xml_docu.html"
 
-xml_docu_req = req.get('https://raw.githubusercontent.com/bundesverfassung-oesterreich/bv-schema-framework/main/html/index.html')
+xml_docu_req = req.get('https://raw.githubusercontent.com/bundesverfassung-oesterreich/bv-schema-framework/refs/heads/main/html_docu_source/index.html')
 xml_docu_html = html.fromstring(xml_docu_req.content)
 docu_nav_html = xml_docu_html.xpath("//body/ul[@class='toc toc_body']")[0]
 docu_html = xml_docu_html.xpath("//body/div[@class='tei_body']")[0]
