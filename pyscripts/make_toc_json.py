@@ -8,6 +8,12 @@ editions_path = "./data/editions/*.xml"
 doc_id_2_data = {}
 toc = []
 
+def normalize_space(text):
+    """
+    Normalize whitespace in a string by replacing multiple spaces and newlines with a single space.
+    """
+    return re.sub(r'\s+', ' ', text).strip()
+
 for edition_file in glob.glob(editions_path):
     print(edition_file)
     data = {}
@@ -21,16 +27,17 @@ for edition_file in glob.glob(editions_path):
         for doc_id in doc.any_xpath("//tei:sourceDesc/tei:listWit/tei:witness/@sameAs")
     ]
     title_prefix = "Alternativzeuge: " if data["witness_status"] != "primary" else ""
+    title_str = normalize_space(doc.any_xpath(".//tei:title[@type='main'][1]/text()")[0])
     title_html = f"""
         {title_prefix}<a href="{edition_file.split("/")[-1].replace('.xml', '.html')}">
-            {doc.any_xpath(".//tei:title[@type='main'][1]/text()")[0]}
+            {title_str}
         </a>
     """
     data["title_html"] = re.sub("[\n]*|\s{2,}", "", title_html)
     persons_string = " / ".join(
         doc.any_xpath("//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()")
     )
-    data["beteiligte Personen"] = re.sub("[\n]*|\s{2,}", "", persons_string)
+    data["beteiligte Personen"] = re.sub("[\n]*|\s{2,}", "", normalize_space(persons_string))
     data["Dokumententyp"] = doc.any_xpath("//tei:text/@type")[0]
     data["Materialtyp"] = doc.any_xpath(
         "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"

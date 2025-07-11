@@ -2,8 +2,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__36.html\">Protokoll der 1. Sitzung des Subkomitees desVerfassungsausschusses vom 11. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__36.html\">Protokoll der 1. Sitzung des Subkomitees des Verfassungsausschusses vom 11. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-07-11",
@@ -32,7 +32,7 @@
   {
     "witness_status": "primary",
     "title_html": "<a href=\"bv_doc_id__27.html\">Ministerialentwurf II 1920</a>",
-    "beteiligte Personen": "Staatssekretariat f\u00fcr dieVerfasssungs- und Verwaltungsreform",
+    "beteiligte Personen": "Staatssekretariat f\u00fcr die Verfasssungs- und Verwaltungsreform",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Typoskript",
     "Entstehung (tpq)": "1920-04-12",
@@ -41,12 +41,12 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__42.html\">Protokoll der 7. Sitzung des Subkomitees desVerfassungsausschusses vom 20. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__42.html\">Protokoll der 7. Sitzung des Subkomitees des Verfassungsausschusses vom 20. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-20",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
     "witness_status": "primary",
@@ -96,7 +96,7 @@
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-21",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
     "witness_status": "primary",
@@ -124,7 +124,7 @@
       "bv_doc_id__23"
     ],
     "title_html": "<a href=\"bv_doc_id__22.html\">Unterausschu\u00df Entwurf 23. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
     "Entstehung (tpq)": "1920-09-23",
@@ -136,7 +136,7 @@
           "bv_doc_id__22"
         ],
         "title_html": "Alternativzeuge: <a href=\"bv_doc_id__23.html\">UA Entwurf 23. September 1920 Textvariante</a>",
-        "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+        "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
         "Dokumententyp": "Verfassungsentwurf",
         "Materialtyp": "Druck",
         "Entstehung (tpq)": "1920-09-23",
@@ -147,12 +147,32 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__41.html\">Protokoll der 6. Sitzung des Subkomitees desVerfassungsausschusses vom 18. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__41.html\">Protokoll der 6. Sitzung des Subkomitees des Verfassungsausschusses vom 18. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-18",
     "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__18.html\">Evidenzexemplar handschriftlich</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-04-24",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__77.html\">Protokoll Zwischenamtliche Sitzung 11. Oktober 1919 - Fassung der Staatskanzlei</a>",
+    "beteiligte Personen": "Staatskanzlei",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-10-24",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
   },
   {
     "witness_status": "primary",
@@ -180,7 +200,7 @@
       "bv_doc_id__19"
     ],
     "title_html": "<a href=\"bv_doc_id__28.html\">Gro\u00dfdeutscher Entwurf II 1920</a>",
-    "beteiligte Personen": "Gro\u00dfdeutscheVolkspartei",
+    "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
     "Entstehung (tpq)": "1920-04-20",
@@ -203,6 +223,16 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__96.html\">CS Entwurf I Textvariante</a>",
+    "beteiligte Personen": "Christlichsoziale Partei",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-01-01",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "witness_status": "primary",
+    "other_witnesses": [],
     "title_html": "<a href=\"bv_doc_id__30.html\">Evidenzexemplar Entwurf maschinschriftlich</a>",
     "beteiligte Personen": "L\u00e4nderkonferenz",
     "Dokumententyp": "Verfassungsentwurf",
@@ -213,7 +243,7 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__64.html\">Vf\u00dcG Sonderdruck</a>",
+    "title_html": "<a href=\"bv_doc_id__64.html\">Vf\u00dcG Sonderdruck mit Unterschriften der Regierung</a>",
     "beteiligte Personen": "Konstituierende Nationalversammlung",
     "Dokumententyp": "Verfassungstext",
     "Materialtyp": "Druck",
@@ -223,12 +253,22 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__40.html\">Protokoll der 5. Sitzung des Subkomitees desVerfassungsausschusses vom 17. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__40.html\">Protokoll der 5. Sitzung des Subkomitees des Verfassungsausschusses vom 17. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-17",
     "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__73.html\">Protokoll Zwischenamtliche Sitzung 11. Oktober 1919</a>",
+    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-10-14",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
   },
   {
     "witness_status": "primary",
@@ -243,8 +283,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__39.html\">Protokoll der 4. Sitzung des Subkomitees desVerfassungsausschusses vom 22. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__39.html\">Protokoll der 4. Sitzung des Subkomitees des Verfassungsausschusses vom 22. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-07-22",
@@ -253,12 +293,22 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__46.html\">Protokoll der 11. Sitzung des Subkomitees desVerfassungsausschusses vom 25. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__46.html\">Protokoll der 11. Sitzung des Subkomitees des Verfassungsausschusses vom 25. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-25",
     "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+  },
+  {
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__74.html\">Protokoll Zwischenamtliche Sitzung 22. November 1919</a>",
+    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-12-04",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
   },
   {
     "witness_status": "primary",
@@ -290,7 +340,7 @@
     "witness_status": "primary",
     "other_witnesses": [],
     "title_html": "<a href=\"bv_doc_id__21.html\">Unterausschu\u00df Entwurf 15.September 1920</a>",
-    "beteiligte Personen": "Unterausschu\u00df Entwurf 15. September1920",
+    "beteiligte Personen": "Unterausschu\u00df Entwurf 15. September 1920",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
     "Entstehung (tpq)": "1920-09-15",
@@ -319,7 +369,7 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__84.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 ChristlichsozialeFassung</a>",
+    "title_html": "<a href=\"bv_doc_id__84.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 Christlichsoziale Fassung</a>",
     "beteiligte Personen": "L\u00e4nderkonferenz",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
@@ -339,8 +389,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__51.html\">Protokoll der 16. Sitzung des Subkomitees desVerfassungsausschusses vom 15. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__51.html\">Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-09-15",
@@ -349,8 +399,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__48.html\">Protokoll der 13. Sitzung des Subkomitees desVerfassungsausschusses vom 31. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__48.html\">Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-31",
@@ -359,8 +409,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__37.html\">Protokoll der 2. Sitzung des Subkomitees desVerfassungsausschusses vom 12. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__37.html\">Protokoll der 2. Sitzung des Subkomitees des Verfassungsausschusses vom 12. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-07-12",
@@ -369,8 +419,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__52.html\">Protokoll der 17. Sitzung des Subkomitees desVerfassungsausschusses vom 22. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__52.html\">Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-09-22",
@@ -389,12 +439,22 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__49.html\">Protokoll der 14. Sitzung des Subkomitees desVerfassungsausschusses vom 13. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__49.html\">Protokoll der 14. Sitzung des Subkomitees des Verfassungsausschusses vom 13. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-09-13",
     "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+  },
+  {
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__75.html\">Protokoll Zwischenamtliche Sitzung 31. Oktober 1919</a>",
+    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Manuskript bestehend aus Handschrift und Typoskript",
+    "Entstehung (tpq)": "1919-10-31",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
   },
   {
     "witness_status": "primary",
@@ -409,8 +469,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__44.html\">Protokoll der 9. Sitzung des Subkomitees desVerfassungsausschusses vom 23. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__44.html\">Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-23",
@@ -449,8 +509,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__53.html\">Protokoll der 18. Sitzung des Subkomitees desVerfassungsausschusses vom 23. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__53.html\">Protokoll der 18. Sitzung des Subkomitees des Verfassungsausschusses vom 23. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-09-23",
@@ -479,8 +539,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__47.html\">Protokoll der 12. Sitzung des Subkomitees desVerfassungsausschusses vom 26. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__47.html\">Protokoll der 12. Sitzung des Subkomitees des Verfassungsausschusses vom 26. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-26",
@@ -509,7 +569,7 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__83.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 SozialdemokratischeFassung</a>",
+    "title_html": "<a href=\"bv_doc_id__83.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 Sozialdemokratische Fassung</a>",
     "beteiligte Personen": "L\u00e4nderkonferenz",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
@@ -519,12 +579,12 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__50.html\">Protokoll der 15. Sitzung des Subkomitees desVerfassungsausschusses vom 14. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__50.html\">Protokoll der 15. Sitzung des Subkomitees des Verfassungsausschusses vom 14. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-09-14",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
     "witness_status": "primary",
@@ -532,7 +592,7 @@
       "bv_doc_id__24"
     ],
     "title_html": "<a href=\"bv_doc_id__33.html\">Unterausschu\u00df Entwurf 26. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
     "Entstehung (tpq)": "1920-08-26",
@@ -544,7 +604,7 @@
           "bv_doc_id__33"
         ],
         "title_html": "Alternativzeuge: <a href=\"bv_doc_id__24.html\">UA Entwurf 26. August 1920 Textvariante</a>",
-        "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+        "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
         "Dokumententyp": "Verfassungsentwurf",
         "Materialtyp": "Druck",
         "Entstehung (tpq)": "1920-08-26",
@@ -555,7 +615,7 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__70.html\">Bericht 5. L\u00e4nderkonferenz 20. Mai 1919</a>",
+    "title_html": "<a href=\"bv_doc_id__70.html\">Protokoll 5. L\u00e4nderkonferenz - Bericht</a>",
     "beteiligte Personen": "L\u00e4nderkonferenz",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
@@ -578,7 +638,7 @@
       "bv_doc_id__11"
     ],
     "title_html": "<a href=\"bv_doc_id__62.html\">Bundes-Verfassungsgesetz 1920</a>",
-    "beteiligte Personen": "KonstituierendeNationalversammlung",
+    "beteiligte Personen": "Konstituierende Nationalversammlung",
     "Dokumententyp": "Verfassungstext",
     "Materialtyp": "Druck",
     "Entstehung (tpq)": "1920-10-01",
@@ -611,8 +671,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__38.html\">Protokoll der 3. Sitzung des Subkomitees desVerfassungsausschusses vom 20. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__38.html\">Protokoll der 3. Sitzung des Subkomitees des Verfassungsausschusses vom 20. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-07-20",
@@ -621,8 +681,8 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__1000.html\">Protokoll der 1. Sitzung des Subkomitees desVerfassungsausschusses vom 11. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__1000.html\">Protokoll der 1. Sitzung des Subkomitees des Verfassungsausschusses vom 11. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-07-11",
@@ -641,12 +701,12 @@
   {
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__45.html\">Protokoll der 10. Sitzung des Subkomitees desVerfassungsausschusses vom 24. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss desVerfassungsausschusses",
+    "title_html": "<a href=\"bv_doc_id__45.html\">Protokoll der 10. Sitzung des Subkomitees des Verfassungsausschusses vom 24. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
     "Entstehung (tpq)": "1920-08-24",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
     "witness_status": "primary",
@@ -656,7 +716,7 @@
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Druck",
     "Entstehung (tpq)": "1920-02-15",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
     "witness_status": "primary",
@@ -674,7 +734,7 @@
       "bv_doc_id__31"
     ],
     "title_html": "<a href=\"bv_doc_id__66.html\">Christlichsozialer Entwurf I 1919</a>",
-    "beteiligte Personen": "ChristlichsozialePartei",
+    "beteiligte Personen": "Christlichsoziale Partei",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
     "Entstehung (tpq)": "1919-05-14",
@@ -686,7 +746,7 @@
           "bv_doc_id__66"
         ],
         "title_html": "Alternativzeuge: <a href=\"bv_doc_id__31.html\">CS Entwurf I Sonderdruck</a>",
-        "beteiligte Personen": "ChristlichsozialePartei",
+        "beteiligte Personen": "Christlichsoziale Partei",
         "Dokumententyp": "Verfassungsentwurf",
         "Materialtyp": "Druck",
         "Entstehung (tpq)": "1919-05-14",
