@@ -18,6 +18,8 @@ for edition_file in glob.glob(editions_path):
     print(edition_file)
     data = {}
     doc = TeiReader(edition_file)
+    data_set = doc.any_xpath("//tei:idno[@type='bv_data_set']/text()")[0].strip()
+    data["data_set"] = data_set
     try:
         data["witness_status"] = doc.any_xpath("//tei:sourceDesc//tei:msDesc/@subtype")[0].strip()
     except IndexError:

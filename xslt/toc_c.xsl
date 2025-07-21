@@ -51,12 +51,14 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        <xsl:variable name="data_set">
+                                            <xsl:value-of select="'Datenset A'"/>
+                                        </xsl:variable>
                                         <xsl:for-each select="collection('../data/editions')//tei:TEI">
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
-                                            <xsl:if test="not(.//tei:relatedItem[@type='based_on'])">
-                                            <!--  and not(//tei:msDesc[@subtype='secondary']) -->
+                                            <xsl:if test="not(.//tei:relatedItem[@type='based_on']) and //tei:idno[@type='bv_data_set'][1]/text() = $data_set">
                                                 <tr>
                                                     <td>
                                                         <a>
@@ -115,7 +117,10 @@
 
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="js/tabulator.min.js"></script>
-                    <script type="text/javascript" src="js/init_toc_all.js"></script>
+                    <script type="text/javascript" src="js/init_toc_set.js"></script>
+                    <script type="text/javascript">
+                        loadTocForDataSet("Datenset C");
+                    </script>
                 </div>
             </body>
         </html>
