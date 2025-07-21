@@ -54,12 +54,10 @@ function loadTocForDataSet(data_set) {
     .then((res) => res.json())
     .then((data) => {
       // clear the table before adding new data
-      var element = document.getElementById("tocTable");
-      if (element) {
-        while (element.firstChild) {
-          element.removeChild(element.firstChild);
-        }
-      }
+      var table = document.getElementById("tocTable");
+      var tableContainer = document.createElement("div");
+      table.parentNode.replaceChild(tableContainer, table);
+      tableContainer.id = "tocTable";
       if (!data_set) {
         tabulatorCfg.data = data;  
       } else {
