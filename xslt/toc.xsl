@@ -10,6 +10,7 @@
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:import href="./partials/meta_tags.xsl"/>
 
+    <xsl:param name="dataSet" />
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Edierte Dokumente'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -55,8 +56,8 @@
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
-                                            <xsl:if test="not(.//tei:relatedItem[@type='based_on'])">
-                                            <!--  and not(//tei:msDesc[@subtype='secondary']) -->
+                                            <xsl:if test="not(.//tei:relatedItem[@type='based_on']) and ($dataSet != '' and //tei:idno[@type='bv_data_set'][1]/text() = $dataSet)">
+                                                <!--  and not(//tei:msDesc[@subtype='secondary']) -->
                                                 <tr>
                                                     <td>
                                                         <a>
@@ -115,7 +116,19 @@
 
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="js/tabulator.min.js"></script>
-                    <script type="text/javascript" src="js/init_toc_all.js"></script>
+                    <script type="text/javascript" src="js/init_toc_set.js"></script>
+                    <xsl:choose>
+                        <xsl:when test="not($dataSet)">
+                            <script type="text/javascript">
+                                loadTocForDataSet();
+                            </script>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <script type="text/javascript">
+                                loadTocForDataSet("<xsl:value-of select="$dataSet"/>");
+                            </script>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </div>
             </body>
         </html>

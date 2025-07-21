@@ -60,8 +60,11 @@ function loadTocForDataSet(data_set) {
           element.removeChild(element.firstChild);
         }
       }
-      tabulatorCfg.data = data.filter((item) => item["data_set"] === data_set);
-      console.log(data_set);
+      if (!data_set) {
+        tabulatorCfg.data = data;  
+      } else {
+        tabulatorCfg.data = data.filter((item) => item["data_set"] === data_set);
+      }
       var table = new Tabulator("#tocTable", tabulatorCfg);
     });
 }
