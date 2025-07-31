@@ -659,7 +659,7 @@ blockquote {
 }
 
 blockquote p,
-blockquote h5.quote{
+blockquote h5.quote {
     font-size: .89rem;
 }
 
@@ -955,7 +955,9 @@ div#text-resize div.card-body.non_mimetic_lbs {
     max-width: 40rem;
 }
 
-span.pb, span.pb::before, span.pb::marker {
+span.pb,
+span.pb::before,
+span.pb::marker {
     font-size: 1rem;
 }
 
@@ -978,6 +980,36 @@ span.pb::before {
     content: "|" var(--beginning_page);
     text-align: right;
     left: -1.5rem;
+}
+
+span.pb_marker {
+    color: grey;
+}
+
+span.pb_marker::after {
+    font-size: inherit;
+    font-weight: bold;
+    content: "|";
+}
+
+span.pb.empty_page {
+    display: block;
+    /* Ensure it behaves like a block element */
+    width: 100%;
+    /* Take up the full width of the container */
+    height: 2rem;
+    /* Adjust height to fit content */
+    margin-bottom: 30rem;
+    /* Add spacing between spans if needed */
+    position: relative;
+    /* Change from absolute to relative */
+    left: 0;
+    /* Reset any left positioning */
+}
+
+span.pb.empty_page::before {
+    display: none;
+    content: "";
 }
 
 span.pb_marker {
