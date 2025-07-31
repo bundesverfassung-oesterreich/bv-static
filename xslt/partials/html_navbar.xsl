@@ -44,8 +44,22 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="toc.html">Quellen</a>
+                            <li class="nav-item dropdown disabled">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quellen</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a style="color: grey;" class="dropdown-item" href="./toc.html">Alle Quellen</a>
+                                    </li>
+                                    <li>
+                                        <a style="color: grey;" class="dropdown-item" href="./toc_a.html">Verfassungsentwürfe</a>
+                                    </li>
+                                    <li>
+                                        <a style="color: grey;" class="dropdown-item" href="./toc_b.html">Protokolle</a>
+                                    </li>
+                                    <li>
+                                        <a style="color: grey;" class="dropdown-item" href="./toc_c.html">Andere Dokumente</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-item dropdown disabled">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Register</a>
