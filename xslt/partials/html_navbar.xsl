@@ -48,16 +48,16 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quellen</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a style="color: grey;" class="dropdown-item" href="./toc.html">Alle Quellen</a>
+                                        <a class="dropdown-item" href="./toc.html">Alle Quellen</a>
                                     </li>
                                     <li>
-                                        <a style="color: grey;" class="dropdown-item" href="./toc_a.html">Verfassungsentwürfe</a>
+                                        <a class="dropdown-item" href="./toc_a.html">Verfassungsentwürfe</a>
                                     </li>
                                     <li>
-                                        <a style="color: grey;" class="dropdown-item" href="./toc_b.html">Protokolle</a>
+                                        <a class="dropdown-item" href="./toc_b.html">Protokolle</a>
                                     </li>
                                     <li>
-                                        <a style="color: grey;" class="dropdown-item" href="./toc_c.html">Andere Dokumente</a>
+                                        <a class="dropdown-item" href="./toc_c.html">Andere Dokumente</a>
                                     </li>
                                 </ul>
                             </li>
