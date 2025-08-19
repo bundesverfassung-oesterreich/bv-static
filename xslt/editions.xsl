@@ -321,7 +321,7 @@
             <xsl:if test="@break = 'yes'">
                 <xsl:text></xsl:text>
             </xsl:if>
-            <span source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: pb'{$page_number}';">
+            <span source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';">
                 <xsl:attribute name="class">
                     <xsl:value-of select="'pb'"></xsl:value-of>
                     <xsl:if test="
