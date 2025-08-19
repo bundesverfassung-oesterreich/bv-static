@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -321,14 +324,27 @@
             <span source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: pb'{$page_number}';">
                 <xsl:attribute name="class">
                     <xsl:value-of select="'pb'"></xsl:value-of>
-                    <xsl:if test="(preceding-sibling::*[1][self::tei:pb] and not(preceding-sibling::node()[normalize-space() != ''][1])) || (not(preceding-sibling::* and following-sibling::*[1][self::tei:pb] and not(following-sibling::node()[normalize-space() != ''][1])))">
-                        <xsl:value-of select="' empty_page'"></xsl:value-of>
+                    <xsl:if test="
+                        (preceding-sibling::*[1][self::tei:pb]
+                            and not(preceding-sibling::node()[normalize-space()][1]))
+                        or
+                        (following-sibling::*[1][self::tei:pb]
+                            and not(following-sibling::node()[normalize-space()][1]))
+                    ">
+                        <xsl:value-of select="' empty_page'"/>
                     </xsl:if>
                 </xsl:attribute>
             </span>
-        <xsl:if test="not((preceding-sibling::*[1][self::tei:pb] and not(preceding-sibling::node()[normalize-space() != ''][1])) || (not(preceding-sibling::* and following-sibling::*[1][self::tei:pb] and not(following-sibling::node()[normalize-space() != ''][1]))))">
-            <span n="{$page_number}" class="pb_marker"/>
-        </xsl:if>
+            <xsl:if test="not(
+                (preceding-sibling::*[1][self::tei:pb] 
+                    and not(preceding-sibling::node()[normalize-space() != ''][1])) 
+                or 
+                (following-sibling::*[1][self::tei:pb]
+                            and not(following-sibling::node()[normalize-space()][1]))
+                )
+            ">
+                <span n="{$page_number}" class="pb_marker"/>
+            </xsl:if>
             <xsl:if test="@break = 'yes'">
                 <xsl:text></xsl:text>
             </xsl:if>
