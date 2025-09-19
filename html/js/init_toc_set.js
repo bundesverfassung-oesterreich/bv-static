@@ -39,6 +39,33 @@ let tabulatorCfg = {
       title: "Entstehung (tpq)",
       field: "Entstehung (tpq)",
       minWidth: "100",
+      formatter: function (cell, formatterParams) {
+        var v = cell.getValue();
+        if (!v) return "";
+        // value format: ISO|sortkey (e.g. 1919-05-01|0600)
+        return String(v).split("|")[0] || "";
+      },
+      sorter: function (a, b, aRow, bRow, column, dir, sorterParams) {
+        function parseKey(v) {
+          if (!v) return ["", 0];
+          var parts = String(v).split("|");
+          var date = parts[0] || ""; // ISO date, safe for lexical compare
+          var key = parts[1] || "0";
+          // try numeric comparison for the sort key
+          var num = parseInt(key, 10);
+          if (isNaN(num)) num = 0;
+          return [date, num];
+        }
+
+        var pa = parseKey(a);
+        var pb = parseKey(b);
+
+        if (pa[0] < pb[0]) return -1;
+        if (pa[0] > pb[0]) return 1;
+        return pa[1] - pb[1];
+      },
+      // ensure header filtering still works on the raw string
+      headerFilterPlaceholder: "YYYY-MM-DD",
     },
     {
       title: "Erschlie\u00dfungsgrad",
