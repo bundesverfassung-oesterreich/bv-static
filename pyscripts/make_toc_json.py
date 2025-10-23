@@ -21,7 +21,11 @@ for edition_file in glob.glob(editions_path):
     data = {}
     doc = TeiReader(edition_file)
     data_set = doc.any_xpath("//tei:idno[@type='bv_data_set']/text()")[0].strip()
-    data["sort_key"] = doc.any_xpath("/TEI/teiHeader[1]/fileDesc/seriesStmt/biblScope[@unit='part']/text()")[0].strip()
+    try:
+        data["sort_key"] = doc.any_xpath("/tei:TEI/tei:teiHeader[1]/tei:fileDesc/tei:seriesStmt/tei:biblScope[@unit='part']/text()")[0].strip()
+    except:
+            print(edition_file)
+            data["sort_key"] = "9999"
     data["data_set"] = data_set
     try:
         data["witness_status"] = doc.any_xpath("//tei:sourceDesc//tei:msDesc/@subtype")[0].strip()
@@ -47,11 +51,11 @@ for edition_file in glob.glob(editions_path):
     data["Materialtyp"] = doc.any_xpath(
         "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"
     )[0]
-    date_val = doc.any_xpath(
-        "//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1]"
-    )[0].strip() + "|" + doc.any_xpath(
-        "//tei:seriesStmt/tei:biblScope/text()"
-    )[0].strip()
+    date_val = doc.any_xpath("//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1]")[0].strip() 
+    try:
+        date_val += "|" + doc.any_xpath("//tei:seriesStmt/tei:biblScope/text()")[0].strip()
+    except IndexError:
+        date_val += "|9999"
     data["Entstehung (tpq)"] = date_val
     revision_desc = doc.any_xpath(".//tei:revisionDesc/@status")[0].strip()
     revision_state = "maschinell erfasst"
