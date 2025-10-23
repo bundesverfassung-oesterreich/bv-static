@@ -86,10 +86,12 @@ function loadTocForDataSet(data_set) {
       table.parentNode.replaceChild(tableContainer, table);
       tableContainer.id = "tocTable";
       if (!data_set) {
-        tabulatorCfg.data = data;  
+        tabulatorCfg.data = data;
       } else {
         tabulatorCfg.data = data.filter((item) => item["data_set"] === data_set);
       }
+      // sort the data; key is the sorter
+      tabulatorCfg.data.sort((a, b) => a.sort_key.localeCompare(b.sort_key));
       var table = new Tabulator("#tocTable", tabulatorCfg);
     });
 }

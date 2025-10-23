@@ -21,6 +21,7 @@ for edition_file in glob.glob(editions_path):
     data = {}
     doc = TeiReader(edition_file)
     data_set = doc.any_xpath("//tei:idno[@type='bv_data_set']/text()")[0].strip()
+    data["sort_key"] = doc.any_xpath("/TEI/teiHeader[1]/fileDesc/seriesStmt/biblScope[@unit='part']/text()")[0].strip()
     data["data_set"] = data_set
     try:
         data["witness_status"] = doc.any_xpath("//tei:sourceDesc//tei:msDesc/@subtype")[0].strip()
@@ -83,11 +84,7 @@ for data in toc:
             # we have to remove this, otherwise tabulator will show a non working dropdown
             data.pop("_children")
             data.pop("other_witnesses")
-
-# sort by:
-# 1. Data Set (A-C)
-# 2. Entstehung (tpq), split by "|" and sort by first part (date), then by second part (biblScope)
-toc = sorted(toc, key=lambda x: (x["data_set"], x["Entstehung (tpq)"].split("|")[0], x["Entstehung (tpq)"].split("|")[1]))
+toc = sorted(toc, key=lambda x: (x["sort_key"]))
 with open(json_path, "w") as f:
     print(f"Writing toc to {json_path}")
     json.dump(toc, f, indent=2)
