@@ -46,23 +46,10 @@ let tabulatorCfg = {
         return String(v).split("|")[0] || "";
       },
       sorter: function (a, b, aRow, bRow, column, dir, sorterParams) {
-        function parseKey(v) {
-          if (!v) return ["", 0];
-          var parts = String(v).split("|");
-          var date = parts[0] || ""; // ISO date, safe for lexical compare
-          var key = parts[1] || "0";
-          // try numeric comparison for the sort key
-          var num = parseInt(key, 10);
-          if (isNaN(num)) num = 0;
-          return [date, num];
-        }
-
-        var pa = parseKey(a);
-        var pb = parseKey(b);
-
-        if (pa[0] < pb[0]) return -1;
-        if (pa[0] > pb[0]) return 1;
-        return pa[1] - pb[1];
+        // Use the sort_key field from the row data for sorting
+        var sortKeyA = aRow.getData().sort_key || "";
+        var sortKeyB = bRow.getData().sort_key || "";
+        return sortKeyA.localeCompare(sortKeyB);
       },
       // ensure header filtering still works on the raw string
       headerFilterPlaceholder: "YYYY-MM-DD",
