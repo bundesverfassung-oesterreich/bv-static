@@ -11,7 +11,7 @@
         <meta name="apple-mobile-web-app-title" content="{$html_title}" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="{$project_logo}" />
-        <!-- favicon -->
+        <!-- favicon
         <link rel="None" type="image/ico" href="html/image/favicons/favicon.ico" />
         <link rel="icon" type="image/png" href="html/image/favicons/favicon-16x16.png" />
         <link rel="icon" type="image/png" href="html/image/favicons/favicon-32x32.png" />
@@ -32,9 +32,9 @@
         <link rel="None" type="image/png" href="html/image/favicons/mstile-270x270.png" />
         <link rel="None" type="image/png" href="html/image/favicons/mstile-310x310.png" />
         <link rel="None" type="image/png" href="html/image/favicons/mstile-310x150.png" />
-        <link rel="shortcut icon" type="image/png" href="html/image/favicons/favicon-196x196.png" />
+        <link rel="shortcut icon" type="image/png" href="html/image/favicons/favicon-196x196.png" /> -->
         <!-- favicon end -->
-        <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any" />
+        <link rel="icon" type="image/ico" href="favicon.ico" sizes="any" />
         <link rel="profile" href="http://gmpg.org/xfn/11"></link>
         <title>
             <xsl:value-of select="$html_title"/>
