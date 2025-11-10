@@ -5,7 +5,6 @@ html/*.rdf
 /html/oai-pmh
 data/editions
 !search.html
-/saxon
 data/imprint.xml
 data/externally_sourced_texts/*
 /static-search
