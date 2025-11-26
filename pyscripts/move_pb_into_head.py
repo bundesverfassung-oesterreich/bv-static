@@ -32,8 +32,6 @@ pb_with_following_head_in_different_container = """//tei:pb[
     following::tei:head
 ]"""
 
-xpath_expression = f"{pb_with_following_head} | {pb_with_following_head_in_different_container}"
-
 def move_pb_to_following_head(pb):
     next_elem = pb.getnext()
     if next_elem is not None and next_elem.tag.endswith('head'):
@@ -49,6 +47,7 @@ def move_pb_to_following_head(pb):
         fw.tail = head.text
         head.text = None
     else:
+        print(pb.attrib)
         raise ValueError("No suitable head found after pb")
 
 def move_pb_to_head_in_different_container(pb):
@@ -85,7 +84,7 @@ def move_pbs(tei_file):
     print(f"Processing file: {tei_file}")
     try:
         reader = TeiReader(tei_file)
-        for pb in reader.any_xpath(xpath_expression):
+        for pb in reader.any_xpath(pb_with_following_head):
             move_pb_to_following_head(pb)
         for pb in reader.any_xpath(pb_with_following_head_in_different_container):
             if move_pb_to_head_in_different_container(pb):
