@@ -1,5 +1,11 @@
+from pathlib import Path
 from glob import glob
 from acdh_tei_pyutils.tei import TeiReader
+
+def resolve_path_relative_to_script(relative_path: str) -> Path:
+    script_dir = Path(__file__).resolve().parent
+    relative_path = Path(relative_path)
+    return script_dir / relative_path
 
 pb_with_following_head = """//tei:pb[
     not(following-sibling::node()[1][self::text()[normalize-space()]]) and
@@ -33,11 +39,15 @@ def move_pb_to_following_head(pb):
     if next_elem is not None and next_elem.tag.endswith('head'):
         head = next_elem
         head.insert(0, pb)
+        pb.tail = head.text
+        head.text = None
     elif next_elem is not None and next_elem.tag.endswith('fw'):
         fw = next_elem
         head = fw.getnext()
         head.insert(0, fw)
         head.insert(0, pb)
+        fw.tail = head.text
+        head.text = None
     else:
         raise ValueError("No suitable head found after pb")
 
@@ -64,8 +74,11 @@ def move_pb_to_head_in_different_container(pb):
     if any(t.strip() for t in between_texts):
         return False
     # Move pb and optionally fw
-    head.insert(0, fw_element)
-    head.insert(0, pb)
+    if fw_element is not None:
+        head.insert(0, fw_element)
+        head.insert(0, pb)
+        fw_element.tail = head.text
+        head.text = None
     return True
 
 def move_pbs(tei_file):
@@ -82,7 +95,7 @@ def move_pbs(tei_file):
     except Exception as e:
         print(f"Error processing {tei_file}: {e}")
 
-input_files = glob("bv-working-data/data/editions/*.xml")
+data_path = resolve_path_relative_to_script("../data/editions")
+input_files = glob(str(data_path / "*.xml"))
 for input_file in input_files:
     output = move_pbs(input_file)
-
