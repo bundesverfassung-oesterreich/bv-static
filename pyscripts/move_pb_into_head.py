@@ -1,3 +1,4 @@
+import difflib
 from pathlib import Path
 from glob import glob
 from acdh_tei_pyutils.tei import TeiReader
@@ -33,10 +34,17 @@ pb_with_following_head_in_different_container = """//tei:pb[
 ]"""
 
 def move_pb_to_following_head(pb):
+    prev_sibling = pb.getprevious()
+    prev_fw = None
+    if prev_sibling is not None and prev_sibling.tag.endswith('fw'):
+        if prev_sibling.tail is None or not prev_sibling.tail.strip():
+            prev_fw = prev_sibling
     next_elem = pb.getnext()
     if next_elem is not None and next_elem.tag.endswith('head'):
         head = next_elem
         head.insert(0, pb)
+        if prev_fw is not None:
+            head.insert(0, prev_fw)
         pb.tail = head.text
         head.text = None
     elif next_elem is not None and next_elem.tag.endswith('fw'):
@@ -44,6 +52,8 @@ def move_pb_to_following_head(pb):
         head = fw.getnext()
         head.insert(0, fw)
         head.insert(0, pb)
+        if prev_fw is not None:
+            head.insert(0, prev_fw)
         fw.tail = head.text
         head.text = None
     else:
@@ -82,17 +92,33 @@ def move_pb_to_head_in_different_container(pb):
 
 def move_pbs(tei_file):
     print(f"Processing file: {tei_file}")
-    try:
-        reader = TeiReader(tei_file)
-        for pb in reader.any_xpath(pb_with_following_head):
-            move_pb_to_following_head(pb)
-        for pb in reader.any_xpath(pb_with_following_head_in_different_container):
-            if move_pb_to_head_in_different_container(pb):
-                print(f"Moved pb in next container: {tei_file}")
-                print(f"{pb.attrib}")
+    reader = TeiReader(tei_file)
+    old_text = "\n".join([x for x in reader.any_xpath("//text()[normalize-space()]")])
+    pbs_with_heads = reader.any_xpath(pb_with_following_head)
+    pbs_with_heads_in_different_container = reader.any_xpath(pb_with_following_head_in_different_container)
+    changed = bool(pbs_with_heads)
+    for pb in pbs_with_heads:
+        move_pb_to_following_head(pb)
+    for pb in pbs_with_heads_in_different_container:
+        if move_pb_to_head_in_different_container(pb):
+            changed = True
+            print(f"Moved pb in next container: {tei_file}")
+            print(f"{pb.attrib}")
+    if changed:
+        new_text = "\n".join([x for x in reader.any_xpath("//text()[normalize-space()]")])
+        if old_text != new_text:
+            old_lines = old_text.split("\n")
+            new_lines = new_text.split("\n")
+            for i in range(len(new_lines)):
+                new_line = new_lines[i]
+                if new_line != old_lines[i]:
+                    print(f"Difference at line {i+1}:")
+                    print("Old line:")
+                    print(old_lines[i])
+                    print("New line:")
+                    input(new_line)
+            raise ValueError("Text changed after moving pb elements")
         reader.tree_to_file(tei_file)
-    except Exception as e:
-        print(f"Error processing {tei_file}: {e}")
 
 data_path = resolve_path_relative_to_script("../data/editions")
 input_files = glob(str(data_path / "*.xml"))
