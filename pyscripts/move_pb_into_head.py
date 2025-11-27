@@ -83,12 +83,57 @@ def move_pb_to_head_in_different_container(pb):
     if any(t.strip() for t in between_texts):
         return False
     # Move pb and optionally fw
+    prev_fw_element = None
+    prev_sibling = pb.getprevious()
+    if prev_sibling is not None and prev_sibling.tag.endswith('fw'):
+        if prev_sibling.tail is None or not prev_sibling.tail.strip():
+            prev_fw_element = prev_sibling
     if fw_element is not None:
+        if prev_fw_element is not None:
+            head.insert(0, prev_fw_element)
         head.insert(0, fw_element)
         head.insert(0, pb)
         fw_element.tail = head.text
         head.text = None
+    else:
+        if prev_fw_element is not None:
+            head.insert(0, prev_fw_element)
+        head.insert(0, pb)
+        pb.tail = head.text
+        head.text = None
     return True
+
+def move_pb_to_neighboring_container(pb):
+    try:
+        prev_sibling = pb.getprevious()
+        prev_fw = None
+        if prev_sibling is not None and prev_sibling.tag.endswith('fw'):
+            if prev_sibling.tail is None or not prev_sibling.tail.strip():
+                prev_fw = prev_sibling
+                prev_sibling = prev_sibling.getprevious()
+        next_fw = None
+        next_sibling = pb.getnext()
+        if next_sibling is not None and next_sibling.tag.endswith('fw'):
+            if next_sibling.tail is None or not next_sibling.tail.strip():
+                next_fw = next_sibling
+                next_sibling = next_sibling.getnext()
+            else:
+                return
+        if next_sibling is not None:
+            if next_sibling.xpath("local-name()") in ["p", "note"]:
+                next_sibling.insert(0, pb)
+                if next_fw is not None:
+                    pb.addnext(next_fw)
+                if prev_fw is not None:
+                    pb.addprevious(prev_fw)
+                if next_sibling.text is not None:
+                    if next_fw is not None:
+                        next_fw.tail = next_sibling.text
+                    else:
+                        pb.tail = next_sibling.text
+                    next_sibling.text = None
+    except AttributeError as e:
+        print(f"Error processing pb: {pb.attrib}")
 
 def move_pbs(tei_file):
     print(f"Processing file: {tei_file}")
@@ -96,7 +141,10 @@ def move_pbs(tei_file):
     old_text = "\n".join([x for x in reader.any_xpath("//text()[normalize-space()]")])
     pbs_with_heads = reader.any_xpath(pb_with_following_head)
     pbs_with_heads_in_different_container = reader.any_xpath(pb_with_following_head_in_different_container)
-    changed = bool(pbs_with_heads)
+    pbs_in_divs = reader.any_xpath("//tei:div/tei:pb")
+    changed = bool(pbs_with_heads + pbs_in_divs)
+    for pb_in_div in pbs_in_divs:
+        move_pb_to_neighboring_container(pb_in_div)
     for pb in pbs_with_heads:
         move_pb_to_following_head(pb)
     for pb in pbs_with_heads_in_different_container:

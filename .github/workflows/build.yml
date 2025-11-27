@@ -49,6 +49,7 @@ jobs:
         python pyscripts/make_toc_json.py
     - name: Build
       run: |
+        python pyscripts/move_pb_into_head.py
         ant
     - name: xml documentation page
       run: |
