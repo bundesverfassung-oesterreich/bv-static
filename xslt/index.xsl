@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -33,14 +30,16 @@
                         <div class="row intro">
                             <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                 <div class="landing_text">
-                                    <h1><b>Die Entstehung des Bundes-Verfassungsgesetzes 1920</b></h1>
+                                    <h1>
+                                        <b>Die Entstehung des Bundes-Verfassungsgesetzes 1920</b>
+                                    </h1>
                                 </div>
                             </div>
                         </div>
                         <div class="row intro">
                             <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                 <div class="landing_text">
-                                    <embed src="./images/b-vg-stemma.svg" alt="genetisches Stemma der Fassungen"/>
+                                    <object data="./images/fixed_stemma_links.svg" type="image/svg+xml" alt="genetisches Stemma der Fassungen"></object>
                                 </div>
                             </div>
                         </div>

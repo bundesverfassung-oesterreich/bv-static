@@ -95,6 +95,16 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <!-- delete the old svg & then fix the links to open in new tab-->
+    <delete>
+        <fileset dir="${target}/images" includes="fixed_stemma_links.svg"/>
+    </delete>
+    <xslt in="${target}/images/b-vg-stemma.svg"
+      out="${target}/images/fixed_stemma_links.svg"
+      style="./xslt/fix_stemma_links.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
     <!--<xslt in="./data/indices/listperson.xml" out="${target}/listperson.html" style="./xslt/listperson.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
