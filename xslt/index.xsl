@@ -12,7 +12,7 @@
         </xsl:variable>
 
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-        <html xmlns="http://www.w3.org/1999/xhtml">
+        <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <head>
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
@@ -39,7 +39,7 @@
                         <div class="row intro">
                             <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                 <div class="landing_text">
-                                    <object data="./images/fixed_stemma_links.svg" type="image/svg+xml" alt="genetisches Stemma der Fassungen"></object>
+                                    <object data="./images/fixed_stemma_links.svg" type="image/svg+xml" alt="Abbildung eines genetischen Stemmas der Fassungen" role="presentation"></object>
                                 </div>
                             </div>
                         </div>
