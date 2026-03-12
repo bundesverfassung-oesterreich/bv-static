@@ -238,20 +238,26 @@
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:attribute name="class">
-                <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>
+                <!-- <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text> -->
+                <xsl:text>content_table</xsl:text>
             </xsl:attribute>
             <xsl:element name="tbody">
                 <xsl:apply-templates/>
             </xsl:element>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="tei:row">
+    <xsl:template match="tei:row[@role='data']">
         <xsl:element name="tr">
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="tei:cell">
+    <xsl:template match="tei:row[@role='data']/tei:cell">
         <xsl:element name="td">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:row[@role='label']/tei:cell">
+        <xsl:element name="th">
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>

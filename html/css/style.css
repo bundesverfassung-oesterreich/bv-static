@@ -671,7 +671,42 @@ blockquote h5.quote {
 
 /* quotes end */
 
+/* tables */
+table.content_table {
+    margin: 1rem auto;
+    border-color: var(--bv-big-highlight);
+    background-color: var(--bv-main-bg-color);
+    width: 100%;
+}
 
+
+table.content_table tr,
+table.content_table tbody {
+    width: auto;
+    height: auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    border-color: var(--bv-big-highlight);
+    background-color: var(--bv-main-bg-color);
+}
+table.content_table th, 
+table.content_table td {
+    border-width: 0.15rem;
+    padding: 0.3rem;
+}
+
+table.content_table th {
+    font-weight: bold;
+    background-color: var(--bv-big-highlight);
+    color: var(--bv-main-bg-color);
+    border-bottom: 0.15rem solid var(--bv-big-highlight);
+}
+
+table.content_table tr:hover {
+    background-color: var(--bv-darker-lightgray);
+}
+
+/* tables end */
 /* entities */
 .entity {
     cursor: pointer;
