@@ -77,6 +77,10 @@ div.commentary_container div > p:first-of-type {
     background-color: rgba(var(--bv-big-highlight-rgb), .05);
 }
 
+.commentary_overview.editorialTable {
+    margin-bottom: 0;
+}
+
 .commentary_overview + .commentary_overview {
     margin-top: 0.5rem;
 }
