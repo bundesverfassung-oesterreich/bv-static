@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="#all">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -244,96 +241,96 @@
 </div>
 </div>
 <div id="text-resize" lang="de" class="col-md-6 col-lg-6 col-sm-12 text yes-index">
-                                        <div id="section">
-                                            <xsl:for-each select="//tei:body/tei:div">
-                                                <div class="card-body non_mimetic_lbs">
-                                                    <xsl:apply-templates/>
+                                    <div id="section">
+                                        <xsl:for-each select="//tei:body/tei:div">
+                                            <div class="card-body non_mimetic_lbs">
+                                                <xsl:apply-templates/>
+                                            </div>
+                                            <xsl:if test="//tei:note[@type = 'footnote']">
+                                                <div class="card-footer">
+                                                    <a class="anchor" id="footnotes"/>
+                                                    <ul class="footnotes">
+                                                        <xsl:for-each select="//tei:note[@place = 'foot']">
+                                                            <li>
+                                                                <a class="anchorFoot" id="{@xml:id}"/>
+                                                                <span class="footnote_link">
+                                                                    <a href="#{@xml:id}_inline" class="nounderline">
+                                                                        <xsl:value-of select="@n"/>
+                                                                    </a>
+                                                                </span>
+                                                                <span class="footnote_text">
+                                                                    <xsl:apply-templates/>
+                                                                </span>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
                                                 </div>
-                                                <xsl:if test="//tei:note[@type = 'footnote']">
-                                                    <div class="card-footer">
-                                                        <a class="anchor" id="footnotes"/>
-                                                        <ul class="footnotes">
-                                                            <xsl:for-each select="//tei:note[@place = 'foot']">
-                                                                <li>
-                                                                    <a class="anchorFoot" id="{@xml:id}"/>
-                                                                    <span class="footnote_link">
-                                                                        <a href="#{@xml:id}_inline" class="nounderline">
-                                                                            <xsl:value-of select="@n"/>
-                                                                        </a>
-                                                                    </span>
-                                                                    <span class="footnote_text">
-                                                                        <xsl:apply-templates/>
-                                                                    </span>
-                                                                </li>
-                                                            </xsl:for-each>
-                                                        </ul>
-                                                    </div>
-                                                </xsl:if>
-                                            </xsl:for-each>
-                                        </div>
+                                            </xsl:if>
+                                        </xsl:for-each>
                                     </div>
                                 </div>
-                                <!-- create list* elements for entities bs-modal -->
-                                <xsl:for-each select="//tei:back">
-                                    <div class="tei-back">
-                                        <xsl:apply-templates/>
-                                    </div>
-                                </xsl:for-each>
                             </div>
+                            <!-- create list* elements for entities bs-modal -->
+                            <xsl:for-each select="//tei:back">
+                                <div class="tei-back">
+                                    <xsl:apply-templates/>
+                                </div>
+                            </xsl:for-each>
                         </div>
-                        <xsl:call-template name="html_footer"/>
                     </div>
-                    <script src="js/de-editor.min.js"/>
-                    <script src="js/openseadragon.min.js"/>
-                    <script type="text/javascript" src="js/osd_scroll.js"/>
-                    <script type="text/javascript" src="js/run.js"/>
-                    <script type="text/javascript" src="js/offcanvastoggler.js"/>
-                    <script type="text/javascript" src="js/toggle_shortTitle.js"/>
-                </body>
-            </html>
-        </xsl:template>
-        <xsl:template match="tei:div[parent::tei:div]">
-            <!-- this is for sections, subsections and articles-->
-            <xsl:variable name="type_attrib" select="@type"/>
-            <div>
-                <xsl:attribute name="class">
-                    <xsl:value-of select="$type_attrib"/>
-                </xsl:attribute>
-                <xsl:apply-templates/>
-            </div>
-        </xsl:template>
-        <xsl:template match="tei:pb">
-            <!-- determine img src -->
-            <xsl:variable name="pbId">
-                <xsl:value-of select="replace(data(@facs), '#', '')"/>
-            </xsl:variable>
-            <xsl:variable name="surfaceNode" as="node()">
-                <xsl:value-of select="//tei:graphic[@xml:id = $pbId]"/>
-            </xsl:variable>
-            <xsl:variable name="facsUrl">
-                <xsl:value-of select="data(//tei:surface[@xml:id = $pbId]/tei:graphic/@url)"/>
-            </xsl:variable>
-            <xsl:variable name="page_number">
-                <xsl:number level="any"/>
-            </xsl:variable>
-            <xsl:if test="@break = 'yes'">
-                <xsl:text></xsl:text>
-            </xsl:if>
-            <span source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="'pb'"></xsl:value-of>
-                    <xsl:if test="
+                    <xsl:call-template name="html_footer"/>
+                </div>
+                <script src="js/de-editor.min.js"/>
+                <script src="js/openseadragon.min.js"/>
+                <script type="text/javascript" src="js/osd_scroll.js"/>
+                <script type="text/javascript" src="js/run.js"/>
+                <script type="text/javascript" src="js/offcanvastoggler.js"/>
+                <script type="text/javascript" src="js/toggle_shortTitle.js"/>
+            </body>
+        </html>
+    </xsl:template>
+    <xsl:template match="tei:div[parent::tei:div]">
+        <!-- this is for sections, subsections and articles-->
+        <xsl:variable name="type_attrib" select="@type"/>
+        <div>
+            <xsl:attribute name="class">
+                <xsl:value-of select="$type_attrib"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="tei:pb">
+        <!-- determine img src -->
+        <xsl:variable name="pbId">
+            <xsl:value-of select="replace(data(@facs), '#', '')"/>
+        </xsl:variable>
+        <xsl:variable name="surfaceNode" as="node()">
+            <xsl:value-of select="//tei:graphic[@xml:id = $pbId]"/>
+        </xsl:variable>
+        <xsl:variable name="facsUrl">
+            <xsl:value-of select="data(//tei:surface[@xml:id = $pbId]/tei:graphic/@url)"/>
+        </xsl:variable>
+        <xsl:variable name="page_number">
+            <xsl:number level="any"/>
+        </xsl:variable>
+        <xsl:if test="@break = 'yes'">
+            <xsl:text></xsl:text>
+        </xsl:if>
+        <span source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';">
+            <xsl:attribute name="class">
+                <xsl:value-of select="'pb'"></xsl:value-of>
+                <xsl:if test="
                         (preceding-sibling::*[1][self::tei:pb]
                             and not(preceding-sibling::node()[normalize-space()][1]))
                         or
                         (following-sibling::*[1][self::tei:pb]
                             and not(following-sibling::node()[normalize-space()][1]))
                     ">
-                        <xsl:value-of select="' empty_page'"/>
-                    </xsl:if>
-                </xsl:attribute>
-            </span>
-            <xsl:if test="not(
+                    <xsl:value-of select="' empty_page'"/>
+                </xsl:if>
+            </xsl:attribute>
+        </span>
+        <xsl:if test="not(
                 (preceding-sibling::*[1][self::tei:pb] 
                     and not(preceding-sibling::node()[normalize-space() != ''][1])) 
                 or 
@@ -341,76 +338,76 @@
                             and not(following-sibling::node()[normalize-space()][1]))
                 )
             ">
-                <span n="{$page_number}" class="pb_marker"/>
-            </xsl:if>
-            <xsl:if test="@break = 'yes'">
-                <xsl:text></xsl:text>
-            </xsl:if>
-        </xsl:template>
-        <xsl:template match="tei:ab">
-            <p>
-                <xsl:apply-templates/>
-            </p>
-        </xsl:template>
-        <xsl:template match="tei:lb"/>
-        <xsl:template match="//tei:body//tei:item[preceding-sibling::*[1][local-name() = 'label']]">
-            <li>
-                <xsl:call-template name="label">
-                    <xsl:with-param name="labelelement" select="./preceding-sibling::tei:label[1]"/>
-                </xsl:call-template>
-                <xsl:apply-templates/>
-            </li>
-        </xsl:template>
-        <xsl:template match="tei:p">
-            <xsl:choose>
-                <xsl:when test="@type = 'legal_section'">
-                    <xsl:choose>
-                        <xsl:when test="./tei:label">
-                            <p class="legal_section numbered">
-                                <xsl:apply-templates/>
-                            </p>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <p class="legal_section">
-                                <xsl:apply-templates/>
-                            </p>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:when>
-                <xsl:otherwise>
-                    <p>
-                        <xsl:apply-templates/>
-                    </p>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:template>
-        <xsl:template match="tei:lg">
-            <p>
-                <xsl:apply-templates/>
-            </p>
-        </xsl:template>
-        <xsl:template match="tei:note">
-            <xsl:choose>
-                <xsl:when test="@place = 'foot'">
-                    <a class="anchorFoot" id="{@xml:id}_inline"/>
-                    <a href="#{@xml:id}" title="Fußnote {@n}" class="nounderline">
-                        <sup>
-                            <xsl:value-of select="@n"/>
-                        </sup>
-                    </a>
-                </xsl:when>
-                <xsl:when test="@place = 'end'">
-                    <a class="anchorFoot" id="{@xml:id}_inline"/>
-                    <a href="#{@xml:id}" title="Fußnote {@n}" class="nounderline">
-                        <sup>
-                            <xsl:value-of select="@n"/>
-                        </sup>
-                    </a>
-                </xsl:when>
-            </xsl:choose>
-        </xsl:template>
-        <!-- delete empty p/hi/div elements -->
-        <xsl:template match="
+            <span n="{$page_number}" class="pb_marker"/>
+        </xsl:if>
+        <xsl:if test="@break = 'yes'">
+            <xsl:text></xsl:text>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:ab">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:lb"/>
+    <xsl:template match="//tei:body//tei:item[preceding-sibling::*[1][local-name() = 'label']]">
+        <li>
+            <xsl:call-template name="label">
+                <xsl:with-param name="labelelement" select="./preceding-sibling::tei:label[1]"/>
+            </xsl:call-template>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:p">
+        <xsl:choose>
+            <xsl:when test="@type = 'legal_section'">
+                <xsl:choose>
+                    <xsl:when test="./tei:label">
+                        <p class="legal_section numbered">
+                            <xsl:apply-templates/>
+                        </p>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <p class="legal_section">
+                            <xsl:apply-templates/>
+                        </p>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <p>
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:lg">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:note">
+        <xsl:choose>
+            <xsl:when test="@place = 'foot'">
+                <a class="anchorFoot" id="{@xml:id}_inline"/>
+                <a href="#{@xml:id}" title="Fußnote {@n}" class="nounderline">
+                    <sup>
+                        <xsl:value-of select="@n"/>
+                    </sup>
+                </a>
+            </xsl:when>
+            <xsl:when test="@place = 'end'">
+                <a class="anchorFoot" id="{@xml:id}_inline"/>
+                <a href="#{@xml:id}" title="Fußnote {@n}" class="nounderline">
+                    <sup>
+                        <xsl:value-of select="@n"/>
+                    </sup>
+                </a>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    <!-- delete empty p/hi/div elements -->
+    <xsl:template match="
             *[
             (
             local-name() = 'p'
@@ -420,159 +417,159 @@
             and
             not(@* | * | comment() | processing-instruction())
             and normalize-space() = '']"/>
-        <xsl:template match="//tei:quote">
-            <blockquote>
-                <xsl:apply-templates/>
-            </blockquote>
-        </xsl:template>
-        <xsl:template match="//tei:quote//tei:head">
-            <h5 class="quote">
-                <xsl:apply-templates/>
-            </h5>
-        </xsl:template>
-        <xsl:template match="//tei:body//tei:head[not(ancestor::tei:quote)]">
-            <!-- find level of head between 1 and 6, the level is not semantical, the hirarchy never interruptet-->
-            <xsl:variable name="is_single" select="boolean(count(parent::*/tei:head[not(ancestor::tei:quote)]) = 1)"/>
-            <xsl:variable name="is_first" select="boolean(not(preceding-sibling::tei:head[not(ancestor::tei:quote)]))"/>
-            <xsl:variable name="head_level_number_raw" select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
-            <xsl:variable name="head_level_number">
+    <xsl:template match="//tei:quote">
+        <blockquote>
+            <xsl:apply-templates/>
+        </blockquote>
+    </xsl:template>
+    <xsl:template match="//tei:quote//tei:head">
+        <h5 class="quote">
+            <xsl:apply-templates/>
+        </h5>
+    </xsl:template>
+    <xsl:template match="//tei:body//tei:head[not(ancestor::tei:quote)]">
+        <!-- find level of head between 1 and 6, the level is not semantical, the hirarchy never interruptet-->
+        <xsl:variable name="is_single" select="boolean(count(parent::*/tei:head[not(ancestor::tei:quote)]) = 1)"/>
+        <xsl:variable name="is_first" select="boolean(not(preceding-sibling::tei:head[not(ancestor::tei:quote)]))"/>
+        <xsl:variable name="head_level_number_raw" select="count(ancestor::tei:div[ancestor::tei:body/tei:div])"/>
+        <xsl:variable name="head_level_number">
+            <xsl:choose>
+                <xsl:when test="$head_level_number_raw gt 6">6</xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$head_level_number_raw"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="heading_element_name" select="concat('h', $head_level_number)"/>
+        <xsl:element name="{$heading_element_name}">
+            <xsl:attribute name="class">
+                <xsl:value-of select="@class"/>
                 <xsl:choose>
-                    <xsl:when test="$head_level_number_raw gt 6">6</xsl:when>
+                    <xsl:when test="$is_single">
+                        <xsl:value-of select="' single'"/>
+                    </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="$head_level_number_raw"/>
+                        <xsl:value-of select="' multiple'"/>
                     </xsl:otherwise>
                 </xsl:choose>
-            </xsl:variable>
-            <xsl:variable name="heading_element_name" select="concat('h', $head_level_number)"/>
-            <xsl:element name="{$heading_element_name}">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="@class"/>
-                    <xsl:choose>
-                        <xsl:when test="$is_single">
-                            <xsl:value-of select="' single'"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="' multiple'"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                    <xsl:choose>
-                        <xsl:when test="$is_first">
-                            <xsl:value-of select="' first'"/>
-                        </xsl:when>
-                    </xsl:choose>
-                </xsl:attribute>
                 <xsl:choose>
-                    <xsl:when test="@xml:id">
-                        <xsl:attribute name="id">
-                            <xsl:value-of select="@xml:id"/>
-                        </xsl:attribute>
+                    <xsl:when test="$is_first">
+                        <xsl:value-of select="' first'"/>
                     </xsl:when>
                 </xsl:choose>
-                <xsl:apply-templates/>
-            </xsl:element>
-        </xsl:template>
-        <xsl:template match="tei:emph">
-            <i>
-                <xsl:apply-templates/>
-            </i>
-        </xsl:template>
-        <xsl:template match="tei:fw">
-            <span class="historical_pagecounter">
-                <xsl:apply-templates/>
-            </span>
-        </xsl:template>
-        <!-- these are already handled above -->
-        <xsl:template match="//tei:body//tei:list">
-            <ul>
-                <xsl:apply-templates/>
-            </ul>
-        </xsl:template>
-        <xsl:template match="tei:label[following-sibling::*[1][local-name() != 'item'] or not(following-sibling::*)]">
-            <span class="number_label">
-                <xsl:apply-templates/>
-            </span>
-        </xsl:template>
-        <xsl:template match="tei:label[following-sibling::*[1][local-name() = 'item']]"/>
-        <xsl:template name="label">
-            <xsl:param name="labelelement"/>
-            <span class="number_label">
-                <xsl:apply-templates select="$labelelement/node()"/>
-            </span>
-        </xsl:template>
-        <xsl:template match="//tei:note[@type = 'comment']">
-            <div class="meta_text">
-                <xsl:apply-templates/>
-            </div>
-        </xsl:template>
-        <!-- deal with text features-->
-        <xsl:template match="tei:corr">
-            <span class="corr conjectur">
-                <xsl:value-of select="concat('[', normalize-space(), ']')"/>
-            </span>
-        </xsl:template>
-        <xsl:template match="tei:sic">
-            <span class="corr sic">
-                <xsl:value-of select="normalize-space()"/>
-            </span>
-        </xsl:template>
-        <xsl:template match="tei:choice[tei:corr]">
-            <xsl:apply-templates select="tei:sic | tei:corr"/>
-        </xsl:template>
-        <xsl:template match="//tei:choice[not(tei:corr)]">
-            <xsl:variable name="element_name">
-                <xsl:value-of select="
+            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="@xml:id">
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="@xml:id"/>
+                    </xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:emph">
+        <i>
+            <xsl:apply-templates/>
+        </i>
+    </xsl:template>
+    <xsl:template match="tei:fw">
+        <span class="historical_pagecounter">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <!-- these are already handled above -->
+    <xsl:template match="//tei:body//tei:list">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:label[following-sibling::*[1][local-name() != 'item'] or not(following-sibling::*)]">
+        <span class="number_label">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:label[following-sibling::*[1][local-name() = 'item']]"/>
+    <xsl:template name="label">
+        <xsl:param name="labelelement"/>
+        <span class="number_label">
+            <xsl:apply-templates select="$labelelement/node()"/>
+        </span>
+    </xsl:template>
+    <xsl:template match="//tei:note[@type = 'comment']">
+        <div class="meta_text">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <!-- deal with text features-->
+    <xsl:template match="tei:corr">
+        <span class="corr conjectur">
+            <xsl:value-of select="concat('[', normalize-space(), ']')"/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:sic">
+        <span class="corr sic">
+            <xsl:value-of select="normalize-space()"/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:choice[tei:corr]">
+        <xsl:apply-templates select="tei:sic | tei:corr"/>
+    </xsl:template>
+    <xsl:template match="//tei:choice[not(tei:corr)]">
+        <xsl:variable name="element_name">
+            <xsl:value-of select="
                     if (./*[local-name() = ('p', 'div', 'ab')]) then
                         'div'
                     else
                         'span'"/>
-            </xsl:variable>
-            <xsl:element name="{$element_name}">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="'choice text_genetic'"/>
-                </xsl:attribute>
-                <xsl:apply-templates select="tei:del | tei:add"/>
-            </xsl:element>
-        </xsl:template>
-        <xsl:template match="tei:del">
-            <xsl:variable name="element_name">
-                <xsl:value-of select="
+        </xsl:variable>
+        <xsl:element name="{$element_name}">
+            <xsl:attribute name="class">
+                <xsl:value-of select="'choice text_genetic'"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="tei:del | tei:add"/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:del">
+        <xsl:variable name="element_name">
+            <xsl:value-of select="
                     if (./*[local-name() = 'p' or local-name() = 'div' or local-name() = 'ab']) then
                         'div'
                     else
                         'span'"/>
-            </xsl:variable>
-            <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(., '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
-                <xsl:text></xsl:text>
-            </xsl:if>
-            <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space() = '']]">
-                <xsl:text></xsl:text>
-            </xsl:if>
-            <xsl:element name="{$element_name}">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="'del text_genetic'"/>
-                </xsl:attribute>
-                <xsl:apply-templates/>
-            </xsl:element>
-        </xsl:template>
-        <xsl:template match="tei:add">
-            <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(., '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
-                <xsl:text></xsl:text>
-            </xsl:if>
-            <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space() = '']]">
-                <xsl:text></xsl:text>
-            </xsl:if>
-            <xsl:variable name="element_name">
-                <xsl:value-of select="
+        </xsl:variable>
+        <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(., '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
+            <xsl:text></xsl:text>
+        </xsl:if>
+        <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space() = '']]">
+            <xsl:text></xsl:text>
+        </xsl:if>
+        <xsl:element name="{$element_name}">
+            <xsl:attribute name="class">
+                <xsl:value-of select="'del text_genetic'"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:add">
+        <xsl:if test="ancestor::tei:choice[1][preceding-sibling::node()[1][self::text() and matches(., '.*?[&#x9;&#xa;&#xd;&#xa0; ]+$')]]">
+            <xsl:text></xsl:text>
+        </xsl:if>
+        <xsl:if test="ancestor::tei:choice[1][not(preceding-sibling::node()) or preceding-sibling::node()[not(preceding-sibling::node()) and self::text() and normalize-space() = '']]">
+            <xsl:text></xsl:text>
+        </xsl:if>
+        <xsl:variable name="element_name">
+            <xsl:value-of select="
                     if (./*[local-name() = 'p' or local-name() = 'div' or local-name() = 'ab']) then
                         'div'
                     else
                         'span'"/>
-            </xsl:variable>
-            <xsl:element name="{$element_name}">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="'add text_genetic'"/>
-                </xsl:attribute>
-                <xsl:apply-templates/>
-            </xsl:element>
-        </xsl:template>
-    </xsl:stylesheet>
+        </xsl:variable>
+        <xsl:element name="{$element_name}">
+            <xsl:attribute name="class">
+                <xsl:value-of select="'add text_genetic'"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+</xsl:stylesheet>

@@ -30,20 +30,22 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid container-fluid-smaller">
-                        <div class="card">
-                            <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
-                            </div>
-                            <div class="card-body">
-                                <xsl:for-each select=".//div">
-                                    <xsl:copy>
-                                        <xsl:copy-of select="."/>
-                                    </xsl:copy>
-                                </xsl:for-each>                          
+                    <main id="content" role="main">
+                        <div class="container-fluid container-fluid-smaller">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1><xsl:value-of select="$doc_title"/></h1>
+                                </div>
+                                <div class="card-body">
+                                    <xsl:for-each select=".//div">
+                                        <xsl:copy>
+                                            <xsl:copy-of select="."/>
+                                        </xsl:copy>
+                                    </xsl:for-each>                          
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </main>
                     
                     <xsl:call-template name="html_footer"/>
                     

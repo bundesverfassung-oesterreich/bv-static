@@ -7,7 +7,7 @@
     version="2.0">
     <xsl:template match="/" name="html_footer">
         
-        <div class="wrapper hide-reading" id="wrapper-footer-full">
+        <div class="wrapper hide-reading" id="wrapper-footer-full" role="contentinfo">
             <div class="container-fluid" id="footer-full-content" tabindex="-1">
                 <div class="col-auto row justify-content-center align-items-center">
                     <div class="col-auto row justify-content-start align-items-center">

@@ -31,7 +31,7 @@
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-
+                    <main id="content" role="main">
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
@@ -113,6 +113,7 @@
                             </div>
                         </div>
                     </div>
+                    </main>
 
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="js/tabulator.min.js"></script>

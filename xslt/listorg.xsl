@@ -26,13 +26,14 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
-                        <div class="card">
-                            <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
-                            </div>
-                            <div class="card-body">                                
-                                <table class="table table-striped display" id="tocTable" style="width:100%">
+                    <main id="content" role="main">
+                        <div class="container-fluid">                        
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1><xsl:value-of select="$doc_title"/></h1>
+                                </div>
+                                <div class="card-body">                                
+                                    <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Name</th>
@@ -63,6 +64,7 @@
                             </div>
                         </div>                       
                     </div>
+                    </main>
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="datatables.min.js"></script>
                     <script>
@@ -84,18 +86,20 @@
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
                             
-                            <div class="container-fluid">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h1>
-                                            <xsl:value-of select="$name"/>
-                                        </h1>
-                                    </div>
-                                    <div class="card-body">
-                                        <xsl:call-template name="org_detail"/>  
+                            <main id="content" role="main">
+                                <div class="container-fluid">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h1>
+                                                <xsl:value-of select="$name"/>
+                                            </h1>
+                                        </div>
+                                        <div class="card-body">
+                                            <xsl:call-template name="org_detail"/>  
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </main>
                             
                             <xsl:call-template name="html_footer"/>
                         </div>

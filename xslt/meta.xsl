@@ -27,16 +27,18 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
-                        <div class="card">
-                            <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
-                            </div>
-                            <div class="card-body">                                
-                                <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
-                            </div>
-                        </div>                       
-                    </div>
+                    <main id="content" role="main">
+                        <div class="container-fluid">                        
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1><xsl:value-of select="$doc_title"/></h1>
+                                </div>
+                                <div class="card-body">                                
+                                    <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
+                                </div>
+                            </div>                       
+                        </div>
+                    </main>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>

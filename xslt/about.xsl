@@ -30,15 +30,17 @@
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="container">
-                        <div class="row intro">
-                            <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
-                                <div class="landing_text">
-                                    <xsl:apply-templates select="//tei:body"/>
+                    <main id="content" role="main">
+                        <div class="container">
+                            <div class="row intro">
+                                <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
+                                    <div class="landing_text">
+                                        <xsl:apply-templates select="//tei:body"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </main>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>

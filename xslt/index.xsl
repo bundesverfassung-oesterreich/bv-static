@@ -26,32 +26,34 @@
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="container">
-                        <div class="row intro">
-                            <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
-                                <div class="landing_text">
-                                    <h1>
-                                        <b>Die Entstehung des Bundes-Verfassungsgesetzes 1920</b>
-                                    </h1>
+                    <main id="content" role="main">
+                        <div class="container">
+                            <div class="row intro">
+                                <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
+                                    <div class="landing_text">
+                                        <h1>
+                                            <b>Die Entstehung des Bundes-Verfassungsgesetzes 1920</b>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row intro">
+                                <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
+                                    <div class="landing_text">
+                                        <object data="./images/fixed_stemma_links.svg" type="image/svg+xml" alt="Abbildung eines genetischen Stemmas der Fassungen" role="presentation"></object>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row intro">
+                                <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
+                                    <div class="landing_text">
+                                        <!-- <xsl:apply-templates select="//tei:body"/> -->
+                                        <xsl:apply-templates select="//tei:body/tei:*[not(self::tei:p[parent::tei:body and count(preceding-sibling::*)=0])]"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row intro">
-                            <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
-                                <div class="landing_text">
-                                    <object data="./images/fixed_stemma_links.svg" type="image/svg+xml" alt="Abbildung eines genetischen Stemmas der Fassungen" role="presentation"></object>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row intro">
-                            <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
-                                <div class="landing_text">
-                                    <!-- <xsl:apply-templates select="//tei:body"/> -->
-                                    <xsl:apply-templates select="//tei:body/tei:*[not(self::tei:p[parent::tei:body and count(preceding-sibling::*)=0])]"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </main>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>

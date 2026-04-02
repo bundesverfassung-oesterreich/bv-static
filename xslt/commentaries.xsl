@@ -26,14 +26,16 @@
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-9 col-lg-6 col-sm-12 commentary_container">
-                                <xsl:apply-templates select="//tei:body"/>
-                                <xsl:call-template name="footnotes"/>
+                    <main id="content" role="main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-9 col-lg-6 col-sm-12 commentary_container">
+                                    <xsl:apply-templates select="//tei:body"/>
+                                    <xsl:call-template name="footnotes"/>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </main>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>

@@ -30,37 +30,38 @@
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    
-                    <div class="container-fluid">
-                        <div class="search-panel">
-                            <div class="search-panel__results">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div id="stats-container"></div>
-                                        <h4>Volltextsuche</h4>
-                                        <div id="searchbox"></div>
-                                        <div id="clear-refinements"></div>
-                                        <h4>Beteiligte Personen</h4>
-                                        <div id="refinement-list-persons"></div>
-                                        <h4>Dokumente</h4>
-                                        <div id="refinement-list-doc-title"/>
-                                        <h4>Dokumententyp</h4>
-                                        <div id="refinement-list-doc-type"></div>
-                                        <h4>Materialart</h4>
-                                        <div id="refinement-list-doc-material"></div>
-                                        <h4>Entstehungsjahr</h4>
-                                        <div id="refinement-range-year"></div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <!--<div id="sort-by"></div>-->
-                                        <div id="current-refinements"></div>
-                                        <div id="hits"></div>
-                                        <div id="pagination"></div>
+                    <main id="content" role="main">
+                        <div class="container-fluid">
+                            <div class="search-panel">
+                                <div class="search-panel__results">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div id="stats-container"></div>
+                                            <h4>Volltextsuche</h4>
+                                            <div id="searchbox"></div>
+                                            <div id="clear-refinements"></div>
+                                            <h4>Beteiligte Personen</h4>
+                                            <div id="refinement-list-persons"></div>
+                                            <h4>Dokumente</h4>
+                                            <div id="refinement-list-doc-title"/>
+                                            <h4>Dokumententyp</h4>
+                                            <div id="refinement-list-doc-type"></div>
+                                            <h4>Materialart</h4>
+                                            <div id="refinement-list-doc-material"></div>
+                                            <h4>Entstehungsjahr</h4>
+                                            <div id="refinement-range-year"></div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <!--<div id="sort-by"></div>-->
+                                            <div id="current-refinements"></div>
+                                            <div id="hits"></div>
+                                            <div id="pagination"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </main>
                     
                     <xsl:call-template name="html_footer"/>
                     

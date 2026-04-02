@@ -30,15 +30,15 @@
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-
-                    <div class="container-fluid">
-                        <div class="card">
-                            <div class="card-header">
-                                <h1>
-                                    <xsl:value-of select="$doc_title"/>
-                                </h1>
-                            </div>
-                            <div class="card-body">
+                    <main id="content" role="main">
+                        <div class="container-fluid">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1>
+                                        <xsl:value-of select="$doc_title"/>
+                                    </h1>
+                                </div>
+                                <div class="card-body">
                                 <table id="tocTable">
                                     <thead>
                                         <tr>
@@ -114,6 +114,7 @@
                             </div>
                         </div>
                     </div>
+                    </main>
 
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="js/tabulator.min.js"></script>
