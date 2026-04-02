@@ -20,6 +20,12 @@ h1 {
     text-indent: var(--default-line-height-negative);
 }
 
+/* top-level commentary headings */
+h1.main_heading,
+h1.sub_heading {
+    text-indent: 0;
+}
+
 h2 {
     padding: 3rem 0 var(--footnote-line-height);
 }
@@ -61,19 +67,36 @@ div.commentary_container div > p:first-of-type {
     margin: 0;
 }
 
-/* overview */
+/* overview / structured info at document start */
 
-dl {
-    margin-left: var(--default-line-height);
+.commentary_overview {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(var(--bv-big-highlight-rgb), .3);
+    background-color: rgba(var(--bv-big-highlight-rgb), .05);
 }
 
-dl p {
-    padding: 0;
+.commentary_overview + .commentary_overview {
+    margin-top: 0.5rem;
+}
+
+.commentary_overview dl {
     margin: 0;
 }
 
-dd {
+.commentary_overview dt {
+    font-weight: 600;
+    margin-top: 0.35rem;
+}
+
+.commentary_overview dd {
     margin-left: var(--default-line-height);
+}
+
+.commentary_overview dl p {
+    padding: 0;
+    margin: 0;
 }
 
 /* footnotes */
@@ -125,6 +148,11 @@ div.footnote_number a {
 div.footnote p {
     padding: 0;
     max-width: 30rem;
+}
+
+/* links inside commentary text and notes */
+a.footnote_anchor {
+    text-decoration: none;
 }
 
 

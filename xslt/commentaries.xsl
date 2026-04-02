@@ -7,9 +7,9 @@
     <xsl:import href="./partials/meta_tags.xsl"/>
     <xsl:variable name="wrong_link_prefix" select="'http://.'"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title">
-            <xsl:value-of select='"B-VG 1920"'/>
-        </xsl:variable>
+        <xsl:variable name="main_title" select="normalize-space(//tei:fileDesc/tei:titleStmt/tei:title[@type = 'main'][1])"/>
+        <xsl:variable name="sub_title" select="normalize-space(//tei:fileDesc/tei:titleStmt/tei:title[@type = 'sub'][1])"/>
+        <xsl:variable name="doc_title" select="if ($sub_title != '') then string-join(($main_title, $sub_title), ' – ') else $main_title"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <head>
@@ -117,9 +117,18 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:table">
-        <dl id="{generate-id()}">
-            <xsl:apply-templates/>
-        </dl>
+        <div>
+            <xsl:attribute name="class">
+                <xsl:text>commentary_overview</xsl:text>
+                <xsl:if test="@type">
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="@type"/>
+                </xsl:if>
+            </xsl:attribute>
+            <dl id="{generate-id()}">
+                <xsl:apply-templates/>
+            </dl>
+        </div>
     </xsl:template>
     <xsl:template match="tei:row">
         <xsl:apply-templates/>
@@ -188,27 +197,47 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    <!-- generic handling of references so that links render correctly -->
     <xsl:template match="tei:ref">
         <xsl:choose>
-            <xsl:when test="starts-with(data(@target), $wrong_link_prefix)">
+            <!-- fix malformed http://.example links -->
+            <xsl:when test="starts-with(normalize-space(@target), $wrong_link_prefix)">
                 <a>
                     <xsl:attribute name="href">
-                        <xsl:value-of select="substring(@target, string-length($wrong_link_prefix))" />
+                        <xsl:value-of select="substring(normalize-space(@target), string-length($wrong_link_prefix) + 1)"/>
                     </xsl:attribute>
-                    <xsl:value-of select="."/>
+                    <xsl:apply-templates/>
                 </a>
             </xsl:when>
-            <xsl:when test="starts-with(data(@target), 'http')">
-                <a>
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="@target"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="."/>
+            <!-- absolute http/https links -->
+            <xsl:when test="starts-with(normalize-space(@target), 'http')">
+                <a href="{normalize-space(@target)}">
+                    <xsl:apply-templates/>
+                </a>
+            </xsl:when>
+            <!-- internal fragment links -->
+            <xsl:when test="starts-with(normalize-space(@target), '#')">
+                <a href="{normalize-space(@target)}">
+                    <xsl:apply-templates/>
+                </a>
+            </xsl:when>
+            <!-- links to other local HTML documents, e.g. bv_doc_id__2 -->
+            <xsl:when test="not(contains(normalize-space(@target), '://'))">
+                <xsl:variable name="t" select="normalize-space(@target)"/>
+                <xsl:variable name="href" select="if (ends-with($t, '.html') or ends-with($t, '.htm')) then $t else concat($t, '.html')"/>
+                <a href="{$href}">
+                    <xsl:apply-templates/>
                 </a>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+
+    <!-- ensure links also work inside rendered footnotes -->
+    <xsl:template mode="footnote" match="tei:ref">
+        <!-- delegate to the default-mode tei:ref template so links are rendered -->
+        <xsl:apply-templates select="." mode="#default"/>
     </xsl:template>
 </xsl:stylesheet>
