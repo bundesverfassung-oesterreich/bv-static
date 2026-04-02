@@ -1,734 +1,67 @@
 [
   {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__36.html\">Protokoll der 1. Sitzung des Subkomitees des Verfassungsausschusses vom 11. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-07-11",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__4.html\">Kelsen Entwurf IV 1919</a>",
-    "beteiligte Personen": "Kelsen, Hans",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__7.html\">Falser Entwurf I 1919</a>",
-    "beteiligte Personen": "Falser, Stephan",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1919-12-18",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "title_html": "<a href=\"bv_doc_id__27.html\">Ministerialentwurf II 1920</a>",
-    "beteiligte Personen": "Staatssekretariat f\u00fcr die Verfasssungs- und Verwaltungsreform",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1920-04-12",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__42.html\">Protokoll der 7. Sitzung des Subkomitees des Verfassungsausschusses vom 20. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-20",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__9.html\">Mayr Entwurf II 1920</a>",
-    "beteiligte Personen": "Mayr, Michael",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-02-18",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__14.html\">Christlichsozialer Entwurf II 1920</a>",
-    "beteiligte Personen": "Christlichsoziale Partei",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-06-25",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__79.html\">Renner-Mayr Entwurf 1920 - Fassung Mayr</a>",
-    "beteiligte Personen": "Mayr, Michael / Renner, Karl",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__34.html\">Unterausschu\u00df Entwurf 1. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-09-01",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__43.html\">Protokoll der 8. Sitzung des Subkomitees des Verfassungsausschusses vom 21. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-21",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__6.html\">Kelsen Entwurf VI 1919</a>",
-    "beteiligte Personen": "Kelsen, Hans",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__16.html\">Danneberg Entwurf II 1920</a>",
-    "beteiligte Personen": "Danneberg, Robert",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-02-18",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [
-      "bv_doc_id__23"
-    ],
-    "title_html": "<a href=\"bv_doc_id__22.html\">Unterausschu\u00df Entwurf 23. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-09-23",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
-    "_children": [
-      {
-        "witness_status": "secondary",
-        "other_witnesses": [
-          "bv_doc_id__22"
-        ],
-        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__23.html\">UA Entwurf 23. September 1920 Textvariante</a>",
-        "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-        "Dokumententyp": "Verfassungsentwurf",
-        "Materialtyp": "Druck",
-        "Entstehung (tpq)": "1920-09-23",
-        "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-      }
-    ]
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__41.html\">Protokoll der 6. Sitzung des Subkomitees des Verfassungsausschusses vom 18. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-18",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__18.html\">Evidenzexemplar handschriftlich</a>",
-    "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-04-24",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__77.html\">Protokoll Zwischenamtliche Sitzung 11. Oktober 1919 - Fassung der Staatskanzlei</a>",
-    "beteiligte Personen": "Staatskanzlei",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-10-24",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__55.html\">Protokoll Linzer L\u00e4nderkonferenz 1920</a>",
-    "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-04-20",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__32.html\">Ministerialentwurf 1920</a>",
-    "beteiligte Personen": "Mayr, Michael",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1920-02-07",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [
-      "bv_doc_id__19"
-    ],
-    "title_html": "<a href=\"bv_doc_id__28.html\">Gro\u00dfdeutscher Entwurf II 1920</a>",
-    "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-04-20",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
-    "_children": [
-      {
-        "witness_status": "secondary",
-        "other_witnesses": [
-          "bv_doc_id__28"
-        ],
-        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__19.html\">Gro\u00dfdeutsch Entwurf Sonderdruck</a>",
-        "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
-        "Dokumententyp": "Verfassungsentwurf",
-        "Materialtyp": "Druck",
-        "Entstehung (tpq)": "1920-04-20",
-        "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-      }
-    ]
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__96.html\">CS Entwurf I Textvariante</a>",
-    "beteiligte Personen": "Christlichsoziale Partei",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-01-01",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__30.html\">Evidenzexemplar Entwurf maschinschriftlich</a>",
-    "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-04-24",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__64.html\">Vf\u00dcG Sonderdruck mit Unterschriften der Regierung</a>",
-    "beteiligte Personen": "Konstituierende Nationalversammlung",
-    "Dokumententyp": "Verfassungstext",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-10-01",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__40.html\">Protokoll der 5. Sitzung des Subkomitees des Verfassungsausschusses vom 17. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-17",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__73.html\">Protokoll Zwischenamtliche Sitzung 11. Oktober 1919</a>",
-    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-10-14",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__3.html\">Kelsen Entwurf III 1919</a>",
-    "beteiligte Personen": "Kelsen, Hans",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__39.html\">Protokoll der 4. Sitzung des Subkomitees des Verfassungsausschusses vom 22. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-07-22",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__46.html\">Protokoll der 11. Sitzung des Subkomitees des Verfassungsausschusses vom 25. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-25",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__74.html\">Protokoll Zwischenamtliche Sitzung 22. November 1919</a>",
-    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-12-04",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [
-      "bv_doc_id__29"
-    ],
-    "title_html": "<a href=\"bv_doc_id__67.html\">Mayr Entwurf I 1920</a>",
-    "beteiligte Personen": "Mayr, Michael",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-01-25",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
-    "_children": [
-      {
-        "witness_status": "secondary",
-        "other_witnesses": [
-          "bv_doc_id__67"
-        ],
-        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__29.html\">Mayr Entwurf Druck I</a>",
-        "beteiligte Personen": "Mayr, Michael",
-        "Dokumententyp": "Verfassungsentwurf",
-        "Materialtyp": "Druck",
-        "Entstehung (tpq)": "1920-01-25",
-        "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-      }
-    ]
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__21.html\">Unterausschu\u00df Entwurf 15.September 1920</a>",
-    "beteiligte Personen": "Unterausschu\u00df Entwurf 15. September 1920",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-09-15",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__65.html\">Gegen\u00fcberstellung der Differenzpunkte CS SD</a>",
-    "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Stellungnahme zum Verfassungsentwurf",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-04-23",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__10.html\">Rehrl Entwurf</a>",
-    "beteiligte Personen": "Rehrl, Franz",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1919-12-01",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__84.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 Christlichsoziale Fassung</a>",
-    "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-04-24",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__5.html\">Kelsen Entwurf V 1919</a>",
-    "beteiligte Personen": "Kelsen, Hans",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__51.html\">Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-09-15",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__48.html\">Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-31",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__37.html\">Protokoll der 2. Sitzung des Subkomitees des Verfassungsausschusses vom 12. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-07-12",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__52.html\">Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-09-22",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__8.html\">Falser Entwurf II 1919</a>",
-    "beteiligte Personen": "Falser, Stephan",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1919-10-07",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__49.html\">Protokoll der 14. Sitzung des Subkomitees des Verfassungsausschusses vom 13. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-09-13",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__75.html\">Protokoll Zwischenamtliche Sitzung 31. Oktober 1919</a>",
-    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Manuskript bestehend aus Handschrift und Typoskript",
-    "Entstehung (tpq)": "1919-10-31",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__12.html\">Verfassungsausschu\u00df Entwurf 1920</a>",
-    "beteiligte Personen": "Verfassungsausschu\u00df Entwurf 1920",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-09-26",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__44.html\">Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-23",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__68.html\">Gro\u00dfdeutsch Sonderdruck Textvariante 1</a>",
-    "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-01-01",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__2.html\">Kelsen Entwurf II 1919</a>",
-    "beteiligte Personen": "Kelsen, Hans",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Typoskript",
-    "Entstehung (tpq)": "1919-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__20.html\">Renner-Mayr mit Einklebungen</a>",
-    "beteiligte Personen": "Mayr, Michael / Renner, Karl",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-05-01",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__53.html\">Protokoll der 18. Sitzung des Subkomitees des Verfassungsausschusses vom 23. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-09-23",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__78.html\">Renner-Mayr Entwurf 1920 - Fassung Renner</a>",
-    "beteiligte Personen": "Mayr, Michael / Renner, Karl",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__15.html\">Abram Entwurf 1920</a>",
-    "beteiligte Personen": "Abram, Simon",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-07-07",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__47.html\">Protokoll der 12. Sitzung des Subkomitees des Verfassungsausschusses vom 26. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-26",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__1.html\">Kelsen Entwurf I 1919</a>",
-    "beteiligte Personen": "Kelsen, Hans",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1919-05-01",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__69.html\">Gro\u00dfdeutsch Sonderdruck Textvariante 2</a>",
-    "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-01-01",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__83.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 Sozialdemokratische Fassung</a>",
-    "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-04-24",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__50.html\">Protokoll der 15. Sitzung des Subkomitees des Verfassungsausschusses vom 14. September 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-09-14",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [
-      "bv_doc_id__24"
-    ],
-    "title_html": "<a href=\"bv_doc_id__33.html\">Unterausschu\u00df Entwurf 26. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-08-26",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
-    "_children": [
-      {
-        "witness_status": "secondary",
-        "other_witnesses": [
-          "bv_doc_id__33"
-        ],
-        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__24.html\">UA Entwurf 26. August 1920 Textvariante</a>",
-        "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-        "Dokumententyp": "Verfassungsentwurf",
-        "Materialtyp": "Druck",
-        "Entstehung (tpq)": "1920-08-26",
-        "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-      }
-    ]
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__70.html\">Protokoll 5. L\u00e4nderkonferenz - Bericht</a>",
-    "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1919-05-20",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
+    "sort_key": "0100",
+    "data_set": "Datenset A",
     "witness_status": "primary",
     "other_witnesses": [],
     "title_html": "<a href=\"bv_doc_id__35.html\">Renner Entwurf 1918</a>",
     "beteiligte Personen": "Renner, Karl",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Manuskript bestehend aus Handschrift und Typoskript",
-    "Entstehung (tpq)": "1918-11-01",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [
-      "bv_doc_id__11"
-    ],
-    "title_html": "<a href=\"bv_doc_id__62.html\">Bundes-Verfassungsgesetz 1920</a>",
-    "beteiligte Personen": "Konstituierende Nationalversammlung",
-    "Dokumententyp": "Verfassungstext",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-10-01",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen",
-    "_children": [
-      {
-        "witness_status": "secondary",
-        "other_witnesses": [
-          "bv_doc_id__62"
-        ],
-        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__11.html\">B-VG Sonderdruck</a>",
-        "beteiligte Personen": "Konstituierende Nationalversammlung",
-        "Dokumententyp": "Verfassungstext",
-        "Materialtyp": "Druck",
-        "Entstehung (tpq)": "1920-10-01",
-        "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-      }
-    ]
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__26.html\">Renner-Mayr saubere Version</a>",
-    "beteiligte Personen": "Mayr, Michael / Renner, Karl",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-05-01",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__38.html\">Protokoll der 3. Sitzung des Subkomitees des Verfassungsausschusses vom 20. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-07-20",
+    "Entstehung (tpq)": "1918-11-01|0100",
     "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
+    "sort_key": "0110",
+    "data_set": "Datenset B",
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__1000.html\">Protokoll der 1. Sitzung des Subkomitees des Verfassungsausschusses vom 11. Juli 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
-    "Dokumententyp": "Sitzungsprotokoll",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-07-11",
-    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__13.html\">unidentifizierter Entwurf nach Linz</a>",
+    "title_html": "<a href=\"bv_doc_id__56.html\">Protokoll 1. L\u00e4nderkonferenz</a>",
     "beteiligte Personen": "L\u00e4nderkonferenz",
-    "Dokumententyp": "Verfassungsentwurf",
-    "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-04-23",
-    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
-  },
-  {
-    "witness_status": "primary",
-    "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__45.html\">Protokoll der 10. Sitzung des Subkomitees des Verfassungsausschusses vom 24. August 1920</a>",
-    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Lithographie",
-    "Entstehung (tpq)": "1920-08-24",
+    "Entstehung (tpq)": "1918-11-23|0110",
     "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
+    "sort_key": "0120",
+    "data_set": "Datenset B",
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__54.html\">Protokoll Salzburger L\u00e4nderkonferenz 1920</a>",
+    "title_html": "<a href=\"bv_doc_id__57.html\">Protokoll 2. L\u00e4nderkonferenz</a>",
     "beteiligte Personen": "L\u00e4nderkonferenz",
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-02-15",
+    "Entstehung (tpq)": "1919-01-04|0120",
+    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+  },
+  {
+    "sort_key": "0130",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__58.html\">Protokoll 3. L\u00e4nderkonferenz</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1919-01-31|0130",
     "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   },
   {
+    "sort_key": "0140",
+    "data_set": "Datenset B",
     "witness_status": "primary",
     "other_witnesses": [],
-    "title_html": "<a href=\"bv_doc_id__63.html\">Bericht VfA Sonderdruck</a>",
-    "beteiligte Personen": "Verfassungsausschuss",
-    "Dokumententyp": "Stellungnahme zum Verfassungsentwurf",
+    "title_html": "<a href=\"bv_doc_id__59.html\">Protokoll 4. L\u00e4nderkonferenz</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1920-09-26",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+    "Entstehung (tpq)": "1919-04-05|0140",
+    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
   },
   {
+    "sort_key": "0200",
+    "data_set": "Datenset A",
     "witness_status": "primary",
     "other_witnesses": [
       "bv_doc_id__31"
@@ -737,10 +70,12 @@
     "beteiligte Personen": "Christlichsoziale Partei",
     "Dokumententyp": "Verfassungsentwurf",
     "Materialtyp": "Druck",
-    "Entstehung (tpq)": "1919-05-14",
+    "Entstehung (tpq)": "1919-05-14|0200",
     "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
     "_children": [
       {
+        "sort_key": "0201",
+        "data_set": "Datenset A",
         "witness_status": "secondary",
         "other_witnesses": [
           "bv_doc_id__66"
@@ -749,9 +84,1140 @@
         "beteiligte Personen": "Christlichsoziale Partei",
         "Dokumententyp": "Verfassungsentwurf",
         "Materialtyp": "Druck",
-        "Entstehung (tpq)": "1919-05-14",
+        "Entstehung (tpq)": "1919-05-14|0201",
         "Erschlie\u00dfungsgrad": "strukturell erschlossen"
       }
     ]
+  },
+  {
+    "sort_key": "0210",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__70.html\">Protokoll 5. L\u00e4nderkonferenz - Bericht</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1919-05-20|0210",
+    "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+  },
+  {
+    "sort_key": "0300",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__4.html\">Kelsen Entwurf IV</a>",
+    "beteiligte Personen": "Kelsen, Hans",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-05-01|0300",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "0400",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__1.html\">Kelsen Entwurf I</a>",
+    "beteiligte Personen": "Kelsen, Hans",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1919-05-01|0400",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "0400",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__10.html\">Rehrl Entwurf</a>",
+    "beteiligte Personen": "Rehrl, Franz",
+    "Dokumententyp": "Verfassungskonzept",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1919-12-01|0400",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "0500",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__85.html\">Akademiker Entwurf Tirol</a>",
+    "beteiligte Personen": "Akademikervereinigung",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-06-01|0500",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "0600",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__2.html\">Kelsen Entwurf II</a>",
+    "beteiligte Personen": "Kelsen, Hans",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-05-01|0600",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "0700",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__3.html\">Kelsen Entwurf III</a>",
+    "beteiligte Personen": "Kelsen, Hans",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-05-01|0700",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "0710",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__60.html\">Protokoll 6. L\u00e4nderkonferenz</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1919-09-15|0710",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "0800",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__7.html\">Falser Entwurf I</a>",
+    "beteiligte Personen": "Falser, Stephan",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1919-12-18|0800",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "0810",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__73.html\">Protokoll Zwischenamtliche Sitzung 11. Oktober 1919</a>",
+    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-10-14|0810",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "0815",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__77.html\">Protokoll Zwischenamtliche Sitzung 11. Oktober 1919 - Fassung der Staatskanzlei</a>",
+    "beteiligte Personen": "Staatskanzlei",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-10-24|0815",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "0830",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__75.html\">Protokoll Zwischenamtliche Sitzung 31. Oktober 1919</a>",
+    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Manuskript bestehend aus Handschrift und Typoskript",
+    "Entstehung (tpq)": "1919-10-31|0830",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "0900",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__5.html\">Kelsen Entwurf V</a>",
+    "beteiligte Personen": "Kelsen, Hans",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-05-01|0900",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "1000",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__6.html\">Kelsen Entwurf VI</a>",
+    "beteiligte Personen": "Kelsen, Hans",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-05-01|1000",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "1005",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__76.html\">Protokoll Zwischenamtliche Sitzung 13 November 1919</a>",
+    "beteiligte Personen": "Staatskanzlei",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-12-05|1005",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1010",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__95.html\">Kommentar der CS zu Kelsen Entwurf I</a>",
+    "beteiligte Personen": "Christlichsoziale Partei",
+    "Dokumententyp": "Kommentar zu einem Verfassungsentwurf",
+    "Materialtyp": "Handschriftlicher Kommentar",
+    "Entstehung (tpq)": "1919-11-17|1010",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1020",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__74.html\">Protokoll Zwischenamtliche Sitzung 22. November 1919</a>",
+    "beteiligte Personen": "Staatsamt f\u00fcr Justiz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-12-04|1020",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1101",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__99"
+    ],
+    "title_html": "<a href=\"bv_doc_id__8.html\">Falser Entwurf II</a>",
+    "beteiligte Personen": "Falser, Stephan",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1919-10-07|1101",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "1100",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__8"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__99.html\">Falser Entwurf II</a>",
+        "beteiligte Personen": "Falser, Stephan",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Typoskript",
+        "Entstehung (tpq)": "1919-12-18|1100",
+        "Erschlie\u00dfungsgrad": "maschinell erfasst"
+      }
+    ]
+  },
+  {
+    "sort_key": "1110",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__97.html\">Protokolle \u00fcber die Verfassungsgespr\u00e4che Mayrs in den L\u00e4ndern</a>",
+    "beteiligte Personen": "Staatssekretariat f\u00fcr die Verfasssungs- und Verwaltungsreform",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-12-18|1110",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1200",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__32.html\">Ministerialentwurf 1920</a>",
+    "beteiligte Personen": "Mayr, Michael",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1920-02-07|1200",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "1300",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__29"
+    ],
+    "title_html": "<a href=\"bv_doc_id__67.html\">Mayr Entwurf I 1920</a>",
+    "beteiligte Personen": "Mayr, Michael",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-01-25|1300",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "1301",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__67"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__29.html\">Mayr Entwurf Druck I</a>",
+        "beteiligte Personen": "Mayr, Michael",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-01-25|1301",
+        "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+      }
+    ]
+  },
+  {
+    "sort_key": "1310",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__54.html\">Protokoll Salzburger L\u00e4nderkonferenz 1920</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-02-15|1310",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "1400",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__72.html\">Danneberg Entwurf I</a>",
+    "beteiligte Personen": "Danneberg, Robert",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1920-02-18|1400",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1500",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__71"
+    ],
+    "title_html": "<a href=\"bv_doc_id__27.html\">Ministerialentwurf II 1920</a>",
+    "beteiligte Personen": "Staatssekretariat f\u00fcr die Verfasssungs- und Verwaltungsreform",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1920-04-12|1500",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "1501",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__27"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__71.html\">Ministerial Entwurf II</a>",
+        "beteiligte Personen": "Staatssekretariat f\u00fcr die Verfasssungs- und Verwaltungsreform",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Typoskript",
+        "Entstehung (tpq)": "1920-04-12|1501",
+        "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+      }
+    ]
+  },
+  {
+    "sort_key": "1600",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__9.html\">Mayr Entwurf II 1920</a>",
+    "beteiligte Personen": "Mayr, Michael",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-02-18|1600",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "1610",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__65.html\">Gegen\u00fcberstellung der Differenzpunkte CS SD</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Stellungnahme zum Verfassungsentwurf",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-04-23|1610",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1620",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__98.html\">Positionspapier F\u00f6derative Republik Deutsch\u00f6sterreich</a>",
+    "beteiligte Personen": "Christlichsoziale Partei",
+    "Dokumententyp": "Verfassungskonzept",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1919-12-18|1620",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1630",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__100.html\">Konzept f\u00fcr Kompromissentwurf</a>",
+    "beteiligte Personen": "Christlichsoziale Partei / Sozialdemokratische Partei",
+    "Dokumententyp": "Verfassungskonzept",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1920-04-20|1630",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "1700",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__68.html\">Gro\u00dfdeutsch Sonderdruck Textvariante 1</a>",
+    "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-01-01|1700",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "1800",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__16.html\">Danneberg Entwurf II 1920</a>",
+    "beteiligte Personen": "Danneberg, Robert",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-02-18|1800",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "1900",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__69.html\">Gro\u00dfdeutsch Sonderdruck Textvariante 2</a>",
+    "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-01-01|1900",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2000",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__13.html\">unidentifizierter Entwurf nach Linz</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-04-23|2000",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2010",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__55.html\">Protokoll Linzer L\u00e4nderkonferenz 1920</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-04-20|2010",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2100",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__18"
+    ],
+    "title_html": "<a href=\"bv_doc_id__83.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 Sozialdemokratische Fassung</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-04-24|2100",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "2102",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__84",
+          "bv_doc_id__83"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__18.html\">Evidenzexemplar handschriftlich</a>",
+        "beteiligte Personen": "L\u00e4nderkonferenz",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-04-24|2102",
+        "Erschlie\u00dfungsgrad": "maschinell erfasst"
+      }
+    ]
+  },
+  {
+    "sort_key": "2101",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__18"
+    ],
+    "title_html": "<a href=\"bv_doc_id__84.html\">Evidenzexemplar Entwurf maschinschriftlich \u2013 Christlichsoziale Fassung</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-04-24|2101",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "2102",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__84",
+          "bv_doc_id__83"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__18.html\">Evidenzexemplar handschriftlich</a>",
+        "beteiligte Personen": "L\u00e4nderkonferenz",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-04-24|2102",
+        "Erschlie\u00dfungsgrad": "maschinell erfasst"
+      }
+    ]
+  },
+  {
+    "sort_key": "2200",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__19"
+    ],
+    "title_html": "<a href=\"bv_doc_id__28.html\">Gro\u00dfdeutscher Entwurf II 1920</a>",
+    "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-04-20|2200",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "2201",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__28"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__19.html\">Gro\u00dfdeutsch Entwurf Sonderdruck</a>",
+        "beteiligte Personen": "Gro\u00dfdeutsche Volkspartei",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-04-20|2201",
+        "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+      }
+    ]
+  },
+  {
+    "sort_key": "2300",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__14.html\">Christlichsozialer Entwurf II 1920</a>",
+    "beteiligte Personen": "Christlichsoziale Partei",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-06-25|2300",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2400",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__20"
+    ],
+    "title_html": "<a href=\"bv_doc_id__78.html\">Renner-Mayr Entwurf 1920 - Fassung Renner</a>",
+    "beteiligte Personen": "Mayr, Michael / Renner, Karl",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-05-01|2400",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "2402",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__79",
+          "bv_doc_id__78"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__20.html\">Renner-Mayr mit Einklebungen</a>",
+        "beteiligte Personen": "Mayr, Michael / Renner, Karl",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-05-01|2402",
+        "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+      }
+    ]
+  },
+  {
+    "sort_key": "2401",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__20"
+    ],
+    "title_html": "<a href=\"bv_doc_id__79.html\">Renner-Mayr Entwurf 1920 - Fassung Mayr</a>",
+    "beteiligte Personen": "Mayr, Michael / Renner, Karl",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-05-01|2401",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "2402",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__79",
+          "bv_doc_id__78"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__20.html\">Renner-Mayr mit Einklebungen</a>",
+        "beteiligte Personen": "Mayr, Michael / Renner, Karl",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-05-01|2402",
+        "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+      }
+    ]
+  },
+  {
+    "sort_key": "2500",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__15.html\">Abram Entwurf 1920</a>",
+    "beteiligte Personen": "Abram, Simon",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-07-07|2500",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2505",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__36.html\">Protokoll der 1. Sitzung des Subkomitees des Verfassungsausschusses vom 11. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-07-11|2505",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2510",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__37.html\">Protokoll der 2. Sitzung des Subkomitees des Verfassungsausschusses vom 12. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-07-12|2510",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2511",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__86.html\">Protokoll der 21. Sitzung des Verfassungsausschusses</a>",
+    "beteiligte Personen": "Verfassungsausschuss",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-07-14|2511",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "2512",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__87.html\">Protokoll der 22. Sitzung des Verfassungsausschusses</a>",
+    "beteiligte Personen": "Verfassungsausschuss",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-07-15|2512",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2515",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__38.html\">Protokoll der 3. Sitzung des Subkomitees des Verfassungsausschusses vom 20. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-07-20|2515",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2520",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__39.html\">Protokoll der 4. Sitzung des Subkomitees des Verfassungsausschusses vom 22. Juli 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-07-22|2520",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2521",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__88.html\">Protokoll der 23. Sitzung des Verfassungsausschusses</a>",
+    "beteiligte Personen": "Verfassungsausschuss",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-07-23|2521",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2525",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__40.html\">Protokoll der 5. Sitzung des Subkomitees des Verfassungsausschusses vom 17. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-17|2525",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2530",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__41.html\">Protokoll der 6. Sitzung des Subkomitees des Verfassungsausschusses vom 18. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-18|2530",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2535",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__42.html\">Protokoll der 7. Sitzung des Subkomitees des Verfassungsausschusses vom 20. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-20|2535",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2540",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__43.html\">Protokoll der 8. Sitzung des Subkomitees des Verfassungsausschusses vom 21. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-21|2540",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2550",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__44.html\">Protokoll der 9. Sitzung des Subkomitees des Verfassungsausschusses vom 23. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-23|2550",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2552",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__45.html\">Protokoll der 10. Sitzung des Subkomitees des Verfassungsausschusses vom 24. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-24|2552",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2555",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__46.html\">Protokoll der 11. Sitzung des Subkomitees des Verfassungsausschusses vom 25. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-25|2555",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2560",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__47.html\">Protokoll der 12. Sitzung des Subkomitees des Verfassungsausschusses vom 26. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-26|2560",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2600",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__24"
+    ],
+    "title_html": "<a href=\"bv_doc_id__33.html\">Unterausschu\u00df Entwurf 26. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-08-26|2600",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "2601",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__33"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__24.html\">UA Entwurf 26. August 1920 Textvariante</a>",
+        "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-08-26|2601",
+        "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+      }
+    ]
+  },
+  {
+    "sort_key": "2610",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__48.html\">Protokoll der 13. Sitzung des Subkomitees des Verfassungsausschusses vom 31. August 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-08-31|2610",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2700",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__34.html\">Unterausschu\u00df Entwurf 1. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-09-01|2700",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2705",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__93.html\">Protokoll Parteienverhandlungen CS SD 1.-2.9.1920</a>",
+    "beteiligte Personen": "Christlichsoziale Partei / Sozialdemokratische Partei",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-09-01|2705",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "2710",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__49.html\">Protokoll der 14. Sitzung des Subkomitees des Verfassungsausschusses vom 13. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-09-13|2710",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2720",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__50.html\">Protokoll der 15. Sitzung des Subkomitees des Verfassungsausschusses vom 14. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-09-14|2720",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2800",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__21.html\">Unterausschu\u00df Entwurf 15. September 1920</a>",
+    "beteiligte Personen": "Unterausschu\u00df Entwurf 15. September 1920",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-09-15|2800",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2810",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__51.html\">Protokoll der 16. Sitzung des Subkomitees des Verfassungsausschusses vom 15. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-09-15|2810",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2815",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__94.html\">Protokoll Parteienverhandlungen CS SD 18.9.1920</a>",
+    "beteiligte Personen": "Christlichsoziale Partei / Sozialdemokratische Partei",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-09-18|2815",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "2820",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__52.html\">Protokoll der 17. Sitzung des Subkomitees des Verfassungsausschusses vom 22. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-09-22|2820",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2900",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__23"
+    ],
+    "title_html": "<a href=\"bv_doc_id__22.html\">Unterausschu\u00df Entwurf 23. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-09-23|2900",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "2901",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__22"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__23.html\">UA Entwurf 23. September 1920 Textvariante</a>",
+        "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+        "Dokumententyp": "Verfassungsentwurf",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-09-23|2901",
+        "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+      }
+    ]
+  },
+  {
+    "sort_key": "2902",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__53.html\">Protokoll der 18. Sitzung des Subkomitees des Verfassungsausschusses vom 23. September 1920</a>",
+    "beteiligte Personen": "Unterausschuss des Verfassungsausschusses",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Lithographie",
+    "Entstehung (tpq)": "1920-09-23|2902",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2910",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__89.html\">Protokoll der 24. Sitzung des Verfassungsausschusses</a>",
+    "beteiligte Personen": "Verfassungsausschuss",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-09-24|2910",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "2920",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__90.html\">Protokoll der 25. Sitzung des Verfassungsausschusses</a>",
+    "beteiligte Personen": "Verfassungsausschuss",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-09-25|2920",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "3000",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__12.html\">Verfassungsausschu\u00df Entwurf 1920</a>",
+    "beteiligte Personen": "Verfassungsausschu\u00df Entwurf 1920",
+    "Dokumententyp": "Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-09-26|3000",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "3010",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__63.html\">Bericht VfA Sonderdruck</a>",
+    "beteiligte Personen": "Verfassungsausschuss",
+    "Dokumententyp": "Stellungnahme zum Verfassungsentwurf",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-09-26|3010",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "3020",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__91.html\">Protokoll der 26. Sitzung des Verfassungsausschusses</a>",
+    "beteiligte Personen": "Verfassungsausschuss",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Handschriftlicher Protokolltext",
+    "Entstehung (tpq)": "1920-09-27|3020",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "3100",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [
+      "bv_doc_id__11",
+      "bv_doc_id__62"
+    ],
+    "title_html": "<a href=\"bv_doc_id__92.html\">B-VG Bundesgesetzblatt</a>",
+    "beteiligte Personen": "Konstituierende Nationalversammlung",
+    "Dokumententyp": "Verfassungstext",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-10-01|3100",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert",
+    "_children": [
+      {
+        "sort_key": "3102",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__92",
+          "bv_doc_id__62"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__11.html\">B-VG Sonderdruck</a>",
+        "beteiligte Personen": "Konstituierende Nationalversammlung",
+        "Dokumententyp": "Verfassungstext",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-10-01|3102",
+        "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+      },
+      {
+        "sort_key": "3101",
+        "data_set": "Datenset A",
+        "witness_status": "secondary",
+        "other_witnesses": [
+          "bv_doc_id__92",
+          "bv_doc_id__11"
+        ],
+        "title_html": "Alternativzeuge: <a href=\"bv_doc_id__62.html\">Bundes-Verfassungsgesetz 1920</a>",
+        "beteiligte Personen": "Konstituierende Nationalversammlung",
+        "Dokumententyp": "Verfassungstext",
+        "Materialtyp": "Druck",
+        "Entstehung (tpq)": "1920-10-01|3101",
+        "Erschlie\u00dfungsgrad": "strukturell erschlossen"
+      }
+    ]
+  },
+  {
+    "sort_key": "3200",
+    "data_set": "Datenset A",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__64.html\">Vf\u00dcG Sonderdruck mit Unterschriften der Regierung</a>",
+    "beteiligte Personen": "Konstituierende Nationalversammlung",
+    "Dokumententyp": "Verfassungstext",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-10-01|3200",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
+  },
+  {
+    "sort_key": "3600",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__103.html\">Protokoll Konstituierende Nationalversammlung 29. September 1920</a>",
+    "beteiligte Personen": "Konstituierende Nationalversammlung",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1920-09-29|3600",
+    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+  },
+  {
+    "sort_key": "9999",
+    "data_set": "Datenset B",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__61.html\">Protokoll 7. L\u00e4nderkonferenz</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Druck",
+    "Entstehung (tpq)": "1919-10-12|9999",
+    "Erschlie\u00dfungsgrad": "vollst\u00e4ndig ediert"
   }
 ]

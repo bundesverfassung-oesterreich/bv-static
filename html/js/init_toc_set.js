@@ -77,8 +77,14 @@ function loadTocForDataSet(data_set) {
       } else {
         tabulatorCfg.data = data.filter((item) => item["data_set"] === data_set);
       }
-      // sort the data; key is the sorter
-      tabulatorCfg.data.sort((a, b) => a.sort_key.localeCompare(b.sort_key));
+      // Sort the data; use an optional sort_key if present,
+      // otherwise fall back to the raw date field so legacy
+      // toc.json files without sort_key still work.
+      tabulatorCfg.data.sort((a, b) => {
+        const keyA = (a.sort_key || a["Entstehung (tpq)"] || "").toString();
+        const keyB = (b.sort_key || b["Entstehung (tpq)"] || "").toString();
+        return keyA.localeCompare(keyB);
+      });
       var table = new Tabulator("#tocTable", tabulatorCfg);
     });
 }
