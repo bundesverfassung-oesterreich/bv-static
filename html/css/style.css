@@ -1017,12 +1017,13 @@ span.pb::before {
 
 span.pb_marker {
     color: grey;
+    font-size: 1rem;
+    vertical-align: baseline;
 }
 
 span.pb_marker::after {
-    font-size: inherit;
     font-weight: bold;
-    content: " | ";
+    content: "|";
 }
 
 span.pb.empty_page {
@@ -1043,16 +1044,6 @@ span.pb.empty_page {
 span.pb.empty_page::before {
     display: none;
     content: "";
-}
-
-span.pb_marker {
-    color: grey;
-}
-
-span.pb_marker::after {
-    font-size: inherit;
-    font-weight: bold;
-    content: "|";
 }
 
 span.historical_pagecounter {

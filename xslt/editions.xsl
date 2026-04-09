@@ -300,12 +300,60 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:pb">
-        <!-- determine img src -->
+        <!-- When a page break immediately precedes a heading, defer rendering
+             to the heading template so the markers appear inside the heading element -->
+        <xsl:choose>
+            <xsl:when test="following-sibling::*[not(self::tei:fw)][1][self::tei:head]">
+                <!-- handled by tei:head template -->
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- determine img src -->
+                <xsl:variable name="pbId">
+                    <xsl:value-of select="replace(data(@facs), '#', '')"/>
+                </xsl:variable>
+                <xsl:variable name="facsUrl">
+                    <xsl:value-of select="data(//tei:surface[@xml:id = $pbId]/tei:graphic/@url)"/>
+                </xsl:variable>
+                <xsl:variable name="page_number">
+                    <xsl:number level="any"/>
+                </xsl:variable>
+                <xsl:if test="@break = 'yes'">
+                    <xsl:text></xsl:text>
+                </xsl:if>
+                <span source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';">
+                    <xsl:attribute name="class">
+                        <xsl:value-of select="'pb'"></xsl:value-of>
+                        <xsl:if test="
+                                (preceding-sibling::*[1][self::tei:pb]
+                                    and not(preceding-sibling::node()[normalize-space() != ''][1]))
+                                or
+                                (following-sibling::*[1][self::tei:pb]
+                                    and not(following-sibling::node()[normalize-space() != ''][1]))
+                            ">
+                            <xsl:value-of select="' empty_page'"/>
+                        </xsl:if>
+                    </xsl:attribute>
+                </span>
+                <xsl:if test="not(
+                        (preceding-sibling::*[1][self::tei:pb] 
+                            and not(preceding-sibling::node()[normalize-space() != ''][1])) 
+                        or 
+                        (following-sibling::*[1][self::tei:pb]
+                                    and not(following-sibling::node()[normalize-space() != ''][1]))
+                        )
+                    ">
+                    <span n="{$page_number}" class="pb_marker"/>
+                </xsl:if>
+                <xsl:if test="@break = 'yes'">
+                    <xsl:text></xsl:text>
+                </xsl:if>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <!-- Render page break spans inline within headings when pb immediately precedes the heading -->
+    <xsl:template match="tei:pb" mode="in-head">
         <xsl:variable name="pbId">
             <xsl:value-of select="replace(data(@facs), '#', '')"/>
-        </xsl:variable>
-        <xsl:variable name="surfaceNode" as="node()">
-            <xsl:value-of select="//tei:graphic[@xml:id = $pbId]"/>
         </xsl:variable>
         <xsl:variable name="facsUrl">
             <xsl:value-of select="data(//tei:surface[@xml:id = $pbId]/tei:graphic/@url)"/>
@@ -313,35 +361,23 @@
         <xsl:variable name="page_number">
             <xsl:number level="any"/>
         </xsl:variable>
-        <xsl:if test="@break = 'yes'">
-            <xsl:text></xsl:text>
-        </xsl:if>
+        <xsl:variable name="is_empty_page" select="
+                (preceding-sibling::*[1][self::tei:pb]
+                    and not(preceding-sibling::node()[normalize-space() != ''][1]))
+                or
+                (following-sibling::*[1][self::tei:pb]
+                    and not(following-sibling::node()[normalize-space() != ''][1]))
+            "/>
         <span source="{$facsUrl}" n="{$page_number}" style="--page_before: '{($page_number - 1)}'; --beginning_page: '{$page_number}';">
             <xsl:attribute name="class">
-                <xsl:value-of select="'pb'"></xsl:value-of>
-                <xsl:if test="
-                        (preceding-sibling::*[1][self::tei:pb]
-                            and not(preceding-sibling::node()[normalize-space()][1]))
-                        or
-                        (following-sibling::*[1][self::tei:pb]
-                            and not(following-sibling::node()[normalize-space()][1]))
-                    ">
-                    <xsl:value-of select="' empty_page'"/>
-                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="$is_empty_page">pb empty_page</xsl:when>
+                    <xsl:otherwise>pb</xsl:otherwise>
+                </xsl:choose>
             </xsl:attribute>
         </span>
-        <xsl:if test="not(
-                (preceding-sibling::*[1][self::tei:pb] 
-                    and not(preceding-sibling::node()[normalize-space() != ''][1])) 
-                or 
-                (following-sibling::*[1][self::tei:pb]
-                            and not(following-sibling::node()[normalize-space()][1]))
-                )
-            ">
+        <xsl:if test="not($is_empty_page)">
             <span n="{$page_number}" class="pb_marker"/>
-        </xsl:if>
-        <xsl:if test="@break = 'yes'">
-            <xsl:text></xsl:text>
         </xsl:if>
     </xsl:template>
     <xsl:template match="tei:ab">
@@ -465,6 +501,9 @@
                     </xsl:attribute>
                 </xsl:when>
             </xsl:choose>
+            <!-- Render page break markers inside the heading when the pb immediately precedes it,
+                 so they appear inline with the heading text rather than on a separate line above -->
+            <xsl:apply-templates select="preceding-sibling::*[not(self::tei:fw)][1][self::tei:pb]" mode="in-head"/>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
