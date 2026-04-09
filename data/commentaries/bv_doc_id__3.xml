@@ -64,11 +64,11 @@
                         <p>commentary concerning document <ref target="bv_doc_id__3">Kelsen III</ref></p>
                   </abstract>
                   <creation>
-                        <date>2026-04-02</date>
+                        <date>2026-04-09</date>
                   </creation>
             </profileDesc>
         <revisionDesc status="created">
-            <change when="2026-04-02" who="#cfh">document automatically created</change>
+            <change when="2026-04-09" who="#cfh">document automatically created</change>
         </revisionDesc>
       </teiHeader>
       <text type="Editorisch-rechtswissenschaftlicher Kommentar"><body><div xml:id="commentary_section_0" type="editorialChapter">
