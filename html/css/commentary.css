@@ -51,6 +51,15 @@ div.editorialChapter {
     padding-top: 2rem;
 }
 
+/* indent chapters based on heading level (nesting depth) */
+div.commentary_container div.editorialChapter div.editorialChapter {
+    margin-left: var(--default-line-height);
+}
+
+div.commentary_container div.editorialChapter div.editorialChapter div.editorialChapter {
+    margin-left: calc(2 * var(--default-line-height));
+}
+
 /* commentary text */
 
 /* div.commentary_container div.editorialChapter:first-of-type{
@@ -123,6 +132,41 @@ div.footnote_container div.footnote {
     display: flex;
     flex-direction: row;
     padding-bottom: var(--footnote-bottom-padding);
+}
+
+div.footnote_container div.footnote_text p {
+    font-size: .8rem;
+    line-height: var(--footnote-line-height);
+    text-indent: var(--footnote-line-height);
+}
+
+
+div.footnote_container div.footnote_text p:first-of-type {
+    text-indent: 0;
+}
+
+div.footnote_container div.footnote_number {
+    min-width: 2rem;
+    padding-right: .5rem;
+    text-align: end;
+}
+
+div.footnote_number a {
+    font-size: .8rem;
+    line-height: var(--footnote-line-height);
+    text-align: end;
+    vertical-align: top;
+}
+
+div.footnote p {
+    padding: 0;
+    max-width: 30rem;
+}
+
+/* links inside commentary text and notes */
+a.footnote_anchor {
+    text-decoration: none;
+g-bottom: var(--footnote-bottom-padding);
 }
 
 div.footnote_container div.footnote_text p {
