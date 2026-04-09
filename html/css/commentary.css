@@ -24,18 +24,27 @@ h1 {
 h1.main_heading,
 h1.sub_heading {
     text-indent: 0;
+    padding: 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
 }
 
 h2 {
-    padding: 3rem 0 var(--footnote-line-height);
+    padding: 0.5rem;
+    margin-top: 2.5rem; /* 3rem - 0.5rem */
+    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
 }
 
 h3 {
-    padding: var(--footnote-line-height) 0;
+    padding: 0.5rem;
+    margin-top: calc(var(--footnote-line-height) - 0.5rem);
+    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
 }
 
 h4 {
-    padding: var(--footnote-line-height) 0;
+    padding: 0.5rem;
+    margin-top: calc(var(--footnote-line-height) - 0.5rem);
+    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
     font-weight: normal;
 }
 
@@ -69,6 +78,13 @@ div.commentary_container div.editorialChapter div.editorialChapter div.editorial
 div.commentary_container div.editorialChapter > p {
     text-indent: var(--default-line-height);
     margin: 0;
+    padding: 0.5rem;
+}
+
+div.commentary_container div.editorialChapter > ul,
+div.commentary_container div.editorialChapter > ol,
+div.commentary_container div.editorialChapter > dl {
+    padding: 0.5rem;
 }
 
 div.commentary_container div > p:first-of-type {
@@ -274,8 +290,10 @@ a.footnote_anchor {
     text-decoration: none;
 }
 
-
-.commentary_container :target {
+div.commentary_container div.editorialChapter h1:target,
+div.commentary_container div.editorialChapter h2:target,
+div.commentary_container div.editorialChapter h3:target,
+div.commentary_container div.editorialChapter h4:target {
     background-color: rgba(var(--bv-big-highlight-rgb), .1);
     scroll-margin-top: 100px;
 }
