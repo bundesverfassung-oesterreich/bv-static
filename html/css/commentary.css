@@ -275,15 +275,9 @@ a.footnote_anchor {
 }
 
 
-/* general stuff: highlight only targets inside commentary content */
-
 .commentary_container :target {
     background-color: rgba(var(--bv-big-highlight-rgb), .1);
     scroll-margin-top: 100px;
-    /* add visual padding without shrinking the text area */
-    padding: 1.5rem;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
 }
 
 
