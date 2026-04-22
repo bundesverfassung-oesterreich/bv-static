@@ -25,26 +25,25 @@ h1.main_heading,
 h1.sub_heading {
     text-indent: 0;
     padding: 0.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
+    font-size: 1.5rem;
 }
 
 h2 {
     padding: 0.5rem;
-    margin-top: 2.5rem; /* 3rem - 0.5rem */
-    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
 }
 
 h3 {
     padding: 0.5rem;
-    margin-top: calc(var(--footnote-line-height) - 0.5rem);
-    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
+    font-size: 1rem;
+    margin: 0;
 }
 
 h4 {
     padding: 0.5rem;
-    margin-top: calc(var(--footnote-line-height) - 0.5rem);
-    margin-bottom: calc(var(--footnote-line-height) - 0.5rem);
+    font-size: 1rem;
+    margin: 0;
     font-weight: normal;
 }
 
@@ -56,7 +55,7 @@ h4.no_padding {
 }
 
 
-div.editorialChapter {
+div.editorialChapter div.editorialChapter {
     padding-top: 2rem;
 }
 
@@ -71,23 +70,19 @@ div.commentary_container div.editorialChapter div.editorialChapter div.editorial
 
 /* commentary text */
 
-/* div.commentary_container div.editorialChapter:first-of-type{
-    margin-bottom: 2rem;
-} */
-
-div.commentary_container div.editorialChapter > p {
+div.commentary_container div.editorialChapter>p {
     text-indent: var(--default-line-height);
     margin: 0;
     padding: 0.5rem;
 }
 
-div.commentary_container div.editorialChapter > ul,
-div.commentary_container div.editorialChapter > ol,
-div.commentary_container div.editorialChapter > dl {
+div.commentary_container div.editorialChapter>ul,
+div.commentary_container div.editorialChapter>ol,
+div.commentary_container div.editorialChapter>dl {
     padding: 0.5rem;
 }
 
-div.commentary_container div > p:first-of-type {
+div.commentary_container div>p:first-of-type {
     text-indent: 0;
     margin: 0;
 }
@@ -106,7 +101,7 @@ div.commentary_container div > p:first-of-type {
     margin-bottom: 0;
 }
 
-.commentary_overview + .commentary_overview {
+.commentary_overview+.commentary_overview {
     margin-top: 0.5rem;
 }
 
@@ -138,7 +133,8 @@ div.commentary_container div > p:first-of-type {
     position: fixed;
     left: 0.75rem;
     top: 7.2rem;
-    z-index: 995; /* above content but below navbar */
+    z-index: 995;
+    /* above content but below navbar */
     cursor: pointer;
 }
 
@@ -160,7 +156,7 @@ div.commentary_container div > p:first-of-type {
     transition: transform 0.2s ease-in-out;
 }
 
-#commentary_toc_toggle:checked ~ nav.commentary_toc {
+#commentary_toc_toggle:checked~nav.commentary_toc {
     transform: translateX(0);
 }
 
@@ -175,7 +171,7 @@ div.commentary_container div > p:first-of-type {
 }
 
 /* indent TOC entries based on nesting level */
-.commentary_toc > ul > li {
+.commentary_toc>ul>li {
     margin-left: 0;
 }
 
@@ -304,4 +300,4 @@ div.commentary_container div.editorialChapter h4:target {
         column-count: 1;
         column-gap: 1rem;
     }
-  }
+}
