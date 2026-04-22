@@ -6,6 +6,8 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/meta_tags.xsl"/>
     <xsl:variable name="wrong_link_prefix" select="'http://.'"/>
+    <xsl:variable name="commentary_doc_target" select="normalize-space((//tei:profileDesc//tei:p[tei:ref][1]/tei:ref[1]/@target, '')[1])"/>
+    <xsl:variable name="commentary_doc_href" select="if ($commentary_doc_target = '') then '' else if (starts-with($commentary_doc_target, 'http') or starts-with($commentary_doc_target, '#')) then $commentary_doc_target else if (contains($commentary_doc_target, '://')) then $commentary_doc_target else if (ends-with($commentary_doc_target, '.html') or ends-with($commentary_doc_target, '.htm')) then $commentary_doc_target else concat($commentary_doc_target, '.html')"/>
     <xsl:template match="/">
         <xsl:variable name="main_title" select="normalize-space(//tei:fileDesc/tei:titleStmt/tei:title[@type = 'main'][1])"/>
         <xsl:variable name="sub_title" select="normalize-space(//tei:fileDesc/tei:titleStmt/tei:title[@type = 'sub'][1])"/>
@@ -112,7 +114,16 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>
-            <xsl:apply-templates/>
+            <xsl:choose>
+                <xsl:when test="@type='sub' and $commentary_doc_href != ''">
+                    <a href="{$commentary_doc_href}">
+                        <xsl:apply-templates/>
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:body/tei:p[1]">
