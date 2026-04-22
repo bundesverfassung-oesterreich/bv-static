@@ -52,16 +52,12 @@ h4 {
     font-weight: normal;
 }
 
-/* h2.no_padding,
-h3.no_padding,
-h4.no_padding {
-    padding-bottom: 0;
-    margin-bottom: 0;
-} */
-
-
 div.editorialChapter div.editorialChapter {
     padding-top: 1.5rem;
+}
+
+div.editorialChapter div.editorialChapter.reduced_top_padding {
+    padding-top: 0.25rem;
 }
 
 /* indent chapters based on heading level (nesting depth) */
@@ -215,7 +211,6 @@ div.footnote_container {
 
 div.footnote_container div.footnote {
     padding-right: .5rem;
-    /* padding-top: .2rem; */
     padding-top: var(--footnote-top-padding);
     display: flex;
     flex-direction: row;

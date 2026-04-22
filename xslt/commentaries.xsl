@@ -62,11 +62,12 @@
     <!-- commentary chapter divs: no id on the wrapper; the id moves to the heading -->
     <xsl:template match="tei:div[@type='editorialChapter']">
         <div>
-            <xsl:if test="@type">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="@type"/>
-                </xsl:attribute>
-            </xsl:if>
+            <xsl:attribute name="class">
+                <xsl:text>editorialChapter</xsl:text>
+                <xsl:if test="preceding-sibling::*[1][self::tei:head]">
+                    <xsl:text> reduced_top_padding</xsl:text>
+                </xsl:if>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -105,9 +106,6 @@
                     </xsl:when>
                     <xsl:when test="@type='sub'">
                         <xsl:value-of select="'sub_heading'"/>
-                    </xsl:when>
-                    <xsl:when test="./following-sibling::*[1][@type='editorialChapter']">
-                        <xsl:value-of select="'no_padding'"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="' '"/>
