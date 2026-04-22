@@ -1358,6 +1358,7 @@ low resolution
 
 /* target offset for any element */
 :target {
-    background-color: gray;
+    /* background-color: gray; */
+    background-color: rgba(var(--bv-big-highlight-rgb), .1);
     scroll-margin-top: 100px;
 }

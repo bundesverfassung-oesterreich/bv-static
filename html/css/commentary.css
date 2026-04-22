@@ -1,3 +1,8 @@
+/* create a var for the heading padding */
+:root {
+    --heading-padding: 0.5rem;
+}
+
 div.commentary_container {
     margin: auto;
     padding-top: 1rem;
@@ -24,39 +29,39 @@ h1 {
 h1.main_heading,
 h1.sub_heading {
     text-indent: 0;
-    padding: 0.5rem;
+    padding: var(--heading-padding);
     font-size: 1.5rem;
 }
 
 h2 {
-    padding: 0.5rem;
+    padding: var(--heading-padding);
     margin-top: 2.5rem;
     font-size: 1.25rem;
 }
 
 h3 {
-    padding: 0.5rem;
+    padding: var(--heading-padding);
     font-size: 1rem;
     margin: 0;
 }
 
 h4 {
-    padding: 0.5rem;
+    padding: var(--heading-padding);
     font-size: 1rem;
     margin: 0;
     font-weight: normal;
 }
 
-h2.no_padding,
+/* h2.no_padding,
 h3.no_padding,
 h4.no_padding {
     padding-bottom: 0;
     margin-bottom: 0;
-}
+} */
 
 
 div.editorialChapter div.editorialChapter {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 /* indent chapters based on heading level (nesting depth) */
@@ -73,13 +78,13 @@ div.commentary_container div.editorialChapter div.editorialChapter div.editorial
 div.commentary_container div.editorialChapter>p {
     text-indent: var(--default-line-height);
     margin: 0;
-    padding: 0.5rem;
+    padding: 0rem 0.5rem 0.5rem var(--heading-padding);
 }
 
 div.commentary_container div.editorialChapter>ul,
 div.commentary_container div.editorialChapter>ol,
 div.commentary_container div.editorialChapter>dl {
-    padding: 0.5rem;
+    padding: var(--heading-padding);
 }
 
 div.commentary_container div>p:first-of-type {
