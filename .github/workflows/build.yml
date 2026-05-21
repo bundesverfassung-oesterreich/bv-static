@@ -60,12 +60,12 @@ jobs:
     - name: Convert .tex to .pdf
       run: ./shellscripts/build_pdf.sh
     - name: Upload Pages Artifact
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v5
       with:
         path: "./html"
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v5
       with:
         token: ${{secrets.GITHUB_TOKEN}}
     - name: Setup Typesense
