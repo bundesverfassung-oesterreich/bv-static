@@ -24,11 +24,11 @@ jobs:
       name: github-pages
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
     - name: fetch data
       run: | 
         ./shellscripts/fetch_editions.sh
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: fetched fresh data from gh-data repo
     - name: copy basic texts for pages
