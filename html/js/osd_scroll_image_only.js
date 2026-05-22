@@ -2,6 +2,24 @@ const facsContainer = document.getElementById("container_facs_1");
 const imageRights = document.getElementsByClassName("image_rights")[0];
 const imageSourceNodes = Array.from(document.querySelectorAll(".image-source"));
 
+const IIIF_IMAGE_SUFFIX = /\/full\/(?:full|max)\/0\/default\.(?:jpg|jpeg|png)(?:\?.*)?$/i;
+
+function toIiifInfoUrl(imageUrl) {
+  if (!imageUrl) {
+    return "";
+  }
+
+  if (imageUrl.endsWith("/info.json")) {
+    return imageUrl;
+  }
+
+  if (IIIF_IMAGE_SUFFIX.test(imageUrl)) {
+    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "/info.json");
+  }
+
+  return imageUrl;
+}
+
 if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   function calculateFacsContainerHeight() {
     const imageRightsHeight = imageRights.getBoundingClientRect().height;
@@ -14,10 +32,15 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     facsContainer.style.height = `${String(calculateFacsContainerHeight())}px`;
   }
 
-  const tileSources = imageSourceNodes.map((node) => ({
-    type: "image",
-    url: node.dataset.imageUrl,
-  }));
+  const pageSources = imageSourceNodes.map((node) => {
+    const imageUrl = node.dataset.imageUrl;
+    return {
+      imageUrl,
+      tileSource: toIiifInfoUrl(imageUrl),
+    };
+  });
+
+  const tileSources = pageSources.map((source) => source.tileSource);
 
   resizeFacsContainer();
 
@@ -35,44 +58,62 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     zoomInButton: "osd_zoom_in_button",
     zoomOutButton: "osd_zoom_out_button",
     homeButton: "osd_zoom_reset_button",
+    preload: true,
     constrainDuringPan: true,
+    imageLoaderLimit: 3,
+    timeout: 60000,
+    tileRetryMax: 2,
+    tileRetryDelay: 1500,
   });
 
   function fitVerticallyCentered() {
-    const initialBounds = viewer.viewport.getBounds();
-    const ratio = initialBounds.width / initialBounds.height;
     const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
 
     if (!tiledImage) {
       return;
     }
 
-    let newBounds;
-    if (ratio > tiledImage.contentAspectX) {
-      const newWidth = tiledImage.normHeight * ratio;
-      const centeredX = (1 - newWidth) / 2;
-      newBounds = new OpenSeadragon.Rect(
-        centeredX,
-        0,
-        newWidth,
-        tiledImage.normHeight,
-      );
-    } else {
-      const newHeight = 1 / ratio;
-      const centeredY = (tiledImage.normHeight - newHeight) / 2;
-      newBounds = new OpenSeadragon.Rect(0, centeredY, 1, newHeight);
-    }
-
-    viewer.viewport.fitBounds(newBounds, true);
+    // Always fit to the real image bounds to avoid clipping edges.
+    viewer.viewport.fitBounds(tiledImage.getBounds(), true);
+    viewer.viewport.applyConstraints(true);
   }
 
   viewer.viewport.goHome = function () {
     fitVerticallyCentered();
   };
 
-  viewer.addHandler("open", fitVerticallyCentered);
-  viewer.addHandler("tile-loaded", fitVerticallyCentered);
-  viewer.addHandler("page", fitVerticallyCentered);
+  viewer.addHandler("open", () => {
+    fitVerticallyCentered();
+
+    // Refit once after the image is fully loaded to avoid edge clipping.
+    const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+    if (tiledImage && typeof tiledImage.addOnceHandler === "function") {
+      tiledImage.addOnceHandler("fully-loaded-change", fitVerticallyCentered);
+    }
+  });
+
+  const warmedIiifInfo = new Set();
+
+  function warmupNextIiifInfo(pageIndex) {
+    const nextIndex = pageIndex + 1;
+    if (nextIndex < 0 || nextIndex >= pageSources.length) {
+      return;
+    }
+
+    const tileSourceUrl = pageSources[nextIndex].tileSource;
+    if (!tileSourceUrl || !tileSourceUrl.endsWith("/info.json")) {
+      return;
+    }
+
+    if (warmedIiifInfo.has(tileSourceUrl)) {
+      return;
+    }
+
+    warmedIiifInfo.add(tileSourceUrl);
+    fetch(tileSourceUrl, { cache: "force-cache" }).catch(() => {
+      warmedIiifInfo.delete(tileSourceUrl);
+    });
+  }
 
   let currentPage = 0;
   const maxPage = tileSources.length - 1;
@@ -87,6 +128,7 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   viewer.addHandler("page", (event) => {
     currentPage = event.page;
     updateButtonState();
+    warmupNextIiifInfo(currentPage);
   });
 
   prev.addEventListener("click", () => {
@@ -107,4 +149,5 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   );
 
   updateButtonState();
+  warmupNextIiifInfo(currentPage);
 }
