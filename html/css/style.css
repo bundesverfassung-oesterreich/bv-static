@@ -13,6 +13,7 @@
     --footnote-top-padding: .3rem;
     --footnote-bottom-padding: 1rem;
     --bv-violet: #e1d4ff;
+    --bv-violet-strong: #6741b1;
     /*
         --top-offset: 1rem;
         could be set via 
@@ -295,6 +296,11 @@ div.revision_desc.done {
     background-color: rgba(var(--bv-big-highlight-rgb), 0.6) !important;
 }
 
+div.revision_desc.image_only {
+    color: #fff;
+    background-color: var(--bv-violet-strong) !important;
+}
+
 .docinfo .document_info {
     max-width: 40rem;
     font-size: 1.5rem;
@@ -471,6 +477,53 @@ a {
 
 #container-resize {
     justify-content: center;
+}
+
+body.image-only-page #container-resize.image-only-layout {
+    justify-content: center;
+}
+
+body.image-only-page .image-only-column {
+    float: none;
+    width: min(100%, 72rem) !important;
+    max-width: 72rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.image-only-page .image-only-viewer {
+    width: 100%;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+body.image-only-page .image-only-viewer #container_facs_1 {
+    width: 100%;
+}
+
+body.image-only-page #short_title {
+    width: 100%;
+    text-align: center;
+}
+
+body.image-only-page .image-source-list {
+    display: none;
+}
+
+body.image-only-page div.image_rights {
+    max-width: none;
+    width: 100%;
+}
+
+body.image-only-page div.image_rights div.row {
+    justify-content: center;
+}
+
+body.image-only-page div.image_rights p {
+    display: block;
+    max-width: 100%;
 }
 
 .edition_container {
@@ -1234,10 +1287,19 @@ resolution or low resolution screens
         display: none;
     }
 
+    body.image-only-page .facsimiles {
+        display: block;
+    }
+
     #text-resize {
         padding-left: .5rem;
         padding-right: .5rem;
         margin-right: .5rem;
+    }
+
+    body.image-only-page #img-resize {
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
 
     div#short_title.display_title {

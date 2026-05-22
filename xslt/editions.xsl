@@ -19,28 +19,31 @@
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@type = 'main'][1]/text()"/>
     </xsl:variable>
+    <xsl:variable name="revision_state">
+        <xsl:value-of select="//tei:revisionDesc/@status"/>
+    </xsl:variable>
+    <xsl:variable name="revision_label">
+        <xsl:choose>
+            <xsl:when test="$revision_state = 'created'">
+                <xsl:value-of select="'maschinell erfasst'"/>
+            </xsl:when>
+            <xsl:when test="$revision_state = 'structured'">
+                <xsl:value-of select="'strukturell erschlossen'"/>
+            </xsl:when>
+            <xsl:when test="$revision_state = 'text_correct'">
+                <xsl:value-of select="'Dokument vollständig ediert'"/>
+            </xsl:when>
+            <xsl:when test="$revision_state = 'done'">
+                <xsl:value-of select="'Dokument vollständig ediert'"/>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:variable>
     <xsl:strip-space elements="div p table list note item choice del add"/>
     <xsl:preserve-space elements=""/>
     <xsl:template match="/">
-        <xsl:variable name="revision_state">
-            <xsl:value-of select="//tei:revisionDesc/@status"/>
-        </xsl:variable>
-        <xsl:variable name="revision_label">
-            <xsl:choose>
-                <xsl:when test="$revision_state = 'created'">
-                    <xsl:value-of select="'maschinell erfasst'"/>
-                </xsl:when>
-                <xsl:when test="$revision_state = 'structured'">
-                    <xsl:value-of select="'strukturell erschlossen'"/>
-                </xsl:when>
-                <xsl:when test="$revision_state = 'text_correct'">
-                    <xsl:value-of select="'Dokument vollständig ediert'"/>
-                </xsl:when>
-                <xsl:when test="$revision_state = 'done'">
-                    <xsl:value-of select="'Dokument vollständig ediert'"/>
-                </xsl:when>
-            </xsl:choose>
-        </xsl:variable>
+        <xsl:call-template name="render-standard-edition"/>
+    </xsl:template>
+    <xsl:template name="render-standard-edition">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <head>
@@ -119,85 +122,7 @@
                             </div>
                         </div>
                         <div class="wp-transcript">
-                            <div class="row" id="edition_metadata">
-                                <div class="col-md-8 col-lg-8 col-sm-12 docinfo">
-                                    <xsl:variable name="doc_type" select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
-                                    <h1>
-                                        <xsl:value-of select="$doc_title"/>
-                                    </h1>
-                                    <p class="document_info">
-                                        <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')" />
-                                    </p>
-                                    <p class="document_info archival_small">
-                                        <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])" />
-                                    </p>
-                                    <p class="document_info archival_small">
-                                        <xsl:value-of select="//tei:text/@type"/>
-                                        <xsl:value-of select="concat(' (', normalize-space($doc_type)), ')'"/>
-                                    </p>
-                                    <p class="document_info archival_small">
-                                        <xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'
-                                        />
-</p>
-<div>
-<xsl:attribute name="class">
-                                            <xsl:value-of select="concat('revision_desc ', $revision_state)"/>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="$revision_label"/>
-                                    </div>
-                                </div>
-                                <div class="row align-items-start justify-content-start">
-                                    <div class="edition_metadata_button" role="button">
-                                        <a href="{$doc_id}.xml"> XML <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
-                                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="edition_metadata_button" role="button">
-                                    <!--href="{$target_pdf}/{$doc_id}.pdf-->
-                                    <a href="./no_data.html"> PDF <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
-                                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="edition_metadata_button" role="button">
-                                <!--<a href="{$target_xml}/{$doc_id}_commentary.xml">-->
-                                <a>
-                                    <xsl:attribute name="href">
-                                        <xsl:choose>
-                                            <!-- <xsl:when test="//*[@ana='has_commentary']"> -->
-                                            <xsl:when test="boolean(False)">
-                                                <xsl:value-of select="concat('./', $doc_id, '_commentary.html')"/>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="'no_data.html'"/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </xsl:attribute>
-                                            Editorischer Bericht <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
-                                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z" />
-                                </svg>
-                            </a>
-                        </div>
-                        <xsl:if test=".//tei:sourceDesc/tei:listWit">
-                            <xsl:for-each select=".//tei:sourceDesc/tei:listWit/tei:witness/@sameAs">
-                                <div class="edition_metadata_button" role="button">
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="concat('./', translate(., '#', ''), '.html')"/>
-                                        </xsl:attribute>
-                                                    Weiterer Textzeuge
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
-                                            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </xsl:for-each>
-                        </xsl:if>
-                    </div>
-                </div>
+                            <xsl:call-template name="render-edition-metadata"/>
                 <div id="container-resize" class="row transcript active">
                     <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">
                         <div id="short_title">
@@ -209,35 +134,7 @@
                             <div id="container_facs_1">
                                 <!-- container and facs handling in js -->
                             </div>
-                            <div class="image_rights">
-                                <div class="row">
-                                    <button class="osd_nav_element" id="osd_prev_button">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                            <path fill="#f8f9ec" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288 480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128z" />
-                                        </svg>
-                                    </button>
-                                    <button class="osd_nav_element" id="osd_next_button">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                            <path fill="#f8f9ec" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
-                                        </svg>
-                                    </button>
-                                    <button class="osd_nav_element" id="osd_zoom_out_button">–</button>
-                                    <button class="osd_nav_element" id="osd_zoom_reset_button">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="2.5rem" width="auto" viewBox="0 0 384 512">
-                                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                            <path fill="#f8f9ec" d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z" />
-                                        </svg>
-                                    </button>
-                                    <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
-                                </div>
-                                <p>Das Original befindet sich im Eigentum des
-                                                Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'
-                                                  />“.</span> Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des
-                                                ÖStA entsprechend der geltenden
-                                                Benutzungsordnung.</p>
-</div>
+                            <xsl:call-template name="render-image-viewer-controls"/>
 </div>
 </div>
 <div id="text-resize" lang="de" class="col-md-6 col-lg-6 col-sm-12 text yes-index">
@@ -288,6 +185,113 @@
                 <script type="text/javascript" src="js/toggle_shortTitle.js"/>
             </body>
         </html>
+    </xsl:template>
+    <xsl:template name="render-edition-metadata">
+        <xsl:param name="revision-state" as="xs:string" select="$revision_state"/>
+        <xsl:param name="revision-label" as="xs:string" select="$revision_label"/>
+        <xsl:param name="revision-extra-class" as="xs:string" select="''"/>
+        <xsl:variable name="doc_type" select="//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1]"/>
+        <div class="row" id="edition_metadata">
+            <div class="col-md-8 col-lg-8 col-sm-12 docinfo">
+                <h1>
+                    <xsl:value-of select="$doc_title"/>
+                </h1>
+                <p class="document_info">
+                    <xsl:value-of select="string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / ')"/>
+                </p>
+                <p class="document_info archival_small">
+                    <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date[1])"/>
+                </p>
+                <p class="document_info archival_small">
+                    <xsl:value-of select="//tei:text/@type"/>
+                    <xsl:value-of select="concat(' (', normalize-space($doc_type), ')')"/>
+                </p>
+                <p class="document_info archival_small">
+                    <xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'/>
+                </p>
+                <div>
+                    <xsl:attribute name="class">
+                        <xsl:value-of select="concat('revision_desc ', $revision-state, if (normalize-space($revision-extra-class)) then concat(' ', $revision-extra-class) else '')"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="$revision-label"/>
+                </div>
+            </div>
+            <div class="row align-items-start justify-content-start">
+                <div class="edition_metadata_button" role="button">
+                    <a href="{$doc_id}.xml"> XML <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                    </svg>
+                    </a>
+                </div>
+                <div class="edition_metadata_button" role="button">
+                    <a href="./no_data.html"> PDF <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                    </svg>
+                    </a>
+                </div>
+                <div class="edition_metadata_button" role="button">
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:choose>
+                                <xsl:when test="boolean(False)">
+                                    <xsl:value-of select="concat('./', $doc_id, '_commentary.html')"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="'no_data.html'"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:attribute>
+                        Editorischer Bericht <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
+                            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"/>
+                        </svg>
+                    </a>
+                </div>
+                <xsl:if test=".//tei:sourceDesc/tei:listWit">
+                    <xsl:for-each select=".//tei:sourceDesc/tei:listWit/tei:witness/@sameAs">
+                        <div class="edition_metadata_button" role="button">
+                            <a>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="concat('./', translate(., '#', ''), '.html')"/>
+                                </xsl:attribute>
+                                Weiterer Textzeuge
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
+                                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </xsl:for-each>
+                </xsl:if>
+            </div>
+        </div>
+    </xsl:template>
+    <xsl:template name="render-image-viewer-controls">
+        <div class="image_rights">
+            <div class="row">
+                <button class="osd_nav_element" id="osd_prev_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#f8f9ec" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288 480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128z"/>
+                    </svg>
+                </button>
+                <button class="osd_nav_element" id="osd_next_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#f8f9ec" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/>
+                    </svg>
+                </button>
+                <button class="osd_nav_element" id="osd_zoom_out_button">–</button>
+                <button class="osd_nav_element" id="osd_zoom_reset_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2.5rem" width="auto" viewBox="0 0 384 512">
+                        <path fill="#f8f9ec" d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"/>
+                    </svg>
+                </button>
+                <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
+            </div>
+            <p>Das Original befindet sich im Eigentum des
+                Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'/>“.</span> Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des
+                ÖStA entsprechend der geltenden
+                Benutzungsordnung.</p>
+        </div>
     </xsl:template>
     <xsl:template match="tei:div[parent::tei:div]">
         <!-- this is for sections, subsections and articles-->
