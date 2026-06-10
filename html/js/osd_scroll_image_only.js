@@ -132,11 +132,19 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   });
 
   prev.addEventListener("click", () => {
-    viewer.goToPage(Math.max(currentPage - 1, 0));
+    if (currentPage <= 0) {
+      return;
+    }
+
+    viewer.goToPage(currentPage - 1);
   });
 
   next.addEventListener("click", () => {
-    viewer.goToPage(Math.min(currentPage + 1, maxPage));
+    if (currentPage >= maxPage) {
+      return;
+    }
+
+    viewer.goToPage(currentPage + 1);
   });
 
   window.addEventListener(
