@@ -247,6 +247,18 @@
   },
   {
     "sort_key": "1000",
+    "data_set": "Datenset C",
+    "witness_status": "primary",
+    "other_witnesses": [],
+    "title_html": "<a href=\"bv_doc_id__106.html\">Besprechung von Vertretern der Landwirtschaft nach der Salzburger L\u00e4nderkonferenz</a>",
+    "beteiligte Personen": "L\u00e4nderkonferenz",
+    "Dokumententyp": "Sitzungsprotokoll",
+    "Materialtyp": "Typoskript",
+    "Entstehung (tpq)": "1920-02-17|1000",
+    "Erschlie\u00dfungsgrad": "faksimiliert"
+  },
+  {
+    "sort_key": "1000",
     "data_set": "Datenset A",
     "witness_status": "primary",
     "other_witnesses": [],
@@ -279,7 +291,7 @@
     "Dokumententyp": "Kommentar zu einem Verfassungsentwurf",
     "Materialtyp": "Handschriftlicher Kommentar",
     "Entstehung (tpq)": "1919-11-17|1010",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+    "Erschlie\u00dfungsgrad": "faksimiliert"
   },
   {
     "sort_key": "1020",
@@ -333,7 +345,7 @@
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Typoskript",
     "Entstehung (tpq)": "1919-12-18|1110",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+    "Erschlie\u00dfungsgrad": "faksimiliert"
   },
   {
     "sort_key": "1200",
@@ -465,7 +477,7 @@
     "Dokumententyp": "Verfassungskonzept",
     "Materialtyp": "Typoskript",
     "Entstehung (tpq)": "1919-12-18|1620",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+    "Erschlie\u00dfungsgrad": "faksimiliert"
   },
   {
     "sort_key": "1630",
@@ -477,7 +489,7 @@
     "Dokumententyp": "Verfassungskonzept",
     "Materialtyp": "Typoskript",
     "Entstehung (tpq)": "1920-04-20|1630",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+    "Erschlie\u00dfungsgrad": "faksimiliert"
   },
   {
     "sort_key": "1700",
@@ -961,7 +973,7 @@
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Handschriftlicher Protokolltext",
     "Entstehung (tpq)": "1920-09-01|2705",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+    "Erschlie\u00dfungsgrad": "faksimiliert"
   },
   {
     "sort_key": "2710",
@@ -1021,7 +1033,7 @@
     "Dokumententyp": "Sitzungsprotokoll",
     "Materialtyp": "Handschriftlicher Protokolltext",
     "Entstehung (tpq)": "1920-09-18|2815",
-    "Erschlie\u00dfungsgrad": "maschinell erfasst"
+    "Erschlie\u00dfungsgrad": "faksimiliert"
   },
   {
     "sort_key": "2820",

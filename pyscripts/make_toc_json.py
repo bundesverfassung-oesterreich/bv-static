@@ -16,6 +16,17 @@ def normalize_space(text):
     return re.sub(r'\s+', ' ', text).strip()
 
 
+def is_image_only(doc):
+    has_pb = bool(doc.any_xpath("//tei:body//tei:pb"))
+    has_text = bool(doc.any_xpath("//tei:body//text()[normalize-space()]"))
+    has_other_body_elements = bool(
+        doc.any_xpath(
+            "//tei:body//tei:*[not(self::tei:body or self::tei:div or self::tei:pb)]"
+        )
+    )
+    return has_pb and not has_text and not has_other_body_elements
+
+
 for edition_file in glob.glob(editions_path):
     print(edition_file)
     data = {}
@@ -57,17 +68,20 @@ for edition_file in glob.glob(editions_path):
     except IndexError:
         date_val += "|9999"
     data["Entstehung (tpq)"] = date_val
-    revision_desc = doc.any_xpath(".//tei:revisionDesc/@status")[0].strip()
-    revision_state = "maschinell erfasst"
-    match revision_desc:
-        case "structured":
-            revision_state = "strukturell erschlossen"
-        case "text_correct":
-            revision_state = "vollständig ediert"
-        case "done":
-            revision_state = "vollständig ediert"
-        case _:
-            pass  # keep default 'maschinell erfasst'
+    if is_image_only(doc):
+        revision_state = "faksimiliert"
+    else:
+        revision_desc = doc.any_xpath(".//tei:revisionDesc/@status")[0].strip()
+        revision_state = "maschinell erfasst"
+        match revision_desc:
+            case "structured":
+                revision_state = "strukturell erschlossen"
+            case "text_correct":
+                revision_state = "vollständig ediert"
+            case "done":
+                revision_state = "vollständig ediert"
+            case _:
+                pass  # keep default 'maschinell erfasst'
 
     data["Erschließungsgrad"] = revision_state
     bv_doc_id = doc.tree.getroot().attrib[f'{{{doc.ns_xml.get("xml")}}}id']

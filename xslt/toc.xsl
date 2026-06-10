@@ -91,6 +91,9 @@
                                                     </td>
                                                     <td>
                                                         <xsl:choose>
+                                                            <xsl:when test="exists(.//tei:body//tei:pb) and not(exists(.//tei:body//text()[normalize-space()])) and not(exists(.//tei:body//tei:*[not(self::tei:body or self::tei:div or self::tei:pb)]))">
+                                                                <xsl:value-of select="'faksimiliert'"/>
+                                                            </xsl:when>
                                                             <xsl:when test=".//tei:revisionDesc/@status='created'">
                                                                 <xsl:value-of select="'maschinell erfasst'"/>
                                                             </xsl:when>
@@ -103,6 +106,9 @@
                                                             <xsl:when test=".//tei:revisionDesc/@status='done'">
                                                                 <xsl:value-of select="'vollständig ediert'"/>
                                                             </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <xsl:value-of select="'maschinell erfasst'"/>
+                                                            </xsl:otherwise>
                                                         </xsl:choose>
                                                     </td>
                                                 </tr>
