@@ -3,6 +3,7 @@ const imageRights = document.getElementsByClassName("image_rights")[0];
 const imageSourceNodes = Array.from(document.querySelectorAll(".image-source"));
 
 const IIIF_IMAGE_SUFFIX = /\/full\/(?:full|max)\/0\/default\.(?:jpg|jpeg|png)(?:\?.*)?$/i;
+const IIIF_BASE_ENDPOINT = /\/viewer\/api\/v1\/records\/[^/]+\/files\/images\/[^/?#]+\/?$/i;
 
 function toIiifInfoUrl(imageUrl) {
   if (!imageUrl) {
@@ -14,7 +15,11 @@ function toIiifInfoUrl(imageUrl) {
   }
 
   if (IIIF_IMAGE_SUFFIX.test(imageUrl)) {
-    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "/info.json");
+    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
+  }
+
+  if (IIIF_BASE_ENDPOINT.test(imageUrl)) {
+    return imageUrl.replace(/\/$/, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
   }
 
   return imageUrl;

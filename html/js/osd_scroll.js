@@ -9,6 +9,28 @@ creates an array for osd viewer with static images
 */
 const navbar_wrapper = document.getElementById("wrapper-navbar");
 const image_rights = document.getElementsByClassName("image_rights")[0];
+const IIIF_IMAGE_SUFFIX = /\/full\/(?:full|max)\/0\/default\.(?:jpg|jpeg|png)(?:\?.*)?$/i;
+const IIIF_BASE_ENDPOINT = /\/viewer\/api\/v1\/records\/[^/]+\/files\/images\/[^/?#]+\/?$/i;
+
+function toIiifInfoUrl(imageUrl) {
+  if (!imageUrl) {
+    return "";
+  }
+
+  if (imageUrl.endsWith("/info.json")) {
+    return imageUrl;
+  }
+
+  if (IIIF_IMAGE_SUFFIX.test(imageUrl)) {
+    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
+  }
+
+  if (IIIF_BASE_ENDPOINT.test(imageUrl)) {
+    return imageUrl.replace(/\/$/, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
+  }
+
+  return imageUrl;
+}
 
 
 function calculate_facsContainer_height() {
@@ -30,11 +52,9 @@ var pb_elements = document.getElementsByClassName("pb");
 var pb_elements_array = Array.from(pb_elements);
 var tileSources = [];
 var img = pb_elements[0].getAttribute("source");
-var imageURL = {
-  type: "image",
-  url: img,
-};
-tileSources.push(imageURL);
+var initialTileSource = toIiifInfoUrl(img);
+var currentViewerSource = initialTileSource;
+tileSources.push(initialTileSource);
 
 /*
 ##################################################################
@@ -161,35 +181,22 @@ function to trigger image load and remove events
 */
 
 function add_image_to_viewer(new_image) {
-  viewer.addSimpleImage(
-    {
-      url: new_image,
-      success: function (event) {
-        function ready() {
-          //setTimeout(() => {
-          //  viewer.world.removeItem(viewer.world.getItemAt(0));
-          //}, 200);
-          viewer.world.removeItem(viewer.world.getItemAt(0));
-        }
-        // test if item was loaded and trigger function to remove previous item
-        if (event.item) {
-          ready();
-        } else {
-          event.item.addOnceHandler("fully-loaded-change", ready());
-        }
-      },
-    }
-  );
+  const nextSource = toIiifInfoUrl(new_image);
+  if (!nextSource || nextSource === currentViewerSource) {
+    return;
+  }
+
+  currentViewerSource = nextSource;
+  viewer.open(nextSource);
 }
 
 
 function loadNewImage(new_item, dont_check=false) {
   if (new_item) {
     var new_image = new_item.getAttribute("source");
-    var old_image = viewer.world.getItemAt(0);
     if (dont_check){
       add_image_to_viewer(new_image);
-    } else if (old_image) {
+    } else if (viewer.world.getItemAt(0)) {
       add_image_to_viewer(new_image);
     }
   }
