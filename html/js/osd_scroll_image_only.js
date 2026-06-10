@@ -15,11 +15,15 @@ function toIiifInfoUrl(imageUrl) {
   }
 
   if (IIIF_IMAGE_SUFFIX.test(imageUrl)) {
-    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
+    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "") + "/info.json";
   }
 
   if (IIIF_BASE_ENDPOINT.test(imageUrl)) {
-    return imageUrl.replace(/\/$/, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
+    const normalized = imageUrl.replace(/\/$/, "");
+    if (/\.(?:tif|tiff|jp2|jpg|jpeg|png)$/i.test(normalized)) {
+      return normalized + "/info.json";
+    }
+    return normalized + ".tif/info.json";
   }
 
   return imageUrl;
@@ -95,7 +99,19 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     if (tiledImage && typeof tiledImage.addOnceHandler === "function") {
       tiledImage.addOnceHandler("fully-loaded-change", fitVerticallyCentered);
     }
+
+    // Some browsers apply late layout changes shortly after load.
+    setTimeout(fitVerticallyCentered, 250);
   });
+
+  // Ensure first image is fitted even if initial `open` fired before handler attachment.
+  if (viewer.world.getItemCount() > 0) {
+    fitVerticallyCentered();
+    const initialTiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+    if (initialTiledImage && typeof initialTiledImage.addOnceHandler === "function") {
+      initialTiledImage.addOnceHandler("fully-loaded-change", fitVerticallyCentered);
+    }
+  }
 
   const warmedIiifInfo = new Set();
 
@@ -156,10 +172,23 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     "resize",
     () => {
       resizeFacsContainer();
+      viewer.forceResize();
       viewer.viewport.goHome();
     },
     { passive: true },
   );
+
+  // Ensure late font/layout settling cannot leave the image seemingly cropped.
+  const stabilizeAfterLayout = () => {
+    resizeFacsContainer();
+    viewer.forceResize();
+    fitVerticallyCentered();
+  };
+
+  window.addEventListener("load", () => {
+    setTimeout(stabilizeAfterLayout, 0);
+    setTimeout(stabilizeAfterLayout, 350);
+  });
 
   updateButtonState();
   warmupNextIiifInfo(currentPage);

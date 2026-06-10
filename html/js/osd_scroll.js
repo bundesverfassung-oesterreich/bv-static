@@ -22,11 +22,15 @@ function toIiifInfoUrl(imageUrl) {
   }
 
   if (IIIF_IMAGE_SUFFIX.test(imageUrl)) {
-    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
+    return imageUrl.replace(IIIF_IMAGE_SUFFIX, "") + "/info.json";
   }
 
   if (IIIF_BASE_ENDPOINT.test(imageUrl)) {
-    return imageUrl.replace(/\/$/, "").replace(/\.(?:tif|tiff|jp2)$/i, "") + "/info.json";
+    const normalized = imageUrl.replace(/\/$/, "");
+    if (/\.(?:tif|tiff|jp2|jpg|jpeg|png)$/i.test(normalized)) {
+      return normalized + "/info.json";
+    }
+    return normalized + ".tif/info.json";
   }
 
   return imageUrl;
@@ -83,22 +87,24 @@ viewer.viewport.goHome = function () {
 }
 
 function fitVertically_align_left_bottom(){
-  let initial_bounds = viewer.viewport.getBounds();
-  let ratio = initial_bounds.width / initial_bounds.height;
-  let tiledImage = viewer.world.getItemAt(viewer.world.getItemCount()-1);
-  if (ratio > tiledImage.contentAspectX) {
-    var new_width = tiledImage.normHeight * ratio;
-    var new_bounds = new OpenSeadragon.Rect(0, 0 , new_width, tiledImage.normHeight)
-   
-  } else {
-    var new_height = 1 / ratio;
-    let bounds_y = -(new_height - tiledImage.normHeight);
-    var new_bounds = new OpenSeadragon.Rect(0, bounds_y, 1, new_height);
+  const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+  if (!tiledImage) {
+    return;
   }
-  viewer.viewport.fitBounds(new_bounds, true);
+
+  // Fit to actual image bounds to prevent late clipping on tile load.
+  viewer.viewport.fitBounds(tiledImage.getBounds(), true);
+  viewer.viewport.applyConstraints(true);
 }
 
-viewer.addHandler("tile-loaded", (x) => {fitVertically_align_left_bottom(viewer)});
+viewer.addHandler("open", () => {
+  fitVertically_align_left_bottom();
+
+  const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+  if (tiledImage && typeof tiledImage.addOnceHandler === "function") {
+    tiledImage.addOnceHandler("fully-loaded-change", fitVertically_align_left_bottom);
+  }
+});
 
 /*
 ##################################################################
@@ -292,7 +298,7 @@ addEventListener("resize", function (event) {
     let resized = resize_facsContainer();
     if (resized) {
         viewer.forceResize();
-        fitVertically_align_left_bottom(viewer);
+        fitVertically_align_left_bottom();
     };
   }
 );
