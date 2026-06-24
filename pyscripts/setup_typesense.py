@@ -119,10 +119,15 @@ def create_record(
     record["anchor_link"] = f"./{head_path.replace('.xml#', '.html#', 1)}"
     if authors:
         record["Personen"] = authors
-    if creation_date:
-        record["creation_date"] = int(creation_date.replace("-", ""))
-        record["creation_date_autopsic"] = creation_date.split("-")[0]
-        record["creation_year"] = int(record["creation_date_autopsic"])
+    if creation_date and creation_date != 'None':
+        try:
+            record["creation_date"] = int(creation_date.replace("-", ""))
+            record["creation_date_autopsic"] = creation_date.split("-")[0]
+            record["creation_year"] = int(record["creation_date_autopsic"])
+        except ValueError:
+            record["creation_date"] = 99991224
+            record["creation_date_autopsic"] = "unbekannt"
+            record["creation_year"] = 1900
     else:
         record["creation_date"] = 99991224
         record["creation_date_autopsic"] = "unbekannt"
