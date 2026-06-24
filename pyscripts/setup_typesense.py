@@ -19,6 +19,11 @@ def setup_collection():
         "name": typesense_collection_name,
         "enable_nested_fields": False,
         "default_sorting_field": "default_sort",
+        "metadata": {
+            "owners": ["Peter Andorfer", "Carl Friedrich Haak"],
+            "description": "Index of the Austrian Federal Constitution (Bundes-Verfassungsgesetz)documents and subsections of documents are both indexed as documents, to make the full text but also the different documents as such searchable.",
+            "service_ids": [21497]
+        },
         "fields": [
             {"name": "doc_internal_orderval", "type": "int32"},
             {"name": "record_type", "type": "string", "facet": True},
@@ -31,7 +36,8 @@ def setup_collection():
             {"name": "anchor_link", "type": "string"},
             {"name": "Materialart", "type": "string", "facet": True},
             {"name": "Dokumententyp", "type": "string", "facet": True},
-            {"name": "Personen", "type": "string[]", "facet": True, "optional": True},
+            {"name": "Personen", "type": "string[]",
+                "facet": True, "optional": True},
             {"name": "creation_year", "type": "int32", "facet": True},
             {"name": "creation_date", "type": "int32"},
             {"name": "creation_date_autopsic", "type": "string", "facet": True},
@@ -103,8 +109,8 @@ def create_record(
         title = doc_title
     record["title"] = title
     head_id_val = (
-        head.xpath("@xml:id", namespaces=tei_ns) 
-        if head is not None 
+        head.xpath("@xml:id", namespaces=tei_ns)
+        if head is not None
         else [""]
     )
     head_id = head_id_val[0] if head_id_val else ""
@@ -126,10 +132,11 @@ def create_record(
     return record
 
 
-def is_secondary_witness(xml_doc:TeiReader):
+def is_secondary_witness(xml_doc: TeiReader):
     if xml_doc.any_xpath("//tei:sourceDesc//tei:msDesc[@subtype='secondary']"):
         return True
     return False
+
 
 def create_records():
     print("creating records")
@@ -166,7 +173,8 @@ def create_records():
             doc_title = xml_doc.any_xpath(
                 "//tei:msDesc/tei:msContents/tei:msItem/tei:title"
             )[0].text
-            heads = xml_doc.any_xpath("//tei:body//tei:head[not(ancestor::tei:quote)]")
+            heads = xml_doc.any_xpath(
+                "//tei:body//tei:head[not(ancestor::tei:quote)]")
             head_index = 0
             doc_record = create_record(
                 head_index,
