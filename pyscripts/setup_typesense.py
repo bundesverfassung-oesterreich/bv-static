@@ -1,7 +1,7 @@
 import glob
 import os
 import re
-from typesense.api_call import ObjectNotFound
+from typesense.exceptions import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
