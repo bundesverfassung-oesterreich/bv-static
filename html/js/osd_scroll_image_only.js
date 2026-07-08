@@ -140,15 +140,74 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   const maxPage = tileSources.length - 1;
   const prev = document.getElementById("osd_prev_button");
   const next = document.getElementById("osd_next_button");
+  const pageSlider = document.getElementById("osd_page_slider");
+  const pageIndicator = document.getElementById("osd_page_indicator");
+  let isDraggingPageSlider = false;
+
+  function updatePageIndicator(pageIndex) {
+    if (!pageIndicator) {
+      return;
+    }
+
+    pageIndicator.textContent = `Seite ${pageIndex + 1} von ${maxPage + 1}`;
+  }
+
+  function updatePageSlider(pageIndex, syncThumb = true) {
+    if (!pageSlider) {
+      return;
+    }
+
+    pageSlider.max = String(maxPage);
+    pageSlider.setAttribute("aria-valuenow", String(pageIndex + 1));
+    pageSlider.setAttribute("aria-valuetext", `Seite ${pageIndex + 1} von ${maxPage + 1}`);
+    pageSlider.setAttribute("aria-valuemax", String(maxPage + 1));
+    updatePageIndicator(pageIndex);
+
+    if (syncThumb) {
+      pageSlider.value = String(pageIndex);
+    }
+  }
 
   function updateButtonState() {
     prev.style.opacity = currentPage === 0 ? 0.6 : 1;
     next.style.opacity = currentPage === maxPage ? 0.6 : 1;
   }
 
+  if (pageSlider) {
+    const startSliderDrag = () => {
+      isDraggingPageSlider = true;
+    };
+
+    const stopSliderDrag = () => {
+      isDraggingPageSlider = false;
+      updatePageSlider(currentPage, true);
+    };
+
+    pageSlider.addEventListener("pointerdown", startSliderDrag);
+    pageSlider.addEventListener("pointerup", stopSliderDrag);
+    pageSlider.addEventListener("pointercancel", stopSliderDrag);
+    pageSlider.addEventListener("blur", stopSliderDrag);
+
+    pageSlider.addEventListener("input", (event) => {
+      const sliderValue = Number.parseFloat(event.target.value);
+      const targetPage = Math.max(0, Math.min(maxPage, Math.round(sliderValue)));
+
+      if (Number.isNaN(targetPage) || targetPage === currentPage) {
+        if (isDraggingPageSlider) {
+          updatePageIndicator(targetPage);
+        }
+        return;
+      }
+
+      updatePageIndicator(targetPage);
+      viewer.goToPage(targetPage);
+    });
+  }
+
   viewer.addHandler("page", (event) => {
     currentPage = event.page;
     updateButtonState();
+    updatePageSlider(currentPage, !isDraggingPageSlider);
     warmupNextIiifInfo(currentPage);
   });
 
@@ -191,5 +250,6 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   });
 
   updateButtonState();
+  updatePageSlider(currentPage);
   warmupNextIiifInfo(currentPage);
 }

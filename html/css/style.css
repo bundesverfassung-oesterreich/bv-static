@@ -521,9 +521,95 @@ body.image-only-page div.image_rights div.row {
     justify-content: center;
 }
 
+body.image-only-page .osd_page_slider_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 0.75rem 0.5rem 0.25rem;
+}
+
+body.image-only-page .osd_page_slider {
+    flex: 1 1 auto;
+    max-width: 36rem;
+    min-width: 12rem;
+    accent-color: rgba(var(--bv-big-highlight-rgb), 0.75);
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    height: 1.6rem;
+}
+
+body.image-only-page .osd_page_slider::-webkit-slider-runnable-track {
+    height: 0.45rem;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        rgba(var(--bv-big-highlight-rgb), 0.25),
+        rgba(var(--bv-big-highlight-rgb), 0.6)
+    );
+}
+
+body.image-only-page .osd_page_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-top: calc((0.45rem - 1.1rem) / 2);
+    border-radius: 50%;
+    border: 2px solid var(--bv-main-bg-color);
+    background: rgba(var(--bv-big-highlight-rgb), 0.9);
+    box-shadow: 0 0 0 0.15rem rgba(var(--bv-big-highlight-rgb), 0.15);
+}
+
+body.image-only-page .osd_page_slider::-moz-range-track {
+    height: 0.45rem;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        rgba(var(--bv-big-highlight-rgb), 0.25),
+        rgba(var(--bv-big-highlight-rgb), 0.6)
+    );
+}
+
+body.image-only-page .osd_page_slider::-moz-range-thumb {
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    border: 2px solid var(--bv-main-bg-color);
+    background: rgba(var(--bv-big-highlight-rgb), 0.9);
+    box-shadow: 0 0 0 0.15rem rgba(var(--bv-big-highlight-rgb), 0.15);
+}
+
+body.image-only-page .osd_page_indicator {
+    min-width: 8rem;
+    text-align: right;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
 body.image-only-page div.image_rights p {
     display: block;
     max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    body.image-only-page .osd_page_slider_container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+    }
+
+    body.image-only-page .osd_page_slider {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    body.image-only-page .osd_page_indicator {
+        min-width: 0;
+        text-align: center;
+    }
 }
 
 .edition_container {

@@ -267,6 +267,7 @@
         </div>
     </xsl:template>
     <xsl:template name="render-image-viewer-controls">
+        <xsl:param name="show-page-slider" as="xs:boolean" select="false()"/>
         <div class="image_rights">
             <div class="row">
                 <button class="osd_nav_element" id="osd_prev_button">
@@ -287,6 +288,25 @@
                 </button>
                 <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
             </div>
+            <xsl:if test="$show-page-slider">
+                <div id="osd_page_slider_container" class="osd_page_slider_container" role="group" aria-label="Seitennavigation">
+                    <label class="visually-hidden" for="osd_page_slider">Seitennavigation</label>
+                    <input
+                        id="osd_page_slider"
+                        class="osd_page_slider"
+                        type="range"
+                        min="0"
+                        max="1"
+                        value="0"
+                        step="any"
+                        aria-label="Seitennavigation"
+                        aria-valuemin="1"
+                        aria-valuemax="1"
+                        aria-valuenow="1"
+                    />
+                    <span id="osd_page_indicator" class="osd_page_indicator" aria-live="polite">Seite 1 von 1</span>
+                </div>
+            </xsl:if>
             <p>Das Original befindet sich im Eigentum des
                 Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'/>“.</span> Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des
                 ÖStA entsprechend der geltenden

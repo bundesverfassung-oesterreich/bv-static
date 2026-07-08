@@ -65,7 +65,9 @@
                                                 </span>
                                             </xsl:for-each>
                                         </div>
-                                        <xsl:call-template name="render-image-viewer-controls"/>
+                                        <xsl:call-template name="render-image-viewer-controls">
+                                            <xsl:with-param name="show-page-slider" select="true()"/>
+                                        </xsl:call-template>
                                     </div>
                                 </div>
                             </div>
