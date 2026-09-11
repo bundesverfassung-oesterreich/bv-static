@@ -44,16 +44,17 @@
                 </div>
                 <div class="col-auto row justify-content-center align-items-center">
                     <div class="col-auto row justify-content-start align-items-center">
-                        <div class="col-auto ">
-                            <a href="https://www.parlament.gv.at/">
-                                <img class="card-img-right flex-auto d-md-block" src="./images/footer_logos/parlament/Logo_of_the_Parliament_of_Austria.png" alt="Logo of the Parliament of Austria" title="Logo of the Parliament of Austria"/>
-                            </a>
-                        </div>
                         <div class="col-auto">
                             <a href="https://www.oesta.gv.at/">
                                 <img class="card-img-right flex-auto d-md-block" src="./images/footer_logos/staatsarchiv/logo_oesta.png" alt="Österreichisches Staatsarchiv" title="Österreichisches Staatsarchiv"/>
                             </a>
                         </div>
+                        <div class="col-auto ">
+                            <a href="https://www.parlament.gv.at/">
+                                <img class="card-img-right flex-auto d-md-block" src="./images/footer_logos/parlament/Logo_of_the_Parliament_of_Austria.png" alt="Logo of the Parliament of Austria" title="Logo of the Parliament of Austria"/>
+                            </a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
