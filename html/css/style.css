@@ -885,6 +885,12 @@ table.content_table tr:hover {
     margin-bottom: 1.5rem;
 }
 
+.footer-cooperation-label {
+    padding-top: 2rem;
+    font-variant-caps: small-caps;
+    letter-spacing: 0.04em;
+}
+
 div#wrapper-footer-secondary {
     text-align: center;
     padding: 0.4rem 0;
