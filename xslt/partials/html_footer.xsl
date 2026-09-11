@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col-auto row justify-content-center align-items-center">
-                    <div class="col-auto h5 fw-bold mb-0 footer-cooperation-label">Kooperation mit:</div>
+                    <div class="col-auto h5 fw-bold mb-0 footer-cooperation-label">In Kooperation mit:</div>
                 </div>
                 <div class="col-auto row justify-content-center align-items-center">
                     <div class="col-auto row justify-content-start align-items-center">
