@@ -885,6 +885,11 @@ table.content_table tr:hover {
     margin-bottom: 1.5rem;
 }
 
+
+#wrapper-footer-full div div a img.footer-logo-staatsarchiv {
+    max-width: 340px;
+}
+
 .footer-cooperation-label {
     padding-top: 2rem;
     font-variant-caps: small-caps;

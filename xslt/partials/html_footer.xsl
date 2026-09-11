@@ -46,7 +46,9 @@
                     <div class="col-auto row justify-content-start align-items-center">
                         <div class="col-auto">
                             <a href="https://www.oesta.gv.at/">
-                                <img class="card-img-right flex-auto d-md-block" src="./images/footer_logos/staatsarchiv/logo_oesta.png" alt="Österreichisches Staatsarchiv" title="Österreichisches Staatsarchiv"/>
+                                <!-- footer-logo-staatsarchiv needs bigger max-width than global 200px
+                                     so height matches the parliament -->
+                                <img class="card-img-right flex-auto d-md-block footer-logo-staatsarchiv" src="./images/footer_logos/staatsarchiv/logo_oesta.png" alt="Österreichisches Staatsarchiv" title="Österreichisches Staatsarchiv"/>
                             </a>
                         </div>
                         <div class="col-auto ">
