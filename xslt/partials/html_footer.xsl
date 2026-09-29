@@ -53,7 +53,7 @@
                         </div>
                         <div class="col-auto ">
                             <a href="https://www.parlament.gv.at/">
-                                <img class="card-img-right flex-auto d-md-block" src="./images/footer_logos/parlament/Logo_of_the_Parliament_of_Austria.png" alt="Logo of the Parliament of Austria" title="Logo of the Parliament of Austria"/>
+                                <img class="card-img-right flex-auto d-md-block" src="./images/footer_logos/parlament/Logo_of_the_Parliament_of_Austria.jpg" alt="Logo of the Parliament of Austria" title="Logo of the Parliament of Austria"/>
                             </a>
                         </div>
                         
