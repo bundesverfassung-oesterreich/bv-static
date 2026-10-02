@@ -400,11 +400,16 @@ p {
 }
 
 div.image_rights {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    /* 7px below the bar in collapsed state: ≈ half of the chevron-to-bottom distance (was 1rem) */
+    padding-bottom: 0.4375rem;
     height: fit-content;
     font-size: small;
-    max-width: 40rem;
+}
+
+/* expanded: double the image→line distance back to 1rem (collapsed keeps 0.5rem) */
+div.image_rights:has(> #image_rights_collapsible.show) {
+    padding-top: 1rem;
 }
 
 div.image_rights div {
@@ -447,10 +452,79 @@ div button#osd_prev_button.osd_nav_element {
 
 div.image_rights p {
     margin: auto;
-    max-width: 70em;
+    max-width: 40rem;
     hyphens: auto;
     text-align: justify;
     display: inline-block;
+}
+
+button.image_rights_toggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-top: 1px solid var(--bv-big-highlight);
+    border-radius: 0;
+    background-color: var(--bv-main-bg-color);
+    cursor: pointer;
+}
+
+/* enlarge the click/tap target without increasing the visual bar height */
+button.image_rights_toggle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -0.3rem;
+    bottom: -0.3rem;
+}
+
+button.image_rights_toggle svg {
+    width: 0.7rem;
+    height: 0.7rem;
+    transition: transform 0.15s ease;
+}
+
+button.image_rights_toggle svg path {
+    fill: var(--bv-big-highlight);
+}
+
+/* collapse/expand instantly; the default animation would delay the OSD resize */
+#image_rights_collapsible.collapsing {
+    transition: none;
+}
+
+button.image_rights_toggle[aria-expanded="false"] svg {
+    transform: rotate(180deg);
+}
+
+button.image_rights_toggle:focus-visible {
+    outline: 3px solid var(--bv-big-highlight);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    button.image_rights_toggle svg {
+        transition: none;
+    }
+}
+
+/* neutralize the generic div.image_rights div rules on the collapse wrapper */
+div.image_rights > div.image_rights_collapsible {
+    padding-top: 0;
+    /* re-add the remaining 9px so the expanded bottom spacing stays 1rem (7px + 9px) */
+    padding-bottom: 0.5625rem;
+    font-size: inherit;
+}
+
+/* keep the controls close beneath the toggle line */
+div.image_rights > div.image_rights_collapsible > div.row {
+    padding-top: 0;
 }
 
 a {

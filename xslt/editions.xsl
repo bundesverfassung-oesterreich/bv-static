@@ -269,6 +269,15 @@
     <xsl:template name="render-image-viewer-controls">
         <xsl:param name="show-page-slider" as="xs:boolean" select="false()"/>
         <div class="image_rights">
+            <button type="button" id="image_rights_toggle" class="image_rights_toggle"
+                data-bs-toggle="collapse" data-bs-target="#image_rights_collapsible"
+                aria-expanded="true" aria-controls="image_rights_collapsible">
+                <span class="visually-hidden">Bedienelemente und Bildrechte ein-/ausblenden</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" focusable="false">
+                    <path fill="#007452" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+                </svg>
+            </button>
+            <div id="image_rights_collapsible" class="collapse show image_rights_collapsible">
             <div class="row">
                 <button class="osd_nav_element" id="osd_prev_button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -311,6 +320,7 @@
                 Österreichischen Staatsarchivs unter der <span style="font-weight: bold;">ÖStA-Signatur „<xsl:value-of select='//tei:msDesc/tei:msIdentifier/tei:idno[@type = "archive"]/text()[1]/normalize-space()'/>“.</span> Die Verwendung des Digitalisats durch Dritte bedarf einer schriftlichen Bewilligung des
                 ÖStA entsprechend der geltenden
                 Benutzungsordnung.</p>
+            </div>
         </div>
     </xsl:template>
     <xsl:template match="tei:div[parent::tei:div]">

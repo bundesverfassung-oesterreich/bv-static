@@ -237,6 +237,18 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     { passive: true },
   );
 
+  // Keep the OSD viewport in sync when the controls/rights area is collapsed or expanded.
+  const imageRightsCollapsible = document.getElementById("image_rights_collapsible");
+  if (imageRightsCollapsible) {
+    const syncViewerToControlsToggle = () => {
+      resizeFacsContainer();
+      viewer.forceResize();
+      viewer.viewport.goHome();
+    };
+    imageRightsCollapsible.addEventListener("hidden.bs.collapse", syncViewerToControlsToggle);
+    imageRightsCollapsible.addEventListener("shown.bs.collapse", syncViewerToControlsToggle);
+  }
+
   // Ensure late font/layout settling cannot leave the image seemingly cropped.
   const stabilizeAfterLayout = () => {
     resizeFacsContainer();

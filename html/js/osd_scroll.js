@@ -302,3 +302,17 @@ addEventListener("resize", function (event) {
     };
   }
 );
+
+/* refit the viewer when the controls & image rights area is collapsed/expanded */
+const image_rights_collapsible = document.getElementById("image_rights_collapsible");
+if (image_rights_collapsible) {
+  const sync_viewer_to_controls_toggle = function () {
+    let resized = resize_facsContainer();
+    if (resized) {
+      viewer.forceResize();
+      fitVertically_align_left_bottom();
+    };
+  };
+  image_rights_collapsible.addEventListener("hidden.bs.collapse", sync_viewer_to_controls_toggle);
+  image_rights_collapsible.addEventListener("shown.bs.collapse", sync_viewer_to_controls_toggle);
+}
