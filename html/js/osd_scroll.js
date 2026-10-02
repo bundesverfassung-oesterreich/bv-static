@@ -38,6 +38,10 @@ function toIiifInfoUrl(imageUrl) {
 
 
 function calculate_facsContainer_height() {
+  // in fullscreen the container itself is the fullscreen element - fill the whole screen
+  if (document.fullscreenElement) {
+    return Math.round(window.innerHeight);
+  }
   // calcutlates hight of osd container based on heigt of screen - (height of navbar + img rights&buttons)
   let image_rights_height = image_rights.getBoundingClientRect().height;
   let new_container_height =
@@ -74,17 +78,57 @@ const viewer = new OpenSeadragon.Viewer({
   sequenceMode: true,
   showNavigationControl: true,
   showNavigator: false,
-  showSequenceControl: false,
+  showSequenceControl: true,
   showZoomControl: true,
-  zoomInButton: "osd_zoom_in_button",
-  zoomOutButton: "osd_zoom_out_button",
-  homeButton : "osd_zoom_reset_button",
   constrainDuringPan: true,
 });
 
 viewer.viewport.goHome = function () {
   fitVertically_align_left_bottom();
 }
+
+// OSD's default controls carry no class names - tag their container so CSS can
+// hide it in the normal layout and only reveal it in fullscreen
+container_facs_1
+  .querySelectorAll(".openseadragon-container > div")
+  .forEach((el) => {
+    if (el.querySelector("[title]")) {
+      el.classList.add("osd-default-controls");
+    }
+  });
+
+// wire our custom control row (OSD's own controls are only shown in fullscreen mode)
+document.getElementById("osd_zoom_in_button").addEventListener("click", () => {
+  viewer.viewport.zoomBy(1.5);
+});
+document.getElementById("osd_zoom_out_button").addEventListener("click", () => {
+  viewer.viewport.zoomBy(1 / 1.5);
+});
+document.getElementById("osd_zoom_reset_button").addEventListener("click", () => {
+  viewer.viewport.goHome();
+});
+document.getElementById("osd_fullscreen_button").addEventListener("click", () => {
+  viewer.setFullScreen(!viewer.isFullPage());
+});
+
+/* OSD greys out buttons it has disabled (prev/next here when they are unusable) -
+   tag them so CSS can hide them in fullscreen instead of showing them greyed */
+function updateOsdDisabledButtons() {
+  [viewer.previousButton, viewer.nextButton].forEach((button) => {
+    if (button && button.element) {
+      button.element.classList.toggle("osd-disabled", !!button.element.disabled);
+    }
+  });
+}
+[viewer.previousButton, viewer.nextButton].forEach((button) => {
+  if (button && button.element) {
+    new MutationObserver(updateOsdDisabledButtons).observe(button.element, {
+      attributes: true,
+      attributeFilter: ["style"],
+    });
+  }
+});
+updateOsdDisabledButtons();
 
 function fitVertically_align_left_bottom(){
   const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
@@ -302,6 +346,19 @@ addEventListener("resize", function (event) {
     };
   }
 );
+
+/* fullscreen: fill the screen, show OSD's default controls and re-fit the image */
+document.addEventListener("fullscreenchange", function () {
+  container_facs_1.classList.toggle("osd-fullscreen", !!document.fullscreenElement);
+  resize_facsContainer();
+  viewer.forceResize();
+  fitVertically_align_left_bottom();
+  setTimeout(function () {
+    resize_facsContainer();
+    viewer.forceResize();
+    fitVertically_align_left_bottom();
+  }, 250);
+});
 
 /* refit the viewer when the controls & image rights area is collapsed/expanded */
 const image_rights_collapsible = document.getElementById("image_rights_collapsible");

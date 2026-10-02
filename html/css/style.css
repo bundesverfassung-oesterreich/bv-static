@@ -439,6 +439,7 @@ div button.osd_nav_element {
 
 
 div button#osd_zoom_reset_button.osd_nav_element svg,
+div button#osd_fullscreen_button.osd_nav_element svg,
 div button#osd_next_button.osd_nav_element svg,
 div button#osd_prev_button.osd_nav_element svg {
     margin: 0 auto;
@@ -527,6 +528,30 @@ div.image_rights > div.image_rights_collapsible > div.row {
     padding-top: 0;
 }
 
+/* OSD's built-in controls are hidden in the normal layout and only shown in fullscreen */
+#container_facs_1 .osd-default-controls {
+    display: none;
+}
+
+#container_facs_1.osd-fullscreen .osd-default-controls {
+    display: block;
+}
+
+/* hide buttons OSD has disabled (greyed) in fullscreen - they are not usable
+   (!important needed: OSD sets display:inline-block inline on the buttons) */
+#container_facs_1.osd-fullscreen .osd-disabled {
+    display: none !important;
+}
+
+/* fullscreen: use the project background color instead of the browser's black backdrop */
+#container_facs_1.osd-fullscreen {
+    background-color: var(--bv-main-bg-color);
+}
+
+#container_facs_1::backdrop {
+    background-color: var(--bv-main-bg-color, #f8f9ec);
+}
+
 a {
     text-decoration: none !important;
 }
@@ -589,10 +614,17 @@ body.image-only-page .image-source-list {
 body.image-only-page div.image_rights {
     max-width: none;
     width: 100%;
+    /* this view has no collapse toggle: keep the expanded spacing */
+    padding-top: 1rem;
 }
 
 body.image-only-page div.image_rights div.row {
     justify-content: center;
+}
+
+/* a bit more breathing room between the viewer and the controls (image-only view) */
+body.image-only-page div.image_rights > div.image_rights_collapsible > div.row {
+    padding-top: 0.6rem;
 }
 
 body.image-only-page .osd_page_slider_container {

@@ -67,6 +67,7 @@
                                         </div>
                                         <xsl:call-template name="render-image-viewer-controls">
                                             <xsl:with-param name="show-page-slider" select="true()"/>
+                                            <xsl:with-param name="show-collapse-toggle" select="false()"/>
                                         </xsl:call-template>
                                     </div>
                                 </div>

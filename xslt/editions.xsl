@@ -268,16 +268,27 @@
     </xsl:template>
     <xsl:template name="render-image-viewer-controls">
         <xsl:param name="show-page-slider" as="xs:boolean" select="false()"/>
+        <xsl:param name="show-collapse-toggle" as="xs:boolean" select="true()"/>
         <div class="image_rights">
-            <button type="button" id="image_rights_toggle" class="image_rights_toggle"
-                data-bs-toggle="collapse" data-bs-target="#image_rights_collapsible"
-                aria-expanded="true" aria-controls="image_rights_collapsible">
-                <span class="visually-hidden">Bedienelemente und Bildrechte ein-/ausblenden</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" focusable="false">
-                    <path fill="#007452" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
-                </svg>
-            </button>
-            <div id="image_rights_collapsible" class="collapse show image_rights_collapsible">
+            <xsl:if test="$show-collapse-toggle">
+                <button type="button" id="image_rights_toggle" class="image_rights_toggle"
+                    data-bs-toggle="collapse" data-bs-target="#image_rights_collapsible"
+                    aria-expanded="true" aria-controls="image_rights_collapsible">
+                    <span class="visually-hidden">Bedienelemente und Bildrechte ein-/ausblenden</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true" focusable="false">
+                        <path fill="#007452" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+                    </svg>
+                </button>
+            </xsl:if>
+            <div id="image_rights_collapsible">
+                <xsl:choose>
+                    <xsl:when test="$show-collapse-toggle">
+                        <xsl:attribute name="class" select="'collapse show image_rights_collapsible'"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="class" select="'image_rights_collapsible'"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             <div class="row">
                 <button class="osd_nav_element" id="osd_prev_button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -296,6 +307,12 @@
                     </svg>
                 </button>
                 <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
+                <button class="osd_nav_element" id="osd_fullscreen_button">
+                    <span class="visually-hidden">Vollbild umschalten</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2.5rem" width="2.5rem" viewBox="0 0 448 512" aria-hidden="true" focusable="false">
+                        <path fill="#f8f9ec" d="M32 32C14.3 32 0 46.3 0 64v96c0 17.7 14.3 32 32 32s32-14.3 32-32V96h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H64V352zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H320zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H320c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c17.7 0 32-14.3 32-32V352z"/>
+                    </svg>
+                </button>
             </div>
             <xsl:if test="$show-page-slider">
                 <div id="osd_page_slider_container" class="osd_page_slider_container" role="group" aria-label="Seitennavigation">

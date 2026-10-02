@@ -31,6 +31,10 @@ function toIiifInfoUrl(imageUrl) {
 
 if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   function calculateFacsContainerHeight() {
+    // in fullscreen the container itself is the fullscreen element - fill the whole screen
+    if (document.fullscreenElement) {
+      return Math.round(window.innerHeight);
+    }
     const imageRightsHeight = imageRights.getBoundingClientRect().height;
     const newContainerHeight =
       window.innerHeight - (window.innerHeight / 10 + imageRightsHeight);
@@ -62,11 +66,8 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     sequenceMode: true,
     showNavigationControl: true,
     showNavigator: false,
-    showSequenceControl: false,
+    showSequenceControl: true,
     showZoomControl: true,
-    zoomInButton: "osd_zoom_in_button",
-    zoomOutButton: "osd_zoom_out_button",
-    homeButton: "osd_zoom_reset_button",
     preload: true,
     constrainDuringPan: true,
     imageLoaderLimit: 3,
@@ -90,6 +91,49 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   viewer.viewport.goHome = function () {
     fitVerticallyCentered();
   };
+
+  // OSD's default controls carry no class names - tag their container so CSS can
+  // hide it in the normal layout and only reveal it in fullscreen
+  facsContainer
+    .querySelectorAll(".openseadragon-container > div")
+    .forEach((el) => {
+      if (el.querySelector("[title]")) {
+        el.classList.add("osd-default-controls");
+      }
+    });
+
+  // wire our custom control row (OSD's own controls are only shown in fullscreen mode)
+  document.getElementById("osd_zoom_in_button").addEventListener("click", () => {
+    viewer.viewport.zoomBy(1.5);
+  });
+  document.getElementById("osd_zoom_out_button").addEventListener("click", () => {
+    viewer.viewport.zoomBy(1 / 1.5);
+  });
+  document.getElementById("osd_zoom_reset_button").addEventListener("click", () => {
+    viewer.viewport.goHome();
+  });
+  document.getElementById("osd_fullscreen_button").addEventListener("click", () => {
+    viewer.setFullScreen(!viewer.isFullPage());
+  });
+
+  /* OSD greys out buttons it has disabled (prev/next at sequence boundaries) -
+     tag them so CSS can hide them in fullscreen instead of showing them greyed */
+  function updateOsdDisabledButtons() {
+    [viewer.previousButton, viewer.nextButton].forEach((button) => {
+      if (button && button.element) {
+        button.element.classList.toggle("osd-disabled", !!button.element.disabled);
+      }
+    });
+  }
+  [viewer.previousButton, viewer.nextButton].forEach((button) => {
+    if (button && button.element) {
+      new MutationObserver(updateOsdDisabledButtons).observe(button.element, {
+        attributes: true,
+        attributeFilter: ["style"],
+      });
+    }
+  });
+  updateOsdDisabledButtons();
 
   viewer.addHandler("open", () => {
     fitVerticallyCentered();
@@ -258,17 +302,18 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     { passive: true },
   );
 
-  // Keep the OSD viewport in sync when the controls/rights area is collapsed or expanded.
-  const imageRightsCollapsible = document.getElementById("image_rights_collapsible");
-  if (imageRightsCollapsible) {
-    const syncViewerToControlsToggle = () => {
+  /* fullscreen: fill the screen, show OSD's default controls and re-fit the image */
+  document.addEventListener("fullscreenchange", () => {
+    facsContainer.classList.toggle("osd-fullscreen", !!document.fullscreenElement);
+    resizeFacsContainer();
+    viewer.forceResize();
+    viewer.viewport.goHome();
+    setTimeout(() => {
       resizeFacsContainer();
       viewer.forceResize();
       viewer.viewport.goHome();
-    };
-    imageRightsCollapsible.addEventListener("hidden.bs.collapse", syncViewerToControlsToggle);
-    imageRightsCollapsible.addEventListener("shown.bs.collapse", syncViewerToControlsToggle);
-  }
+    }, 250);
+  });
 
   // Ensure late font/layout settling cannot leave the image seemingly cropped.
   const stabilizeAfterLayout = () => {
