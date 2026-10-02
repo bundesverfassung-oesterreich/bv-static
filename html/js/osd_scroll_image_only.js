@@ -227,12 +227,33 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     viewer.goToPage(currentPage + 1);
   });
 
+  // In the image-only view the viewer column is only as tall as the viewer itself,
+  // so the sticky element has no room to move and scrolls away with the page.
+  // Extend the column to the bottom of the page to keep the viewer pinned while scrolling.
+  const stickyColumn = document.querySelector("#img-resize.image-only-column");
+  function updateStickyRange() {
+    if (!stickyColumn) {
+      return;
+    }
+    stickyColumn.style.minHeight = "";
+    const docHeight = document.documentElement.scrollHeight;
+    if (docHeight <= window.innerHeight) {
+      return;
+    }
+    const colBottom = stickyColumn.getBoundingClientRect().bottom + window.scrollY;
+    const extra = Math.round(docHeight - colBottom);
+    if (extra > 0) {
+      stickyColumn.style.minHeight = `${stickyColumn.offsetHeight + extra}px`;
+    }
+  }
+
   window.addEventListener(
     "resize",
     () => {
       resizeFacsContainer();
       viewer.forceResize();
       viewer.viewport.goHome();
+      updateStickyRange();
     },
     { passive: true },
   );
@@ -254,6 +275,7 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     resizeFacsContainer();
     viewer.forceResize();
     fitVerticallyCentered();
+    updateStickyRange();
   };
 
   window.addEventListener("load", () => {
@@ -264,4 +286,5 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   updateButtonState();
   updatePageSlider(currentPage);
   warmupNextIiifInfo(currentPage);
+  updateStickyRange();
 }
