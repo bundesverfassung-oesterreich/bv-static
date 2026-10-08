@@ -627,7 +627,9 @@ body.image-only-page .image-only-viewer #container_facs_1 {
     width: 100%;
 }
 
-body.image-only-page #short_title {
+/* only the column's own static title copy; the rotated strip in the
+   navbar (#short_title.display_title) must keep its content width */
+body.image-only-page .image-only-column #short_title {
     width: 100%;
     text-align: center;
 }

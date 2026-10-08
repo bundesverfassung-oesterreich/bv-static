@@ -78,6 +78,7 @@
                 </div>
                 <script src="js/openseadragon.min.js"/>
                 <script type="text/javascript" src="js/osd_scroll_image_only.js"/>
+                <script type="text/javascript" src="js/toggle_shortTitle.js"/>
             </body>
         </html>
     </xsl:template>
