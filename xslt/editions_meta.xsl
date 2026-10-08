@@ -30,8 +30,10 @@
             </head>
             <body class="page image-only-page" lang="de">
                 <div class="hfeed site" id="page">
+                    <!-- no offcanvas side panels exist in the image-only layout:
+                         do not render the navbar book/settings buttons -->
                     <xsl:call-template name="nav_bar">
-                        <xsl:with-param name="edition_buttons" as="xs:boolean" select="true()"/>
+                        <xsl:with-param name="edition_buttons" as="xs:boolean" select="false()"/>
                         <xsl:with-param name="doc_title" as="xs:string" select="$doc_title"/>
                     </xsl:call-template>
                     <div class="edition_container image-only-edition-container">
