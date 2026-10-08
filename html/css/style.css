@@ -509,6 +509,31 @@ button.image_rights_toggle:focus-visible {
     outline-offset: 2px;
 }
 
+/* whole-page fullscreen button in the settings offcanvas */
+button.page_fullscreen_button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0.25rem 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-size: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+button.page_fullscreen_button:hover span {
+    text-decoration: underline;
+}
+
+button.page_fullscreen_button:focus-visible {
+    outline: 3px solid var(--bv-big-highlight);
+    outline-offset: 2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
     button.image_rights_toggle svg {
         transition: none;

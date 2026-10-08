@@ -38,8 +38,9 @@ function toIiifInfoUrl(imageUrl) {
 
 
 function calculate_facsContainer_height() {
-  // in fullscreen the container itself is the fullscreen element - fill the whole screen
-  if (document.fullscreenElement) {
+  // when the container itself is the fullscreen element, fill the whole screen
+  // (page-level fullscreen must keep the normal height formula instead)
+  if (document.fullscreenElement === container_facs_1) {
     return Math.round(window.innerHeight);
   }
   // calcutlates hight of osd container based on heigt of screen - (height of navbar + img rights&buttons)
@@ -213,6 +214,27 @@ function is_whole_image_visible() {
     viewBounds.x + viewBounds.width >= imageBounds.x + imageBounds.width - marginX &&
     viewBounds.y + viewBounds.height >= imageBounds.y + imageBounds.height - marginY
   );
+}
+
+/* adapt the view to a container size change: refit at the default view, otherwise
+   keep the current section and zoom (only the visible extent changes) */
+function adapt_view_to_container_resize() {
+  const wasFitted = is_whole_image_visible();
+  capture_image_view();
+  if (!resize_facsContainer()) {
+    return;
+  }
+  viewer.forceResize();
+  const apply_view = () => {
+    if (wasFitted) {
+      fitVertically_align_left_bottom();
+    } else {
+      apply_captured_image_view();
+    }
+  };
+  apply_view();
+  // OSD rescales the viewport on its next frame - re-apply once afterwards for an exact result.
+  setTimeout(apply_view, 250);
 }
 
 viewer.addHandler("open", () => {
@@ -413,27 +435,71 @@ function resize_facsContainer() {
 };
 
 
-addEventListener("resize", function (event) {
-    let resized = resize_facsContainer();
-    if (resized) {
-        viewer.forceResize();
-        fitVertically_align_left_bottom();
-    };
+addEventListener("resize", function () {
+    // refit at the default view; while zoomed keep the section and zoom
+    adapt_view_to_container_resize();
   }
 );
 
 /* fullscreen: fill the screen, show OSD's default controls and re-fit the image */
-document.addEventListener("fullscreenchange", function () {
-  container_facs_1.classList.toggle("osd-fullscreen", !!document.fullscreenElement);
+function fit_viewer_to_fullscreen() {
   resize_facsContainer();
   viewer.forceResize();
   fitVertically_align_left_bottom();
-  setTimeout(function () {
-    resize_facsContainer();
-    viewer.forceResize();
-    fitVertically_align_left_bottom();
-  }, 250);
+}
+
+let last_fullscreen_was_page = false;
+document.addEventListener("fullscreenchange", function () {
+  const fullscreenElement_now = document.fullscreenElement;
+  const viewer_is_fullscreen = fullscreenElement_now === container_facs_1;
+  const page_is_fullscreen = !!fullscreenElement_now && !viewer_is_fullscreen;
+  const page_transition = page_is_fullscreen || (last_fullscreen_was_page && !fullscreenElement_now);
+  last_fullscreen_was_page = page_is_fullscreen;
+
+  container_facs_1.classList.toggle("osd-fullscreen", viewer_is_fullscreen);
+  update_page_fullscreen_button();
+
+  if (page_transition) {
+    /* whole page fullscreen: keep the current section and zoom, only adapt the size */
+    adapt_view_to_container_resize();
+    return;
+  }
+
+  fit_viewer_to_fullscreen();
+  setTimeout(fit_viewer_to_fullscreen, 250);
 });
+
+/* fullscreen button for the whole page, in the settings offcanvas */
+const page_fullscreen_button = document.getElementById("page_fullscreen_button");
+
+function update_page_fullscreen_button() {
+  const label = document.getElementById("page_fullscreen_button_label");
+  if (label) {
+    label.textContent =
+      document.fullscreenElement === document.documentElement
+        ? "Vollbild beenden"
+        : "Ganze Seite im Vollbild";
+  }
+}
+
+if (page_fullscreen_button) {
+  page_fullscreen_button.addEventListener("click", () => {
+    if (document.fullscreenElement === document.documentElement) {
+      document.exitFullscreen();
+      return;
+    }
+    document.documentElement
+      .requestFullscreen()
+      .then(() => {
+        // close the settings panel so the whole page is visible at once
+        const options_panel = document.getElementById("offcanvasOptions");
+        if (options_panel && window.bootstrap && bootstrap.Offcanvas) {
+          bootstrap.Offcanvas.getOrCreateInstance(options_panel).hide();
+        }
+      })
+      .catch(() => {});
+  });
+}
 
 /* keep the view stable when the controls & image rights area is collapsed/expanded:
    at the default view a toggle refits; while zoomed, collapsing keeps zoom and
