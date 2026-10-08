@@ -81,6 +81,7 @@ const viewer = new OpenSeadragon.Viewer({
   showSequenceControl: true,
   showZoomControl: true,
   constrainDuringPan: true,
+  preserveViewport: true,
 });
 
 viewer.viewport.goHome = function () {
@@ -141,12 +142,85 @@ function fitVertically_align_left_bottom(){
   viewer.viewport.applyConstraints(true);
 }
 
+/* The currently displayed view, stored as fractions of the displayed image
+   (so it can be mapped onto the next image on load). */
+var saved_image_view = null;
+
+// The current view as fractions of the displayed image (null while no image).
+function read_image_view() {
+  const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+  if (!tiledImage) {
+    return null;
+  }
+  const imageBounds = tiledImage.getBounds();
+  const viewBounds = viewer.viewport.getBounds();
+  return {
+    x: (viewBounds.x - imageBounds.x) / imageBounds.width,
+    y: (viewBounds.y - imageBounds.y) / imageBounds.height,
+    width: viewBounds.width / imageBounds.width,
+    height: viewBounds.height / imageBounds.height,
+  };
+}
+
+// Remember which relative section of the currently shown image is displayed.
+function capture_image_view() {
+  const rel = read_image_view();
+  if (rel) {
+    saved_image_view = rel;
+  }
+}
+
+// Show the given relative section (and zoom) of the displayed image; a plain
+// fit is used when no section is given (initial load).
+function apply_image_view(rel) {
+  const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+  if (!tiledImage) {
+    return;
+  }
+  if (!rel) {
+    fitVertically_align_left_bottom();
+    return;
+  }
+  const imageBounds = tiledImage.getBounds();
+  const targetBounds = new OpenSeadragon.Rect(
+    imageBounds.x + rel.x * imageBounds.width,
+    imageBounds.y + rel.y * imageBounds.height,
+    rel.width * imageBounds.width,
+    rel.height * imageBounds.height
+  );
+  viewer.viewport.fitBounds(targetBounds, true);
+  viewer.viewport.applyConstraints(true);
+}
+
+function apply_captured_image_view() {
+  apply_image_view(saved_image_view);
+}
+
+// True while the whole image is visible - i.e. the view is still at its
+// fitted/default state (used to decide whether a container resize may refit).
+function is_whole_image_visible() {
+  const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+  if (!tiledImage) {
+    return true;
+  }
+  const imageBounds = tiledImage.getBounds();
+  const viewBounds = viewer.viewport.getBounds();
+  const marginX = imageBounds.width * 0.01;
+  const marginY = imageBounds.height * 0.01;
+  return (
+    viewBounds.x <= imageBounds.x + marginX &&
+    viewBounds.y <= imageBounds.y + marginY &&
+    viewBounds.x + viewBounds.width >= imageBounds.x + imageBounds.width - marginX &&
+    viewBounds.y + viewBounds.height >= imageBounds.y + imageBounds.height - marginY
+  );
+}
+
 viewer.addHandler("open", () => {
-  fitVertically_align_left_bottom();
+  apply_captured_image_view();
 
   const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
   if (tiledImage && typeof tiledImage.addOnceHandler === "function") {
-    tiledImage.addOnceHandler("fully-loaded-change", fitVertically_align_left_bottom);
+    tiledImage.addOnceHandler("fully-loaded-change", apply_captured_image_view);
   }
 });
 
@@ -237,6 +311,7 @@ function add_image_to_viewer(new_image) {
   }
 
   currentViewerSource = nextSource;
+  capture_image_view();
   viewer.open(nextSource);
 }
 
@@ -360,16 +435,78 @@ document.addEventListener("fullscreenchange", function () {
   }, 250);
 });
 
-/* refit the viewer when the controls & image rights area is collapsed/expanded */
+/* keep the view stable when the controls & image rights area is collapsed/expanded:
+   at the default view a toggle refits; while zoomed, collapsing keeps zoom and
+   section (gaining space) and the following expand restores the exact previous
+   view (as long as the view was not changed in between) */
 const image_rights_collapsible = document.getElementById("image_rights_collapsible");
 if (image_rights_collapsible) {
-  const sync_viewer_to_controls_toggle = function () {
-    let resized = resize_facsContainer();
-    if (resized) {
-      viewer.forceResize();
-      fitVertically_align_left_bottom();
-    };
+  let view_before_collapse = null; // captured while zoomed, used by the next expand
+  let collapsed_view_state = null; // measured after the collapse settled
+
+  const read_view_state = () => {
+    const rel = read_image_view();
+    return rel ? { rel: rel, zoom: viewer.viewport.getZoom() } : null;
   };
-  image_rights_collapsible.addEventListener("hidden.bs.collapse", sync_viewer_to_controls_toggle);
-  image_rights_collapsible.addEventListener("shown.bs.collapse", sync_viewer_to_controls_toggle);
+
+  const views_match = (a, b) => {
+    if (!a || !b) {
+      return false;
+    }
+    return (
+      Math.abs(a.zoom - b.zoom) / b.zoom < 0.01 &&
+      Math.abs(a.rel.x - b.rel.x) < 0.02 &&
+      Math.abs(a.rel.y - b.rel.y) < 0.02 &&
+      Math.abs(a.rel.width - b.rel.width) < 0.02 &&
+      Math.abs(a.rel.height - b.rel.height) < 0.02
+    );
+  };
+
+  // Resize the container, re-apply the view immediately and once more after OSD
+  // has processed the resize on its next frame (it rescales the viewport then).
+  const resize_and_apply = (apply) => {
+    if (!resize_facsContainer()) {
+      return false;
+    }
+    viewer.forceResize();
+    apply();
+    setTimeout(apply, 250);
+    return true;
+  };
+
+  const on_controls_collapsed = function () {
+    view_before_collapse = null;
+    collapsed_view_state = null;
+    if (is_whole_image_visible()) {
+      resize_and_apply(() => fitVertically_align_left_bottom());
+      return;
+    }
+    view_before_collapse = read_view_state();
+    const keep_section = view_before_collapse.rel;
+    if (resize_and_apply(() => apply_image_view(keep_section))) {
+      setTimeout(() => {
+        collapsed_view_state = read_view_state();
+      }, 400);
+    }
+  };
+
+  const on_controls_expanded = function () {
+    const stored_view = view_before_collapse;
+    const expected_state = collapsed_view_state;
+    view_before_collapse = null;
+    collapsed_view_state = null;
+    if (stored_view && expected_state && views_match(read_view_state(), expected_state)) {
+      resize_and_apply(() => apply_image_view(stored_view.rel));
+      return;
+    }
+    if (is_whole_image_visible()) {
+      resize_and_apply(() => fitVertically_align_left_bottom());
+    } else {
+      capture_image_view();
+      resize_and_apply(apply_captured_image_view);
+    }
+  };
+
+  image_rights_collapsible.addEventListener("hidden.bs.collapse", on_controls_collapsed);
+  image_rights_collapsible.addEventListener("shown.bs.collapse", on_controls_expanded);
 }

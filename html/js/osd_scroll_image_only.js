@@ -74,6 +74,7 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
     timeout: 60000,
     tileRetryMax: 2,
     tileRetryDelay: 1500,
+    preserveViewport: true,
   });
 
   function fitVerticallyCentered() {
@@ -90,6 +91,56 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
 
   viewer.viewport.goHome = function () {
     fitVerticallyCentered();
+  };
+
+  /* The currently displayed view, stored as fractions of the displayed image
+     (so it can be mapped onto the next image on load). */
+  let savedImageView = null;
+
+  // Remember which relative section of the currently shown image is displayed.
+  function captureImageView() {
+    const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+    if (!tiledImage) {
+      return;
+    }
+    const imageBounds = tiledImage.getBounds();
+    const viewBounds = viewer.viewport.getBounds();
+    savedImageView = {
+      x: (viewBounds.x - imageBounds.x) / imageBounds.width,
+      y: (viewBounds.y - imageBounds.y) / imageBounds.height,
+      width: viewBounds.width / imageBounds.width,
+      height: viewBounds.height / imageBounds.height,
+    };
+  }
+
+  // Show the same relative section (and zoom) of the newly opened image; a plain
+  // fit is only used while nothing was captured yet (initial load).
+  function applyCapturedImageView() {
+    const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
+    if (!tiledImage) {
+      return;
+    }
+    if (!savedImageView) {
+      fitVerticallyCentered();
+      return;
+    }
+    const imageBounds = tiledImage.getBounds();
+    const targetBounds = new OpenSeadragon.Rect(
+      imageBounds.x + savedImageView.x * imageBounds.width,
+      imageBounds.y + savedImageView.y * imageBounds.height,
+      savedImageView.width * imageBounds.width,
+      savedImageView.height * imageBounds.height
+    );
+    viewer.viewport.fitBounds(targetBounds, true);
+    viewer.viewport.applyConstraints(true);
+  }
+
+  /* Capture the current view before every page change - all navigation (slider,
+     custom buttons, OSD's built-in controls, keyboard) routes through goToPage. */
+  const osdGoToPage = viewer.goToPage.bind(viewer);
+  viewer.goToPage = (page) => {
+    captureImageView();
+    return osdGoToPage(page);
   };
 
   // OSD's default controls carry no class names - tag their container so CSS can
@@ -136,16 +187,16 @@ if (facsContainer && imageRights && imageSourceNodes.length > 0) {
   updateOsdDisabledButtons();
 
   viewer.addHandler("open", () => {
-    fitVerticallyCentered();
+    applyCapturedImageView();
 
     // Refit once after the image is fully loaded to avoid edge clipping.
     const tiledImage = viewer.world.getItemAt(viewer.world.getItemCount() - 1);
     if (tiledImage && typeof tiledImage.addOnceHandler === "function") {
-      tiledImage.addOnceHandler("fully-loaded-change", fitVerticallyCentered);
+      tiledImage.addOnceHandler("fully-loaded-change", applyCapturedImageView);
     }
 
     // Some browsers apply late layout changes shortly after load.
-    setTimeout(fitVerticallyCentered, 250);
+    setTimeout(applyCapturedImageView, 250);
   });
 
   // Ensure first image is fitted even if initial `open` fired before handler attachment.
