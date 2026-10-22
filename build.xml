@@ -84,6 +84,26 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
         <param name="dataSet" expression="Datenset C"/>
     </xslt>
+    <xslt in="${index}" out="${target}/toc_dt.html" style="./xslt/toc_dt.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <param name="dataSet" expression=""/>
+    </xslt>
+    <xslt in="${index}" out="${target}/toc_dt_a.html" style="./xslt/toc_dt.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <param name="dataSet" expression="Datenset A"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/toc_dt_b.html" style="./xslt/toc_dt.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <param name="dataSet" expression="Datenset B"/>
+    </xslt>
+    <xslt in="${index}" out="${target}/toc_dt_c.html" style="./xslt/toc_dt.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <param name="dataSet" expression="Datenset C"/>
+    </xslt>
     <xslt in="${index}" out="${target}/search.html" style="./xslt/search.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>

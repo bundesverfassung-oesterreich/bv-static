@@ -1,0 +1,39 @@
+/* stretch ColumnControl search inputs to the full column width */
+table.dataTable span.dtcc {
+  display: flex;
+  width: 100%;
+}
+
+/* show full searchList entries instead of truncating them */
+div.dtcc-dropdown button.dtcc-button span.dtcc-button-text {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    height: auto;
+}
+
+/* focus colour: project colour instead of Bootstrap blue */
+div.dt-container .form-control:focus,
+div.dt-container .form-select:focus,
+div.dt-container input:focus,
+div.dt-container select:focus,
+div.dt-container span.dtcc input:focus,
+div.dt-container span.dtcc select:focus {
+    border-color: var(--bv-big-highlight);
+    box-shadow: 0 0 0 .25rem rgba(var(--bv-big-highlight-rgb), 0.25);
+    outline: 0;
+}
+
+div.dt-container .btn:focus-visible,
+div.dt-container button:focus-visible,
+div.dtcc-dropdown button.dtcc-button:focus-visible,
+div.dt-container a:focus-visible {
+    outline: 2px solid var(--bv-big-highlight);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 .25rem rgba(var(--bv-big-highlight-rgb), 0.25);
+}
+
+table.dataTable tbody td.focus,
+table.dataTable tbody th.focus {
+    outline-color: var(--bv-big-highlight);
+}

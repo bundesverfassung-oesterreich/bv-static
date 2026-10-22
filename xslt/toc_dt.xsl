@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="xsl tei xs">
+    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
+
+    <xsl:import href="./partials/html_navbar.xsl"/>
+    <xsl:import href="./partials/html_head.xsl"/>
+    <xsl:import href="partials/html_footer.xsl"/>
+    <xsl:import href="./partials/meta_tags.xsl"/>
+    <xsl:import href="./partials/datatables_import.xsl"/>
+
+    <xsl:param name="dataSet" />
+    <xsl:template match="/">
+        <xsl:variable name="doc_title" select="'Edierte Dokumente'"/>
+        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+        <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+            <head>
+                <xsl:call-template name="html_head">
+                    <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                </xsl:call-template>
+                <xsl:call-template name="datatables_import"/>
+                <link href="js/toc_datatables/toc_datatables.css" rel="stylesheet"/>
+                <xsl:call-template name="meta-tags">
+                    <xsl:with-param name="title" select="$doc_title"></xsl:with-param>
+                    <xsl:with-param name="source_authors" select="//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()"></xsl:with-param>
+                    <xsl:with-param name="description" select="'Die Entstehung der Österreichischen Bundes-Verfassung 1920'"></xsl:with-param>
+                </xsl:call-template>
+            </head>
+
+            <body class="page" lang="de">
+                <div class="hfeed site" id="page">
+                    <xsl:call-template name="nav_bar"/>
+                    <main id="content" role="main">
+                    <div class="container-fluid">
+                        <div class="card">
+                            <div class="card-header">
+                                <h1>
+                                    <xsl:value-of select="$doc_title"/>
+                                </h1>
+                            </div>
+                            <div class="card-body">
+                                <table id="tocTable" class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Titel</th>
+                                            <th scope="col">beteiligte Personen</th>
+                                            <th scope="col">Materialtyp</th>
+                                            <th scope="col">Dokumententyp</th>
+                                            <th scope="col">Entstehung (tpq)</th>
+                                            <th scope="col">Erschließungsgrad</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <xsl:for-each select="collection('../data/editions')//tei:TEI">
+                                            <xsl:variable name="full_path">
+                                                <xsl:value-of select="document-uri(/)"/>
+                                            </xsl:variable>
+                                            <xsl:if test="not(.//tei:relatedItem[@type='based_on']) and (not($dataSet) or //tei:idno[@type='bv_data_set'][1]/text() = $dataSet)">
+                                                <!--  and not(//tei:msDesc[@subtype='secondary']) -->
+                                                <tr>
+                                                    <td>
+                                                        <a>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                            </xsl:attribute>
+                                                            <xsl:value-of select="normalize-space(.//tei:title[@type='main'][1]/text()[1])"/>
+                                                        </a>
+                                                    </td>
+                                                    <!--
+                                                if necessary data could here be alterd to provide a 
+                                                sorter val for the date and an human readable value 
+                                                (preventing further dependencies for tabulator script)
+
+                                                <xsl:variable name="iso_date_taq" select="normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"/>
+                                                <td isodate="{translate($iso_date_taq, '-', '')}">
+                                                    <xsl:value-of select="format-date(xs:date($iso_date_taq), '[D]. [M]. [Y]')" />
+                                                </td>
+                                                -->
+                                                    <td>
+                                                        <xsl:value-of select="normalize-space(string-join((//tei:msDesc/tei:msContents/tei:msItem/tei:author/text()), ' / '))"/>
+                                                    </td>
+                                                    <td>
+                                                        <xsl:value-of select="normalize-space(//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/@form[1])"/>
+                                                    </td>
+                                                    <td>
+                                                        <xsl:value-of select="normalize-space(//tei:text/@type)"/>
+                                                    </td>
+                                                    <td>
+                                                        <xsl:value-of select="normalize-space(//tei:profileDesc/tei:creation/tei:date/@notBefore-iso[1])"/>
+                                                    </td>
+                                                    <td>
+                                                        <xsl:choose>
+                                                            <xsl:when test="exists(.//tei:body//tei:pb) and not(exists(.//tei:body//text()[normalize-space()])) and not(exists(.//tei:body//tei:*[not(self::tei:body or self::tei:div or self::tei:pb)]))">
+                                                                <xsl:value-of select="'faksimiliert'"/>
+                                                            </xsl:when>
+                                                            <xsl:when test=".//tei:revisionDesc/@status='created'">
+                                                                <xsl:value-of select="'maschinell erfasst'"/>
+                                                            </xsl:when>
+                                                            <xsl:when test=".//tei:revisionDesc/@status='structured'">
+                                                                <xsl:value-of select="'strukturell erschlossen'"/>
+                                                            </xsl:when>
+                                                            <xsl:when test=".//tei:revisionDesc/@status='text_correct'">
+                                                                <xsl:value-of select="'vollständig ediert'"/>
+                                                            </xsl:when>
+                                                            <xsl:when test=".//tei:revisionDesc/@status='done'">
+                                                                <xsl:value-of select="'vollständig ediert'"/>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <xsl:value-of select="'maschinell erfasst'"/>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
+                                                    </td>
+                                                </tr>
+                                            </xsl:if>
+                                        </xsl:for-each>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    </main>
+
+                    <xsl:call-template name="html_footer"/>
+                    <script type="text/javascript" src="js/tabulator.min.js"></script>
+                    <script type="text/javascript" src="js/toc_datatables/toc_datatables.js"></script>
+                    <xsl:choose>
+                        <xsl:when test="not($dataSet)">
+                            <script type="text/javascript">
+                                loadTocDataTable();
+                            </script>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <script type="text/javascript">
+                                loadTocDataTable("<xsl:value-of select="$dataSet"/>");
+                            </script>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </div>
+            </body>
+        </html>
+    </xsl:template>
+    <xsl:template match="tei:div//tei:head">
+        <h2 id="{generate-id()}">
+            <xsl:apply-templates/>
+        </h2>
+    </xsl:template>
+
+    <xsl:template match="tei:p">
+        <p id="{generate-id()}">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="tei:list">
+        <ul id="{generate-id()}">
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+
+    <xsl:template match="tei:item">
+        <li id="{generate-id()}">
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:ref">
+        <xsl:choose>
+            <xsl:when test="starts-with(data(@target), 'http')">
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="@target"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="."/>
+                </a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+</xsl:stylesheet>

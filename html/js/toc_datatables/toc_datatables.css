@@ -1,0 +1,37 @@
+/* stretch ColumnControl search inputs to the full column width */
+#tocTable span.dtcc {
+  display: flex;
+  width: 100%;
+}
+
+/* show full searchList entries instead of truncating them */
+div.dtcc-dropdown button.dtcc-button span.dtcc-button-text {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  height: auto;
+}
+
+#tocTable .toc-toggle {
+  min-width: 2rem;
+}
+
+#tocTable table.toc-children caption {
+  caption-side: top;
+  font-weight: bold;
+}
+
+#tocTable dl.toc-details {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.25rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#tocTable dl.toc-details dt {
+  font-weight: bold;
+}
+
+#tocTable dl.toc-details dd {
+  margin: 0;
+}
