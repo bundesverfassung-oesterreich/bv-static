@@ -169,6 +169,38 @@ nav.navbar div {
     color: var(--bv-contrast);
 }
 
+/* the offcanvas triggers (left: document navigation, right: display settings) */
+button.offcanvas_toggle_button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 0;
+}
+
+/* keeps the icon at the size the previous svg-as-button rendering had */
+button.offcanvas_toggle_button svg {
+    display: block;
+    height: 1.5rem;
+    width: auto;
+}
+
+/* visible keyboard focus for every menu button and menu entry */
+button.offcanvas_toggle_button:focus-visible,
+.navbar-nav a.nav-link:focus-visible,
+.navbar-nav .dropdown-menu a:focus-visible {
+    outline: 3px solid var(--bv-contrast);
+    outline-offset: 2px;
+}
+
+#offcanvasNavigation a:focus-visible,
+#offcanvasNavigation button:focus-visible,
+#offcanvasOptions a:focus-visible,
+#offcanvasOptions button:focus-visible {
+    outline: 3px solid var(--bv-big-highlight);
+    outline-offset: 2px;
+}
+
 div#navbarSupportedContent div#navbar_right_spacer {
     min-width: 10%;
     max-width: 30rem;
@@ -507,6 +539,33 @@ button.image_rights_toggle[aria-expanded="false"] svg {
 button.image_rights_toggle:focus-visible {
     outline: 3px solid var(--bv-big-highlight);
     outline-offset: 2px;
+}
+
+/* annotation toggles in the settings offcanvas.
+   The control is a fully transparent, zero-sized checkbox next to a styled span, so the
+   focus indicator has to be drawn on the span -- the default 1px #f1f1f1 box-shadow from
+   micro_editor.css is invisible on the panel background. */
+#edition_display_options .switch input {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+
+#edition_display_options .switch input:focus-visible + .i-slider {
+    outline: 3px solid var(--bv-big-highlight);
+    outline-offset: 2px;
+    box-shadow: none;
+    /* .i-slider transitions "all", which would fade the outline in from currentColor */
+    transition-property: background-color;
+}
+
+/* mark the toggle's text as well, so it is obvious which row has focus */
+#edition_display_options annotation-slider:has(input:focus-visible) > label:not(.switch) {
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 /* whole-page fullscreen button in the settings offcanvas */

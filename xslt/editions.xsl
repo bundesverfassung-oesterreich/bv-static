@@ -61,7 +61,7 @@
                     <div id="text_quality_disclaimer" class="offcanvas offcanvas-start show" tabindex="-1" aria-labelledby="tqd_label" data-bs-scroll="false" data-bs-backdrop="false">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasNavigationLabel">Achtung!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"/>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Schließen"/>
                         </div>
                         <div class="offcanvas-body">
                             <p>Die vorliegende Transkription wurde maschinell erstellt, um das
@@ -81,7 +81,7 @@
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel" data-bs-scroll="true" data-bs-backdrop="false">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasNavigationLabel">Navigation</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"/>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Schließen"/>
                             </div>
                             <div class="offcanvas-body">
                                 <div>
@@ -91,10 +91,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="offcanvas offcanvas-end" tabindex="0" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOptions" aria-labelledby="offcanvasOptionsLabel" data-bs-scroll="true" data-bs-backdrop="false">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasOptionsLabel">Einstellungen</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"/>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Schließen"/>
                             </div>
                             <div class="offcanvas-body">
                                 <div>
@@ -129,7 +129,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="wp-transcript">
+                        <div class="wp-transcript" id="content" role="main">
                             <xsl:call-template name="render-edition-metadata"/>
                 <div id="container-resize" class="row transcript active">
                     <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">

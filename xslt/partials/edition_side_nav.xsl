@@ -19,9 +19,8 @@
         <xsl:param name="id_name_for_toggle"></xsl:param>
         <xsl:param name="data_set_id_transkribus"></xsl:param>
         <xsl:param name="heading"></xsl:param>
-        <xsl:param name="expanded" as="xs:string" select="'false'"/>
         <li>
-            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$id_name_for_toggle}" aria-expanded="{$expanded}">
+            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{$id_name_for_toggle}" aria-controls="{$id_name_for_toggle}" aria-expanded="false">
                 <xsl:value-of select="$heading"/>
             </button>
             <div class="collapse " id="{$id_name_for_toggle}">
@@ -76,7 +75,7 @@
                 <xsl:for-each select="$subsection_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head[not(ancestor::tei:quote)]/@xml:id)[1])"/>
-                        <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
+                        <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-controls="{$derived_target_id_for_button}" aria-expanded="false">
                             <xsl:value-of select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
@@ -101,7 +100,7 @@
                 <xsl:for-each select="$toplevel_section_divs">
                     <li>
                         <xsl:variable name="derived_target_id_for_button" select="concat('target_of_', (.//tei:head[not(ancestor::tei:quote)][1]/@xml:id)[1])"/>
-                        <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-expanded="false">
+                        <button class="btn btn-toggle align-items-start collapsed" data-bs-toggle="collapse" data-bs-target="#{$derived_target_id_for_button}" aria-controls="{$derived_target_id_for_button}" aria-expanded="false">
                             <xsl:value-of select="./tei:head[not(ancestor::tei:quote)][1]/normalize-space()"/>
                         </button>
                         <div class="collapse " id="{$derived_target_id_for_button}">
@@ -143,7 +142,7 @@
             <xsl:variable name="data_set_C_id" as="xs:string" select="string(196429)"/>
             <ul id="left_edition_content_nav" class="list-unstyled ps-0">
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#docs-collapse" aria-expanded="false">
+                    <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#docs-collapse" aria-controls="docs-collapse" aria-expanded="false">
                         Alle Dokumente
                     </button>
                     <div class="collapse" id="docs-collapse">
@@ -152,7 +151,6 @@
                                 <xsl:with-param name="id_name_for_toggle" select="'data_set_A_nav_toggle'"/>
                                 <xsl:with-param name="data_set_id_transkribus" select="$data_set_A_id"/>
                                 <xsl:with-param name="heading" select="'Verfassungesentwürfe'"/>
-                                <xsl:with-param name="expanded" select="'true'"/>
                             </xsl:call-template>
                             <xsl:call-template name="build_doc_sub_list">
                                 <xsl:with-param name="id_name_for_toggle" select="'data_set_B_nav_toggle'"/>
@@ -170,10 +168,10 @@
                 <xsl:choose>
                     <xsl:when test="$data_set = 'Datenset A'">
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
-                                <p>
+                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-controls="current-doc-collapse" aria-expanded="false">
+                                <span>
                                     <xsl:value-of select="$doc_title" />
-                                </p>
+                                </span>
                             </button>
                             <div class="collapse" id="current-doc-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -184,10 +182,10 @@
                     </xsl:when>
                     <xsl:when test="$data_set = 'Datenset B'">
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
-                                <p>
+                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-controls="current-doc-collapse" aria-expanded="false">
+                                <span>
                                     <xsl:value-of select="$doc_title" />
-                                </p>
+                                </span>
                             </button>
                             <div class="collapse" id="current-doc-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -198,10 +196,10 @@
                     </xsl:when>
                     <xsl:when test="$data_set = 'Datenset C'">
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-expanded="false">
-                                <p>
+                            <button class="btn btn-toggle align-items-start justify-content-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#current-doc-collapse" aria-controls="current-doc-collapse" aria-expanded="false">
+                                <span>
                                     <xsl:value-of select="$doc_title" />
-                                </p>
+                                </span>
                             </button>
                             <div class="collapse" id="current-doc-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
