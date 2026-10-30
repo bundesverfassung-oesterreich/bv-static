@@ -142,7 +142,9 @@
                             <div id="container_facs_1">
                                 <!-- container and facs handling in js -->
                             </div>
-                            <xsl:call-template name="render-image-viewer-controls"/>
+                            <xsl:call-template name="render-image-viewer-controls">
+                                <xsl:with-param name="show-annotation-toggle" as="xs:boolean" select="true()"/>
+                            </xsl:call-template>
 </div>
 </div>
 <div id="text-resize" lang="de" class="col-md-6 col-lg-6 col-sm-12 text yes-index">
@@ -190,6 +192,7 @@
                 <script type="text/javascript" src="js/osd_scroll.js"/>
                 <script type="text/javascript" src="js/run.js"/>
                 <script type="text/javascript" src="js/offcanvastoggler.js"/>
+                <script type="text/javascript" src="js/annotation_all_toggle.js"/>
                 <script type="text/javascript" src="js/toggle_shortTitle.js"/>
             </body>
         </html>
@@ -277,6 +280,7 @@
     <xsl:template name="render-image-viewer-controls">
         <xsl:param name="show-page-slider" as="xs:boolean" select="false()"/>
         <xsl:param name="show-collapse-toggle" as="xs:boolean" select="true()"/>
+        <xsl:param name="show-annotation-toggle" as="xs:boolean" select="false()"/>
         <div class="image_rights">
             <xsl:if test="$show-collapse-toggle">
                 <button type="button" id="image_rights_toggle" class="image_rights_toggle"
@@ -315,6 +319,14 @@
                     </svg>
                 </button>
                 <button class="osd_nav_element" id="osd_zoom_in_button">+</button>
+                <xsl:if test="$show-annotation-toggle">
+                    <button type="button" id="osd_annotation_toggle" class="osd_nav_element" aria-pressed="false">
+                        <span class="visually-hidden">Alle Annotationen ein-/ausblenden</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2.5rem" width="2.5rem" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path fill-rule="evenodd" d="M12 5C7.6 5 3.8 7.7 2 11.5C3.8 15.3 7.6 18 12 18C16.4 18 20.2 15.3 22 11.5C20.2 7.7 16.4 5 12 5ZM12 8.5a3 3 0 1 1 0 6a3 3 0 0 1 0-6Z"/>
+                        </svg>
+                    </button>
+                </xsl:if>
                 <button class="osd_nav_element" id="osd_fullscreen_button">
                     <span class="visually-hidden">Vollbild umschalten</span>
                     <svg xmlns="http://www.w3.org/2000/svg" height="2.5rem" width="2.5rem" viewBox="0 0 448 512" aria-hidden="true" focusable="false">

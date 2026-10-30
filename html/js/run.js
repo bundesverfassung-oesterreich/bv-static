@@ -34,6 +34,7 @@ var editor = new LoadEditor({
           all: false,
           class: "features-1",
         },
+        default: true,
       },
       {
         opt: "comment_toggler",

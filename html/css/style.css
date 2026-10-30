@@ -483,6 +483,40 @@ div button#osd_prev_button.osd_nav_element {
     padding: 0.5rem 0.3rem;
 }
 
+/* "Alles" annotation toggle: mirrors the settings slider, so it carries a state.
+   off = outlined, on = solid, like the neighbouring buttons. */
+div button#osd_annotation_toggle.osd_nav_element {
+    background-color: var(--bv-main-bg-color);
+    box-shadow: inset 0 0 0 2px var(--bv-big-highlight);
+}
+
+div button#osd_annotation_toggle.osd_nav_element svg {
+    margin: 0 auto;
+    display: block;
+}
+
+div button#osd_annotation_toggle.osd_nav_element svg path {
+    fill: var(--bv-big-highlight);
+}
+
+div button#osd_annotation_toggle.osd_nav_element[aria-pressed="true"] {
+    background-color: var(--bv-big-highlight);
+    box-shadow: none;
+}
+
+div button#osd_annotation_toggle.osd_nav_element[aria-pressed="true"] svg path {
+    fill: var(--bv-main-bg-color);
+}
+
+div button#osd_annotation_toggle.osd_nav_element:focus-visible {
+    outline: 3px solid var(--bv-big-highlight);
+    outline-offset: 2px;
+}
+
+div button#osd_annotation_toggle.osd_nav_element[aria-pressed="true"]:focus-visible {
+    outline-color: var(--bv-contrast);
+}
+
 div.image_rights p {
     margin: auto;
     max-width: 40rem;
