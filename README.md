@@ -13,4 +13,3 @@ The code for all third-party JavaScript libraries used is included in the `html/
 
 ### SAXON-HE
 The projects also includes Saxon-HE, which is licensed separately under the Mozilla Public License, Version 2.0 (MPL 2.0). See the dedicated [LICENSE.txt](saxon/notices/LICENSE.txt)
-

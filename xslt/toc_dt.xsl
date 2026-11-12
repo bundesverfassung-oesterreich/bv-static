@@ -123,7 +123,6 @@
                     </main>
 
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="js/tabulator.min.js"></script>
                     <script type="text/javascript" src="js/toc_datatables/toc_datatables.js"></script>
                     <xsl:choose>
                         <xsl:when test="not($dataSet)">
