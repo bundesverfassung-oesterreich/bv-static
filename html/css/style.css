@@ -14,6 +14,8 @@
     --footnote-bottom-padding: 1rem;
     --bv-violet: #e1d4ff;
     --bv-violet-strong: #6741b1;
+    --bv-badge-ink: #1a1d20;
+    --bv-badge-created-bg: #a30000;
     /*
         --top-offset: 1rem;
         could be set via 
@@ -346,14 +348,14 @@ div.revision_desc {
 
 div.revision_desc.created {
     color: var(--bv-main-bg-color);
-    /*background-color: gray !important;*/
-    background-color: rgba(var(--bv-transp-red), 0.6) !important;
+    /* solid, deeper red: the brand red (255,1,1) reaches only 3.76:1 even at full
+       opacity, so light text needs a darker background */
+    background-color: var(--bv-badge-created-bg) !important;
 }
 
 
 div.revision_desc.structured {
-    color: gray;
-    /* color: var(--bv-main-bg-color); */
+    color: var(--bv-badge-ink);
     /*background-color: gray !important;*/
     background-color: rgba(var(--bv-contrast-rgb), 0.8) !important;
 }
@@ -362,8 +364,8 @@ div.revision_desc.structured {
 div.revision_desc.text_correct,
 div.revision_desc.done {
     color: var(--bv-main-bg-color);
-    /*background-color: gray !important;*/
-    background-color: rgba(var(--bv-big-highlight-rgb), 0.6) !important;
+    /* solid highlight colour (same pairing as the XML/PDF buttons): 5.46:1 */
+    background-color: var(--bv-big-highlight) !important;
 }
 
 div.revision_desc.image_only {
