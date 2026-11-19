@@ -25,10 +25,14 @@ const search = instantsearch({
   indexName: project_collection_name,
 });
 
+const showMoreText = ({ isShowingMore }) => (isShowingMore ? 'Weniger anzeigen' : 'Mehr anzeigen');
+
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: "#searchbox",
-    autofocus: true,
+    // land in the search field on pointer devices; touch devices keep their
+    // screen free of the on-screen keyboard until the user asks for it
+    autofocus: window.matchMedia('(pointer: fine)').matches,
     cssClasses: {
       form: "form-inline",
       input: "form-control col-md-11",
@@ -42,9 +46,8 @@ search.addWidgets([
     templates: {
       empty: "Keine Resultate für <q>{{ query }}</q>",
       item: `
-              <h5><a href="{{ anchor_link }}">{{#helpers.snippet}}{ "attribute": "title", "highlightedTagName": "mark" }{{/helpers.snippet}}</a></h5>
+              <h2 class="h5"><a href="{{ anchor_link }}">{{#helpers.snippet}}{ "attribute": "title", "highlightedTagName": "mark" }{{/helpers.snippet}}</a></h2>
               <p style="overflow:hidden;max-height:210px;">{{#helpers.snippet}}{ "attribute": "full_text", "highlightedTagName": "mark" }{{/helpers.snippet}}</p>
-              <h5><span class="badge badge-primary">{{ project }}</span></h5>
           `,
     },
   }),
@@ -78,7 +81,9 @@ search.addWidgets([
     attribute: "Personen",
     searchable: true,
     searchablePlaceholder: "Suchen",
-    limit: 1000,
+    limit: 5,
+    showMore: true,
+    templates: { showMoreText },
     cssClasses: {
       searchableInput: "form-control form-control-sm mb-2 border-light-2",
       searchableSubmit: "d-none",
@@ -95,6 +100,7 @@ search.addWidgets([
     container: "#refinement-list-doc-material",
     attribute: "Materialart",
     searchable: false,
+    limit: 1000,
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
@@ -109,7 +115,9 @@ search.addWidgets([
     attribute: "Dokumententitel",
     searchable: true,
     searchablePlaceholder: "Suchen",
-    limit: 1000,
+    limit: 5,
+    showMore: true,
+    templates: { showMoreText },
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled facet-list-scroll",
@@ -123,6 +131,7 @@ search.addWidgets([
     container: "#refinement-list-doc-type",
     attribute: "Dokumententyp",
     searchable: false,
+    limit: 1000,
     cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
@@ -184,11 +193,59 @@ search.addWidgets([
   }),*/
 
   instantsearch.widgets.configure({
-    hitsPerPage: 8,
+    hitsPerPage: 15,
     attributesToSnippet: ["full_text"],
     //filters: function() { return document.getElementsByTagName("input").value },
   }),
 
 ]);
 
+// instantsearch renders the search box and the pagination with English aria-labels
+// and titles -> rewriting in german, not breaking lang 
+function localizeSearchWidgets() {
+    const paginationLabels = {
+        'First Page': 'Erste Seite',
+        'Previous Page': 'Vorherige Seite',
+        'Next Page': 'Nächste Seite',
+    };
+
+    document.querySelectorAll('.ais-SearchBox-input').forEach((el) => {
+        el.setAttribute('aria-label', 'Volltextsuche');
+        // tells screen reader users that focus was placed here and what to do next
+        if (document.getElementById('searchbox-hint')) {
+            el.setAttribute('aria-describedby', 'searchbox-hint');
+        }
+    });
+    document.querySelectorAll('.ais-SearchBox-submit').forEach((el) => {
+        el.setAttribute('aria-label', 'Suche absenden');
+        el.removeAttribute('title');
+    });
+    document.querySelectorAll('.ais-SearchBox-reset').forEach((el) => {
+        el.setAttribute('aria-label', 'Suche zurücksetzen');
+        el.removeAttribute('title');
+    });
+    document.querySelectorAll('.ais-Pagination-link').forEach((el) => {
+        const label = el.getAttribute('aria-label');
+        if (!label) {
+            return;
+        }
+        if (paginationLabels[label]) {
+            el.setAttribute('aria-label', paginationLabels[label]);
+            return;
+        }
+        const page = label.match(/^Page (\d+)$/);
+        if (page) {
+            el.setAttribute('aria-label', `Seite ${page[1]}`);
+            return;
+        }
+        const lastPage = label.match(/^Last Page, Page (\d+)$/);
+        if (lastPage) {
+            el.setAttribute('aria-label', `Letzte Seite, Seite ${lastPage[1]}`);
+        }
+    });
+}
+
+search.on('render', localizeSearchWidgets);
+
 search.start();
+localizeSearchWidgets();

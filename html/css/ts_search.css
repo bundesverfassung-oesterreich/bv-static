@@ -43,9 +43,24 @@
     border-radius: .10rem;
 }
 
-.col-md-4 h4 {
+.col-md-4 h1,
+.col-md-4 h2 {
     text-align: center;
     margin-top: 1em;
+    font-size: 1.5rem;
+}
+
+/* the search box icons are the submit/reset controls: keep them tappable and visible on focus */
+.ais-SearchBox-submit,
+.ais-SearchBox-reset {
+    min-width: 2rem;
+    min-height: 2rem;
+}
+
+.ais-SearchBox-submit:focus-visible,
+.ais-SearchBox-reset:focus-visible {
+    outline: 3px solid var(--bv-big-highlight);
+    outline-offset: 2px;
 }
 
 .ais-Hits-item {

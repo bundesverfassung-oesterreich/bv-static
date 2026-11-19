@@ -36,25 +36,26 @@
                                 <div class="search-panel__results">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div id="stats-container"></div>
-                                            <h4>Volltextsuche</h4>
+                                            <div id="stats-container" role="status" aria-live="polite" aria-atomic="true"></div>
+                                            <h1>Volltextsuche</h1>
                                             <div id="searchbox"></div>
+                                            <p id="searchbox-hint" class="visually-hidden">Suchfeld. Geben Sie einen Suchbegriff ein und bestätigen Sie mit der Eingabetaste.</p>
                                             <div id="clear-refinements"></div>
-                                            <h4>Beteiligte Personen</h4>
+                                            <h2>Beteiligte Personen</h2>
                                             <div id="refinement-list-persons"></div>
-                                            <h4>Dokumente</h4>
+                                            <h2>Dokumente</h2>
                                             <div id="refinement-list-doc-title"/>
-                                            <h4>Dokumententyp</h4>
+                                            <h2>Dokumententyp</h2>
                                             <div id="refinement-list-doc-type"></div>
-                                            <h4>Materialart</h4>
+                                            <h2>Materialart</h2>
                                             <div id="refinement-list-doc-material"></div>
-                                            <h4>Entstehungsjahr</h4>
+                                            <h2>Entstehungsjahr</h2>
                                             <div id="refinement-range-year"></div>
                                         </div>
                                         <div class="col-md-8">
                                             <!--<div id="sort-by"></div>-->
                                             <div id="current-refinements"></div>
-                                            <div id="hits"></div>
+                                            <div id="hits" role="region" aria-label="Suchergebnisse"></div>
                                             <div id="pagination"></div>
                                         </div>
                                     </div>
