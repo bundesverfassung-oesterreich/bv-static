@@ -26,7 +26,7 @@
             <body class="page" lang="de">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <main id="content" role="main">
+                    <main id="content" role="main" tabindex="-1">
                         <div class="container">
                             <div class="row intro">
                                 <div class="col-md-12 col-lg-12 col-sm-12 landing_container">

@@ -26,7 +26,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <main id="content" role="main">
+                    <main id="content" role="main" tabindex="-1">
                         <div class="container-fluid">                        
                             <div class="card">
                                 <div class="card-header">
@@ -94,7 +94,7 @@
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
                             
-                            <main id="content" role="main">
+                            <main id="content" role="main" tabindex="-1">
                                 <div class="container-fluid">
                                     <div class="card">
                                         <div class="card-header">

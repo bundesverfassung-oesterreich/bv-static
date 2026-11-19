@@ -144,6 +144,19 @@ a.skip-link:focus {
     scroll-margin-top: 5rem;
 }
 
+/* #content gets focus (skip link, and click because of tabindex="-1") -> no ring*/
+#content:focus,
+#content:focus-visible,
+#content:-moz-focusring {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* de-editor.min.js flashes element referenced by URL hash yellow for 10s. Dont wnat that for content ring*/
+#content {
+    background-color: inherit !important;
+}
+
 div#wrapper-navbar {
     pointer-events: none;
 }

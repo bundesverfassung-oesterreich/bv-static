@@ -129,7 +129,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="wp-transcript" id="content" role="main">
+                        <div class="wp-transcript" id="content" role="main" tabindex="-1">
                             <xsl:call-template name="render-edition-metadata"/>
                 <div id="container-resize" class="row transcript active">
                     <div id="img-resize" class="col-md-6 col-lg-6 col-sm-12 facsimiles">

@@ -37,7 +37,7 @@
                         <xsl:with-param name="doc_title" as="xs:string" select="$doc_title"/>
                     </xsl:call-template>
                     <div class="edition_container image-only-edition-container">
-                        <div class="wp-transcript image-only-transcript">
+                        <div class="wp-transcript image-only-transcript" id="content" role="main" tabindex="-1">
                             <xsl:call-template name="render-edition-metadata">
                                 <xsl:with-param name="revision-state" select="$revision_state"/>
                                 <xsl:with-param name="revision-label" select="'Text nicht erfasst.'"/>
