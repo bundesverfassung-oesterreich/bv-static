@@ -181,7 +181,10 @@ function initTocDataTable(data) {
         }
     });
 
-    table.on('draw', () => syncToggles(table));
+    table.on('draw', () => {
+        syncToggles(table);
+        labelColumnFilters();
+    });
 
     // re-render the toggle buttons when columns get hidden or shown
     table.on('responsive-resize', (e, api, columns) => {
@@ -200,6 +203,23 @@ function initTocDataTable(data) {
             row.child(detailContent(row.data(), headers)).show();
         }
         setToggle(this, row.child.isShown());
+    });
+}
+
+// name the filter input after their column
+function labelColumnFilters() {
+    const titles = {};
+    document.querySelectorAll('#tocTable thead th[data-dt-column]').forEach((th) => {
+        const title = th.querySelector('.dt-column-title');
+        titles[th.dataset.dtColumn] = (title ? title.textContent : th.textContent).trim();
+    });
+    document.querySelectorAll('#tocTable thead [data-dt-column] input, #tocTable thead [data-dt-column] select').forEach((el) => {
+        const cell = el.closest('[data-dt-column]');
+        const label = cell ? titles[cell.dataset.dtColumn] : '';
+        if (!label) {
+            return;
+        }
+        el.setAttribute('aria-label', el.tagName === 'SELECT' ? `Vergleichsart für ${label}` : `${label} filtern`);
     });
 }
 
