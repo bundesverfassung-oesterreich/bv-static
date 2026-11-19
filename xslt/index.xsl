@@ -40,7 +40,8 @@
                             <div class="row intro">
                                 <div class="col-md-12 col-lg-12 col-sm-12 landing_container">
                                     <div class="landing_text">
-                                        <object data="./images/fixed_stemma_links.svg" type="image/svg+xml" alt="Abbildung eines genetischen Stemmas der Fassungen" role="presentation"></object>
+                                        <object data="./images/fixed_stemma_links.svg" type="image/svg+xml" title="Genetisches Stemma der Fassungen" tabindex="-1"></object>
+                                        <p class="visually-hidden">Grafik: Abfolge der Fassungen vom Renner Entwurf 1918 bis zur Endfassung des B-VG 1920. Alle darin verlinkten Dokumente sind auch unter „Quellen – Verfassungsentwürfe“ auffindbar.</p>
                                     </div>
                                 </div>
                             </div>
