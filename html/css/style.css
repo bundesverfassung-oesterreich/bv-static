@@ -119,6 +119,31 @@ button#media-menu-toggler:hover {
     box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) var(--bv-main-bg-color);
 }
 
+/* skip link off-screen if no focus */
+a.skip-link {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    z-index: 1080;
+    padding: 0.5rem 1rem;
+    background-color: var(--bv-main-bg-color);
+    color: var(--bv-big-highlight);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+a.skip-link:focus {
+    left: 0;
+    outline: 3px solid var(--bv-contrast);
+    outline-offset: 2px;
+}
+
+/* offset for navbar when target in-page */
+#content,
+:target {
+    scroll-margin-top: 5rem;
+}
+
 div#wrapper-navbar {
     pointer-events: none;
 }

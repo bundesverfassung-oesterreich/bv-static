@@ -8,7 +8,7 @@
         <xsl:param name="edition_buttons" as="xs:boolean"><xsl:value-of select="false()"/></xsl:param>
         <xsl:param name="doc_title" as="xs:string"><xsl:value-of select="''"/></xsl:param>
         <div class="wrapper-fluid wrapper-navbar sticky-top hide-reading" id="wrapper-navbar" role="banner">
-            <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
+            <a class="skip-link" href="#content">Zum Inhalt springen</a>
             <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Hauptnavigation">
                 <xsl:if test="$edition_buttons">
                     <div>
