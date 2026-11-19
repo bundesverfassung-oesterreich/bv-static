@@ -1,5 +1,6 @@
 #hits {
-    padding: 1em 0;
+    padding: 1em;
+    border: var(--bv-small-highlight) solid .5px;
 }
 
 .hideme{
@@ -196,6 +197,53 @@ input.ais-SearchBox-input:focus {
     margin: 2em auto;
 }
 
+/* On wide screens the facet column and the hit list scroll on their own,
+   so scrolling through the results no longer moves the whole page. */
+@media (min-width: 992px) {
+    .search-panel__results > .row {
+        height: calc(100vh - 9rem);
+        height: calc(100dvh - 9rem);
+        min-height: 20rem;
+        /* keep the flexible line inside the fixed height instead of letting
+           wrap grow it to the content height */
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    .search-panel__results > .row > .col-md-4,
+    .search-panel__results > .row > .col-md-8 {
+        height: 100%;
+        min-height: 0;
+    }
+
+    .search-panel__results > .row > .col-md-4 {
+        overflow-y: auto;
+        overscroll-behavior: contain;
+    }
+
+    .search-panel__results > .row > .col-md-8 {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        overflow: hidden;
+    }
+
+    /* hits scroll, pagination stays visible below them */
+    .search-panel__results > .row > .col-md-8 > #hits {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+    }
+
+    .search-panel__results > .row > .col-md-8 > #pagination {
+        flex: 0 0 auto;
+        /* breathing room between the page picker and the viewport edge */
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}
+
 .ais-RefinementList-label span {
     margin-left: .5em;
     text-align: left;
@@ -214,8 +262,10 @@ input.ais-SearchBox-input:focus {
 
 .facet-list-scroll {
     overflow: hidden;
-    overflow-y: scroll;
-    min-height: fit-content;
+    /* only show a scrollbar once "Mehr anzeigen" makes the list outgrow the box;
+       no min-height here - `fit-content` would win over max-height and let the
+       list grow to full length instead of scrolling */
+    overflow-y: auto;
     max-height: 15rem;
     border: none;
 }
